@@ -1,0 +1,21 @@
+services:
+  db:
+    image: pgvector/pgvector:pg17
+    container_name: chamlai-db
+    environment:
+      POSTGRES_USER: chamlai
+      POSTGRES_PASSWORD: chamlai
+      POSTGRES_DB: chamlai
+    ports: [ "5432:5432" ]
+    volumes: [ "pgdata:/var/lib/postgresql/data" ]
+
+  app:
+    build:
+      context: . # build context = root (for copying go.mod)
+      dockerfile: deployment/docker/Dockerfile
+    env_file: .env
+    ports: [ "8080:8080" ]
+    depends_on: [ db ]
+
+volumes:
+  pgdata:
