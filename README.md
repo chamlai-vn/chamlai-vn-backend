@@ -30,6 +30,14 @@ văn bản đáng ngờ
 
 RAG trên corpus bài cảnh báo lừa đảo đã gắn nhãn (VTV, CAND, Cục An toàn thông tin...), chấm điểm dấu hiệu lừa đảo bằng Claude.
 
+## Vì sao chọn RAG? (3 điều cốt lõi)
+
+**1. RAG bắt kịp kịch bản lừa đảo mới, fine-tune thì không.** Chiêu lừa ở Việt Nam thay đổi liên tục. Với RAG, chỉ cần thêm một bài cảnh báo mới vào corpus là hệ thống nhận ra pattern đó ngay — đặc biệt mạnh khi cộng đồng người dùng đóng góp dữ liệu thực tế. Fine-tune ngược lại tốn công thu thập, làm sạch, gắn nhãn dữ liệu và chi phí cao hơn nhiều, mà mỗi lần có chiêu mới lại phải train lại.
+
+**2. Luồng dữ liệu đi thẳng từ văn bản tới verdict.** Hợp đồng/văn bản đáng ngờ → embed → query pgvector lấy scam pattern tương tự → inject vào prompt → Claude chấm điểm đỏ/vàng/xanh. Đây chính là ba bước Retrieval → Augmentation → Generation, ánh xạ trực tiếp vào các package trong `internal/`.
+
+**3. Kết hợp semantic + lexical (BM25), và tập trung thị trường Việt Nam.** Tìm theo ý nghĩa (embedding) bắt được văn bản diễn đạt khác nhưng cùng bản chất lừa; tìm theo từ khóa (BM25) bắt được tên chiêu trò, số hotline giả, cụm từ đặc trưng. Hai cách bổ trợ nhau nên dùng cả hai thay vì chỉ semantic. Không cố tổng quát hóa cho thị trường khác lúc này — mỗi quốc gia có kịch bản lừa đảo riêng, làm tốt cho Việt Nam trước đã.
+
 ## Công nghệ
 
 Go · PostgreSQL + pgvector · Voyage AI embeddings · Anthropic Claude API

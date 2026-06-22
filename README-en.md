@@ -30,6 +30,14 @@ suspicious text
 
 RAG over a labeled corpus of Vietnamese scam-warning articles (VTV, CAND, Cục An toàn thông tin...), with scam-signal scoring by Claude.
 
+## Why RAG? (3 key takeaways)
+
+**1. RAG keeps up with new scam scenarios; fine-tuning can't.** Scam tactics in Vietnam change constantly. With RAG, adding a single new warning article to the corpus lets the system recognize that pattern immediately — especially powerful when the user community contributes real-world data. Fine-tuning, by contrast, is expensive and requires collecting, cleaning, and labeling data, then retraining every time a new tactic appears.
+
+**2. The data flow runs straight from text to verdict.** Suspicious contract/text → embed → query pgvector for similar scam patterns → inject into the prompt → Claude scores red/yellow/green. This is exactly the Retrieval → Augmentation → Generation pipeline, mapped directly onto the packages under `internal/`.
+
+**3. Combine semantic + lexical (BM25), and focus on the Vietnamese market.** Semantic search (embeddings) catches text that is worded differently but is the same kind of scam; lexical search (BM25) catches tactic names, fake hotline numbers, and characteristic phrases. The two complement each other, so we use both rather than semantic alone. We won't try to generalize to other markets yet — each country has its own scam playbook, so we nail Vietnam first.
+
 ## Tech stack
 
 Go · PostgreSQL + pgvector · Voyage AI embeddings · Anthropic Claude API
