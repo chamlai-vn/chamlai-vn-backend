@@ -1,0 +1,44 @@
+# lefthook.yml — Git hooks for chamlai-vn
+# Docs: https://lefthook.dev
+
+pre-commit:
+  parallel: true
+  commands:
+    fmt:
+      glob: "*.go"
+      run: |
+        unformatted=$(gofmt -l {staged_files})
+        if [ -n "$unformatted" ]; then
+          echo "❌ unformatted files (run 'gofmt -w' or 'make fmt'):"
+          echo "$unformatted"
+          exit 1
+        fi
+
+    # 2. go vet — static analysis
+    vet:
+      run: go vet ./...
+
+    # 3. golangci-lint - only lint staged files for speed
+    lint:
+      glob: "*.go"
+      run: golangci-lint run --new-from-rev=HEAD
+
+    # 4. gitleaks — scan secret in staged diff
+    gitleaks:
+      run: gitleaks protect --staged --no-banner --redact
+
+# pre-push:
+#   parallel: true
+#   commands:
+#     # Test toàn bộ trước khi push
+#     test:
+#       run: go test ./... -race -count=1
+
+#     # Quét secret toàn bộ lịch sử git (chậm hơn nên để ở pre-push)
+#     gitleaks-full:
+#       run: gitleaks detect --no-banner --redact
+
+# Bỏ qua hook trong trường hợp khẩn (commit gấp):
+#   git commit --no-verify
+# Hoặc skip 1 command cụ thể:
+#   LEFTHOOK_EXCLUDE=lint git commit -m "..."
