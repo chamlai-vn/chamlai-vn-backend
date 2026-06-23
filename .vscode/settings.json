@@ -1,0 +1,11 @@
+{
+    "azureFunctions.deploySubpath": ".",
+    "azureFunctions.projectLanguage": "Custom",
+    "azureFunctions.projectRuntime": "~4",
+    "go.testEnvFile": "${workspaceFolder}/.env",
+    "go.testFlags": [
+        "-v",
+        "-count=1",
+        "-timeout=10m",
+    ]
+}
