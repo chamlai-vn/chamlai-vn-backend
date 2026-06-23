@@ -13,13 +13,11 @@ import (
 	"context"
 	"fmt"
 	"log"
-	"os"
 
+	"github.com/chamlai-vn/chamlai-vn-backend/config"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/embedder"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/store"
 )
-
-const defaultDSN = "postgres://chamlai:chamlai@localhost:5432/chamlai?sslmode=disable"
 
 // A sample scam-warning article and a suspicious message that should retrieve it.
 const (
@@ -39,19 +37,16 @@ const (
 func main() {
 	ctx := context.Background()
 
-	apiKey := os.Getenv("VOYAGE_API_KEY")
-	if apiKey == "" {
+	cfg, err := config.Load()
+	if err != nil {
+		log.Fatalf("config: %v", err)
+	}
+	if cfg.VoyageAPIKey == "" {
 		log.Fatal("VOYAGE_API_KEY is required")
 	}
-	dsn := os.Getenv("DATABASE_URL")
-	if dsn == "" {
-		dsn = defaultDSN
-	}
+	dsn := cfg.DatabaseURL
 
-	emb, err := embedder.New(embedder.Config{
-		Provider: embedder.ProviderVoyage,
-		Voyage:   embedder.VoyageConfig{APIKey: apiKey},
-	})
+	emb, err := embedder.New(cfg.Embedder())
 	if err != nil {
 		log.Fatalf("embedder: %v", err)
 	}
