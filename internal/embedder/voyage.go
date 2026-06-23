@@ -11,10 +11,10 @@ import (
 
 const voyageEndpoint = "https://api.voyageai.com/v1/embeddings"
 
-// voyage-3.5 outputs 1024 dims by default — the size to mirror in the
+// voyage-law-2 outputs 1024 dims by default — the size to mirror in the
 // chunks.embedding vector(N) column when using Voyage.
 const (
-	voyageDefaultModel = "voyage-3.5"
+	voyageDefaultModel = "voyage-law-2"
 	voyageDefaultDims  = 1024
 )
 

@@ -4,6 +4,21 @@
 // depends on. Concrete providers live in sibling files (azureopenai.go,
 // voyage.go); New picks one from Config so swapping provider/model is a config
 // change, not a code change.
+//
+// Adding a provider:
+//  1. Add a <Provider>Config struct here and a field for it on Config, plus a
+//     Provider constant.
+//  2. Add <provider>.go with the Service impl and a constructor of the canonical
+//     shape New<Provider>(cfg <Provider>Config, opts ...<Provider>Option). Apply
+//     zero-value defaults inside the constructor; keep Option types per provider
+//     (do not share one global Option type).
+//  3. Add a case to New.
+//
+// OpenAI-compatible REST providers (response is data[].embedding keyed by index)
+// reuse doEmbed in common.go. Providers with a different transport or response
+// shape — e.g. AWS Bedrock (SigV4 + aws.Config) or Google Vertex AI (ADC token
+// source) — carry the extra setup in their Config and skip doEmbed, but still
+// satisfy Service.
 package embedder
 
 import "fmt"
@@ -28,7 +43,7 @@ type AzureConfig struct {
 // VoyageConfig holds the Voyage AI connection settings (from env).
 type VoyageConfig struct {
 	APIKey     string // VOYAGE_API_KEY
-	Model      string // optional; "" → voyage-3.5
+	Model      string // optional; "" → voyage-law-2
 	Dimensions int    // optional; 0 → 1024
 }
 
