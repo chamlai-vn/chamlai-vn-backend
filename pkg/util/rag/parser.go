@@ -9,19 +9,8 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/chamlai-vn/chamlai-vn-backend/pkg/mimetypes"
 	"github.com/ledongthuc/pdf"
-)
-
-// Supported MIME types for ParseText. Kept here (rather than imported from a
-// project enum) so this package stays self-contained and copy-pasteable into
-// other projects.
-const (
-	ContentTypePlain = "text/plain"
-	ContentTypePDF   = "application/pdf"
-	ContentTypeDOCX  = "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
-	ContentTypeXLSX  = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-	ContentTypePPTX  = "application/vnd.openxmlformats-officedocument.presentationml.presentation"
-	ContentTypeCSV   = "text/csv"
 )
 
 // ParseText extracts plain text from the given bytes based on MIME type.
@@ -33,18 +22,18 @@ func ParseText(mimeType string, data []byte) (text string, retErr error) {
 		}
 	}()
 
-	switch mimeType {
-	case ContentTypePlain:
+	switch mimetypes.ContentType(mimeType) {
+	case mimetypes.ContentTypePlain:
 		return string(data), nil
-	case ContentTypePDF:
+	case mimetypes.ContentTypePDF:
 		return parsePDF(data)
-	case ContentTypeDOCX:
+	case mimetypes.ContentTypeDOCX:
 		return parseDOCX(data)
-	case ContentTypeXLSX:
+	case mimetypes.ContentTypeXLSX:
 		return parseXLSX(data)
-	case ContentTypePPTX:
+	case mimetypes.ContentTypePPTX:
 		return parsePPTX(data)
-	case ContentTypeCSV:
+	case mimetypes.ContentTypeCSV:
 		return parseCSV(data)
 	default:
 		return "", fmt.Errorf("unsupported MIME type: %s", mimeType)
