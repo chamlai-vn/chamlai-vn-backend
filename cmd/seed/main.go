@@ -16,6 +16,7 @@ import (
 
 	"github.com/chamlai-vn/chamlai-vn-backend/config"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/embedder"
+	"github.com/chamlai-vn/chamlai-vn-backend/internal/ingest"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/store"
 )
 
@@ -58,19 +59,19 @@ func main() {
 	}
 	defer st.Close()
 
-	// 1. Embed the article as a document and store it as a single chunk.
-	docVecs, err := emb.Embed(ctx, []string{sampleContent}, embedder.InputDocument)
+	// 1. Run the full indexing pipeline: chunk → embed each chunk → store.
+	indexer := ingest.New(emb, st)
+	res, err := indexer.IndexDocument(ctx, ingest.Document{
+		URL:      sampleURL,
+		Title:    sampleTitle,
+		Content:  sampleContent,
+		ScamType: sampleScamType,
+		Source:   sampleSource,
+	})
 	if err != nil {
-		log.Fatalf("embed document: %v", err)
+		log.Fatalf("index document: %v", err)
 	}
-	docID, err := st.InsertDocument(ctx, sampleURL, sampleTitle, sampleContent, sampleScamType, sampleSource)
-	if err != nil {
-		log.Fatalf("insert document: %v", err)
-	}
-	if err := st.InsertChunk(ctx, docID, sampleContent, docVecs[0]); err != nil {
-		log.Fatalf("insert chunk: %v", err)
-	}
-	log.Printf("stored document id=%d", docID)
+	log.Printf("stored document id=%d (%d chunks)", res.DocID, res.Chunks)
 
 	// 2. Embed the suspicious message as a query and retrieve nearest chunks.
 	qVecs, err := emb.Embed(ctx, []string{suspiciousQuery}, embedder.InputQuery)

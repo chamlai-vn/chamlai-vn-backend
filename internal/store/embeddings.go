@@ -2,8 +2,11 @@ package store
 
 import (
 	"context"
+	"fmt"
 	"strconv"
 	"strings"
+
+	"github.com/jackc/pgx/v5"
 )
 
 // vecLiteral renders a float32 vector as pgvector's text form "[0.1,0.2,...]".
@@ -39,6 +42,63 @@ func (s *Store) InsertChunk(ctx context.Context, docID int64, content string, em
 		 VALUES ($1,$2,$3::vector)`,
 		docID, content, vecLiteral(emb))
 	return err
+}
+
+// Chunk is one piece of document text paired with its embedding, ready to store.
+type Chunk struct {
+	Content   string
+	Embedding []float32
+}
+
+// InsertDocumentWithChunks stores a document and all its chunks in a single
+// transaction, returning the new document id. Either everything lands or
+// nothing does — so a failure partway through the chunks can't leave an
+// orphan document or a half-indexed one behind. Returns an error if chunks is
+// empty (a document with no chunks is never useful for retrieval).
+func (s *Store) InsertDocumentWithChunks(ctx context.Context, url, title, content, scamType, source string, chunks []Chunk) (int64, error) {
+	if len(chunks) == 0 {
+		return 0, fmt.Errorf("store: no chunks to insert for %q", url)
+	}
+
+	tx, err := s.pool.Begin(ctx)
+	if err != nil {
+		return 0, fmt.Errorf("store: begin: %w", err)
+	}
+	// Rollback is a no-op once the tx is committed, so this is safe to always
+	// defer. The error is intentionally ignored: on the commit path it returns
+	// ErrTxClosed, and on a failure path we already return the original error.
+	defer func() { _ = tx.Rollback(ctx) }()
+
+	var docID int64
+	if err := tx.QueryRow(ctx,
+		`INSERT INTO documents (url, title, content, scam_type, source)
+		 VALUES ($1,$2,$3,$4,$5) RETURNING id`,
+		url, title, content, scamType, source).Scan(&docID); err != nil {
+		return 0, fmt.Errorf("store: insert document: %w", err)
+	}
+
+	batch := &pgx.Batch{}
+	for _, c := range chunks {
+		batch.Queue(
+			`INSERT INTO chunks (document_id, content, embedding)
+			 VALUES ($1,$2,$3::vector)`,
+			docID, c.Content, vecLiteral(c.Embedding))
+	}
+	br := tx.SendBatch(ctx, batch)
+	for i := range chunks {
+		if _, err := br.Exec(); err != nil {
+			br.Close()
+			return 0, fmt.Errorf("store: insert chunk %d: %w", i, err)
+		}
+	}
+	if err := br.Close(); err != nil {
+		return 0, fmt.Errorf("store: close batch: %w", err)
+	}
+
+	if err := tx.Commit(ctx); err != nil {
+		return 0, fmt.Errorf("store: commit: %w", err)
+	}
+	return docID, nil
 }
 
 // Match is one retrieved chunk and how close it is to the query vector.
