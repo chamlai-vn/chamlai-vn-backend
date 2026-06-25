@@ -44,6 +44,17 @@ Git hooks via `lefthook.yml`. DB creds (local docker): user/pass/db all `chamlai
 
 ## Conventions
 
+- **File layout within a package** (mirrors the PeopleCoral sister repo). Application-service
+  packages — those that wire collaborators and expose a `New()` (e.g. `internal/ingest`,
+  `internal/analyzer`) — split by file role, not by declaration kind:
+  - `service.go` — the service struct, its `New()` constructor, `Option`s, and any narrow
+    dependency interfaces. **This is the package's entry point**; start reading here.
+  - `type.go` — request/result/domain DTOs the package exposes.
+  - `<feature>.go` — the behaviour/methods (e.g. `ingest.go` holds `IndexDocument`).
+
+  Provider/library-abstraction packages are the exception: `New()` lives in the file named after
+  the package (`internal/embedder/embedder.go`), with the `Service` interface in `service.go`.
+  Don't force a `type.go` on small, cohesive packages with one obvious home for their types.
 - **Embedding providers** follow one shape: `New<Provider>(cfg <Provider>Config, opts ...<Provider>Option)`,
   with zero-value defaults applied inside the constructor and **per-provider** Option types (no
   global Option). Callers go through `embedder.New(Config)` and depend only on the `Service`
