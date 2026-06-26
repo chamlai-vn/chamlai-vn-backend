@@ -31,3 +31,7 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+
+# Crawler corpus inputs: hand-picked seed urls and curated local documents.
+# Kept out of git — see cmd/crawler/data.example/ for the expected formats.
+cmd/crawler/data/
