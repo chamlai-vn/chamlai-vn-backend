@@ -35,3 +35,7 @@ go.work.sum
 # Crawler corpus inputs: hand-picked seed urls and curated local documents.
 # Kept out of git — see cmd/crawler/data.example/ for the expected formats.
 cmd/crawler/data/
+
+# Compound Engineering Plugin docs
+docs/brainstorms/
+docs/plans/
