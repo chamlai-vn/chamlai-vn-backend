@@ -1,0 +1,23 @@
+// Copy this file to sites_local.go and fill in the CSS selectors for each site
+// you want to crawl. sites_local.go is git-ignored so the registry stays local.
+//
+// Each entry needs:
+//   source     — short label stored in the DB (e.g. "vnexpress")
+//   titleSel   — CSS selector for the article <h1>; falls back to any <h1>
+//   contentSel — CSS selector for the article body container
+//
+// Tips:
+//   • Keys are bare hostnames without "www." (ruleFor strips it automatically).
+//   • Sites that require JavaScript or serve anti-bot challenges cannot be
+//     crawled with a plain HTTP client — use the local-file (markdown) path
+//     for those instead (see cmd/crawler/data.example/transcript_example.md).
+//   • Selectors drift when publishers redesign. The "empty content" log line
+//     is the signal that a selector needs updating.
+
+package crawler
+
+func init() {
+	siteRules = map[string]siteRule{
+		// "example.com": {source: "example", titleSel: "h1.article-title", contentSel: "div.article-body"},
+	}
+}

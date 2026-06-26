@@ -31,3 +31,16 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+
+# Crawler corpus inputs: hand-picked seed urls and curated local documents.
+# Kept out of git — see cmd/crawler/data.example/ for the expected formats.
+cmd/crawler/data/
+
+# Crawler site registry: CSS selectors per host. Copy sites_local.go.example to
+# sites_local.go and fill in your own entries — kept local so the specific sites
+# being crawled are not exposed in the public repository.
+internal/crawler/sites_local.go
+
+# Compound Engineering Plugin docs
+docs/brainstorms/
+docs/plans/

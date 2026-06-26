@@ -2,12 +2,40 @@ package store
 
 import (
 	"context"
+	"errors"
 	"fmt"
 	"strconv"
 	"strings"
 
 	"github.com/jackc/pgx/v5"
+	"github.com/jackc/pgx/v5/pgconn"
 )
+
+// uniqueViolation is Postgres' SQLSTATE for a unique-constraint violation.
+const uniqueViolation = "23505"
+
+// IsUniqueViolation reports whether err is a Postgres unique-constraint
+// violation (SQLSTATE 23505). The crawler uses it to treat a racing duplicate
+// url — two workers that both passed DocumentExists before either inserted — as
+// a skip rather than a hard error.
+func IsUniqueViolation(err error) bool {
+	var pgErr *pgconn.PgError
+	return errors.As(err, &pgErr) && pgErr.Code == uniqueViolation
+}
+
+// DocumentExists reports whether a document with this url is already stored.
+// The crawler calls this before embedding so a re-run skips known urls without
+// paying for embedding-provider calls. It is only an optimisation, not a
+// guarantee: the UNIQUE(url) constraint is what actually prevents duplicates
+// (see IsUniqueViolation).
+func (s *Store) DocumentExists(ctx context.Context, url string) (bool, error) {
+	var exists bool
+	if err := s.pool.QueryRow(ctx,
+		`SELECT EXISTS(SELECT 1 FROM documents WHERE url=$1)`, url).Scan(&exists); err != nil {
+		return false, fmt.Errorf("store: document exists %q: %w", url, err)
+	}
+	return exists, nil
+}
 
 // vecLiteral renders a float32 vector as pgvector's text form "[0.1,0.2,...]".
 // Paired with a $n::vector cast, this lets us store/query vectors without
