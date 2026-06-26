@@ -6,6 +6,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"net/http"
+	"strings"
 	"time"
 )
 
@@ -64,12 +65,35 @@ var _ Service = (*Voyage)(nil)
 func (v *Voyage) Dimensions() int { return v.dimensions }
 func (v *Voyage) Model() string   { return v.model }
 
-// Embed implements Service.
+// Embed implements Service. On HTTP 429 it retries up to 4 times with
+// exponential backoff starting at 20 s (≈ 3 RPM free-tier window).
 func (v *Voyage) Embed(ctx context.Context, texts []string, inputType InputType) ([][]float32, error) {
 	if len(texts) == 0 {
 		return nil, errEmptyInput
 	}
 
+	const maxAttempts = 5
+	delay := 20 * time.Second
+
+	for attempt := 0; attempt < maxAttempts; attempt++ {
+		vecs, err := v.embedOnce(ctx, texts, inputType)
+		if err == nil {
+			return vecs, nil
+		}
+		if !strings.Contains(err.Error(), "status 429") || attempt == maxAttempts-1 {
+			return nil, err
+		}
+		select {
+		case <-ctx.Done():
+			return nil, ctx.Err()
+		case <-time.After(delay):
+		}
+		delay *= 2
+	}
+	panic("unreachable")
+}
+
+func (v *Voyage) embedOnce(ctx context.Context, texts []string, inputType InputType) ([][]float32, error) {
 	reqBody := voyageRequest{
 		Input:     texts,
 		Model:     v.model,

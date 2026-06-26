@@ -17,16 +17,18 @@ import "strings"
 var siteRules = map[string]siteRule{
 	"vnexpress.net":   {source: "vnexpress", titleSel: "h1.title-detail", contentSel: "article.fck_detail"},
 	"tuoitre.vn":      {source: "tuoitre", titleSel: "h1.detail-title", contentSel: "div.detail-content"},
-	"vtv.vn":          {source: "vtv", titleSel: "h1.title-detail", contentSel: "div.ta-justify"},
-	"cand.com.vn":     {source: "cand", titleSel: "h1.box-title-detail", contentSel: "div.box-content-detail"},
-	"mst.gov.vn":      {source: "mst-attt", titleSel: "h1", contentSel: "div.post-content"},
+	"vtv.vn":          {source: "vtv", titleSel: "h1.title", contentSel: "div.detail-content"},
+	"cand.vn":         {source: "cand", titleSel: "h1.article__title", contentSel: "div.article__body"},
+	"mst.gov.vn":      {source: "mst-attt", titleSel: "h1", contentSel: "div.detail-content"},
 	"vietnamnet.vn":   {source: "vietnamnet", titleSel: "h1.content-detail-title", contentSel: "div.maincontent"},
 	"thanhnien.vn":    {source: "thanhnien", titleSel: "h1.detail-title", contentSel: "div.detail-content"},
 	"vietnamplus.vn":  {source: "vietnamplus", titleSel: "h1.article__title", contentSel: "div.article__body"},
 	"baochinhphu.vn":  {source: "baochinhphu", titleSel: "h1.detail-title", contentSel: "div.detail-content"},
 	"bocongan.gov.vn": {source: "bocongan", titleSel: "h1", contentSel: "div.tinymce-content"},
-	"chongluadao.vn":  {source: "chongluadao", titleSel: "h1.entry-title", contentSel: "div.entry-content"},
-	"ncsgroup.vn":     {source: "ncsgroup", titleSel: "h1", contentSel: "div.maincontent"},
+	// chongluadao.vn uses a React/Next.js build with CSS module class names that change
+	// each deploy, so plain-HTTP crawling cannot extract content reliably. Ingest articles
+	// from this site via the local-file (markdown) path instead.
+	"ncsgroup.vn": {source: "ncsgroup", titleSel: "h1", contentSel: "div.maincontent"},
 }
 
 // ruleFor returns the extraction rule for host, matching with the leading
