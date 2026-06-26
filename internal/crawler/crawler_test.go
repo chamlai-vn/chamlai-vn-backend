@@ -101,6 +101,7 @@ func TestInferScamType(t *testing.T) {
 	cases := []struct {
 		name, title, content, want string
 	}{
+		// original 5 types
 		{"vacation", "Lừa đảo hợp đồng kỳ nghỉ resort", "", ScamVacationContract},
 		{"job", "Tuyển cộng tác viên online chốt đơn", "việc nhẹ lương cao", ScamFakeJob},
 		{"authority", "Giả mạo công an gọi điện", "viện kiểm sát", ScamImpersonationAuthority},
@@ -108,6 +109,20 @@ func TestInferScamType(t *testing.T) {
 		{"romance", "Bẫy tình cảm qua mạng", "người nước ngoài gửi quà", ScamRomance},
 		{"other", "Tin tức thời tiết hôm nay", "trời mưa", ScamOther},
 		{"case-insensitive", "ĐẦU TƯ CRYPTO", "", ScamInvestmentFraud},
+		// 7 new types
+		{"impersonation-service-sim", "Lừa đảo nâng cấp SIM 4G để chiếm tài khoản", "nhà mạng gọi điện", ScamImpersonationService},
+		{"impersonation-service-health", "Mạo danh nhân viên y tế báo người thân cấp cứu", "chuyển tiền vào viện ngay", ScamImpersonationService},
+		{"tech-deepfake", "Deepfake giả mạo giám đốc yêu cầu chuyển tiền", "công nghệ cao tạo video giả", ScamTechFraud},
+		{"tech-malware", "Cảnh báo mã độc ẩn trong app xem phim miễn phí", "phần mềm độc hại đánh cắp ngân hàng", ScamTechFraud},
+		{"tech-hack", "Hack tài khoản Zalo giả vay tiền người thân", "", ScamTechFraud},
+		{"recovery", "Dịch vụ hỗ trợ lấy lại tiền bị lừa đảo", "chuyên thu hồi tiền", ScamRecovery},
+		{"loan", "Vay tiền online qua app lãi suất thấp", "tín dụng đen không cần thế chấp", ScamLoan},
+		{"loan-card", "Mở thẻ tín dụng nhanh không cần chứng minh thu nhập", "", ScamLoan},
+		{"ecommerce-deposit", "Mua hàng online đặt cọc xong người bán biến mất", "bán hàng online lừa đảo", ScamEcommerce},
+		{"ecommerce-tour", "Lừa đảo bán tour du lịch vé máy bay giá rẻ", "combo du lịch 0 đồng", ScamEcommerce},
+		{"package-delivery", "Giả shipper giao hàng yêu cầu chuyển khoản trước", "bưu kiện không nhận", ScamPackageDelivery},
+		{"prize-gift", "Thông báo trúng thưởng xe máy tri ân khách hàng", "nhận quà miễn phí", ScamPrizeGift},
+		{"prize-gift-tặng", "Chương trình tặng quà miễn phí nhân dịp lễ", "", ScamPrizeGift},
 	}
 	for _, c := range cases {
 		t.Run(c.name, func(t *testing.T) {
