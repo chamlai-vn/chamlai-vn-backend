@@ -18,6 +18,7 @@ import (
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/ai/embedder"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/infra/store"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/scam/ingest"
+	"github.com/chamlai-vn/chamlai-vn-backend/internal/scam/retriever"
 )
 
 // A sample scam-warning article and a suspicious message that should retrieve it.
@@ -73,20 +74,17 @@ func main() {
 	}
 	log.Printf("stored document id=%d (%d chunks)", res.DocID, res.Chunks)
 
-	// 2. Embed the suspicious message as a query and retrieve nearest chunks.
-	qVecs, err := emb.Embed(ctx, []string{suspiciousQuery}, embedder.InputQuery)
+	// 2. Retrieve the top-k nearest scam patterns via the retriever pipeline.
+	ret := retriever.New(emb, st)
+	results, err := ret.Retrieve(ctx, suspiciousQuery, 5)
 	if err != nil {
-		log.Fatalf("embed query: %v", err)
-	}
-	matches, err := st.SearchSimilar(ctx, qVecs[0], 5)
-	if err != nil {
-		log.Fatalf("search: %v", err)
+		log.Fatalf("retrieve: %v", err)
 	}
 
-	fmt.Printf("\nQuery: %s\n\nTop %d matches:\n", suspiciousQuery, len(matches))
-	for i, m := range matches {
-		fmt.Printf("  %d. distance=%.4f scam_type=%s chunk=%d\n     %s\n",
-			i+1, m.Distance, m.ScamType, m.ChunkID, snippet(m.Content, 80))
+	fmt.Printf("\nQuery: %s\n\nTop %d matches:\n", suspiciousQuery, len(results))
+	for i, r := range results {
+		fmt.Printf("  %d. score=%.4f scam_type=%s url=%s\n     %s\n",
+			i+1, r.Score, r.ScamType, r.SourceURL, snippet(r.Content, 80))
 	}
 }
 
