@@ -131,16 +131,19 @@ func (s *Store) InsertDocumentWithChunks(ctx context.Context, url, title, conten
 
 // Match is one retrieved chunk and how close it is to the query vector.
 type Match struct {
-	ChunkID  int64
-	Content  string
-	ScamType string
-	Distance float64 // cosine distance — smaller is more similar
+	ChunkID    int64
+	DocumentID int64
+	Content    string
+	ScamType   string
+	SourceURL  string  // documents.url — source article for attribution
+	Distance   float64 // cosine distance — smaller is more similar
 }
 
 // SearchSimilar returns the top-k chunks nearest to query, closest first.
 func (s *Store) SearchSimilar(ctx context.Context, query []float32, k int) ([]Match, error) {
 	rows, err := s.pool.Query(ctx,
-		`SELECT c.id, c.content, d.scam_type, c.embedding <=> $1::vector AS distance
+		`SELECT c.id, c.document_id, c.content, d.scam_type, d.url,
+		        c.embedding <=> $1::vector AS distance
 		 FROM chunks c JOIN documents d ON d.id = c.document_id
 		 ORDER BY distance LIMIT $2`,
 		vecLiteral(query), k)
@@ -152,7 +155,7 @@ func (s *Store) SearchSimilar(ctx context.Context, query []float32, k int) ([]Ma
 	var out []Match
 	for rows.Next() {
 		var m Match
-		if err := rows.Scan(&m.ChunkID, &m.Content, &m.ScamType, &m.Distance); err != nil {
+		if err := rows.Scan(&m.ChunkID, &m.DocumentID, &m.Content, &m.ScamType, &m.SourceURL, &m.Distance); err != nil {
 			return nil, err
 		}
 		out = append(out, m)

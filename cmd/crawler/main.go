@@ -27,10 +27,10 @@ import (
 	"sync"
 
 	"github.com/chamlai-vn/chamlai-vn-backend/config"
-	"github.com/chamlai-vn/chamlai-vn-backend/internal/crawler"
-	"github.com/chamlai-vn/chamlai-vn-backend/internal/embedder"
-	"github.com/chamlai-vn/chamlai-vn-backend/internal/ingest"
-	"github.com/chamlai-vn/chamlai-vn-backend/internal/store"
+	"github.com/chamlai-vn/chamlai-vn-backend/internal/ai/embedder"
+	"github.com/chamlai-vn/chamlai-vn-backend/internal/infra/store"
+	"github.com/chamlai-vn/chamlai-vn-backend/internal/scam/crawler"
+	"github.com/chamlai-vn/chamlai-vn-backend/internal/scam/ingest"
 )
 
 func main() {
