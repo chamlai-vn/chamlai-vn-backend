@@ -5,12 +5,15 @@
 //	docker compose up -d db
 //	goose -dir migrations postgres "$DATABASE_URL" up
 //	VOYAGE_API_KEY=... go run ./cmd/seed
+//	VOYAGE_API_KEY=... go run ./cmd/seed -query-only          # skip insert, query existing corpus
+//	VOYAGE_API_KEY=... go run ./cmd/seed -q "câu hỏi khác"   # custom query
 //
-// It inserts a fresh document each run (no dedup) — fine for a smoke test.
+// It inserts a fresh document each run unless -query-only is set.
 package main
 
 import (
 	"context"
+	"flag"
 	"fmt"
 	"log"
 
@@ -37,6 +40,10 @@ const (
 )
 
 func main() {
+	queryOnly := flag.Bool("query-only", false, "skip document insertion, query the existing corpus")
+	customQuery := flag.String("q", "", "custom query string (overrides the default suspicious message)")
+	flag.Parse()
+
 	ctx := context.Background()
 
 	cfg, err := config.Load()
@@ -46,7 +53,6 @@ func main() {
 	if cfg.VoyageAPIKey == "" {
 		log.Fatal("VOYAGE_API_KEY is required")
 	}
-	dsn := cfg.DatabaseURL
 
 	emb, err := embedder.New(cfg.Embedder())
 	if err != nil {
@@ -54,34 +60,40 @@ func main() {
 	}
 	log.Printf("embedder ready: model=%s dims=%d", emb.Model(), emb.Dimensions())
 
-	st, err := store.New(ctx, dsn)
+	st, err := store.New(ctx, cfg.DatabaseURL)
 	if err != nil {
 		log.Fatalf("store: %v", err)
 	}
 	defer st.Close()
 
-	// 1. Run the full indexing pipeline: chunk → embed each chunk → store.
-	indexer := ingest.New(emb, st)
-	res, err := indexer.IndexDocument(ctx, ingest.Document{
-		URL:      sampleURL,
-		Title:    sampleTitle,
-		Content:  sampleContent,
-		ScamType: sampleScamType,
-		Source:   sampleSource,
-	})
-	if err != nil {
-		log.Fatalf("index document: %v", err)
+	// 1. Index a sample document (skipped with -query-only).
+	if !*queryOnly {
+		indexer := ingest.New(emb, st)
+		res, err := indexer.IndexDocument(ctx, ingest.Document{
+			URL:      sampleURL,
+			Title:    sampleTitle,
+			Content:  sampleContent,
+			ScamType: sampleScamType,
+			Source:   sampleSource,
+		})
+		if err != nil {
+			log.Fatalf("index document: %v", err)
+		}
+		log.Printf("stored document id=%d (%d chunks)", res.DocID, res.Chunks)
 	}
-	log.Printf("stored document id=%d (%d chunks)", res.DocID, res.Chunks)
 
 	// 2. Retrieve the top-k nearest scam patterns via the retriever pipeline.
+	query := suspiciousQuery
+	if *customQuery != "" {
+		query = *customQuery
+	}
 	ret := retriever.New(emb, st)
-	results, err := ret.Retrieve(ctx, suspiciousQuery, 5)
+	results, err := ret.Retrieve(ctx, query, 5)
 	if err != nil {
 		log.Fatalf("retrieve: %v", err)
 	}
 
-	fmt.Printf("\nQuery: %s\n\nTop %d matches:\n", suspiciousQuery, len(results))
+	fmt.Printf("\nQuery: %s\n\nTop %d matches:\n", query, len(results))
 	for i, r := range results {
 		fmt.Printf("  %d. score=%.4f scam_type=%s url=%s\n     %s\n",
 			i+1, r.Score, r.ScamType, r.SourceURL, snippet(r.Content, 80))
