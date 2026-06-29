@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/chamlai-vn/chamlai-vn-backend/internal/embedder"
-	"github.com/chamlai-vn/chamlai-vn-backend/internal/store"
+	"github.com/chamlai-vn/chamlai-vn-backend/internal/ai/embedder"
+	"github.com/chamlai-vn/chamlai-vn-backend/internal/infra/store"
 	ragutil "github.com/chamlai-vn/chamlai-vn-backend/pkg/util/rag"
 )
 
