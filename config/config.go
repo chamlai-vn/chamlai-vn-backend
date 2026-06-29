@@ -19,7 +19,7 @@ import (
 	"github.com/caarlos0/env/v11"
 	"github.com/joho/godotenv"
 
-	"github.com/chamlai-vn/chamlai-vn-backend/internal/embedder"
+	"github.com/chamlai-vn/chamlai-vn-backend/internal/ai/embedder"
 )
 
 // Configuration is the full set of env-driven settings for the service.

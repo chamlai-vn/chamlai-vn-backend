@@ -15,9 +15,9 @@ import (
 	"log"
 
 	"github.com/chamlai-vn/chamlai-vn-backend/config"
-	"github.com/chamlai-vn/chamlai-vn-backend/internal/embedder"
-	"github.com/chamlai-vn/chamlai-vn-backend/internal/ingest"
-	"github.com/chamlai-vn/chamlai-vn-backend/internal/store"
+	"github.com/chamlai-vn/chamlai-vn-backend/internal/ai/embedder"
+	"github.com/chamlai-vn/chamlai-vn-backend/internal/infra/store"
+	"github.com/chamlai-vn/chamlai-vn-backend/internal/scam/ingest"
 )
 
 // A sample scam-warning article and a suspicious message that should retrieve it.
