@@ -46,24 +46,35 @@ Go · PostgreSQL + pgvector · Voyage AI embeddings · Anthropic Claude API
 
 ```
 cmd/
-  server/      # HTTP API entrypoint
-  crawler/     # CLI: crawl scam-warning articles into the corpus
+  api/            # HTTP API entrypoint (+ swagger)
+  crawler/        # CLI: build the scam corpus (crawl urls + local files → ingest)
+  seed/           # CLI: manual end-to-end smoke test of the RAG retrieval path
+  migration/      # DB migration runner
 internal/
-  analyzer/    # core use case: text → retrieve → LLM scoring → verdict
-  corpus/      # ingest: crawl, clean, chunk, label by scam type
-  embedding/   # Voyage AI client
-  llm/         # Anthropic client + prompt templates
-  store/       # Postgres + pgvector (pgx)
-  server/      # HTTP layer: router, handlers, middleware
-migrations/    # SQL schema (auto-applied on first db start)
+  ai/
+    embedder/     # embedding providers behind a Service interface (Voyage, Azure...)
+    llm/          # Anthropic client + prompt templates
+  scam/           # the RAG domain, one package per pipeline stage
+    ingest/       # crawl output → chunk → embed → store
+    retriever/    # query text → pgvector top-k similar scam patterns
+    analyzer/     # core use case: text → retrieve → LLM scoring → verdict
+    crawler/      # fetch + parse + rule-based scam labelling
+  infra/
+    store/        # PostgreSQL + pgvector data-access (single pgxpool.Pool)
+    repository/   # relational/auth repositories
+  api/            # HTTP layer: base, context (root, v1, v2 scaffolded)
+  model/          # domain types
+config/           # config loading
+migrations/       # SQL schema, applied via cmd/migration
 ```
 
 ## Getting started
 
 ```bash
-cp .env.example .env   # fill in API keys
-make db-up             # Postgres + pgvector via Docker
-make run               # API on :8080
+make switch.local        # copy .env.local -> .env, then fill in API keys
+docker compose up -d db  # Postgres + pgvector via Docker (:5432)
+make migrate.local       # apply migrations
+go run ./cmd/api         # API on :8080
 curl localhost:8080/health
 ```
 

@@ -46,24 +46,35 @@ Go · PostgreSQL + pgvector · Voyage AI embeddings · Anthropic Claude API
 
 ```
 cmd/
-  server/      # entrypoint HTTP API
-  crawler/     # CLI: crawl bài cảnh báo lừa đảo vào corpus
+  api/            # entrypoint HTTP API (+ swagger)
+  crawler/        # CLI: dựng corpus (crawl url + file cục bộ → ingest)
+  seed/           # CLI: smoke test end-to-end đường retrieval của RAG
+  migration/      # chạy DB migration
 internal/
-  analyzer/    # use case lõi: văn bản → retrieve → LLM scoring → verdict
-  corpus/      # ingest: crawl, làm sạch, chunk, gắn nhãn loại scam
-  embedding/   # client Voyage AI
-  llm/         # client Anthropic + prompt templates
-  store/       # Postgres + pgvector (pgx)
-  server/      # tầng HTTP: router, handlers, middleware
-migrations/    # schema SQL (tự chạy khi khởi động DB lần đầu)
+  ai/
+    embedder/     # provider embedding sau interface Service (Voyage, Azure...)
+    llm/          # client Anthropic + prompt templates
+  scam/           # domain RAG, mỗi package một bước pipeline
+    ingest/       # kết quả crawl → chunk → embed → store
+    retriever/    # văn bản truy vấn → pgvector top-k scam pattern tương tự
+    analyzer/     # use case lõi: văn bản → retrieve → LLM scoring → verdict
+    crawler/      # fetch + parse + gắn nhãn loại scam bằng rule
+  infra/
+    store/        # data-access Postgres + pgvector (một pgxpool.Pool)
+    repository/   # repository quan hệ / auth
+  api/            # tầng HTTP: base, context (root, v1, v2 scaffolded)
+  model/          # domain types
+config/           # nạp cấu hình
+migrations/       # schema SQL, áp qua cmd/migration
 ```
 
 ## Chạy thử
 
 ```bash
-cp .env.example .env   # điền API keys
-make db-up             # Postgres + pgvector qua Docker
-make run               # API tại :8080
+make switch.local        # copy .env.local -> .env, rồi điền API keys
+docker compose up -d db  # Postgres + pgvector qua Docker (:5432)
+make migrate.local       # áp các migration
+go run ./cmd/api         # API tại :8080
 curl localhost:8080/health
 ```
 
