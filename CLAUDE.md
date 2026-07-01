@@ -53,7 +53,7 @@ Git hooks via `lefthook.yml`. DB creds (local docker): user/pass/db all `chamlai
 
 ## Conventions
 
-- **File layout within a package** (mirrors the PeopleCoral sister repo). Application-service
+- **File layout within a package**. Application-service
   packages — those that wire collaborators and expose a `New()` (e.g. `internal/scam/ingest`,
   `internal/scam/analyzer`) — split by file role, not by declaration kind:
   - `service.go` — the service struct, its `New()` constructor, `Option`s, and any narrow

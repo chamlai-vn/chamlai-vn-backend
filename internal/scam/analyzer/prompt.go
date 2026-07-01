@@ -64,7 +64,6 @@ func buildUserPrompt(text string, chunks []retriever.Result) string {
 
 // sanitizeForPrompt strips control characters and neutralises prompt-injection
 // attempts, including our own fence tags so a message can't close the block.
-// Ported from the PeopleCoral sister repo.
 func sanitizeForPrompt(s string) string {
 	if !utf8.ValidString(s) {
 		s = strings.ToValidUTF8(s, "")
