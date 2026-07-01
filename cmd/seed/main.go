@@ -8,18 +8,26 @@
 //	VOYAGE_API_KEY=... go run ./cmd/seed -query-only          # skip insert, query existing corpus
 //	VOYAGE_API_KEY=... go run ./cmd/seed -q "câu hỏi khác"   # custom query
 //
+// Add -score to also run the analyzer (LLM scam scoring) on the query and print
+// the red/yellow/green verdict (requires ANTHROPIC_API_KEY):
+//
+//	VOYAGE_API_KEY=... ANTHROPIC_API_KEY=... go run ./cmd/seed -query-only -score
+//
 // It inserts a fresh document each run unless -query-only is set.
 package main
 
 import (
 	"context"
+	"encoding/json"
 	"flag"
 	"fmt"
 	"log"
 
 	"github.com/chamlai-vn/chamlai-vn-backend/config"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/ai/embedder"
+	"github.com/chamlai-vn/chamlai-vn-backend/internal/ai/llm"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/infra/store"
+	"github.com/chamlai-vn/chamlai-vn-backend/internal/scam/analyzer"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/scam/ingest"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/scam/retriever"
 )
@@ -42,6 +50,7 @@ const (
 func main() {
 	queryOnly := flag.Bool("query-only", false, "skip document insertion, query the existing corpus")
 	customQuery := flag.String("q", "", "custom query string (overrides the default suspicious message)")
+	score := flag.Bool("score", false, "run the analyzer on the query and print the red/yellow/green verdict (needs ANTHROPIC_API_KEY)")
 	flag.Parse()
 
 	ctx := context.Background()
@@ -97,6 +106,25 @@ func main() {
 	for i, r := range results {
 		fmt.Printf("  %d. score=%.4f scam_type=%s url=%s\n     %s\n",
 			i+1, r.Score, r.ScamType, r.SourceURL, snippet(r.Content, 80))
+	}
+
+	// 3. Optionally score the query against the retrieved patterns.
+	if *score {
+		if cfg.AnthropicAPIKey == "" {
+			log.Fatal("ANTHROPIC_API_KEY is required for -score")
+		}
+		llmSvc, err := llm.New(cfg.LLM())
+		if err != nil {
+			log.Fatalf("llm: %v", err)
+		}
+		log.Printf("analyzer ready: model=%s", llmSvc.Model())
+
+		verdict, err := analyzer.New(llmSvc).Score(ctx, query, results)
+		if err != nil {
+			log.Fatalf("score: %v", err)
+		}
+		out, _ := json.MarshalIndent(verdict, "", "  ")
+		fmt.Printf("\nVerdict:\n%s\n", out)
 	}
 }
 

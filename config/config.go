@@ -20,28 +20,33 @@ import (
 	"github.com/joho/godotenv"
 
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/ai/embedder"
+	"github.com/chamlai-vn/chamlai-vn-backend/internal/ai/llm"
 )
 
 // Configuration is the full set of env-driven settings for the service.
 type Configuration struct {
-	// DatabaseURL is the Postgres+pgvector DSN. Defaults to the local docker
-	// compose credentials (user/pass/db all "chamlai").
-	DatabaseURL string `env:"DATABASE_URL" envDefault:"postgres://chamlai:chamlai@localhost:5432/chamlai?sslmode=disable"`
+	DatabaseURL string `env:"DATABASE_URL,required"`
 
-	// EmbedProvider selects the embedding backend ("voyage" | "azure").
+	// Provider selection
 	EmbedProvider string `env:"EMBED_PROVIDER" envDefault:"voyage"`
+	LLMProvider   string `env:"LLM_PROVIDER" envDefault:"anthropic"`
 
-	// Voyage AI (default provider).
+	// Voyage AI (default embedder).
 	VoyageAPIKey     string `env:"VOYAGE_API_KEY"`
-	VoyageModel      string `env:"VOYAGE_MODEL"`
-	VoyageDimensions int    `env:"VOYAGE_DIMENSIONS"`
+	VoyageModel      string `env:"VOYAGE_MODEL" envDefault:"voyage-law-2"`
+	VoyageDimensions int    `env:"VOYAGE_DIMENSIONS" envDefault:"1024"`
 
 	// Azure OpenAI (alternative provider).
 	AzureOpenAIAPIKey     string `env:"AZURE_OPENAI_API_KEY"`
 	AzureOpenAIEndpoint   string `env:"AZURE_OPENAI_ENDPOINT"`
-	AzureEmbedDeployment  string `env:"AZURE_EMBED_DEPLOYMENT"`
+	AzureEmbedDeployment  string `env:"AZURE_EMBED_DEPLOYMENT" envDefault:"text-embedding-3-small"`
 	AzureOpenAIAPIVersion string `env:"AZURE_OPENAI_API_VERSION"`
-	AzureEmbedDimensions  int    `env:"AZURE_EMBED_DIMENSIONS"`
+	AzureEmbedDimensions  int    `env:"AZURE_EMBED_DIMENSIONS" envDefault:"1536"`
+
+	// Anthropic Claude (default LLM).
+	AnthropicAPIKey    string `env:"ANTHROPIC_API_KEY"`
+	AnthropicModel     string `env:"ANTHROPIC_MODEL" envDefault:"claude-haiku-4-5-20251001"`
+	AnthropicMaxTokens int    `env:"ANTHROPIC_MAX_TOKENS" envDefault:"1024"`
 }
 
 // Load reads an optional .env file then overlays OS environment variables and
@@ -77,6 +82,19 @@ func (c Configuration) Embedder() embedder.Config {
 			Deployment: c.AzureEmbedDeployment,
 			APIVersion: c.AzureOpenAIAPIVersion,
 			Dimensions: c.AzureEmbedDimensions,
+		},
+	}
+}
+
+// LLM adapts the env config into the llm package's wiring type. Empty fields
+// fall through to the provider constructor's zero-value defaults.
+func (c Configuration) LLM() llm.Config {
+	return llm.Config{
+		Provider: llm.Provider(c.LLMProvider),
+		Anthropic: llm.AnthropicConfig{
+			APIKey:    c.AnthropicAPIKey,
+			Model:     c.AnthropicModel,
+			MaxTokens: c.AnthropicMaxTokens,
 		},
 	}
 }
