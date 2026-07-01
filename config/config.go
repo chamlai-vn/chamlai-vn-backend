@@ -25,15 +25,13 @@ import (
 
 // Configuration is the full set of env-driven settings for the service.
 type Configuration struct {
-	// DatabaseURL is the Postgres+pgvector DSN. Defaults to the local docker
-	// compose credentials (user/pass/db all "chamlai").
-	DatabaseURL string `env:"DATABASE_URL" envDefault:"postgres://chamlai:chamlai@localhost:5432/chamlai?sslmode=disable"`
+	DatabaseURL string `env:"DATABASE_URL,required"`
 
-	// EmbedProvider selects the embedding backend ("voyage" | "azure").
+	// Provider selection
 	EmbedProvider string `env:"EMBED_PROVIDER" envDefault:"voyage"`
+	LLMProvider   string `env:"LLM_PROVIDER" envDefault:"anthropic"`
 
-	// Voyage AI (default provider). Model/Dimensions default to voyage-law-2's
-	// 1024-dim output — must match the chunks.embedding vector(N) column.
+	// Voyage AI (default embedder).
 	VoyageAPIKey     string `env:"VOYAGE_API_KEY"`
 	VoyageModel      string `env:"VOYAGE_MODEL" envDefault:"voyage-law-2"`
 	VoyageDimensions int    `env:"VOYAGE_DIMENSIONS" envDefault:"1024"`
@@ -41,17 +39,14 @@ type Configuration struct {
 	// Azure OpenAI (alternative provider).
 	AzureOpenAIAPIKey     string `env:"AZURE_OPENAI_API_KEY"`
 	AzureOpenAIEndpoint   string `env:"AZURE_OPENAI_ENDPOINT"`
-	AzureEmbedDeployment  string `env:"AZURE_EMBED_DEPLOYMENT"`
+	AzureEmbedDeployment  string `env:"AZURE_EMBED_DEPLOYMENT" envDefault:"text-embedding-3-small"`
 	AzureOpenAIAPIVersion string `env:"AZURE_OPENAI_API_VERSION"`
-	AzureEmbedDimensions  int    `env:"AZURE_EMBED_DIMENSIONS"`
+	AzureEmbedDimensions  int    `env:"AZURE_EMBED_DIMENSIONS" envDefault:"1536"`
 
-	// LLM scoring (analyzer). Key presence is validated at the command boundary
-	// (like the Voyage key in cmd/seed), not via a required tag, so commands that
-	// don't score aren't forced to supply it.
-	LLMProvider        string `env:"LLM_PROVIDER" envDefault:"anthropic"`
+	// Anthropic Claude (default LLM).
 	AnthropicAPIKey    string `env:"ANTHROPIC_API_KEY"`
 	AnthropicModel     string `env:"ANTHROPIC_MODEL" envDefault:"claude-haiku-4-5-20251001"`
-	AnthropicMaxTokens int    `env:"ANTHROPIC_MAX_TOKENS"`
+	AnthropicMaxTokens int    `env:"ANTHROPIC_MAX_TOKENS" envDefault:"1024"`
 }
 
 // Load reads an optional .env file then overlays OS environment variables and
