@@ -1,32 +1,62 @@
+// Command api serves the ChậmLại.vn scam-scoring HTTP API. It wires the RAG
+// pipeline (config → store → embedder → retriever → llm → analyzer) via
+// constructor injection and exposes POST /analyze and GET /health. The HTTP
+// handlers live in internal/api; the same wiring is smoke-tested by cmd/seed.
 package main
 
 import (
 	"context"
-	"fmt"
 	"log"
-	"os"
+	"net/http"
 
-	"github.com/jackc/pgx/v5"
+	"github.com/chamlai-vn/chamlai-vn-backend/config"
+	"github.com/chamlai-vn/chamlai-vn-backend/internal/ai/embedder"
+	"github.com/chamlai-vn/chamlai-vn-backend/internal/ai/llm"
+	"github.com/chamlai-vn/chamlai-vn-backend/internal/api"
+	"github.com/chamlai-vn/chamlai-vn-backend/internal/infra/store"
+	"github.com/chamlai-vn/chamlai-vn-backend/internal/scam/analyzer"
+	"github.com/chamlai-vn/chamlai-vn-backend/internal/scam/retriever"
 )
 
 func main() {
-	dsn := os.Getenv("DATABASE_URL")
-	if dsn == "" {
-		dsn = "postgres://chamlai:chamlai@localhost:5432/chamlai?sslmode=disable"
-	}
-
 	ctx := context.Background()
-	conn, err := pgx.Connect(ctx, dsn)
-	if err != nil {
-		log.Fatalf("không connect được DB: %v", err)
-	}
-	defer conn.Close(ctx)
 
-	// Ping: ép pgvector tính khoảng cách 2 vector → vừa test conn vừa test extension
-	var dist float64
-	err = conn.QueryRow(ctx, `SELECT '[1,2,3]'::vector <=> '[1,2,4]'::vector`).Scan(&dist)
+	cfg, err := config.Load()
 	if err != nil {
-		log.Fatalf("query lỗi (pgvector chưa enable?): %v", err)
+		log.Fatalf("config: %v", err)
 	}
-	fmt.Printf("✅ DB OK, pgvector sống. cosine distance = %f\n", dist)
+	if cfg.VoyageAPIKey == "" {
+		log.Fatal("VOYAGE_API_KEY is required")
+	}
+	if cfg.AnthropicAPIKey == "" {
+		log.Fatal("ANTHROPIC_API_KEY is required")
+	}
+
+	st, err := store.New(ctx, cfg.DatabaseURL)
+	if err != nil {
+		log.Fatalf("store: %v", err)
+	}
+	defer st.Close()
+
+	emb, err := embedder.New(cfg.Embedder())
+	if err != nil {
+		log.Fatalf("embedder: %v", err)
+	}
+	log.Printf("embedder ready: model=%s dims=%d", emb.Model(), emb.Dimensions())
+
+	llmSvc, err := llm.New(cfg.LLM())
+	if err != nil {
+		log.Fatalf("llm: %v", err)
+	}
+	log.Printf("analyzer ready: model=%s", llmSvc.Model())
+
+	ret := retriever.New(emb, st)
+	scorer := analyzer.New(llmSvc)
+	h := api.New(ret, scorer)
+
+	addr := ":" + cfg.Port
+	log.Printf("API listening on %s", addr)
+	if err := http.ListenAndServe(addr, api.NewRouter(h)); err != nil {
+		log.Fatalf("server: %v", err)
+	}
 }
