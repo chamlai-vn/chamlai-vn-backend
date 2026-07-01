@@ -27,6 +27,9 @@ import (
 type Configuration struct {
 	DatabaseURL string `env:"DATABASE_URL,required"`
 
+	// HTTP server.
+	Port string `env:"PORT" envDefault:"8080"`
+
 	// Provider selection
 	EmbedProvider string `env:"EMBED_PROVIDER" envDefault:"voyage"`
 	LLMProvider   string `env:"LLM_PROVIDER" envDefault:"anthropic"`
