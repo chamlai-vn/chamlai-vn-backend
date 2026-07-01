@@ -34,11 +34,18 @@ func (f *fakeEmbedder) Embed(_ context.Context, texts []string, it embedder.Inpu
 func (f *fakeEmbedder) Dimensions() int { return f.dims }
 func (f *fakeEmbedder) Model() string   { return "fake" }
 
-// fakeStore records the k it was called with and returns canned matches.
+// fakeStore records the k it was called with and returns canned matches. It
+// implements both retriever.Store arms; keywordMatches/lastKeywordK/keywordErr
+// let tests drive the keyword arm independently of the vector arm.
 type fakeStore struct {
 	matches []store.Match
 	lastK   int
 	err     error
+
+	keywordMatches []store.Match
+	lastKeywordK   int
+	lastKeywordQ   string
+	keywordErr     error
 }
 
 func (f *fakeStore) SearchSimilar(_ context.Context, _ []float32, k int) ([]store.Match, error) {
@@ -47,6 +54,15 @@ func (f *fakeStore) SearchSimilar(_ context.Context, _ []float32, k int) ([]stor
 		return nil, f.err
 	}
 	return f.matches, nil
+}
+
+func (f *fakeStore) SearchByKeyword(_ context.Context, query string, k int) ([]store.Match, error) {
+	f.lastKeywordQ = query
+	f.lastKeywordK = k
+	if f.keywordErr != nil {
+		return nil, f.keywordErr
+	}
+	return f.keywordMatches, nil
 }
 
 func TestRetrieve_EmbedsAsQuery(t *testing.T) {

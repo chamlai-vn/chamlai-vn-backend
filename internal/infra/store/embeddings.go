@@ -162,3 +162,33 @@ func (s *Store) SearchSimilar(ctx context.Context, query []float32, k int) ([]Ma
 	}
 	return out, rows.Err()
 }
+
+// SearchByKeyword returns the top-k chunks whose content_tsv matches query,
+// ranked by ts_rank (a TF-IDF-style score — not true BM25), best first. This is
+// the lexical counterpart to SearchSimilar: it recovers chunks containing rare
+// or distinctive terms that a vector search can dilute into a generic direction.
+// Match.Distance is left at its zero value — there is no cosine distance on this
+// path; retriever.HybridSearch fuses by rank position, not by Distance.
+func (s *Store) SearchByKeyword(ctx context.Context, query string, k int) ([]Match, error) {
+	rows, err := s.pool.Query(ctx,
+		`SELECT c.id, c.document_id, c.content, d.scam_type, d.url
+		 FROM chunks c JOIN documents d ON d.id = c.document_id
+		 WHERE c.content_tsv @@ plainto_tsquery('simple', $1)
+		 ORDER BY ts_rank(c.content_tsv, plainto_tsquery('simple', $1)) DESC
+		 LIMIT $2`,
+		query, k)
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+
+	var out []Match
+	for rows.Next() {
+		var m Match
+		if err := rows.Scan(&m.ChunkID, &m.DocumentID, &m.Content, &m.ScamType, &m.SourceURL); err != nil {
+			return nil, err
+		}
+		out = append(out, m)
+	}
+	return out, rows.Err()
+}
