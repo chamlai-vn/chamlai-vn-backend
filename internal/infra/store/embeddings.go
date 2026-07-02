@@ -192,3 +192,29 @@ func (s *Store) SearchByKeyword(ctx context.Context, query string, k int) ([]Mat
 	}
 	return out, rows.Err()
 }
+
+// ListChunks returns up to limit chunks ordered by id, for offline tooling
+// (e.g. benchmark dataset generation) that needs raw corpus content rather
+// than a query match. Not on the retrieval hot path — Distance is left at its
+// zero value like SearchByKeyword.
+func (s *Store) ListChunks(ctx context.Context, limit int) ([]Match, error) {
+	rows, err := s.pool.Query(ctx,
+		`SELECT c.id, c.document_id, c.content, d.scam_type, d.url
+		 FROM chunks c JOIN documents d ON d.id = c.document_id
+		 ORDER BY c.id LIMIT $1`,
+		limit)
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+
+	var out []Match
+	for rows.Next() {
+		var m Match
+		if err := rows.Scan(&m.ChunkID, &m.DocumentID, &m.Content, &m.ScamType, &m.SourceURL); err != nil {
+			return nil, err
+		}
+		out = append(out, m)
+	}
+	return out, rows.Err()
+}
