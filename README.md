@@ -53,10 +53,11 @@ cmd/
 internal/
   ai/
     embedder/     # provider embedding sau interface Service (Voyage, Azure...)
+    reranker/     # provider reranking sau interface Service (bước tùy chọn sau RRF)
     llm/          # client Anthropic + prompt templates
   scam/           # domain RAG, mỗi package một bước pipeline
     ingest/       # kết quả crawl → chunk → embed → store
-    retriever/    # văn bản truy vấn → pgvector top-k scam pattern tương tự
+    retriever/    # văn bản truy vấn → pgvector top-k + hybrid (BM25/RRF), rerank tùy chọn
     analyzer/     # use case lõi: văn bản → retrieve → LLM scoring → verdict
     crawler/      # fetch + parse + gắn nhãn loại scam bằng rule
   infra/
@@ -64,8 +65,13 @@ internal/
     repository/   # repository quan hệ / auth
   api/            # tầng HTTP: base, context (root, v1, v2 scaffolded)
   model/          # domain types
+pkg/util/
+  eval/           # metric đo chất lượng retrieval (Hit@K, MRR), không phụ thuộc gì
+  rag/            # parse + chunk tài liệu, dùng bởi ingest
+  ulid/           # sinh ULID
 config/           # nạp cấu hình
 migrations/       # schema SQL, áp qua cmd/migration
+benchmark/        # thiết kế benchmark retrieval (README.md) — chưa chạy, xem trạng thái trong đó
 ```
 
 ## Chạy thử
@@ -81,9 +87,13 @@ curl localhost:8080/health
 ## Lộ trình
 
 - [x] Skeleton repo, setup Postgres + pgvector
-- [ ] Corpus: index 50+ bài cảnh báo lừa đảo đã gắn nhãn
-- [ ] `/analyze` end-to-end: hybrid retrieval + reranking + LLM scoring
-- [ ] Eval baseline (precision/recall trên golden dataset)
+- [x] Corpus: index 50+ bài cảnh báo lừa đảo đã gắn nhãn (hiện ~50 bài, 101 chunks)
+- [x] Retrieval stack: hybrid (vector + BM25 qua RRF) + reranking (Voyage rerank-2.5) đã build,
+      dùng qua `cmd/seed`
+- [ ] Wire retrieval stack vào `/analyze` (hiện `/analyze` vẫn vector-only — chờ benchmark
+      chứng minh trên corpus đủ lớn, xem `benchmark/README.md`)
+- [ ] Eval baseline (precision/recall trên golden dataset) — foundation đã có ở
+      `benchmark/README.md`, chờ corpus đạt ngưỡng kích hoạt
 - [ ] Web UI: ô dán văn bản → đèn giao thông, chữ to, mobile-friendly
 - [ ] Streaming, prompt caching, contextual retrieval
 - [ ] Deploy public

@@ -53,10 +53,11 @@ cmd/
 internal/
   ai/
     embedder/     # embedding providers behind a Service interface (Voyage, Azure...)
+    reranker/     # reranking providers behind a Service interface (optional stage after RRF)
     llm/          # Anthropic client + prompt templates
   scam/           # the RAG domain, one package per pipeline stage
     ingest/       # crawl output → chunk → embed → store
-    retriever/    # query text → pgvector top-k similar scam patterns
+    retriever/    # query text → pgvector top-k + hybrid (BM25/RRF), optional rerank stage
     analyzer/     # core use case: text → retrieve → LLM scoring → verdict
     crawler/      # fetch + parse + rule-based scam labelling
   infra/
@@ -64,8 +65,13 @@ internal/
     repository/   # relational/auth repositories
   api/            # HTTP layer: base, context (root, v1, v2 scaffolded)
   model/          # domain types
+pkg/util/
+  eval/           # retrieval-quality metrics (Hit@K, MRR), dependency-free
+  rag/            # document parsing/chunking helpers used by ingest
+  ulid/           # ULID generation
 config/           # config loading
 migrations/       # SQL schema, applied via cmd/migration
+benchmark/        # retrieval benchmark design doc (README.md) — not yet run, see its own status section
 ```
 
 ## Getting started
@@ -81,9 +87,13 @@ curl localhost:8080/health
 ## Roadmap
 
 - [x] Repo skeleton, Postgres + pgvector setup
-- [ ] Corpus: 50+ labeled scam-warning articles indexed
-- [ ] `/analyze` end-to-end: hybrid retrieval + reranking + LLM scoring
-- [ ] Eval baseline (precision/recall on golden dataset)
+- [x] Corpus: 50+ labeled scam-warning articles indexed (currently ~50 articles, 101 chunks)
+- [x] Retrieval stack: hybrid (vector + BM25 via RRF) + reranking (Voyage rerank-2.5) built,
+      exercised via `cmd/seed`
+- [ ] Wire the retrieval stack into `/analyze` (it's still vector-only today — waiting on
+      benchmark evidence at a larger corpus size, see `benchmark/README.md`)
+- [ ] Eval baseline (precision/recall on golden dataset) — foundation already in
+      `benchmark/README.md`, waiting on the corpus to hit its activation threshold
 - [ ] Web UI: paste box → traffic light, large text, mobile-friendly
 - [ ] Streaming, prompt caching, contextual retrieval
 - [ ] Public deploy

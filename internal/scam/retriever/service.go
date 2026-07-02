@@ -4,6 +4,7 @@ import (
 	"context"
 
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/ai/embedder"
+	"github.com/chamlai-vn/chamlai-vn-backend/internal/ai/reranker"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/infra/store"
 )
 
@@ -18,6 +19,12 @@ const (
 	// rrfK is the Reciprocal Rank Fusion damping constant: score += 1/(rrfK+rank+1).
 	// 60 is the standard value from the original RRF paper.
 	rrfK = 60
+
+	// rerankCandidates is how many fused results feed the reranker when one is
+	// configured (~4x the default final topK: recall headroom for the
+	// cross-encoder without paying latency for a longer tail). Tune together
+	// with candidateTopK when the corpus grows — benchmark-driven, not by feel.
+	rerankCandidates = 20
 )
 
 // Store is the persistence the retriever needs. *store.Store satisfies it;
@@ -29,10 +36,11 @@ type Store interface {
 }
 
 // Retriever runs the query-side of the RAG pipeline. Safe for concurrent use
-// if its embedder and store are (both are).
+// if its embedder, store, and reranker are (all are).
 type Retriever struct {
 	emb         embedder.Service
 	store       Store
+	reranker    reranker.Service
 	defaultTopK int
 }
 
@@ -45,6 +53,18 @@ func WithDefaultTopK(n int) Option {
 	return func(r *Retriever) {
 		if n > 0 {
 			r.defaultTopK = n
+		}
+	}
+}
+
+// WithReranker enables a rerank stage after rank fusion in HybridSearch: the
+// top rerankCandidates fused results are scored by rr and truncated to topK.
+// A nil reranker is ignored — rerank stays off, which is the default, and
+// HybridSearch behaves exactly as it does without this option.
+func WithReranker(rr reranker.Service) Option {
+	return func(r *Retriever) {
+		if rr != nil {
+			r.reranker = rr
 		}
 	}
 }

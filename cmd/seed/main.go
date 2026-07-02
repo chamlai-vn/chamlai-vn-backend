@@ -21,6 +21,12 @@
 //
 //	VOYAGE_API_KEY=... go run ./cmd/seed -query-only -compare -q "bùa ngải vong hồn lừa đảo"
 //
+// Add -rerank to also print the fusion-only top-10 next to the fusion+rerank
+// (Voyage rerank-2.5) top-5, so you can see whether reranking changed the
+// order (on the current small corpus, it usually won't — that's expected):
+//
+//	VOYAGE_API_KEY=... go run ./cmd/seed -query-only -rerank -q "bùa ngải vong hồn lừa đảo"
+//
 // It inserts a fresh document each run unless -query-only is set.
 package main
 
@@ -34,6 +40,7 @@ import (
 	"github.com/chamlai-vn/chamlai-vn-backend/config"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/ai/embedder"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/ai/llm"
+	"github.com/chamlai-vn/chamlai-vn-backend/internal/ai/reranker"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/infra/store"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/scam/analyzer"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/scam/ingest"
@@ -60,6 +67,7 @@ func main() {
 	customQuery := flag.String("q", "", "custom query string (overrides the default suspicious message)")
 	score := flag.Bool("score", false, "run the analyzer on the query and print the red/yellow/green verdict (needs ANTHROPIC_API_KEY)")
 	compare := flag.Bool("compare", false, "also run HybridSearch and print its top-5 next to the vector-only top-5")
+	rerank := flag.Bool("rerank", false, "also rerank HybridSearch results (Voyage rerank-2.5) and print fusion-only top-10 next to fusion+rerank top-5")
 	flag.Parse()
 
 	ctx := context.Background()
@@ -126,6 +134,37 @@ func main() {
 		fmt.Printf("\nTop %d matches (hybrid: vector + keyword via RRF):\n", len(hybridResults))
 		for i, r := range hybridResults {
 			fmt.Printf("  %d. rrf_score=%.4f scam_type=%s url=%s\n     %s\n",
+				i+1, r.Score, r.ScamType, r.SourceURL, snippet(r.Content, 80))
+		}
+	}
+
+	// 2c. Optionally rerank HybridSearch results and print fusion-only vs
+	// fusion+rerank side by side.
+	if *rerank {
+		rr, err := reranker.New(cfg.Reranker())
+		if err != nil {
+			log.Fatalf("reranker: %v", err)
+		}
+		log.Printf("reranker ready: model=%s", rr.Model())
+
+		fusionOnly, err := ret.HybridSearch(ctx, query, 10)
+		if err != nil {
+			log.Fatalf("hybrid search (fusion only): %v", err)
+		}
+		fmt.Printf("\nTop %d matches (hybrid fusion only, pre-rerank):\n", len(fusionOnly))
+		for i, r := range fusionOnly {
+			fmt.Printf("  %d. rrf_score=%.4f scam_type=%s url=%s\n     %s\n",
+				i+1, r.Score, r.ScamType, r.SourceURL, snippet(r.Content, 80))
+		}
+
+		retRerank := retriever.New(emb, st, retriever.WithReranker(rr))
+		reranked, err := retRerank.HybridSearch(ctx, query, 5)
+		if err != nil {
+			log.Fatalf("hybrid search (rerank): %v", err)
+		}
+		fmt.Printf("\nTop %d matches (hybrid + rerank-2.5):\n", len(reranked))
+		for i, r := range reranked {
+			fmt.Printf("  %d. rerank_score=%.4f scam_type=%s url=%s\n     %s\n",
 				i+1, r.Score, r.ScamType, r.SourceURL, snippet(r.Content, 80))
 		}
 	}
