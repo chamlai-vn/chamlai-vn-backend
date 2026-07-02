@@ -20,10 +20,11 @@ cmd/
 internal/
   ai/
     embedder/     # embedding providers behind a Service interface
+    reranker/     # reranking providers behind a Service interface (optional stage after RRF)
     llm/          # Anthropic client + prompts
   scam/           # the RAG domain, one package per pipeline stage
     ingest/       # crawl output → chunk → embed → store
-    retriever/    # query text → pgvector top-k similar scam patterns
+    retriever/    # query text → pgvector top-k + hybrid (BM25/RRF), optional rerank stage
     analyzer/     # core use case: text → retrieve → LLM scoring → verdict
     crawler/      # fetch + parse + rule-based scam labelling
   infra/
@@ -31,8 +32,13 @@ internal/
     repository/   # relational/auth repositories
   api/            # HTTP layer: base, context (root, v1, v2 scaffolded)
   model/          # domain types
+pkg/util/
+  eval/           # retrieval-quality metrics (Hit@K, MRR), dependency-free
+  rag/            # document parsing/chunking helpers used by ingest
+  ulid/           # ULID generation
 config/           # config loading (top-level package `config`, not internal/)
 migrations/       # schema SQL, applied via cmd/migration
+benchmark/        # retrieval benchmark design doc (README.md) — not yet run, see its own status section
 ```
 
 Note: `README.md`'s "Cấu trúc dự án" is kept roughly in sync with this; the list above is the
@@ -77,6 +83,6 @@ Git hooks via `lefthook.yml`. DB creds (local docker): user/pass/db all `chamlai
 ## Notes
 
 - `go build ./...` and `go test ./...` both pass across the tree.
-- Test coverage exists in `internal/ai/embedder`, `internal/scam/{analyzer,crawler,ingest,retriever}`.
-  `internal/ai/embedder` (the `doEmbed` index-mapping + length checks) remains the highest-value
-  area, testable with `httptest.Server`.
+- Test coverage exists in `internal/ai/reranker`, `internal/scam/{analyzer,crawler,ingest,retriever}`.
+  `internal/ai/embedder` has no dedicated tests yet — `internal/ai/reranker/voyage_test.go`
+  (`httptest.Server` + index-mapping/error-path checks) is the pattern to reuse for it.

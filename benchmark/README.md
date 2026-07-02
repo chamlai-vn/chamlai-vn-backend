@@ -45,11 +45,18 @@ pluggable:
 type Strategy func(ctx context.Context, query string, topK int) ([]int64, error)
 
 strategies := map[string]Strategy{
-    "vector-only": ...,  // retriever.Retrieve
-    "hybrid-rrf":  ...,  // retriever.HybridSearch
+    "vector-only":       ...,  // retriever.Retrieve
+    "hybrid-rrf":        ...,  // retriever.HybridSearch, retriever không có reranker
+    "hybrid-rrf+rerank": ...,  // retriever.HybridSearch, retriever.New(..., retriever.WithReranker(rr))
     // sau này: "contextual+hybrid" — đăng ký thêm 1 hàm, không viết lại harness
 }
 ```
+
+`hybrid-rrf` và `hybrid-rrf+rerank` chỉ khác nhau ở wiring (có/không
+`WithReranker` — xem `internal/scam/retriever`), không phải code path riêng.
+Đo hai tầng khi so hai strategy này: Recall@rerankCandidates ngay sau fusion
+(trần mà reranker có thể đạt — lỗi ở đây là lỗi retrieval, không phải lỗi
+rerank) và Recall@K/MRR sau cùng (rerank có "trả tiền vé" hay không).
 
 ### Dataset: Haiku sinh 2 kiểu query mỗi chunk
 
