@@ -13,6 +13,14 @@
 //
 //	VOYAGE_API_KEY=... ANTHROPIC_API_KEY=... go run ./cmd/seed -query-only -score
 //
+// Add -compare to also run HybridSearch (vector + keyword via RRF) on the same
+// query and print its top-5 next to the vector-only top-5, for comparing recall
+// on keyword-heavy vs semantic-heavy queries. Needs a populated corpus (run
+// cmd/crawler first) — the single sample document below isn't enough to see a
+// meaningful difference:
+//
+//	VOYAGE_API_KEY=... go run ./cmd/seed -query-only -compare -q "bùa ngải vong hồn lừa đảo"
+//
 // It inserts a fresh document each run unless -query-only is set.
 package main
 
@@ -51,6 +59,7 @@ func main() {
 	queryOnly := flag.Bool("query-only", false, "skip document insertion, query the existing corpus")
 	customQuery := flag.String("q", "", "custom query string (overrides the default suspicious message)")
 	score := flag.Bool("score", false, "run the analyzer on the query and print the red/yellow/green verdict (needs ANTHROPIC_API_KEY)")
+	compare := flag.Bool("compare", false, "also run HybridSearch and print its top-5 next to the vector-only top-5")
 	flag.Parse()
 
 	ctx := context.Background()
@@ -102,10 +111,23 @@ func main() {
 		log.Fatalf("retrieve: %v", err)
 	}
 
-	fmt.Printf("\nQuery: %s\n\nTop %d matches:\n", query, len(results))
+	fmt.Printf("\nQuery: %s\n\nTop %d matches (vector-only):\n", query, len(results))
 	for i, r := range results {
 		fmt.Printf("  %d. score=%.4f scam_type=%s url=%s\n     %s\n",
 			i+1, r.Score, r.ScamType, r.SourceURL, snippet(r.Content, 80))
+	}
+
+	// 2b. Optionally run hybrid search on the same query for side-by-side comparison.
+	if *compare {
+		hybridResults, err := ret.HybridSearch(ctx, query, 5)
+		if err != nil {
+			log.Fatalf("hybrid search: %v", err)
+		}
+		fmt.Printf("\nTop %d matches (hybrid: vector + keyword via RRF):\n", len(hybridResults))
+		for i, r := range hybridResults {
+			fmt.Printf("  %d. rrf_score=%.4f scam_type=%s url=%s\n     %s\n",
+				i+1, r.Score, r.ScamType, r.SourceURL, snippet(r.Content, 80))
+		}
 	}
 
 	// 3. Optionally score the query against the retrieved patterns.

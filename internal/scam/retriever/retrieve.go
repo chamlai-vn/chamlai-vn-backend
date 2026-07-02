@@ -10,6 +10,7 @@ import (
 	"unicode/utf8"
 
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/ai/embedder"
+	"github.com/chamlai-vn/chamlai-vn-backend/internal/infra/store"
 )
 
 // Retrieve embeds query with query intent, fetches the topK nearest corpus
@@ -19,13 +20,9 @@ import (
 // topK <= 0 uses the configured default (5). The query is validated as 1–5000
 // runes (trimmed); runes, not bytes, because Vietnamese is multibyte.
 func (r *Retriever) Retrieve(ctx context.Context, query string, topK int) ([]Result, error) {
-	q := strings.TrimSpace(query)
-	n := utf8.RuneCountInString(q)
-	if n == 0 {
-		return nil, fmt.Errorf("retriever: empty query")
-	}
-	if n > 5000 {
-		return nil, fmt.Errorf("retriever: query too long (%d chars, max 5000)", n)
+	q, err := validateQuery(query)
+	if err != nil {
+		return nil, err
 	}
 
 	if topK <= 0 {
@@ -47,16 +44,23 @@ func (r *Retriever) Retrieve(ctx context.Context, query string, topK int) ([]Res
 
 	out := make([]Result, len(matches))
 	for i, m := range matches {
-		out[i] = Result{
-			ChunkID:    m.ChunkID,
-			DocumentID: m.DocumentID,
-			Content:    m.Content,
-			ScamType:   m.ScamType,
-			SourceURL:  m.SourceURL,
-			Score:      scoreFromDistance(m.Distance),
-		}
+		out[i] = matchToResult(m)
 	}
 	return out, nil
+}
+
+// validateQuery trims query and checks it is 1–5000 runes (not bytes — Vietnamese
+// is multibyte). Shared by Retrieve and HybridSearch.
+func validateQuery(query string) (string, error) {
+	q := strings.TrimSpace(query)
+	n := utf8.RuneCountInString(q)
+	if n == 0 {
+		return "", fmt.Errorf("retriever: empty query")
+	}
+	if n > 5000 {
+		return "", fmt.Errorf("retriever: query too long (%d chars, max 5000)", n)
+	}
+	return q, nil
 }
 
 // scoreFromDistance converts cosine distance (∈ [0,2]) to a [0,1] similarity.
@@ -71,4 +75,18 @@ func scoreFromDistance(d float64) float64 {
 		return 1
 	}
 	return s
+}
+
+// matchToResult maps a store.Match to a Result, scoring by cosine distance.
+// Used by the vector arm of HybridSearch (fusion later overwrites Score with
+// the fused RRF score).
+func matchToResult(m store.Match) Result {
+	return Result{
+		ChunkID:    m.ChunkID,
+		DocumentID: m.DocumentID,
+		Content:    m.Content,
+		ScamType:   m.ScamType,
+		SourceURL:  m.SourceURL,
+		Score:      scoreFromDistance(m.Distance),
+	}
 }

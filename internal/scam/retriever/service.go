@@ -7,12 +7,25 @@ import (
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/infra/store"
 )
 
-const defaultTopKVal = 5
+const (
+	defaultTopKVal = 5
+
+	// candidateTopK is how many candidates HybridSearch pulls from each arm
+	// (vector, keyword) before fusion. Must be >= any topK callers pass in, or
+	// RRF has fewer candidates than the caller asked for.
+	candidateTopK = 20
+
+	// rrfK is the Reciprocal Rank Fusion damping constant: score += 1/(rrfK+rank+1).
+	// 60 is the standard value from the original RRF paper.
+	rrfK = 60
+)
 
 // Store is the persistence the retriever needs. *store.Store satisfies it;
-// tests supply a fake. Kept narrow — the retriever only ever does ANN search.
+// tests supply a fake. SearchSimilar is the vector (semantic) arm, SearchByKeyword
+// the lexical arm used by HybridSearch.
 type Store interface {
 	SearchSimilar(ctx context.Context, query []float32, k int) ([]store.Match, error)
+	SearchByKeyword(ctx context.Context, query string, k int) ([]store.Match, error)
 }
 
 // Retriever runs the query-side of the RAG pipeline. Safe for concurrent use
