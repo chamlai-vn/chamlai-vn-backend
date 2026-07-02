@@ -14,14 +14,19 @@ import (
 // by meaning (vector wins) or by a distinctive term an embedding can dilute
 // (keyword wins). Both arms fetch candidateTopK candidates before fusion.
 //
-// Fails fast: an error embedding the query, or from either arm, aborts the
-// whole search rather than silently degrading to one arm. Both arms share the
-// same DB/embedder, so a failure here is systemic, not partial — and a scam
-// retriever that quietly drops half its signal is worse than a clear error.
+// When a reranker is configured (WithReranker), the top rerankCandidates fused
+// results are passed through it and truncated to topK by relevance; otherwise
+// fusion itself produces the final topK. Either way Result.Score is not a
+// cosine similarity: it's the fused RRF score with no reranker, or the
+// reranker's relevance score with one — callers that only read
+// Content/ScamType (as analyzer.Score does) are unaffected; only the order and
+// membership of results matter downstream.
 //
-// Result.Score on the returned values is the fused RRF score, not a cosine
-// similarity — callers that only read Content/ScamType (as analyzer.Score does)
-// are unaffected; only the order and membership of results matter downstream.
+// Fails fast: an error embedding the query, from either arm, or from the
+// reranker, aborts the whole search rather than silently degrading. All three
+// share the same DB/embedder/reranker, so a failure here is systemic, not
+// partial — and a scam retriever that quietly drops signal is worse than a
+// clear error.
 func (r *Retriever) HybridSearch(ctx context.Context, query string, topK int) ([]Result, error) {
 	q, err := validateQuery(query)
 	if err != nil {
@@ -50,7 +55,40 @@ func (r *Retriever) HybridSearch(ctx context.Context, query string, topK int) ([
 		return nil, fmt.Errorf("retriever: hybrid: keyword search: %w", err)
 	}
 
-	return reciprocalRankFusion(vectorHits, keywordHits, topK), nil
+	fusionK := topK
+	if r.reranker != nil {
+		fusionK = rerankCandidates
+	}
+	fused := reciprocalRankFusion(vectorHits, keywordHits, fusionK)
+
+	if r.reranker == nil || len(fused) == 0 {
+		return fused, nil
+	}
+	return r.rerank(ctx, q, fused, topK)
+}
+
+// rerank scores fused candidates with r.reranker and returns the top topK by
+// relevance. Results reference fused by index, so this maps them back to the
+// original Result (content, scam type, etc.), overwriting Score with the
+// reranker's relevance score.
+func (r *Retriever) rerank(ctx context.Context, query string, fused []Result, topK int) ([]Result, error) {
+	docs := make([]string, len(fused))
+	for i, f := range fused {
+		docs[i] = f.Content
+	}
+
+	ranked, err := r.reranker.Rerank(ctx, query, docs, topK)
+	if err != nil {
+		return nil, fmt.Errorf("retriever: hybrid: rerank: %w", err)
+	}
+
+	out := make([]Result, len(ranked))
+	for i, rr := range ranked {
+		res := fused[rr.Index]
+		res.Score = rr.RelevanceScore
+		out[i] = res
+	}
+	return out, nil
 }
 
 // reciprocalRankFusion merges two rank-ordered arms by summing 1/(rrfK+rank+1)
