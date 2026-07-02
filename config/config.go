@@ -21,6 +21,7 @@ import (
 
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/ai/embedder"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/ai/llm"
+	"github.com/chamlai-vn/chamlai-vn-backend/internal/ai/reranker"
 )
 
 // Configuration is the full set of env-driven settings for the service.
@@ -38,6 +39,11 @@ type Configuration struct {
 	VoyageAPIKey     string `env:"VOYAGE_API_KEY"`
 	VoyageModel      string `env:"VOYAGE_MODEL" envDefault:"voyage-law-2"`
 	VoyageDimensions int    `env:"VOYAGE_DIMENSIONS" envDefault:"1024"`
+
+	// Reranker (optional stage after hybrid rank fusion — see
+	// retriever.WithReranker; wiring it in is up to the caller).
+	RerankProvider string `env:"RERANK_PROVIDER" envDefault:"voyage"`
+	RerankModel    string `env:"RERANK_MODEL" envDefault:"rerank-2.5"`
 
 	// Azure OpenAI (alternative provider).
 	AzureOpenAIAPIKey     string `env:"AZURE_OPENAI_API_KEY"`
@@ -85,6 +91,19 @@ func (c Configuration) Embedder() embedder.Config {
 			Deployment: c.AzureEmbedDeployment,
 			APIVersion: c.AzureOpenAIAPIVersion,
 			Dimensions: c.AzureEmbedDimensions,
+		},
+	}
+}
+
+// Reranker adapts the env config into the reranker package's wiring type.
+// Reuses VoyageAPIKey (same Voyage account as the embedder). Empty fields
+// fall through to the provider constructor's zero-value defaults.
+func (c Configuration) Reranker() reranker.Config {
+	return reranker.Config{
+		Provider: reranker.Provider(c.RerankProvider),
+		Voyage: reranker.VoyageConfig{
+			APIKey: c.VoyageAPIKey,
+			Model:  c.RerankModel,
 		},
 	}
 }
