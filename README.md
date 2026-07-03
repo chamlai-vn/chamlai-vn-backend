@@ -63,7 +63,14 @@ internal/
   infra/
     store/        # data-access Postgres + pgvector (một pgxpool.Pool)
     repository/   # repository quan hệ / auth
-  api/            # tầng HTTP: base, context (root, v1, v2 scaffolded)
+  api/            # tầng HTTP: middleware stack, lỗi RFC 9457, route root + versioned
+    problem/      # RFC 9457 Problem Details (application/problem+json) + adapter dịch lỗi
+    bind/         # decode JSON nghiêm ngặt + validator-tag → thông báo tiếng Việt
+    respond/      # ghi response JSON thành công
+    middleware/   # request ID, log request có cấu trúc (slog), phục hồi panic
+    root/         # route không version (GET /health)
+    v1/analyze/   # POST /v1/analyze
+    swagger/      # sinh bởi `make swagger` — không sửa tay
   model/          # domain types
 pkg/util/
   eval/           # metric đo chất lượng retrieval (Hit@K, MRR), không phụ thuộc gì
@@ -82,6 +89,9 @@ docker compose up -d db  # Postgres + pgvector qua Docker (:5432)
 make migrate.local       # áp các migration
 go run ./cmd/api         # API tại :8080
 curl localhost:8080/health
+curl -X POST localhost:8080/v1/analyze -H 'Content-Type: application/json' \
+  -d '{"text":"chuyển khoản gấp 10 triệu để giữ chỗ"}'
+# Swagger UI (chỉ APP_ENV=development, mặc định): http://localhost:8080/swagger/
 ```
 
 ## Lộ trình
@@ -90,7 +100,7 @@ curl localhost:8080/health
 - [x] Corpus: index 50+ bài cảnh báo lừa đảo đã gắn nhãn (hiện ~50 bài, 101 chunks)
 - [x] Retrieval stack: hybrid (vector + BM25 qua RRF) + reranking (Voyage rerank-2.5) đã build,
       dùng qua `cmd/seed`
-- [ ] Wire retrieval stack vào `/analyze` (hiện `/analyze` vẫn vector-only — chờ benchmark
+- [ ] Wire retrieval stack vào `/v1/analyze` (hiện `/v1/analyze` vẫn vector-only — chờ benchmark
       chứng minh trên corpus đủ lớn, xem `benchmark/README.md`)
 - [ ] Eval baseline (precision/recall trên golden dataset) — foundation đã có ở
       `benchmark/README.md`, chờ corpus đạt ngưỡng kích hoạt

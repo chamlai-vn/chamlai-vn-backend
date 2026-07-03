@@ -1,4 +1,4 @@
-package api
+package analyze
 
 import (
 	"context"
@@ -9,6 +9,7 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/chamlai-vn/chamlai-vn-backend/internal/api/problem"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/scam/analyzer"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/scam/retriever"
 )
@@ -39,7 +40,7 @@ func (f *fakeScorer) Score(_ context.Context, text string, chunks []retriever.Re
 	return f.result, f.err
 }
 
-func TestHandleAnalyze_OK(t *testing.T) {
+func TestHandle_OK(t *testing.T) {
 	ret := &fakeRetriever{results: []retriever.Result{{Content: "pattern", ScamType: "x"}}}
 	scorer := &fakeScorer{result: &analyzer.AnalysisResult{
 		RiskLevel:  analyzer.RiskRed,
@@ -49,8 +50,10 @@ func TestHandleAnalyze_OK(t *testing.T) {
 	h := New(ret, scorer, WithTopK(3))
 
 	rr := httptest.NewRecorder()
-	req := httptest.NewRequest(http.MethodPost, "/analyze", strings.NewReader(`{"text":"  đặt cọc 10 triệu  "}`))
-	h.HandleAnalyze(rr, req)
+	req := httptest.NewRequest(http.MethodPost, "/v1/analyze", strings.NewReader(`{"text":"  đặt cọc 10 triệu  "}`))
+	if err := h.Handle(rr, req); err != nil {
+		t.Fatalf("unexpected error: %v", err)
+	}
 
 	if rr.Code != http.StatusOK {
 		t.Fatalf("status = %d, want 200; body=%s", rr.Code, rr.Body.String())
@@ -76,7 +79,7 @@ func TestHandleAnalyze_OK(t *testing.T) {
 	}
 }
 
-func TestHandleAnalyze_BadInput(t *testing.T) {
+func TestHandle_BadInput(t *testing.T) {
 	cases := []struct {
 		name string
 		body string
@@ -93,11 +96,15 @@ func TestHandleAnalyze_BadInput(t *testing.T) {
 			h := New(ret, scorer)
 
 			rr := httptest.NewRecorder()
-			req := httptest.NewRequest(http.MethodPost, "/analyze", strings.NewReader(tc.body))
-			h.HandleAnalyze(rr, req)
+			req := httptest.NewRequest(http.MethodPost, "/v1/analyze", strings.NewReader(tc.body))
+			err := h.Handle(rr, req)
 
-			if rr.Code != http.StatusBadRequest {
-				t.Fatalf("status = %d, want 400", rr.Code)
+			p, ok := err.(*problem.Problem)
+			if !ok {
+				t.Fatalf("err = %T (%v), want *problem.Problem", err, err)
+			}
+			if p.Status != http.StatusBadRequest {
+				t.Errorf("status = %d, want 400", p.Status)
 			}
 			if ret.gotK != 0 || scorer.gotText != "" {
 				t.Error("collaborators were called on invalid input")
@@ -106,29 +113,20 @@ func TestHandleAnalyze_BadInput(t *testing.T) {
 	}
 }
 
-func TestHandleAnalyze_PipelineError(t *testing.T) {
+func TestHandle_PipelineError(t *testing.T) {
 	ret := &fakeRetriever{err: errors.New("pgvector down")}
 	scorer := &fakeScorer{}
 	h := New(ret, scorer)
 
 	rr := httptest.NewRecorder()
-	req := httptest.NewRequest(http.MethodPost, "/analyze", strings.NewReader(`{"text":"abc"}`))
-	h.HandleAnalyze(rr, req)
+	req := httptest.NewRequest(http.MethodPost, "/v1/analyze", strings.NewReader(`{"text":"abc"}`))
+	err := h.Handle(rr, req)
 
-	if rr.Code != http.StatusInternalServerError {
-		t.Fatalf("status = %d, want 500", rr.Code)
+	p, ok := err.(*problem.Problem)
+	if !ok {
+		t.Fatalf("err = %T (%v), want *problem.Problem", err, err)
 	}
-}
-
-func TestHandleHealth(t *testing.T) {
-	h := New(&fakeRetriever{}, &fakeScorer{})
-	rr := httptest.NewRecorder()
-	h.HandleHealth(rr, httptest.NewRequest(http.MethodGet, "/health", nil))
-
-	if rr.Code != http.StatusOK {
-		t.Fatalf("status = %d, want 200", rr.Code)
-	}
-	if strings.TrimSpace(rr.Body.String()) != `{"status":"ok"}` {
-		t.Errorf("body = %s", rr.Body.String())
+	if p.Status != http.StatusInternalServerError {
+		t.Errorf("status = %d, want 500", p.Status)
 	}
 }

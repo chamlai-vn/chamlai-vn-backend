@@ -22,6 +22,7 @@ import (
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/ai/embedder"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/ai/llm"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/ai/reranker"
+	"github.com/chamlai-vn/chamlai-vn-backend/internal/api"
 )
 
 // Configuration is the full set of env-driven settings for the service.
@@ -30,6 +31,14 @@ type Configuration struct {
 
 	// HTTP server.
 	Port string `env:"PORT" envDefault:"8080"`
+	// AppEnv gates dev-only surfaces (Swagger UI) and log format.
+	// "development" or "production".
+	AppEnv string `env:"APP_ENV" envDefault:"development"`
+	// AllowOrigins is the CORS allow-list, comma-separated. "*" allows any
+	// origin — fine for local dev, tighten for production.
+	AllowOrigins []string `env:"ALLOW_ORIGINS" envDefault:"*"`
+	// BodyLimitBytes caps the request body size /v1/analyze will read.
+	BodyLimitBytes int64 `env:"BODY_LIMIT_BYTES" envDefault:"65536"`
 
 	// Provider selection
 	EmbedProvider string `env:"EMBED_PROVIDER" envDefault:"voyage"`
@@ -119,4 +128,21 @@ func (c Configuration) LLM() llm.Config {
 			MaxTokens: c.AnthropicMaxTokens,
 		},
 	}
+}
+
+// API adapts the env config into the api package's wiring type. Swagger UI
+// is mounted only in development — the spec isn't access-controlled.
+func (c Configuration) API() api.Config {
+	return api.Config{
+		Addr:           ":" + c.Port,
+		AllowOrigins:   c.AllowOrigins,
+		BodyLimitBytes: c.BodyLimitBytes,
+		SwaggerUI:      c.IsDevelopment(),
+	}
+}
+
+// IsDevelopment reports whether AppEnv gates dev-only surfaces (Swagger UI)
+// on.
+func (c Configuration) IsDevelopment() bool {
+	return c.AppEnv == "development"
 }
