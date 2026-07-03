@@ -17,8 +17,11 @@ import (
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/api/v1/analyze"
 )
 
-// Config configures the router's cross-cutting behaviour.
+// Config configures the HTTP layer: what address to listen on (server.go)
+// and the router's cross-cutting behaviour.
 type Config struct {
+	// Addr is the address NewServer listens on, e.g. ":8080".
+	Addr string
 	// AllowOrigins is the CORS allow-list. "*" allows any origin.
 	AllowOrigins []string
 	// BodyLimitBytes caps request body size; requests over the limit get a
