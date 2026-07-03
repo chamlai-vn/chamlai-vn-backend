@@ -87,6 +87,35 @@ Git hooks via `lefthook.yml`. DB creds (local docker): user/pass/db all `chamlai
   `internal/ai/embedder/embedder.go` before adding a provider.
 - **Dimensions must match the DB `vector(N)` column.** A model/provider swap that changes vector
   size silently corrupts the index — `Service.Dimensions()` exists to assert against the column.
+- **Adding a new HTTP endpoint.** Follow the `internal/api/v1/analyze` package as the template:
+  1. **Where it lives**: unversioned/infra routes (liveness, readiness) go in `internal/api/root`;
+     everything business-facing goes in a new `internal/api/v1/<feature>` package. Bump to `v2` only
+     when a breaking change to an *existing* v1 contract is needed, not for new endpoints.
+  2. **File layout**: `service.go` (Handler struct + `New()` + narrow dependency interfaces),
+     `type.go` (request/response DTOs, with `validate:"..."` tags — see `bind`), `<feature>.go`
+     (the handler method(s)) — same split as any application-service package (see above).
+  3. **Handler signature is `func (h *Handler) Handle(w http.ResponseWriter, r *http.Request) error`**,
+     never `http.HandlerFunc`. Decode + validate the request with `bind.JSON[T](r)`; on success write
+     with `respond.JSON(w, status, v)` and `return nil`. Report failure by returning a value, never by
+     writing an error response directly:
+     - a known, user-facing failure → `return problem.BadRequest("...")` (or `NotFound`/`TooLarge`/etc.)
+       with a Vietnamese `detail`
+     - an unexpected collaborator error → `return problem.Internal().WithErr(fmt.Errorf("...: %w", err))`
+       — the wrapped error is logged server-side with the request's `request_id`, never sent to the client
+     - anything else (a plain `error`) is treated as the previous case automatically by `problem.Handler`
+  4. **Wire it in `internal/api/router.go`**: mount under the right prefix
+     (`r.Route("/v1", func(r chi.Router) { r.Post("/...", problem.Handler(h.Handle)) })`), always wrapped
+     in `problem.Handler(...)` — that's what turns a returned error into `application/problem+json`.
+  5. **Swagger**: add `@Summary/@Tags/@Accept/@Produce/@Param/@Success/@Failure/@Router` comments above
+     `Handle` (see `analyze.Handle` for the pattern), then run `make swagger`. `@Failure` responses should
+     reference `problem.Problem`.
+  6. **Tests**: unit-test the `Handler` directly with fakes for its dependency interfaces (see
+     `analyze_test.go`) — one test per branch (ok / bad input / each collaborator error). Full-stack
+     concerns (middleware ordering, CORS, body limits, 404/405 shape) are already covered once by
+     `internal/api/router_test.go`; a new endpoint doesn't need to re-test those, only add a case if it
+     changes router-level behaviour (e.g. a different body-size need).
+  7. See `docs/guides/http-request-flow.md` for a full walkthrough of what happens to a request between
+     the socket and the handler — read that once before touching this layer, not this list again.
 
 ## Notes
 
