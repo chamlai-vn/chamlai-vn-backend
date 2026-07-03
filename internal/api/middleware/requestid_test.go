@@ -16,7 +16,7 @@ func TestRequestID_GeneratesWhenMissing(t *testing.T) {
 	rr := httptest.NewRecorder()
 	RequestID(next).ServeHTTP(rr, httptest.NewRequest(http.MethodGet, "/", nil))
 
-	if id := rr.Header().Get(requestIDHeader); id == "" {
+	if id := rr.Header().Get(RequestIDHeader); id == "" {
 		t.Fatal("expected a generated request ID header")
 	}
 }
@@ -24,11 +24,11 @@ func TestRequestID_GeneratesWhenMissing(t *testing.T) {
 func TestRequestID_EchoesClientHeader(t *testing.T) {
 	rr := httptest.NewRecorder()
 	req := httptest.NewRequest(http.MethodGet, "/", nil)
-	req.Header.Set(requestIDHeader, "client-supplied-id-123")
+	req.Header.Set(RequestIDHeader, "client-supplied-id-123")
 
 	RequestID(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {})).ServeHTTP(rr, req)
 
-	if got := rr.Header().Get(requestIDHeader); got != "client-supplied-id-123" {
+	if got := rr.Header().Get(RequestIDHeader); got != "client-supplied-id-123" {
 		t.Errorf("id = %q, want echoed client id", got)
 	}
 }
@@ -42,11 +42,11 @@ func TestRequestID_RejectsOversizedOrControlChars(t *testing.T) {
 	for _, bad := range cases {
 		rr := httptest.NewRecorder()
 		req := httptest.NewRequest(http.MethodGet, "/", nil)
-		req.Header.Set(requestIDHeader, bad)
+		req.Header.Set(RequestIDHeader, bad)
 
 		RequestID(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {})).ServeHTTP(rr, req)
 
-		if got := rr.Header().Get(requestIDHeader); got == bad {
+		if got := rr.Header().Get(RequestIDHeader); got == bad {
 			t.Errorf("invalid client id %q was echoed back verbatim", bad)
 		}
 	}
@@ -63,7 +63,7 @@ func TestRequestID_InstallsContextLoggerTaggedWithID(t *testing.T) {
 	})
 	rr := httptest.NewRecorder()
 	req := httptest.NewRequest(http.MethodGet, "/", nil)
-	req.Header.Set(requestIDHeader, "fixed-test-id")
+	req.Header.Set(RequestIDHeader, "fixed-test-id")
 	RequestID(next).ServeHTTP(rr, req)
 
 	if !strings.Contains(buf.String(), "request_id=fixed-test-id") {

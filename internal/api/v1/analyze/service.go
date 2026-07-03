@@ -1,10 +1,9 @@
-// Package api is the HTTP layer over the scam-scoring pipeline: it decodes a
-// request, retrieves similar scam patterns, scores the message with the LLM,
-// and returns the verdict as JSON. Construction + the Handler struct live in
-// service.go (start here); request/response DTOs in type.go; the endpoints in
-// analyze.go and health.go; routing + middleware in router.go; JSON write
-// helpers in respond.go.
-package api
+// Package analyze is the HTTP layer over the scam-scoring pipeline: it
+// decodes a request, retrieves similar scam patterns, scores the message
+// with the LLM, and returns the verdict as JSON. Construction + the Handler
+// struct live in service.go (start here); the request DTO in type.go; the
+// endpoint in analyze.go.
+package analyze
 
 import (
 	"context"
@@ -22,9 +21,9 @@ type Retriever interface {
 	Retrieve(ctx context.Context, query string, k int) ([]retriever.Result, error)
 }
 
-// Handler serves the API over the retrieve→score pipeline. Both collaborators
-// are injected (no global state). Safe for concurrent use if they are (they
-// are).
+// Handler serves POST /v1/analyze over the retrieve→score pipeline. Both
+// collaborators are injected (no global state). Safe for concurrent use if
+// they are (they are).
 type Handler struct {
 	retriever Retriever
 	scorer    analyzer.Scorer

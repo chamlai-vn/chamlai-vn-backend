@@ -13,6 +13,7 @@ import (
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/ai/embedder"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/ai/llm"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/api"
+	"github.com/chamlai-vn/chamlai-vn-backend/internal/api/v1/analyze"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/infra/store"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/scam/analyzer"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/scam/retriever"
@@ -52,11 +53,12 @@ func main() {
 
 	ret := retriever.New(emb, st)
 	scorer := analyzer.New(llmSvc)
-	h := api.New(ret, scorer)
+	h := analyze.New(ret, scorer)
 
+	routerCfg := api.Config{AllowOrigins: []string{"*"}, BodyLimitBytes: 64 * 1024}
 	addr := ":" + cfg.Port
 	log.Printf("API listening on %s", addr)
-	if err := http.ListenAndServe(addr, api.NewRouter(h)); err != nil {
+	if err := http.ListenAndServe(addr, api.NewRouter(routerCfg, h)); err != nil {
 		log.Fatalf("server: %v", err)
 	}
 }

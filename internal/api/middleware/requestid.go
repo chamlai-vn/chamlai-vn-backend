@@ -13,9 +13,10 @@ import (
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/api/problem"
 )
 
-// requestIDHeader is the header a client-supplied or server-generated
-// request ID travels under, both ways.
-const requestIDHeader = "X-Request-Id"
+// RequestIDHeader is the header a client-supplied or server-generated
+// request ID travels under, both ways. Exported so the router can allow it
+// through CORS.
+const RequestIDHeader = "X-Request-Id"
 
 // RequestID accepts a client-supplied X-Request-Id (validated, so a client
 // can't smuggle log-injection payloads) or mints a new ULID, echoes it back
@@ -24,11 +25,11 @@ const requestIDHeader = "X-Request-Id"
 // log) carries it for free.
 func RequestID(next http.Handler) http.Handler {
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		id := sanitizeRequestID(r.Header.Get(requestIDHeader))
+		id := sanitizeRequestID(r.Header.Get(RequestIDHeader))
 		if id == "" {
 			id = ulidutil.NewString()
 		}
-		w.Header().Set(requestIDHeader, id)
+		w.Header().Set(RequestIDHeader, id)
 
 		logger := slog.Default().With("request_id", id)
 		ctx := problem.ContextWithLogger(r.Context(), logger)
