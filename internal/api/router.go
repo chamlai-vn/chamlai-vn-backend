@@ -17,7 +17,7 @@ import (
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/api/root"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/api/v1/analyze"
 
-	_ "github.com/chamlai-vn/chamlai-vn-backend/internal/api/docs" // swagger spec, registered via init()
+	_ "github.com/chamlai-vn/chamlai-vn-backend/internal/api/swagger" // swagger spec, registered via init()
 )
 
 // Config configures the HTTP layer: what address to listen on (server.go)

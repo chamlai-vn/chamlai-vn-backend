@@ -70,7 +70,7 @@ internal/
     middleware/   # request ID, log request có cấu trúc (slog), phục hồi panic
     root/         # route không version (GET /health)
     v1/analyze/   # POST /v1/analyze
-    docs/         # sinh bởi `make swagger` — không sửa tay
+    swagger/      # sinh bởi `make swagger` — không sửa tay
   model/          # domain types
 pkg/util/
   eval/           # metric đo chất lượng retrieval (Hit@K, MRR), không phụ thuộc gì
