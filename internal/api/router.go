@@ -10,11 +10,14 @@ import (
 	"github.com/go-chi/chi/v5"
 	chimw "github.com/go-chi/chi/v5/middleware"
 	"github.com/go-chi/cors"
+	httpSwagger "github.com/swaggo/http-swagger/v2"
 
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/api/middleware"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/api/problem"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/api/root"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/api/v1/analyze"
+
+	_ "github.com/chamlai-vn/chamlai-vn-backend/internal/api/docs" // swagger spec, registered via init()
 )
 
 // Config configures the HTTP layer: what address to listen on (server.go)
@@ -27,6 +30,9 @@ type Config struct {
 	// BodyLimitBytes caps request body size; requests over the limit get a
 	// 413 problem response instead of an unbounded read.
 	BodyLimitBytes int64
+	// SwaggerUI mounts GET /swagger/* when true. Meant for development only
+	// — the spec isn't access-controlled.
+	SwaggerUI bool
 }
 
 // NewRouter builds the HTTP router: RequestID → client-IP → RequestLogger →
@@ -65,6 +71,10 @@ func NewRouter(cfg Config, analyzeHandler *analyze.Handler) http.Handler {
 	r.Route("/v1", func(r chi.Router) {
 		r.Post("/analyze", problem.Handler(analyzeHandler.Handle))
 	})
+
+	if cfg.SwaggerUI {
+		r.Get("/swagger/*", httpSwagger.Handler(httpSwagger.URL("/swagger/doc.json")))
+	}
 
 	return r
 }

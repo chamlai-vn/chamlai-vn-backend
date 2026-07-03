@@ -130,12 +130,14 @@ func (c Configuration) LLM() llm.Config {
 	}
 }
 
-// API adapts the env config into the api package's wiring type.
+// API adapts the env config into the api package's wiring type. Swagger UI
+// is mounted only in development — the spec isn't access-controlled.
 func (c Configuration) API() api.Config {
 	return api.Config{
 		Addr:           ":" + c.Port,
 		AllowOrigins:   c.AllowOrigins,
 		BodyLimitBytes: c.BodyLimitBytes,
+		SwaggerUI:      c.IsDevelopment(),
 	}
 }
 

@@ -3,6 +3,11 @@
 // constructor injection and exposes POST /v1/analyze and GET /health. The
 // HTTP handlers live in internal/api; the same wiring is smoke-tested by
 // cmd/seed.
+//
+// @title        ChậmLại.vn Scam-Scoring API
+// @version      1.0
+// @description  RAG service that scores whether a Vietnamese message is a scam (red/yellow/green verdict).
+// @BasePath     /
 package main
 
 import (

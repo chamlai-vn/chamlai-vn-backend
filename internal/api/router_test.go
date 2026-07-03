@@ -121,6 +121,34 @@ func TestRouter_BodyOverLimit_413(t *testing.T) {
 	}
 }
 
+func TestRouter_SwaggerUI_GatedByConfig(t *testing.T) {
+	h := analyze.New(fakeRetriever{}, fakeScorer{})
+
+	off := httptest.NewServer(NewRouter(testConfig(), h))
+	defer off.Close()
+	resp, err := http.Get(off.URL + "/swagger/index.html")
+	if err != nil {
+		t.Fatal(err)
+	}
+	_ = resp.Body.Close()
+	if resp.StatusCode != http.StatusNotFound {
+		t.Errorf("SwaggerUI=false: status = %d, want 404", resp.StatusCode)
+	}
+
+	cfg := testConfig()
+	cfg.SwaggerUI = true
+	on := httptest.NewServer(NewRouter(cfg, h))
+	defer on.Close()
+	resp, err = http.Get(on.URL + "/swagger/doc.json")
+	if err != nil {
+		t.Fatal(err)
+	}
+	_ = resp.Body.Close()
+	if resp.StatusCode != http.StatusOK {
+		t.Errorf("SwaggerUI=true: status = %d, want 200", resp.StatusCode)
+	}
+}
+
 func TestRouter_CORSPreflight(t *testing.T) {
 	h := analyze.New(fakeRetriever{}, fakeScorer{})
 	srv := httptest.NewServer(NewRouter(testConfig(), h))

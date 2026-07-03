@@ -36,3 +36,6 @@ migrate.%.down: ## Roll back the latest migration for env (e.g., make migrate.lo
 
 migrate.%.status: ## Show migration status for env (e.g., make migrate.local.status)
 	DATABASE_URL="$(call _db_url,$*)" go run ./cmd/migration status
+
+swagger: ## Regenerate the OpenAPI spec + docs package from handler annotations
+	go tool swag init -g cmd/api/main.go -o internal/api/docs

@@ -17,6 +17,17 @@ import (
 // separate response DTO. Errors are returned rather than written directly —
 // problem.Handler (mounted in the router) translates them to
 // application/problem+json.
+//
+// @Summary      Score a message for scam risk
+// @Description  Retrieves similar known scam patterns and asks the LLM to score the message red/yellow/green.
+// @Tags         analyze
+// @Accept       json
+// @Produce      json
+// @Param        request  body      Request                 true  "Message to score"
+// @Success      200      {object}  analyzer.AnalysisResult
+// @Failure      400      {object}  problem.Problem  "malformed body, empty text, or body too large"
+// @Failure      500      {object}  problem.Problem  "retrieval or scoring failed"
+// @Router       /v1/analyze [post]
 func (h *Handler) Handle(w http.ResponseWriter, r *http.Request) error {
 	req, err := bind.JSON[Request](r)
 	if err != nil {

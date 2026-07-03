@@ -1,0 +1,97 @@
+basePath: /
+definitions:
+  analyze.Request:
+    properties:
+      text:
+        description: |-
+          Text is the suspicious message to score. Required; capped well above
+          any real chat message to keep embedding/LLM cost bounded.
+        maxLength: 10000
+        type: string
+    required:
+    - text
+    type: object
+  analyzer.AnalysisResult:
+    properties:
+      disclaimer:
+        type: string
+      matched_patterns:
+        items:
+          type: string
+        type: array
+      recommended_actions:
+        items:
+          type: string
+        type: array
+      red_flags:
+        items:
+          type: string
+        type: array
+      risk_level:
+        description: '"red" | "yellow" | "green"'
+        type: string
+    type: object
+  problem.Problem:
+    properties:
+      detail:
+        type: string
+      status:
+        type: integer
+      title:
+        type: string
+      type:
+        type: string
+    type: object
+info:
+  contact: {}
+  description: RAG service that scores whether a Vietnamese message is a scam (red/yellow/green
+    verdict).
+  title: ChậmLại.vn Scam-Scoring API
+  version: "1.0"
+paths:
+  /health:
+    get:
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+      summary: Liveness probe
+      tags:
+      - health
+  /v1/analyze:
+    post:
+      consumes:
+      - application/json
+      description: Retrieves similar known scam patterns and asks the LLM to score
+        the message red/yellow/green.
+      parameters:
+      - description: Message to score
+        in: body
+        name: request
+        required: true
+        schema:
+          $ref: '#/definitions/analyze.Request'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/analyzer.AnalysisResult'
+        "400":
+          description: malformed body, empty text, or body too large
+          schema:
+            $ref: '#/definitions/problem.Problem'
+        "500":
+          description: retrieval or scoring failed
+          schema:
+            $ref: '#/definitions/problem.Problem'
+      summary: Score a message for scam risk
+      tags:
+      - analyze
+swagger: "2.0"
