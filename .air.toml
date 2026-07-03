@@ -12,7 +12,7 @@ tmp_dir = "tmp"
   # -p=10: Use all CPU cores for parallel compilation
   cmd = "CGO_ENABLED=0 go build -tags swagger -mod=readonly -buildvcs=false -trimpath -p=10 -o ./tmp/main ./cmd/api/"
   delay = 500
-  exclude_dir = ["assets", "api", "tmp", "vendor", "testdata", "node_modules", "docker", "deploy", "payslips", "logs", "templates", "output", ".git", "functions", "opencodetmp", "scripts", ".cursor", ".github", "blobs", "exports", "cmd/migration", "cmd/report", "cmd/profilecontroller", "cmd/payrollcontroller", "cmd/payrollcyclecontroller", "cmd/massuploadwagecomponent", "cmd/massuploaduser", "cmd/dailytaskscheduler", "cmd/usercontroller", "cmd/payslip", "cmd/notificationworker", "cmd/massuploadtaxscheme", "cmd/massuploadholiday", "cmd/massuploadsocialpremium", "cmd/jurisdictioncontroller"]
+  exclude_dir = ["tmp", ".git", ".vscode", ".claude", "docs", "deployment", "benchmark", "scripts", "internal/api/swagger", "cmd/crawler", "cmd/migration", "cmd/seed"]
   exclude_file = ["*.html", "*.pdf", "*.xlsx", "*.csv"]
   exclude_regex = [".*_test\\.go$", ".*\\.out$", ".*\\.log$"]
   exclude_unchanged = true

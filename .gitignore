@@ -45,3 +45,7 @@ sites_local.go
 docs/brainstorms/
 docs/plans/
 docs/guides/
+
+# Local server artifacts
+.pid*
+tmp
