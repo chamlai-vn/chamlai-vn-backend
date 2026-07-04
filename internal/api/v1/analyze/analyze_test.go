@@ -22,7 +22,7 @@ type fakeRetriever struct {
 	err      error
 }
 
-func (f *fakeRetriever) Retrieve(_ context.Context, query string, k int) ([]retriever.Result, error) {
+func (f *fakeRetriever) HybridSearch(_ context.Context, query string, k int) ([]retriever.Result, error) {
 	f.gotQuery, f.gotK = query, k
 	return f.results, f.err
 }

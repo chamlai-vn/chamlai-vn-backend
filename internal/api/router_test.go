@@ -14,7 +14,7 @@ import (
 
 type fakeRetriever struct{}
 
-func (fakeRetriever) Retrieve(_ context.Context, _ string, _ int) ([]retriever.Result, error) {
+func (fakeRetriever) HybridSearch(_ context.Context, _ string, _ int) ([]retriever.Result, error) {
 	return nil, nil
 }
 

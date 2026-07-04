@@ -16,9 +16,10 @@ const defaultTopK = 5
 
 // Retriever is the narrow slice of the retrieval pipeline the handler needs.
 // *retriever.Retriever satisfies it; tests supply a fake. Kept narrow — the
-// handler only ever asks for the top-k similar patterns.
+// handler only ever asks for the top-k similar patterns, via the hybrid
+// (vector + keyword, RRF-fused, optionally reranked) search path.
 type Retriever interface {
-	Retrieve(ctx context.Context, query string, k int) ([]retriever.Result, error)
+	HybridSearch(ctx context.Context, query string, k int) ([]retriever.Result, error)
 }
 
 // Handler serves POST /v1/analyze over the retrieve→score pipeline. Both

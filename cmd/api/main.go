@@ -1,8 +1,9 @@
 // Command api serves the ChậmLại.vn scam-scoring HTTP API. It wires the RAG
-// pipeline (config → store → embedder → retriever → llm → analyzer) via
-// constructor injection and exposes POST /v1/analyze and GET /health. The
-// HTTP handlers live in internal/api; the same wiring is smoke-tested by
-// cmd/seed.
+// pipeline (config → store → embedder → reranker → retriever → llm →
+// analyzer) via constructor injection and exposes POST /v1/analyze and GET
+// /health. The retriever runs hybrid (vector + keyword, RRF-fused) search
+// with the reranker as a stage after fusion. The HTTP handlers live in
+// internal/api; the same wiring is smoke-tested by cmd/seed.
 //
 // @title        ChậmLại.vn Scam-Scoring API
 // @version      1.0
@@ -20,6 +21,7 @@ import (
 	"github.com/chamlai-vn/chamlai-vn-backend/config"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/ai/embedder"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/ai/llm"
+	"github.com/chamlai-vn/chamlai-vn-backend/internal/ai/reranker"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/api"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/api/v1/analyze"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/infra/store"
@@ -70,7 +72,13 @@ func main() {
 	}
 	slog.Info("llm ready", "model", llmSvc.Model())
 
-	ret := retriever.New(emb, st)
+	rr, err := reranker.New(cfg.Reranker())
+	if err != nil {
+		slog.Error("reranker", "error", err)
+		os.Exit(1)
+	}
+
+	ret := retriever.New(emb, st, retriever.WithReranker(rr))
 	scorer := analyzer.New(llmSvc)
 	analyzeHandler := analyze.New(ret, scorer)
 

@@ -12,7 +12,8 @@ import (
 
 // Handle scores a suspicious message. The pipeline is two steps — the
 // analyzer does NOT retrieve — mirroring cmd/seed: decode → validate →
-// retriever.Retrieve → analyzer.Score. The verdict is analyzer.AnalysisResult,
+// retriever.HybridSearch (vector + keyword, RRF-fused, reranked) →
+// analyzer.Score. The verdict is analyzer.AnalysisResult,
 // returned as-is: its JSON tags already are the public response shape, so no
 // separate response DTO. Errors are returned rather than written directly —
 // problem.Handler (mounted in the router) translates them to
@@ -40,7 +41,7 @@ func (h *Handler) Handle(w http.ResponseWriter, r *http.Request) error {
 	}
 
 	ctx := r.Context()
-	chunks, err := h.retriever.Retrieve(ctx, text, h.topK)
+	chunks, err := h.retriever.HybridSearch(ctx, text, h.topK)
 	if err != nil {
 		return problem.Internal().WithErr(fmt.Errorf("retrieve scam patterns: %w", err))
 	}
