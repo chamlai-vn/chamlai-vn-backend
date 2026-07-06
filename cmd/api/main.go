@@ -24,8 +24,10 @@ import (
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/ai/reranker"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/api"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/api/v1/analyze"
+	apichat "github.com/chamlai-vn/chamlai-vn-backend/internal/api/v1/chat"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/infra/store"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/scam/analyzer"
+	scamchat "github.com/chamlai-vn/chamlai-vn-backend/internal/scam/chat"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/scam/retriever"
 )
 
@@ -82,8 +84,18 @@ func main() {
 	scorer := analyzer.New(llmSvc)
 	analyzeHandler := analyze.New(ret, scorer)
 
+	// Chat reuses the same retriever + scorer + LLM; the router and answerer
+	// are thin LLM wrappers over the shared client.
+	chatSvc := scamchat.New(
+		scamchat.NewLLMRouter(llmSvc),
+		ret,
+		scorer,
+		scamchat.NewLLMAnswerer(llmSvc),
+	)
+	chatHandler := apichat.New(chatSvc)
+
 	apiCfg := cfg.API()
-	router := api.NewRouter(apiCfg, analyzeHandler)
+	router := api.NewRouter(apiCfg, analyzeHandler, chatHandler)
 	srv := api.NewServer(apiCfg, router)
 
 	slog.Info("API listening", "addr", apiCfg.Addr)

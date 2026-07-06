@@ -14,6 +14,12 @@ type Service interface {
 	// caller owns unmarshalling into its own DTO.
 	GenerateStructured(ctx context.Context, req Request) (json.RawMessage, error)
 
+	// Generate produces a free-text reply (no tool use). It uses req.System,
+	// req.User and req.MaxTokens; the tool fields (ToolName/ToolDesc/Schema) are
+	// ignored. Used for conversational answers where structured output isn't
+	// wanted.
+	Generate(ctx context.Context, req Request) (string, error)
+
 	// Model returns the underlying model id, for logging + eval metadata.
 	Model() string
 }

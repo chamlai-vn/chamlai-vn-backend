@@ -8,7 +8,9 @@ import (
 	"testing"
 
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/api/v1/analyze"
+	apichat "github.com/chamlai-vn/chamlai-vn-backend/internal/api/v1/chat"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/scam/analyzer"
+	scamchat "github.com/chamlai-vn/chamlai-vn-backend/internal/scam/chat"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/scam/retriever"
 )
 
@@ -24,8 +26,24 @@ func (fakeScorer) Score(_ context.Context, _ string, _ []retriever.Result) (*ana
 	return &analyzer.AnalysisResult{RiskLevel: analyzer.RiskGreen}, nil
 }
 
+// fakeChatter always replies with a scam verdict — enough to exercise router
+// wiring for /v1/chat without a DB/LLM.
+type fakeChatter struct{}
+
+func (fakeChatter) Reply(_ context.Context, _ scamchat.ChatRequest) (*scamchat.ChatResponse, error) {
+	return &scamchat.ChatResponse{
+		Intent:   scamchat.IntentScam,
+		Analysis: &analyzer.AnalysisResult{RiskLevel: analyzer.RiskGreen},
+	}, nil
+}
+
 func testConfig() Config {
 	return Config{AllowOrigins: []string{"https://chamlai.vn"}, BodyLimitBytes: 64 * 1024}
+}
+
+// newTestRouter wires the real router with a fake analyze + chat handler.
+func newTestRouter(cfg Config, h *analyze.Handler) http.Handler {
+	return NewRouter(cfg, h, apichat.New(fakeChatter{}))
 }
 
 // TestRouter_Wiring exercises the real chi router + middleware stack (not the
@@ -33,7 +51,7 @@ func testConfig() Config {
 // validation, and error shape all through NewRouter — no DB/LLM required.
 func TestRouter_Wiring(t *testing.T) {
 	h := analyze.New(fakeRetriever{}, fakeScorer{})
-	srv := httptest.NewServer(NewRouter(testConfig(), h))
+	srv := httptest.NewServer(newTestRouter(testConfig(), h))
 	defer srv.Close()
 
 	cases := []struct {
@@ -46,6 +64,9 @@ func TestRouter_Wiring(t *testing.T) {
 		{"health ok", http.MethodGet, "/health", "", http.StatusOK},
 		{"analyze empty text → 400", http.MethodPost, "/v1/analyze", `{"text":""}`, http.StatusBadRequest},
 		{"analyze ok → 200", http.MethodPost, "/v1/analyze", `{"text":"đặt cọc gấp"}`, http.StatusOK},
+		{"chat empty messages → 400", http.MethodPost, "/v1/chat", `{"messages":[]}`, http.StatusBadRequest},
+		{"chat ok → 200", http.MethodPost, "/v1/chat", `{"messages":[{"role":"user","content":"xin chào"}]}`, http.StatusOK},
+		{"wrong method on chat → 405", http.MethodGet, "/v1/chat", "", http.StatusMethodNotAllowed},
 		{"old unversioned analyze → 404", http.MethodPost, "/analyze", `{"text":"x"}`, http.StatusNotFound},
 		{"wrong method on analyze → 405", http.MethodGet, "/v1/analyze", "", http.StatusMethodNotAllowed},
 		{"unknown route → 404", http.MethodGet, "/nope", "", http.StatusNotFound},
@@ -70,7 +91,7 @@ func TestRouter_Wiring(t *testing.T) {
 
 func TestRouter_ErrorsAreProblemJSON(t *testing.T) {
 	h := analyze.New(fakeRetriever{}, fakeScorer{})
-	srv := httptest.NewServer(NewRouter(testConfig(), h))
+	srv := httptest.NewServer(newTestRouter(testConfig(), h))
 	defer srv.Close()
 
 	resp, err := http.Get(srv.URL + "/nope")
@@ -86,7 +107,7 @@ func TestRouter_ErrorsAreProblemJSON(t *testing.T) {
 
 func TestRouter_EchoesRequestID(t *testing.T) {
 	h := analyze.New(fakeRetriever{}, fakeScorer{})
-	srv := httptest.NewServer(NewRouter(testConfig(), h))
+	srv := httptest.NewServer(newTestRouter(testConfig(), h))
 	defer srv.Close()
 
 	req, _ := http.NewRequest(http.MethodGet, srv.URL+"/health", nil)
@@ -106,7 +127,7 @@ func TestRouter_EchoesRequestID(t *testing.T) {
 func TestRouter_BodyOverLimit_413(t *testing.T) {
 	h := analyze.New(fakeRetriever{}, fakeScorer{})
 	cfg := Config{AllowOrigins: []string{"*"}, BodyLimitBytes: 16}
-	srv := httptest.NewServer(NewRouter(cfg, h))
+	srv := httptest.NewServer(newTestRouter(cfg, h))
 	defer srv.Close()
 
 	body := `{"text":"this body is longer than sixteen bytes"}`
@@ -124,7 +145,7 @@ func TestRouter_BodyOverLimit_413(t *testing.T) {
 func TestRouter_SwaggerUI_GatedByConfig(t *testing.T) {
 	h := analyze.New(fakeRetriever{}, fakeScorer{})
 
-	off := httptest.NewServer(NewRouter(testConfig(), h))
+	off := httptest.NewServer(newTestRouter(testConfig(), h))
 	defer off.Close()
 	resp, err := http.Get(off.URL + "/swagger/index.html")
 	if err != nil {
@@ -137,7 +158,7 @@ func TestRouter_SwaggerUI_GatedByConfig(t *testing.T) {
 
 	cfg := testConfig()
 	cfg.SwaggerUI = true
-	on := httptest.NewServer(NewRouter(cfg, h))
+	on := httptest.NewServer(newTestRouter(cfg, h))
 	defer on.Close()
 	resp, err = http.Get(on.URL + "/swagger/doc.json")
 	if err != nil {
@@ -151,7 +172,7 @@ func TestRouter_SwaggerUI_GatedByConfig(t *testing.T) {
 
 func TestRouter_CORSPreflight(t *testing.T) {
 	h := analyze.New(fakeRetriever{}, fakeScorer{})
-	srv := httptest.NewServer(NewRouter(testConfig(), h))
+	srv := httptest.NewServer(newTestRouter(testConfig(), h))
 	defer srv.Close()
 
 	req, _ := http.NewRequest(http.MethodOptions, srv.URL+"/v1/analyze", nil)

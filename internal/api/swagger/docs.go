@@ -82,6 +82,52 @@ const docTemplate = `{
                     }
                 }
             }
+        },
+        "/v1/chat": {
+            "post": {
+                "description": "Routes a multi-turn message into one of three flows: questions about the project, about the founder, or (default) scam detection. The last message must be from the user.",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "chat"
+                ],
+                "summary": "Chat with the ChậmLại.vn assistant",
+                "parameters": [
+                    {
+                        "description": "Conversation history",
+                        "name": "request",
+                        "in": "body",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/chat.Request"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "$ref": "#/definitions/chat.ChatResponse"
+                        }
+                    },
+                    "400": {
+                        "description": "malformed body, invalid messages, or last message not from user",
+                        "schema": {
+                            "$ref": "#/definitions/problem.Problem"
+                        }
+                    },
+                    "500": {
+                        "description": "routing, retrieval, scoring, or answering failed",
+                        "schema": {
+                            "$ref": "#/definitions/problem.Problem"
+                        }
+                    }
+                }
+            }
         }
     },
     "definitions": {
@@ -125,6 +171,72 @@ const docTemplate = `{
                 "risk_level": {
                     "description": "\"red\" | \"yellow\" | \"green\"",
                     "type": "string"
+                }
+            }
+        },
+        "chat.ChatResponse": {
+            "type": "object",
+            "properties": {
+                "analysis": {
+                    "$ref": "#/definitions/analyzer.AnalysisResult"
+                },
+                "intent": {
+                    "$ref": "#/definitions/chat.Intent"
+                },
+                "reply": {
+                    "type": "string"
+                }
+            }
+        },
+        "chat.Intent": {
+            "type": "string",
+            "enum": [
+                "project",
+                "founder",
+                "scam"
+            ],
+            "x-enum-varnames": [
+                "IntentProject",
+                "IntentFounder",
+                "IntentScam"
+            ]
+        },
+        "chat.Request": {
+            "type": "object",
+            "required": [
+                "messages"
+            ],
+            "properties": {
+                "messages": {
+                    "description": "Messages is the ordered conversation history, oldest first. Required and\ncapped to keep prompt size bounded.",
+                    "type": "array",
+                    "maxItems": 50,
+                    "minItems": 1,
+                    "items": {
+                        "$ref": "#/definitions/internal_api_v1_chat.Message"
+                    }
+                }
+            }
+        },
+        "internal_api_v1_chat.Message": {
+            "type": "object",
+            "required": [
+                "content",
+                "role"
+            ],
+            "properties": {
+                "content": {
+                    "description": "Content is the message text. Capped to bound embedding/LLM cost.",
+                    "type": "string",
+                    "maxLength": 10000
+                },
+                "role": {
+                    "description": "Role is who sent the message: \"user\" or \"assistant\".",
+                    "type": "string",
+                    "enum": [
+                        "user",
+                        "assistant"
+                    ]
                 }
             }
         },

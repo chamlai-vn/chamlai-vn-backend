@@ -4,6 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	"strings"
 	"time"
 
 	"github.com/anthropics/anthropic-sdk-go"
@@ -118,4 +119,44 @@ func (a *Anthropic) GenerateStructured(ctx context.Context, req Request) (json.R
 		}
 	}
 	return nil, fmt.Errorf("llm: anthropic: no %q tool_use block in response (stop_reason=%s)", req.ToolName, msg.StopReason)
+}
+
+// Generate produces a free-text reply from req.System + req.User, with no tool
+// use. It concatenates the text blocks of the response.
+func (a *Anthropic) Generate(ctx context.Context, req Request) (string, error) {
+	maxTokens := req.MaxTokens
+	if maxTokens <= 0 {
+		maxTokens = a.maxTokens
+	}
+
+	params := anthropic.MessageNewParams{
+		Model:     anthropic.Model(a.model),
+		MaxTokens: int64(maxTokens),
+		Messages: []anthropic.MessageParam{
+			anthropic.NewUserMessage(anthropic.NewTextBlock(req.User)),
+		},
+	}
+	if req.System != "" {
+		params.System = []anthropic.TextBlockParam{{Text: req.System}}
+	}
+
+	ctx, cancel := context.WithTimeout(ctx, anthropicTimeout)
+	defer cancel()
+
+	msg, err := a.client.Messages.New(ctx, params, a.reqOpts...)
+	if err != nil {
+		return "", fmt.Errorf("llm: anthropic: messages: %w", err)
+	}
+
+	var sb strings.Builder
+	for _, block := range msg.Content {
+		if block.Type == "text" {
+			sb.WriteString(block.AsText().Text)
+		}
+	}
+	text := strings.TrimSpace(sb.String())
+	if text == "" {
+		return "", fmt.Errorf("llm: anthropic: empty text response (stop_reason=%s)", msg.StopReason)
+	}
+	return text, nil
 }

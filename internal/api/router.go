@@ -16,6 +16,7 @@ import (
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/api/problem"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/api/root"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/api/v1/analyze"
+	"github.com/chamlai-vn/chamlai-vn-backend/internal/api/v1/chat"
 
 	_ "github.com/chamlai-vn/chamlai-vn-backend/internal/api/swagger" // swagger spec, registered via init()
 )
@@ -45,7 +46,7 @@ type Config struct {
 // reverse proxy yet. If one is introduced, switch to chimw.ClientIPFromXFF
 // with that proxy's CIDRs (chi's plain RealIP trusts X-Forwarded-For
 // unconditionally and is deprecated for exactly this reason).
-func NewRouter(cfg Config, analyzeHandler *analyze.Handler) http.Handler {
+func NewRouter(cfg Config, analyzeHandler *analyze.Handler, chatHandler *chat.Handler) http.Handler {
 	r := chi.NewRouter()
 	r.Use(
 		middleware.RequestID,
@@ -70,6 +71,7 @@ func NewRouter(cfg Config, analyzeHandler *analyze.Handler) http.Handler {
 	r.Get("/health", root.Health)
 	r.Route("/v1", func(r chi.Router) {
 		r.Post("/analyze", problem.Handler(analyzeHandler.Handle))
+		r.Post("/chat", problem.Handler(chatHandler.Handle))
 	})
 
 	if cfg.SwaggerUI {
