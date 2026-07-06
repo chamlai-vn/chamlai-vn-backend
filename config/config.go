@@ -65,6 +65,16 @@ type Configuration struct {
 	AnthropicAPIKey    string `env:"ANTHROPIC_API_KEY"`
 	AnthropicModel     string `env:"ANTHROPIC_MODEL" envDefault:"claude-haiku-4-5-20251001"`
 	AnthropicMaxTokens int    `env:"ANTHROPIC_MAX_TOKENS" envDefault:"1024"`
+
+	// Google Gemini (alternative LLM).
+	GeminiAPIKey    string `env:"GEMINI_API_KEY"`
+	GeminiModel     string `env:"GEMINI_MODEL" envDefault:"gemini-3.5-flash"`
+	GeminiMaxTokens int    `env:"GEMINI_MAX_TOKENS" envDefault:"1024"`
+
+	// OpenAI (alternative LLM).
+	OpenAIAPIKey    string `env:"OPENAI_API_KEY"`
+	OpenAIModel     string `env:"OPENAI_MODEL" envDefault:"gpt-5.4-mini"`
+	OpenAIMaxTokens int    `env:"OPENAI_MAX_TOKENS" envDefault:"2048"`
 }
 
 // Load reads an optional .env file then overlays OS environment variables and
@@ -126,6 +136,16 @@ func (c Configuration) LLM() llm.Config {
 			APIKey:    c.AnthropicAPIKey,
 			Model:     c.AnthropicModel,
 			MaxTokens: c.AnthropicMaxTokens,
+		},
+		Gemini: llm.GeminiConfig{
+			APIKey:    c.GeminiAPIKey,
+			Model:     c.GeminiModel,
+			MaxTokens: c.GeminiMaxTokens,
+		},
+		OpenAI: llm.OpenAIConfig{
+			APIKey:    c.OpenAIAPIKey,
+			Model:     c.OpenAIModel,
+			MaxTokens: c.OpenAIMaxTokens,
 		},
 	}
 }
