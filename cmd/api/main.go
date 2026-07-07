@@ -64,6 +64,11 @@ func main() {
 		os.Exit(1)
 	}
 	slog.Info("embedder ready", "model", emb.Model(), "dims", emb.Dimensions())
+	if emb.Dimensions() != store.EmbeddingDimensions {
+		slog.Error("embedder dimensions do not match the chunks.embedding column",
+			"got", emb.Dimensions(), "want", store.EmbeddingDimensions)
+		os.Exit(1)
+	}
 
 	llmSvc, err := llm.New(cfg.LLM())
 	if err != nil {

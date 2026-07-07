@@ -9,6 +9,8 @@ import (
 
 	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgconn"
+
+	"github.com/chamlai-vn/chamlai-vn-backend/internal/model"
 )
 
 // uniqueViolation is Postgres' SQLSTATE for a unique-constraint violation.
@@ -53,39 +55,18 @@ func vecLiteral(v []float32) string {
 	return b.String()
 }
 
-// InsertDocument stores one scam-warning article and returns its id.
-func (s *Store) InsertDocument(ctx context.Context, url, title, content, scamType, source string) (int64, error) {
-	var id int64
-	err := s.pool.QueryRow(ctx,
-		`INSERT INTO documents (url, title, content, scam_type, source)
-		 VALUES ($1,$2,$3,$4,$5) RETURNING id`,
-		url, title, content, scamType, source).Scan(&id)
-	return id, err
-}
-
-// InsertChunk stores one chunk of a document together with its embedding.
-func (s *Store) InsertChunk(ctx context.Context, docID int64, content string, emb []float32) error {
-	_, err := s.pool.Exec(ctx,
-		`INSERT INTO chunks (document_id, content, embedding)
-		 VALUES ($1,$2,$3::vector)`,
-		docID, content, vecLiteral(emb))
-	return err
-}
-
-// Chunk is one piece of document text paired with its embedding, ready to store.
-type Chunk struct {
-	Content   string
-	Embedding []float32
-}
-
 // InsertDocumentWithChunks stores a document and all its chunks in a single
 // transaction, returning the new document id. Either everything lands or
 // nothing does — so a failure partway through the chunks can't leave an
 // orphan document or a half-indexed one behind. Returns an error if chunks is
 // empty (a document with no chunks is never useful for retrieval).
-func (s *Store) InsertDocumentWithChunks(ctx context.Context, url, title, content, scamType, source string, chunks []Chunk) (int64, error) {
+//
+// chunks are model.Chunk so ingest builds its multi-representation set
+// (content chunks and doc2query user-query chunks, see model.ChunkKind)
+// directly against the shared model type — store has no chunk type of its own.
+func (s *Store) InsertDocumentWithChunks(ctx context.Context, doc model.Document, chunks []model.Chunk) (int64, error) {
 	if len(chunks) == 0 {
-		return 0, fmt.Errorf("store: no chunks to insert for %q", url)
+		return 0, fmt.Errorf("store: no chunks to insert for %q", doc.URL)
 	}
 
 	tx, err := s.pool.Begin(ctx)
@@ -99,18 +80,18 @@ func (s *Store) InsertDocumentWithChunks(ctx context.Context, url, title, conten
 
 	var docID int64
 	if err := tx.QueryRow(ctx,
-		`INSERT INTO documents (url, title, content, scam_type, source)
-		 VALUES ($1,$2,$3,$4,$5) RETURNING id`,
-		url, title, content, scamType, source).Scan(&docID); err != nil {
+		`INSERT INTO documents (url, title, content, prevention, scam_type, source)
+		 VALUES ($1,$2,$3,$4,$5,$6) RETURNING id`,
+		doc.URL, doc.Title, doc.Content, doc.Prevention, doc.ScamType, doc.Source).Scan(&docID); err != nil {
 		return 0, fmt.Errorf("store: insert document: %w", err)
 	}
 
 	batch := &pgx.Batch{}
 	for _, c := range chunks {
 		batch.Queue(
-			`INSERT INTO chunks (document_id, content, embedding)
-			 VALUES ($1,$2,$3::vector)`,
-			docID, c.Content, vecLiteral(c.Embedding))
+			`INSERT INTO chunks (document_id, kind, content, embedding)
+			 VALUES ($1,$2,$3,$4::vector)`,
+			docID, string(c.Kind), c.Content, vecLiteral(c.Embedding))
 	}
 	br := tx.SendBatch(ctx, batch)
 	for i := range chunks {
@@ -129,20 +110,30 @@ func (s *Store) InsertDocumentWithChunks(ctx context.Context, url, title, conten
 	return docID, nil
 }
 
-// Match is one retrieved chunk and how close it is to the query vector.
+// Match is one retrieved chunk and how close it is to the query vector, plus
+// the parent document's fields needed downstream (grounding text, attribution,
+// reference advice). Content is the matched chunk's own text (what was
+// embedded/indexed — a content slice or a doc2query user-query line);
+// DocumentContent is the full parent document body. Distinct from model.Chunk:
+// this is the read-model returned by a query, never written back.
 type Match struct {
-	ChunkID    int64
-	DocumentID int64
-	Content    string
-	ScamType   string
-	SourceURL  string  // documents.url — source article for attribution
-	Distance   float64 // cosine distance — smaller is more similar
+	ChunkID            int64
+	DocumentID         int64
+	Kind               model.ChunkKind
+	Content            string
+	DocumentTitle      string
+	DocumentContent    string
+	DocumentPrevention string
+	ScamType           string
+	SourceURL          string  // documents.url — source article for attribution
+	Distance           float64 // cosine distance — smaller is more similar
 }
 
 // SearchSimilar returns the top-k chunks nearest to query, closest first.
 func (s *Store) SearchSimilar(ctx context.Context, query []float32, k int) ([]Match, error) {
 	rows, err := s.pool.Query(ctx,
-		`SELECT c.id, c.document_id, c.content, d.scam_type, d.url,
+		`SELECT c.id, c.document_id, c.kind, c.content,
+		        d.title, d.content, d.prevention, d.scam_type, d.url,
 		        c.embedding <=> $1::vector AS distance
 		 FROM chunks c JOIN documents d ON d.id = c.document_id
 		 ORDER BY distance LIMIT $2`,
@@ -155,9 +146,13 @@ func (s *Store) SearchSimilar(ctx context.Context, query []float32, k int) ([]Ma
 	var out []Match
 	for rows.Next() {
 		var m Match
-		if err := rows.Scan(&m.ChunkID, &m.DocumentID, &m.Content, &m.ScamType, &m.SourceURL, &m.Distance); err != nil {
+		var kind string
+		if err := rows.Scan(&m.ChunkID, &m.DocumentID, &kind, &m.Content,
+			&m.DocumentTitle, &m.DocumentContent, &m.DocumentPrevention, &m.ScamType, &m.SourceURL,
+			&m.Distance); err != nil {
 			return nil, err
 		}
+		m.Kind = model.ChunkKind(kind)
 		out = append(out, m)
 	}
 	return out, rows.Err()
@@ -169,12 +164,17 @@ func (s *Store) SearchSimilar(ctx context.Context, query []float32, k int) ([]Ma
 // or distinctive terms that a vector search can dilute into a generic direction.
 // Match.Distance is left at its zero value — there is no cosine distance on this
 // path; retriever.HybridSearch fuses by rank position, not by Distance.
+//
+// query and content_tsv both use the 'vietnamese' text-search config (see
+// migrations/0005_rebuild_corpus.sql) with unaccent folding, so accent-
+// insensitive input ("lua dao") still matches accented content ("lừa đảo").
 func (s *Store) SearchByKeyword(ctx context.Context, query string, k int) ([]Match, error) {
 	rows, err := s.pool.Query(ctx,
-		`SELECT c.id, c.document_id, c.content, d.scam_type, d.url
+		`SELECT c.id, c.document_id, c.kind, c.content,
+		        d.title, d.content, d.prevention, d.scam_type, d.url
 		 FROM chunks c JOIN documents d ON d.id = c.document_id
-		 WHERE c.content_tsv @@ plainto_tsquery('simple', $1)
-		 ORDER BY ts_rank(c.content_tsv, plainto_tsquery('simple', $1)) DESC
+		 WHERE c.content_tsv @@ plainto_tsquery('vietnamese', unaccent($1))
+		 ORDER BY ts_rank(c.content_tsv, plainto_tsquery('vietnamese', unaccent($1))) DESC
 		 LIMIT $2`,
 		query, k)
 	if err != nil {
@@ -185,9 +185,12 @@ func (s *Store) SearchByKeyword(ctx context.Context, query string, k int) ([]Mat
 	var out []Match
 	for rows.Next() {
 		var m Match
-		if err := rows.Scan(&m.ChunkID, &m.DocumentID, &m.Content, &m.ScamType, &m.SourceURL); err != nil {
+		var kind string
+		if err := rows.Scan(&m.ChunkID, &m.DocumentID, &kind, &m.Content,
+			&m.DocumentTitle, &m.DocumentContent, &m.DocumentPrevention, &m.ScamType, &m.SourceURL); err != nil {
 			return nil, err
 		}
+		m.Kind = model.ChunkKind(kind)
 		out = append(out, m)
 	}
 	return out, rows.Err()
@@ -199,7 +202,8 @@ func (s *Store) SearchByKeyword(ctx context.Context, query string, k int) ([]Mat
 // zero value like SearchByKeyword.
 func (s *Store) ListChunks(ctx context.Context, limit int) ([]Match, error) {
 	rows, err := s.pool.Query(ctx,
-		`SELECT c.id, c.document_id, c.content, d.scam_type, d.url
+		`SELECT c.id, c.document_id, c.kind, c.content,
+		        d.title, d.content, d.prevention, d.scam_type, d.url
 		 FROM chunks c JOIN documents d ON d.id = c.document_id
 		 ORDER BY c.id LIMIT $1`,
 		limit)
@@ -211,9 +215,12 @@ func (s *Store) ListChunks(ctx context.Context, limit int) ([]Match, error) {
 	var out []Match
 	for rows.Next() {
 		var m Match
-		if err := rows.Scan(&m.ChunkID, &m.DocumentID, &m.Content, &m.ScamType, &m.SourceURL); err != nil {
+		var kind string
+		if err := rows.Scan(&m.ChunkID, &m.DocumentID, &kind, &m.Content,
+			&m.DocumentTitle, &m.DocumentContent, &m.DocumentPrevention, &m.ScamType, &m.SourceURL); err != nil {
 			return nil, err
 		}
+		m.Kind = model.ChunkKind(kind)
 		out = append(out, m)
 	}
 	return out, rows.Err()

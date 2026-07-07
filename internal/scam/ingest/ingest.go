@@ -19,7 +19,7 @@ import (
 	"strings"
 
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/ai/embedder"
-	"github.com/chamlai-vn/chamlai-vn-backend/internal/infra/store"
+	"github.com/chamlai-vn/chamlai-vn-backend/internal/model"
 	ragutil "github.com/chamlai-vn/chamlai-vn-backend/pkg/util/rag"
 )
 
@@ -46,13 +46,22 @@ func (ix *Indexer) IndexDocument(ctx context.Context, doc Document) (Result, err
 		return Result{}, err
 	}
 
-	chunks := make([]store.Chunk, len(texts))
+	// All chunks are kind=content today (size-based split of the whole body).
+	// Multi-representation (doc2query user-query chunks, kind=query) lands in
+	// Phase 2 once ingest reads a structured corpusdoc.Document instead of the
+	// raw Document below.
+	chunks := make([]model.Chunk, len(texts))
 	for i, t := range texts {
-		chunks[i] = store.Chunk{Content: t, Embedding: vectors[i]}
+		chunks[i] = model.Chunk{Kind: model.ChunkKindContent, Content: t, Embedding: vectors[i]}
 	}
 
-	docID, err := ix.store.InsertDocumentWithChunks(
-		ctx, doc.URL, doc.Title, doc.Content, doc.ScamType, doc.Source, chunks)
+	docID, err := ix.store.InsertDocumentWithChunks(ctx, model.Document{
+		URL:      doc.URL,
+		Title:    doc.Title,
+		Content:  doc.Content,
+		ScamType: doc.ScamType,
+		Source:   doc.Source,
+	}, chunks)
 	if err != nil {
 		return Result{}, err
 	}

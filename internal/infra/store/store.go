@@ -16,6 +16,13 @@ import (
 	"github.com/jackc/pgx/v5/pgxpool"
 )
 
+// EmbeddingDimensions must match chunks.embedding's vector(N) width
+// (migrations/0005_rebuild_corpus.sql). A provider/model swap that changes
+// vector size silently corrupts the HNSW index — callers that construct an
+// embedder.Service should assert Dimensions() against this before wiring it
+// into ingest/retriever (see cmd/api, cmd/crawler, cmd/seed).
+const EmbeddingDimensions = 1024
+
 // Store holds the connection pool. Safe for concurrent use.
 type Store struct {
 	pool *pgxpool.Pool

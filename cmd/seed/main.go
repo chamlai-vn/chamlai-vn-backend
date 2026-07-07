@@ -85,6 +85,10 @@ func main() {
 		log.Fatalf("embedder: %v", err)
 	}
 	log.Printf("embedder ready: model=%s dims=%d", emb.Model(), emb.Dimensions())
+	if emb.Dimensions() != store.EmbeddingDimensions {
+		log.Fatalf("embedder dimensions = %d, want %d (chunks.embedding column)",
+			emb.Dimensions(), store.EmbeddingDimensions)
+	}
 
 	st, err := store.New(ctx, cfg.DatabaseURL)
 	if err != nil {

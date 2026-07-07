@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/ai/embedder"
-	"github.com/chamlai-vn/chamlai-vn-backend/internal/infra/store"
+	"github.com/chamlai-vn/chamlai-vn-backend/internal/model"
 	ragutil "github.com/chamlai-vn/chamlai-vn-backend/pkg/util/rag"
 )
 
@@ -38,12 +38,12 @@ func (f *fakeEmbedder) Model() string   { return "fake" }
 
 // fakeStore records what it was asked to persist.
 type fakeStore struct {
-	chunks []store.Chunk
+	chunks []model.Chunk
 	calls  int
 	err    error
 }
 
-func (f *fakeStore) InsertDocumentWithChunks(ctx context.Context, url, title, content, scamType, source string, chunks []store.Chunk) (int64, error) {
+func (f *fakeStore) InsertDocumentWithChunks(ctx context.Context, doc model.Document, chunks []model.Chunk) (int64, error) {
 	f.calls++
 	if f.err != nil {
 		return 0, f.err
