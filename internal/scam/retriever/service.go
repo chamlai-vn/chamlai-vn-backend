@@ -11,19 +11,31 @@ import (
 const (
 	defaultTopKVal = 5
 
-	// candidateTopK is how many candidates HybridSearch pulls from each arm
-	// (vector, keyword) before fusion. Must be >= any topK callers pass in, or
-	// RRF has fewer candidates than the caller asked for.
-	candidateTopK = 20
+	// candidateTopK is how many candidate CHUNKS both Retrieve and
+	// HybridSearch pull from each arm (vector, keyword) before per-document
+	// dedupe. Raised from the original 20 to 80: with multi-representation
+	// embedding, a single document contributes several near-duplicate
+	// vectors (its content chunk(s) plus every doc2query "# User query"
+	// line — typically 3-6+), which cluster tightly in the ANN ranking. At
+	// the old candidateTopK=20, one strong document could occupy most of
+	// the window, starving the post-dedupe result of other distinct
+	// documents entirely. Rule of thumb from the plan's dedupe-math review:
+	// candidateTopK should be >= rerankCandidates × the corpus's typical
+	// vectors-per-document; 80 is the pragmatic number for the current
+	// corpus size, not a hard derivation — revisit together with
+	// hnswEfSearch (internal/infra/store.hnswEfSearch, which must stay >=
+	// this) as the corpus grows. Must stay >= any topK callers pass in.
+	candidateTopK = 80
 
 	// rrfK is the Reciprocal Rank Fusion damping constant: score += 1/(rrfK+rank+1).
-	// 60 is the standard value from the original RRF paper.
+	// 60 is the standard value from the original RRF paper and remains
+	// current best practice (Elasticsearch/Azure AI Search/Milvus all ship
+	// it as their default) — unchanged by the multi-representation rework.
 	rrfK = 60
 
-	// rerankCandidates is how many fused results feed the reranker when one is
-	// configured (~4x the default final topK: recall headroom for the
-	// cross-encoder without paying latency for a longer tail). Tune together
-	// with candidateTopK when the corpus grows — benchmark-driven, not by feel.
+	// rerankCandidates is how many fused (already per-document-deduped)
+	// results feed the reranker when one is configured. Tune together with
+	// candidateTopK when the corpus grows — benchmark-driven, not by feel.
 	rerankCandidates = 20
 )
 

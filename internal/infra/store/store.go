@@ -13,6 +13,7 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgxpool"
 )
 
@@ -22,6 +23,18 @@ import (
 // embedder.Service should assert Dimensions() against this before wiring it
 // into ingest/retriever (see cmd/api, cmd/crawler, cmd/seed).
 const EmbeddingDimensions = 1024
+
+// hnswEfSearch is the HNSW query-time recall knob (session GUC, Postgres
+// default 40). Must stay >= retriever.candidateTopK, or the ANN search
+// starves before the retriever's overfetch has a chance to work: with
+// multi-representation embedding, a document's several near-duplicate
+// vectors cluster tightly in the graph, so a low ef_search can fill the
+// candidate window with one document's own vectors before the search frontier
+// reaches other, distinct documents. Set once per physical connection (not
+// per query) via AfterConnect below — cheaper than a SET LOCAL/transaction
+// wrapper around every SearchSimilar call, and correct here because nothing
+// else in this codebase needs a different value.
+const hnswEfSearch = 100
 
 // Store holds the connection pool. Safe for concurrent use.
 type Store struct {
@@ -43,6 +56,11 @@ func New(ctx context.Context, dsn string) (*Store, error) {
 	cfg.MinConns = 2
 	cfg.MaxConnLifetime = 30 * time.Minute
 	cfg.MaxConnIdleTime = 10 * time.Minute
+
+	cfg.AfterConnect = func(ctx context.Context, conn *pgx.Conn) error {
+		_, err := conn.Exec(ctx, fmt.Sprintf("SET hnsw.ef_search = %d", hnswEfSearch))
+		return err
+	}
 
 	pool, err := pgxpool.NewWithConfig(ctx, cfg)
 	if err != nil {
