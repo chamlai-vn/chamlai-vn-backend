@@ -31,6 +31,7 @@ import (
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/infra/store"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/scam/crawler"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/scam/ingest"
+	"github.com/chamlai-vn/chamlai-vn-backend/pkg/util/corpusdoc"
 )
 
 func main() {
@@ -195,13 +196,17 @@ func (w *worker) exists(url string) bool {
 // violation means another worker indexed the same url between our check and our
 // insert (or a duplicate sits in the seed list) — counted as a skip, not an
 // error, so the embedding cost is the only loss.
+//
+// This raw-crawl path (no UserQueries/Prevention — those come from the
+// crawl→enrich→review pipeline) is transitional: it will be replaced by
+// `-mode=generate|ingest` (see docs/plans/2026-07-07-001-...), kept
+// compiling in the meantime so the corpus can still be seeded manually.
 func (w *worker) index(doc crawler.FetchedDoc, scamType string) {
-	_, err := w.ix.IndexDocument(w.ctx, ingest.Document{
+	_, err := w.ix.IndexDocument(w.ctx, corpusdoc.Document{
 		URL:      doc.URL,
 		Title:    doc.Title,
 		Content:  doc.Content,
 		ScamType: scamType,
-		Source:   doc.Source,
 	})
 	switch {
 	case store.IsUniqueViolation(err):

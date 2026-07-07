@@ -22,6 +22,27 @@ const (
 	ScamOther                  = "other"
 )
 
+// ValidScamTypes is the fixed set of allowed scam_type values, generated from
+// the constants above. corpusdoc.Parse and internal/scam/enrich validate a
+// document's declared/LLM-emitted scam_type against this set so a
+// mislabeled or hallucinated type is rejected rather than silently stored —
+// a wrong label is a retrieval-evasion vector for a poisoned document.
+var ValidScamTypes = map[string]bool{
+	ScamImpersonationAuthority: true,
+	ScamImpersonationService:   true,
+	ScamTechFraud:              true,
+	ScamRecovery:               true,
+	ScamInvestmentFraud:        true,
+	ScamLoan:                   true,
+	ScamFakeJob:                true,
+	ScamEcommerce:              true,
+	ScamPackageDelivery:        true,
+	ScamPrizeGift:              true,
+	ScamRomance:                true,
+	ScamVacationContract:       true,
+	ScamOther:                  true,
+}
+
 // InferScamType labels an article by keyword-matching its title and content
 // against known Vietnamese scam patterns. It is intentionally rule-based (no
 // LLM): cheap, deterministic, and good enough to seed the corpus. Returns

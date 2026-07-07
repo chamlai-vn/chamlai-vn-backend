@@ -1,8 +1,10 @@
-// Package ingest is the indexing-side use case: it turns a raw scam-warning
-// document into stored, retrievable chunks. It wires together the three pieces
-// that previously only existed apart:
+// Package ingest is the indexing-side use case: it turns a parsed
+// corpusdoc.Document into stored, retrievable, multi-representation chunks.
+// It wires together the pieces that previously only existed apart:
 //
-//	doc text → ragutil.Chunk() → embed each chunk (batched) → store atomically
+//	Content → paragraph split + ragutil.Chunk sub-split (kind=content)
+//	User query lines → one chunk each, doc2query (kind=query)
+//	→ embed everything (contextual-prefixed) → store atomically
 //
 // It is the indexing counterpart to internal/analyzer (the query side). Both
 // the corpus crawler (cmd/crawler) and manual seeding (cmd/seed) drive the
@@ -16,56 +18,162 @@ package ingest
 import (
 	"context"
 	"fmt"
+	"math"
 	"strings"
 
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/ai/embedder"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/model"
+	"github.com/chamlai-vn/chamlai-vn-backend/pkg/util/corpusdoc"
 	ragutil "github.com/chamlai-vn/chamlai-vn-backend/pkg/util/rag"
 )
 
-// IndexDocument runs the full pipeline for one document: split it into chunks,
-// embed every chunk as a corpus document, and store the document with its
-// chunks atomically.
+// sourceCorpus is the fixed documents.source value for every document
+// ingested through the structured corpus pipeline. The old per-crawl-site
+// source key (e.g. "vnexpress") no longer distinguishes anything once
+// crawl→enrich→review funnels every document through the same canonical
+// corpusdoc format.
+const sourceCorpus = "corpus"
+
+// nearDupCosineThreshold: a query chunk whose embedding is at least this
+// cosine-similar to an already-kept query chunk of the same document is
+// dropped as a near-duplicate — insurance against a reviewer leaving two
+// near-identical paraphrases in "# User query" (see the plan's doc2query
+// research notes).
+const nearDupCosineThreshold = 0.9
+
+// IndexDocument runs the full multi-representation pipeline for one
+// corpusdoc.Document: split Content into sub-chunks (kind=content), turn
+// each User query line into its own chunk (kind=query — doc2query, so a
+// victim's own phrasing has a matching vector), embed everything, and store
+// the document with all its chunks atomically.
 //
-// Embedding happens before any DB write, so a provider failure leaves nothing
-// behind. Empty/whitespace-only content is rejected up front — ragutil.Chunk
-// would otherwise hand back the blank text as a single chunk, and there is
-// nothing to retrieve from it.
-func (ix *Indexer) IndexDocument(ctx context.Context, doc Document) (Result, error) {
+// The contextual prefix ("<title> (loại: <scam_type>)") is added to the
+// EMBEDDING INPUT only — the stored chunk content (and therefore the
+// generated content_tsv) stays unprefixed, so the lexical arm's term
+// statistics aren't diluted by a title repeated on every chunk.
+//
+// Embedding happens before any DB write, so a provider failure leaves
+// nothing behind. Empty/whitespace-only content is rejected up front.
+func (ix *Indexer) IndexDocument(ctx context.Context, doc corpusdoc.Document) (Result, error) {
 	if strings.TrimSpace(doc.Content) == "" {
 		return Result{}, fmt.Errorf("ingest: %q has no indexable content", doc.URL)
 	}
 
-	texts := ragutil.Chunk(doc.Content, ix.chunkCfg)
-	if len(texts) == 0 {
-		return Result{}, fmt.Errorf("ingest: %q produced no chunks", doc.URL)
+	contentTexts := chunkContent(doc.Content, ix.chunkCfg)
+	if len(contentTexts) == 0 {
+		return Result{}, fmt.Errorf("ingest: %q produced no content chunks", doc.URL)
 	}
 
-	vectors, err := ix.embedChunks(ctx, texts)
+	stored := make([]string, 0, len(contentTexts)+len(doc.UserQueries))
+	kinds := make([]model.ChunkKind, 0, cap(stored))
+	embedInput := make([]string, 0, cap(stored))
+	prefix := contextualPrefix(doc.Title, doc.ScamType)
+
+	for _, t := range contentTexts {
+		stored = append(stored, t)
+		kinds = append(kinds, model.ChunkKindContent)
+		embedInput = append(embedInput, prefix+t)
+	}
+	for _, q := range doc.UserQueries {
+		q = strings.TrimSpace(q)
+		if q == "" {
+			continue
+		}
+		stored = append(stored, q)
+		kinds = append(kinds, model.ChunkKindQuery)
+		embedInput = append(embedInput, prefix+q)
+	}
+
+	vectors, err := ix.embedChunks(ctx, embedInput)
 	if err != nil {
 		return Result{}, err
 	}
 
-	// All chunks are kind=content today (size-based split of the whole body).
-	// Multi-representation (doc2query user-query chunks, kind=query) lands in
-	// Phase 2 once ingest reads a structured corpusdoc.Document instead of the
-	// raw Document below.
-	chunks := make([]model.Chunk, len(texts))
-	for i, t := range texts {
-		chunks[i] = model.Chunk{Kind: model.ChunkKindContent, Content: t, Embedding: vectors[i]}
+	keep := dropNearDuplicateQueries(kinds, vectors, nearDupCosineThreshold)
+	chunks := make([]model.Chunk, len(keep))
+	for i, idx := range keep {
+		chunks[i] = model.Chunk{Kind: kinds[idx], Content: stored[idx], Embedding: vectors[idx]}
 	}
 
 	docID, err := ix.store.InsertDocumentWithChunks(ctx, model.Document{
-		URL:      doc.URL,
-		Title:    doc.Title,
-		Content:  doc.Content,
-		ScamType: doc.ScamType,
-		Source:   doc.Source,
+		URL:        doc.URL,
+		Title:      doc.Title,
+		Content:    doc.Content,
+		Prevention: doc.Prevention,
+		ScamType:   doc.ScamType,
+		Source:     sourceCorpus,
 	}, chunks)
 	if err != nil {
 		return Result{}, err
 	}
 	return Result{DocID: docID, Chunks: len(chunks)}, nil
+}
+
+// contextualPrefix is prepended to the embedding input of every chunk of a
+// document (never to the stored/tsvector text — see IndexDocument's doc
+// comment). This is the cheap Contextual Retrieval variant: it gives the
+// dense arm a doc-identity signal without an LLM call per chunk.
+func contextualPrefix(title, scamType string) string {
+	return fmt.Sprintf("%s (loại: %s)\n", title, scamType)
+}
+
+// chunkContent splits content on blank-line paragraph boundaries, then runs
+// each paragraph through ragutil.Chunk. Chunk is a no-op for text already
+// under cfg.Size (returns it unchanged as a single chunk), so this only
+// actually sub-splits the paragraphs that need it.
+func chunkContent(content string, cfg ragutil.ChunkConfig) []string {
+	var out []string
+	for _, p := range strings.Split(strings.TrimSpace(content), "\n\n") {
+		p = strings.TrimSpace(p)
+		if p == "" {
+			continue
+		}
+		out = append(out, ragutil.Chunk(p, cfg)...)
+	}
+	return out
+}
+
+// dropNearDuplicateQueries returns the indices (into kinds/vectors) to keep:
+// every content chunk, plus every query chunk that is not a near-duplicate
+// (cosine similarity > threshold) of an already-kept query chunk of the same
+// document. Order is preserved.
+func dropNearDuplicateQueries(kinds []model.ChunkKind, vectors [][]float32, threshold float64) []int {
+	var kept []int
+	var keptQueryVecs [][]float32
+	for i, k := range kinds {
+		if k != model.ChunkKindQuery {
+			kept = append(kept, i)
+			continue
+		}
+		dup := false
+		for _, kv := range keptQueryVecs {
+			if cosineSimilarity(vectors[i], kv) > threshold {
+				dup = true
+				break
+			}
+		}
+		if !dup {
+			kept = append(kept, i)
+			keptQueryVecs = append(keptQueryVecs, vectors[i])
+		}
+	}
+	return kept
+}
+
+// cosineSimilarity returns the cosine similarity of a and b, in [-1, 1].
+// Both are assumed the same length — they always come from the same
+// embedder call here.
+func cosineSimilarity(a, b []float32) float64 {
+	var dot, na, nb float64
+	for i := range a {
+		dot += float64(a[i]) * float64(b[i])
+		na += float64(a[i]) * float64(a[i])
+		nb += float64(b[i]) * float64(b[i])
+	}
+	if na == 0 || nb == 0 {
+		return 0
+	}
+	return dot / (math.Sqrt(na) * math.Sqrt(nb))
 }
 
 // embedChunks embeds texts as corpus documents, splitting into batches of at

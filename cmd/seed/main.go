@@ -45,22 +45,32 @@ import (
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/scam/analyzer"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/scam/ingest"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/scam/retriever"
+	"github.com/chamlai-vn/chamlai-vn-backend/pkg/util/corpusdoc"
 )
 
 // A sample scam-warning article and a suspicious message that should retrieve it.
 const (
-	sampleScamType = "viec-nhe-luong-cao"
-	sampleSource   = "seed"
+	sampleScamType = "fake_job"
 	sampleURL      = "https://example.invalid/canh-bao-viec-nhe-luong-cao"
 	sampleTitle    = "Cảnh báo: chiêu trò 'việc nhẹ lương cao' tuyển cộng tác viên online"
 	sampleContent  = "Các đối tượng giả danh tuyển cộng tác viên chốt đơn online, " +
 		"hứa hẹn việc nhẹ lương cao, hoa hồng hấp dẫn. Ban đầu trả tiền cho vài đơn " +
 		"nhỏ để tạo lòng tin, sau đó dụ nạn nhân nạp số tiền lớn hơn rồi chiếm đoạt " +
 		"và chặn liên lạc."
+	samplePrevention = "Không nạp tiền trước để 'kích hoạt đơn' hay 'nhận nhiệm vụ'; " +
+		"việc làm thật không yêu cầu người lao động trả tiền trước."
 
 	suspiciousQuery = "Bên mình đang tuyển CTV làm việc tại nhà, chốt đơn nhận hoa hồng " +
 		"ngay, hoàn vốn sau mỗi nhiệm vụ. Bạn nạp trước 500k để kích hoạt đơn nhé."
 )
+
+// sampleUserQueries doubles as the doc2query vectors for the sample document
+// and demonstrates the victim-voice phrasing the multi-representation design
+// is built around.
+var sampleUserQueries = []string{
+	"Bên tuyển cộng tác viên chốt đơn online yêu cầu nạp tiền trước để nhận hoa hồng, có phải lừa đảo không?",
+	"Nhận lời mời làm việc nhẹ lương cao tại nhà, cần đóng phí kích hoạt tài khoản, có nên tin không?",
+}
 
 func main() {
 	queryOnly := flag.Bool("query-only", false, "skip document insertion, query the existing corpus")
@@ -99,12 +109,13 @@ func main() {
 	// 1. Index a sample document (skipped with -query-only).
 	if !*queryOnly {
 		indexer := ingest.New(emb, st)
-		res, err := indexer.IndexDocument(ctx, ingest.Document{
-			URL:      sampleURL,
-			Title:    sampleTitle,
-			Content:  sampleContent,
-			ScamType: sampleScamType,
-			Source:   sampleSource,
+		res, err := indexer.IndexDocument(ctx, corpusdoc.Document{
+			URL:         sampleURL,
+			Title:       sampleTitle,
+			Content:     sampleContent,
+			UserQueries: sampleUserQueries,
+			Prevention:  samplePrevention,
+			ScamType:    sampleScamType,
 		})
 		if err != nil {
 			log.Fatalf("index document: %v", err)
