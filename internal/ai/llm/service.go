@@ -5,9 +5,10 @@ import (
 	"encoding/json"
 )
 
-// Service abstracts over LLM providers for structured generation. The only
-// implementation today is Anthropic (anthropic.go); the interface exists so a
-// provider swap stays a config/code-local change. Mirrors embedder.Service.
+// Service abstracts over LLM providers for structured generation. Implementations
+// today are Anthropic (anthropic.go), Gemini (gemini.go), and OpenAI (openai.go);
+// the interface exists so a provider swap stays a config change. Mirrors
+// embedder.Service.
 type Service interface {
 	// GenerateStructured forces the model to emit JSON conforming to the tool
 	// schema in req (via forced tool use) and returns the raw tool input. The
