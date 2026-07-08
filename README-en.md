@@ -47,30 +47,34 @@ Go · PostgreSQL + pgvector · Voyage AI embeddings · Anthropic Claude API
 ```
 cmd/
   api/            # HTTP API entrypoint (+ swagger)
-  crawler/        # CLI: build the scam corpus (crawl urls + local files → ingest)
+  crawler/        # CLI: two-phase corpus build — see cmd/crawler's package doc (-mode=generate|ingest)
   seed/           # CLI: manual end-to-end smoke test of the RAG retrieval path
   migration/      # DB migration runner
 internal/
   ai/
     embedder/     # embedding providers behind a Service interface (Voyage, Azure...)
     reranker/     # reranking providers behind a Service interface (optional stage after RRF)
-    llm/          # Anthropic client + prompt templates
+    llm/          # Anthropic/Gemini/OpenAI clients behind a Service interface + prompt templates
   scam/           # the RAG domain, one package per pipeline stage
-    ingest/       # crawl output → chunk → embed → store
-    retriever/    # query text → pgvector top-k + hybrid (BM25/RRF), optional rerank stage
+    ingest/       # corpusdoc.Document → structure-chunk + multi-representation embed → store
+    retriever/    # query text → pgvector top-k + hybrid (BM25/RRF), doc-level dedupe, optional rerank
     analyzer/     # core use case: text → retrieve → LLM scoring → verdict
-    crawler/      # fetch + parse + rule-based scam labelling
+    crawler/      # fetch + parse raw pages (LLM-free); rule-based scam labelling; SSRF-hardened HTTP client
+    enrich/       # raw crawled text → LLM tool call → corpusdoc.Document (generate-mode's LLM step)
   infra/
     store/        # PostgreSQL + pgvector data-access (single pgxpool.Pool)
     repository/   # relational/auth repositories
   api/            # HTTP layer: base, context (root, v1, v2 scaffolded)
-  model/          # domain types
+  model/          # domain types (Document, Chunk — plain pgx-native structs, no gorm)
 pkg/util/
+  corpusdoc/      # canonical 4-section corpus markdown: parse/serialize/slug — the crawl→ingest interchange type
   eval/           # retrieval-quality metrics (Hit@K, MRR), dependency-free
-  rag/            # document parsing/chunking helpers used by ingest
+  rag/            # document parsing + size-based chunker (used as ingest's sub-splitter for long sections)
   ulid/           # ULID generation
 config/           # config loading
 migrations/       # SQL schema, applied via cmd/migration
+data/
+  corpus/         # generated/reviewed corpus markdown (git-ignored except .gitkeep + example.md)
 benchmark/        # retrieval benchmark design doc (README.md) — not yet run, see its own status section
 ```
 

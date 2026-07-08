@@ -47,19 +47,20 @@ Go · PostgreSQL + pgvector · Voyage AI embeddings · Anthropic Claude API
 ```
 cmd/
   api/            # entrypoint HTTP API (+ swagger)
-  crawler/        # CLI: dựng corpus (crawl url + file cục bộ → ingest)
+  crawler/        # CLI: dựng corpus 2 giai đoạn — xem doc comment của package cmd/crawler (-mode=generate|ingest)
   seed/           # CLI: smoke test end-to-end đường retrieval của RAG
   migration/      # chạy DB migration
 internal/
   ai/
     embedder/     # provider embedding sau interface Service (Voyage, Azure...)
     reranker/     # provider reranking sau interface Service (bước tùy chọn sau RRF)
-    llm/          # client Anthropic + prompt templates
+    llm/          # client Anthropic/Gemini/OpenAI sau interface Service + prompt templates
   scam/           # domain RAG, mỗi package một bước pipeline
-    ingest/       # kết quả crawl → chunk → embed → store
-    retriever/    # văn bản truy vấn → pgvector top-k + hybrid (BM25/RRF), rerank tùy chọn
+    ingest/       # corpusdoc.Document → chunk theo cấu trúc + embed đa biểu diễn → store
+    retriever/    # văn bản truy vấn → pgvector top-k + hybrid (BM25/RRF), dedupe theo document, rerank tùy chọn
     analyzer/     # use case lõi: văn bản → retrieve → LLM scoring → verdict
-    crawler/      # fetch + parse + gắn nhãn loại scam bằng rule
+    crawler/      # fetch + parse trang gốc (không LLM); gắn nhãn loại scam bằng rule; HTTP client chống SSRF
+    enrich/       # nội dung crawl thô → gọi LLM → corpusdoc.Document (bước LLM của generate-mode)
   infra/
     store/        # data-access Postgres + pgvector (một pgxpool.Pool)
     repository/   # repository quan hệ / auth
@@ -71,13 +72,16 @@ internal/
     root/         # route không version (GET /health)
     v1/analyze/   # POST /v1/analyze
     swagger/      # sinh bởi `make swagger` — không sửa tay
-  model/          # domain types
+  model/          # domain types (Document, Chunk — struct thuần pgx, không dùng gorm)
 pkg/util/
+  corpusdoc/      # định dạng markdown 4 phần chuẩn của corpus: parse/serialize/slug — kiểu trung gian crawl→ingest
   eval/           # metric đo chất lượng retrieval (Hit@K, MRR), không phụ thuộc gì
-  rag/            # parse + chunk tài liệu, dùng bởi ingest
+  rag/            # parse tài liệu + chunker theo kích thước (dùng làm bộ chia nhỏ phụ trong ingest)
   ulid/           # sinh ULID
 config/           # nạp cấu hình
 migrations/       # schema SQL, áp qua cmd/migration
+data/
+  corpus/         # tài liệu corpus đã sinh/đã review (git-ignore trừ .gitkeep + example.md)
 benchmark/        # thiết kế benchmark retrieval (README.md) — chưa chạy, xem trạng thái trong đó
 ```
 
