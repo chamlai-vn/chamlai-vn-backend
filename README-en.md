@@ -12,7 +12,17 @@ Paste any suspicious text (SMS, Zalo message, "vacation contract", "easy job, hi
 
 > ⚠️ **Disclaimer**: ChậmLại.vn is a reference tool, not legal advice. It never declares anything "100% safe" and never makes claims about specific individuals or organizations.
 
-## How it works
+- [ChậmLại.vn 🛡️](#chậmlạivn-️)
+  - [I. How it works](#i-how-it-works)
+  - [II. Why RAG?](#ii-why-rag)
+  - [III. Tech stack](#iii-tech-stack)
+  - [IV. Project layout](#iv-project-layout)
+  - [V. Building the corpus](#v-building-the-corpus)
+  - [VI. Getting started](#vi-getting-started)
+  - [VII. Roadmap](#vii-roadmap)
+
+
+## I. How it works
 
 ```
 suspicious text
@@ -21,7 +31,7 @@ suspicious text
  embed (Voyage AI) ──► pgvector: top-k similar scam patterns
       │                          │
       ▼                          ▼
- Claude (Anthropic API) ◄── retrieved context
+ LLM (Claude/Gemini/ChatGPT) ◄── retrieved context
       │
       ▼
  structured JSON verdict
@@ -30,19 +40,19 @@ suspicious text
 
 RAG over a labeled corpus of Vietnamese scam-warning articles (VTV, CAND, Cục An toàn thông tin...), with scam-signal scoring by Claude.
 
-## Why RAG? (3 key takeaways)
+## II. Why RAG?
 
 **1. RAG keeps up with new scam scenarios; fine-tuning can't.** Scam tactics in Vietnam change constantly. With RAG, adding a single new warning article to the corpus lets the system recognize that pattern immediately — especially powerful when the user community contributes real-world data. Fine-tuning, by contrast, is expensive and requires collecting, cleaning, and labeling data, then retraining every time a new tactic appears.
 
 **2. The data flow runs straight from text to verdict.** Suspicious contract/text → embed → query pgvector for similar scam patterns → inject into the prompt → Claude scores red/yellow/green. This is exactly the Retrieval → Augmentation → Generation pipeline, mapped directly onto the packages under `internal/`.
 
-**3. Combine semantic + lexical (BM25), and focus on the Vietnamese market.** Semantic search (embeddings) catches text that is worded differently but is the same kind of scam; lexical search (BM25) catches tactic names, fake hotline numbers, and characteristic phrases. The two complement each other, so we use both rather than semantic alone. We won't try to generalize to other markets yet — each country has its own scam playbook, so we nail Vietnam first.
+**3. Combine semantic + lexical (TF-IDF), and focus on the Vietnamese market.** Semantic search (embeddings) catches text that is worded differently but is the same kind of scam; lexical search (Postgres tsvector TF-IDF) catches tactic names, fake hotline numbers, and characteristic phrases. The two complement each other, so we use both rather than semantic alone. We won't try to generalize to other markets yet — each country has its own scam playbook, so we nail Vietnam first.
 
-## Tech stack
+## III. Tech stack
 
-Go · PostgreSQL + pgvector · Voyage AI embeddings · Anthropic Claude API
+Go · PostgreSQL + pgvector · Voyage AI embeddings · Claude/Gemini/ChatGPT API
 
-## Project layout
+## IV. Project layout
 
 ```
 cmd/
@@ -78,7 +88,7 @@ data/
 benchmark/        # retrieval benchmark design doc (README.md) — not yet run, see its own status section
 ```
 
-## Building the corpus
+## V. Building the corpus
 
 The corpus (scam-warning documents) is built in two separate stages, connected by the canonical
 4-section markdown format (`pkg/util/corpusdoc`) and a mandatory human-review step — see the
@@ -117,7 +127,7 @@ flowchart TD
 Both commands are idempotent re-runs: `generate` skips a URL that already has a file; `ingest`
 skips a URL already in the corpus (checked before spending on embeddings).
 
-## Getting started
+## VI. Getting started
 
 ```bash
 make switch.local        # copy .env.local -> .env, then fill in API keys
@@ -127,7 +137,7 @@ go run ./cmd/api         # API on :8080
 curl localhost:8080/health
 ```
 
-## Roadmap
+## VII. Roadmap
 
 - [x] Repo skeleton, Postgres + pgvector setup
 - [x] Corpus: 50+ labeled scam-warning articles indexed (currently ~50 articles, 101 chunks)

@@ -12,7 +12,16 @@ Dán bất kỳ văn bản đáng ngờ nào (SMS, tin nhắn Zalo, "hợp đồ
 
 > ⚠️ **Lưu ý**: ChậmLại.vn là công cụ tham khảo, không thay thế tư vấn pháp lý. Công cụ không bao giờ khẳng định "an toàn 100%" và không kết luận về cá nhân hay tổ chức cụ thể.
 
-## Cách hoạt động
+- [ChậmLại.vn 🛡️](#chậmlạivn-️)
+  - [I. Cách hoạt động](#i-cách-hoạt-động)
+  - [II. Vì sao chọn RAG?](#ii-vì-sao-chọn-rag)
+  - [III. Công nghệ](#iii-công-nghệ)
+  - [IV. Cấu trúc dự án](#iv-cấu-trúc-dự-án)
+  - [V. Xây dựng corpus dữ liệu](#v-xây-dựng-corpus-dữ-liệu)
+  - [VI. Chạy thử](#vi-chạy-thử)
+  - [VII. Lộ trình](#vii-lộ-trình)
+
+## I. Cách hoạt động
 
 ```
 văn bản đáng ngờ
@@ -21,7 +30,7 @@ văn bản đáng ngờ
  embed (Voyage AI) ──► pgvector: top-k scam pattern tương tự
       │                          │
       ▼                          ▼
- Claude (Anthropic API) ◄── context đã retrieve
+ LLM (Claude/Gemini/ChatGPT) ◄── context đã retrieve
       │
       ▼
  kết quả JSON có cấu trúc
@@ -30,19 +39,19 @@ văn bản đáng ngờ
 
 RAG trên corpus bài cảnh báo lừa đảo đã gắn nhãn (VTV, CAND, Cục An toàn thông tin...), chấm điểm dấu hiệu lừa đảo bằng Claude.
 
-## Vì sao chọn RAG? (3 điều cốt lõi)
+## II. Vì sao chọn RAG?
 
 **1. RAG bắt kịp kịch bản lừa đảo mới, fine-tune thì không.** Chiêu lừa ở Việt Nam thay đổi liên tục. Với RAG, chỉ cần thêm một bài cảnh báo mới vào corpus là hệ thống nhận ra pattern đó ngay — đặc biệt mạnh khi cộng đồng người dùng đóng góp dữ liệu thực tế. Fine-tune ngược lại tốn công thu thập, làm sạch, gắn nhãn dữ liệu và chi phí cao hơn nhiều, mà mỗi lần có chiêu mới lại phải train lại.
 
 **2. Luồng dữ liệu đi thẳng từ văn bản tới verdict.** Hợp đồng/văn bản đáng ngờ → embed → query pgvector lấy scam pattern tương tự → inject vào prompt → Claude chấm điểm đỏ/vàng/xanh. Đây chính là ba bước Retrieval → Augmentation → Generation, ánh xạ trực tiếp vào các package trong `internal/`.
 
-**3. Kết hợp semantic + lexical (BM25), và tập trung thị trường Việt Nam.** Tìm theo ý nghĩa (embedding) bắt được văn bản diễn đạt khác nhưng cùng bản chất lừa; tìm theo từ khóa (BM25) bắt được tên chiêu trò, số hotline giả, cụm từ đặc trưng. Hai cách bổ trợ nhau nên dùng cả hai thay vì chỉ semantic. Không cố tổng quát hóa cho thị trường khác lúc này — mỗi quốc gia có kịch bản lừa đảo riêng, làm tốt cho Việt Nam trước đã.
+**3. Kết hợp semantic + lexical (TF-IDF), và tập trung thị trường Việt Nam.** Tìm theo ý nghĩa (embedding) bắt được văn bản diễn đạt khác nhưng cùng bản chất lừa; tìm theo từ khóa (Postgres tsvector TF-IDF) bắt được tên chiêu trò, số hotline giả, cụm từ đặc trưng. Hai cách bổ trợ nhau nên dùng cả hai thay vì chỉ semantic. Không cố tổng quát hóa cho thị trường khác lúc này — mỗi quốc gia có kịch bản lừa đảo riêng, làm tốt cho Việt Nam trước đã.
 
-## Công nghệ
+## III. Công nghệ
 
-Go · PostgreSQL + pgvector · Voyage AI embeddings · Anthropic Claude API
+Go · PostgreSQL + pgvector · Voyage AI embeddings · Claude/Gemini/ChatGPT API
 
-## Cấu trúc dự án
+## IV. Cấu trúc dự án
 
 ```
 cmd/
@@ -85,7 +94,7 @@ data/
 benchmark/        # thiết kế benchmark retrieval (README.md) — chưa chạy, xem trạng thái trong đó
 ```
 
-## Xây dựng corpus dữ liệu
+## V. Xây dựng corpus dữ liệu
 
 Corpus (các bài cảnh báo lừa đảo) được xây dựng qua 2 giai đoạn tách biệt, nối nhau bởi định dạng
 markdown 4 phần chuẩn (`pkg/util/corpusdoc`) và một bước con người review bắt buộc — chi tiết xem
@@ -124,7 +133,7 @@ flowchart TD
 Cả 2 lệnh đều idempotent khi chạy lại: `generate` bỏ qua URL đã có file; `ingest` bỏ qua URL đã có
 trong corpus (kiểm tra trước khi tốn phí embedding).
 
-## Chạy thử
+## VI. Chạy thử
 
 ```bash
 make switch.local        # copy .env.local -> .env, rồi điền API keys
@@ -137,7 +146,7 @@ curl -X POST localhost:8080/v1/analyze -H 'Content-Type: application/json' \
 # Swagger UI (chỉ APP_ENV=development, mặc định): http://localhost:8080/swagger/
 ```
 
-## Lộ trình
+## VII. Lộ trình
 
 - [x] Skeleton repo, setup Postgres + pgvector
 - [x] Corpus: index 50+ bài cảnh báo lừa đảo đã gắn nhãn (hiện ~50 bài, 101 chunks)
