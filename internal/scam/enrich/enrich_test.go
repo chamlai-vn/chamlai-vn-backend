@@ -187,6 +187,27 @@ func TestEnrich_ToolSchemaListsScamTypesSorted(t *testing.T) {
 	}
 }
 
+func TestBuildSystemPrompt_IncludesWorkedExample(t *testing.T) {
+	f := &fakeLLM{raw: json.RawMessage(validToolJSON)}
+	e := New(f)
+
+	if _, err := e.Enrich(context.Background(), Input{URL: "https://x.gov.vn", Content: "c"}); err != nil {
+		t.Fatalf("Enrich: %v", err)
+	}
+
+	system := f.lastReq.System
+	for _, want := range []string{"<example>", "<input>", "<ideal_output>", "package_delivery"} {
+		if !strings.Contains(system, want) {
+			t.Errorf("system prompt missing %q — worked example not included", want)
+		}
+	}
+	// The example's own fenced web content must use the same tags as the
+	// real prompt, so the model learns the fence convention from it.
+	if !strings.Contains(system, webContentOpen) || !strings.Contains(system, webContentClose) {
+		t.Error("worked example should demonstrate the same webContentOpen/Close fencing used in real prompts")
+	}
+}
+
 func TestEnrich_SuggestedScamTypeIncludedAsHintOnly(t *testing.T) {
 	f := &fakeLLM{raw: json.RawMessage(validToolJSON)}
 	e := New(f)
