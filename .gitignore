@@ -41,7 +41,6 @@ cmd/crawler/data/
 # synthetic example and the directory placeholder — the specific sites being
 # crawled are not exposed in the public repository.
 data/seeds/*
-!data/seeds/.gitkeep
 !data/seeds/example.txt
 
 # Generated/reviewed corpus documents (cmd/crawler -mode=generate|ingest,
@@ -49,7 +48,6 @@ data/seeds/*
 # directory placeholder — crawled/LLM-generated content is not exposed in the
 # public repository, matching data/seeds/ above.
 data/corpus/*
-!data/corpus/.gitkeep
 !data/corpus/example.md
 
 # Crawler site registry: CSS selectors per host. Copy sites_local.go.example to

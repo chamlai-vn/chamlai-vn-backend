@@ -46,7 +46,7 @@ type Configuration struct {
 
 	// Voyage AI (default embedder).
 	VoyageAPIKey     string `env:"VOYAGE_API_KEY"`
-	VoyageModel      string `env:"VOYAGE_MODEL" envDefault:"voyage-law-2"`
+	VoyageModel      string `env:"VOYAGE_MODEL" envDefault:"voyage-context-4"`
 	VoyageDimensions int    `env:"VOYAGE_DIMENSIONS" envDefault:"1024"`
 
 	// Reranker (optional stage after hybrid rank fusion — see
