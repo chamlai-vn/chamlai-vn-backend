@@ -5,7 +5,6 @@ import (
 
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/ai/embedder"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/model"
-	ragutil "github.com/chamlai-vn/chamlai-vn-backend/pkg/util/rag"
 )
 
 // defaultBatchSize caps how many chunks are embedded per provider call. Voyage
@@ -26,18 +25,11 @@ type Store interface {
 type Indexer struct {
 	emb       embedder.Service
 	store     Store
-	chunkCfg  ragutil.ChunkConfig
 	batchSize int
 }
 
 // Option configures an Indexer. Zero-value defaults are applied in New.
 type Option func(*Indexer)
-
-// WithChunkConfig overrides the chunking parameters (default
-// ragutil.DefaultChunkConfig).
-func WithChunkConfig(cfg ragutil.ChunkConfig) Option {
-	return func(ix *Indexer) { ix.chunkCfg = cfg }
-}
 
 // WithBatchSize overrides how many chunks are embedded per provider call.
 // Non-positive values are ignored.
@@ -50,12 +42,11 @@ func WithBatchSize(n int) Option {
 }
 
 // New builds an Indexer over emb and st. Unset options fall back to the corpus
-// defaults (DefaultChunkConfig, defaultBatchSize).
+// default (defaultBatchSize).
 func New(emb embedder.Service, st Store, opts ...Option) *Indexer {
 	ix := &Indexer{
 		emb:       emb,
 		store:     st,
-		chunkCfg:  ragutil.DefaultChunkConfig(),
 		batchSize: defaultBatchSize,
 	}
 	for _, opt := range opts {

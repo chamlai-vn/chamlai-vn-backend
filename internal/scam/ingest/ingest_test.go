@@ -9,7 +9,6 @@ import (
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/ai/embedder"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/model"
 	"github.com/chamlai-vn/chamlai-vn-backend/pkg/util/corpusdoc"
-	ragutil "github.com/chamlai-vn/chamlai-vn-backend/pkg/util/rag"
 )
 
 // fakeEmbedder returns one deterministic vector per input and records every
@@ -64,53 +63,52 @@ func (f *fakeStore) InsertDocumentWithChunks(ctx context.Context, doc model.Docu
 	return 42, nil
 }
 
-func TestIndexDocument_ChunksEmbedsAndStores(t *testing.T) {
+func TestIndexDocument_ContentStoredWholeAndBatched(t *testing.T) {
 	emb := &fakeEmbedder{dims: 4}
 	st := &fakeStore{}
-	// Force multiple content chunks from a long body, and a batch size that forces a split.
+	// A long body used to be split into multiple content chunks; it must now
+	// survive as a single chunk. Multiple queries force the batch split instead.
 	body := strings.Repeat("Cảnh báo lừa đảo. ", 500)
-	ix := New(emb, st,
-		WithChunkConfig(ragutil.ChunkConfig{Size: 200, Overlap: 20}),
-		WithBatchSize(2),
-	)
+	queries := []string{"q1", "q2", "q3", "q4", "q5"}
+	ix := New(emb, st, WithBatchSize(2))
 
 	res, err := ix.IndexDocument(context.Background(), corpusdoc.Document{
-		URL:      "https://example.invalid/a",
-		Title:    "t",
-		Content:  body,
-		ScamType: "test",
+		URL:         "https://example.invalid/a",
+		Title:       "t",
+		Content:     body,
+		ScamType:    "test",
+		UserQueries: queries,
 	})
 	if err != nil {
 		t.Fatalf("IndexDocument: %v", err)
 	}
 
-	// chunkContent trims the body before splitting on paragraph boundaries, so
-	// the expectation must be computed the same way.
-	wantChunks := ragutil.Chunk(strings.TrimSpace(body), ragutil.ChunkConfig{Size: 200, Overlap: 20})
-	if len(wantChunks) < 2 {
-		t.Fatalf("test setup: expected multiple chunks, got %d", len(wantChunks))
-	}
-
+	wantTotal := 1 + len(queries) // one whole content chunk + every query
 	if res.DocID != 42 {
 		t.Errorf("DocID = %d, want 42", res.DocID)
 	}
-	if res.Chunks != len(wantChunks) {
-		t.Errorf("Result.Chunks = %d, want %d", res.Chunks, len(wantChunks))
+	if res.Chunks != wantTotal {
+		t.Errorf("Result.Chunks = %d, want %d", res.Chunks, wantTotal)
 	}
-	if len(st.chunks) != len(wantChunks) {
-		t.Errorf("stored %d chunks, want %d", len(st.chunks), len(wantChunks))
+	if len(st.chunks) != wantTotal {
+		t.Errorf("stored %d chunks, want %d", len(st.chunks), wantTotal)
 	}
 
-	// Chunk content, kind, and order must be preserved through the pipeline.
-	for i, c := range st.chunks {
-		if c.Content != wantChunks[i] {
-			t.Errorf("chunk %d content mismatch", i)
+	var contentChunks []model.Chunk
+	for _, c := range st.chunks {
+		if c.Kind == model.ChunkKindContent {
+			contentChunks = append(contentChunks, c)
 		}
-		if c.Kind != model.ChunkKindContent {
-			t.Errorf("chunk %d kind = %q, want %q", i, c.Kind, model.ChunkKindContent)
-		}
+	}
+	if len(contentChunks) != 1 {
+		t.Fatalf("content chunks = %d, want 1 (content is no longer split)", len(contentChunks))
+	}
+	if contentChunks[0].Content != strings.TrimSpace(body) {
+		t.Errorf("content chunk does not match the whole trimmed Content")
+	}
+	for _, c := range st.chunks {
 		if len(c.Embedding) != emb.dims {
-			t.Errorf("chunk %d embedding dims = %d, want %d", i, len(c.Embedding), emb.dims)
+			t.Errorf("chunk embedding dims = %d, want %d", len(c.Embedding), emb.dims)
 		}
 	}
 

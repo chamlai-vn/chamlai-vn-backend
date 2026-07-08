@@ -2,9 +2,16 @@
 // corpusdoc.Document into stored, retrievable, multi-representation chunks.
 // It wires together the pieces that previously only existed apart:
 //
-//	Content → paragraph split + ragutil.Chunk sub-split (kind=content)
+//	Content → one chunk, whole (kind=content)
 //	User query lines → one chunk each, doc2query (kind=query)
 //	→ embed everything (contextual-prefixed) → store atomically
+//
+// Content is stored whole rather than sub-split: corpus documents are
+// already short, single-topic summaries produced by internal/scam/enrich, so
+// splitting on paragraph/size boundaries only fragmented a coherent scam
+// narrative across multiple chunks without any corresponding retrieval
+// benefit (Voyage's context window is far larger than these documents ever
+// get).
 //
 // It is the indexing counterpart to internal/analyzer (the query side). Both
 // the corpus crawler (cmd/crawler) and manual seeding (cmd/seed) drive the
@@ -24,7 +31,6 @@ import (
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/ai/embedder"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/model"
 	"github.com/chamlai-vn/chamlai-vn-backend/pkg/util/corpusdoc"
-	ragutil "github.com/chamlai-vn/chamlai-vn-backend/pkg/util/rag"
 )
 
 // sourceCorpus is the fixed documents.source value for every document
@@ -38,8 +44,11 @@ const sourceCorpus = "corpus"
 // cosine-similar to an already-kept query chunk of the same document is
 // dropped as a near-duplicate — insurance against a reviewer leaving two
 // near-identical paraphrases in "# User query" (see the plan's doc2query
-// research notes).
-const nearDupCosineThreshold = 0.9
+// research notes). Set high (not e.g. 0.9) because "# User query" lines are
+// deliberately generated to cover distinct victim intents that legitimately
+// share vocabulary (same scam scenario) — a lower threshold would discard
+// genuine intent diversity, not just accidental duplicates.
+const nearDupCosineThreshold = 0.95
 
 // IndexDocument runs the full multi-representation pipeline for one
 // corpusdoc.Document: split Content into sub-chunks (kind=content), turn
@@ -55,25 +64,20 @@ const nearDupCosineThreshold = 0.9
 // Embedding happens before any DB write, so a provider failure leaves
 // nothing behind. Empty/whitespace-only content is rejected up front.
 func (ix *Indexer) IndexDocument(ctx context.Context, doc corpusdoc.Document) (Result, error) {
-	if strings.TrimSpace(doc.Content) == "" {
+	content := strings.TrimSpace(doc.Content)
+	if content == "" {
 		return Result{}, fmt.Errorf("ingest: %q has no indexable content", doc.URL)
 	}
 
-	contentTexts := chunkContent(doc.Content, ix.chunkCfg)
-	if len(contentTexts) == 0 {
-		return Result{}, fmt.Errorf("ingest: %q produced no content chunks", doc.URL)
-	}
-
-	stored := make([]string, 0, len(contentTexts)+len(doc.UserQueries))
+	stored := make([]string, 0, 1+len(doc.UserQueries))
 	kinds := make([]model.ChunkKind, 0, cap(stored))
 	embedInput := make([]string, 0, cap(stored))
 	prefix := contextualPrefix(doc.Title, doc.ScamType)
 
-	for _, t := range contentTexts {
-		stored = append(stored, t)
-		kinds = append(kinds, model.ChunkKindContent)
-		embedInput = append(embedInput, prefix+t)
-	}
+	stored = append(stored, content)
+	kinds = append(kinds, model.ChunkKindContent)
+	embedInput = append(embedInput, prefix+content)
+
 	for _, q := range doc.UserQueries {
 		q = strings.TrimSpace(q)
 		if q == "" {
@@ -115,22 +119,6 @@ func (ix *Indexer) IndexDocument(ctx context.Context, doc corpusdoc.Document) (R
 // dense arm a doc-identity signal without an LLM call per chunk.
 func contextualPrefix(title, scamType string) string {
 	return fmt.Sprintf("%s (loại: %s)\n", title, scamType)
-}
-
-// chunkContent splits content on blank-line paragraph boundaries, then runs
-// each paragraph through ragutil.Chunk. Chunk is a no-op for text already
-// under cfg.Size (returns it unchanged as a single chunk), so this only
-// actually sub-splits the paragraphs that need it.
-func chunkContent(content string, cfg ragutil.ChunkConfig) []string {
-	var out []string
-	for _, p := range strings.Split(strings.TrimSpace(content), "\n\n") {
-		p = strings.TrimSpace(p)
-		if p == "" {
-			continue
-		}
-		out = append(out, ragutil.Chunk(p, cfg)...)
-	}
-	return out
 }
 
 // dropNearDuplicateQueries returns the indices (into kinds/vectors) to keep:
