@@ -3,12 +3,19 @@ package crawler
 import (
 	"context"
 	"fmt"
+	"io"
 	"net/http"
 	"net/url"
 	"strings"
 
 	"github.com/PuerkitoBio/goquery"
 )
+
+// maxResponseBytes caps how much of a fetched page body Fetch will parse. A
+// scam-warning article page is a few KB to a few hundred KB of HTML; this is
+// generous headroom while still bounding memory/CPU against a hostile or
+// compromised-allowlisted host serving an oversized response.
+const maxResponseBytes = 5 << 20 // 5 MiB
 
 // Fetch retrieves rawURL and extracts the article into a FetchedDoc using the
 // per-host rule in sites.go. It returns an error (for the caller to log-and-skip)
@@ -40,7 +47,7 @@ func (c *Crawler) Fetch(ctx context.Context, rawURL string) (FetchedDoc, error) 
 		return FetchedDoc{}, fmt.Errorf("crawler: get %q: status %d", rawURL, resp.StatusCode)
 	}
 
-	doc, err := goquery.NewDocumentFromReader(resp.Body)
+	doc, err := goquery.NewDocumentFromReader(io.LimitReader(resp.Body, maxResponseBytes))
 	if err != nil {
 		return FetchedDoc{}, fmt.Errorf("crawler: parse %q: %w", rawURL, err)
 	}

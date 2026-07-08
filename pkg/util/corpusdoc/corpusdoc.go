@@ -25,6 +25,7 @@
 package corpusdoc
 
 import (
+	"crypto/sha1"
 	"fmt"
 	"net/url"
 	"regexp"
@@ -104,11 +105,27 @@ func Parse(text string) (Document, error) {
 // Serialize renders doc back into the canonical 4-section format. Parse(
 // Serialize(doc)) round-trips doc's fields (modulo whitespace normalisation).
 func Serialize(doc Document) string {
+	return serialize(doc, "")
+}
+
+// SerializeForReview renders doc like Serialize, but marks it as needing
+// human review: "reviewed: false" in the General information block. This is
+// the -mode=generate output format — a human flips the flag to "true" after
+// reviewing/editing the file; -mode=ingest refuses to index anything still
+// marked false (see ReadReviewedFlag). The flag lives outside Document
+// itself: it's a review-workflow marker on the file, not a property of the
+// parsed corpus document.
+func SerializeForReview(doc Document) string {
+	return serialize(doc, "reviewed: false\n")
+}
+
+func serialize(doc Document, reviewedLine string) string {
 	var b strings.Builder
 	b.WriteString("# " + sectionGeneral + "\n")
 	fmt.Fprintf(&b, "url: %s\n", doc.URL)
 	fmt.Fprintf(&b, "title: %s\n", doc.Title)
 	fmt.Fprintf(&b, "type: %s\n", doc.ScamType)
+	b.WriteString(reviewedLine)
 	b.WriteString("# " + sectionContent + "\n")
 	b.WriteString(strings.TrimSpace(doc.Content))
 	b.WriteString("\n# " + sectionUserQuery + "\n")
@@ -119,6 +136,26 @@ func Serialize(doc Document) string {
 	b.WriteString(strings.TrimSpace(doc.Prevention))
 	b.WriteString("\n")
 	return b.String()
+}
+
+// ReadReviewedFlag reports whether a corpus markdown file's "General
+// information" section declares "reviewed: true". A missing key, a value
+// other than "true", or a missing General information section defaults to
+// false (fail-closed): a file must explicitly opt in to being ingested.
+// -mode=ingest calls this before Parse, enforcing the human-review gate
+// technically rather than relying on the reviewer's word alone.
+func ReadReviewedFlag(text string) (bool, error) {
+	text = strings.TrimLeft(text, "\uFEFF \t\r\n")
+	sections, err := splitSections(text)
+	if err != nil {
+		return false, fmt.Errorf("corpusdoc: %w", err)
+	}
+	general, ok := sections[sectionGeneral]
+	if !ok {
+		return false, fmt.Errorf("corpusdoc: missing %q section", sectionGeneral)
+	}
+	meta := parseKeyValueLines(general)
+	return strings.TrimSpace(meta["reviewed"]) == "true", nil
 }
 
 // validate rejects a Document that is missing a required field, declares a
@@ -211,4 +248,56 @@ func parseUserQueries(lines []string) []string {
 		}
 	}
 	return out
+}
+
+// nonSlugChars matches anything outside [a-z0-9-], for turning a URL path
+// segment or title into a filesystem-safe slug.
+var nonSlugChars = regexp.MustCompile(`[^a-z0-9-]+`)
+
+// Slug derives a filesystem-safe basename (no extension) for doc, for
+// -mode=generate's data/corpus/<slug>.md output filename. It prefers the
+// URL's last path segment — scam-warning article URLs almost always already
+// carry a readable ASCII slug there — and falls back to the title (non-ASCII
+// runes, mostly Vietnamese diacritics, become separators rather than being
+// transliterated: good enough for a human-browsable filename, not meant to
+// be phonetically exact). A short hash suffix of the URL guards against two
+// different documents collapsing onto the same base slug.
+func Slug(doc Document) string {
+	base := slugify(lastPathSegment(doc.URL))
+	if base == "" {
+		base = slugify(doc.Title)
+	}
+	if base == "" {
+		base = "document"
+	}
+	sum := sha1.Sum([]byte(doc.URL)) //nolint:gosec // content-addressing a filename, not a security boundary
+	return fmt.Sprintf("%s-%x", base, sum[:4])
+}
+
+// lastPathSegment returns the last non-empty path segment of rawURL, with a
+// trailing file extension (e.g. ".html") stripped. Empty/unparsable input
+// yields "".
+func lastPathSegment(rawURL string) string {
+	u, err := url.Parse(rawURL)
+	if err != nil {
+		return ""
+	}
+	segments := strings.Split(strings.Trim(u.Path, "/"), "/")
+	last := segments[len(segments)-1]
+	if idx := strings.LastIndex(last, "."); idx > 0 {
+		last = last[:idx]
+	}
+	return last
+}
+
+// slugify lowercases s and keeps only [a-z0-9-], collapsing runs of
+// separators into a single '-' and trimming leading/trailing '-'.
+func slugify(s string) string {
+	s = strings.ToLower(s)
+	s = nonSlugChars.ReplaceAllString(s, "-")
+	s = strings.Trim(s, "-")
+	for strings.Contains(s, "--") {
+		s = strings.ReplaceAll(s, "--", "-")
+	}
+	return s
 }

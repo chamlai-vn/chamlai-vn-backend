@@ -97,6 +97,51 @@ func TestFetch_EmptyContent(t *testing.T) {
 	}
 }
 
+func TestFetch_RedirectToUnregisteredHostBlocked(t *testing.T) {
+	// A host not in the allowlist, reachable only via a redirect FROM an
+	// allowlisted host — the SSRF gap defaultCheckRedirect closes.
+	unregistered := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, _ *http.Request) {
+		_, _ = w.Write([]byte(sampleArticleHTML))
+	}))
+	defer unregistered.Close()
+
+	allowlisted := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		http.Redirect(w, r, unregistered.URL+"/x", http.StatusFound)
+	}))
+	defer allowlisted.Close()
+	registerTestRule(t, allowlisted.URL, siteRule{source: "x", titleSel: "h1", contentSel: "article"})
+
+	_, err := New().Fetch(context.Background(), allowlisted.URL)
+	if err == nil || !strings.Contains(err.Error(), "redirect to unregistered host") {
+		t.Fatalf("want redirect-blocked error, got %v", err)
+	}
+}
+
+func TestFetch_ResponseBodyIsCapped(t *testing.T) {
+	const realContent = "nội dung thật, không nên xuất hiện trong kết quả"
+	srv := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, _ *http.Request) {
+		_, _ = w.Write([]byte(`<html><body><h1>t</h1><article class="fck_detail">`))
+		// Pad well past maxResponseBytes before the real content, so a
+		// correctly-capped read never reaches it. The container falls back
+		// to its own text when no <p> is found (extractContent), so this
+		// doesn't produce an "empty content" error — it's still non-empty
+		// (garbage) content. What must never happen is realContent, planted
+		// after the padding, showing up in the result.
+		_, _ = w.Write([]byte(strings.Repeat("x", maxResponseBytes+1024)))
+		_, _ = w.Write([]byte(`<p class="Normal">` + realContent + `</p></article></body></html>`))
+	}))
+	defer srv.Close()
+	registerTestRule(t, srv.URL, siteRule{source: "x", titleSel: "h1", contentSel: "article.fck_detail"})
+
+	doc, err := New().Fetch(context.Background(), srv.URL)
+	if err != nil {
+		t.Fatalf("Fetch: %v (expected success on truncated-but-non-empty content)", err)
+	}
+	if strings.Contains(doc.Content, realContent) {
+		t.Error("content past maxResponseBytes was not truncated — size cap is not effective")
+	}
+}
+
 func TestInferScamType(t *testing.T) {
 	cases := []struct {
 		name, title, content, want string

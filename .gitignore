@@ -36,6 +36,14 @@ go.work.sum
 # Kept out of git — see cmd/crawler/data.example/ for the expected formats.
 cmd/crawler/data/
 
+# Generated/reviewed corpus documents (cmd/crawler -mode=generate|ingest,
+# internal/scam/enrich). Kept out of git except a synthetic example and the
+# directory placeholder — crawled/LLM-generated content is not exposed in the
+# public repository, matching cmd/crawler/data/ above.
+data/corpus/*
+!data/corpus/.gitkeep
+!data/corpus/example.md
+
 # Crawler site registry: CSS selectors per host. Copy sites_local.go.example to
 # sites_local.go and fill in your own entries — kept local so the specific sites
 # being crawled are not exposed in the public repository.

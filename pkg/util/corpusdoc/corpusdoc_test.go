@@ -143,3 +143,102 @@ func TestParse_ToleratesFrontmatterStyleColonsInURL(t *testing.T) {
 		t.Errorf("URL should keep its scheme colon intact, got %q", doc.URL)
 	}
 }
+
+func TestReadReviewedFlag(t *testing.T) {
+	cases := []struct {
+		name string
+		text string
+		want bool
+	}{
+		{"reviewed true", "# General information\nurl: https://x.gov.vn\ntitle: t\ntype: other\nreviewed: true\n# Content\nc\n", true},
+		{"reviewed false", "# General information\nurl: https://x.gov.vn\ntitle: t\ntype: other\nreviewed: false\n# Content\nc\n", false},
+		{"reviewed key absent (fail-closed)", "# General information\nurl: https://x.gov.vn\ntitle: t\ntype: other\n# Content\nc\n", false},
+		{"reviewed set to garbage (fail-closed)", "# General information\nurl: https://x.gov.vn\ntitle: t\ntype: other\nreviewed: yes\n# Content\nc\n", false},
+	}
+	for _, tc := range cases {
+		t.Run(tc.name, func(t *testing.T) {
+			got, err := ReadReviewedFlag(tc.text)
+			if err != nil {
+				t.Fatalf("ReadReviewedFlag: %v", err)
+			}
+			if got != tc.want {
+				t.Errorf("got %v, want %v", got, tc.want)
+			}
+		})
+	}
+}
+
+func TestReadReviewedFlag_MissingGeneralInformationErrors(t *testing.T) {
+	if _, err := ReadReviewedFlag("# Content\nc\n"); err == nil {
+		t.Error("expected error for missing General information section, got nil")
+	}
+}
+
+func TestSlug_PrefersURLPathSegment(t *testing.T) {
+	doc := Document{
+		URL:   "https://congan.example.gov.vn/canh-bao-mao-danh-giao-duc-1234.html",
+		Title: "mạo danh cơ sở giáo dục",
+	}
+	got := Slug(doc)
+	if !strings.HasPrefix(got, "canh-bao-mao-danh-giao-duc-1234-") {
+		t.Errorf("Slug = %q, want prefix from the URL path segment", got)
+	}
+}
+
+func TestSlug_FallsBackToTitleWhenURLHasNoPath(t *testing.T) {
+	doc := Document{URL: "https://example.gov.vn", Title: "canh bao lua dao"}
+	got := Slug(doc)
+	if !strings.HasPrefix(got, "canh-bao-lua-dao-") {
+		t.Errorf("Slug = %q, want prefix derived from title", got)
+	}
+}
+
+func TestSlug_IsStableAndUniquePerURL(t *testing.T) {
+	docA := Document{URL: "https://example.gov.vn/same-path.html", Title: "t"}
+	docB := Document{URL: "https://example.gov.vn/same-path.html?id=2", Title: "t"}
+
+	first, second := Slug(docA), Slug(docA)
+	if first != second {
+		t.Errorf("Slug is not stable across calls for the same document: %q != %q", first, second)
+	}
+	if Slug(docA) == Slug(docB) {
+		t.Error("two different URLs with the same path segment should not collide (hash suffix should differ)")
+	}
+}
+
+func TestSlug_NeverEmpty(t *testing.T) {
+	doc := Document{URL: "https://example.gov.vn/", Title: ""}
+	if got := Slug(doc); got == "" || strings.HasPrefix(got, "-") {
+		t.Errorf("Slug = %q, want a non-empty, non-dash-prefixed fallback", got)
+	}
+}
+
+func TestSerializeForReview_MarksUnreviewedAndIngestRefusesUntilFlipped(t *testing.T) {
+	doc, err := Parse(validDoc)
+	if err != nil {
+		t.Fatalf("Parse: %v", err)
+	}
+
+	generated := SerializeForReview(doc)
+	reviewed, err := ReadReviewedFlag(generated)
+	if err != nil {
+		t.Fatalf("ReadReviewedFlag: %v", err)
+	}
+	if reviewed {
+		t.Error("SerializeForReview output should start as reviewed: false")
+	}
+	// The document itself must still parse cleanly even with the extra
+	// reviewed: line mixed into General information's key:value lines.
+	if _, err := Parse(generated); err != nil {
+		t.Errorf("Parse(SerializeForReview(doc)): %v", err)
+	}
+
+	reviewedFile := strings.Replace(generated, "reviewed: false", "reviewed: true", 1)
+	reviewed, err = ReadReviewedFlag(reviewedFile)
+	if err != nil {
+		t.Fatalf("ReadReviewedFlag: %v", err)
+	}
+	if !reviewed {
+		t.Error("flipping reviewed: false -> true should be picked up")
+	}
+}
