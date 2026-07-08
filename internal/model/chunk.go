@@ -24,4 +24,5 @@ type Chunk struct {
 	Embedding  []float32
 	CreatedAt  time.Time
 	UpdatedAt  time.Time
+	// ContentTSV []float32: not exposed to application layer
 }

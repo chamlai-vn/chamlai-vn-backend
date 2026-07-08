@@ -85,6 +85,45 @@ data/
 benchmark/        # thiết kế benchmark retrieval (README.md) — chưa chạy, xem trạng thái trong đó
 ```
 
+## Xây dựng corpus dữ liệu
+
+Corpus (các bài cảnh báo lừa đảo) được xây dựng qua 2 giai đoạn tách biệt, nối nhau bởi định dạng
+markdown 4 phần chuẩn (`pkg/util/corpusdoc`) và một bước con người review bắt buộc — chi tiết xem
+doc comment của package `cmd/crawler`.
+
+```mermaid
+flowchart TD
+    subgraph GEN["-mode=generate  (crawler + enrich + LLM key — không cần DB)"]
+        A["Seed URLs"] --> B["crawler.Fetch<br/>fetch + parse trang gốc, không LLM"]
+        B --> C["enrich.Enrich<br/>LLM: tóm tắt nội dung, phân loại scam_type,<br/>sinh câu hỏi doc2query + biện pháp phòng tránh"]
+        C --> D["data/corpus/&lt;slug&gt;.md<br/>reviewed: false"]
+    end
+
+    D --> R{{"Người review<br/>chỉnh sửa nội dung, đổi reviewed: true"}}
+
+    subgraph ING["-mode=ingest  (DB + embedder — không cần LLM)"]
+        R --> F{"reviewed: true?"}
+        F -->|"false"| X["bỏ qua"]
+        F -->|"true"| P["corpusdoc.Parse<br/>validate url + scam_type"]
+        P --> CH["structure-chunk<br/>Content → theo đoạn văn<br/>User query → mỗi câu 1 chunk"]
+        CH --> EM["embed đa biểu diễn<br/>(content + doc2query,<br/>prefix ngữ cảnh chỉ khi embed)"]
+        EM --> ST[("documents + chunks<br/>Postgres pgvector/tsvector")]
+    end
+```
+
+- **`-mode=generate`** chỉ cần `crawler` + `enrich` + API key của LLM (không đụng DB/embedder):
+  fetch trang gốc, gọi LLM tóm tắt/phân loại/sinh câu hỏi doc2query (giọng nạn nhân) + biện pháp
+  phòng tránh, rồi ghi ra `data/corpus/<slug>.md` với `reviewed: false`.
+- Con người review/sửa file, đổi `reviewed: false` → `true` — đây là điểm chặn kỹ thuật duy nhất
+  giữa output của LLM và corpus được lưu trữ, không chỉ là quy ước.
+- **`-mode=ingest`** chỉ cần DB + embedder (không đụng LLM/crawler): từ chối file còn
+  `reviewed: false`, parse + validate, chunk theo cấu trúc (Content theo đoạn văn, mỗi câu trong
+  User query thành 1 vector doc2query riêng), embed đa biểu diễn rồi lưu nguyên tử vào
+  `documents`/`chunks`.
+
+Cả 2 lệnh đều idempotent khi chạy lại: `generate` bỏ qua URL đã có file; `ingest` bỏ qua URL đã có
+trong corpus (kiểm tra trước khi tốn phí embedding).
+
 ## Chạy thử
 
 ```bash

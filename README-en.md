@@ -78,6 +78,45 @@ data/
 benchmark/        # retrieval benchmark design doc (README.md) — not yet run, see its own status section
 ```
 
+## Building the corpus
+
+The corpus (scam-warning documents) is built in two separate stages, connected by the canonical
+4-section markdown format (`pkg/util/corpusdoc`) and a mandatory human-review step — see the
+`cmd/crawler` package doc for full details.
+
+```mermaid
+flowchart TD
+    subgraph GEN["-mode=generate  (crawler + enrich + LLM key — no DB needed)"]
+        A["Seed URLs"] --> B["crawler.Fetch<br/>fetch + parse raw page, no LLM"]
+        B --> C["enrich.Enrich<br/>LLM: summarize content, classify scam_type,<br/>generate doc2query questions + prevention advice"]
+        C --> D["data/corpus/&lt;slug&gt;.md<br/>reviewed: false"]
+    end
+
+    D --> R{{"Human review<br/>edit content, flip reviewed: true"}}
+
+    subgraph ING["-mode=ingest  (DB + embedder — no LLM needed)"]
+        R --> F{"reviewed: true?"}
+        F -->|"false"| X["skip"]
+        F -->|"true"| P["corpusdoc.Parse<br/>validate url + scam_type"]
+        P --> CH["structure-chunk<br/>Content → per paragraph<br/>User query → one chunk per line"]
+        CH --> EM["multi-representation embed<br/>(content + doc2query,<br/>contextual prefix on embedding input only)"]
+        EM --> ST[("documents + chunks<br/>Postgres pgvector/tsvector")]
+    end
+```
+
+- **`-mode=generate`** only needs `crawler` + `enrich` + an LLM API key (no DB/embedder): fetches
+  the raw page, calls the LLM to summarize/classify/generate victim-voice doc2query questions +
+  prevention advice, then writes `data/corpus/<slug>.md` marked `reviewed: false`.
+- A human reviews/edits the file and flips `reviewed: false` → `true` — the only technical gate
+  between the LLM's output and the stored corpus, not just a convention.
+- **`-mode=ingest`** only needs a database + embedder (no LLM/crawler): refuses any file still
+  marked `reviewed: false`, parses + validates it, chunks by structure (Content split by
+  paragraph, each User query line becomes its own doc2query vector), embeds multi-representation,
+  and stores atomically into `documents`/`chunks`.
+
+Both commands are idempotent re-runs: `generate` skips a URL that already has a file; `ingest`
+skips a URL already in the corpus (checked before spending on embeddings).
+
 ## Getting started
 
 ```bash
