@@ -3,9 +3,10 @@ package crawler
 import "strings"
 
 // Scam type labels. Snake_case, fixed set — keep these in sync with whatever the
-// analyzer/UI expects to display, and with the scam_type values used in the
-// hand-written local markdown files (cmd/crawler/data/*.md). "other" is the
-// catch-all when no rule matches (typical for broad overview/guide articles).
+// analyzer/UI expects to display, and with the "type:" values used in the
+// corpus markdown format (see pkg/util/corpusdoc and ValidScamTypes below).
+// "other" is the catch-all when no rule matches (typical for broad overview/
+// guide articles).
 const (
 	ScamImpersonationAuthority = "impersonation_authority" // công an, toà án, viện KS, cơ quan nhà nước, VNeID/CCCD
 	ScamImpersonationService   = "impersonation_service"   // điện lực, y tế, nhà mạng/SIM, nhân viên ngân hàng

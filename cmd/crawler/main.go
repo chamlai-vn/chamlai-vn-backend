@@ -27,8 +27,9 @@
 // generated file; ingest skips a url already in the corpus before any
 // embedding call.
 //
-// Seed urls for -mode=generate live in cmd/crawler/data/ (git-ignored). One
-// url per line; blank lines and '#' comments are skipped.
+// Seed urls for -mode=generate live in data/seeds/ (git-ignored except a
+// synthetic example). One url per line; blank lines and '#' comments are
+// skipped.
 package main
 
 import (
@@ -51,7 +52,7 @@ import (
 
 func main() {
 	mode := flag.String("mode", "", `pipeline stage: "generate" (fetch+enrich -> data/corpus/*.md for review) or "ingest" (reviewed data/corpus/*.md -> embed+store)`)
-	seedsPath := flag.String("seeds", "cmd/crawler/data/seeds_20250625.txt", "generate: seed file, one article url per line")
+	seedsPath := flag.String("seeds", "data/seeds/seeds_20250625.txt", "generate: seed file, one article url per line")
 	outDir := flag.String("out", "data/corpus", "generate: output directory for generated .md files")
 	corpusGlob := flag.String("corpus", "data/corpus/*.md", "ingest: glob for reviewed corpus markdown files")
 	concurrency := flag.Int("concurrency", 5, "max concurrent workers")
