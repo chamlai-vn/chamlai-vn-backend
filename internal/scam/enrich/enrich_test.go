@@ -70,6 +70,43 @@ func TestEnrich_MapsResultToDocument(t *testing.T) {
 	}
 }
 
+func TestEnrich_NormalizesLiteralEscapedNewlines(t *testing.T) {
+	// Regression test for an observed model quirk: instead of a properly
+	// JSON-escaped newline, the model sometimes writes the two literal
+	// characters '\' and 'n' as text (e.g. wanting a paragraph break in
+	// "content" but typing the escape sequence's name instead of using it).
+	// json.Unmarshal faithfully decodes that JSON string as-is — no escaping
+	// bug on the Go side — so the fix has to happen after unmarshal. Written
+	// as a Go string literal, `\\n` is the two characters backslash+n
+	// (matching what a double-escaped `\\n` in the wire JSON decodes to).
+	raw := `{
+		"title": "t",
+		"content": "Đoạn một.\\n\\nĐoạn hai.",
+		"scam_type": "other",
+		"user_queries": ["câu hỏi có literal\\ntrong đó", "q2", "q3"],
+		"prevention": "Dòng một.\\nDòng hai."
+	}`
+	f := &fakeLLM{raw: json.RawMessage(raw)}
+	e := New(f)
+
+	doc, err := e.Enrich(context.Background(), Input{URL: "https://x.gov.vn", Content: "c"})
+	if err != nil {
+		t.Fatalf("Enrich: %v", err)
+	}
+	if strings.Contains(doc.Content, `\n`) {
+		t.Errorf("Content still has a literal backslash-n: %q", doc.Content)
+	}
+	if !strings.Contains(doc.Content, "Đoạn một.\n\nĐoạn hai.") {
+		t.Errorf("Content = %q, want a real double-newline paragraph break", doc.Content)
+	}
+	if strings.Contains(doc.Prevention, `\n`) {
+		t.Errorf("Prevention still has a literal backslash-n: %q", doc.Prevention)
+	}
+	if strings.Contains(doc.UserQueries[0], `\n`) {
+		t.Errorf("UserQueries[0] still has a literal backslash-n: %q", doc.UserQueries[0])
+	}
+}
+
 func TestEnrich_URLNeverComesFromModelOutput(t *testing.T) {
 	// Even if the tool JSON somehow carried a "url" field, Document.URL must
 	// only ever be input.URL — the crawler's own fetched URL. This is the
@@ -100,6 +137,41 @@ func TestEnrich_UnknownScamTypeRejected(t *testing.T) {
 	_, err := e.Enrich(context.Background(), Input{URL: "https://x.gov.vn", Content: "c"})
 	if err == nil {
 		t.Fatal("expected error for unknown scam_type, got nil")
+	}
+}
+
+func TestEnrich_TruncatedResultRejected(t *testing.T) {
+	// Regression test for the bug where a truncated tool call (e.g. hit
+	// max_tokens mid-generation) unmarshals into a syntactically valid but
+	// incomplete result — title/content/scam_type present, user_queries and
+	// prevention silently zero-valued — and a broken review file got written
+	// with no error. Each required field must be independently enforced.
+	cases := map[string]string{
+		"empty title": `{
+			"title": "", "content": "c", "scam_type": "other",
+			"user_queries": ["q1", "q2", "q3"], "prevention": "p"
+		}`,
+		"empty content": `{
+			"title": "t", "content": "  ", "scam_type": "other",
+			"user_queries": ["q1", "q2", "q3"], "prevention": "p"
+		}`,
+		"no user_queries (truncated before this field)": `{
+			"title": "t", "content": "c", "scam_type": "other",
+			"user_queries": [], "prevention": "p"
+		}`,
+		"empty prevention (truncated before this field)": `{
+			"title": "t", "content": "c", "scam_type": "other",
+			"user_queries": ["q1", "q2", "q3"], "prevention": ""
+		}`,
+	}
+	for name, raw := range cases {
+		t.Run(name, func(t *testing.T) {
+			f := &fakeLLM{raw: json.RawMessage(raw)}
+			e := New(f)
+			if _, err := e.Enrich(context.Background(), Input{URL: "https://x.gov.vn", Content: "c"}); err == nil {
+				t.Errorf("%s: expected error, got nil", name)
+			}
+		})
 	}
 }
 

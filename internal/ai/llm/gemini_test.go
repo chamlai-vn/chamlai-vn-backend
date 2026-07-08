@@ -104,6 +104,36 @@ func TestGeminiGenerateStructured_ReturnsFunctionArgs(t *testing.T) {
 	}
 }
 
+func TestGeminiGenerateStructured_TruncatedAtMaxTokensErrors(t *testing.T) {
+	// Regression test: Gemini rejects a function call truncated at the token
+	// limit as finish_reason=MAX_TOKENS before it even reaches
+	// MALFORMED_FUNCTION_CALL — surface that specific, actionable cause. See
+	// internal/scam/enrich's enrichMaxTokens for the bug this guards.
+	srv := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		w.Header().Set("Content-Type", "application/json")
+		_, _ = w.Write([]byte(`{"candidates":[{"content":{"role":"model","parts":[{"text":"partial"}]},"finishReason":"MAX_TOKENS"}]}`))
+	}))
+	defer srv.Close()
+
+	g := newTestGemini(t, srv, GeminiConfig{APIKey: "test"})
+	if _, err := g.GenerateStructured(context.Background(), Request{User: "q", ToolName: "record_corpus_document"}); err == nil {
+		t.Fatal("expected error for finish_reason=MAX_TOKENS, got nil")
+	}
+}
+
+func TestGeminiGenerateStructured_MalformedFunctionCallErrors(t *testing.T) {
+	srv := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		w.Header().Set("Content-Type", "application/json")
+		_, _ = w.Write([]byte(`{"candidates":[{"content":{"role":"model","parts":[]},"finishReason":"MALFORMED_FUNCTION_CALL"}]}`))
+	}))
+	defer srv.Close()
+
+	g := newTestGemini(t, srv, GeminiConfig{APIKey: "test"})
+	if _, err := g.GenerateStructured(context.Background(), Request{User: "q", ToolName: "record_corpus_document"}); err == nil {
+		t.Fatal("expected error for finish_reason=MALFORMED_FUNCTION_CALL, got nil")
+	}
+}
+
 func TestGeminiGenerateStructured_NoFunctionCallErrors(t *testing.T) {
 	srv := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		w.Header().Set("Content-Type", "application/json")
