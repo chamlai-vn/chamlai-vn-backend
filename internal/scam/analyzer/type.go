@@ -22,14 +22,19 @@ type AnalysisResult struct {
 // The forced tool the model must call. Disclaimer is intentionally NOT in the
 // schema — it is mandatory and constant, so Score sets it server-side rather
 // than spending tokens (and risking the model omitting it).
+//
+// Exported (rather than the more common unexported-const pattern in this
+// package) because cmd/benchmark's generic-AI arm needs this exact schema to
+// structure its own answer into a comparable AnalysisResult — duplicating it
+// there would risk silent drift from what Score actually asks the model for.
 const (
-	analysisToolName = "record_scam_analysis"
-	analysisToolDesc = "Ghi lại kết quả phân tích rủi ro lừa đảo của tin nhắn đáng ngờ dưới dạng dữ liệu có cấu trúc."
+	AnalysisToolName = "record_scam_analysis"
+	AnalysisToolDesc = "Ghi lại kết quả phân tích rủi ro lừa đảo của tin nhắn đáng ngờ dưới dạng dữ liệu có cấu trúc."
 )
 
-// analysisToolSchema is the JSON Schema for the tool input. Descriptions are in
+// AnalysisToolSchema is the JSON Schema for the tool input. Descriptions are in
 // Vietnamese to steer the model toward Vietnamese, user-facing content.
-var analysisToolSchema = json.RawMessage(`{
+var AnalysisToolSchema = json.RawMessage(`{
   "type": "object",
   "properties": {
     "risk_level": {

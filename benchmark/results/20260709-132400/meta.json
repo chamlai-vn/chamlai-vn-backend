@@ -1,0 +1,7 @@
+{
+  "timestamp": "2026-07-09T13:34:46Z",
+  "git_sha": "ddc0ea9a44209d541c9b03c699635fa96bddd584",
+  "dataset_hash": "04cd91dca02f",
+  "n_cases": 159,
+  "generator_model": "claude-haiku-4-5-20251001"
+}

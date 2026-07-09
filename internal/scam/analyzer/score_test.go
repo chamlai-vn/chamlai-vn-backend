@@ -46,15 +46,15 @@ func TestScore_MapsAndForcesDisclaimer(t *testing.T) {
 	if res.RiskLevel != RiskRed {
 		t.Errorf("risk_level = %q, want red", res.RiskLevel)
 	}
-	if res.Disclaimer != disclaimer {
+	if res.Disclaimer != Disclaimer {
 		t.Errorf("disclaimer not set server-side: got %q", res.Disclaimer)
 	}
 	if len(res.RedFlags) != 1 || len(res.MatchedPatterns) != 1 || len(res.RecommendedActions) != 1 {
 		t.Errorf("slices not mapped: %+v", res)
 	}
 	// The forced tool must be the analysis tool with our schema.
-	if f.lastReq.ToolName != analysisToolName {
-		t.Errorf("tool name = %q, want %q", f.lastReq.ToolName, analysisToolName)
+	if f.lastReq.ToolName != AnalysisToolName {
+		t.Errorf("tool name = %q, want %q", f.lastReq.ToolName, AnalysisToolName)
 	}
 }
 

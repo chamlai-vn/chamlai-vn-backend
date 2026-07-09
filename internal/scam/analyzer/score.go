@@ -11,9 +11,11 @@ import (
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/scam/retriever"
 )
 
-// disclaimer is the mandatory reference-only notice, set on every result so it
-// can never be omitted or altered by the model.
-const disclaimer = "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+// Disclaimer is the mandatory reference-only notice, set on every result so it
+// can never be omitted or altered by the model. Exported so callers building
+// a comparable AnalysisResult outside this package's Score (e.g.
+// cmd/benchmark's generic-AI arm) attach the identical, correct text.
+const Disclaimer = "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
 
 // Score classifies suspiciousText as red/yellow/green using the retrieved scam
 // patterns as grounding context. It does NOT call the retriever — chunks are
@@ -37,9 +39,9 @@ func (a *Analyzer) Score(ctx context.Context, suspiciousText string, chunks []re
 	raw, err := a.llm.GenerateStructured(ctx, llm.Request{
 		System:   buildSystemPrompt(),
 		User:     buildUserPrompt(text, chunks),
-		ToolName: analysisToolName,
-		ToolDesc: analysisToolDesc,
-		Schema:   analysisToolSchema,
+		ToolName: AnalysisToolName,
+		ToolDesc: AnalysisToolDesc,
+		Schema:   AnalysisToolSchema,
 	})
 	if err != nil {
 		return nil, fmt.Errorf("analyzer: score: %w", err)
@@ -57,7 +59,7 @@ func (a *Analyzer) Score(ctx context.Context, suspiciousText string, chunks []re
 	}
 
 	// Never trust the model for the mandatory disclaimer.
-	result.Disclaimer = disclaimer
+	result.Disclaimer = Disclaimer
 	// Normalise nil slices to empty for stable JSON output.
 	if result.RedFlags == nil {
 		result.RedFlags = []string{}
