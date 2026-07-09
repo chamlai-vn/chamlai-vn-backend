@@ -1,7 +1,10 @@
-// Package evalutil holds reusable, dependency-free retrieval-quality metrics
-// for comparing a ranked list of ids against a single known-relevant id — e.g.
-// scoring vector-only vs hybrid search on a benchmark dataset. No Service
-// interface, no Config injection, mirrors pkg/util/rag's shape.
+// Package evalutil holds reusable, dependency-free quality metrics for
+// benchmarking the RAG pipeline. This file covers retrieval-quality metrics —
+// comparing a ranked list of ids against a single known-relevant id (e.g.
+// scoring vector-only vs hybrid search). confusion.go covers end-to-end
+// verdict-quality metrics (comparing a red/yellow/green verdict against a
+// known-correct one). No Service interface, no Config injection, mirrors
+// pkg/util/rag's shape.
 package evalutil
 
 // Judgment is the outcome of scoring one ranked result list against one
