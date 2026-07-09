@@ -39,7 +39,7 @@ func buildSystemPrompt() string {
 Yêu cầu:
 - "content": tổng hợp/làm sạch nội dung gốc, giữ đầy đủ thủ đoạn và dấu hiệu nhận biết. KHÔNG bịa thêm chi tiết không có trong nguồn. Nếu cần ngắt đoạn, dùng ký tự xuống dòng thật trong JSON string (mã hoá đúng chuẩn thành \n khi encode) — TUYỆT ĐỐI KHÔNG viết ra hai ký tự "\" và "n" như văn bản thường (đó không phải là xuống dòng, chỉ là chữ cái).
 - "scam_type": chọn đúng MỘT loại phù hợp nhất từ danh sách được cung cấp trong schema.
-- "user_queries": sinh 3-6 câu, mỗi câu một khía cạnh/tình huống KHÁC NHAU của thủ đoạn này (không lặp lại ý). Đa số là câu hỏi theo giọng nạn nhân thật ("có phải lừa đảo không", "tôi nên làm gì"); có thể có 1-2 câu là nguyên văn tin nhắn/lời thoại kẻ lừa đảo có thể gửi (không phải câu hỏi) — vì nạn nhân thường dán lại nguyên văn tin nhắn thay vì tự diễn giải thành câu hỏi.
+- "user_queries": sinh 3-6 câu, mỗi câu một khía cạnh/tình huống KHÁC NHAU của thủ đoạn này (không lặp lại ý). Đa số là câu hỏi theo giọng nạn nhân thật ("có phải lừa đảo không", "tôi nên làm gì"); có thể có 1-2 câu là nguyên văn tin nhắn/lời thoại kẻ lừa đảo có thể gửi (không phải câu hỏi) — vì nạn nhân thường dán lại nguyên văn tin nhắn thay vì tự diễn giải thành câu hỏi. Trả về dạng array []string
 - "prevention": hướng dẫn phòng tránh ngắn gọn, cụ thể, hành động được.
 - Luôn trả kết quả bằng cách gọi công cụ ` + enrichToolName + `.
 
