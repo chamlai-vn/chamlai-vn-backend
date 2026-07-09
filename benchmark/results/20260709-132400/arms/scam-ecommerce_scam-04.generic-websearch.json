@@ -1,0 +1,53 @@
+{
+  "case_id": "scam-ecommerce_scam-04",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Giá vé rẻ bất thường: vé khứ hồi HN–Phú Quốc chỉ 890.000đ trong khi giá thị trường khoảng 2,5 triệu đồng (giảm hơn 50%)",
+      "Website giả mạo có thiết kế tương tự kênh chính thức của các hãng hàng không hoặc đại lý uy tín",
+      "Quảng cáo với thông điệp hấp dẫn như 'vé hot, giá siêu hời, số lượng có hạn', 'vé thanh lý phút chót giá rẻ bất ngờ'",
+      "Sau khi nhận tiền, kẻ lừa đảo cắt đứt liên lạc hoặc tiếp tục báo lỗi giao dịch và yêu cầu chuyển thêm tiền",
+      "Người mua nhận được mã vé giả hoặc mã đặt chỗ không tồn tại",
+      "Kẻ lừa đảo xóa toàn bộ dấu vết sau khi chiếm đoạt tiền: xóa website, xóa trang Facebook",
+      "Sử dụng hình ảnh phòng vé, giấy phép kinh doanh giả và tạo lượt tương tác 'ảo' để tạo lòng tin"
+    ],
+    "matched_patterns": [
+      "Lừa đảo bán vé máy bay giá rẻ qua mạng",
+      "Giả mạo đại lý/hãng hàng không trên mạng xã hội (Facebook, Zalo, TikTok)",
+      "Website/fanpage giả mạo hãng hàng không hoặc công ty du lịch uy tín",
+      "Nhận tiền rồi cắt đứt liên lạc và xóa dấu vết"
+    ],
+    "recommended_actions": [
+      "Lưu toàn bộ bằng chứng: biên lai, sao kê chuyển khoản, ảnh chụp màn hình cuộc trò chuyện trên Facebook, thông tin cá nhân của bên bán (tên tài khoản, số điện thoại, email)",
+      "Trình báo công an ngay tại Công an cấp xã/phường hoặc Cơ quan Cảnh sát điều tra trong vòng 24–48 giờ sau khi phát hiện để tăng cơ hội truy vết tài khoản nhận tiền",
+      "Liên hệ ngân hàng Vietcombank để gửi yêu cầu khiếu nại kèm bằng chứng giao dịch, đề nghị hỗ trợ khóa tài khoản nhận tiền hoặc hoàn tiền nếu phát hiện giao dịch gian lận",
+      "Đăng cảnh báo lên mạng xã hội để người khác tránh bị lừa tương tự",
+      "Trong tương lai, chỉ mua vé qua website chính thức của các hãng hàng không hoặc đại lý được cấp phép; không chuyển tiền nhiều lần theo yêu cầu của người lạ; không truy cập đường link không rõ nguồn gốc; không cung cấp mã OTP hoặc mật khẩu ngân hàng cho bất kỳ ai"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 KẾT LUẬN: Bạn Linh ĐÃ BỊ LỪA ĐẢO — Đây là vụ lừa đảo vé máy bay kinh điển!\n\nCâu chuyện của Linh **khớp 100%** với thủ đoạn lừa đảo bán vé máy bay giá rẻ qua mạng đang rất phổ biến tại Việt Nam. Dưới đây là phân tích chi tiết:\n\n---\n\n## 🔍 TẠI SAO ĐÂY LÀ LỪA ĐẢO?\n\n### 1. Thủ đoạn y hệt các vụ đã được cảnh báo\nCác đối tượng thường lập fanpage, website giả mạo các hãng hàng không, công ty du lịch uy tín hoặc đăng tải quảng cáo bán vé máy bay giá rẻ trên Facebook, Zalo, TikTok nhằm thu hút người có nhu cầu mua vé.\n\n### 2. Giá \"rẻ bất thường\" là bẫy cổ điển\nCác đối tượng thường đăng tải quảng cáo vé máy bay giá rẻ bất thường kèm những thông điệp hấp dẫn như \"vé hot, giá siêu hời, số lượng có hạn\", \"vé thanh lý phút chót giá rẻ bất ngờ\". Vé 890.000đ khứ hồi HN-Phú Quốc trong khi giá thị trường 2,5 triệu là **dấu hiệu đỏ rõ ràng nhất**.\n\n### 3. Website giả trông như thật\nCục Hàng không Việt Nam thông tin, phương thức lừa đảo phổ biến nhất hiện nay là các đối tượng mạo danh đại lý, tự tạo ra các website, trang mạng xã hội với địa chỉ đường dẫn, thiết kế tương tự kênh của các hãng hoặc đại lý chính thức.\n\n### 4. Kịch bản \"nhận tiền rồi biến mất\" đúng chuẩn\nSau khi nhận được tiền, nhóm lừa đảo hoặc cắt đứt liên lạc, hoặc tiếp tục báo lỗi giao dịch, yêu cầu khách chuyển thêm tiền. Cuối cùng, khách nhận được mã vé giả hoặc mã đặt chỗ không tồn tại.\n\n### 5. Xóa dấu vết là bước cuối cùng của kẻ lừa đảo\nĐể tạo lòng tin, các đối tượng sử dụng hình ảnh phòng vé, giấy phép kinh doanh giả, thậm chí thuê chạy quảng cáo, tạo lượt tương tác \"ảo\", có \"tích xanh\" khiến nhiều người nhầm tưởng là đại lý chính thống. Sau khi chiếm đoạt tiền, chúng xóa toàn bộ — website, Facebook — đúng như trường hợp của Linh.\n\n---\n\n## ✅ LINH CẦN LÀM GÌ NGAY BÂY GIỜ?\n\n### Bước 1: Lưu toàn bộ bằng chứng\nĐể chứng minh hành vi lừa đảo, cần thu thập bằng chứng bao gồm: biên lai, sao kê chuyển khoản ngân hàng chứng minh số tiền đã chuyển; ảnh chụp màn hình cuộc trò chuyện trên Facebook; thông tin cá nhân của bên bán (tên tài khoản Facebook, số điện thoại, email nếu có).\n\n### Bước 2: Trình báo công an NGAY\nNên đến Công an cấp xã/phường hoặc Cơ quan Cảnh sát điều tra để trình báo hành vi lừa đảo, cung cấp đầy đủ bằng chứng. Thời hạn báo cáo lý tưởng là trong vòng 24–48 giờ sau khi phát hiện để tăng cơ hội truy vết tài khoản nhận tiền.\n\n### Bước 3: Liên hệ ngân hàng Vietcombank\nGửi yêu cầu khiếu nại đến ngân hàng phát hành thẻ hoặc tài khoản chuyển tiền, kèm bằng chứng giao dịch. Ngân hàng có thể hỗ trợ khóa tài khoản nhận hoặc hoàn tiền nếu phát hiện giao dịch gian lận.\n\n### Bước 4: Cảnh báo cộng đồng\nKhi phát hiện dấu hiệu nghi vấn lừa đảo, người dân cần nhanh chóng liên hệ ngân hàng để khóa tài khoản, đồng thời trình báo cơ quan Công an nơi gần nhất để được hỗ trợ, xử lý kịp thời. Linh cũng nên đăng cảnh báo lên mạng xã hội để người khác tránh bị lừa tương tự.\n\n---\n\n## ⚖️ KHẢ NĂNG LẤY LẠI TIỀN?\n\nNếu hành vi có dấu hiệu chiếm đoạt tài sản với giá trị từ 2.000.000 đồng trở lên, có thể truy cứu trách nhiệm hình sự theo Bộ luật Hình sự 2015 tại Điều 174 về tội lừa đảo chiếm đoạt tài sản, với mức phạt tù từ 6 tháng đến 20 năm tùy theo giá trị tài sản.\n\nTuy số tiền 890.000đ không lớn, nhưng việc trình báo rất quan trọng vì kẻ gian có thể đang lừa nhiều nạn nhân khác cùng lúc — tổng số tiền lớn hơn sẽ giúp cơ quan điều tra vào cuộc mạnh hơn.\n\n---\n\n## 🛡️ BÀI HỌC CHO LẦN SAU\n\nChỉ nên mua vé qua website chính thức của các hãng hàng không hoặc đại lý uy tín được cấp phép hoạt động. Tuyệt đối không chuyển tiền nhiều lần theo yêu cầu của người lạ; không truy cập đường link không rõ nguồn gốc; không cung cấp mã OTP, mật khẩu ngân hàng cho bất kỳ ai.\n\n\u003e 💡 **Quy tắc vàng:** Vé máy bay giảm hơn 50% so với giá thị trường mà không phải từ website chính hãng → **gần như chắc chắn là lừa đảo**.",
+  "sources": [
+    "https://cafef.vn/canh-bao-nong-den-nhung-ai-hay-dat-ve-may-bay-gia-re-qua-facebook-zalo-188260520205743423.chn",
+    "https://congan.quangtri.gov.vn/canh-bao-thu-doan-lua-dao-ban-ve-may-bay-gia-re-qua-mang/",
+    "https://tapchihangkhong.vn/dat-ve-may-bay-online-nguoi-phu-nu-sap-bay-lua-dao-132-trieu-dong-5369.html",
+    "https://giadinh.suckhoedoisong.vn/nhung-ai-dang-san-ve-may-bay-tet-gia-re-tren-facebook-phai-doc-ngay-keo-tien-mat-tat-mang-172251219180108802.htm",
+    "https://congtyluatacc.vn/bi-lua-mua-ve-may-bay-gia-re-tren-facebook-lay-lai-tien-duoc-khong/",
+    "https://congan.quangbinh.gov.vn/canh-bao-thu-doan-lua-dao-ban-ve-may-bay-gia-re-qua-mang/",
+    "https://thuehaiquan.tapchikinhtetaichinh.vn/lua-dao-ban-ve-may-bay-gia-re-lai-no-ro-tren-cac-nen-tang-mang-xa-hoi-126301.html",
+    "https://nhandan.vn/canh-giac-voi-thu-doan-lua-dao-mua-ve-may-bay-gia-re-trong-dip-tet-post932395.html",
+    "https://congan.camau.gov.vn/ch9/388-Chieu-lua-ban-ve-may-bay-gia-re-tren-facebook-cua-co-gai-tre.html",
+    "https://www.kokoro-vj.org/vi/post_7956",
+    "https://netbay.vn/bi-lua-mua-ve-may-bay-thi-phai-lam-sao/",
+    "https://www.traveloka.com/vi-vn/explore/tips/pl-how-to-avoid-flight-booking-scams-2/249118",
+    "https://netbay.vn/nghi-bi-lua-khi-mua-ve-may-bay-phai-lam-sao/",
+    "https://www.vietjetair.com/vi/pages/kinh-nghiem-tranh-sap-bay-lua-dao-khi-mua-ve-may-bay-online-1715652282885",
+    "https://www.vietnambooking.com/ve-may-bay/tin-tuc/canh-giac-voi-tinh-trang-lua-dao-mua-ve-may-bay.html",
+    "https://congan.tayninh.gov.vn/vi/chi-tiet-tin-tuc?Id=267487",
+    "https://airtickets.vn/cach-nhan-biet-va-tranh-bi-lua-khi-dat-ve-may-bay-online-gia-re/",
+    "https://www.bestprice.vn/blog/san-ve-may-bay-2/canh-bao-nhung-chieu-lua-dao-ve-may-bay-tinh-vi-va-cach-phong-tranh_5-1744.html",
+    "https://plo.vn/cong-an-canh-bao-thu-doan-lua-dao-ve-may-bay-tau-xe-online-dip-cuoi-nam-post893129.html"
+  ],
+  "latency_ms": 67026
+}

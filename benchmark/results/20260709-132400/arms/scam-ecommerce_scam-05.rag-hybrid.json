@@ -1,0 +1,29 @@
+{
+  "case_id": "scam-ecommerce_scam-05",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Shop không xác nhận đơn hàng sau thanh toán đặt cọc",
+      "Xuất hiện số điện thoại lạ với yêu cầu chuyển thêm tiền phí visa đột ngột",
+      "Yêu cầu thanh toán thêm tiền sau khi đã chuyển khoản đặt cọc ban đầu",
+      "Không có xác minh chính thức từ shop về dịch vụ",
+      "Hành vi yêu cầu tiền bổ sung là dấu hiệu điển hình của lừa đảo du lịch"
+    ],
+    "matched_patterns": [
+      "Giả mạo công ty du lịch qua fanpage/website giả, yêu cầu đặt cọc trước",
+      "Lừa đảo du lịch trực tuyến: yêu cầu chuyển tiền đặt cọc rồi bắt nạn nhân chuyển thêm tiền với lý do khác nhau",
+      "Giả mạo đại lý tour, vé máy bay qua fanpage, website lừa đảo"
+    ],
+    "recommended_actions": [
+      "Ngừng chuyển khoản thêm tiền ngay lập tức, không tin lời gọi từ số điện thoại lạ",
+      "Liên hệ ngay với shop qua trang chính thức Shopee để xác minh danh tính và yêu cầu hóa đơn/biên lai chính thức",
+      "Yêu cầu shop cung cấp giấy phép kinh doanh, địa chỉ công ty và thông tin liên lạc chính thức",
+      "Nếu shop không phản hồi hoặc không xác minh được, báo cáo với Shopee và không giao dịch tiếp",
+      "Cân nhắc liên hệ ngân hàng để khóa tài khoản hoặc thu hồi giao dịch nếu vẫn còn thời hạn",
+      "Không cung cấp thêm thông tin cá nhân hoặc mã OTP cho bất kỳ ai khi chưa xác minh được danh tính"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 129625
+}

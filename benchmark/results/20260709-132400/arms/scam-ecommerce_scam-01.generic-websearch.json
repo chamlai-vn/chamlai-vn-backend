@@ -1,0 +1,64 @@
+{
+  "case_id": "scam-ecommerce_scam-01",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Giá tour quá rẻ bất thường, phi thực tế (tour Đà Nẵng 3 ngày giá 890k/người)",
+      "Quảng cáo trên Facebook và yêu cầu đặt cọc 50%",
+      "Website lạ, không rõ uy tín (Travelix.vn) — có thể là website giả mạo hoặc đánh cắp thông tin",
+      "Liên hệ qua số điện thoại cá nhân, không có địa chỉ văn phòng rõ ràng, không cung cấp hóa đơn hay hợp đồng dấu đỏ",
+      "Công an TP Đà Nẵng đã phát cảnh báo về hình thức lừa đảo bán tour du lịch tương tự"
+    ],
+    "matched_patterns": [
+      "Tour du lịch giá rẻ",
+      "Giả mạo website/fanpage công ty du lịch uy tín",
+      "Yêu cầu chuyển khoản đặt cọc 30–50% rồi cắt liên lạc"
+    ],
+    "recommended_actions": [
+      "TUYỆT ĐỐI KHÔNG chuyển tiền dù chỉ là đặt cọc",
+      "Không bấm vào link Travelix.vn",
+      "Không cung cấp thông tin cá nhân (CMND/CCCD, số tài khoản, mã OTP…)",
+      "Nếu muốn đặt tour, hãy chọn công ty uy tín hoặc app du lịch và yêu cầu xem giấy phép hoạt động kinh doanh, chứng chỉ hành nghề",
+      "Kiểm tra số tài khoản ngân hàng nghi ngờ tại tinnhiemmang.vn",
+      "Báo cáo quảng cáo lừa đảo trực tiếp trên Facebook (nút 'Report Ad')",
+      "Trình báo cơ quan Công an nơi gần nhất nếu phát hiện dấu hiệu nghi vấn hoặc đã bị lừa",
+      "Tố giác lừa đảo qua đường dây nóng: nhắn tin cú pháp 'LD [số điện thoại nghi ngờ] [nội dung]' gửi 156 (miễn phí)"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## 🚨 RẤT CÓ KHẢ NĂNG ĐÂY LÀ LỪA ĐẢO! Đừng chuyển tiền!\n\nLinh cảm của bạn hoàn toàn đúng. Tình huống này có **hầu hết các dấu hiệu đỏ** của một chiêu lừa đảo \"tour du lịch giá rẻ\" đang rất phổ biến tại Việt Nam. Hãy để mình phân tích cụ thể:\n\n---\n\n### 🔴 Các dấu hiệu lừa đảo rõ ràng trong tình huống này\n\n**1. Giá quá rẻ bất thường**\nCác chuyên gia du lịch khuyến nghị khách hàng nên cảnh giác với các lời quảng cáo giá tour rẻ, thấp hơn mặt bằng chung quá nhiều. Các công ty du lịch thường không bán được tour với giá quá thấp vì sẽ bị lỗ. Tour Đà Nẵng 3 ngày với giá 890k/người là **phi thực tế** — chưa đủ tiền khách sạn, đi lại, ăn uống.\n\n**2. Quảng cáo trên Facebook, yêu cầu đặt cọc 50%**\nThủ đoạn phổ biến nhất là đăng tải bài viết quảng cáo bán tour du lịch giá rẻ trên mạng Internet và mạng xã hội với nhiều tiện ích kèm theo, đề nghị nạn nhân chuyển tiền đặt cọc (từ 30–50% giá trị) để đặt cọc tour du lịch, từ đó chiếm đoạt số tiền đặt cọc.\n\n**3. Website lạ, không rõ uy tín (Travelix.vn)**\nKẻ lừa đảo thường làm giả website/fanpage của công ty du lịch uy tín, làm giả ảnh chụp biên lai, hóa đơn thanh toán và đề nghị nạn nhân chuyển khoản. Sau khi khách hàng chuyển khoản, các đối tượng sẽ chặn liên lạc và xóa mọi dấu vết.\n\n**4. Liên hệ qua số điện thoại cá nhân**\nNhững kẻ lừa đảo thường sử dụng số điện thoại, email không chính thức, không có địa chỉ văn phòng rõ ràng cũng như không cung cấp được hóa đơn, hợp đồng dấu đỏ.\n\n**5. Cảnh báo từ chính Công an Đà Nẵng**\nCông an TP Đà Nẵng đã phát cảnh báo về hình thức lừa đảo bán tour du lịch, đặt phòng, vé máy bay. Các đối tượng đã làm giả website hoặc fanpage của các công ty du lịch uy tín, đăng bài viết quảng cáo trên mạng xã hội, chào mời mua tour du lịch với giá ưu đãi, sau đó yêu cầu người mua chuyển khoản đặt cọc 30–50% tổng giá trị. Khi nhận được tiền, các đối tượng lấy lý do nạn nhân khai thiếu thông tin để từ chối hoàn trả, hoặc cắt đứt liên lạc hoàn toàn.\n\n---\n\n### ✅ Bạn nên làm gì ngay bây giờ?\n\n1. **TUYỆT ĐỐI KHÔNG chuyển tiền** dù chỉ là đặt cọc.\n2. **Không bấm vào link Travelix.vn** — có thể là website giả mạo hoặc website đánh cắp thông tin.\n3. **Không cung cấp thông tin cá nhân** (CMND/CCCD, số tài khoản, mã OTP…).\n4. Nếu muốn đặt tour, hãy lựa chọn dịch vụ của những công ty uy tín hoặc qua các app du lịch. Bạn có thể đề nghị phía đối tác cho xem giấy phép hoạt động kinh doanh, giấy tờ, chứng chỉ hành nghề của công ty lữ hành.\n5. Bạn có thể kiểm tra số tài khoản ngân hàng nghi ngờ tại địa chỉ **tinnhiemmang.vn**.\n6. **Báo cáo quảng cáo lừa đảo** trực tiếp trên Facebook (nút \"Report Ad\").\n7. Khi phát hiện dấu hiệu nghi vấn hoặc bị lừa đảo, người dân cần nhanh chóng trình báo cơ quan Công an nơi gần nhất để được hướng dẫn, hỗ trợ giải quyết.\n\n---\n\n### 📞 Nếu cần kiểm tra hoặc tố giác:\n- **Đường dây nóng tố cáo lừa đảo:** Nhắn tin theo cú pháp `LD [số điện thoại nghi ngờ] [nội dung]` gửi **156** (miễn phí).\n- **Công an địa phương** nơi gần nhất.\n\n\u003e 💡 **Kết luận:** Đây là dấu hiệu của một vụ lừa đảo điển hình. Bạn đã đúng khi nghi ngờ và hỏi trước. Hãy chia sẻ thông tin này để tránh người thân bị mắc bẫy!",
+  "sources": [
+    "https://baochinhphu.vn/nhan-biet-thu-doan-lua-dao-dat-tour-du-lich-gia-re-102230711151650138.htm",
+    "https://vnexpress.net/dau-hieu-lua-dao-khach-viet-can-biet-khi-dat-tour-tren-mang-4798932.html",
+    "https://vneconomy.vn/nhan-dien-5-thu-doan-lua-dao-dat-tour-du-lich-gia-re.htm",
+    "https://congan.daklak.gov.vn/tin-moi/canh-giac-voi-cac-chieu-tro-lua-dao-dat-tour-phong-nghi-dip-du-lich-he-2026-11749.html",
+    "https://vietbao.vn/triet-pha-duong-day-lua-dao-mua-tour-dat-phong-khach-san-khu-du-lich-cao-cap-451907.html",
+    "https://tuoitre.vn/pha-duong-day-lua-dao-mua-tour-du-lich-dat-phong-khach-san-khu-du-lich-vip-20231012090830312.htm",
+    "https://vtv.vn/xa-hoi/canh-giac-sap-bay-chieu-lua-dao-dat-tour-du-lich-20230630112212666.htm",
+    "https://phongcachviettravel.vn/phong-cach-viet-travel-lua-dao-hay-doc-ngay-bai-viet-nay/",
+    "https://dulich.thethaovanhoa.vn/phong-chong-lua-dao-qua-cac-hinh-thuc-du-lich-20260624141520561.htm",
+    "https://www.luavietours.com/tin-tuc/cac-thu-doan-lua-dao-khi-dat-tour-du-lich-online/",
+    "https://tcdulichtphcm.vn/chuyen-dong/du-lich-vao-mua-lam-an-soi-noi-nhat-nam-lua-dao-tang-manh-c2a98236.html",
+    "https://www.vietnam.vn/mat-tien-oan-vi-tin-vao-facebook-tich-xanh-rao-ban-tour-du-lich",
+    "https://danang.gov.vn/vi/w/tin-loi-nguoi-la-tren-facebook-tham-gia-dau-tu-tien-ao-bi-lua-tien-ty-i",
+    "https://cttdt.danangportal.gov.vn/vi/w/canh-bao-lua-dao-ban-tour-du-lich-at-phong-ve-may-bay-ve-xem-phao-hoa-quoc-te-a-nang",
+    "https://langsontv.vn/news/458/87056/canh-giac-khi-dat-phong-nghi-duong-tour-du-lich-tren-facebook",
+    "https://danang.gov.vn/vi/w/tim-bi-hai-trong-vu-lua-dao-chiem-doat-tai-san-bang-chieu-thuc-ban-combo-du-lich-gia-re-tren-mang-i",
+    "https://dantri.com.vn/phap-luat/canh-giac-khi-dat-phong-nghi-duong-tour-du-lich-tren-facebook-20250706143152868.htm",
+    "https://kenh14.vn/nguoi-dan-sap-mua-hang-dat-tour-du-lich-tren-mang-can-bo-tui-6-luu-y-quan-trong-nay-215251111085105933.chn",
+    "https://cafebiz.vn/loi-khuyen-cho-tat-ca-nhung-ai-hay-dat-phong-tour-du-lich-qua-facebook-176260615100101643.chn",
+    "https://kenh14.vn/cong-an-da-nang-phat-canh-bao-quan-trong-215250603154101207.chn",
+    "https://www.fcc.gov/consumers/guides/tro-lua-dao-goi-dien-nha-may-do-chuong-mot-lan",
+    "https://fptshop.com.vn/tin-tuc/danh-gia/danh-sach-cac-dau-so-dien-thoai-lua-dao-163312",
+    "https://luatminhkhue.vn/danh-sach-cac-dau-so-so-dien-thoai-lua-dao-spam.aspx",
+    "https://www.mobifone.vn/tin-tuc/chi-tiet/canh-bao-lua-dao-tu-cac-cuoc-goi-gia-danh-2501",
+    "https://24hstore.vn/cong-nghe/10-dau-so-dien-thoai-lua-dao-tuyet-doi-khong-nghe-may-khong-ket-ban-zalo-n9021",
+    "https://thuvienphapluat.vn/phap-luat-doanh-nghiep/cau-hoi-thuong-gap/cach-tra-cuu-so-dien-thoai-lua-dao-bao-cao-so-dien-thoai-lua-dao-cho-ai-4158.html",
+    "https://cellphones.com.vn/sforum/tra-cuu-so-dien-thoai-lua-dao",
+    "https://dienthoaigiakho.vn/tin-cong-nghe/danh-sach-so-dien-thoai-lua-dao/",
+    "https://congan.nghean.gov.vn/thong-tin-chuyen-de/canh-bao-toi-pham/202504/danh-sach-cac-so-dien-thoai-lua-dao-khong-nen-nghe-goi-lai-1039887/index.htm",
+    "https://kenh14.vn/day-la-so-dien-thoai-lua-dao-danh-cap-tien-tuyet-doi-khong-nghe-goi-chan-so-ngay-21524122423154409.chn"
+  ],
+  "latency_ms": 53568
+}

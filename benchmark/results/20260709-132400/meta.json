@@ -3,5 +3,10 @@
   "git_sha": "ddc0ea9a44209d541c9b03c699635fa96bddd584",
   "dataset_hash": "04cd91dca02f",
   "n_cases": 159,
-  "generator_model": "claude-haiku-4-5-20251001"
+  "generator_model": "claude-haiku-4-5-20251001",
+  "rag_model": "claude-haiku-4-5-20251001",
+  "rag_top_k": 5,
+  "reranker_enabled": true,
+  "generic_model": "claude-sonnet-4-6",
+  "web_search_max_uses": 4
 }

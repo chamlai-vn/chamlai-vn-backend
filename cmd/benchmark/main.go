@@ -62,7 +62,7 @@ func main() {
 	resultsRoot := flag.String("results", "benchmark/results", "root directory all run directories live under")
 	limit := flag.Int("limit", 0, "cap the number of dataset cases processed this invocation (0 = no cap); applies to every phase")
 
-	concurrencyRAG := flag.Int("concurrency-rag", 8, "-run: max concurrent rag-hybrid arm workers")
+	concurrencyRAG := flag.Int("concurrency-rag", 5, "-run: max concurrent rag-hybrid arm workers")
 	concurrencyGeneric := flag.Int("concurrency-generic", 4, "-run: max concurrent generic-websearch arm workers (heavier per-call than rag)")
 	maxUses := flag.Int("max-uses", 4, "-run: max web_search tool uses per generic-arm case")
 	crossFamilyN := flag.Int("cross-family-n", 30, "-judge: number of cases to additionally score with a cross-family (Gemini) judge for self-preference-bias validation; 0 disables")

@@ -1,0 +1,28 @@
+{
+  "case_id": "scam-ecommerce_scam-01",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "yellow",
+    "red_flags": [
+      "Giá tour quá rẻ so với thị trường (3 ngày chỉ 890k)",
+      "Yêu cầu đặt cọc 50% trước qua số điện thoại cá nhân",
+      "Link đặt vé không phải từ website chính thức",
+      "Yêu cầu liên hệ số điện thoại cá nhân thay vì kênh chính thức của công ty",
+      "Fanpage quảng cáo trên Facebook (nơi các đối tượng lừa dạo thường hoạt động)"
+    ],
+    "matched_patterns": [
+      "Giả mạo fanpage khách sạn, tour du lịch để lừa đặt cọc",
+      "Giả mạo website/fanpage khách sạn, tour du lịch để lừa đặt cọc trực tuyến",
+      "Lừa đảo du lịch trực tuyến mùa cao điểm"
+    ],
+    "recommended_actions": [
+      "Kiểm tra lịch sử fanpage quảng cáo này trên Facebook (xem ngày tạo, lịch sử đổi tên, đánh giá minh bạch) để phát hiện tài khoản mới lập hoặc mô phỏng",
+      "Truy cập website chính thức của Travelix.vn từ Google để xác minh xem link quảng cáo có khớp với website thật không",
+      "Gọi điện trực tiếp đến số điện thoại chính thức của công ty du lịch Travelix (nếu tồn tại) để xác nhận tour này",
+      "Không chuyển tiền cọc vào tài khoản cá nhân; nếu là công ty hợp lệ, phải có tài khoản công ty chính thức",
+      "So sánh giá với các đại lý du lịch uy tín khác để kiểm tra xem giá 890k cho tour 3 ngày có hợp lý không"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 68515
+}

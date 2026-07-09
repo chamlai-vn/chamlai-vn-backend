@@ -18,8 +18,15 @@ const (
 	// webSearchTimeout is longer than GenerateStructured's fixed 60s
 	// (internal/ai/llm/anthropic.go) because this loop can involve multiple
 	// server-side search rounds before returning.
-	webSearchTimeout   = 90 * time.Second
-	webSearchMaxTokens = 2048
+	webSearchTimeout = 90 * time.Second
+	// assessMaxTokens covers the Assess call's natural-language answer —
+	// synthesizing multiple search results with citations routinely runs
+	// well past 2048 tokens in practice (observed truncating on most cases
+	// at that limit), so this is deliberately generous.
+	assessMaxTokens = 4096
+	// structureMaxTokens covers the separate, much shorter structuring call
+	// (structureAnswer) — a fixed-shape AnalysisResult, not free text.
+	structureMaxTokens = 2048
 	// webSearchMaxPauseTurns caps how many times Assess resends a
 	// long-running turn (stop_reason=pause_turn) before giving up, so a
 	// pathological case can't loop forever.
@@ -79,7 +86,7 @@ func (a *anthropicWebSearcher) Assess(ctx context.Context, text string) (string,
 
 	params := anthropic.MessageNewParams{
 		Model:     anthropic.Model(a.model),
-		MaxTokens: webSearchMaxTokens,
+		MaxTokens: assessMaxTokens,
 		System:    []anthropic.TextBlockParam{{Text: genericSystemPrompt}},
 		Messages: []anthropic.MessageParam{
 			anthropic.NewUserMessage(anthropic.NewTextBlock(text)),
@@ -99,7 +106,7 @@ func (a *anthropicWebSearcher) Assess(ctx context.Context, text string) (string,
 			return "", nil, false, fmt.Errorf("websearch: messages: %w", err)
 		}
 		if resp.StopReason == anthropic.StopReasonMaxTokens {
-			return "", nil, false, fmt.Errorf("websearch: response truncated at max_tokens (%d)", webSearchMaxTokens)
+			return "", nil, false, fmt.Errorf("websearch: response truncated at max_tokens (%d)", assessMaxTokens)
 		}
 		if resp.StopReason != anthropic.StopReasonPauseTurn {
 			break
@@ -173,7 +180,7 @@ func structureAnswer(ctx context.Context, structureLLM llm.Service, rawText stri
 		ToolName:  analyzer.AnalysisToolName,
 		ToolDesc:  analyzer.AnalysisToolDesc,
 		Schema:    analyzer.AnalysisToolSchema,
-		MaxTokens: webSearchMaxTokens,
+		MaxTokens: structureMaxTokens,
 	})
 	if err != nil {
 		return analyzer.AnalysisResult{}, fmt.Errorf("structure: %w", err)

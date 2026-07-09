@@ -1,0 +1,54 @@
+{
+  "case_id": "scam-ecommerce_scam-03",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Giá tour bất thường, thấp hơn thị trường nhiều lần (899.000đ so với mức thị trường 5,2 triệu đồng/người trở lên, chưa bằng 1/5 giá thị trường)",
+      "Yêu cầu chuyển tiền vào tài khoản cá nhân ('Anh Thắng'), không qua kênh thanh toán chính thức của doanh nghiệp",
+      "Tạo áp lực thời gian và tâm lý khan hiếm ('Còn 5 suất thôi!', 'Nhanh tay!', 'chuyển khoản ngay để giữ chỗ')",
+      "Sử dụng ưu đãi hấp dẫn bất thường để dụ dỗ (khuyến mãi giờ vàng, xả vé phút chót, ưu đãi cho khách đầu tiên)",
+      "Thủ đoạn phổ biến: lập fanpage giả mạo công ty du lịch, dùng tài khoản ảo bình luận khen ngợi hoặc làm giả biên lai chuyển tiền",
+      "Hậu quả nghiêm trọng tiềm ẩn: nhiều nạn nhân mất từ vài triệu đến hàng chục triệu đồng, khó lấy lại tiền"
+    ],
+    "matched_patterns": [
+      "Lừa đảo tour du lịch giá rẻ qua mạng xã hội",
+      "Yêu cầu chuyển tiền vào tài khoản cá nhân",
+      "Tạo áp lực thời gian / tâm lý khan hiếm",
+      "Fanpage giả mạo công ty du lịch / tài khoản ảo tạo lòng tin"
+    ],
+    "recommended_actions": [
+      "KHÔNG chuyển tiền: Tuyệt đối không chuyển 300K hay bất kỳ số tiền nào",
+      "Xác minh thông tin: Chủ động kiểm tra, xác minh thông tin pháp nhân của công ty du lịch thông qua các kênh chính thống",
+      "Đặt tour qua kênh uy tín: Ưu tiên đặt dịch vụ trên các nền tảng uy tín, hạn chế chuyển tiền đặt cọc vào tài khoản cá nhân không rõ ràng",
+      "Yêu cầu hợp đồng: Chỉ đặt cọc khi có hợp đồng hoặc biên nhận ghi rõ điều khoản dịch vụ, chính sách hoàn hủy và có dấu mộc của công ty du lịch",
+      "Tố cáo nếu bị lừa: Trình báo ngay cho cơ quan Công an nơi cư trú gần nhất khi gặp nghi vấn lừa đảo qua mạng",
+      "Nếu đã lỡ chuyển tiền: Liên hệ ngân hàng ngay lập tức để yêu cầu phong tỏa giao dịch, đồng thời trình báo cơ quan công an càng sớm càng tốt"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## 🚨 KẾT LUẬN: ĐÂY RẤT CÓ KHẢ NĂNG LÀ LỪA ĐẢO!\n\nTin nhắn này có **ít nhất 6 dấu hiệu đỏ** của một chiêu lừa đảo tour du lịch điển hình. Dưới đây là phân tích chi tiết:\n\n---\n\n## 🔴 CÁC DẤU HIỆU LỪA ĐẢO RÕ RÀNG\n\n### 1. Giá bất thường, thấp hơn thị trường nhiều lần\nTheo khảo sát thực tế, tour Đà Nẵng 3 ngày 2 đêm trọn gói tiêu chuẩn (khách sạn 3–4 sao, xe, hướng dẫn viên, vé tham quan, ăn uống) có giá từ **5,2 triệu đồng/người** trở lên. Vậy mà tin nhắn quảng cáo chỉ **899.000 đồng** — chưa bằng 1/5 giá thị trường, kèm cả khách sạn 4 sao và vé cáp treo Bà Nà miễn phí. Theo chuyên gia ngành du lịch, rất khó có chuyện giá một tour thấp hơn thị trường 30%–50% mà vẫn đảm bảo chất lượng.\n\n### 2. Yêu cầu chuyển tiền vào tài khoản cá nhân\nĐây là dấu hiệu nguy hiểm nhất. Các đối tượng lừa đảo thường yêu cầu chuyển khoản trực tiếp vào tài khoản cá nhân, không qua kênh thanh toán chính thức. Khi nhận tiền, chúng chặn liên lạc ngay lập tức, xóa tài khoản Facebook/Zalo, khiến việc tra soát ngân hàng gần như vô hiệu. Tin nhắn trên yêu cầu chuyển vào số điện thoại cá nhân \"Anh Thắng\" — không phải tài khoản doanh nghiệp.\n\n### 3. Tạo áp lực thời gian, tâm lý \"khan hiếm\"\nChiêu thức luôn tạo áp lực \"chuyển khoản ngay để giữ chỗ\", \"không cọc là mất vé\" mà không cho khách hàng thời gian suy nghĩ hay kiểm tra là một trong những thủ đoạn phổ biến nhất. Tin nhắn dùng \"Còn 5 suất thôi!\", \"Nhanh tay!\" chính là thủ đoạn này.\n\n### 4. Ưu đãi thêm cho \"khách đầu tiên\"\nCác đối tượng thường sử dụng những lời quảng cáo hấp dẫn như \"khuyến mãi giờ vàng\", \"xả vé phút chót\", đồng thời tạo tài khoản ảo để bình luận khen ngợi dịch vụ hoặc làm giả biên lai chuyển tiền nhằm tạo lòng tin cho khách hàng.\n\n### 5. Đây là chiêu lừa cực kỳ phổ biến tại Việt Nam\nThời gian gần đây, tại nhiều tỉnh, thành phố trên cả nước đã liên tiếp xảy ra các vụ lừa đảo liên quan đến đặt tour du lịch qua mạng xã hội. Các đối tượng thường lập fanpage giả mạo các công ty du lịch, khách sạn, resort nổi tiếng; chạy quảng cáo với nhiều ưu đãi hấp dẫn để dụ dỗ khách hàng chuyển tiền đặt cọc.\n\n### 6. Hậu quả có thể rất nghiêm trọng\nNhiều nạn nhân mất từ vài triệu đến hàng chục triệu đồng, và việc lấy lại tiền thường kéo dài, tốn kém, thậm chí không thể nếu đối tượng dùng tài khoản ảo hoặc đã rút sạch.\n\n---\n\n## ✅ BẠN CẦN LÀM GÌ NGAY BÂY GIỜ?\n\n| Hành động | Chi tiết |\n|---|---|\n| 🚫 **KHÔNG chuyển tiền** | Tuyệt đối không chuyển 300K hay bất kỳ số tiền nào |\n| 🔍 **Xác minh thông tin** | Chủ động kiểm tra, xác minh thông tin pháp nhân của công ty du lịch thông qua các kênh chính thống |\n| 🏢 **Đặt tour qua kênh uy tín** | Nên ưu tiên đặt dịch vụ trên các nền tảng uy tín, hạn chế chuyển tiền đặt cọc vào tài khoản cá nhân không rõ ràng |\n| 📋 **Yêu cầu hợp đồng** | Chỉ nên đặt cọc khi có hợp đồng hoặc biên nhận ghi rõ điều khoản dịch vụ, chính sách hoàn hủy và có dấu mộc của công ty du lịch |\n| 🚔 **Tố cáo nếu bị lừa** | Khi gặp các trường hợp nghi vấn lừa đảo qua không gian mạng, người dân cần tỉnh táo, cảnh giác và trình báo ngay cho cơ quan Công an nơi cư trú gần nhất |\n\n---\n\n\u003e ⚠️ **Lưu ý:** Nếu bạn đã lỡ chuyển tiền, hãy **liên hệ ngân hàng ngay lập tức** để yêu cầu phong tỏa giao dịch, đồng thời trình báo cơ quan công an. Thời gian càng nhanh, cơ hội lấy lại tiền càng cao.",
+  "sources": [
+    "https://congan.daklak.gov.vn/tin-moi/canh-giac-voi-cac-chieu-tro-lua-dao-dat-tour-phong-nghi-dip-du-lich-he-2026-11749.html",
+    "https://dantocphattrien.vietnamnet.vn/canh-giac-voi-cac-chieu-tro-tinh-vi-lua-dao-tour-du-lich-gia-re-dip-le-30-4-1-5-74528.html",
+    "https://www.dnse.com.vn/hoc/lua-dao-combo-du-lich-gia-re",
+    "https://vietstock.vn/2026/06/cam-bay-dang-sau-cac-tour-du-lich-he-gia-re-4260-1460201.htm",
+    "https://www.luavietours.com/tin-tuc/cac-thu-doan-lua-dao-khi-dat-tour-du-lich-online/",
+    "https://www.vietnamplus.vn/tranh-bay-lua-dao-khi-san-tour-gia-re-trong-mua-du-lich-cao-diem-post1101590.vnp",
+    "https://vov.vn/phap-luat/chieu-tro-lua-dao-du-lich-post1114373.vov",
+    "https://antv.gov.vn/phap-luat-3/canh-giac-voi-thu-doan-lua-dao-chiem-doat-tai-san-bang-hinh-thuc-dat-tour-du-lich-gia-re-FA5DBDFDA.html",
+    "https://hatinh.gov.vn/vi/bai-viet/can-trong-chieu-tro-lua-dao-tour-du-lich-tet",
+    "https://lsvn.vn/nhan-biet-thu-doan-lua-dao-dat-tour-du-lich-gia-re-1689076114-a132739.html",
+    "https://danangbest.com/du-lich-da-nang-3-ngay-2-dem-tron-goi-voi-gia-re.html",
+    "https://www.tuannguyentravel.com/263-tour-da-nang-3-ngay-2-dem.html",
+    "https://zoomtravel.vn/tour-da-nang-3-ngay-2-dem.html",
+    "https://www.dulichhaidang.com/du-lich-da-nang-3-ngay-2-dem",
+    "https://danago.vn/tour-da-nang-3-ngay-2-dem",
+    "https://travel.com.vn/du-lich-da-nang.aspx",
+    "https://danangopentour.vn/tour-da-nang-3-ngay-2-dem.html",
+    "https://tourdanangcity.vn/tour/tour-da-nang-3-ngay-2-dem/",
+    "https://www.tuannguyentravel.com/chum-tour-hot/tour-da-nang-3n2d.html",
+    "https://www.danangxanh.com/128-tour-du-lich-vip-3-ngay-2-dem-da-nang.html"
+  ],
+  "latency_ms": 67740
+}
