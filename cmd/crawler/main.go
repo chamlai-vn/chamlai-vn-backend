@@ -9,9 +9,15 @@
 //	                ingest.IndexDocument pipeline cmd/seed and the API query side
 //	                use — so what we index stays consistent with what we later
 //	                search. It needs a database + embedder — no LLM, no crawler.
+//	-mode=audit     lists cross-document near-duplicate chunk pairs (same kind,
+//	                same scam_type, cosine similarity >= -threshold) for review.
+//	                Read-only; needs a database only — no embedder, LLM, or crawler.
+//	-mode=prune     deletes an explicit -chunks=<ids> list (picked from an audit
+//	                report). Dry-run unless -apply. Needs a database only.
 //
-// The two modes branch before constructing any collaborator, so each only
-// requires the secrets it actually uses.
+// The modes branch before constructing any collaborator, so each only
+// requires the secrets it actually uses. audit/prune read stored vectors, so
+// unlike ingest they need no VOYAGE_API_KEY.
 //
 // A human reviews/edits every file generate# writes — flipping "reviewed:
 // false" to "reviewed: true" — before running -mode=ingest. This is the only
@@ -47,6 +53,11 @@ func main() {
 	outDir := flag.String("out", "data/corpus", "generate: output directory for generated .md files")
 	corpusGlob := flag.String("corpus", "data/corpus/*.md", "ingest: glob for reviewed corpus markdown files")
 	concurrency := flag.Int("concurrency", 5, "max concurrent workers")
+	scamType := flag.String("scam-type", "", "audit: restrict to one scam_type (empty = all)")
+	threshold := flag.Float64("threshold", 0.95, "audit: min cosine similarity to flag a duplicate pair")
+	previewLen := flag.Int("preview", 120, "audit: content preview length in characters")
+	chunkIDs := flag.String("chunks", "", "prune: comma-separated chunk ids to delete")
+	apply := flag.Bool("apply", false, "prune: actually delete (default is dry-run)")
 	flag.Parse()
 
 	ctx := context.Background()
@@ -67,8 +78,22 @@ func main() {
 			log.Fatal("VOYAGE_API_KEY is required for -mode=ingest")
 		}
 		runIngest(ctx, cfg, *corpusGlob, *concurrency)
+	case "audit":
+		if *threshold <= 0 || *threshold > 1 {
+			log.Fatalf("crawler: -threshold must be in (0,1], got %v", *threshold)
+		}
+		runAudit(ctx, cfg, *threshold, *scamType, *previewLen)
+	case "prune":
+		ids, err := parseChunkIDs(*chunkIDs)
+		if err != nil {
+			log.Fatalf("crawler: -chunks: %v", err)
+		}
+		if len(ids) == 0 {
+			log.Fatal("crawler: -chunks must list at least one numeric chunk id")
+		}
+		runPrune(ctx, cfg, ids, *apply)
 	default:
-		log.Fatalf(`crawler: -mode must be "generate" or "ingest", got %q`, *mode)
+		log.Fatalf(`crawler: -mode must be "generate", "ingest", "audit", or "prune", got %q`, *mode)
 	}
 }
 
