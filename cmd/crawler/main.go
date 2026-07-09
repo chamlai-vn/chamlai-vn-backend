@@ -1,210 +1,121 @@
-// Command crawler builds the scam-warning corpus: it reads a seed list of
-// article urls plus any hand-curated local files, fetches and parses each one,
-// labels it with a rule-based scam type, and runs it through the same
-// ingest.IndexDocument pipeline that cmd/seed and the API query side use — so
-// what we index stays consistent with what we later search.
+// Command crawler builds the scam-warning corpus in two reviewable stages:
 //
-// It is meant to be run by hand, repeatedly. Re-running is safe: a url already
-// in the corpus is skipped before any embedding call, so a second run costs
-// (almost) nothing. Per-url failures are logged and skipped; the batch always
-// finishes and prints a summary.
+//	-mode=generate  fetches seed urls, runs them through an LLM (internal/scam/enrich)
+//	                to produce the canonical 4-section corpusdoc format, and writes
+//	                each one to data/corpus/<slug>.md marked "reviewed: false". It
+//	                needs crawler+enrich+an LLM key — no database, no embedder.
+//	-mode=ingest    reads data/corpus/*.md, refuses any file still marked
+//	                "reviewed: false", and runs the rest through the same
+//	                ingest.IndexDocument pipeline cmd/seed and the API query side
+//	                use — so what we index stays consistent with what we later
+//	                search. It needs a database + embedder — no LLM, no crawler.
+//	-mode=audit     lists cross-document near-duplicate chunk pairs (same kind,
+//	                same scam_type, cosine similarity >= -threshold) for review.
+//	                Read-only; needs a database only — no embedder, LLM, or crawler.
+//	-mode=prune     deletes an explicit -chunks=<ids> list (picked from an audit
+//	                report). Dry-run unless -apply. Needs a database only.
+//
+// The modes branch before constructing any collaborator, so each only
+// requires the secrets it actually uses. audit/prune read stored vectors, so
+// unlike ingest they need no VOYAGE_API_KEY.
+//
+// A human reviews/edits every file generate# writes — flipping "reviewed:
+// false" to "reviewed: true" — before running -mode=ingest. This is the only
+// gate between LLM output and the stored corpus.
 //
 //	docker compose up -d db
-//	goose -dir migrations postgres "$DATABASE_URL" up   # needs 0003 (UNIQUE url)
-//	VOYAGE_API_KEY=... go run ./cmd/crawler
+//	go run ./cmd/migration up
+//	ANTHROPIC_API_KEY=... go run ./cmd/crawler -mode=generate
+//	# review/edit data/corpus/*.md, flip reviewed: true
+//	VOYAGE_API_KEY=... go run ./cmd/crawler -mode=ingest
 //
-// Seed urls live in cmd/crawler/data/ (git-ignored). One url per line; blank
-// lines and '#' comments are skipped. Local files are *.md with a small
-// "---"-fenced frontmatter (title, scam_type, source, url) — the path for
-// content that can't be crawled, e.g. a YouTube transcript exported by hand.
+// Both modes are safe to re-run: generate skips a url that already has a
+// generated file; ingest skips a url already in the corpus before any
+// embedding call.
+//
+// Seed urls for -mode=generate live in data/seeds/ (git-ignored except a
+// synthetic example). One url per line; blank lines and '#' comments are
+// skipped.
 package main
 
 import (
 	"context"
 	"flag"
 	"log"
-	"path/filepath"
-	"sync"
 
 	"github.com/chamlai-vn/chamlai-vn-backend/config"
-	"github.com/chamlai-vn/chamlai-vn-backend/internal/ai/embedder"
-	"github.com/chamlai-vn/chamlai-vn-backend/internal/infra/store"
-	"github.com/chamlai-vn/chamlai-vn-backend/internal/scam/crawler"
-	"github.com/chamlai-vn/chamlai-vn-backend/internal/scam/ingest"
+	"github.com/chamlai-vn/chamlai-vn-backend/internal/ai/llm"
 )
 
 func main() {
-	seedsPath := flag.String("seeds", "cmd/crawler/data/seeds_20250625.txt", "seed file: one article url per line")
-	filesGlob := flag.String("files", "cmd/crawler/data/*.md", "glob for hand-curated local documents")
-	concurrency := flag.Int("concurrency", 5, "max concurrent fetch+index workers")
+	mode := flag.String("mode", "", `pipeline stage: "generate" (fetch+enrich -> data/corpus/*.md for review) or "ingest" (reviewed data/corpus/*.md -> embed+store)`)
+	seedsPath := flag.String("seeds", "data/seeds/seeds_20250625.txt", "generate: seed file, one article url per line")
+	outDir := flag.String("out", "data/corpus", "generate: output directory for generated .md files")
+	corpusGlob := flag.String("corpus", "data/corpus/*.md", "ingest: glob for reviewed corpus markdown files")
+	concurrency := flag.Int("concurrency", 5, "max concurrent workers")
+	scamType := flag.String("scam-type", "", "audit: restrict to one scam_type (empty = all)")
+	threshold := flag.Float64("threshold", 0.95, "audit: min cosine similarity to flag a duplicate pair")
+	previewLen := flag.Int("preview", 120, "audit: content preview length in characters")
+	chunkIDs := flag.String("chunks", "", "prune: comma-separated chunk ids to delete")
+	apply := flag.Bool("apply", false, "prune: actually delete (default is dry-run)")
 	flag.Parse()
 
 	ctx := context.Background()
-
 	cfg, err := config.Load()
 	if err != nil {
 		log.Fatalf("config: %v", err)
 	}
-	if cfg.VoyageAPIKey == "" {
-		log.Fatal("VOYAGE_API_KEY is required")
-	}
 
-	emb, err := embedder.New(cfg.Embedder())
-	if err != nil {
-		log.Fatalf("embedder: %v", err)
-	}
-	log.Printf("embedder ready: model=%s dims=%d", emb.Model(), emb.Dimensions())
-
-	st, err := store.New(ctx, cfg.DatabaseURL)
-	if err != nil {
-		log.Fatalf("store: %v", err)
-	}
-	defer st.Close()
-
-	ix := ingest.New(emb, st)
-	cr := crawler.New()
-
-	// Collect work items up front so a bad seed/glob fails before we start
-	// spending on embeddings.
-	urls, err := crawler.LoadURLs(*seedsPath)
-	if err != nil {
-		log.Printf("no seed urls: %v", err)
-	}
-	files, err := filepath.Glob(*filesGlob)
-	if err != nil {
-		log.Fatalf("files glob %q: %v", *filesGlob, err)
-	}
-	log.Printf("queued %d url(s) and %d local file(s); concurrency=%d", len(urls), len(files), *concurrency)
-
-	w := &worker{ctx: ctx, st: st, ix: ix, cr: cr}
-	sem := make(chan struct{}, *concurrency)
-	var wg sync.WaitGroup
-
-	for _, u := range urls {
-		wg.Add(1)
-		go func(u string) {
-			defer wg.Done()
-			sem <- struct{}{}
-			defer func() { <-sem }()
-			w.handleURL(u)
-		}(u)
-	}
-	for _, f := range files {
-		wg.Add(1)
-		go func(f string) {
-			defer wg.Done()
-			sem <- struct{}{}
-			defer func() { <-sem }()
-			w.handleFile(f)
-		}(f)
-	}
-	wg.Wait()
-
-	n, s, e := w.totals()
-	log.Printf("done: %d new, %d skipped, %d errors", n, s, e)
-}
-
-// worker carries the shared collaborators and a concurrency-safe result tally.
-type worker struct {
-	ctx context.Context
-	st  *store.Store
-	ix  *ingest.Indexer
-	cr  *crawler.Crawler
-
-	mu                sync.Mutex
-	nNew, nSkip, nErr int
-}
-
-func (w *worker) totals() (int, int, int) {
-	w.mu.Lock()
-	defer w.mu.Unlock()
-	return w.nNew, w.nSkip, w.nErr
-}
-
-func (w *worker) skip(format string, args ...any) {
-	w.mu.Lock()
-	w.nSkip++
-	w.mu.Unlock()
-	log.Printf(format, args...)
-}
-func (w *worker) fail(format string, args ...any) {
-	w.mu.Lock()
-	w.nErr++
-	w.mu.Unlock()
-	log.Printf(format, args...)
-}
-func (w *worker) ok(format string, args ...any) {
-	w.mu.Lock()
-	w.nNew++
-	w.mu.Unlock()
-	log.Printf(format, args...)
-}
-
-// handleURL crawls one seed url. It checks the corpus before fetching so a
-// re-run skips a known url without a network round-trip or an embedding call.
-func (w *worker) handleURL(url string) {
-	if w.exists(url) {
-		return
-	}
-	doc, err := w.cr.Fetch(w.ctx, url)
-	if err != nil {
-		w.fail("skip %s: %v", url, err)
-		return
-	}
-	w.index(doc, crawler.InferScamType(doc.Title, doc.Content))
-}
-
-// handleFile ingests one hand-curated local file. Parsing is cheap, so it
-// happens before the corpus check; the frontmatter scam_type wins over the
-// inferred one when present.
-func (w *worker) handleFile(path string) {
-	doc, scamType, err := crawler.ParseLocalFile(path)
-	if err != nil {
-		w.fail("skip %s: %v", path, err)
-		return
-	}
-	if w.exists(doc.URL) {
-		return
-	}
-	if scamType == "" {
-		scamType = crawler.InferScamType(doc.Title, doc.Content)
-	}
-	w.index(doc, scamType)
-}
-
-// exists reports whether url is already in the corpus, logging a skip if so. A
-// lookup error is treated as "not present" so the indexing attempt proceeds and
-// the UNIQUE(url) constraint stays the final guard.
-func (w *worker) exists(url string) bool {
-	present, err := w.st.DocumentExists(w.ctx, url)
-	if err != nil {
-		log.Printf("warn: exists check %s: %v", url, err)
-		return false
-	}
-	if present {
-		w.skip("skip (exists): %s", url)
-	}
-	return present
-}
-
-// index runs the embed+store pipeline and tallies the outcome. A unique
-// violation means another worker indexed the same url between our check and our
-// insert (or a duplicate sits in the seed list) — counted as a skip, not an
-// error, so the embedding cost is the only loss.
-func (w *worker) index(doc crawler.FetchedDoc, scamType string) {
-	_, err := w.ix.IndexDocument(w.ctx, ingest.Document{
-		URL:      doc.URL,
-		Title:    doc.Title,
-		Content:  doc.Content,
-		ScamType: scamType,
-		Source:   doc.Source,
-	})
-	switch {
-	case store.IsUniqueViolation(err):
-		w.skip("skip (race dup): %s", doc.URL)
-	case err != nil:
-		w.fail("skip %s: %v", doc.URL, err)
+	// Branch BEFORE constructing any collaborator: generate needs
+	// crawler+enrich+an LLM key only; ingest needs a database+embedder only.
+	// Neither mode should be blocked on a secret it doesn't use.
+	switch *mode {
+	case "generate":
+		requireLLMKey(cfg)
+		runGenerate(ctx, cfg, *seedsPath, *outDir, *concurrency)
+	case "ingest":
+		if cfg.VoyageAPIKey == "" {
+			log.Fatal("VOYAGE_API_KEY is required for -mode=ingest")
+		}
+		runIngest(ctx, cfg, *corpusGlob, *concurrency)
+	case "audit":
+		if *threshold <= 0 || *threshold > 1 {
+			log.Fatalf("crawler: -threshold must be in (0,1], got %v", *threshold)
+		}
+		runAudit(ctx, cfg, *threshold, *scamType, *previewLen)
+	case "prune":
+		ids, err := parseChunkIDs(*chunkIDs)
+		if err != nil {
+			log.Fatalf("crawler: -chunks: %v", err)
+		}
+		if len(ids) == 0 {
+			log.Fatal("crawler: -chunks must list at least one numeric chunk id")
+		}
+		runPrune(ctx, cfg, ids, *apply)
 	default:
-		w.ok("indexed [%s] %s (%s)", scamType, doc.URL, doc.Source)
+		log.Fatalf(`crawler: -mode must be "generate", "ingest", "audit", or "prune", got %q`, *mode)
+	}
+}
+
+// requireLLMKey fails fast (matching cmd/api/cmd/seed's startup-check
+// pattern) if the key for the configured LLM_PROVIDER is missing, rather
+// than letting -mode=generate run the whole crawl batch before failing on
+// the first API call.
+func requireLLMKey(cfg config.Configuration) {
+	switch llm.Provider(cfg.LLMProvider) {
+	case llm.ProviderAnthropic:
+		if cfg.AnthropicAPIKey == "" {
+			log.Fatal("ANTHROPIC_API_KEY is required for -mode=generate (LLM_PROVIDER=anthropic)")
+		}
+	case llm.ProviderGemini:
+		if cfg.GeminiAPIKey == "" {
+			log.Fatal("GEMINI_API_KEY is required for -mode=generate (LLM_PROVIDER=gemini)")
+		}
+	case llm.ProviderOpenAI:
+		if cfg.OpenAIAPIKey == "" {
+			log.Fatal("OPENAI_API_KEY is required for -mode=generate (LLM_PROVIDER=openai)")
+		}
+	default:
+		log.Fatalf("crawler: unknown LLM_PROVIDER %q", cfg.LLMProvider)
 	}
 }

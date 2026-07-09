@@ -109,6 +109,17 @@ func (a *Anthropic) GenerateStructured(ctx context.Context, req Request) (json.R
 		return nil, fmt.Errorf("llm: anthropic: messages: %w", err)
 	}
 
+	// A response truncated at the token limit can still carry a tool_use
+	// block: whatever fields were generated before the cutoff form
+	// syntactically valid JSON, and fields after it are simply absent
+	// (silently defaulting to their zero value downstream) rather than
+	// making the JSON invalid. Treat that as a hard error rather than
+	// returning partial data — the caller likely needs a larger MaxTokens,
+	// not a reason to guess which fields in the result are real.
+	if msg.StopReason == anthropic.StopReasonMaxTokens {
+		return nil, fmt.Errorf("llm: anthropic: response truncated at max_tokens (%d) — increase Request.MaxTokens", maxTokens)
+	}
+
 	for _, block := range msg.Content {
 		if block.Type == "tool_use" {
 			tu := block.AsToolUse()

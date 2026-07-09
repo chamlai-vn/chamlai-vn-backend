@@ -12,7 +12,11 @@ import (
 // HybridSearch fuses the vector (semantic) and keyword (lexical, ts_rank) arms
 // with Reciprocal Rank Fusion, so a query is served well whether it's dominated
 // by meaning (vector wins) or by a distinctive term an embedding can dilute
-// (keyword wins). Both arms fetch candidateTopK candidates before fusion.
+// (keyword wins). Both arms fetch candidateTopK candidates; each arm is then
+// collapsed to one entry per document — keeping only its best-ranked chunk,
+// see collapseToDocuments — BEFORE fusion, so a document with many multi-
+// representation vectors can't dominate RRF simply by appearing more often
+// within a single arm.
 //
 // When a reranker is configured (WithReranker), the top rerankCandidates fused
 // results are passed through it and truncated to topK by relevance; otherwise
@@ -55,6 +59,15 @@ func (r *Retriever) HybridSearch(ctx context.Context, query string, topK int) ([
 		return nil, fmt.Errorf("retriever: hybrid: keyword search: %w", err)
 	}
 
+	// Per-arm collapse BEFORE fusion: a document that shows up at multiple
+	// ranks within a single arm (its content chunk at rank 2, one of its
+	// query chunks at rank 5, say) must contribute only its best rank —
+	// otherwise reciprocalRankFusion would sum multiple contributions from
+	// one arm alone, reintroducing exactly the count-domination multi-
+	// representation embedding is designed to avoid.
+	vectorHits = collapseToDocuments(vectorHits)
+	keywordHits = collapseToDocuments(keywordHits)
+
 	fusionK := topK
 	if r.reranker != nil {
 		fusionK = rerankCandidates
@@ -91,20 +104,28 @@ func (r *Retriever) rerank(ctx context.Context, query string, fused []Result, to
 	return out, nil
 }
 
-// reciprocalRankFusion merges two rank-ordered arms by summing 1/(rrfK+rank+1)
-// per arm for each chunk (rank is 0-based), then returns the topK chunks by
-// fused score, highest first. A chunk present in both arms accumulates both
-// contributions, so results that both arms agree on rank highest. Ties are
-// broken by ChunkID ascending for deterministic output.
+// reciprocalRankFusion merges two already per-document-deduped, rank-ordered
+// arms by summing 1/(rrfK+rank+1) per arm for each document (rank is
+// 0-based), then returns the topK documents by fused score, highest first. A
+// document present in both arms accumulates both contributions, so results
+// both arms agree on rank highest. Ties are broken by DocumentID ascending
+// for deterministic output.
+//
+// vectorHits and keywordHits MUST already be collapsed to one entry per
+// document (see collapseToDocuments) before calling this — this function
+// does not dedupe within an arm itself. If a single arm contained the same
+// document at multiple ranks, that arm alone would accumulate multiple RRF
+// contributions for it, reintroducing the count-domination multi-
+// representation embedding is designed to avoid.
 func reciprocalRankFusion(vectorHits, keywordHits []store.Match, topK int) []Result {
 	scores := make(map[int64]float64)
 	payload := make(map[int64]store.Match)
 
 	add := func(hits []store.Match) {
 		for rank, m := range hits {
-			scores[m.ChunkID] += 1.0 / float64(rrfK+rank+1)
-			if _, ok := payload[m.ChunkID]; !ok {
-				payload[m.ChunkID] = m
+			scores[m.DocumentID] += 1.0 / float64(rrfK+rank+1)
+			if _, ok := payload[m.DocumentID]; !ok {
+				payload[m.DocumentID] = m
 			}
 		}
 	}

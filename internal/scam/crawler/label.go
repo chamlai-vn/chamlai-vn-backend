@@ -3,9 +3,10 @@ package crawler
 import "strings"
 
 // Scam type labels. Snake_case, fixed set — keep these in sync with whatever the
-// analyzer/UI expects to display, and with the scam_type values used in the
-// hand-written local markdown files (cmd/crawler/data/*.md). "other" is the
-// catch-all when no rule matches (typical for broad overview/guide articles).
+// analyzer/UI expects to display, and with the "type:" values used in the
+// corpus markdown format (see pkg/util/corpusdoc and ValidScamTypes below).
+// "other" is the catch-all when no rule matches (typical for broad overview/
+// guide articles).
 const (
 	ScamImpersonationAuthority = "impersonation_authority" // công an, toà án, viện KS, cơ quan nhà nước, VNeID/CCCD
 	ScamImpersonationService   = "impersonation_service"   // điện lực, y tế, nhà mạng/SIM, nhân viên ngân hàng
@@ -21,6 +22,27 @@ const (
 	ScamVacationContract       = "vacation_contract"       // hợp đồng/sở hữu kỳ nghỉ, timeshare
 	ScamOther                  = "other"
 )
+
+// ValidScamTypes is the fixed set of allowed scam_type values, generated from
+// the constants above. corpusdoc.Parse and internal/scam/enrich validate a
+// document's declared/LLM-emitted scam_type against this set so a
+// mislabeled or hallucinated type is rejected rather than silently stored —
+// a wrong label is a retrieval-evasion vector for a poisoned document.
+var ValidScamTypes = map[string]bool{
+	ScamImpersonationAuthority: true,
+	ScamImpersonationService:   true,
+	ScamTechFraud:              true,
+	ScamRecovery:               true,
+	ScamInvestmentFraud:        true,
+	ScamLoan:                   true,
+	ScamFakeJob:                true,
+	ScamEcommerce:              true,
+	ScamPackageDelivery:        true,
+	ScamPrizeGift:              true,
+	ScamRomance:                true,
+	ScamVacationContract:       true,
+	ScamOther:                  true,
+}
 
 // InferScamType labels an article by keyword-matching its title and content
 // against known Vietnamese scam patterns. It is intentionally rule-based (no

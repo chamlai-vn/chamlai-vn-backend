@@ -97,6 +97,51 @@ func TestFetch_EmptyContent(t *testing.T) {
 	}
 }
 
+func TestFetch_RedirectToUnregisteredHostBlocked(t *testing.T) {
+	// A host not in the allowlist, reachable only via a redirect FROM an
+	// allowlisted host — the SSRF gap defaultCheckRedirect closes.
+	unregistered := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, _ *http.Request) {
+		_, _ = w.Write([]byte(sampleArticleHTML))
+	}))
+	defer unregistered.Close()
+
+	allowlisted := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		http.Redirect(w, r, unregistered.URL+"/x", http.StatusFound)
+	}))
+	defer allowlisted.Close()
+	registerTestRule(t, allowlisted.URL, siteRule{source: "x", titleSel: "h1", contentSel: "article"})
+
+	_, err := New().Fetch(context.Background(), allowlisted.URL)
+	if err == nil || !strings.Contains(err.Error(), "redirect to unregistered host") {
+		t.Fatalf("want redirect-blocked error, got %v", err)
+	}
+}
+
+func TestFetch_ResponseBodyIsCapped(t *testing.T) {
+	const realContent = "nội dung thật, không nên xuất hiện trong kết quả"
+	srv := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, _ *http.Request) {
+		_, _ = w.Write([]byte(`<html><body><h1>t</h1><article class="fck_detail">`))
+		// Pad well past maxResponseBytes before the real content, so a
+		// correctly-capped read never reaches it. The container falls back
+		// to its own text when no <p> is found (extractContent), so this
+		// doesn't produce an "empty content" error — it's still non-empty
+		// (garbage) content. What must never happen is realContent, planted
+		// after the padding, showing up in the result.
+		_, _ = w.Write([]byte(strings.Repeat("x", maxResponseBytes+1024)))
+		_, _ = w.Write([]byte(`<p class="Normal">` + realContent + `</p></article></body></html>`))
+	}))
+	defer srv.Close()
+	registerTestRule(t, srv.URL, siteRule{source: "x", titleSel: "h1", contentSel: "article.fck_detail"})
+
+	doc, err := New().Fetch(context.Background(), srv.URL)
+	if err != nil {
+		t.Fatalf("Fetch: %v (expected success on truncated-but-non-empty content)", err)
+	}
+	if strings.Contains(doc.Content, realContent) {
+		t.Error("content past maxResponseBytes was not truncated — size cap is not effective")
+	}
+}
+
 func TestInferScamType(t *testing.T) {
 	cases := []struct {
 		name, title, content, want string
@@ -153,71 +198,4 @@ func TestLoadURLs(t *testing.T) {
 			t.Errorf("urls[%d] = %q, want %q", i, urls[i], want[i])
 		}
 	}
-}
-
-func TestParseLocalFile(t *testing.T) {
-	dir := t.TempDir()
-	write := func(name, body string) string {
-		p := filepath.Join(dir, name)
-		if err := os.WriteFile(p, []byte(body), 0o644); err != nil {
-			t.Fatal(err)
-		}
-		return p
-	}
-
-	t.Run("valid", func(t *testing.T) {
-		p := write("ok.md", "---\ntitle: Cảnh báo X\nscam_type: investment_fraud\nsource: youtube\nurl: https://youtu.be/abc\n---\nNội dung transcript dài.\n")
-		doc, scamType, err := ParseLocalFile(p)
-		if err != nil {
-			t.Fatalf("ParseLocalFile: %v", err)
-		}
-		if doc.URL != "https://youtu.be/abc" || doc.Title != "Cảnh báo X" || doc.Source != "youtube" {
-			t.Errorf("doc = %+v", doc)
-		}
-		if doc.Content != "Nội dung transcript dài." {
-			t.Errorf("content = %q", doc.Content)
-		}
-		if scamType != "investment_fraud" {
-			t.Errorf("scamType = %q", scamType)
-		}
-	})
-
-	t.Run("source defaults to manual", func(t *testing.T) {
-		p := write("nosrc.md", "---\nurl: https://x.test/y\n---\nbody\n")
-		doc, _, err := ParseLocalFile(p)
-		if err != nil {
-			t.Fatalf("ParseLocalFile: %v", err)
-		}
-		if doc.Source != defaultFileSource {
-			t.Errorf("source = %q, want %q", doc.Source, defaultFileSource)
-		}
-	})
-
-	t.Run("missing url", func(t *testing.T) {
-		p := write("nourl.md", "---\ntitle: x\n---\nbody\n")
-		if _, _, err := ParseLocalFile(p); err == nil || !strings.Contains(err.Error(), "url") {
-			t.Fatalf("want missing-url error, got %v", err)
-		}
-	})
-
-	t.Run("no frontmatter fence", func(t *testing.T) {
-		p := write("nofm.md", "just body, no fence\n")
-		if _, _, err := ParseLocalFile(p); err == nil || !strings.Contains(err.Error(), "fence") {
-			t.Fatalf("want fence error, got %v", err)
-		}
-	})
-
-	t.Run("unterminated frontmatter", func(t *testing.T) {
-		p := write("unterm.md", "---\nurl: https://x.test/y\nbody without closing fence\n")
-		if _, _, err := ParseLocalFile(p); err == nil || !strings.Contains(err.Error(), "unterminated") {
-			t.Fatalf("want unterminated error, got %v", err)
-		}
-	})
-
-	t.Run("empty body", func(t *testing.T) {
-		p := write("empty.md", "---\nurl: https://x.test/y\n---\n   \n")
-		if _, _, err := ParseLocalFile(p); err == nil || !strings.Contains(err.Error(), "empty body") {
-			t.Fatalf("want empty-body error, got %v", err)
-		}
-	})
 }

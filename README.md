@@ -12,7 +12,16 @@ Dán bất kỳ văn bản đáng ngờ nào (SMS, tin nhắn Zalo, "hợp đồ
 
 > ⚠️ **Lưu ý**: ChậmLại.vn là công cụ tham khảo, không thay thế tư vấn pháp lý. Công cụ không bao giờ khẳng định "an toàn 100%" và không kết luận về cá nhân hay tổ chức cụ thể.
 
-## Cách hoạt động
+- [ChậmLại.vn 🛡️](#chậmlạivn-️)
+  - [I. Cách hoạt động](#i-cách-hoạt-động)
+  - [II. Vì sao chọn RAG?](#ii-vì-sao-chọn-rag)
+  - [III. Công nghệ](#iii-công-nghệ)
+  - [IV. Cấu trúc dự án](#iv-cấu-trúc-dự-án)
+  - [V. Xây dựng corpus dữ liệu](#v-xây-dựng-corpus-dữ-liệu)
+  - [VI. Chạy thử](#vi-chạy-thử)
+  - [VII. Lộ trình](#vii-lộ-trình)
+
+## I. Cách hoạt động
 
 ```
 văn bản đáng ngờ
@@ -21,7 +30,7 @@ văn bản đáng ngờ
  embed (Voyage AI) ──► pgvector: top-k scam pattern tương tự
       │                          │
       ▼                          ▼
- Claude (Anthropic API) ◄── context đã retrieve
+ LLM (Claude/Gemini/ChatGPT) ◄── context đã retrieve
       │
       ▼
  kết quả JSON có cấu trúc
@@ -30,36 +39,37 @@ văn bản đáng ngờ
 
 RAG trên corpus bài cảnh báo lừa đảo đã gắn nhãn (VTV, CAND, Cục An toàn thông tin...), chấm điểm dấu hiệu lừa đảo bằng Claude.
 
-## Vì sao chọn RAG? (3 điều cốt lõi)
+## II. Vì sao chọn RAG?
 
 **1. RAG bắt kịp kịch bản lừa đảo mới, fine-tune thì không.** Chiêu lừa ở Việt Nam thay đổi liên tục. Với RAG, chỉ cần thêm một bài cảnh báo mới vào corpus là hệ thống nhận ra pattern đó ngay — đặc biệt mạnh khi cộng đồng người dùng đóng góp dữ liệu thực tế. Fine-tune ngược lại tốn công thu thập, làm sạch, gắn nhãn dữ liệu và chi phí cao hơn nhiều, mà mỗi lần có chiêu mới lại phải train lại.
 
 **2. Luồng dữ liệu đi thẳng từ văn bản tới verdict.** Hợp đồng/văn bản đáng ngờ → embed → query pgvector lấy scam pattern tương tự → inject vào prompt → Claude chấm điểm đỏ/vàng/xanh. Đây chính là ba bước Retrieval → Augmentation → Generation, ánh xạ trực tiếp vào các package trong `internal/`.
 
-**3. Kết hợp semantic + lexical (BM25), và tập trung thị trường Việt Nam.** Tìm theo ý nghĩa (embedding) bắt được văn bản diễn đạt khác nhưng cùng bản chất lừa; tìm theo từ khóa (BM25) bắt được tên chiêu trò, số hotline giả, cụm từ đặc trưng. Hai cách bổ trợ nhau nên dùng cả hai thay vì chỉ semantic. Không cố tổng quát hóa cho thị trường khác lúc này — mỗi quốc gia có kịch bản lừa đảo riêng, làm tốt cho Việt Nam trước đã.
+**3. Kết hợp semantic + lexical (TF-IDF), và tập trung thị trường Việt Nam.** Tìm theo ý nghĩa (embedding) bắt được văn bản diễn đạt khác nhưng cùng bản chất lừa; tìm theo từ khóa (Postgres tsvector TF-IDF) bắt được tên chiêu trò, số hotline giả, cụm từ đặc trưng. Hai cách bổ trợ nhau nên dùng cả hai thay vì chỉ semantic. Không cố tổng quát hóa cho thị trường khác lúc này — mỗi quốc gia có kịch bản lừa đảo riêng, làm tốt cho Việt Nam trước đã.
 
-## Công nghệ
+## III. Công nghệ
 
-Go · PostgreSQL + pgvector · Voyage AI embeddings · Anthropic Claude API
+Go · PostgreSQL + pgvector · Voyage AI embeddings · Claude/Gemini/ChatGPT API
 
-## Cấu trúc dự án
+## IV. Cấu trúc dự án
 
 ```
 cmd/
   api/            # entrypoint HTTP API (+ swagger)
-  crawler/        # CLI: dựng corpus (crawl url + file cục bộ → ingest)
+  crawler/        # CLI: dựng corpus 2 giai đoạn — xem doc comment của package cmd/crawler (-mode=generate|ingest)
   seed/           # CLI: smoke test end-to-end đường retrieval của RAG
   migration/      # chạy DB migration
 internal/
   ai/
     embedder/     # provider embedding sau interface Service (Voyage, Azure...)
     reranker/     # provider reranking sau interface Service (bước tùy chọn sau RRF)
-    llm/          # client Anthropic + prompt templates
+    llm/          # client Anthropic/Gemini/OpenAI sau interface Service + prompt templates
   scam/           # domain RAG, mỗi package một bước pipeline
-    ingest/       # kết quả crawl → chunk → embed → store
-    retriever/    # văn bản truy vấn → pgvector top-k + hybrid (BM25/RRF), rerank tùy chọn
+    ingest/       # corpusdoc.Document → chunk theo cấu trúc + embed đa biểu diễn → store
+    retriever/    # văn bản truy vấn → pgvector top-k + hybrid (BM25/RRF), dedupe theo document, rerank tùy chọn
     analyzer/     # use case lõi: văn bản → retrieve → LLM scoring → verdict
-    crawler/      # fetch + parse + gắn nhãn loại scam bằng rule
+    crawler/      # fetch + parse trang gốc (không LLM); gắn nhãn loại scam bằng rule; HTTP client chống SSRF
+    enrich/       # nội dung crawl thô → gọi LLM → corpusdoc.Document (bước LLM của generate-mode)
   infra/
     store/        # data-access Postgres + pgvector (một pgxpool.Pool)
     repository/   # repository quan hệ / auth
@@ -71,17 +81,59 @@ internal/
     root/         # route không version (GET /health)
     v1/analyze/   # POST /v1/analyze
     swagger/      # sinh bởi `make swagger` — không sửa tay
-  model/          # domain types
+  model/          # domain types (Document, Chunk — struct thuần pgx, không dùng gorm)
 pkg/util/
+  corpusdoc/      # định dạng markdown 4 phần chuẩn của corpus: parse/serialize/slug — kiểu trung gian crawl→ingest
   eval/           # metric đo chất lượng retrieval (Hit@K, MRR), không phụ thuộc gì
-  rag/            # parse + chunk tài liệu, dùng bởi ingest
+  rag/            # parse tài liệu + chunker theo kích thước (dùng làm bộ chia nhỏ phụ trong ingest)
   ulid/           # sinh ULID
 config/           # nạp cấu hình
 migrations/       # schema SQL, áp qua cmd/migration
+data/
+  corpus/         # tài liệu corpus đã sinh/đã review (git-ignore trừ .gitkeep + example.md)
 benchmark/        # thiết kế benchmark retrieval (README.md) — chưa chạy, xem trạng thái trong đó
 ```
 
-## Chạy thử
+## V. Xây dựng corpus dữ liệu
+
+Corpus (các bài cảnh báo lừa đảo) được xây dựng qua 2 giai đoạn tách biệt, nối nhau bởi định dạng
+markdown 4 phần chuẩn (`pkg/util/corpusdoc`) và một bước con người review bắt buộc — chi tiết xem
+doc comment của package `cmd/crawler`.
+
+```mermaid
+flowchart TD
+    subgraph GEN["-mode=generate  (crawler + enrich + LLM key — không cần DB)"]
+        A["Seed URLs"] --> B["crawler.Fetch<br/>fetch + parse trang gốc, không LLM"]
+        B --> C["enrich.Enrich<br/>LLM: tóm tắt nội dung, phân loại scam_type,<br/>sinh câu hỏi doc2query + biện pháp phòng tránh"]
+        C --> D["data/corpus/&lt;slug&gt;.md<br/>reviewed: false"]
+    end
+
+    D --> R{{"Người review<br/>chỉnh sửa nội dung, đổi reviewed: true"}}
+
+    subgraph ING["-mode=ingest  (DB + embedder — không cần LLM)"]
+        R --> F{"reviewed: true?"}
+        F -->|"false"| X["bỏ qua"]
+        F -->|"true"| P["corpusdoc.Parse<br/>validate url + scam_type"]
+        P --> CH["structure-chunk<br/>Content → theo đoạn văn<br/>User query → mỗi câu 1 chunk"]
+        CH --> EM["embed đa biểu diễn<br/>(content + doc2query,<br/>prefix ngữ cảnh chỉ khi embed)"]
+        EM --> ST[("documents + chunks<br/>Postgres pgvector/tsvector")]
+    end
+```
+
+- **`-mode=generate`** chỉ cần `crawler` + `enrich` + API key của LLM (không đụng DB/embedder):
+  fetch trang gốc, gọi LLM tóm tắt/phân loại/sinh câu hỏi doc2query (giọng nạn nhân) + biện pháp
+  phòng tránh, rồi ghi ra `data/corpus/<slug>.md` với `reviewed: false`.
+- Con người review/sửa file, đổi `reviewed: false` → `true` — đây là điểm chặn kỹ thuật duy nhất
+  giữa output của LLM và corpus được lưu trữ, không chỉ là quy ước.
+- **`-mode=ingest`** chỉ cần DB + embedder (không đụng LLM/crawler): từ chối file còn
+  `reviewed: false`, parse + validate, chunk theo cấu trúc (Content theo đoạn văn, mỗi câu trong
+  User query thành 1 vector doc2query riêng), embed đa biểu diễn rồi lưu nguyên tử vào
+  `documents`/`chunks`.
+
+Cả 2 lệnh đều idempotent khi chạy lại: `generate` bỏ qua URL đã có file; `ingest` bỏ qua URL đã có
+trong corpus (kiểm tra trước khi tốn phí embedding).
+
+## VI. Chạy thử
 
 ```bash
 make switch.local        # copy .env.local -> .env, rồi điền API keys
@@ -94,7 +146,7 @@ curl -X POST localhost:8080/v1/analyze -H 'Content-Type: application/json' \
 # Swagger UI (chỉ APP_ENV=development, mặc định): http://localhost:8080/swagger/
 ```
 
-## Lộ trình
+## VII. Lộ trình
 
 - [x] Skeleton repo, setup Postgres + pgvector
 - [x] Corpus: index 50+ bài cảnh báo lừa đảo đã gắn nhãn (hiện ~50 bài, 101 chunks)

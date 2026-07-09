@@ -116,6 +116,21 @@ func (g *Gemini) GenerateStructured(ctx context.Context, req Request) (json.RawM
 		return nil, fmt.Errorf("llm: gemini: generate: %w", err)
 	}
 
+	var reason genai.FinishReason
+	if len(resp.Candidates) > 0 {
+		reason = resp.Candidates[0].FinishReason
+	}
+	// MAX_TOKENS truncation is the specific, actionable case: unlike
+	// Anthropic (which can still hand back a partial-but-parseable tool_use
+	// block when truncated), Gemini's own validation rejects an incomplete
+	// function call outright as MALFORMED_FUNCTION_CALL — but that generic
+	// reason alone doesn't tell the caller *why*. Surface the token-limit
+	// cause explicitly so it's obvious MaxTokens needs raising, not that the
+	// schema or prompt is wrong.
+	if reason == genai.FinishReasonMaxTokens {
+		return nil, fmt.Errorf("llm: gemini: response truncated at max_tokens (%d) — increase Request.MaxTokens", maxTokens)
+	}
+
 	for _, cand := range resp.Candidates {
 		if cand.Content == nil {
 			continue
@@ -131,9 +146,8 @@ func (g *Gemini) GenerateStructured(ctx context.Context, req Request) (json.RawM
 		}
 	}
 
-	var reason string
-	if len(resp.Candidates) > 0 {
-		reason = string(resp.Candidates[0].FinishReason)
+	if reason == genai.FinishReasonMalformedFunctionCall {
+		return nil, fmt.Errorf("llm: gemini: model produced a malformed %q function call — often caused by running out of output tokens mid-generation; try increasing Request.MaxTokens (currently %d)", req.ToolName, maxTokens)
 	}
 	return nil, fmt.Errorf("llm: gemini: no %q function call in response (finish_reason=%s)", req.ToolName, reason)
 }

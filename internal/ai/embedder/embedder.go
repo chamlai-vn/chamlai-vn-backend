@@ -43,7 +43,7 @@ type AzureConfig struct {
 // VoyageConfig holds the Voyage AI connection settings (from env).
 type VoyageConfig struct {
 	APIKey     string // VOYAGE_API_KEY
-	Model      string // optional; "" → voyage-law-2
+	Model      string // optional; "" → voyage-4
 	Dimensions int    // optional; 0 → 1024
 }
 
