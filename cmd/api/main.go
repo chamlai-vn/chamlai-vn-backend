@@ -88,7 +88,7 @@ func main() {
 	analyzeHandler := analyze.New(ret, scorer)
 
 	apiCfg := cfg.API()
-	router := api.NewRouter(apiCfg, analyzeHandler)
+	router := api.NewRouter(apiCfg, api.Handlers{Analyze: analyzeHandler})
 	srv := api.NewServer(apiCfg, router)
 
 	slog.Info("API listening", "addr", apiCfg.Addr)

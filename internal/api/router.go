@@ -20,6 +20,14 @@ import (
 	_ "github.com/chamlai-vn/chamlai-vn-backend/internal/api/swagger" // swagger spec, registered via init()
 )
 
+// Handlers groups the per-feature handlers NewRouter mounts. Add a field
+// (and a corresponding Mount call in NewRouter) for each new v1 feature —
+// this keeps NewRouter's signature stable as the API grows past one
+// endpoint, instead of adding one constructor parameter per handler.
+type Handlers struct {
+	Analyze *analyze.Handler
+}
+
 // Config configures the HTTP layer: what address to listen on (server.go)
 // and the router's cross-cutting behaviour.
 type Config struct {
@@ -45,7 +53,12 @@ type Config struct {
 // reverse proxy yet. If one is introduced, switch to chimw.ClientIPFromXFF
 // with that proxy's CIDRs (chi's plain RealIP trusts X-Forwarded-For
 // unconditionally and is deprecated for exactly this reason).
-func NewRouter(cfg Config, analyzeHandler *analyze.Handler) http.Handler {
+//
+// Each feature owns its URL structure via its own Routes() sub-router (see
+// analyze.Handler.Routes); NewRouter only decides where to Mount it. Adding
+// a feature means adding a field to Handlers and one Mount call here, not
+// growing this function's parameter list.
+func NewRouter(cfg Config, h Handlers) http.Handler {
 	r := chi.NewRouter()
 	r.Use(
 		middleware.RequestID,
@@ -67,9 +80,9 @@ func NewRouter(cfg Config, analyzeHandler *analyze.Handler) http.Handler {
 		return problem.MethodNotAllowed()
 	}))
 
-	r.Get("/health", root.Health)
+	r.Mount("/", root.Routes())
 	r.Route("/v1", func(r chi.Router) {
-		r.Post("/analyze", problem.Handler(analyzeHandler.Handle))
+		r.Mount("/analyze", h.Analyze.Routes())
 	})
 
 	if cfg.SwaggerUI {

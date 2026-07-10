@@ -33,7 +33,7 @@ func testConfig() Config {
 // validation, and error shape all through NewRouter — no DB/LLM required.
 func TestRouter_Wiring(t *testing.T) {
 	h := analyze.New(fakeRetriever{}, fakeScorer{})
-	srv := httptest.NewServer(NewRouter(testConfig(), h))
+	srv := httptest.NewServer(NewRouter(testConfig(), Handlers{Analyze: h}))
 	defer srv.Close()
 
 	cases := []struct {
@@ -70,7 +70,7 @@ func TestRouter_Wiring(t *testing.T) {
 
 func TestRouter_ErrorsAreProblemJSON(t *testing.T) {
 	h := analyze.New(fakeRetriever{}, fakeScorer{})
-	srv := httptest.NewServer(NewRouter(testConfig(), h))
+	srv := httptest.NewServer(NewRouter(testConfig(), Handlers{Analyze: h}))
 	defer srv.Close()
 
 	resp, err := http.Get(srv.URL + "/nope")
@@ -86,7 +86,7 @@ func TestRouter_ErrorsAreProblemJSON(t *testing.T) {
 
 func TestRouter_EchoesRequestID(t *testing.T) {
 	h := analyze.New(fakeRetriever{}, fakeScorer{})
-	srv := httptest.NewServer(NewRouter(testConfig(), h))
+	srv := httptest.NewServer(NewRouter(testConfig(), Handlers{Analyze: h}))
 	defer srv.Close()
 
 	req, _ := http.NewRequest(http.MethodGet, srv.URL+"/health", nil)
@@ -106,7 +106,7 @@ func TestRouter_EchoesRequestID(t *testing.T) {
 func TestRouter_BodyOverLimit_413(t *testing.T) {
 	h := analyze.New(fakeRetriever{}, fakeScorer{})
 	cfg := Config{AllowOrigins: []string{"*"}, BodyLimitBytes: 16}
-	srv := httptest.NewServer(NewRouter(cfg, h))
+	srv := httptest.NewServer(NewRouter(cfg, Handlers{Analyze: h}))
 	defer srv.Close()
 
 	body := `{"text":"this body is longer than sixteen bytes"}`
@@ -124,7 +124,7 @@ func TestRouter_BodyOverLimit_413(t *testing.T) {
 func TestRouter_SwaggerUI_GatedByConfig(t *testing.T) {
 	h := analyze.New(fakeRetriever{}, fakeScorer{})
 
-	off := httptest.NewServer(NewRouter(testConfig(), h))
+	off := httptest.NewServer(NewRouter(testConfig(), Handlers{Analyze: h}))
 	defer off.Close()
 	resp, err := http.Get(off.URL + "/swagger/index.html")
 	if err != nil {
@@ -137,7 +137,7 @@ func TestRouter_SwaggerUI_GatedByConfig(t *testing.T) {
 
 	cfg := testConfig()
 	cfg.SwaggerUI = true
-	on := httptest.NewServer(NewRouter(cfg, h))
+	on := httptest.NewServer(NewRouter(cfg, Handlers{Analyze: h}))
 	defer on.Close()
 	resp, err = http.Get(on.URL + "/swagger/doc.json")
 	if err != nil {
@@ -151,7 +151,7 @@ func TestRouter_SwaggerUI_GatedByConfig(t *testing.T) {
 
 func TestRouter_CORSPreflight(t *testing.T) {
 	h := analyze.New(fakeRetriever{}, fakeScorer{})
-	srv := httptest.NewServer(NewRouter(testConfig(), h))
+	srv := httptest.NewServer(NewRouter(testConfig(), Handlers{Analyze: h}))
 	defer srv.Close()
 
 	req, _ := http.NewRequest(http.MethodOptions, srv.URL+"/v1/analyze", nil)
