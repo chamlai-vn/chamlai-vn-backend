@@ -1,0 +1,33 @@
+{
+  "case_id": "scam-recovery_scam-08",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Giả danh cơ quan nhà nước (tự xưng là 'Trung tâm Hỗ trợ Nạn nhân Lừa đảo Quốc gia')",
+      "Liên hệ từ số điện thoại lạ ngay sau khi nạn nhân bị lừa",
+      "Hứa hẹn 'may mắn được lựa chọn' để tham gia chương trình đặc biệt của chính phủ",
+      "Yêu cầu chuyển nhiều khoản phí liên tiếp (500k + 800k + 600k) với các lý do khác nhau",
+      "Phí xử lý hồ sơ, phí bảo lãnh ngân hàng, phí tham vấn pháp lý - các lý do điển hình của recovery scam",
+      "Đưa ra các lý do trì hoãn mơ hồ khi nạn nhân thắc mắc tiến độ",
+      "Tận dụng tâm lý tuyệt vọng của nạn nhân đã bị lừa lần đầu",
+      "Không cung cấp bằng chứng cụ thể về tiến độ khôi phục tiền"
+    ],
+    "matched_patterns": [
+      "Giả danh cơ quan nhà nước lừa lấy tiền \"hỗ trợ khôi phục tài sản bị lừa\"",
+      "Giả danh cơ quan Công an, công ty luật để lừa đảo \"hỗ trợ thu hồi tiền bị lừa đảo\"",
+      "Lừa đảo kép: Giả công ty luật hỗ trợ lấy lại tiền bị lừa sau lần thứ nhất",
+      "Lừa đảo giả danh cơ quan pháp luật, luật sư để chiếm đoạt phí \"thu hồi tiền bị lừa\""
+    ],
+    "recommended_actions": [
+      "Dừng ngay việc chuyển tiền thêm cho số điện thoại này",
+      "Báo cáo ngay tới cơ quan Công an địa phương với đầy đủ thông tin: số điện thoại +84934556782, số tiền đã chuyển, lý do yêu cầu",
+      "Lưu giữ toàn bộ tin nhắn, cuộc gọi, biên lai chuyển khoản làm bằng chứng",
+      "Không chia sẻ thêm bất kỳ thông tin cá nhân hay tài khoản ngân hàng cho số điện thoại này",
+      "Nhớ rằng các cơ quan chính phủ thực sự không bao giờ yêu cầu chuyển tiền qua điện thoại hay SMS để 'kích hoạt' hoặc 'hỗ trợ' lấy tiền bị lừa",
+      "Kiểm tra số điện thoại với cơ quan Công an để xác minh tính hợp pháp trước khi tiếp xúc thêm"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 9480
+}

@@ -1,0 +1,29 @@
+{
+  "case_id": "scam-tech_fraud-01",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Giả danh nhân viên ngân hàng Vietcombank",
+      "Yêu cầu click vào link lạ (bit.ly/vietcombank-secure-2024) - đây là URL rút gọn không phải từ miền chính thức của Vietcombank",
+      "Tạo áp lực bằng hạn chót 24 giờ và đe dọa khóa tài khoản vĩnh viễn",
+      "Thông báo bất thường lơ lơ mà không chi tiết cụ thể",
+      "Yêu cầu cung cấp thông tin nhạy cảm (mã xác nhận, xác minh nhân thân)",
+      "Cung cấp hotline không chính thức để tăng độ thuyết phục",
+      "Các ngân hàng thật không yêu cầu xác minh qua link trong tin nhắn"
+    ],
+    "matched_patterns": [
+      "recovery_scam",
+      "tech_fraud"
+    ],
+    "recommended_actions": [
+      "KHÔNG click vào link bit.ly hoặc bất kỳ liên kết lạ nào từ tin nhắn",
+      "Không cung cấp mã OTP, mã xác nhận, hoặc bất kỳ thông tin cá nhân nào",
+      "Gọi trực tiếp tổng đài chính thức của Vietcombank (1900545454 hoặc 19008888) bằng cách tra cứu trên website ngân hàng để xác minh xem có bất thường nào không",
+      "Nếu tài khoản thật sự có vấn đề, ngân hàng sẽ liên hệ thông qua ứng dụng chính thức hoặc địa chỉ email đã đăng ký",
+      "Cân nhắc báo cáo tin nhắn này cho Vietcombank và cơ quan công an để bảo vệ các người dùng khác"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 13399
+}

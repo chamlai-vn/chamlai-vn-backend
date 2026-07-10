@@ -1,0 +1,26 @@
+{
+  "case_id": "scam-other-04",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Cuộc gọi từ số điện thoại lạ tự xưng là nhân viên Vinaphone",
+      "Thông báo tài khoản bị khóa để tạo áp lực và khẩn trương",
+      "Yêu cầu cập nhật thông tin qua link được gửi (có khả năng là phishing)",
+      "Phương thức liên hệ lạ thường (không phải từ cửa hàng/đại lý chính thức)"
+    ],
+    "matched_patterns": [
+      "Giả danh nhà mạng/cơ quan viễn thông xác thực SIM để chiếm quyền điện thoại, đánh cắp OTP và tài khoản",
+      "Giả danh nhân viên nhà mạng gọi điện lừa thanh toán cước và mã OTP"
+    ],
+    "recommended_actions": [
+      "Tuyệt đối không nhấn vào link hoặc cung cấp bất kỳ thông tin cá nhân nào cho số điện thoại này",
+      "Không cung cấp mã OTP hoặc chụp ảnh Căn cước công dân theo yêu cầu",
+      "Chủ động gọi trực tiếp tới số tổng đài chính thức của Vinaphone (hoặc truy cập website chính thức) để xác minh xem tài khoản có thực sự bị khóa hay không",
+      "Nếu cần cập nhật thông tin, hãy trực tiếp đến cửa hàng/đại lý Vinaphone chính thức",
+      "Báo cáo số điện thoại 0934556789 cho cơ quan công an và công ty Vinaphone để cảnh báo người khác"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 6717
+}

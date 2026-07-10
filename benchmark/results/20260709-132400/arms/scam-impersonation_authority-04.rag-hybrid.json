@@ -1,0 +1,32 @@
+{
+  "case_id": "scam-impersonation_authority-04",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Cuộc gọi từ số điện thoại di động không chính thức (không phải số công khai của cơ quan Công an)",
+      "Tự xưng là cấp bậc cụ thể (Thượng tá Lâm) để tạo lòng tin",
+      "Tạo tâm lý hoang mang bằng cách nói bị nghi ngờ liên quan vụ án rửa tiền",
+      "Yêu cầu cài đặt ứng dụng lạ (eGate_Security_2024) với giao diện giả mạo app ngân hàng",
+      "Ứng dụng lạ yêu cầu nhập mã PIN, OTP và dữ liệu VNeID - công cụ để chiếm quyền kiểm soát tài khoản",
+      "Yêu cầu chuyển tiền lớn (45 triệu đồng) vào 'tài khoản tạm giữ' với lý do không hợp lệ",
+      "Tạo áp lực tâm lý bằng lời hứa 'được miễn tội' nếu chuyển tiền"
+    ],
+    "matched_patterns": [
+      "Giả danh cán bộ Công an yêu cầu chuyển tiền để phục vụ điều tra",
+      "Giả danh Công an, Viện Kiểm sát dựng chuyện vụ án để dụ dỗ chuyển tiền",
+      "Giả danh Công an gọi điện đe dọa liên quan vụ án để chiếm đoạt tài sản"
+    ],
+    "recommended_actions": [
+      "Ngắt liên lạc ngay lập tức với số điện thoại này - đây là lừa đảo rõ ràng",
+      "Không cài đặt ứng dụng 'eGate_Security_2024' hoặc bất kỳ ứng dụng lạ nào mà người gọi yêu cầu",
+      "Không cung cấp bất kỳ thông tin nhạy cảm nào (PIN, OTP, dữ liệu VNeID, thông tin tài khoản) qua điện thoại",
+      "Không chuyển tiền cho bất kỳ ai tự xưng là cán bộ Công an nói về 'xác minh', 'điều tra' hay 'tài khoản tạm giữ'",
+      "Liên hệ trực tiếp với Công an quận Thanh Xuân qua số công khai chính thức để xác minh danh tính người gọi",
+      "Lưu giữ các chi tiết cuộc gọi (số điện thoại, thời gian, nội dung) và báo cáo cho công an để điều tra",
+      "Khuyên em trai không nghe lời các yêu cầu tiếp theo từ số điện thoại này"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 10133
+}

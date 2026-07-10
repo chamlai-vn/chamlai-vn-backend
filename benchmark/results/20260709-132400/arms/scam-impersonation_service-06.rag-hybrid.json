@@ -1,0 +1,29 @@
+{
+  "case_id": "scam-impersonation_service-06",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Cuộc gọi từ số điện thoại lạ (+84 946 728 315) tự xưng là nhân viên Tổng công ty Điện lực Việt Nam",
+      "Tuyên bố tài khoản khách hàng bị khóa tạm thời để tạo áp lực và cấp thiết",
+      "Yêu cầu cập nhật thông tin thanh toán qua ứng dụng lạ",
+      "Hướng dẫn tải ứng dụng \"ElectricPay Pro\" - ứng dụng giả mạo từ liên kết hoặc hướng dẫn qua điện thoại, không từ Google Play/App Store",
+      "Đề nghị nhập thông tin tài khoản ngân hàng và mật khẩu vào ứng dụng không chính thức",
+      "Sau khi nạn nhân cung cấp thông tin, kẻ lừa đảo có thể truy cập tài khoản ngân hàng và thực hiện giao dịch trái phép"
+    ],
+    "matched_patterns": [
+      "impersonation_authority",
+      "impersonation_service"
+    ],
+    "recommended_actions": [
+      "Không bao giờ cung cấp thông tin tài khoản ngân hàng hoặc mật khẩu cho người tự xưng là nhân viên điện lực qua điện thoại hay ứng dụng lạ",
+      "Chỉ tải ứng dụng điện lực chính thức từ Google Play Store hoặc Apple App Store, không từ liên kết trong tin nhắn hoặc hướng dẫn qua điện thoại",
+      "Khi nghi ngờ hoặc nhận được thông báo về tài khoản khách hàng bị khóa, hãy chủ động gọi tổng đài chính thức của công ty điện lực địa phương để xác minh (không gọi số mà đối tượng cung cấp)",
+      "Kiểm tra hoá đơn tiền điện trực tiếp qua website hoặc ứng dụng chính thức của EVN trước khi xử lý bất kỳ yêu cầu nào",
+      "Khi phát hiện giao dịch bất thường trên tài khoản ngân hàng, liên hệ ngân hàng ngay để khóa tài khoản và yêu cầu hoàn lại tiền",
+      "Cảnh báo gia đình, bạn bè về các thủ đoạn lừa đảo này để tránh bị chiếm đoạt tài sản"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 7749
+}

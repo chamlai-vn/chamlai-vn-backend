@@ -1,0 +1,51 @@
+{
+  "case_id": "scam-investment_fraud-02",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Lãi suất 15%/tháng (~180%/năm) – mức phi thực tế, vượt xa ngưỡng cảnh báo 15%/năm",
+      "Mô hình Ponzi/đa cấp tiền mã hóa điển hình (HYIP)",
+      "Được giới thiệu qua bạn bè – thủ đoạn tạo lòng tin",
+      "Kịch bản '500 thành viên' – chiêu tạo uy tín giả bằng website/app hiện đại với số liệu do kẻ gian kiểm soát",
+      "Nguy cơ mất trắng hoàn toàn khi kẻ gian đánh sập hệ thống sau khi gom đủ tiền",
+      "Không được pháp luật bảo vệ do khoảng trống pháp lý về tiền mã hóa"
+    ],
+    "matched_patterns": [
+      "Ponzi/đa cấp tiền mã hóa",
+      "HYIP (đầu tư lãi suất cao)",
+      "Giả mạo quỹ đầu tư tiền số"
+    ],
+    "recommended_actions": [
+      "DỪNG NGAY – Không chuyển bất kỳ đồng tiền nào, dù chỉ là 'thử'",
+      "Tra cứu tên 'Finvest Capital' trên Google cùng từ khóa 'lừa đảo', 'scam'",
+      "Cảnh báo bạn bè – người giới thiệu có thể đã bị lừa trước và không biết",
+      "Báo ngay cho cơ quan công an nơi gần nhất khi phát hiện các dấu hiệu mời chào đầu tư có tính chất đa cấp",
+      "Không chia sẻ thông tin cá nhân (căn cước công dân, tài khoản ngân hàng, mã OTP) lên các nền tảng mạng xã hội"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 CẢNH BÁO KHẨN: Đây là dấu hiệu LỪA ĐẢO RẤT RÕ RÀNG! TUYỆT ĐỐI KHÔNG gửi tiền!\n\n---\n\n## ❌ Kết luận: Tình huống này CÓ KHẢ NĂNG RẤT CAO là lừa đảo\n\nDựa trên phân tích các dấu hiệu trong trường hợp của bạn và đối chiếu với cảnh báo từ cơ quan chức năng, đây là những **dấu hiệu đỏ** cực kỳ nguy hiểm:\n\n---\n\n## 🔴 Tại sao đây là lừa đảo?\n\n### 1. Lãi suất 15%/THÁNG – Mức phi thực tế\nCác chuyên gia bảo mật tài chính đã chỉ ra rằng người dùng cần cảnh giác với những lời chào mời cam kết lợi nhuận vượt quá **15% mỗi năm**. Mức lãi suất phi thực tế này thường là \"bả\" để lôi kéo các nhà đầu tư thiếu kinh nghiệm.\n\n\u003e ⚠️ Lưu ý: Họ hứa hẹn 15%/**tháng** (tức ~180%/năm) – còn cao hơn gấp nhiều lần ngưỡng cảnh báo 15%/năm. Đây là điều **KHÔNG THỂ** xảy ra trong thực tế đầu tư hợp pháp.\n\n### 2. Đây là mô hình Ponzi/đa cấp tiền mã hóa điển hình\nMô hình Ponzi là gian lận tài chính trong đó lợi nhuận cho nhà đầu tư cũ được chi trả bằng tiền của người mới. Trong thị trường tiền mã hóa, hình thức này thường núp bóng HYIP (đầu tư lãi suất cao).\n\nTại Việt Nam tồn tại nhiều quỹ tự xưng hoạt động không đúng chức năng, có dấu hiệu lừa đảo, gây mất tiền của người tham gia. \"Hiện nay, có một số tổ chức, cá nhân hoạt động dưới tên gọi 'quỹ đầu tư tiền số' nhưng thực chất thường hoạt động theo mô hình đa cấp.\"\n\n### 3. Giới thiệu qua bạn bè – Thủ đoạn tạo lòng tin\nKhi nạn nhân bắt đầu tin tưởng, chúng giới thiệu một dự án đầu tư và khuyến khích nạn nhân bắt đầu bằng khoản tiền nhỏ. Những người tham gia ban đầu thường được trả lãi để tạo niềm tin, sau đó bị dụ đầu tư lớn hơn. Tuy nhiên, khi muốn rút tiền, họ sẽ bị yêu cầu nộp thêm phí hoặc thuế. Sau khi nhận đủ, kẻ gian cắt liên lạc.\n\n### 4. Kịch bản \"500 thành viên\" – Chiêu tạo uy tín giả\nThủ đoạn phổ biến là thiết lập các giao diện website, ứng dụng đầu tư nhìn rất hiện đại, có các bảng biểu thống kê lãi suất tăng trưởng từng giờ, từng ngày để tạo sự tin tưởng. Tuy nhiên, toàn bộ dữ liệu trên các sàn này đều do đối tượng kiểm soát.\n\n### 5. Hậu quả thường gặp: Mất trắng hoàn toàn\nSau khi gom đủ số tiền lớn, các đối tượng lập tức tìm cách làm gián đoạn dự án, đánh sập website, xóa tên miền và hệ thống máy chủ, khiến hàng loạt nhà đầu tư mất trắng, không thể truy cập hay rút lại số tiền đã bỏ ra.\n\n### 6. Rủi ro pháp lý – Không được nhà nước bảo vệ\nDo khoảng trống pháp lý, hầu hết nạn nhân không thể lấy lại khoản tiền đã mất.\n\n---\n\n## 📊 Bức tranh thực tế tại Việt Nam\n\nTheo thống kê từ Bộ Công an, trong 11 tháng đầu năm 2025, người dùng tại Việt Nam đã bị thiệt hại hơn **6.000 tỷ đồng** do lừa đảo trực tuyến.\n\nTheo Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (A05, Bộ Công an), chỉ tính riêng từ đầu năm 2025 đến nay, đã phát hiện gần 1.500 vụ việc lừa đảo qua mạng, gây thiệt hại hơn 1.660 tỉ đồng; riêng các hoạt động liên quan giao dịch tiền ảo, tiền mã hóa lên tới hơn **1.500 kênh, hội nhóm**.\n\n---\n\n## ✅ Bạn cần làm gì ngay bây giờ?\n\n| Hành động | Chi tiết |\n|---|---|\n| 🛑 **DỪNG NGAY** | Không chuyển bất kỳ đồng tiền nào, dù chỉ là \"thử\" |\n| 🔍 **Tra cứu** | Tìm kiếm tên \"Finvest Capital\" trên Google cùng từ khóa \"lừa đảo\", \"scam\" |\n| 🗣️ **Cảnh báo bạn bè** | Người giới thiệu cho bạn có thể đã bị lừa trước và không biết |\n| 📞 **Báo công an** | Khi phát hiện các dấu hiệu mời chào đầu tư có tính chất đa cấp, cần báo ngay cho cơ quan công an nơi gần nhất để được hỗ trợ, xử lý. |\n| 🚫 **Không chia sẻ thông tin cá nhân** | Không chia sẻ thông tin căn cước công dân, tài khoản ngân hàng hay mã OTP lên các nền tảng mạng xã hội. |\n\n---\n\n## 💡 Quy tắc vàng để tránh lừa đảo\n\n\u003e **\"Lợi nhuận càng cao, rủi ro càng lớn – và nếu ai đó đảm bảo lợi nhuận cao bất thường, đó gần như chắc chắn là lừa đảo.\"**\n\nHãy chỉ đầu tư vào các tổ chức được **Ủy ban Chứng khoán Nhà nước (UBCKNN)** hoặc **Ngân hàng Nhà nước** cấp phép và quản lý. Bạn hoàn toàn **đúng khi nghi ngờ** – và bạn đã hỏi đúng lúc trước khi bị thiệt hại!",
+  "sources": [
+    "https://traderviet.tv/t/canh-giac-lua-dao-tu-cac-du-an-tien-ao-va-tai-chinh-ao.116587/",
+    "https://www.vnsc.vn/finhay-lua-dao-co-that-khong",
+    "https://luatminhkhue.vn/finhay-la-gi-finhay-co-lua-dao-khong.aspx",
+    "https://tuoitre.vn/nld/canh-giac-voi-manh-khoe-lua-dao-quang-cao-dau-tu-tien-so-196250930214412001.htm",
+    "https://baochinhphu.vn/vinacapital-canh-bao-lua-dao-mao-danh-de-keu-goi-dau-tu-102260115115951044.htm",
+    "https://vcci.com.vn/news/canh-bao-nhung-chieu-tro-lua-dao-dau-tu-tai-chinh-dang-lan-rong",
+    "https://bitcoinvn.io/insights/vi/cac-loai-hinh-scam-lua-dao-cryptocurrency-pho-bien/",
+    "https://redbag.vn/detail/finhay-la-gi",
+    "https://vietnamnet.vn/hang-chuc-quy-lua-ga-giang-bay-nha-dau-tu-tien-so-o-viet-nam-809772.html",
+    "https://mof.gov.vn/webcenter/portal/btcvn/pages_r/l/tin-bo-tai-chinh?dDocName=MOFUCM267530\u0026dID=270342",
+    "https://baophapluat.vn/nhan-dien-nguy-co-lua-dao-tai-san-ma-hoa.html",
+    "https://ict.thainguyen.gov.vn/tin-hoat-dong-2/6-thu-doan-lua-dao-17-trieu-nguoi-choi-tien-ma-hoa-viet-nam-can-nam-long-1855.html",
+    "https://lsvn.vn/bo-cong-an-canh-bao-truoc-loi-moi-goi-dau-tu-tren-mang-a171014.html",
+    "https://doanhnghiepkinhtexanh.vn/nhan-dien-tai-san-ma-hoa-lua-dao-bang-cach-nao-a35841.html",
+    "https://congan.longan.gov.vn/vi/chi-tiet-tin-tuc?Id=133452",
+    "https://dantri.com.vn/cong-nghe/lua-dao-tai-san-so-can-trong-truoc-nhung-loi-hua-loi-nhuan-tren-troi-20250809140954443.htm",
+    "https://baomoi.com/6-thu-doan-lua-dao-17-trieu-nguoi-choi-tien-ma-hoa-viet-nam-can-nam-long-c52948257.epi",
+    "https://congan.cantho.gov.vn/canh-bao-toi-pham/nhan-dien-mot-so-hinh-thuc-lua-dao-bang-hinh-thuc-dau-tu-tien-ao-tien-ky-thuat-so-3133.html",
+    "https://antv.gov.vn/kinh-te-5/tien-ma-hoa-tien-so-nhung-can-may-khi-giao-dich-tren-khong-gian-mang-D5639A5E9.html"
+  ],
+  "latency_ms": 61544
+}

@@ -1,0 +1,28 @@
+{
+  "case_id": "scam-vacation_contract-03",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Cuộc gọi từ số điện thoại غير được xác minh, xưng là công ty không rõ uy tín",
+      "Lời hứa du lịch miễn phí (trúng giải thưởng) để tạo lòng tin",
+      "Yêu cầu thanh toán 'phí bảo hiểm hợp đồng' - lý do thanh toán mơ hồ, không rõ ràng",
+      "Hướng dẫn chuyển tiền vào tài khoản cá nhân (tên công ty khác) thay vì tài khoản chính thức",
+      "Cắt liên lạc sau khi nhận tiền (số điện thoại không nghe máy)",
+      "App tải từ link khả nghi bị xóa khỏi hệ thống",
+      "Kiểm chứng cho thấy công ty chính thức không tổ chức chương trình này"
+    ],
+    "matched_patterns": [
+      "vacation_contract"
+    ],
+    "recommended_actions": [
+      "Ngay lập tức thông báo cho ngân hàng về giao dịch chuyển khoản nghi vấn để yêu cầu khóa tài khoản nhận tiền",
+      "Lưu giữ toàn bộ bằng chứng: cuộc gọi, tin nhắn, ảnh chụp app, biên nhận chuyển khoản để làm hồ sơ tố cáo",
+      "Nộp đơn trình báo tội lừa đảo chiếm đoạt tài sản tại cơ quan công an địa phương hoặc trực tuyến",
+      "Liên hệ ngân hàng phát hành thẻ/tài khoản nhân dân để kiểm tra xem có thể chặn hay lấy lại tiền",
+      "Chia sẻ thông tin về chiêu trò này với bạn bè, gia đình để tránh ai khác bị lừa"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 8130
+}

@@ -1,0 +1,52 @@
+{
+  "case_id": "scam-ecommerce_scam-08",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Giá rẻ bất thường (giảm 30% so với thị trường) dùng làm mồi nhử",
+      "Yêu cầu đặt cọc 50% giá trị tour vào tài khoản cá nhân trước",
+      "Website/fanpage có giao diện chuyên nghiệp giả mạo doanh nghiệp thật, hình ảnh sao chép từ khu nghỉ dưỡng nổi tiếng, đánh giá khách hàng giả",
+      "Phiếu xác nhận dạng file ảnh PNG không có giá trị pháp lý",
+      "Cắt đứt liên lạc và xóa website ngay sau khi nhận tiền đặt cọc"
+    ],
+    "matched_patterns": [
+      "Lừa đảo bán tour du lịch trực tuyến",
+      "Lập website/fanpage giả mạo công ty du lịch uy tín",
+      "Yêu cầu chuyển tiền đặt cọc trước để chiếm đoạt",
+      "Tạo hóa đơn/phiếu xác nhận giả mạo"
+    ],
+    "recommended_actions": [
+      "Liên hệ ngay ngân hàng nơi thực hiện giao dịch để yêu cầu phong tỏa tạm thời tài khoản thụ hưởng (số tài khoản 0821456789)",
+      "Thu thập và giữ nguyên toàn bộ bằng chứng: ảnh chụp website (nếu còn cache), số tài khoản 0821456789, số điện thoại 0917 345 678, ảnh phiếu xác nhận PNG, và biên lai chuyển khoản",
+      "Đến trụ sở công an địa phương để trình báo về hành vi lừa đảo chiếm đoạt tài sản trên không gian mạng",
+      "Liên hệ đường dây nóng Cục Cảnh sát Hình sự – Bộ Công an theo số 0692 345 860 để được tư vấn và hướng dẫn",
+      "Tuyệt đối không chuyển thêm tiền cho bất kỳ bên thứ ba nào quảng cáo 'dịch vụ lấy lại tiền bị lừa' hoặc 'hỗ trợ tra soát nhanh' để tránh mất tiền lần hai"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 KẾT LUẬN: ĐÂY LÀ LỪA ĐẢO 100% — Bạn Linh đã là nạn nhân của một vụ lừa đảo tour du lịch trực tuyến điển hình!\n\n---\n\n## 🔍 Phân tích các dấu hiệu lừa đảo trong tình huống này\n\nCâu chuyện của Linh có **đầy đủ các dấu hiệu đặc trưng** của thủ đoạn lừa đảo đang rất phổ biến tại Việt Nam hiện nay:\n\n### ❶ Giá rẻ bất thường để thu hút nạn nhân\nCác đối tượng lừa đảo thường lập các website, fanpage giả mạo các cơ sở kinh doanh dịch vụ du lịch có uy tín với nhiều chiêu trò giảm giá, khuyến mại ảo và yêu cầu chuyển tiền đặt cọc trước. Mức giảm 30% so với thị trường chính là \"mồi nhử\" để thu hút người mua.\n\n### ❷ Yêu cầu đặt cọc trước vào tài khoản cá nhân\nThủ đoạn phổ biến là đăng tải bài viết quảng cáo bán tour du lịch với nhiều tiện ích kèm theo, đề nghị nạn nhân chuyển tiền đặt cọc (từ 30–50% giá trị) để đặt cọc tour du lịch, từ đó chiếm đoạt số tiền đặt cọc. Linh bị yêu cầu đặt cọc đúng 50% — rất khớp với thủ đoạn này.\n\n### ❸ Giao diện website chuyên nghiệp để tạo lòng tin giả\nThay vì đánh vào tâm lý ham rẻ, chúng tập trung xây dựng lòng tin. Những fanpage được đầu tư chuyên nghiệp, website có giao diện giống hệt doanh nghiệp thật, hình ảnh được sao chép từ các khu nghỉ dưỡng nổi tiếng, thậm chí cả những phản hồi tích cực của khách hàng cũng được tạo dựng một cách bài bản.\n\n### ❹ Phiếu xác nhận giả dạng file ảnh PNG\nNhiều công ty du lịch cho biết có tình trạng các đối tượng lừa đảo dùng chiêu thức lập fanpage giả mạo, tạo hoá đơn giả mạo. \"Phiếu xác nhận\" dạng ảnh PNG là tài liệu giả không có giá trị pháp lý.\n\n### ❺ Cắt đứt liên lạc và xóa website ngay sau khi nhận tiền\nĐể tạo niềm tin, nhiều đối tượng đã lập trang web giả mạo các công ty du lịch, lữ hành uy tín để bán tour với mức giá chênh lệch lớn so với thị trường. Nhưng ngay sau khi chuyển tiền thì các đối tượng này lập tức cắt đứt mọi liên hệ, các trang mạng xã hội cũng đóng luôn. — Đây chính xác là những gì đã xảy ra với Linh.\n\n---\n\n## ⚠️ Mức độ nghiêm trọng của vấn nạn này\n\nTheo Bộ Công an, hoạt động lừa đảo trực tuyến tại Việt Nam đã gây thiệt hại lên đến hơn 12.000 tỷ đồng trong năm 2024 cùng hơn 18.000 lượt phản ánh lừa đảo mỗi tháng. Linh không phải là trường hợp cá biệt — đây là vấn nạn đang xảy ra với hàng chục nghìn người.\n\n---\n\n## ✅ Linh cần làm ngay những bước sau\n\n### Bước 1: Liên hệ ngân hàng ngay lập tức\nNgay khi phát hiện dấu hiệu lừa đảo, cần liên hệ ngay tổng đài hoặc chi nhánh ngân hàng nơi thực hiện giao dịch để yêu cầu phong tỏa tạm thời tài khoản thụ hưởng (nếu còn khả năng). Đồng thời, chuẩn bị bằng chứng giao dịch và nộp đơn trình báo tại cơ quan công an để được phối hợp xử lý.\n\nNgân hàng có thể hỗ trợ bằng cách liên hệ với ngân hàng người nhận để tạm khóa tài khoản nghi vấn hoặc cung cấp thông tin giao dịch cần thiết cho cơ quan công an.\n\n### Bước 2: Thu thập và giữ nguyên mọi bằng chứng\nViệc lưu giữ tin nhắn, chứng từ chuyển khoản, số điện thoại, tài khoản ngân hàng của đối tượng sẽ giúp lực lượng công an có thêm căn cứ phục vụ công tác điều tra, truy vết dòng tiền và xử lý vi phạm.\n\n\u003e 📌 **Lưu lại:** ảnh chụp website (nếu còn cache), số tài khoản 0821456789, số điện thoại 0917 345 678, ảnh phiếu xác nhận PNG, và biên lai chuyển khoản.\n\n### Bước 3: Trình báo công an\nKhi bị lừa chuyển khoản, cần đến trụ sở công an địa phương để trình báo về hành vi lừa đảo chiếm đoạt tài sản trên không gian mạng. Tại đây, các cán bộ công an địa phương sẽ hướng dẫn điền hồ sơ và làm thủ tục trình báo.\n\nNgoài ra, có thể liên hệ đường dây nóng của Cục Cảnh sát Hình sự – Bộ Công an theo số **0692 345 860** để được tư vấn và hướng dẫn.\n\nKhông có quy định về mức tiền tối thiểu để trình báo công an về lừa đảo. Dù số tiền bị lừa là bao nhiêu, người dân đều có quyền trình báo.\n\n### Bước 4: Tuyệt đối KHÔNG làm những điều này\nNhiều đối tượng lợi dụng tâm lý nạn nhân để quảng cáo \"dịch vụ lấy lại tiền bị lừa\", \"xử lý tài khoản treo\", \"hỗ trợ tra soát nhanh\"… qua Facebook, Zalo hoặc các website giả mạo. Các cơ quan chức năng khẳng định: chỉ có ngân hàng và công an mới có thẩm quyền phối hợp xử lý giao dịch lừa đảo. Người bị hại tuyệt đối không nên chuyển thêm tiền cho bên thứ ba để \"mở khóa\" hoặc \"lấy lại tiền\", tránh \"mất tiền lần hai\".\n\n---\n\n## 📚 Bài học để phòng tránh trong tương lai\n\nBộ Công an và Cục An toàn thông tin khuyến cáo, người dân cần đặc biệt thận trọng khi tiếp cận các quảng cáo tour giá rẻ, combo nghỉ dưỡng \"ưu đãi sốc\" trên mạng xã hội. Trước khi đặt dịch vụ, nên kiểm tra kỹ thông tin từ nhiều nguồn khác nhau như website chính thức, tổng đài hỗ trợ của khách sạn, hãng hàng không hoặc các ứng dụng uy tín (Booking, Traveloka…).\n\n---\n\n\u003e 💬 **Tóm lại:** Linh đã bị lừa theo đúng kịch bản lừa đảo tour du lịch điển hình. Dù số tiền mất không quá lớn, hãy khuyến khích Linh mạnh dạn trình báo để giúp cơ quan chức năng ngăn chặn các đối tượng tiếp tục lừa đảo người khác.",
+  "sources": [
+    "https://nhandan.vn/canh-bao-cac-chieu-tro-lua-dao-moi-mua-du-lich-cao-diem-post903259.html",
+    "https://baochinhphu.vn/nhan-biet-thu-doan-lua-dao-dat-tour-du-lich-gia-re-102230711151650138.htm",
+    "https://www.luavietours.com/tin-tuc/cac-thu-doan-lua-dao-khi-dat-tour-du-lich-online/",
+    "https://hanoimoi.vn/nhan-dien-thu-doan-lua-dao-mua-du-lich-bai-cuoi-dung-la-chan-bao-ve-du-khach-tren-khong-gian-mang-1159480.html",
+    "https://www.vietnamplus.vn/cuc-du-lich-quoc-gia-canh-bao-viec-xu-ly-lua-dao-tren-khong-gian-mang-post1011964.vnp",
+    "https://hatinh.gov.vn/vi/bai-viet/can-trong-chieu-tro-lua-dao-tour-du-lich-tet",
+    "https://tuoitre.vn/lua-dao-du-lich-tren-mang-cuc-du-lich-quoc-gia-viet-nam-len-tieng-20250218111554774.htm",
+    "https://nhandan.vn/bi-lua-ca-tram-trieu-dong-vi-sap-bay-danh-gia-dich-vu-du-lich-post867044.html",
+    "https://nld.com.vn/canh-bao-chieu-tro-lua-dao-dat-tour-ve-may-bay-khach-san-dip-tet-196250111122420925.htm",
+    "https://tuoitre.vn/pha-duong-day-lua-dao-mua-tour-du-lich-dat-phong-khach-san-khu-du-lich-vip-20231012090830312.htm",
+    "https://www.seabank.com.vn/tin-tuc/tu-van-dich-vu/tu-van--meo/cach-lay-lai-tien-da-chuyen-khoan-khi-bi-lua-huong-dan-chi-tiet-va-day-du",
+    "https://www.aia.com.vn/vi/song-khoe/loi-khuyen/tai-chinh/cach-lay-lai-tien-da-chuyen-khoan-khi-bi-lua.html",
+    "https://www.vpbank.com.vn/bi-kip-va-chia-se/retail-story-and-tips/account/lua-dao-chuyen-khoan-nham",
+    "https://techcombank.com/thong-tin/blog/cach-lay-lai-tien-da-chuyen-khoan-khi-bi-lua",
+    "https://ghn.vn/blogs/tip-ban-hang/cach-lay-lai-tien-da-chuyen-khoan-khi-bi-lua",
+    "https://consumer.ftc.gov/system/files/consumer_ftc_gov/pdf/What%20to%20do%20if%20you%20were%20scammed_VI.pdf",
+    "https://acb.com.vn/thu-vien/cac-dau-hieu-lua-dao-chuyen-tien-va-cach-xu-ly-thong-minh",
+    "https://vov.gov.vn/cach-nao-de-lay-lai-tien-bi-lua-chuyen-khoan-dtnew-759190",
+    "https://cafef.vn/cach-lay-lai-tien-da-chuyen-khoan-khi-bi-lua-dung-quy-dinh-phap-luat-18825101912212633.chn",
+    "https://vhtt.ninhbinh.gov.vn/vi/tuyen-truyen-nang-cao-nhan-thuc-an-toan-thong-tin/lam-gi-khi-lo-chuyen-tien-cho-ke-lua-dao-quy-trinh-bao-an-tai-co-quan-cong-an-1866.html"
+  ],
+  "latency_ms": 78835
+}

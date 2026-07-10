@@ -1,0 +1,31 @@
+{
+  "case_id": "scam-ecommerce_scam-08",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Trang web giả mạo công ty du lịch uy tín với giao diện chuyên nghiệp nhưng không có thông tin pháp lý rõ ràng",
+      "Giá tour rẻ bất thường, giảm 30% so với thị trường (gói 2.990.000 đồng thay vì ~4-5 triệu)",
+      "Yêu cầu thanh toán đặt cọc 50% vào tài khoản cá nhân (0821456789 - Trần Văn Hùng) thay vì tài khoản công ty chính thức",
+      "Cấp \"phiếu xác nhận\" dưới dạng file ảnh PNG (không phải biên lai, hóa đơn có con dấu chính thức)",
+      "Số điện thoại liên hệ bị \"vô hiệu\" sau 3 ngày, trang web bị xóa ngay sau khi nhận tiền",
+      "Cắt đứt liên lạc hoàn toàn sau khi nhận tiền cọc — dấu hiệu điển hình của lừa đảo"
+    ],
+    "matched_patterns": [
+      "Giả mạo website khách sạn, tour du lịch để lừa đặt cọc trực tuyến",
+      "Giả mạo fanpage khách sạn, tour du lịch để lừa đặt cọc",
+      "Lừa đảo du lịch trực tuyến mùa cao điểm: giả mạo biên lai, tour giá rẻ",
+      "Giả mạo đại lý tour, vé máy bay qua fanpage, website lừa đảo trong mùa du lịch cao điểm"
+    ],
+    "recommended_actions": [
+      "Nên kiểm tra kỹ tên công ty du lịch trên website chính thức (kiểm tra giấy phép kinh doanh, địa chỉ pháp lý) trước khi tin tưởng",
+      "Không chuyển tiền đặt cọc vào tài khoản cá nhân; chỉ thanh toán qua tài khoản công ty chính thức hoặc nền tảng trung gian uy tín (Booking, Agoda, v.v.) có bảo hiểm",
+      "Gọi trực tiếp số điện thoại công ty du lịch để xác minh mức giá trước khi đặt cọc",
+      "Cảnh giác với các giá tour rẻ bất thường (dưới 30% so với thị trường), đặc biệt vào dịp cao điểm",
+      "Yêu cầu xác nhận thông qua website chính thức hoặc biên lai/hóa đơn có con dấu công ty, không chỉ ảnh PNG",
+      "Nếu phát hiện tài khoản liên lạc bất thường hoặc trang web bị xóa, báo cáo ngay cho cơ quan chức năng (Công an địa phương, ngân hàng phát hành)"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 10513
+}

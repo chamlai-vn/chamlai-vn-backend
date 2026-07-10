@@ -1,0 +1,37 @@
+{
+  "case_id": "scam-fake_job-03",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận rõ ràng, mức độ rủi ro 'red' đúng bản chất fake job",
+      "Nêu đầy đủ các dấu hiệu cảnh báo: lương cao bất thường, app lạ, công ty không rõ, kênh liên lạc không chính thức",
+      "Khuyến nghị cụ thể và thực tế: xác minh công ty, không cài app, không chuyển tiền, không cung cấp OTP/CCCD",
+      "Chỉ rõ dấu hiệu nạp tiền dưới bất kỳ hình thức nào là lừa đảo — khớp key fact về mất tiền",
+      "Trình bày ngắn gọn, có cấu trúc, dễ theo dõi"
+    ],
+    "weaknesses": [
+      "Không nhấn mạnh rõ nguy cơ app GoldJob cài phần mềm độc hại/chiếm quyền điều khiển điện thoại (chỉ nói chung chung về việc cài app)",
+      "Không giải thích cơ chế 'câu nhử hoa hồng nhỏ trước rồi chiếm đoạt tiền lớn' để người dùng hiểu sâu"
+    ],
+    "reasoning": "Câu trả lời A bao phủ tốt cả 4 ý chính: nhận diện fake job, cảnh giác app lạ, công ty không rõ liên lạc qua kênh không chính thức, và cảnh báo mất tiền. Lời khuyên cụ thể, khả thi. Tuy nhiên thiếu chiều sâu giải thích cơ chế lừa đảo và không nhấn mạnh rõ nguy cơ mã độc từ app.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Bao phủ toàn diện tất cả 4 ý chính và mở rộng thêm",
+      "Giải thích rõ nguy cơ app GoldJob chứa mã độc, chiếm quyền điều khiển điện thoại và tài khoản ngân hàng — khớp key fact quan trọng",
+      "Mô tả chi tiết cơ chế lừa đảo: câu nhử hoa hồng nhỏ trước rồi chiếm đoạt tiền lớn, giúp người đọc hiểu sâu",
+      "Bảng hành động rõ ràng, dễ thực hiện, gồm cả trình báo công an",
+      "Nhấn mạnh yếu tố tâm lý và đối tượng dễ bị nhắm tới, tăng tính cảnh giác",
+      "Câu ghi nhớ đúc kết cô đọng, hữu ích"
+    ],
+    "weaknesses": [
+      "Tuyên bố 'khớp 100%' và viện dẫn 'tìm kiếm từ cơ quan công an' có thể là khẳng định quá mức/không kiểm chứng được",
+      "Hơi dài dòng, nhiều emoji và định dạng có thể gây rối cho một số người dùng",
+      "Một số đoạn mang tính mô tả chung của kịch bản lừa đảo hơn là phân tích trực tiếp tình huống cụ thể"
+    ],
+    "reasoning": "Câu trả lời B bao phủ đầy đủ và sâu hơn tất cả các ý chính, đặc biệt làm rõ nguy cơ mã độc từ app và cơ chế câu nhử tiền — điều A còn thiếu. Lời khuyên hành động cụ thể và toàn diện. Điểm trừ là hơi dài và có khẳng định quá mức ('100%', viện dẫn nguồn không kiểm chứng), nhưng về chất lượng giải thích và lời khuyên thì nhỉnh hơn.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

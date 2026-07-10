@@ -1,0 +1,57 @@
+{
+  "case_id": "scam-fake_job-10",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Tiếp cận tuyển dụng qua Zalo bằng hình thức nhắn tin, không gọi video",
+      "Yêu cầu tải ứng dụng lạ không rõ nguồn gốc (ShopWork Pro)",
+      "Yêu cầu tham gia nhóm Telegram",
+      "Yêu cầu nộp 'phí đăng ký thành viên' / tiền đặt cọc 890.000 đồng trước khi làm việc",
+      "Mô tả công việc kiểu 'việc nhẹ lương cao': không cần kinh nghiệm, chỉ cần điện thoại, thời gian linh động, thu nhập cao",
+      "Công việc mua hàng làm nhiệm vụ để nhận hoa hồng",
+      "Không có hợp đồng pháp lý, chỉ trao đổi qua tin nhắn mạng xã hội",
+      "Nhóm chat có nhiều thành viên tạo cảm giác uy tín giả tạo"
+    ],
+    "matched_patterns": [
+      "Lừa đảo tuyển cộng tác viên chốt đơn hàng online",
+      "Lừa đảo tuyển dụng qua mạng xã hội (Zalo/Telegram) yêu cầu nộp tiền trước",
+      "Lừa đảo việc nhẹ lương cao"
+    ],
+    "recommended_actions": [
+      "Tuyệt đối không chuyển tiền đặt cọc, phí tham gia hoặc thực hiện bất kỳ giao dịch tài chính nào theo yêu cầu",
+      "Không cung cấp thông tin cá nhân, thông tin tài khoản ngân hàng, mã OTP cho bất kỳ ai",
+      "Không truy cập các đường dẫn lạ hoặc cài đặt thêm ứng dụng không rõ nguồn gốc",
+      "Xóa app 'ShopWork Pro' ngay lập tức vì có thể chứa mã độc hoặc đánh cắp thông tin",
+      "Chụp màn hình lưu lại toàn bộ tin nhắn, tài liệu, chứng từ liên quan làm bằng chứng",
+      "Trình báo cơ quan công an gần nhất để được hỗ trợ và xử lý kịp thời",
+      "Cảnh báo người thân và bạn bè về thủ đoạn lừa đảo này",
+      "Liên hệ đường dây nóng tội phạm mạng: 113 hoặc Cục An toàn thông tin tại https://khonggianmang.vn"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 KẾT LUẬN: ĐÂY LÀ LỪA ĐẢO 100% — Em Tuấn đã đúng khi KHÔNG chuyển tiền!\n\nTình huống mà em Tuấn gặp phải là **một chiêu lừa đảo điển hình và rất phổ biến tại Việt Nam**, đã được cơ quan công an và các tổ chức chính thức cảnh báo nhiều lần. Dưới đây là phân tích chi tiết:\n\n---\n\n## 🔍 TẠI SAO KHẲNG ĐỊNH ĐÂY LÀ LỪA ĐẢO?\n\n### 1. Đúng kịch bản lừa đảo đã được công an cảnh báo\n\nHành vi lừa đảo qua Telegram được thực hiện theo trình tự: **tuyển dụng qua Zalo bằng hình thức nhắn tin → yêu cầu tải ứng dụng Telegram → yêu cầu nộp tiền trước → mua hàng làm nhiệm vụ.**\n\nĐây chính xác là những gì đã xảy ra với em Tuấn: tiếp cận qua Zalo → tải app lạ (ShopWork Pro) → tham gia nhóm Telegram → nộp \"phí đăng ký\" 890.000 đồng.\n\nMột công thức chung được các nạn nhân rút ra: **\"không gọi video + tuyển dụng qua Zalo + tải app Telegram + bắt nộp tiền trước + mua hàng làm nhiệm vụ = lừa đảo\".**\n\n### 2. Dấu hiệu nhận biết \"việc nhẹ lương cao\" giả mạo\n\nMột trong những hình thức phổ biến hiện nay là **lừa đảo tuyển cộng tác viên chốt đơn hàng** để lấy \"tiền hoa hồng\". Các đối tượng đã sử dụng mạng xã hội để lừa đảo chiếm đoạt tài sản bằng thủ đoạn này ngày càng gia tăng, gây thiệt hại cho nhiều người.\n\nYêu cầu công việc được mô tả rất đơn giản: **không cần kinh nghiệm, chỉ cần có điện thoại**, thời gian làm việc linh động, chỉ cần rảnh từ 1–2 giờ mỗi ngày, làm bất cứ nơi đâu và thu nhập cao. Đây là những lời mời bẫy kinh điển.\n\n### 3. \"Phí đăng ký thành viên\" = dấu hiệu lừa đảo rõ ràng nhất\n\nMột nạn nhân đã chia sẻ: họ yêu cầu nộp khoảng 800.000 đồng vào tài khoản để \"đặt cọc\". Sau khi nạp xong thì bị chặn tin nhắn, không thể liên lạc nữa. **\"Công việc chưa thấy mà tiền đã mất rồi.\"**\n\nCần lưu ý rằng **không bao giờ có công việc gắn mác \"việc nhẹ lương cao\" hợp pháp**. Do đó, luôn đặt nghi vấn khi có người đăng tuyển công việc nhẹ lương cao hoặc công việc đòi hỏi phải đặt cọc hoặc mất một khoản phí nhất định.\n\n### 4. App lạ và nhóm Telegram là công cụ kiểm soát nạn nhân\n\nHầu hết các nạn nhân bị lừa đảo tuyển dụng đều **bị yêu cầu tải app Telegram**. Trong app, nhóm nhân viên \"rởm\" sẽ thay nhau dẫn dắt người lao động nạp tiền để làm \"các bước nhiệm vụ\" mà thực tế là nạp tiền vào nhưng không thể lấy lại được.\n\nCác đối tượng tạo các nhóm chat trên Zalo, Telegram để lôi kéo nhiều người cùng tham gia, **tạo cảm giác uy tín nhưng thực chất là chiêu trò** để tăng niềm tin. Công việc không có mô tả rõ ràng, không có hợp đồng pháp lý, chỉ trao đổi qua tin nhắn mạng xã hội.\n\n### 5. Kịch bản tiếp theo nếu em Tuấn đã chuyển tiền\n\nTheo thời gian, số lượng đơn hàng và tiền cọc tăng lên, \"công ty\" đưa ra nhiều lý do trì hoãn việc thanh toán, đồng thời thúc ép nạn nhân tiếp tục chuyển thêm tiền với nhiều lý do như **nâng cấp hội viên, đóng tiền thuế thu nhập cá nhân**… Đến khi nạn nhân \"tỉnh ngộ\", đối tượng ngắt liên lạc, chặn truy cập và biến mất.\n\n---\n\n## ✅ EM TUẤN CẦN LÀM GÌ NGAY BÂY GIỜ?\n\n### Bước 1: KHÔNG làm theo bất kỳ yêu cầu nào thêm\nTuyệt đối **không chuyển tiền đặt cọc, phí tham gia** hoặc thực hiện các giao dịch tài chính theo yêu cầu của người lạ trên mạng; không cung cấp thông tin cá nhân, thông tin tài khoản ngân hàng, mã OTP cho bất kỳ ai. Đồng thời, không truy cập các đường dẫn lạ hoặc cài đặt các ứng dụng không rõ nguồn gốc.\n\n### Bước 2: Xóa app \"ShopWork Pro\" ngay lập tức\nApp lạ không rõ nguồn gốc có thể chứa mã độc, đánh cắp thông tin hoặc chiếm quyền điều khiển điện thoại.\n\n### Bước 3: Chụp màn hình lưu bằng chứng và trình báo công an\nKhi phát hiện dấu hiệu nghi vấn hoặc trở thành nạn nhân, người dân cần **nhanh chóng lưu giữ tin nhắn, tài liệu, chứng từ giao dịch liên quan** và trình báo cơ quan công an gần nhất để được hỗ trợ, xử lý kịp thời.\n\nTrường hợp nghi ngờ có dấu hiệu bị lừa đảo, người dân cần **đến cơ quan công an nơi gần nhất** để trình báo và được hướng dẫn, xử lý kịp thời.\n\n### Bước 4: Cảnh báo người thân, bạn bè\nCông an thành phố Hà Nội đề nghị người dân **cảnh giác và tuyên truyền đến người thân, bạn bè** về thủ đoạn lừa đảo làm cộng tác viên chốt đơn hàng online, tránh mắc bẫy của đối tượng xấu.\n\n---\n\n## 📞 Đường dây hỗ trợ\n- **Cơ quan công an địa phương** (gần nhất)\n- **Đường dây nóng tội phạm mạng: 113**\n- **Cục An toàn thông tin – Bộ TT\u0026TT**: [https://khonggianmang.vn](https://khonggianmang.vn)\n\n---\n\n\u003e 💪 **Em Tuấn đã làm rất đúng khi hỏi bạn bè và nghi ngờ trước khi chuyển tiền!** Hãy chia sẻ thông tin này rộng rãi để bảo vệ thêm nhiều người khác khỏi bẫy lừa này.",
+  "sources": [
+    "https://canhsatquanlyhanhchinh.gov.vn/phong-chong-toi-pham/canh-giac-thu-doan-lua-dao-tuyen-cong-tac-vien-lam-online-viec-nhe-luong-cao-2681",
+    "https://conganthanhhoa.gov.vn/tin-tuc-su-kien/tin-an-ninh-trat-tu/canh-giac-voi-thu-doan-lua-chot-don-hang-kiem-tien-online-.html",
+    "https://congan.longan.gov.vn/vi/chi-tiet-tin-tuc?Id=133438",
+    "https://chinhsachcuocsong.vnanet.vn/lua-dao-lam-cong-tac-vien-chot-don-hang-online/57596.html",
+    "https://congan.hatinh.gov.vn/bai-viet/lua-dao-tuyen-dung-cong-tac-vien-ban-hang-online_1705456982.caht",
+    "https://luatvietnam.vn/linh-vuc-khac/lua-dao-chot-don-ao-883-90912-article.html",
+    "https://www.vietnamplus.vn/canh-bao-thu-doan-lua-dao-lam-cong-tac-vien-chot-don-hang-online-post1021445.vnp",
+    "https://thanhnien.vn/mo-mang-la-gap-bay-lua-mat-tien-vi-chot-don-hang-tai-nha-185240508174947214.htm",
+    "https://lsvn.vn/tiep-tuc-canh-giac-thu-doan-lua-dao-cong-tac-vien-chot-don-hang-online-a156328.html",
+    "https://baovinhlong.com.vn/phap-luat/202409/canh-giac-thu-doan-lua-dao-tuyen-cong-tac-vien-online-da56a10/",
+    "https://tttt.ninhbinh.gov.vn/cong-nghe-thong-tin/canh-giac-voi-thu-doan-lua-dao-tuyen-cong-tac-vien-cho-san-thuong-mai-dien-tu-2476.html",
+    "https://tuoitre.vn/bay-tuyen-dung-online-lua-dao-nguoi-tim-viec-ky-2-chieu-tro-lua-dao-tren-telegram-2023083010523942.htm",
+    "https://kenh14.vn/canh-bao-nguoi-dan-tuyet-doi-khong-tham-gia-group-zalo-telegram-messenger-voi-noi-dung-nay-215260608111310819.chn",
+    "https://nguoiquansat.vn/thay-loi-moi-vao-nhom-zalo-va-telegram-co-noi-dung-nay-nguoi-dan-tuyet-doi-phai-ne-xa-keo-mat-trang-tien-296873.html",
+    "https://traderviet.tv/t/nguoi-dan-tuyet-doi-khong-tham-gia-group-zalo-telegram-messenger-voi-noi-dung-nay.115619/",
+    "https://ngoisao.vn/theo-dong-su-kien/tin-nong-trong-ngay/canh-bao-nguoi-dan-tuyet-doi-khong-tham-gia-nhom-group-nhu-zalo-telegram-messenger-voi-noi-dung-nay-d486225.html",
+    "https://dantri.com.vn/cong-nghe/thu-doan-lua-dao-gia-mao-tuyen-nguoi-mau-dien-vien-tren-mang-xa-hoi-20260608122849281.htm",
+    "https://luatanhngoc.vn/4902/lua-dao-qua-telegram-lam-nhiem-vu-bi-xu-ly-nhu-the-nao",
+    "https://dx.gov.vn/lua-dao-tuyen-cong-tac-vien-online-tien-loi-cao-bao-nguoi-sap-bay-1666065688293.htm",
+    "https://bidv.com.vn/bidv/ca-nhan/thong-bao/thay-doi-mang-luoi/canh-bao-lua-dao-lam-nhiem-vu-online-nhan-hoa-hong"
+  ],
+  "latency_ms": 72582
+}

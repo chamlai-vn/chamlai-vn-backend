@@ -1,0 +1,30 @@
+{
+  "case_id": "scam-tech_fraud-04",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Cuộc gọi video từ số điện thoại của người bạn nhưng khuôn mặt trông lạ",
+      "Yêu cầu chuyển tiền gấp (15 triệu đồng) cho lý do cấp bách (bị mắc kẹt ở sân bay, phí phạt)",
+      "Gương mặt trong video không khớp với người gửi",
+      "Video bị lag/mất kết nối khi được hỏi các chi tiết cá nhân",
+      "Chiếm đoạt tài sản bằng công nghệ deepfake mạo danh người thân",
+      "Khi xác minh lại qua cuộc gọi thông thường, người bạn phủ nhận"
+    ],
+    "matched_patterns": [
+      "Deepfake lừa đảo mạo danh người thân qua video call",
+      "Deepfake giả mạo hình ảnh, giọng nói, video để lừa chuyển khoản",
+      "Deepfake giả mạo để lừa đảo tiền qua video call"
+    ],
+    "recommended_actions": [
+      "Cúp máy ngay lập tức khi nhận cuộc gọi video yêu cầu chuyển tiền, rồi gọi lại trực tiếp đến số điện thoại người bạn bằng ứng dụng gọi thông thường",
+      "Thiết lập 'mật mã gia đình' với những người thân — một từ hoặc cụm từ bí mật mà chỉ các thành viên gia đình biết, và yêu cầu xác nhận từ này trước khi thực hiện bất kỳ giao dịch tiền",
+      "Hỏi những câu hỏi cá nhân chi tiết mà chỉ người thật mới biết câu trả lời (ví dụ về sự kiện quá khứ chung, tên thú cưng, bí mật gia đình)",
+      "Bảo mật tài khoản mạng xã hội bằng xác thực hai yếu tố (2FA) để tránh bị hack và chiếm quyền",
+      "Không chia sẻ quá nhiều video cá nhân rõ mặt hoặc hình ảnh công khai trên mạng xã hội, vì chúng có thể bị lợi dụng để tạo deepfake",
+      "Báo cáo sự việc cho cơ quan công an địa phương hoặc Cục An ninh mạng để hỗ trợ điều tra"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 8497
+}

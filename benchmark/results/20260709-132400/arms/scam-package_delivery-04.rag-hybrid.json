@@ -1,0 +1,31 @@
+{
+  "case_id": "scam-package_delivery-04",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Cuộc gọi từ số lạ xưng danh nhân viên công ty giao hàng",
+      "Yêu cầu chuyển khoản phí trước khi nhận hàng thực tế",
+      "Sử dụng chi tiết cá nhân (tên đầy đủ, chi tiết đơn hàng) để tạo lòng tin",
+      "Áp dụng áp lực thời gian (nói hàng sẽ bị gửi trả lại nếu không thanh toán ngay)",
+      "Hướng dẫn cài ứng dụng nghi ngờ có cùng tên với ứng dụng chính thức",
+      "Yêu cầu quét mã QR để \"xác thực tài khoản ngân hàng\" (công cụ đánh cắp thông tin)",
+      "Ứng dụng giả mạo được thiết kế để đánh cắp thông tin ngân hàng"
+    ],
+    "matched_patterns": [
+      "Giả danh shipper yêu cầu chuyển khoản trước, gửi link độc hại",
+      "Giả danh shipper/bưu điện, dụ dỗ cài ứng dụng lạ để chiếm quyền truy cập tài khoản ngân hàng",
+      "Giả mạo shipper nắm chi tiết đơn hàng, dụ dỗ chuyển tiền rồi hướng dẫn cài app lạ đánh cắp tài khoản ngân hàng"
+    ],
+    "recommended_actions": [
+      "Không bao giờ chuyển khoản cho bất kỳ ai tự xưng shipper qua điện thoại, dù số tiền nhỏ",
+      "Luôn xác minh đơn hàng trực tiếp qua ứng dụng chính thức hoặc website của công ty vận chuyển, không tin lời nói qua điện thoại",
+      "Chỉ thanh toán khi gặp mặt shipper thật (COD) hoặc qua ứng dụng giao hàng chính thức",
+      "Tuyệt đối không tải ứng dụng từ đường link được gửi qua tin nhắn hoặc nhận được từ cuộc gọi",
+      "Nếu nghi ngờ, hãy tra cứu số điện thoại chính thức của công ty giao hàng từ website hoặc app và gọi lại để xác minh",
+      "Báo ngay cho Công an địa phương hoặc Cục Cảnh sát hình sự nếu đã cung cấp hoặc sắp cung cấp thông tin ngân hàng cho đối tượng lạ"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 8852
+}

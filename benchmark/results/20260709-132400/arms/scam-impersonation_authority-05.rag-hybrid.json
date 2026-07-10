@@ -1,0 +1,29 @@
+{
+  "case_id": "scam-impersonation_authority-05",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Giả danh cơ quan tư pháp (Phòng Cảnh sát kinh tế) qua tin nhắn từ số điện thoại di động",
+      "Yêu cầu cung cấp mã OTP - dấu hiệu lừa đảo cơ bản",
+      "Yêu cầu xác minh danh tính trên ứng dụng - có thể là link giả mạo hoặc ứng dụng giả",
+      "Tạo sự lo lắng bằng thông báo 'giao dịch bất thường' để thúc giục",
+      "Số điện thoại bắt đầu +84 (nước ngoài) - đặc điểm của cuộc gọi spoofing",
+      "Cơ quan chính thức không yêu cầu xác minh qua tin nhắn hay cung cấp OTP"
+    ],
+    "matched_patterns": [
+      "Giả danh cơ quan tư pháp, công an gọi điện đe dọa yêu cầu chuyển tiền 'xác minh tài khoản'",
+      "Giả danh cán bộ cơ quan tư pháp gọi điện thoại đe dọa để chiếm đoạt tài sản",
+      "Giả danh, mạo danh cơ quan tư pháp gọi điện yêu cầu chuyển tiền"
+    ],
+    "recommended_actions": [
+      "Tuyệt đối không cung cấp mã OTP hoặc thông tin cá nhân cho bất kỳ ai qua tin nhắn",
+      "Không cài đặt ứng dụng hoặc truy cập đường link từ tin nhắn này",
+      "Giữ bình tĩnh, hãy chủ động liên hệ với Công an địa phương qua số điện thoại chính thức để xác minh",
+      "Hỏi ý kiến người thân, bạn bè hoặc cơ quan tín dụng chính thức trước khi thực hiện bất kỳ hành động nào",
+      "Nhớ rằng cơ quan Công an không bao giờ làm việc qua tin nhắn, điện thoại di động hay yêu cầu OTP; họ sẽ gửi giấy mời chính thức"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 7819
+}

@@ -1,0 +1,55 @@
+{
+  "case_id": "scam-investment_fraud-06",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Hứa lợi nhuận phi thực tế 15–20%/tháng (180–240%/năm)",
+      "Các tài khoản ảo trong nhóm đăng ảnh 'chứng minh' lợi nhuận giả mạo (chiêu 'thổi giá')",
+      "Kịch bản 'cho thắng trước, cướp tiền sau': cho lãi nhỏ vài lần rồi khóa tài khoản và biến mất",
+      "Được giới thiệu qua 'người bạn cũ' — tài khoản có thể đã bị hack hoặc người bị lừa trước đang kéo người khác vào",
+      "Hoạt động Forex không có giấy phép hợp pháp tại Việt Nam",
+      "Sử dụng Telegram — nền tảng dễ ẩn danh và xóa dấu vết, là môi trường phổ biến của lừa đảo đầu tư"
+    ],
+    "matched_patterns": [
+      "Lừa đảo đầu tư tài chính qua Telegram",
+      "Mô hình cho thắng trước cướp tiền sau",
+      "Sàn Forex trái phép",
+      "Giả mạo bằng chứng lợi nhuận (thổi giá)",
+      "Lừa đảo mượn danh người quen"
+    ],
+    "recommended_actions": [
+      "Không chuyển bất kỳ khoản tiền nào, kể cả 'phí thử nghiệm' hay 'đặt cọc nhỏ'",
+      "Rời khỏi nhóm Telegram ngay lập tức",
+      "Cảnh báo và hỏi thẳng người bạn cũ đã giới thiệu xem họ có thực sự biết về nhóm này không",
+      "Báo cáo sự việc lên cơ quan công an nơi gần nhất và lưu lại toàn bộ bằng chứng (lịch sử trò chuyện, số điện thoại, tài khoản mạng xã hội, sao kê giao dịch)",
+      "Phản ánh tại trang Cục An toàn thông tin: https://attt.gov.vn",
+      "Dùng tính năng Report trong Telegram để tố cáo nhóm"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 ĐÂY LÀ LỪA ĐẢO — TUYỆT ĐỐI KHÔNG THAM GIA!\n\nTình huống bạn mô tả **trùng khớp 100% với các kịch bản lừa đảo đầu tư tài chính qua Telegram đang hoành hành tại Việt Nam**. Dưới đây là phân tích chi tiết:\n\n---\n\n## 🔍 Tại sao đây là lừa đảo?\n\n### 1. Hứa lợi nhuận phi thực tế (15–20%/tháng)\nBất kỳ lời mời chào đầu tư nào hứa hẹn lợi nhuận quá cao, nhanh chóng và dễ dàng đều tiềm ẩn nguy cơ lừa đảo. Không có kênh đầu tư hợp pháp nào trên thế giới có thể đảm bảo 15–20%/tháng (tức 180–240%/năm) một cách ổn định.\n\n### 2. Các \"nhà đầu tư\" trong nhóm đăng ảnh \"chứng minh\" lợi nhuận — đây là chiêu \"thổi giá\"\nCác đối tượng mời nạn nhân vào các nhóm đầu tư trên mạng xã hội (Facebook, Telegram, Zalo…), rồi quảng cáo sàn giao dịch với lời hứa lãi suất cao, thậm chí đưa ra các bằng chứng giả mạo về lợi nhuận từ các nhà đầu tư trước đó.\n\nCác tài khoản ảo thường xuyên đăng tin chuyển tiền thành công hoặc đã nhận được lãi suất từ sàn đầu tư sau khi làm theo hướng dẫn của các \"chuyên gia\". Đây là những tài khoản **do chính kẻ lừa đảo điều khiển**, không phải người thật.\n\n### 3. Kịch bản \"cho thắng trước, cướp tiền sau\" — kinh điển\nSau khi người dùng nạp tiền qua các ví điện tử/USDT để tham gia đầu tư, chúng sẽ cho nạn nhân vài lần \"lãi\" nhỏ, trước khi xóa toàn bộ nhóm và biến mất.\n\nKhi nạn nhân nạp nhiều tiền thì dùng nhiều lý do khóa tài khoản, không rút được tiền, yêu cầu chuyển thêm tiền để nộp thuế, chứng minh tài chính hoặc thậm chí cho \"sập\" sàn.\n\n### 4. Được giới thiệu qua \"người bạn cũ\" — chiêu mượn lòng tin\nĐây là thủ thuật rất phổ biến. Tài khoản \"người bạn cũ\" của bạn **có thể đã bị hack hoặc chính họ đã bị lừa trước và đang vô tình (hoặc cố ý vì hoa hồng) kéo người khác vào**.\n\n### 5. Forex tại Việt Nam không có giấy phép hợp pháp\nNgân hàng Nhà nước Việt Nam chưa cấp phép cho bất kỳ tổ chức, cá nhân nào kinh doanh hình thức sàn ngoại hối (Forex). Do đó, mọi hình thức tổ chức kinh doanh, giao dịch sàn Forex đều là phạm pháp và sẽ được xử lý theo quy định của pháp luật.\n\nTheo thống kê của Phòng an ninh mạng và phòng chống tội phạm sử dụng công nghệ cao Công an Hà Nội, thị trường Việt Nam hiện có khoảng 300 sàn giao dịch ngoại hối trái phép.\n\n### 6. Telegram là \"sào huyệt\" của loại lừa đảo này\nVới khả năng tạo nhóm chat lên đến hàng trăm nghìn thành viên, dễ dàng ẩn danh và xóa dấu vết, Telegram trở thành công cụ lý tưởng cho các đối tượng xấu. Hàng loạt chiêu trò lừa đảo đã được ghi nhận, từ lừa đảo đầu tư tài chính với lợi nhuận \"khủng\" (như các mô hình đầu tư tiền ảo, Forex trá hình).\n\n---\n\n## 📰 Nạn nhân thực tế đã mất bao nhiêu?\n\nMột nạn nhân đã nhiều lần chuyển tiền để đầu tư theo hướng dẫn với tổng số tiền hơn 600 triệu đồng. Đầu tháng 1-2025, khi làm thủ tục rút tiền thì thấy tài khoản bị khóa. Kiểm tra nhóm đầu tư trên Telegram, bà thấy nhóm không còn tồn tại.\n\nThiệt hại do lừa đảo trực tuyến gây ra trong năm 2024 ước tính lên tới 18.900 tỷ đồng.\n\n---\n\n## ✅ Bạn cần làm gì ngay bây giờ?\n\n| Hành động | Chi tiết |\n|-----------|----------|\n| 🚫 **Không chuyển bất kỳ đồng nào** | Dù là \"phí thử nghiệm\" hay \"đặt cọc nhỏ\" |\n| 🚪 **Rời khỏi nhóm ngay** | Đừng tiếp tục đọc, vì càng đọc càng dễ bị thuyết phục |\n| 🗣️ **Cảnh báo người bạn cũ** | Hỏi thẳng xem họ có thực sự biết về nhóm này không |\n| 📢 **Báo cáo lên cơ quan chức năng** | Trình báo Công an hoặc phản ánh tại **trang Cục An toàn thông tin** (https://attt.gov.vn) |\n| 📱 **Báo cáo nhóm** | Dùng tính năng Report trong Telegram để tố cáo nhóm |\n\nTrình báo ngay sự việc đến cơ quan công an nơi gần nhất để nhận được tư vấn hỗ trợ kịp thời. Người dùng cũng nên lưu lại tất cả thông tin như lịch sử trò chuyện, các số điện thoại, tài khoản mạng xã hội liên quan, sao kê giao dịch ngân hàng và cung cấp cho cơ quan công an khi trình báo.\n\n---\n\n\u003e 💡 **Nguyên tắc vàng:** Không có kênh đầu tư hợp pháp nào cần bạn **gấp rút nạp tiền**, **tham gia nhóm bí mật**, hay **cam kết lợi nhuận cố định**. Nếu thấy những dấu hiệu này — đó là bẫy.",
+  "sources": [
+    "https://locker.io/vi/blog/lua-dao-tren-telegram",
+    "https://cafef.vn/nhung-cu-lua-tien-ty-mat-trang-gia-san-tren-telegram-chi-sau-1-tin-nhan-la-cong-an-lien-tuc-dua-ra-khuyen-cao-188250524080108506.chn",
+    "https://tuoitre.vn/mat-600-trieu-vi-tin-vao-nhom-dau-tu-tren-telegram-20250111165155029.htm",
+    "https://dantri.com.vn/cong-nghe/telegram-vung-dat-mau-mo-cho-lua-dao-co-bac-va-mai-dam-tai-viet-nam-20250523155257808.htm",
+    "https://adpia.vn/vach-tran-cac-hinh-thuc-lua-dao-qua-telegram.html",
+    "https://congan.dongthap.gov.vn/en/chi-tiet-bai-viet/-/asset_publisher/wbj7qfWZntAi/content/id/19473257",
+    "https://thuonghieucongluan.com.vn/lat-tay-chieu-tro-lua-dao-dau-tu-san-ngoai-hoi-forex-dung-mang-tien-cho-ke-lua-dao-a168139.html",
+    "https://www.fastbull.com/vn/brokersview/news/ti%E1%BA%BFt-l%E1%BB%99-v%E1%BB%81-fxtm-global-online-trading-m%E1%BB%99t-nh%C3%B3m-%C4%91%E1%BA%A7u-t%C6%B0-l%E1%BB%ABa-%C4%91%E1%BA%A3o-tr%C3%AAn-telegram-233860",
+    "https://vietnamnet.vn/he-luy-don-dau-tu-dam-me-dau-tu-tren-cac-san-kinh-doanh-forex-trai-phep-2499771.html",
+    "https://thanhtra.com.vn/phap-luat/an-ninh-trat-tu/376-bi-hai-sap-bay-lua-dau-tu-tai-chinh-tren-nen-tang-telegram-227317.html",
+    "https://hatinh.gov.vn/vi/bai-viet/canh-giac-thu-doan-lua-dao-dau-tu-tai-chinh-qua-mang",
+    "https://congan.longan.gov.vn/vi/chi-tiet-tin-tuc?Id=133452",
+    "https://fpt.vn/tin-tuc/nhan-dien-cac-hinh-thuc-lua-dao-tai-chinh-online-de-bao-ve-tai-san-cua-ban-11653.html",
+    "https://congan.nghean.gov.vn/thong-tin-chuyen-de/canh-bao-toi-pham/202411/nhan-dien-10-hinh-thuc-lua-dao-pho-bien-tren-mang-1026858/index.htm",
+    "https://vneconomy.vn/4-dau-hieu-nhan-biet-lua-dao-dau-tu-tien-ao-da-cap-san-chung-khoan-ao.htm",
+    "https://congan.ninhbinh.gov.vn/dau-hieu-nhan-biet-va-bien-phap-phong-ngua-doi-voi-21-phuong-thuc-thu-doan-lua-dao-truc-tuyen-pho-bien-hien-nay",
+    "https://vcci.com.vn/news/canh-bao-nhung-chieu-tro-lua-dao-dau-tu-tai-chinh-dang-lan-rong",
+    "https://www.dnse.com.vn/hoc/nhan-dien-dau-hieu-lua-dao",
+    "https://baodautu.vn/no-ro-lua-dao-dau-tu-tai-chinh-truc-tuyen-d235038.html",
+    "https://dinre.mae.gov.vn/-an-toan-an-ninh-bao-mat/canh-bao-lua-dao-khi-tham-gia-san-dau-tu-tai-chinh-truc-tuyen-2725.htm"
+  ],
+  "latency_ms": 67540
+}

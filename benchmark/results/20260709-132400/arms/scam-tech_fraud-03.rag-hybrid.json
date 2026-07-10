@@ -1,0 +1,27 @@
+{
+  "case_id": "scam-tech_fraud-03",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Tải ứng dụng lạ từ link được gửi thay vì từ App Store/Google Play chính thức",
+      "Ứng dụng có tên giả mạo (\"Zalo Banking Pro\") không phải sản phẩm chính thức",
+      "Yêu cầu nhập mã OTP - dấu hiệu điển hình của lừa đảo chiếm quyền tài khoản",
+      "Yêu cầu nhập mật khẩu ngân hàng - thông tin cực kỳ nhạy cảm không nên chia sẻ"
+    ],
+    "matched_patterns": [
+      "Impersonation_authority - Mạo danh cơ quan/doanh nghiệp uy tín (giả danh Zalo) để dẫn dụ cài ứng dụng giả",
+      "Tech_fraud - Phát tán link độc hại dẫn dụ người dùng cài app giả mạo để chiếm quyền tài khoản"
+    ],
+    "recommended_actions": [
+      "Xóa ngay ứng dụng này khỏi điện thoại",
+      "Kiểm tra tài khoản ngân hàng, ví điện tử ngay lập tức để phát hiện giao dịch bất thường",
+      "Thay đổi ngay mật khẩu tài khoản ngân hàng từ thiết bị/máy tính khác đáng tin cây",
+      "Liên hệ ngay với ngân hàng để báo cáo sự cố và khóa tài khoản nếu có giao dịch lạ",
+      "Không bao giờ tải ứng dụng từ link trong tin nhắn/email - chỉ tải từ App Store hoặc Google Play chính thức",
+      "Tuyệt đối không chia sẻ mã OTP hoặc mật khẩu ngân hàng với ai"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 6825
+}

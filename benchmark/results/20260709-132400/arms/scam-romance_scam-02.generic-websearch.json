@@ -1,0 +1,28 @@
+{
+  "case_id": "scam-romance_scam-02",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Tạo áp lực cảm xúc + thời gian gấp (\"đang đau đớn\", \"nhanh lên được không\") để nạn nhân không kịp suy nghĩ hay kiểm chứng",
+      "\"Chuyển tiền sẽ chứng minh tình yêu\" — thao túng tâm lý kinh điển, người thật sự yêu không dùng tiền để đo tình cảm",
+      "Yêu cầu chuyển khoản qua Zalo cá nhân, không qua kênh thanh toán chính thức của bệnh viện",
+      "Lời hứa \"công ty chưa chuyển lương, sẽ trả lại ngay\" không có gì đảm bảo — chiêu trấn an nạn nhân thường thấy",
+      "Bối cảnh nước ngoài (Dubai) khiến nạn nhân khó xác minh trực tiếp — lý do kẻ lừa đảo hay chọn bối cảnh này",
+      "Nếu mối quan hệ chủ yếu diễn ra online, ít gặp trực tiếp — khớp mô hình \"pig butchering\"/lừa tình cảm online cổ điển"
+    ],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Tuyệt đối không chuyển tiền cho đến khi xác minh được 100%",
+      "Gọi điện thoại/video call trực tiếp qua số biết chắc là của họ từ trước — nếu né tránh gọi video/nghe máy là dấu hiệu rõ ràng của lừa đảo",
+      "Yêu cầu tên đầy đủ, số hồ sơ bệnh nhân, số điện thoại bệnh viện rồi tự tra cứu và gọi trực tiếp bệnh viện để xác minh (không qua số họ đưa)",
+      "Kiểm tra tài khoản mạng xã hội/Zalo của người này có dấu hiệu bị hack hoặc giả mạo không",
+      "Nếu đã từng chuyển tiền vì lời kêu gọi tương tự, dừng ngay và cân nhắc báo cáo công an hoặc tổng đài 156",
+      "Có thể báo cáo/chặn tài khoản nếu nghi ngờ giả mạo"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "**Đây gần như chắc chắn là lừa đảo.** Đây là một kịch bản rất phổ biến, thường gọi là \"lừa đảo tình cảm\" (romance scam) kết hợp \"tai nạn ở nước ngoài\" — cùng một mô-típ đã bị cảnh báo rất nhiều ở Việt Nam trong vài năm gần đây.\n\n## Vì sao nên nghi ngờ mạnh\n\n1. **Tình huống tạo áp lực cảm xúc + thời gian gấp** — \"đang đau đớn\", \"nhanh lên được không\", đánh vào tâm lý lo lắng để bạn không kịp suy nghĩ hay kiểm chứng. Đây là dấu hiệu kinh điển của lừa đảo.\n\n2. **\"Chuyển tiền sẽ chứng minh tình yêu\"** — đây là câu thao túng tâm lý (emotional manipulation) rất đặc trưng. Người thật sự yêu bạn sẽ không dùng tiền để đo lường tình cảm, đặc biệt trong lúc bạn đang hoảng loạn vì họ.\n\n3. **Yêu cầu chuyển khoản qua Zalo, không qua kênh chính thức của bệnh viện** — bệnh viện thật sẽ không bao giờ yêu cầu người thân bệnh nhân chuyển tiền đặt cọc qua tài khoản cá nhân gửi qua Zalo. Bệnh viện có hệ thống thanh toán chính thức, hóa đơn, và thường sẽ tạm ứng điều trị cấp cứu trước khi tính đến chuyện tiền bạc.\n\n4. **\"Công ty chưa chuyển lương\" / \"sẽ trả lại ngay\"** — lời hứa hoàn tiền không có gì đảm bảo, là chiêu trò rất thường thấy để khiến nạn nhân yên tâm.\n\n5. **Bối cảnh nước ngoài (Dubai)** khiến bạn khó xác minh thông tin (không biết bệnh viện đó có thật không, không thể gọi điện kiểm tra trực tiếp), đây chính là lý do kẻ lừa đảo chọn bối cảnh này.\n\n6. Nếu mối quan hệ này bắt đầu hoặc chủ yếu diễn ra online (quen qua mạng, ít gặp trực tiếp), khả năng lừa đảo càng cao — đây là mô hình cổ điển của **\"pig butchering\" / lừa tình cảm online**.\n\n## Bạn nên làm gì tiếp theo\n\n- **Tuyệt đối không chuyển tiền** cho đến khi xác minh được 100%.\n- **Gọi điện thoại trực tiếp** (không nhắn tin) cho người này qua số điện thoại/video call bạn biết chắc là của họ từ trước. Nếu họ né tránh gọi video, né tránh nghe máy — đó là dấu hiệu rõ ràng của lừa đảo.\n- Yêu cầu họ cung cấp **tên đầy đủ, số hồ sơ bệnh nhân, số điện thoại bệnh viện Al Zahra** — rồi bạn tự tra cứu và gọi trực tiếp đến bệnh viện (không qua số họ đưa) để xác minh có bệnh nhân đó không.\n- Kiểm tra xem tài khoản mạng xã hội/Zalo của người này có dấu hiệu bị hack hoặc giả mạo không (ảnh đại diện đổi gần đây, cách nói chuyện khác thường...).\n- Nếu bạn từng chuyển tiền vì lời kêu gọi tương tự trước đây, hãy dừng ngay và cân nhắc báo cáo với cơ quan công an (Phòng An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao) hoặc tổng đài 156 (tổng đài phòng chống lừa đảo qua mạng của Bộ Công an).\n- Có thể báo cáo/chặn tài khoản Zalo này nếu nghi ngờ là giả mạo.\n\nNếu bạn muốn, gửi tôi thêm chi tiết (cách hai người quen nhau, đã gặp trực tiếp chưa, có gọi video từng thấy mặt chưa) — tôi có thể giúp đánh giá kỹ hơn mức độ rủi ro.",
+  "sources": [],
+  "latency_ms": 0
+}

@@ -1,0 +1,29 @@
+{
+  "case_id": "scam-recovery_scam-07",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Không có cơ quan nào tên \"Tổng cục Cảnh sát quốc tế (INTERPOL Việt Nam)\" làm việc trực tiếp với dân qua tin nhắn/điện thoại kiểu này",
+      "Yêu cầu cài ứng dụng lạ để \"cấp quyền truy cập màn hình\" — dấu hiệu kinh điển của lừa đảo chiếm quyền điều khiển điện thoại (remote access scam)",
+      "Domain giả dạng dùng số 0 thay chữ \"o\" (remotesupp0rt365.com) — thủ đoạn typosquatting phổ biến",
+      "Yêu cầu chuyển \"phí hỗ trợ\" vào tài khoản cá nhân — không cơ quan/ngân hàng nào thu phí kiểu này",
+      "Tạo áp lực thời gian (\"khóa tài khoản vĩnh viễn\") để thúc ép hành động vội vàng",
+      "Dùng số điện thoại di động cá nhân làm \"hotline hỗ trợ\" — cơ quan/ngân hàng chính thống dùng đầu số tổng đài cố định"
+    ],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Không tải ứng dụng, không nhấn vào link, không gọi lại số hotline trong tin nhắn",
+      "Không cung cấp OTP, mật khẩu, số thẻ, hay cấp quyền điều khiển màn hình cho bất kỳ ai",
+      "Không chuyển bất kỳ khoản \"phí\" nào",
+      "Tự gọi vào số hotline chính thức in trên mặt sau thẻ ngân hàng hoặc trên app ngân hàng để xác minh nếu lo lắng",
+      "Chặn số điện thoại đã gửi tin nhắn",
+      "Trình báo qua kênh chính thức của Bộ Công an hoặc tổng đài phòng chống lừa đảo quốc gia, không dùng số trong tin nhắn đáng ngờ",
+      "Chia sẻ cảnh báo này cho người thân, đặc biệt người lớn tuổi, vì dạng lừa đảo này đang rất phổ biến"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "Đây **chắc chắn là lừa đảo**, độ tin cậy gần như 100%. Dưới đây là lý do và việc nên làm.\n\n## Vì sao đây là lừa đảo\n\n**1. Không có cơ quan nào tên \"Tổng cục Cảnh sát quốc tế (INTERPOL Việt Nam)\"**\nINTERPOL là tổ chức quốc tế, không có chi nhánh \"INTERPOL Việt Nam\" liên lạc trực tiếp với người dân qua tin nhắn/điện thoại về giao dịch ngân hàng cá nhân. Việt Nam có Văn phòng INTERPOL Việt Nam trực thuộc Bộ Công an, nhưng cơ quan này **không bao giờ** làm việc theo kiểu này với dân thường.\n\n**2. Yêu cầu cài ứng dụng lạ để \"cấp quyền truy cập màn hình\"**\nĐây là dấu hiệu kinh điển nhất của lừa đảo chiếm quyền điều khiển điện thoại (remote access scam). Domain \"remotesupp0rt365.com\" dùng số 0 thay chữ \"o\" để giả dạng tên miền thật — thủ đoạn typosquatting phổ biến. Một khi cài app này và cấp quyền, kẻ gian sẽ:\n- Xem toàn bộ màn hình, kể cả khi bạn nhập mật khẩu/OTP ngân hàng\n- Tự thao tác chuyển tiền từ tài khoản của bạn\n\n**3. Yêu cầu chuyển \"phí hỗ trợ\" vào tài khoản cá nhân**\nKhông cơ quan nhà nước hay ngân hàng nào thu \"phí lấy lại tiền bị mất\" qua chuyển khoản cá nhân. Đây là cách rút tiền trực tiếp từ nạn nhân.\n\n**4. Tạo áp lực thời gian (\"khóa tài khoản vĩnh viễn\")**\nKỹ thuật thao túng tâm lý kinh điển để bạn hành động vội vàng, không kịp suy nghĩ hay kiểm tra lại.\n\n**5. Số điện thoại di động cá nhân làm \"hotline hỗ trợ\"**\nCơ quan công an, ngân hàng chính thống dùng đầu số tổng đài cố định, không dùng số di động cá nhân để làm đường dây nóng chính thức.\n\n## Bạn nên làm gì\n\n1. **Không tải ứng dụng, không nhấn vào link, không gọi lại số hotline trong tin nhắn.**\n2. **Không cung cấp OTP, mật khẩu, số thẻ, hay cấp quyền điều khiển màn hình cho bất kỳ ai** qua điện thoại/tin nhắn.\n3. **Không chuyển bất kỳ khoản \"phí\" nào.**\n4. Nếu thực sự lo lắng về tài khoản, hãy **tự mình** gọi vào số hotline chính thức in trên mặt sau thẻ ngân hàng hoặc trên app ngân hàng để xác minh — không dùng số do người lạ cung cấp.\n5. **Chặn số điện thoại** đã gửi tin nhắn này.\n6. Nếu muốn trình báo, liên hệ trực tiếp qua kênh chính thức của Bộ Công an hoặc tổng đài phòng chống lừa đảo quốc gia, thay vì bất kỳ số nào có trong tin nhắn đáng ngờ.\n7. Có thể chia sẻ cảnh báo này cho người thân, đặc biệt người lớn tuổi — dạng lừa đảo \"cán bộ công an/interpol gọi báo tiền bị đánh cắp\" đang rất phổ biến ở Việt Nam hiện nay.\n\nNếu bạn muốn, gửi tôi số điện thoại hoặc tên tài khoản trong tin nhắn, tôi có thể tìm kiếm xem đã có báo cáo lừa đảo liên quan trước đó chưa.",
+  "sources": [],
+  "latency_ms": 0
+}

@@ -1,0 +1,29 @@
+{
+  "case_id": "scam-romance_scam-01",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "\"Nhà thầu xây dựng người Úc\" ở nước ngoài — nghề nghiệp kinh điển của kẻ lừa tình, luôn ở xa nên không gặp mặt được",
+      "Tấn công tình cảm dồn dập, nhanh chóng (love bombing) — chỉ 2 tuần đã nói chuyện tình cảm sâu và bàn chuyện tiền bạc",
+      "Không bao giờ gọi video, né tránh xác minh danh tính",
+      "Xin tiền với lý do tăng dần: chứng minh tình cảm, phí visa, bảo hiểm y tế — chuỗi lý do \"khẩn cấp\" kinh điển để rút tiền liên tục",
+      "Ảnh là ảnh lấy trộm từ Google (reverse image search xác nhận)",
+      "Số điện thoại là VOIP ảo — dùng để không bị truy vết",
+      "Biến mất ngay khi bị hỏi khó — hành vi \"cắt đứt\" điển hình khi con mồi bắt đầu nghi ngờ"
+    ],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Ngừng mọi liên lạc và không gửi thêm tiền, kể cả khi có tài khoản khác quay lại dụ dỗ hoặc hứa hoàn tiền",
+      "Thu thập và lưu lại toàn bộ bằng chứng trước khi mất quyền truy cập: tin nhắn, ảnh, số điện thoại, biên lai chuyển khoản, tên tài khoản nhận tiền",
+      "Trình báo công an càng sớm càng tốt — trực tiếp tại công an phường/quận, qua VNeID, hoặc đường dây nóng A05/C02",
+      "Liên hệ ngân hàng đã chuyển tiền để báo cáo và hỏi khả năng chặn/truy vết giao dịch",
+      "Không tự đi đối chất hay tìm cách lấy lại tiền một mình — để công an xử lý, tránh sập bẫy \"dịch vụ lấy lại tiền bị lừa\" (thường cũng là lừa đảo)",
+      "Hỗ trợ tâm lý: nhắc rằng đây không phải lỗi của nạn nhân, khuyến khích không giấu kín và tìm người tin cậy/chuyên gia tâm lý để chia sẻ"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## Đây gần như chắc chắn 100% là lừa đảo tình cảm (romance scam)\n\nRất tiếc phải nói điều này với bạn, nhưng câu chuyện của chị bạn khớp gần như hoàn hảo với kịch bản lừa đảo tình cảm phổ biến nhất hiện nay — loại mà Interpol gần đây gọi là \"romance baiting\" thay vì \"pig butchering\" để giảm sự xấu hổ cho nạn nhân và khuyến khích họ lên tiếng tố cáo.\n\n### Các dấu hiệu lừa đảo rõ ràng trong câu chuyện:\n\n1. **\"Nhà thầu xây dựng người Úc\" ở nước ngoài** – nghề nghiệp kinh điển của kẻ lừa tình: nghe hợp lý, có thu nhập, nhưng luôn \"đang ở công trình xa\" nên không gặp mặt được.\n2. **Tấn công tình cảm dồn dập, nhanh chóng** – chỉ 2 tuần đã nói chuyện tình cảm sâu đậm và bàn chuyện tiền bạc. Đây là kỹ thuật \"love bombing\" để tạo lòng tin nhanh trước khi nạn nhân kịp cảnh giác.\n3. **Không bao giờ gọi video, né tránh xác minh danh tính** – dấu hiệu cực kỳ đáng ngờ. Người thật, có tình cảm thật, sẽ không ngại gọi video.\n4. **Xin tiền với lý do \"tăng dần\"**: đầu tiên là \"chứng minh tình cảm\", sau đó \"phí visa\", \"bảo hiểm y tế\" — đây là chuỗi lý do kinh điển để rút tiền liên tục, mỗi lần một lý do \"khẩn cấp\" mới.\n5. **Ảnh là ảnh lấy trộm từ Google (reverse image search xác nhận)** – bằng chứng gần như không thể chối cãi.\n6. **Số điện thoại là VOIP ảo** – kẻ lừa đảo dùng số này để không bị truy vết.\n7. **Biến mất ngay khi bị hỏi khó** – hành vi \"cắt đứt\" điển hình khi con mồi bắt đầu nghi ngờ.\n\nKhông có chi tiết nào trong câu chuyện gợi ý đây là tình huống khác ngoài lừa đảo. Đây là mô hình đã được ghi nhận rất rộng rãi trên các ứng dụng hẹn hò như Bumble, Tinder, Facebook...\n\n### Chị bạn nên làm gì tiếp theo:\n\n**1. Ngừng mọi liên lạc và không gửi thêm tiền** — kể cả khi hắn (hoặc đồng bọn) quay lại dùng tài khoản khác để dụ dỗ tiếp hoặc hứa \"hoàn tiền\".\n\n**2. Thu thập và lưu lại toàn bộ bằng chứng** trước khi mất quyền truy cập: tin nhắn, ảnh, số điện thoại, biên lai chuyển khoản, tên tài khoản ngân hàng nhận tiền.\n\n**3. Trình báo công an càng sớm càng tốt** — thời gian trình báo trong 24 giờ đầu có tác động lớn đến khả năng thu hồi tài sản, nhưng dù đã hơn 24h vẫn nên trình báo:\n   - Có thể trình báo trực tiếp tại công an phường/quận nơi cư trú, hoặc qua ứng dụng **VNeID** (mục \"Kiến nghị, phản ánh về an ninh, trật tự\").\n   - Đường dây nóng Cục An ninh mạng và phòng chống tội phạm công nghệ cao (A05): **069.219.4053**\n   - Cục Cảnh sát hình sự (C02): 0692348560\n   - TP.HCM có thể gọi thêm: 08.3864.0508\n   - Gửi email tố giác tới Bộ Công an: tiepnhantogiactoipham@mps.gov.vn\n   - Trang cảnh báo an toàn thông tin: canhbao.ncsc.gov.vn\n\n**4. Liên hệ ngân hàng đã chuyển tiền** để báo cáo và hỏi khả năng chặn/truy vết giao dịch, dù khả năng lấy lại tiền không cao vì tiền chuyển quốc tế thường rút rất nhanh.\n\n**5. Đừng tự đi \"đối chất\" hay tìm cách lấy lại tiền một mình** — hãy để công an xử lý, tránh rủi ro pháp lý hoặc bị lừa thêm lần nữa qua các \"dịch vụ lấy lại tiền bị lừa\" (đây cũng thường là lừa đảo).\n\n### Về mặt tâm lý cho chị bạn\n\nĐiều quan trọng nhất bạn có thể nói với chị: **đây không phải lỗi của chị**. Những kẻ lừa đảo này chuyên nghiệp, có kịch bản được tinh chỉnh qua hàng nghìn nạn nhân, thậm chí nhiều khi hoạt động như một \"công ty\" lừa đảo có tổ chức. Cảm giác xấu hổ là phản ứng rất bình thường nhưng không nên khiến chị giấu kín chuyện này — im lặng chỉ giúp kẻ lừa đảo tiếp tục hại người khác. Nếu chị cảm thấy tổn thương tâm lý nặng nề, việc trò chuyện với chuyên gia tâm lý hoặc người thân tin cậy sẽ giúp ích rất nhiều trong quá trình hồi phục.",
+  "sources": [],
+  "latency_ms": 0
+}

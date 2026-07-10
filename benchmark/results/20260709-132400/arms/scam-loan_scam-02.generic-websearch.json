@@ -1,0 +1,51 @@
+{
+  "case_id": "scam-loan_scam-02",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Mạo danh công ty tài chính có uy tín: sử dụng tên 'VietCredit Pro' thay vì tên chính thức 'Công ty Tài chính Cổ phần Tín Việt (VietCredit)'",
+      "Yêu cầu chuyển 'phí xác minh' 890.000đ trước khi giải ngân — VietCredit thật khẳng định không thu bất kỳ khoản phí nào trước khi giải ngân",
+      "Tiếp cận qua Zalo với lời mời hấp dẫn: không cần thế chấp, lãi suất cực thấp 0,5%/năm",
+      "Nhắc đến ngân hàng 'TechBank' — tổ chức không tồn tại tại Việt Nam",
+      "Nếu chuyển tiền, kẻ lừa đảo sẽ tiếp tục yêu cầu thêm tiền với nhiều lý do khác nhau rồi biến mất"
+    ],
+    "matched_patterns": [
+      "Mạo danh công ty tài chính/ngân hàng uy tín",
+      "Yêu cầu chuyển phí xác minh/đặt cọc trước khi giải ngân",
+      "Tiếp cận qua mạng xã hội (Zalo) với ưu đãi vay vốn hấp dẫn",
+      "Mạo danh tổ chức tài chính không có thật"
+    ],
+    "recommended_actions": [
+      "Kiểm tra xem có lỡ cung cấp thông tin cá nhân (CCCD, số tài khoản ngân hàng...) không; nếu có, liên hệ ngân hàng ngay để cảnh báo",
+      "Tố giác với cơ quan công an nơi gần nhất, lưu giữ các bằng chứng liên quan (nội dung trao đổi, số tài khoản, số điện thoại, đường dẫn website, hình ảnh giao dịch)",
+      "Chia sẻ với người thân, bạn bè để họ không sập bẫy tương tự",
+      "Liên hệ đường dây nóng Phòng An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao: 069.219.4053"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## ✅ KẾT LUẬN: ĐÂY LÀ LỪA ĐẢO 100% — Và Em Đã Làm Đúng Khi Không Chuyển Tiền!\n\n---\n\n### 🚨 Tại sao đây chắc chắn là lừa đảo?\n\nTình huống của em khớp **hoàn toàn** với một thủ đoạn lừa đảo cực kỳ phổ biến và đã được Bộ Công An cảnh báo chính thức. Dưới đây là các dấu hiệu điển hình:\n\n---\n\n#### 🔴 Dấu hiệu 1: Mạo danh công ty tài chính có uy tín\n\nThời gian gần đây, nhiều đối tượng sử dụng các thủ đoạn lừa đảo như giả mạo nhân viên VietCredit hay giả mạo thương hiệu VietCredit. Một thủ đoạn được nhiều đối tượng thường xuyên sử dụng là giả mạo thương hiệu VietCredit — chúng thành lập Fanpage, Website, Zalo và sử dụng nhiều thủ thuật như gắn logo VietCredit hoặc tên gần giống nhằm cố ý tạo nhầm lẫn cho khách hàng.\n\nCái tên **\"VietCredit Pro\"** trong tin nhắn của em là tên giả mạo — thêm chữ \"Pro\" vào để đánh lừa, trong khi công ty thật có tên chính thức là **Công ty Tài chính Cổ phần Tín Việt (VietCredit)**.\n\n---\n\n#### 🔴 Dấu hiệu 2: Yêu cầu chuyển \"phí xác minh\" trước khi giải ngân — đây là bẫy cốt lõi\n\nBiểu hiện rõ nhất của thủ đoạn này là các đối tượng yêu cầu người vay phải chuyển một khoản tiền nhỏ (khoảng từ 500.000đ đến 5.000.000đ) phục vụ hỗ trợ xác minh, duyệt khoản vay.\n\nKhoản 890.000đ mà em bị yêu cầu chuyển nằm **đúng trong khung** này. Các ngân hàng uy tín thường không yêu cầu nộp phí mở hồ sơ trước khi khoản vay được phê duyệt. Nếu đối tượng yêu cầu chuyển khoản trước, thì khả năng rất cao đó là lừa đảo.\n\nThậm chí, chính VietCredit thật đã khẳng định: \"Hiện VietCredit không thu khách hàng bất kỳ một loại phí mở thẻ nào, thậm chí cả phí thường niên, phí quản lý tài khoản thẻ, cũng không yêu cầu khách hàng chuyển bất cứ khoản tiền nào trước khi giải ngân cho vay.\"\n\n---\n\n#### 🔴 Dấu hiệu 3: Tiếp cận qua Zalo với lời mời hấp dẫn (không cần thế chấp, lãi suất cực thấp)\n\nMột số kẻ lừa đảo sử dụng các mạng xã hội phổ biến để tiếp cận người dùng như Zalo, Facebook, Instagram và đưa ra những đề nghị vay tiền hấp dẫn. Họ có thể tạo ra các tài khoản giả mạo, sau đó liên hệ với người dùng và yêu cầu họ cung cấp thông tin cá nhân, đặc biệt là thông tin tài khoản ngân hàng, để được xác minh và giải quyết hồ sơ vay tiền.\n\nNhiều người mạo danh nhân viên VietCredit để thuyết phục vay vốn với nhiều ưu đãi như: thủ tục đơn giản không qua thẩm định, giải ngân nhanh, hạn mức cho vay lớn với **lãi suất thấp 0,5%/năm**. — Lưu ý: đây đúng là lãi suất mồi nhử y hệt em nhận được (0,5%).\n\n---\n\n#### 🔴 Dấu hiệu 4: Ngân hàng \"TechBank\" — không tồn tại\n\nKhông có ngân hàng nào ở Việt Nam tên là \"TechBank\". Đây là dấu hiệu rõ ràng nhất cho thấy đây là tổ chức ma. Thủ đoạn chung của các đối tượng lừa đảo cho vay tín dụng đen trên mạng là mạo danh nhân viên của các công ty tài chính, ngân hàng lớn để tạo lòng tin, sau đó yêu cầu người vay chuyển khoản đặt cọc hoặc trả trước một khoản tiền nhất định.\n\n---\n\n#### 🔴 Dấu hiệu 5: Nếu em chuyển tiền, chúng sẽ tiếp tục \"vắt\" thêm\n\nKẻ lừa đảo yêu cầu bạn thanh toán phí trước khi được giải ngân. Sau khi bạn thanh toán phí, họ sẽ biến mất và bạn không nhận được khoản vay của mình.\n\nThậm chí tệ hơn: Sau khi dụ người vay chuyển tiền phục vụ hỗ trợ xác minh, duyệt khoản vay, các đối tượng tiếp tục viện dẫn hàng loạt các lý do khoản vay không được giải ngân xuất phát từ lỗi khai hồ sơ của người vay (như khai sai tên người hưởng thụ, không đủ điều kiện vay...) để yêu cầu chuyển thêm tiền.\n\n---\n\n### ✅ Em đã làm đúng những gì?\n\n| Hành động | Đánh giá |\n|---|---|\n| Không chuyển 890.000đ | ✅ Rất đúng |\n| Gọi xác minh lại công ty chính thức | ✅ Rất thông minh |\n| Chặn số điện thoại | ✅ Đúng |\n\n---\n\n### 📌 Em nên làm thêm những gì?\n\n1. **⚠️ Kiểm tra xem em có lỡ cung cấp thông tin cá nhân không** (CCCD, số tài khoản ngân hàng...): Thông tin bị đánh cắp có thể bị lợi dụng để đăng ký SIM không chính chủ, mở tài khoản ngân hàng hoặc ví điện tử cho các hoạt động phi pháp như lừa đảo, rửa tiền. Nếu có, hãy liên hệ ngân hàng của em ngay để cảnh báo.\n\n2. **🚔 Tố giác với cơ quan công an:** Khi phát hiện có dấu hiệu nghi vấn hoặc trở thành nạn nhân của hành vi lừa đảo, người dân cần lưu giữ các thông tin liên quan như nội dung trao đổi, số tài khoản nhận tiền, số điện thoại, đường dẫn website, hình ảnh giao dịch, sau đó nhanh chóng trình báo ngay đến cơ quan Công an nơi gần nhất để được hỗ trợ, xử lý kịp thời.\n\n3. **📢 Chia sẻ với người thân, bạn bè** để họ không sập bẫy tương tự.\n\n4. **📞 Đường dây nóng chống lừa đảo:** Đường dây nóng Phòng An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao: **069.219.4053**.\n\n---\n\n\u003e 💡 **Lưu ý vàng:** Bất kỳ tổ chức tài chính hợp pháp nào cũng **KHÔNG BAO GIỜ** yêu cầu em chuyển tiền trước để \"xác minh tài khoản\" hay \"giải ngân khoản vay\". Đó luôn luôn là dấu hiệu lừa đảo.",
+  "sources": [
+    "https://www.aia.com.vn/vi/song-khoe/loi-khuyen/tai-chinh/bi-lua-dao-vay-tien-online-phai-lam-sao.html",
+    "https://congan.quangngai.gov.vn/danh-muc-san-pham/-tin-tuc-su-kien/canh-bao-lua-dao-voi-thu-doan-mao-danh-ngan-hang-cho-vay-tien-online-voi-lai-suat-thap-vao-dip-cuoi-nam.html",
+    "https://www.bocongan.gov.vn/canh-bao-toi-pham/canh-bao-mao-danh-ngan-hang-cac-to-chuc-tin-dung-cho-vay-truc-tuyen-lai-suat-thap-de-lua-dao-d104-t35031.html",
+    "https://xaydungchinhsach.chinhphu.vn/canh-bao-hien-tuong-mao-danh-ngan-hang-cho-vay-truc-tuyen-lai-suat-thap-de-lua-dao-119230428085842108.htm",
+    "https://congan.hatinh.gov.vn/bai-viet/canh-giac-voi-thu-doan-cho-vay-tien-online-mao-danh-cac-co-quan-to-chuc-ca-nhan_1682667214.caht",
+    "https://kenh14.vn/tat-ca-nguoi-dan-co-nhu-cau-vay-tien-dac-biet-chu-y-215260709173205179.chn",
+    "https://vietnamnet.vn/lua-dao-cho-vay-tin-dung-den-lai-hoanh-hanh-tren-khong-gian-mang-viet-nam-2331669.html",
+    "https://cand.com.vn/Ho-so-Interpol/tro-lua-moi-vay-von-online-cua-nhan-vien-ngan-hang-i749932/",
+    "https://naict.tttt.nghean.gov.vn/pckns/canh-giac-voi-hanh-vi-lua-dao-tu-cac-ung-dung-vay-tien-online-2368.html",
+    "https://congan.dongthap.gov.vn/en/chi-tiet-bai-viet/-/asset_publisher/wbj7qfWZntAi/content/id/12349153",
+    "https://www.vietcredit.vn/canh-bao-lua-dao/canh-bao-thu-doan-mao-danh-website-vietcredit",
+    "https://www.vietcredit.vn/canh-bao-lua-dao/canh-bao-app-gia-mao-vietcredit",
+    "https://www.vietcredit.vn/thong-bao/vietcredit-canh-bao-thu-doan-lua-dao-chiem-doat-tai-san-va-thong-tin-ca-nhan",
+    "https://tuoitre.vn/vietcredit-canh-bao-cac-thu-doan-mao-danh-lua-dao-20230225092804952.htm",
+    "https://www.vietcredit.vn/canh-bao-lua-dao/canh-bao-thu-doan-lua-dao-mao-danh-thuong-hieu-vietcredit",
+    "https://tinvay.com.vn/tin-tuc/thong-bao/vietcredit-canh-bao-nang-cao-canh-giac-doi-voi-khach-hang-vay-tien-truc-tuyen-the-tin-dung-XYX.html",
+    "https://www.vietcredit.vn/thong-bao/canh-bao-thu-doan-mao-danh-cong-ty-tai-chinh-vietcredit-giua-dich-covid19",
+    "https://www.vietcredit.vn/thong-bao/nang-cao-canh-giac",
+    "https://rais.edu.vn/vietcredit-lua-dao.html",
+    "https://www.vietcredit.vn/thong-bao/canh-bao-app-tinvietcredit-gia-mao-vietcredit"
+  ],
+  "latency_ms": 70359
+}

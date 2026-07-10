@@ -1,0 +1,27 @@
+{
+  "case_id": "scam-romance_scam-04",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Người lạ từ nước ngoài gửi hình ảnh xinh đẹp (khả năng tạo tài khoản giả mạo)",
+      "Tuyên bố thích em sau thời gian ngắn (phát triển mối quan hệ quá nhanh chóng)",
+      "Yêu cầu gửi tiền qua Zalo - phương thức khó theo dõi và không chính thức",
+      "Lý do khẩn cấp ở nước ngoài - tạo áp lực tâm lý để em quyết định nhanh",
+      "Không sử dụng các kênh chuyển tiền chính thức (ngân hàng)"
+    ],
+    "matched_patterns": [
+      "Giả danh doanh nhân lôi kéo đầu tư, sau đó giả cơ quan chức năng tính phí quà tặng",
+      "Lừa đảo tình cảm dẫn dụ đầu tư sàn ảo, tiền ảo, làm nhiệm vụ online"
+    ],
+    "recommended_actions": [
+      "Từ chối ngay lập tức yêu cầu gửi tiền qua bất kỳ kênh nào",
+      "Không chia sẻ thêm bất kỳ thông tin cá nhân hay tài chính nào với người này",
+      "Xác minh danh tính qua video call trực tiếp hoặc yêu cầu thông tin liên hệ thực - nếu từ chối hoặc tìm lý do tránh lánh, đó là dấu hiệu lừa đảo",
+      "Chặn tài khoản người này trên Zalo, Facebook và các mạng xã hội khác",
+      "Nếu cảm thấy bị uy hiếp hoặc muốn tìm hiểu thêm, liên hệ với Công an địa phương để báo cáo"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 7739
+}

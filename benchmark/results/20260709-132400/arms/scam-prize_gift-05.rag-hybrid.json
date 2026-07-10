@@ -1,0 +1,31 @@
+{
+  "case_id": "scam-prize_gift-05",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Thông báo trúng thưởng không có cơ sở (nạn nhân không tham gia chương trình nào)",
+      "Sử dụng tên thật của nạn nhân để tạo lòng tin",
+      "Yêu cầu cung cấp thông tin nhạy cảm (CCCD, số tài khoản ngân hàng, mã OTP) qua link",
+      "Sử dụng domain giả mạo (shoplife-reward.click thay vì domain chính thức)",
+      "Yêu cầu chuyển tiền dưới danh nghĩa 'phí kích hoạt tài khoản'",
+      "Gửi từ số điện thoại lạ không xác thực",
+      "Sau khi lấy thông tin, ngay lập tức trừ tiền từ tài khoản ngân hàng"
+    ],
+    "matched_patterns": [
+      "Lừa đảo 'tặng quà tri ân' yêu cầu chuyển tiền phí để nhận giải thưởng giả",
+      "Giả danh công ty/siêu thị tặng quà tri ân, yêu cầu làm nhiệm vụ online để chiếm đoạt tiền",
+      "Giả danh shipper dẫn dụ click link giả để hack tài khoản và ăn cắp tiền"
+    ],
+    "recommended_actions": [
+      "Liên hệ ngay ngân hàng phát hành thẻ để khóa thẻ và báo cáo giao dịch bất thường, yêu cầu hoàn lại tiền",
+      "Thay đổi mật khẩu tất cả các tài khoản quan trọng (email, ngân hàng, mạng xã hội) ngay lập tức",
+      "Cung cấp thông tin CCCD, số tài khoản cho cơ quan công an hoặc trực tiếp tại đơn vị cảnh sát hình sự để báo cáo và tìm cách bảo vệ chống lạm dụng thông tin",
+      "Kiểm tra lịch sử giao dịch trên tất cả tài khoản ngân hàng, ví điện tử để phát hiện các hoạt động nghi ngờ khác",
+      "Ghi lại số điện thoại lừa đảo (0917.445.223) và bảo lưu chứng cứ (tin nhắn, link, ảnh chụp) để cung cấp cho cơ quan chức năng",
+      "Báo cáo tin nhắn lừa đảo tới tổng đài 1429 (cảnh sát) hoặc liên hệ với ngân hàng và ứng dụng ShopLife để cảnh báo"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 9417
+}

@@ -1,0 +1,37 @@
+{
+  "case_id": "scam-fake_job-09",
+  "rag_verdict": {
+    "strengths": [
+      "Bao phủ đầy đủ cả 4 ý chính cần đề cập",
+      "Phân loại mức độ rủi ro rõ ràng (red)",
+      "Chỉ ra chi tiết cụ thể như tên miền .pro đáng ngờ, hoa hồng đa cấp",
+      "Khuyến nghị thực tế: xác minh công ty, không tải app từ link lạ, tìm việc qua nền tảng uy tín"
+    ],
+    "weaknesses": [
+      "Trình bày dạng liệt kê khô khan, thiếu giải thích cơ chế/kịch bản lừa đảo",
+      "Không đề cập bảo vệ thông tin cá nhân (CCCD, tài khoản ngân hàng)",
+      "Không hướng dẫn cách trình báo/báo cáo cơ quan chức năng",
+      "Vài lỗi chính tả ('tuyên dụng', 'tuyên CTV')"
+    ],
+    "reasoning": "Câu trả lời A bao phủ đầy đủ cả bốn ý chính: mức lương phi thực tế, yêu cầu đặt cọc, app/link giả mạo, và cấu trúc đa cấp. Phân loại rủi ro rõ ràng (red), liệt kê dấu hiệu cảnh báo có hệ thống và đưa ra khuyến nghị cụ thể, khả thi. Tuy nhiên trình bày dạng liệt kê khô khan, thiếu giải thích cơ chế lừa đảo (kịch bản diễn tiến) và không nhắc đến việc bảo vệ dữ liệu cá nhân (CCCD, tài khoản ngân hàng) hay cách trình báo cơ quan chức năng. Có một vài lỗi chính tả nhỏ ('tuyên dụng', 'tuyên CTV').",
+    "score": 7.5
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Bao phủ đầy đủ 4 ý chính và mở rộng thêm nhiều thông tin giá trị",
+      "Giải thích rõ cơ chế/kịch bản lừa đảo tiến triển giúp người đọc hiểu bản chất",
+      "Hướng dẫn hành động cụ thể qua bảng: không đóng tiền, chặn, trình báo công an, cảnh báo người thân",
+      "Nhắc bảo vệ thông tin cá nhân (CCCD, tài khoản ngân hàng) và cảnh báo mã độc",
+      "Nguyên tắc vàng dễ nhớ, giáo dục người dùng phòng tránh lần sau"
+    ],
+    "weaknesses": [
+      "Hơi dài, nhiều emoji và định dạng có thể gây rối mắt",
+      "Giọng điệu khẳng định tuyệt đối '100%' có thể quá mạnh trong một số ngữ cảnh",
+      "Thiếu nhãn phân loại rủi ro rõ ràng theo cấu trúc (dù đã cảnh báo rõ)"
+    ],
+    "reasoning": "Câu trả lời B bao phủ đầy đủ cả bốn ý chính và còn đi xa hơn: giải thích chi tiết kịch bản lừa đảo tiến triển (cho lãi nhỏ tạo niềm tin, sau đó báo lỗi ép nạp thêm), cảnh báo về mã độc trong app, nhắc bảo vệ CCCD/tài khoản ngân hàng, và hướng dẫn cụ thể cách trình báo công an, chặn số, cảnh báo người thân. Trình bày trực quan với bảng hành động và nguyên tắc vàng. Điểm yếu là hơi dài, dùng nhiều emoji/định dạng có thể gây rối, và giọng điệu 'LỪA ĐẢO 100%' tuy phù hợp bối cảnh nhưng mang tính khẳng định tuyệt đối.",
+    "score": 9
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

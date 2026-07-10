@@ -1,0 +1,26 @@
+{
+  "case_id": "scam-vacation_contract-03",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Mô hình \"trúng thưởng ảo → đóng phí trước\" — mô-típ chung của lừa đảo chiếm đoạt tài sản",
+      "Yêu cầu chuyển khoản vào tài khoản cá nhân/công ty lạ trước khi nhận dịch vụ, dưới danh nghĩa \"phí bảo hiểm hợp đồng\"",
+      "Mất liên lạc ngay sau khi nhận tiền, app bị gỡ bỏ",
+      "Xác minh với công ty du lịch thật cho thấy không hề có chương trình này — xác nhận mạo danh",
+      "Khớp quy mô vấn nạn \"hợp đồng kỳ nghỉ\" đang bị công an nhiều tỉnh thành khởi tố hàng loạt"
+    ],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Trình báo công an ngay, mang theo số điện thoại, tin nhắn/link app, biên lai chuyển khoản, thông tin tài khoản người nhận",
+      "Báo ngay cho ngân hàng nơi tài khoản nhận tiền mở để yêu cầu phong tỏa khẩn cấp",
+      "Chụp lại toàn bộ bằng chứng trước khi xóa: lịch sử cuộc gọi, tin nhắn, link tải app",
+      "Không chuyển thêm bất kỳ khoản phí nào nếu có ai liên hệ lại đòi thêm phí (kể cả tự xưng \"bên thu hồi tiền giúp\") — đây là lừa đảo lần 2",
+      "Cảnh báo người thân, bạn bè về số điện thoại và tên công ty liên quan để tránh mắc bẫy tương tự"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## Kết luận: Đây chắc chắn là lừa đảo\n\nTình huống của anh Minh khớp gần như hoàn hảo với chiêu trò **\"hợp đồng kỳ nghỉ\" (fake timeshare/holiday club scam)** — một dạng lừa đảo đang bùng phát rất mạnh tại Việt Nam gần đây. Bộ Công an cho biết thủ đoạn phổ biến là các đối tượng gọi điện thông báo trúng thưởng, tặng voucher du lịch miễn phí, mời tham dự hội thảo tại khách sạn, resort cao cấp, sau đó dùng nhiều thủ đoạn để tạo áp lực buộc khách hàng ký hợp đồng và thanh toán ngay.\n\n**Vì sao chắc chắn là lừa đảo:**\n\n1. **Mô hình \"trúng thưởng ảo → đóng phí trước\"**: các loại hình đầu tư kinh doanh dùng từ khóa \"miễn phí\", \"ưu đãi\", \"quà tặng\", \"lãi suất cao\" chính là mô-típ chung của lừa đảo chiếm đoạt tài sản.\n2. **Yêu cầu chuyển khoản vào tài khoản cá nhân/công ty lạ trước khi nhận dịch vụ** – công ty du lịch hợp pháp không bao giờ đòi \"phí bảo hiểm hợp đồng\" để trao thưởng miễn phí.\n3. **Mất liên lạc ngay sau khi nhận tiền, app bị gỡ bỏ**: đây là dấu hiệu điển hình — sau khi nhận tiền, các đối tượng cắt đứt liên lạc hoặc tiếp tục yêu cầu nộp thêm các khoản phí khác.\n4. **Xác minh với công ty du lịch thật cho thấy không hề có chương trình này** — xác nhận đây là mạo danh.\n5. **Quy mô vấn nạn hiện nay**: Đây không phải trường hợp cá biệt. Riêng Công an Hà Nội và TP.HCM đã nhận khoảng 2.500 đơn tố giác liên quan đến loại hình \"hợp đồng kỳ nghỉ\", khởi tố 40 vụ án với 525 bị can, tổng thiệt hại ước tính khoảng 2.600 tỷ đồng. Cụ thể tại TP.HCM, công an đã kiểm tra hàng loạt doanh nghiệp du lịch có dấu hiệu lừa đảo, trong đó có cả một công ty tên \"Paradise Travel\" (rất gần với tên \"Paradise Holiday Club\" mà anh Minh gặp phải).\n\n## Anh Minh nên làm gì tiếp theo\n\n1. **Trình báo công an ngay** – mang theo: số điện thoại đã gọi, tin nhắn/link tải app, biên lai chuyển khoản, số tài khoản người nhận (\"Công ty Lữ hành Đại Dương\", số 123456789 ngân hàng AB). Việc người dân chủ động tố giác, cung cấp thông tin sẽ giúp cơ quan chức năng điều tra và có thể hỗ trợ thu hồi tài sản. Nộp đơn tại công an phường/xã nơi cư trú hoặc Phòng Cảnh sát kinh tế công an tỉnh/thành.\n2. **Báo ngay cho ngân hàng AB** (nơi tài khoản nhận tiền mở) để yêu cầu phong tỏa khẩn cấp tài khoản đó — cơ hội thu hồi tiền cao nhất là trong vài giờ/ngày đầu.\n3. **Chụp lại toàn bộ bằng chứng trước khi xóa gì hết**: lịch sử cuộc gọi, tin nhắn, link tải app (dù app đã gỡ, vẫn có thể lưu link/ảnh chụp màn hình).\n4. **Không chuyển thêm bất kỳ khoản phí nào** nếu có ai đó (kể cả tự xưng là \"bên thu hồi tiền giúp\") liên hệ lại đòi thêm phí — đây là **chiêu lừa lần 2** rất phổ biến với nạn nhân đã mất tiền.\n5. **Cảnh báo người thân, bạn bè** về số điện thoại 0987654321 và tên \"Paradise Holiday Club\" để tránh người khác mắc bẫy tương tự.\n\nNếu anh Minh cần, tôi có thể giúp soạn sẵn một mẫu đơn trình báo công an để anh chỉ cần điền thông tin và nộp.",
+  "sources": [],
+  "latency_ms": 0
+}

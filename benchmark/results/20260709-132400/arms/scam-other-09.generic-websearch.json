@@ -1,0 +1,53 @@
+{
+  "case_id": "scam-other-09",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Giả mạo cơ quan nhà nước (\"Trung tâm Quản lý Dự án Xây dựng Hà Nội\")",
+      "Yêu cầu nộp \"lệ phí\" trước để nhận hợp đồng vào tài khoản cá nhân — không có cơ sở pháp lý",
+      "Yêu cầu cài đặt ứng dụng giả mạo (\"SQDTHN Pro\") từ link lạ — có khả năng đánh cắp dữ liệu cá nhân và thông tin ngân hàng",
+      "Tạo áp lực thời gian cực đoan (deadline \"trước 3 giờ chiều hôm đó\") để triệt tiêu tư duy phán đoán của nạn nhân",
+      "Yêu cầu chuyển tiền vào tài khoản cá nhân (\"Nguyễn Văn A\") thay vì tài khoản đơn vị nhà nước"
+    ],
+    "matched_patterns": [
+      "Giả mạo cơ quan nhà nước",
+      "Thu phí/lệ phí trước để nhận hợp đồng/trúng thầu",
+      "Ứng dụng giả mạo / link lạ cài mã độc",
+      "Tạo áp lực thời gian",
+      "Chuyển tiền vào tài khoản cá nhân"
+    ],
+    "recommended_actions": [
+      "Liên hệ ngân hàng ngay lập tức để yêu cầu phong tỏa tạm thời tài khoản thụ hưởng",
+      "Trình báo công an địa phương hoặc liên hệ đường dây nóng Cục Cảnh sát Hình sự - Bộ Công an: 0692 345 860",
+      "Thu thập và bảo quản toàn bộ bằng chứng: tin nhắn, email, lịch sử giao dịch, thông tin liên lạc với kẻ lừa đảo",
+      "Gỡ cài đặt ngay ứng dụng \"SQDTHN Pro\", đổi mật khẩu tất cả tài khoản ngân hàng/email/mạng xã hội, khoá thẻ nếu đã nhập thông tin thẻ vào ứng dụng",
+      "Tuyệt đối không liên hệ các dịch vụ quảng cáo \"hỗ trợ lấy lại tiền bị lừa\" trên mạng xã hội — đây là bẫy lừa đảo lần 2"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 KẾT LUẬN: ĐÂY LÀ LỪA ĐẢO 100% — Rất Tinh Vi \u0026 Nguy Hiểm!\n\nTình huống anh Minh gặp phải là một **vụ lừa đảo điển hình, có tổ chức bài bản**, kết hợp nhiều thủ đoạn tinh vi cùng lúc. Dưới đây là phân tích chi tiết:\n\n---\n\n## ❌ Tại sao đây chắc chắn là lừa đảo?\n\n### 🔴 Dấu hiệu 1: Giả mạo cơ quan nhà nước\n\nĐây là dạng tội phạm lừa đảo có xu hướng gia tăng trong thời gian gần đây, trong đó đối tượng không đơn thuần cung cấp thông tin gian dối mà chủ động dựng lên **\"vỏ bọc quyền lực\"** thông qua việc giả danh cán bộ cơ quan, tạo dựng hình ảnh có quan hệ rộng, có khả năng tác động đến quy trình giải quyết công việc.\n\nViệc giả danh \"Trung tâm Quản lý Dự án Xây dựng Hà Nội\" là chiêu bài kinh điển. Có nhiều trường hợp lừa đảo giả mạo các cơ quan, tổ chức, doanh nghiệp, nhà cung cấp, dịch vụ lớn như một số bộ ngành, dịch vụ công... Đây là một trong những thủ đoạn quen thuộc mà các đối tượng thường sử dụng để tấn công lừa đảo người dùng.\n\n---\n\n### 🔴 Dấu hiệu 2: Yêu cầu nộp \"lệ phí\" trước để nhận hợp đồng — Phi pháp hoàn toàn\n\nCơ quan Nhà nước mời thầu rất chặt chẽ, không phải kiểu chào thầu qua điện thoại hay zalo như thế này. Trong thực tế, **không có quy định pháp luật nào** của Việt Nam yêu cầu doanh nghiệp trúng thầu phải nộp \"lệ phí đăng ký tham gia\" vào tài khoản cá nhân trước khi ký hợp đồng.\n\nĐã có vụ án thực tế: Kẻ gian tự giới thiệu có quyền đại diện ký kết và giao thầu, tiếp cận các doanh nghiệp đang có nhu cầu thi công, yêu cầu chi \"hoa hồng\" để được nhận thầu. Tin tưởng vào lời giới thiệu và các hợp đồng tự ý ký kết, các nạn nhân đã chuyển tổng cộng 1,85 tỷ đồng để \"bảo đảm\" việc nhận thầu. Tuy nhiên, toàn bộ hợp đồng đều không có giá trị pháp lý.\n\n---\n\n### 🔴 Dấu hiệu 3: Ứng dụng giả mạo từ link lạ — Cực kỳ nguy hiểm\n\nCác đối tượng lừa đảo sử dụng các công nghệ cao như giả mạo website, tạo hóa đơn giả để chiếm đoạt tiền của khách hàng.\n\nTrang web giả mạo có thể trông giống hệt trang chính thức của ngân hàng hay cơ quan nhà nước, nhưng thực chất là để lấy thông tin đăng nhập. Nên truy cập trực tiếp trang chính thức thay vì nhấp vào link lạ.\n\nỨng dụng \"SQDTHN Pro\" tải từ link lạ rất có thể đã **đánh cắp dữ liệu cá nhân, thông tin ngân hàng** của anh Minh — nguy hiểm hơn cả việc mất số tiền 450 triệu đồng!\n\n---\n\n### 🔴 Dấu hiệu 4: Tạo áp lực thời gian cực đoan\n\nBằng cách sử dụng lời đe dọa về hậu quả pháp lý nếu không tuân thủ, họ cố gắng kích thích nỗi sợ hãi và áp đặt sự kiểm soát, **khiến nạn nhân phản ứng một cách nhanh chóng và không suy nghĩ kỹ lưỡng**.\n\nDeadline \"trước 3 giờ chiều hôm đó\" là chiêu điển hình để triệt tiêu tư duy phán đoán của nạn nhân.\n\n---\n\n### 🔴 Dấu hiệu 5: Chuyển tiền vào tài khoản cá nhân (\"Nguyễn Văn A\")\n\nĐây là **dấu hiệu tố cáo rõ ràng nhất**. Mọi giao dịch tài chính liên quan đến dự án nhà nước đều phải thông qua tài khoản của đơn vị nhà nước, không bao giờ là tài khoản cá nhân.\n\n---\n\n## ✅ Anh Minh cần làm gì ngay bây giờ?\n\n### ⚡ Bước 1: Liên hệ ngân hàng NGAY LẬP TỨC\nNgay khi phát hiện dấu hiệu lừa đảo, cần liên hệ ngay tổng đài hoặc chi nhánh ngân hàng nơi thực hiện giao dịch để **yêu cầu phong tỏa tạm thời tài khoản thụ hưởng** (nếu còn khả năng).\n\nVẫn có cơ hội thu hồi tiền nếu hành động nhanh chóng và phối hợp đúng cách với ngân hàng cũng như cơ quan công an. Nhiều vụ việc cho thấy, việc thông báo kịp thời có thể giúp **tạm giữ tài khoản người nhận hoặc xác định dòng tiền** trước khi kẻ lừa đảo rút hết.\n\n### ⚡ Bước 2: Trình báo công an ngay\nKhi bị lừa chuyển khoản, cần đến trụ sở công an địa phương để trình báo về hành vi lừa đảo chiếm đoạt tài sản. Tại đây, các cán bộ công an sẽ hướng dẫn điền hồ sơ và làm thủ tục trình báo. Ngoài ra, **Cục Cảnh sát Hình sự - Bộ Công an** tiếp nhận tin báo qua số điện thoại đường dây nóng **0692 345 860**.\n\n### ⚡ Bước 3: Thu thập và bảo quản bằng chứng\nGhi lại tất cả các thông tin liên quan đến vụ lừa đảo, bao gồm **tin nhắn, email, lịch sử giao dịch và thông tin liên lạc** với kẻ lừa đảo.\n\n### ⚡ Bước 4: Gỡ ngay ứng dụng giả mạo \u0026 đổi mật khẩu\nVì ứng dụng \"SQDTHN Pro\" có thể đã cài mã độc hoặc đánh cắp thông tin, anh Minh cần:\n- **Gỡ cài đặt ngay** ứng dụng đó\n- **Đổi mật khẩu** tất cả tài khoản ngân hàng, email, mạng xã hội\n- **Khoá thẻ** nếu đã nhập thông tin thẻ vào ứng dụng\n\n### ⚡ Bước 5: TUYỆT ĐỐI không làm điều này\nKhi phát hiện bị lừa, tuyệt đối **không liên hệ với các website, fanpage, tài khoản mạng xã hội** quảng cáo dịch vụ \"tiếp nhận hồ sơ\", \"hỗ trợ lấy lại tiền bị treo\", \"thu hồi tiền lừa đảo\" trên không gian mạng — đây là bẫy lừa đảo lần 2!\n\n---\n\n## ⚖️ Kẻ lừa đảo sẽ bị xử lý ra sao?\n\nVới khung hình phạt theo Bộ luật Hình sự, tội lừa đảo chiếm đoạt tài sản từ 50 triệu đến dưới 200 triệu đồng có thể bị phạt tù từ 2 đến 7 năm. Với số tiền 450 triệu đồng, kẻ lừa đảo sẽ đối mặt với khung hình phạt rất nghiêm trọng.\n\n---\n\n\u003e 💡 **Lời khuyên phòng ngừa về sau:** Mọi thông báo trúng thầu hợp lệ đều phải có văn bản chính thức, con dấu đỏ, và được đăng trên hệ thống đấu thầu quốc gia tại **muasamcong.mpi.gov.vn**. Hãy luôn gọi điện kiểm tra qua số điện thoại chính thức của cơ quan — đúng như anh Minh đã làm — **trước khi** chuyển bất kỳ khoản tiền nào.",
+  "sources": [
+    "https://laodongthudo.vn/khoi-to-34-doi-tuong-lam-gia-ho-so-gian-lan-trong-dau-thau-xay-dung-198117.html",
+    "https://xaydungdalat.vn/goc-canh-bao-chieu-tro-lua-dao-nha-thau-xay-dung/",
+    "https://kienthuc.net.vn/gia-mao-ho-so-nghiem-thu-mot-nha-thau-tai-thanh-hoa-bi-cam-thau-3-nam-post1621102.html",
+    "https://itaco.com.vn/mot-vai-hinh-thuc-lua-dao-trong-nganh-xay-dung-hien-nay.html",
+    "https://hatinh.gov.vn/tin-tuc-su-kien/tin-bai/16990/tinh-vi-cac-thu-doan-gia-danh-de-lua-dao",
+    "https://vtv.vn/tong-giam-doc-dom-lua-hon-18-ty-dong-bang-chieu-moi-gioi-thau-xay-dung-100251211115545163.htm",
+    "https://thanhtra.com.vn/phap-luat-B2DDDF86E/mao-danh-can-bo-co-quan-trung-uong-de-lua-dao-khi-niem-tin-vao-cong-quyen-bi-loi-dung-818df9919.html",
+    "https://hatinh.gov.vn/nguoi-dan-can-canh-giac-truoc-nhung-website-gia-mao-co-quan-chuc-nang-de-lua-dao",
+    "https://dauthau.asia/news/dau-thau/nha-thau-su-dung-ho-so-gia-tai-lieu-gia-de-tham-gia-dau-thau-bi-xu-ly-the-nao-1425.html",
+    "https://www.vietnam.vn/en/canh-bao-hanh-vi-mao-danh-can-bo-so-ke-hoach-va-dau-tu-de-lua-dao",
+    "https://techcombank.com/thong-tin/blog/cach-lay-lai-tien-da-chuyen-khoan-khi-bi-lua",
+    "https://bocongan.gov.vn/bai-viet/canh-giac-thu-doan-lua-dao-va-quy-trinh-xu-ly-an-toan-khi-chuyen-nham-tien-qua-tai-khoan-1770361075",
+    "https://ghn.vn/blogs/tip-ban-hang/cach-lay-lai-tien-da-chuyen-khoan-khi-bi-lua",
+    "https://baohaiquanvietnam.vn/tin-tuc/canh-giac-voi-thu-doan-lua-dao-chuyen-khoan-loi-phi-tu-nguoi-la",
+    "https://www.msb.com.vn/en/w/cach-lay-lai-tien-da-chuyen-khoan-khi-bi-lua",
+    "https://www.seabank.com.vn/tin-tuc/tu-van-dich-vu/tu-van--meo/cach-lay-lai-tien-da-chuyen-khoan-khi-bi-lua-huong-dan-chi-tiet-va-day-du",
+    "https://acb.com.vn/thu-vien/cac-dau-hieu-lua-dao-chuyen-tien-va-cach-xu-ly-thong-minh",
+    "https://congan.khanhhoa.gov.vn/vi/canh-bao-chieu-tro-lua-dao-chuyen-nham-tien-va-huong-xu-ly-de-bao-ve-ban-than",
+    "https://timo.vn/blogs/5-chieu-tro-lua-dao-chuyen-khoan-sai-noi-dung/",
+    "https://hatinh.gov.vn/tin-tuc-su-kien/tin-bai/13644/nhan-dien-nhung-chieu-tro-lua-dao-qua-mang-dang-bua-vay-nguoi-dan"
+  ],
+  "latency_ms": 82110
+}

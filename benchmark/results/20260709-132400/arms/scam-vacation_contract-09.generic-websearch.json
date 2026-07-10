@@ -1,0 +1,29 @@
+{
+  "case_id": "scam-vacation_contract-09",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Áp lực thời gian giả tạo (\"chỉ còn 3 suất cuối, quyết định trong 24h\")",
+      "Cuộc gọi ngẫu nhiên, \"may mắn được chọn\" — doanh nghiệp hợp pháp không mời VIP qua điện thoại lạ kiểu này",
+      "Yêu cầu thanh toán qua ứng dụng lạ (\"ResortPay\") không phải kênh thanh toán chính thống, khó truy vết",
+      "Email dùng tên miền giả mạo thay vì tên miền chính thức của resort thật",
+      "Hợp đồng \"chuyên nghiệp nhưng điều khoản mơ hồ\" — soạn sẵn kỹ lưỡng nhưng cài cắm điều khoản bất lợi",
+      "\"Biến mất\" sau khi nhận tiền: số điện thoại ngừng liên lạc, app khóa tài khoản, email không phản hồi",
+      "Khớp mô hình \"hợp đồng kỳ nghỉ\" quy mô lớn đã bị công an TP.HCM/Hà Nội khởi tố hàng loạt"
+    ],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Thu thập và lưu giữ toàn bộ bằng chứng: số điện thoại, tin nhắn, hợp đồng, email, ảnh chụp giao dịch, tên/logo app",
+      "Trình báo công an tại nơi cư trú hoặc Phòng Cảnh sát hình sự — vụ việc có thể liên quan đến đường dây đang bị điều tra",
+      "Liên hệ ngân hàng/đơn vị trung gian thanh toán đã dùng để hỏi khả năng tra soát/hoàn tiền do gian lận",
+      "Không đóng thêm bất kỳ khoản phí nào nếu có ai hứa \"giúp lấy lại tiền\" — thường là lừa đảo lần hai",
+      "Cảnh báo người thân, bạn bè, đặc biệt người lớn tuổi",
+      "Không tải lại hoặc sử dụng app thanh toán không rõ nguồn gốc tương tự trong tương lai"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "Dựa trên các dấu hiệu trong tình huống và thông tin thực tế mình vừa kiểm tra, **đây gần như chắc chắn là lừa đảo**. Đây là một kịch bản lừa đảo rất phổ biến gần đây ở Việt Nam, được gọi là lừa đảo \"hợp đồng kỳ nghỉ\" (timeshare scam).\n\n## Vì sao đây là lừa đảo\n\n**1. Trùng khớp gần như 100% với mô hình đã bị công an triệt phá**\nChỉ trong tháng 6/2026, Công an TP.HCM và Hà Nội đã khởi tố 11 vụ án, gần 200 bị can liên quan đến các công ty núp bóng du lịch nghỉ dưỡng, chiếm đoạt hơn 612 tỷ đồng của nạn nhân, còn tại Hà Nội đã khởi tố 25 vụ án, 201 bị can, chiếm đoạt hơn 2.700 tỷ đồng. Kịch bản của những công ty này khớp gần như từng chi tiết với trường hợp của Linh:\n- Nhân viên liên tục gọi điện mời khách đến tham gia chương trình tri ân, nhận quà tặng hoặc du lịch miễn phí để đưa khách đến các buổi giới thiệu sản phẩm\n- Khi khách đồng ý, các đối tượng thúc ép ký kết hợp đồng chuẩn bị sẵn với nhiều điều khoản bất lợi\n- Nạn nhân bị lôi cuốn bởi các gói \"sở hữu kỳ nghỉ\" trị giá hàng trăm triệu, kèm cam kết miệng về khả năng sinh lời cao khi chuyển nhượng lại\n\n**2. Các \"cờ đỏ\" (red flags) kinh điển trong tin nhắn của bạn:**\n- **Áp lực thời gian giả tạo**: \"chỉ còn 3 suất cuối, quyết định trong 24h\" — kỹ thuật tạo cảm giác khan hiếm để ngăn nạn nhân suy nghĩ kỹ hoặc tham khảo người khác.\n- **Cuộc gọi ngẫu nhiên, \"may mắn được chọn\"**: doanh nghiệp hợp pháp không mời VIP qua điện thoại lạ kiểu này.\n- **Yêu cầu thanh toán qua ứng dụng lạ (\"ResortPay\")**: đây không phải kênh thanh toán chính thống nào (như ví điện tử/ngân hàng có pháp nhân rõ ràng), cực kỳ đáng ngờ vì khó truy vết và dễ bị khóa/xóa dấu vết.\n- **Email tên miền giả mạo** (\"resortparadise-vn.com\" thay vì tên miền chính thức của một chuỗi resort thật) — dấu hiệu điển hình của trang/email lừa đảo.\n- **Hợp đồng \"chuyên nghiệp nhưng điều khoản mơ hồ\"**: đúng mô tả trong các vụ án — hợp đồng soạn sẵn, kỹ lưỡng về hình thức nhưng cài cắm điều khoản bất lợi hoặc mập mờ về quyền lợi thực tế.\n- **\"Biến mất\" sau khi nhận tiền**: số điện thoại ngừng liên lạc, app khóa tài khoản, email không phản hồi — đây chính là kết cục thường thấy của các vụ lừa đảo dạng này khi nạn nhân không còn giá trị khai thác thêm.\n\n## Linh nên làm gì tiếp theo\n\n1. **Thu thập và lưu giữ toàn bộ bằng chứng**: số điện thoại gọi đến, tin nhắn, hợp đồng điện tử, email xác nhận, ảnh chụp giao dịch chuyển tiền, tên/logo app \"ResortPay\".\n2. **Trình báo công an** tại nơi cư trú hoặc Phòng Cảnh sát hình sự Công an TP.HCM (địa chỉ: 459 Trần Hưng Đạo) — công an TP.HCM đang tiếp tục mở rộng điều tra và đề nghị nạn nhân liên hệ để phối hợp cung cấp thông tin. Vụ của Linh có thể liên quan đến cùng đường dây đang bị điều tra.\n3. **Liên hệ ngân hàng/đơn vị trung gian thanh toán** đã dùng để chuyển 15 triệu, hỏi về khả năng tra soát hoặc yêu cầu hoàn tiền do gian lận (dù khả năng thành công không cao nếu đã 2 tuần, vẫn nên thử).\n4. **Không đóng thêm bất kỳ khoản phí nào khác** nếu có ai liên hệ lại hứa \"giúp lấy lại tiền\" hoặc yêu cầu \"phí xử lý\" — đây thường là lớp lừa đảo thứ hai nhắm vào chính nạn nhân cũ.\n5. **Cảnh báo người thân, bạn bè** về hình thức lừa đảo này, đặc biệt nếu trong nhà có người lớn tuổi — đây là nhóm đối tượng bị nhắm đến nhiều nhất.\n6. **Không tải lại hoặc sử dụng app \"ResortPay\"** hay bất kỳ ứng dụng thanh toán không rõ nguồn gốc nào tương tự trong tương lai.\n\nNếu bạn cần, mình có thể giúp soạn sẵn một mẫu đơn trình báo công an để Linh điền và nộp.",
+  "sources": [],
+  "latency_ms": 0
+}

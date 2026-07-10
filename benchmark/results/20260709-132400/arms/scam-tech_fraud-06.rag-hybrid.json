@@ -1,0 +1,29 @@
+{
+  "case_id": "scam-tech_fraud-06",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Tải ứng dụng không rõ nguồn gốc từ link chia sẻ trên Facebook",
+      "Ứng dụng giả mạo (TikTok Pro Manager) yêu cầu quyền truy cập danh bạ và dữ liệu cá nhân",
+      "Bị cài đặt malware sau khi cài ứng dụng lạ",
+      "Tiền bị chuyển trái phép sang tài khoản khác (12,5 triệu đồng)",
+      "Nhận được tin nhắn giả mạo từ ngân hàng với giao diện không chính thức",
+      "Các link lạ kỳ trong tin nhắn yêu cầu xác nhận mật khẩu"
+    ],
+    "matched_patterns": [
+      "loan_scam",
+      "tech_fraud"
+    ],
+    "recommended_actions": [
+      "Ngay lập tức liên hệ ngân hàng để khóa tài khoản bị hack, kiểm tra toàn bộ lịch sử giao dịch và ghi nhận những giao dịch bất thường",
+      "Gỡ bỏ ngay ứng dụng giả mạo khỏi điện thoại và thực hiện khôi phục cài đặt gốc thiết bị để loại bỏ malware",
+      "Thay đổi mật khẩu cho tất cả các tài khoản quan trọng (email, ngân hàng, mạng xã hội) trên một thiết bị an toàn khác",
+      "Không bao giờ cài đặt ứng dụng từ những link chia sẻ trên mạng xã hội; chỉ tải từ Google Play Store hoặc App Store chính thức",
+      "Trình báo vụ việc lên công an địa phương để được hỗ trợ và ghi nhận chính thức về tội phạm công nghệ cao",
+      "Kiểm tra định kỳ tài khoản ngân hàng để phát hiện sớm các giao dịch bất thường"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 6239
+}

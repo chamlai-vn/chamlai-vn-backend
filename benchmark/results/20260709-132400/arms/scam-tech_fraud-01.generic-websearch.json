@@ -1,0 +1,27 @@
+{
+  "case_id": "scam-tech_fraud-01",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Link rút gọn (bit.ly) thay vì domain chính thức của ngân hàng — dấu hiệu kinh điển của phishing để che giấu địa chỉ web giả",
+      "Tạo cảm giác cấp bách/đe dọa (\"khóa tài khoản vĩnh viễn trong 24 giờ\") để thúc ép hành động vội vàng",
+      "Yêu cầu nhập \"mã xác nhận tạm thời\" — có thể là chiêu lừa lấy OTP thật của người dùng",
+      "Số hotline lạ dạng di động cá nhân, không phải đầu số tổng đài chính thức",
+      "Yêu cầu cập nhật thông tin đăng nhập/mật khẩu/OTP qua link trong SMS — ngân hàng hợp pháp không làm vậy"
+    ],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Tuyệt đối không nhấn vào link, không nhập bất kỳ thông tin nào (tên đăng nhập, mật khẩu, OTP, số thẻ)",
+      "Không gọi vào số hotline trong tin nhắn",
+      "Tự mở app ngân hàng chính thức hoặc gọi hotline in trên thẻ/website chính thức để kiểm tra nếu lo lắng",
+      "Xóa tin nhắn này và chặn số gửi",
+      "Nếu đã lỡ nhấn link/nhập thông tin: liên hệ ngay tổng đài ngân hàng chính thức để khóa/đổi mật khẩu, theo dõi sao kê giao dịch",
+      "Có thể báo cáo tin nhắn lừa đảo qua đầu số 5656 hoặc cơ quan công an"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "Đây gần như chắc chắn là **tin nhắn lừa đảo (phishing)**. Dưới đây là lý do và những việc bạn nên làm.\n\n## Vì sao đây là lừa đảo\n\n1. **Link rút gọn (bit.ly) thay vì domain chính thức** — Vietcombank không bao giờ gửi link xác minh qua bit.ly. Ngân hàng thật luôn dùng domain chính thức như vietcombank.com.vn. Đây là dấu hiệu kinh điển của phishing để che giấu địa chỉ web giả mạo thật.\n\n2. **Tạo cảm giác cấp bách/đe dọa** — \"khóa tài khoản vĩnh viễn trong 24 giờ\" là chiêu thức tâm lý kinh điển để khiến nạn nhân hành động vội vàng, không kịp suy nghĩ hay kiểm tra lại.\n\n3. **\"Mã xác nhận tạm thời\"** — Đây là chiêu đánh lừa rất nguy hiểm. Kẻ lừa đảo có thể đang cố lấy mã OTP thật của bạn bằng cách giả vờ đăng nhập vào tài khoản bạn ở nơi khác, rồi yêu cầu bạn \"xác nhận\" bằng mã này (thực chất là gửi OTP thật cho chúng).\n\n4. **Số hotline lạ** — Ngân hàng thật sẽ dùng số tổng đài chính thức (đầu số cố định, có thể tra cứu công khai), không phải số điện thoại di động cá nhân dạng 09xx.\n\n5. **Yêu cầu \"cập nhật thông tin\" qua link** — Ngân hàng hợp pháp không bao giờ yêu cầu khách hàng nhập thông tin đăng nhập, mật khẩu, OTP qua link gửi trong tin nhắn SMS.\n\n## Bạn nên làm gì\n\n- ❌ **Tuyệt đối không** nhấn vào link, không nhập bất kỳ thông tin nào (tên đăng nhập, mật khẩu, OTP, số thẻ...).\n- ❌ **Không gọi** vào số hotline trong tin nhắn.\n- ✅ Nếu lo lắng về tài khoản, hãy tự mở app Vietcombank chính thức hoặc gọi vào **hotline chính thức được in trên thẻ ngân hàng / website vietcombank.com.vn** để kiểm tra.\n- ✅ Xóa tin nhắn này, và có thể chặn số gửi.\n- ✅ Nếu lỡ đã nhấn link hoặc nhập thông tin, hãy **ngay lập tức** liên hệ tổng đài Vietcombank chính thức để khóa/đổi mật khẩu tài khoản, đổi mật khẩu Internet Banking, và theo dõi sao kê giao dịch.\n- ✅ Có thể báo cáo tin nhắn lừa đảo này cho nhà mạng (chuyển tiếp đến đầu số 5656) hoặc cơ quan công an nếu cần.\n\nNếu bạn muốn, gửi tôi thêm bất kỳ tin nhắn/link nghi ngờ nào khác, tôi sẽ giúp kiểm tra tiếp.",
+  "sources": [],
+  "latency_ms": 0
+}

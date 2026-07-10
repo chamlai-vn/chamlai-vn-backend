@@ -1,0 +1,30 @@
+{
+  "case_id": "scam-ecommerce_scam-02",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Fanpage mới với tên giả mạo tương tự hãng bay (VietAir Booking 24h)",
+      "Giá vé bất thường rẻ (189.000 đồng) so với thị trường",
+      "Yêu cầu chuyển khoản vào tài khoản cá nhân (Nguyễn Văn Hùng) thay vì tài khoản công ty",
+      "Lời hứa hoàn lại tiền sau (111.000 đồng) để lôi kéo người dùng",
+      "Chặn liên lạc và xóa tài khoản sau khi nhận tiền",
+      "Không cung cấp hóa đơn, mã vé, hoặc thông tin xác nhận chuyến bay"
+    ],
+    "matched_patterns": [
+      "Giả mạo đại lý bán vé máy bay qua fanpage lừa đảo",
+      "Quảng cáo vé máy bay giá sốc với ưu đãi giới hạn",
+      "Yêu cầu chuyển khoản đặt cọc vào tài khoản cá nhân"
+    ],
+    "recommended_actions": [
+      "Báo cáo tài khoản Momo ngay để cấp block/hoàn lại tiền nếu có thể",
+      "Tiếp tục thu thập bằng chứng (ảnh chụp tin nhắn, số điện thoại, tên tài khoản nhận tiền) để thông báo cho cơ quan công an địa phương",
+      "Chặn số điện thoại 0932.654.871 để tránh các lần liên hệ lừa đảo tiếp theo",
+      "Trong những lần sau, chỉ đặt vé máy bay trực tiếp qua website chính thức của hãng bay hoặc các đại lý có giấy phép kinh doanh được xác minh",
+      "Kiểm tra kỹ thông tin fanpage trước khi tin tưởng (ngày tạo, lịch sử hoạt động, số lượng bình luận từ tài khoản ảo)",
+      "Luôn gọi điện xác nhận trực tiếp đến số công bộ của hãng bay trước khi chuyển tiền"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 9245
+}

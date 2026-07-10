@@ -1,0 +1,30 @@
+{
+  "case_id": "scam-vacation_contract-01",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Lời hứa quảng cáo đáng ngờ: 'sở hữu kỳ nghỉ hàng năm tại 15 resort 5 sao trên toàn Đông Nam Á chỉ 89 triệu, sử dụng suốt đời'",
+      "Tạo áp lực yêu cầu thanh toán qua ứng dụng Momo ngay lập tức để 'xác nhận hồ sơ VIP'",
+      "Yêu cầu đóng nhiều khoản phí thêm liên tiếp (20 triệu đăng ký, 8 triệu thẩm định, 5 triệu bảo hiểm, 12 triệu quà tặng) dưới danh nghĩa khác nhau",
+      "Tài khoản nhận tiền có tên 'Resort.Asia.Vacation.Official' (nghi là tài khoản cá nhân giả mạo, không phải công ty hợp pháp)",
+      "Sau khi nhận tiền, công ty mất liên lạc, chặn điện thoại, website 'bảo trì'",
+      "Không cung cấp hợp đồng rõ ràng hoặc cho xem hợp đồng TRƯỚC khi thanh toán đặt cọc"
+    ],
+    "matched_patterns": [
+      "vacation_contract - Lừa đảo kinh doanh 'thẻ kỳ nghỉ', 'sở hữu kỳ nghỉ' kéo dài chiếm đoạt",
+      "vacation_contract - Lừa đảo bán hợp đồng kỳ nghỉ qua các công ty kinh doanh du lịch giả danh",
+      "vacation_contract - Hợp đồng sở hữu kỳ nghỉ với tuyên truyền sai về quyền sở hữu"
+    ],
+    "recommended_actions": [
+      "Báo cáo sự việc cho công an địa phương (Công an quận/huyện) hoặc phòng Cảnh sát Kinh tế với đầy đủ thông tin: số điện thoại, tài khoản Momo, tên công ty, thời gian và số tiền chuyển khoản",
+      "Liên hệ với Sở Kế hoạch Đầu tư của tỉnh/thành phố để kiểm tra xem 'Resort Asia Vacation (RAV)' có đăng ký kinh doanh hợp pháp hay không",
+      "Bảo tồn các bằng chứng: ảnh chụp cuộc gọi, tin nhắn, biên lai Momo, danh sách các khoản chuyển tiền, tên tài khoản nhận tiền",
+      "Kiểm tra tài khoản Momo 'Resort.Asia.Vacation.Official' để xác nhận và cung cấp thông tin cho cơ quan chức năng",
+      "Cảnh báo những người khác biết, tránh rơi vào cùng một bẫy lừa đảo tương tự",
+      "Liên hệ với công ty Momo để thông báo tài khoản lừa đảo và yêu cầu tạm khóa/điều tra"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 9953
+}

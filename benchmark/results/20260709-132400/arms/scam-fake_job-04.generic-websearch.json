@@ -1,0 +1,54 @@
+{
+  "case_id": "scam-fake_job-04",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Tên công ty bịa đặt ('Công ty Lexus Group') và mức lương hấp dẫn bất thường (15 triệu/tháng chỉ để chụp ảnh sản phẩm) nhằm đánh vào tâm lý muốn kiếm tiền dễ dàng",
+      "Yêu cầu nạp tiền 'phí tài khoản premium' để mở khóa nhiệm vụ — không có việc làm hợp pháp nào yêu cầu nộp tiền trước để được nhận việc",
+      "Công việc không có mô tả rõ ràng, không có hợp đồng pháp lý, chỉ trao đổi qua tin nhắn mạng xã hội",
+      "Dẫn dụ sang ứng dụng lạ giả mạo ('TaskMaster Pro') có thể chứa mã độc, thu thập sinh trắc học và thông tin tài khoản ngân hàng",
+      "Yêu cầu chuyển tiền chốt đơn giả mạo, có thể biến nạn nhân thành 'con rối' rửa tiền bất hợp pháp",
+      "Khi đơn hàng giá trị cao, đối tượng không hoàn trả tiền gốc và hoa hồng mà yêu cầu nạp thêm tiền để thực hiện nhiệm vụ tiếp theo",
+      "Thu thập thông tin cá nhân của nạn nhân để đe dọa, cưỡng đoạt tài sản và khóa chặt nạn nhân buộc tiếp tục nạp tiền"
+    ],
+    "matched_patterns": [
+      "Lừa đảo tuyển cộng tác viên online / việc nhẹ lương cao",
+      "Lừa đảo nhiệm vụ chốt đơn hàng giả mạo",
+      "Ứng dụng giả mạo cài mã độc chiếm quyền điều khiển thiết bị",
+      "Đe dọa tống tiền bằng thông tin cá nhân"
+    ],
+    "recommended_actions": [
+      "Tuyệt đối KHÔNG nạp thêm bất kỳ đồng tiền nào nữa dù bị đe dọa bằng bất kỳ lý do gì",
+      "Trình báo chính thức tại công an phường/xã hoặc quận/huyện để lập hồ sơ vụ việc; gọi hotline Bộ Công an 113 hoặc liên hệ Cục An ninh mạng (A05)",
+      "Lưu giữ toàn bộ bằng chứng: chụp ảnh toàn bộ tin nhắn Zalo, màn hình ứng dụng 'TaskMaster Pro', số tài khoản Agribank đã chuyển, các tin nhắn đe dọa — không xóa bất kỳ thứ gì",
+      "Gỡ ngay ứng dụng 'TaskMaster Pro' khỏi điện thoại, sau đó đổi mật khẩu tất cả tài khoản ngân hàng, Zalo, email trên thiết bị đó",
+      "Liên hệ ngân hàng Agribank để báo cáo số tài khoản lừa đảo (7601 2345 6789), yêu cầu phong tỏa và hỗ trợ truy vết giao dịch",
+      "Cảnh báo người thân xung quanh để tránh bị mắc bẫy tương tự"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 KẾT LUẬN: ĐÂY LÀ LỪA ĐẢO HOÀN TOÀN — RẤT NGHIÊM TRỌNG!\n\nTình huống của chị bạn là một **vụ lừa đảo điển hình, nhiều tầng lớp**, đã và đang xảy ra rất phổ biến tại Việt Nam. Dưới đây là phân tích chi tiết:\n\n---\n\n## 🔍 Nhận diện các dấu hiệu lừa đảo trong vụ này\n\n### 1. 🎣 Bước 1 — Mồi nhử việc làm \"việc nhẹ lương cao\"\nThủ đoạn lừa đảo bằng hình thức giới thiệu việc làm cộng tác viên (CTV) online là thủ đoạn lừa đảo phổ biến của các đối tượng phạm tội. Chúng thông qua các mạng xã hội như Facebook, Zalo, Telegram, giả mạo là nhân viên của các tổ chức, doanh nghiệp có thương hiệu và uy tín để tạo lòng tin nhằm chiếm đoạt tài sản.\n\nTên \"Công ty Lexus Group\" và mức lương 15 triệu/tháng chỉ để chụp ảnh sản phẩm là **hoàn toàn bịa đặt**, nhằm đánh vào tâm lý muốn kiếm tiền dễ dàng.\n\n### 2. 💸 Bước 2 — Yêu cầu nạp tiền \"phí tài khoản premium\"\nNạn nhân phải nạp tiền vào tài khoản do đối tượng cung cấp để \"mở khóa\" nhiệm vụ hoặc nâng cấp cấp độ để nhận lợi nhuận cao hơn. Đây là dấu hiệu **đặc trưng nhất** của loại lừa đảo này — **không có việc làm hợp pháp nào yêu cầu bạn phải nộp tiền trước để được nhận việc.**\n\nCông việc không có mô tả rõ ràng, không có hợp đồng pháp lý, chỉ trao đổi qua tin nhắn mạng xã hội.\n\n### 3. 📱 Bước 3 — Dẫn dụ sang ứng dụng lạ (\"TaskMaster Pro\") để giao \"nhiệm vụ\"\nSau khi được người dân đồng ý, các đối tượng sẽ đề nghị kết bạn trên mạng xã hội Zalo. Sau đó, tiếp tục nhắn tin dụ dỗ, đề nghị người dân tải, tham gia đăng ký tài khoản tại ứng dụng trực tuyến khác như Telegram, Discord, Gototo… và kết bạn với một đối tượng khác được cho là \"hướng dẫn viên\" trên ứng dụng đó.\n\nỨng dụng **\"TaskMaster Pro\"** trong vụ này chính xác là kiểu ứng dụng giả mạo được bọn lừa đảo dựng lên. Các ứng dụng giả mạo sẽ yêu cầu nạn nhân cấp quyền truy cập thiết bị hoặc chứa mã độc có khả năng thu thập thông tin như sinh trắc học, tài khoản đăng nhập ngân hàng điện tử; chiếm đoạt thông tin cá nhân sử dụng cho mục đích xấu như phạm pháp, vay khống, tống tiền.\n\n### 4. 🪤 Bước 4 — \"Nhiệm vụ\" chuyển tiền cho khách giả mạo: Bẫy thứ hai nguy hiểm hơn\nSau khi đăng nhập, CTV phải chuyển tiền chốt đơn, giả vờ mua hàng để tăng tương tác và uy tín. Đây không phải công việc thật — chị bạn có thể vô tình bị biến thành **\"con rối\" rửa tiền** bất hợp pháp mà không hay biết, tiềm ẩn rủi ro pháp lý nghiêm trọng.\n\nĐối tượng lừa đảo ban đầu gửi tiền gốc và \"hoa hồng\" cho nạn nhân với những đơn hàng có giá trị thấp. Khi đơn hàng có giá trị ngày càng cao, đối tượng lừa đảo không chuyển trả lại tiền gốc và hoa hồng như hứa hẹn mà yêu cầu nạn nhân chuyển thêm tiền để thực hiện nhiệm vụ tiếp theo thì mới lấy lại được số tiền đó.\n\n### 5. 😱 Bước 5 — Đe dọa tống tiền bằng thông tin cá nhân\nCác đối tượng còn dụ dỗ người bị hại trao đổi thông tin cá nhân, sau đó sử dụng các thông tin này để đe dọa, cưỡng đoạt tài sản của người bị hại. Đây là thủ đoạn **\"khóa chặt\" nạn nhân** buộc tiếp tục nạp tiền vì sợ hãi.\n\n---\n\n## ✅ Chị bạn đã làm đúng — và cần làm thêm những bước này ngay:\n\n### 🚔 1. Trình báo công an chính thức (quan trọng nhất)\nĐã liên hệ công an khu phố là tốt, nhưng cần **lên trình báo chính thức tại công an phường/xã hoặc quận/huyện** để lập hồ sơ vụ việc. Nếu mất tiền, hãy giữ chứng cứ và báo công an địa phương.\n\n\u003e 📌 **Hotline Bộ Công an:** 113\n\u003e 📌 **Đường dây nóng tội phạm mạng:** có thể liên hệ Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (A05) — Bộ Công an.\n\n### 📂 2. Lưu giữ toàn bộ bằng chứng\nChụp ảnh lưu lại: toàn bộ tin nhắn Zalo, màn hình ứng dụng \"TaskMaster Pro\", số tài khoản Agribank đã chuyển, các tin nhắn đe dọa. **Đừng xóa bất kỳ thứ gì.**\n\n### 🔒 3. Gỡ ngay ứng dụng \"TaskMaster Pro\"\nChỉ vì cài đặt các ứng dụng lạ mà nhiều người đã bị các đối tượng lừa đảo chiếm quyền điều khiển điện thoại, can thiệp trực tiếp vào camera của thiết bị và toàn bộ tiền trong tài khoản có thể \"bay màu\" chóng vánh. Hãy gỡ ứng dụng này ngay lập tức, sau đó **đổi mật khẩu tất cả tài khoản ngân hàng, Zalo, email** trên điện thoại đó.\n\n### 🏦 4. Liên hệ ngân hàng Agribank\nBáo cho Agribank về số tài khoản lừa đảo `7601 2345 6789` để yêu cầu phong tỏa và hỗ trợ truy vết giao dịch. Trường hợp nghi ngờ bị lừa đảo, cần thông báo ngay cho ngân hàng qua hotline hoặc liên hệ cơ quan công an gần nhất để được hỗ trợ kịp thời.\n\n### 📣 5. Cảnh báo người thân xung quanh\nKhoản tiền các đối tượng lừa chiếm đoạt được từ hình thức này thường từ vài trăm triệu cho đến hàng tỷ đồng. Cơ quan chức năng đã tiếp nhận nhiều vụ việc lừa đảo bằng hình thức tuyển CTV online với tổng số tiền thiệt hại lên đến hàng chục tỷ đồng. Hãy chia sẻ câu chuyện này để người thân không bị mắc bẫy tương tự.\n\n---\n\n## ⚠️ Lời nhắc quan trọng\n\n\u003e **Tuyệt đối KHÔNG nạp thêm bất kỳ đồng tiền nào nữa**, dù bị đe dọa bằng bất kỳ lý do gì. \"Tất cả những thứ liên quan mà kẻ gian đưa ra để lôi kéo làm nhiệm vụ đều là giả mạo, chỉ có việc nạn nhân bị lừa đảo là thật.\"\n\nChị bạn rất may mắn đã dừng lại kịp thời. Hãy hành động ngay hôm nay! 💪",
+  "sources": [
+    "https://kenh14.vn/cong-an-canh-bao-9-kieu-tin-nhan-zalo-nguoi-dan-nhan-duoc-phai-bao-xau-ngay-keo-mat-sach-215260102215829592.chn",
+    "https://congan.laichau.gov.vn/pho-bien-giao-duc-phap-luat/canh-giac-thu-doan-hack-tai-khoan-zalo-facebook-nham-lua-dao-chiem-doat-tai-san-tren-dia-ban-tinh-1555.html",
+    "https://congan.daklak.gov.vn/-/nhan-dien-va-phong-tranh-thu-oan-lua-ao-lam-nhiem-vu-truc-tuyen-moi-tren-khong-gian-mang",
+    "https://congan.quangninh.gov.vn/thong-bao/thu-doan-toi-pham/canh-bao-tai-dien-thu-doan-hack-tai-khoan-zalo-de-lua-dao-chiem-doat-tai-san-2473.html",
+    "https://congan.longan.gov.vn/vi/chi-tiet-tin-tuc?Id=194700",
+    "https://congan.longan.gov.vn/vi/chi-tiet-tin-tuc?Id=133438",
+    "https://kenh14.vn/hang-chuc-trieu-nguoi-dung-zalo-chu-y-phat-hien-dau-hieu-nay-can-phai-doi-mat-khau-ngay-lap-tuc-215251208173144332.chn",
+    "https://nhandan.vn/canh-giac-voi-thu-doan-chiem-quyen-su-dung-zalo-facebook-de-lua-dao-post779948.html",
+    "https://nld.com.vn/chieu-tro-gia-mao-nhan-vien-thu-tien-dien-co-the-khien-nhieu-nguoi-mac-bay-196250113122231568.htm",
+    "https://conganthanhhoa.gov.vn/tin-tuc-su-kien/tin-an-ninh-trat-tu/canh-giac-voi-thu-doan-lua-chot-don-hang-kiem-tien-online-.html",
+    "https://vnexpress.net/mat-nua-ty-dong-vi-chieu-lua-lam-nhiem-vu-online-4831957.html",
+    "https://congan.quangtri.gov.vn/nhan-dien-mot-so-thu-doan-lua-dao-bang-cong-nghe-cao/",
+    "https://bidv.com.vn/bidv/ca-nhan/thong-bao/thay-doi-mang-luoi/canh-bao-lua-dao-lam-nhiem-vu-online-nhan-hoa-hong",
+    "https://kenh14.vn/mot-ngan-hang-lon-canh-bao-thu-doan-lua-dao-cai-dat-ung-dung-gia-mao-co-kha-nang-thu-thap-sinh-trac-hoc-dieu-khien-thiet-bi-chuyen-tien-215241226093804048.chn",
+    "https://www.xaluannews.com/modules.php?name=News\u0026file=article\u0026sid=3745557",
+    "https://traderviet.tv/t/cai-ung-dung-la-nguy-co-mat-sach-tien-trong-tai-khoan.116304/",
+    "https://thanhnien.vn/canh-bao-chieu-lua-dao-moi-loi-dung-google-tasks-de-danh-cap-tai-khoan-185260305110200184.htm",
+    "https://traderviet.tv/t/bat-nhom-lua-dao-viet-nam-han-quoc-chiem-doat-so-tien-rat-lon.116509/",
+    "https://www.sucmanhso.vn/post/kaspersky-phat-hien-hinh-thuc-lua-dao-moi-loi-dung-google-tasks-danh-lua-nguoi-dung-doanh-nghiep"
+  ],
+  "latency_ms": 88610
+}

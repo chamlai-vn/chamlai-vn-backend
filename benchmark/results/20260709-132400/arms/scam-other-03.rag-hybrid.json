@@ -1,0 +1,30 @@
+{
+  "case_id": "scam-other-03",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Tin nhắn từ số điện thoại lạ giả danh ngân hàng",
+      "Thông báo hoạt động bất thường và yêu cầu xác minh gấp để tạo áp lực",
+      "Link giả mạo trong tin nhắn dẫn đến trang web nhái",
+      "Yêu cầu cung cấp mã OTP (thông tin nhạy cảm)",
+      "Yêu cầu nhập mật khẩu ATM",
+      "Dụ dỗ tải ứng dụng lạ (SecurityCheck_Bank) giả danh ứng dụng ngân hàng chính thức",
+      "Kết quả thực tế: mất tiền từ nhiều giao dịch trái phép sau khi tải app và nhập thông tin"
+    ],
+    "matched_patterns": [
+      "recovery_scam",
+      "impersonation_authority"
+    ],
+    "recommended_actions": [
+      "Đừng bao giờ nhập mã OTP, mật khẩu ATM hoặc thông tin cá nhân qua link từ tin nhắn hoặc email lạ",
+      "Khi nhận cuộc gọi hoặc tin nhắn thông báo hoạt động bất thường từ tài khoản, hãy gọi trực tiếp số tổng đài chính thức của ngân hàng (tìm số trên thẻ ATM hoặc website chính thức) để xác minh, đừng sử dụng số điện thoại có trong tin nhắn nhận được",
+      "Chỉ tải ứng dụng ngân hàng từ Google Play Store hoặc Apple App Store, không bao giờ từ link tin nhắn hoặc email",
+      "Không tin những cuộc gọi bất ngờ từ số lạ, ngay cả khi chúng tự xưng là nhân viên ngân hàng hoặc cơ quan chính phủ",
+      "Nếu phát hiện tài khoản bị trừ tiền bất thường, lập tức liên hệ ngân hàng để khóa tài khoản, thay đổi mật khẩu và yêu cầu hủy giao dịch trái phép",
+      "Nên báo cáo cho cảnh sát công nghệ cao hoặc công an địa phương về sự việc này"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 7578
+}

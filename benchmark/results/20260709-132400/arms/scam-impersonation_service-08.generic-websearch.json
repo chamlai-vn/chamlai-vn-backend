@@ -1,0 +1,48 @@
+{
+  "case_id": "scam-impersonation_service-08",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Giả danh nhân viên nhà mạng Viettel",
+      "Tạo áp lực thời gian '30 phút' để đe dọa khóa thuê bao",
+      "Yêu cầu cung cấp mã OTP qua điện thoại — hoàn toàn bất hợp lệ",
+      "Giọng nói lạ, phát âm sai tên công ty",
+      "Liên tục gọi điện để tạo áp lực tâm lý",
+      "Yêu cầu truy cập ứng dụng My Viettel để 'hỗ trợ nâng cấp dịch vụ'"
+    ],
+    "matched_patterns": [
+      "Giả danh nhân viên nhà mạng (Viettel)",
+      "Tạo áp lực thời gian để thúc ép nạn nhân",
+      "Yêu cầu mã OTP qua điện thoại",
+      "Đe dọa khóa thuê bao/dịch vụ để ép thanh toán"
+    ],
+    "recommended_actions": [
+      "Báo cáo số điện thoại lừa đảo cho cơ quan công an gần nhất hoặc qua Cổng thông tin phòng chống lừa đảo",
+      "Kiểm tra bảo mật tài khoản MyViettel: không cung cấp mật khẩu/mã OTP, đổi mật khẩu ngay nếu nghi ngờ đã bị lộ",
+      "Liên hệ ngân hàng ngay nếu có lo ngại về tài khoản liên kết hoặc phát sinh giao dịch bất thường",
+      "Chia sẻ thông tin cảnh báo với người thân, đặc biệt là người cao tuổi hoặc không rành công nghệ",
+      "Nếu có vấn đề về SIM/cước, hãy đến trực tiếp cửa hàng/đại lý/trung tâm giao dịch của nhà mạng"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 XÁC NHẬN: ĐÂY LÀ LỪA ĐẢO 100%!\n\nBạn đã xử lý rất đúng đắn khi cúp máy và gọi xác nhận với hotline Viettel thật. Dưới đây là phân tích chi tiết về vụ việc của bạn:\n\n---\n\n## ✅ Tại sao đây chắc chắn là lừa đảo?\n\n### 1. 🎭 Đây là chiêu thức đã được cơ quan công an cảnh báo chính thức\n\nCông an tỉnh Sơn La đã phát đi cảnh báo về các thủ đoạn lừa đảo tinh vi của các đối tượng giả danh nhân viên nhà mạng Viettel nhằm chiếm đoạt thông tin cá nhân và tài sản của người dân.\n\n### 2. ⏱️ Chiêu tạo áp lực thời gian \"30 phút\" là dấu hiệu điển hình\n\nTheo cơ quan công an, các đối tượng lừa đảo thường thay đổi chiêu trò để qua mặt người dân. Một thủ đoạn phổ biến là giả vờ thông báo thuê bao đang nợ cước và đe dọa sẽ khóa một chiều sau 30 phút, thậm chí khóa hoàn toàn nếu không thanh toán trong vòng một giờ.\n\nChúng liên tục gọi điện để tạo áp lực tâm lý, khiến nạn nhân lo lắng và dễ mất cảnh giác.\n\n### 3. 📱 Yêu cầu mã OTP qua điện thoại là BẤT HỢP LỆ hoàn toàn\n\nNhân viên Viettel **không yêu cầu** khách hàng cung cấp bất kỳ mã OTP nào qua điện thoại.\n\nNgoài ra, cơ quan nhà nước và các nhà mạng **không bao giờ** gọi điện yêu cầu người dân đọc mã OTP, mật khẩu hay chuyển tiền để thực hiện xác thực thông tin thuê bao di động.\n\n### 4. 💸 Hậu quả nếu bạn đã làm theo có thể rất nghiêm trọng\n\nCác đối tượng lừa đảo yêu cầu truy cập ứng dụng My Viettel và cung cấp mã OTP để \"hỗ trợ nâng cấp dịch vụ\", sau đó chiếm đoạt tiền trong **tài khoản ngân hàng và ví điện tử**.\n\nKhi nạn nhân tin tưởng, các đối tượng yêu cầu cung cấp mã OTP hoặc truy cập liên kết giả mạo. Nhiều trường hợp đã bị trừ tiền oan do đăng ký dịch vụ giá cao hoặc bị **mất quyền kiểm soát tài khoản ngân hàng** nếu cung cấp mã xác thực.\n\n### 5. 📈 Tình trạng này đang gia tăng rất mạnh tại Việt Nam\n\nTrong 6 tháng đầu năm 2025, các vụ lừa đảo tài chính tại Việt Nam gia tăng chóng mặt, với hơn 4.500 tên miền độc hại và hơn 1.000 trang giả mạo được phát hiện.\n\n---\n\n## ✅ Bạn đã làm đúng những gì?\n\n| Hành động của bạn | Đánh giá |\n|---|---|\n| Nhận ra giọng nói lạ, phát âm sai tên công ty | ✅ Nhạy bén |\n| Cúp máy khi nghi ngờ | ✅ Chính xác |\n| Gọi hotline 1800 của Viettel để xác minh | ✅ Hoàn toàn đúng |\n| Không cung cấp OTP hay thông tin ngân hàng | ✅ Bạn đã an toàn |\n\n---\n\n## 🛡️ Bạn nên làm gì tiếp theo?\n\n1. **Báo cáo số điện thoại lừa đảo** cho cơ quan công an gần nhất hoặc qua Cổng thông tin phòng chống lừa đảo. Người dân nếu phát hiện các trường hợp nghi vấn, có dấu hiệu lừa đảo, cần nhanh chóng báo cho cơ quan công an gần nhất để được hỗ trợ kịp thời.\n\n2. **Kiểm tra bảo mật tài khoản**: Để đảm bảo an toàn cho tài khoản MyViettel, tuyệt đối không cung cấp mật khẩu, mã OTP cho người khác. Nếu nghi ngờ đã bị lộ mật khẩu, hãy đổi ngay.\n\n3. **Liên hệ ngân hàng** nếu bạn có bất kỳ lo ngại nào về tài khoản liên kết. Trường hợp số thuê bao nhận được thông báo phát sinh các giao dịch bất thường liên quan đến tài khoản ngân hàng, thẻ tín dụng, khách hàng liên hệ ngay với các ngân hàng, tổ chức tài chính nơi đăng ký tài khoản đề nghị hỗ trợ khẩn cấp.\n\n4. **Chia sẻ thông tin** này với người thân, đặc biệt là người cao tuổi — thủ đoạn này nhằm đánh vào tâm lý lo sợ của người dân, nhất là người cao tuổi hoặc những người không rành công nghệ.\n\n5. **Ghi nhớ**: Nếu có bất kỳ vấn đề gì về SIM/cước, hãy đến trực tiếp cửa hàng, đại lý hoặc trung tâm giao dịch của nhà mạng để được tư vấn chính xác và an toàn.\n\n---\n\n\u003e 💡 **Tóm lại**: Bạn đã thoát khỏi một vụ lừa đảo rất phổ biến và tinh vi. Hãy luôn nhớ: **không cơ quan, nhà mạng nào được phép yêu cầu OTP qua điện thoại — đây luôn là dấu hiệu lừa đảo.**",
+  "sources": [
+    "https://congan.tayninh.gov.vn/vi/chi-tiet-tin-tuc?Id=255836",
+    "https://nguoiquansat.vn/nguoi-dung-mang-viettel-can-canh-giac-xuat-hien-chieu-lua-dao-moi-de-mat-sach-neu-nhe-da-lam-theo-huong-dan-232093.html",
+    "https://congan.sonla.gov.vn/canh-bao-chieu-tro-gia-danh-nhan-vien-viettel-de-chiem-doat-tai-san-nguoi-dung/",
+    "https://thuonghieuvaphapluat.vn/co-quan-cong-an-canh-bao-den-toan-bo-nguoi-dung-viettel-can-than-mat-tien-vz136253.html",
+    "https://cafef.vn/cong-an-canh-bao-thu-doan-lua-dao-hoan-toan-moi-nham-den-tai-khoan-ngan-hang-cua-nguoi-dung-viettel-vinaphone-188260506102020467.chn",
+    "https://nguoiquansat.vn/canh-bao-tu-cong-an-den-toan-bo-nguoi-dung-viettel-232032.html",
+    "https://canhsatbien.vn/portal/thong-tin-tu-lieu/canh-bao-cac-hinh-thuc-lua-dao-chiem-doat-ma-otp",
+    "https://viettelfamily.com/news/vi-viettel-tot-len/lo-lang-nguoi-la-mao-danh-viettel-tu-van-khach-hang",
+    "https://ngoisao.vn/theo-dong-su-kien/doi-song-so/co-quan-cong-an-canh-bao-den-toan-bo-nguoi-dung-viettel-461560.htm",
+    "https://vietteltelecom.vn/tin-tuc/canh-bao-cac-hinh-thuc-lua-dao-chiem-doat-ma-otp/18892140",
+    "https://baohaiquanvietnam.vn/tin-tuc/canh-bao-goi-dien-lua-dao-mao-danh-nha-mang-de-chiem-doat-tai-san",
+    "https://viettelmoney.vn/viettel-khuyen-nghi-khach-hang-chu-dong-bao-mat-thong-tin-ca-nhan/",
+    "https://cafef.vn/viettel-cyber-security-tan-cong-mang-bung-no-tai-viet-nam-trong-quy-3-2025-188251023104353936.chn",
+    "https://ictvietnam.vn/nhung-xu-huong-tan-cong-mang-moi-va-chien-luoc-ung-pho-69988.html",
+    "https://vneconomy.vn/lua-dao-tai-chinh-tang-vot-trong-nua-dau-nam-2025.htm"
+  ],
+  "latency_ms": 56535
+}

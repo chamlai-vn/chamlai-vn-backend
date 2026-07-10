@@ -1,0 +1,28 @@
+{
+  "case_id": "scam-impersonation_service-04",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Mạo danh nhân viên ngân hàng Agribank qua cuộc gọi từ số lạ",
+      "Thông báo hoạt động ghi nợ bất thường (23.5 triệu đồng) để tạo sợ hãi",
+      "Yêu cầu tải ứng dụng giả mạo 'Agribank Shield' từ link SMS",
+      "Tạo áp lực thời gian gấp gáp (10 phút để chặn giao dịch)",
+      "Yêu cầu cung cấp thông tin đăng nhập, mã PIN trực tiếp",
+      "Ứng dụng giả mạo được thiết kế để chiếm quyền truy cập tài khoản ngân hàng",
+      "Kết quả: 23.5 triệu đồng bị chiếm đoạt thành công"
+    ],
+    "matched_patterns": [
+      "Recovery scam - Giả danh ngân hàng để lừa \"thu hồi tiền treo\": Đối tượng liên hệ qua điện thoại giả danh nhân viên Agribank, thông báo có giao dịch lỗi/bất thường cần xử lý gấp, yêu cầu tải ứng dụng \"kiểm tra tài khoản\" (thực chất là phần mềm độc hại)"
+    ],
+    "recommended_actions": [
+      "Liên hệ ngân hàng Agribank chính thức (gọi số tổng đài 1900 1828) để báo cáo sự cố lừa đảo và yêu cầu hỗ trợ khóa tài khoản, điều tra giao dịch bất thường",
+      "Nộp đơn tố cáo tới công an địa phương với toàn bộ thông tin: số điện thoại kẻ lừa, link SMS, thời gian gọi, chi tiết giao dịch mất tiền",
+      "Yêu cầu ngân hàng khóa thẻ, tài khoản và theo dõi các giao dịch tiếp theo để ngăn chặn mất tiền thêm",
+      "Ghi nhớ rằng ngân hàng, công an không bao giờ yêu cầu chuyển tiền hoặc cài ứng dụng qua cuộc gọi để xác minh",
+      "Kiểm tra thiết bị (điện thoại) có bị cài phần mềm độc hại khác, cân nhắc khôi phục lại hoặc nâng cấp bảo mật"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 8947
+}

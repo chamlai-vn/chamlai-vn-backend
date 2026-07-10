@@ -1,0 +1,48 @@
+{
+  "case_id": "scam-investment_fraud-03",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Đối tượng mạo danh chuyên gia tài chính ('Ms. Linda - Forex Expert') với tài khoản mạng xã hội hào nhoáng và thông tin phân tích thị trường giả tạo uy tín",
+      "Lôi kéo nạn nhân vào nhóm kín trên Telegram/Zalo/Facebook với hứa hẹn 'bí quyết đầu tư' hay 'kèo chắc thắng'",
+      "Nhóm 500 thành viên và các 'bằng chứng lợi nhuận' đều là giả, các thành viên đăng chứng minh lợi nhuận thực chất là đồng bọn",
+      "Ứng dụng 'ForexPro Global' là ứng dụng giả mạo hoàn toàn, không kết nối với sàn giao dịch thật; số dư 6,5 triệu trên màn hình là số ảo do đối tượng tự chỉnh sửa",
+      "Yêu cầu đóng 'phí xác minh tài khoản quốc tế' sau khi nạn nhân đã nạp tiền — chiêu 'tầng nấc' kinh điển để lấy thêm tiền",
+      "Sau khi lấy đủ tiền, đối tượng chặn liên lạc và xóa mọi dấu vết tài khoản (biến mất)"
+    ],
+    "matched_patterns": [
+      "Giả mạo chuyên gia tài chính/môi giới đầu tư trên mạng xã hội",
+      "Lừa đảo qua nhóm kín Telegram/Zalo/Facebook (pig butchering / nhóm đầu tư giả)",
+      "Sàn giao dịch Forex/tiền ảo giả mạo (app giả)",
+      "Chiêu 'tầng nấc' — yêu cầu đóng phí để rút tiền"
+    ],
+    "recommended_actions": [
+      "TUYỆT ĐỐI KHÔNG chuyển thêm bất kỳ khoản tiền nào, dù đối tượng hứa hẹn 'nộp thêm là rút được tiền về'",
+      "Thu thập và lưu lại toàn bộ bằng chứng: ảnh chụp màn hình tin nhắn với 'Ms. Linda' trên Zalo, ảnh chụp màn hình ứng dụng 'ForexPro Global', biên lai chuyển khoản ngân hàng (2 lần: 5 triệu + 2 triệu), số tài khoản ngân hàng đã chuyển tiền vào, số điện thoại/tài khoản Zalo của kẻ lừa đảo",
+      "Trình báo ngay tại Công an phường/xã nơi cư trú hoặc liên hệ Phòng An ninh mạng và Phòng chống tội phạm sử dụng công nghệ cao thuộc Công an tỉnh/thành phố",
+      "Liên hệ ngân hàng để cung cấp thông tin tài khoản nhận tiền, phối hợp truy vết dòng tiền nhằm hỗ trợ điều tra"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 KHẲNG ĐỊNH: Anh bạn đã bị lừa đảo 100%!\n\nĐây là một vụ lừa đảo **cực kỳ điển hình và phổ biến** tại Việt Nam, được cơ quan chức năng cảnh báo nhiều lần. Hãy để tôi phân tích chi tiết từng dấu hiệu:\n\n---\n\n## 🔍 TẠI SAO ĐÂY LÀ LỪA ĐẢO?\n\n### 1. Kịch bản \"copy-paste\" của tội phạm có tổ chức\n\nCác đối tượng thường mạo danh chuyên gia tài chính bằng cách lập tài khoản mạng xã hội với hình ảnh hào nhoáng, đăng tải thông tin phân tích thị trường nghe có vẻ chuyên nghiệp để tạo dựng uy tín giả. Sau khi chiếm được lòng tin, chúng lôi kéo nạn nhân vào những nhóm kín trên Telegram, Zalo hay Facebook và hứa hẹn sẽ cung cấp \"bí quyết đầu tư\" hay \"kèo chắc thắng\". — \"Ms. Linda - Forex Expert\" chính là nhân vật giả mạo theo đúng kịch bản này.\n\n### 2. Nhóm 500 thành viên và những \"bằng chứng lợi nhuận\" đều là giả\n\nHệ thống lừa đảo hoạt động chuyên nghiệp và có tổ chức. Các đối tượng thường hoạt động theo nhóm, phân chia vai trò rõ ràng: người xây dựng hệ thống, người tuyển mộ nạn nhân, và người vận hành sàn giao dịch. Điều này khiến nạn nhân bị \"vây\" bởi một mạng lưới lừa đảo tinh vi, khó nhận diện. Các thành viên \"đăng chứng minh lợi nhuận\" kia thực chất là đồng bọn của chúng.\n\n### 3. App \"ForexPro Global\" là ứng dụng giả mạo hoàn toàn\n\n\"Tất cả các hoạt động của người dùng đều chỉ diễn ra trên hệ thống giả mạo, không có kết nối gì với các sàn giao dịch chứng khoán, tiền ảo hay ngoại hối thật. Các đối tượng lừa đảo có thể dễ dàng tăng giảm giá trị của các mã chứng khoán, tiền ảo, ngoại tệ để tạo ra lãi giả cho tài khoản của người dùng. Từ đó kích thích lòng tham và lừa nạn nhân nạp thêm tiền vào hệ thống giả mạo này.\" Con số 6,5 triệu anh thấy trên màn hình chỉ là **số ảo do bọn chúng tự chỉnh sửa**, không có tiền thật nào cả.\n\n### 4. \"Phí xác minh tài khoản quốc tế\" là bẫy thứ hai\n\nKhi nạn nhân đã sập bẫy, chúng lại dựng thêm nhiều tầng nấc lừa đảo, yêu cầu chuyển tiền với danh nghĩa \"đóng phí\" hoặc \"hỗ trợ lấy lại vốn\", khiến người bị hại càng thiệt hại nặng nề. Đây là chiêu \"tầng nấc\" kinh điển — sau khi đòi thêm được, chúng sẽ mất tích.\n\n### 5. Sau khi lấy đủ tiền thì \"bốc hơi\"\n\nKhi giao dịch thành công, tội phạm sẽ thực hiện các biện pháp như chặn liên lạc, xóa mọi dấu vết của tài khoản đã sử dụng liên lạc. Đây chính xác là những gì đã xảy ra với anh bạn.\n\n---\n\n## ⚖️ GÓC ĐỘ PHÁP LÝ\n\nNgân hàng Nhà nước Việt Nam chưa cấp phép cho bất kỳ tổ chức, cá nhân nào kinh doanh hình thức sàn ngoại hối (Forex). Do đó, mọi hình thức tổ chức kinh doanh, giao dịch sàn Forex đều là phạm pháp và sẽ được xử lý theo quy định của pháp luật.\n\nTrường hợp nhân viên môi giới hay sàn Forex sử dụng các chiêu trò gian dối, khiến nhà đầu tư thua lỗ, mất tiền có thể bị xử lý hình sự về Tội sử dụng mạng máy tính, mạng viễn thông, phương tiện điện tử thực hiện hành vi chiếm đoạt tài sản tại Điều 290 Bộ luật Hình sự 2015, sửa đổi bổ sung năm 2017.\n\n---\n\n## ✅ ANH BẠN CẦN LÀM NGAY BÂY GIỜ\n\n### Bước 1: Thu thập bằng chứng\nLưu lại toàn bộ:\n- 📸 Ảnh chụp màn hình các tin nhắn với \"Ms. Linda\" trên Zalo\n- 📸 Ảnh chụp màn hình ứng dụng \"ForexPro Global\"\n- 🏦 Biên lai chuyển khoản ngân hàng (2 lần: 5 triệu + 2 triệu)\n- 📋 Số tài khoản ngân hàng đã chuyển tiền vào\n- 📱 Số điện thoại/tài khoản Zalo của kẻ lừa đảo\n\n### Bước 2: Trình báo công an\nNếu phát hiện dấu hiệu nghi vấn hoặc đã trở thành nạn nhân, người dân cần nhanh chóng báo cho cơ quan công an gần nhất để được hỗ trợ và xử lý kịp thời.\n\nAnh bạn nên đến **Công an phường/xã nơi cư trú** hoặc liên hệ thẳng **Phòng An ninh mạng và Phòng, chống tội phạm sử dụng công nghệ cao** thuộc Công an tỉnh/thành phố.\n\n### Bước 3: Liên hệ ngân hàng\nCung cấp thông tin tài khoản nhận tiền cho ngân hàng để phối hợp truy vết dòng tiền (dù khả năng phong tỏa thấp nếu đã lâu, nhưng vẫn cần làm để hỗ trợ điều tra).\n\n---\n\n## ⚠️ CẢNH BÁO QUAN TRỌNG\n\n\u003e **TUYỆT ĐỐI KHÔNG** chuyển thêm bất kỳ đồng nào nữa, dù chúng có hứa hẹn \"nộp thêm là rút được tiền về\". Phía các đối tượng vẫn có thể liên lạc và yêu cầu đóng thêm tiền. \"Nếu mình nộp thêm tiền thì may ra còn có khả năng lấy lại được\" — đây là tâm lý mà chúng khai thác để tiếp tục lấy tiền của nạn nhân.\n\n---\n\n## 💬 LỜI NHẮN CHO ANH BẠN\n\nXin đừng quá tự trách bản thân. Đây là hình thức lừa đảo đã diễn ra khá phổ biến, dù chiêu trò của các đối tượng không mới nhưng rất tinh vi, vì thế vẫn có nhiều người dùng mạng xã hội bị lừa. Hàng nghìn người Việt Nam đã là nạn nhân của các vụ tương tự. Việc quan trọng nhất lúc này là **trình báo công an càng sớm càng tốt** để góp phần giúp cơ quan chức năng triệt phá đường dây và bảo vệ người khác khỏi bẫy tương tự.",
+  "sources": [
+    "https://cadn.com.vn/mr-pips-va-chieu-lua-kiem-tien-nhanh-tu-dau-tu-ngoai-hoi-post305802.html",
+    "https://congan.dongthap.gov.vn/en/chi-tiet-bai-viet/-/asset_publisher/wbj7qfWZntAi/content/id/19473257",
+    "https://hatinh.gov.vn/vi/bai-viet/canh-giac-thu-doan-lua-dao-dau-tu-tai-chinh-qua-mang",
+    "https://congan.dongthap.gov.vn/en/chi-tiet-bai-viet/-/asset_publisher/wbj7qfWZntAi/content/id/7147949",
+    "https://www.nait.vn/pckns/canh-bao-thu-doan-lua-dao-goi-dien-moi-tham-gia-hoi-nhom-telegram-zalo-dau-tu-tai-chinh-847.html",
+    "https://cafef.vn/cong-an-chi-ra-danh-sach-cac-san-giao-dich-lua-dao-mot-nguoi-phu-nu-da-mat-hang-tram-trieu-dong-188250928163553975.chn",
+    "https://vtv.vn/phap-luat/triet-pha-duong-day-lua-dao-forex-xuyen-bien-gioi-chiem-doat-hon-1800-ty-dong-20230728110054739.htm",
+    "https://traderviet.tv/t/danh-sach-san-giao-dich-lua-dao-doi-lot-dau-tu-tai-chinh-4-0-tiep-tuc-noi-dai.90694/",
+    "https://thuonghieucongluan.com.vn/lat-tay-chieu-tro-lua-dao-dau-tu-san-ngoai-hoi-forex-dung-mang-tien-cho-ke-lua-dao-a168139.html",
+    "https://danviet.vn/tu-cau-chuyen-nan-nhan-bi-bo-bua-choi-forex-van-con-nhieu-sieu-lua-dao-nhu-mr-pips-pho-duc-nam-o-viet-nam-20241213151257404-d1200183.html",
+    "https://baophapluat.vn/canh-giac-thu-doan-lua-dao-tu-cac-san-chung-khoan-san-forex-ma-tren-mang-post516415.html",
+    "https://luatduonggia.vn/phap-luat/bi-lua-dao-dau-tu-tien-ao-ngoai-hoi-forex-phai-lam-the-nao/",
+    "https://tuoitre.vn/lai-mat-tien-ti-voi-forex-20231115081546707.htm",
+    "https://vov.vn/phap-luat/chuyen-gia-lat-tay-manh-khoe-lua-dao-san-giao-dich-ngoai-hoi-chung-khoan-post1142913.vov",
+    "https://vietnamnet.vn/he-luy-don-dau-tu-dam-me-dau-tu-tren-cac-san-kinh-doanh-forex-trai-phep-2499771.html",
+    "https://vov.gov.vn/dau-tu-tren-san-giao-dich-forex-la-mang-tien-cho-ke-lua-dao-dtnew-374740"
+  ],
+  "latency_ms": 78883
+}

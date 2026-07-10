@@ -1,0 +1,28 @@
+{
+  "case_id": "scam-impersonation_service-01",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Đường link ngân hàng giả mạo (techcombank-verify.com thay vì tên miền chính thức)",
+      "Yêu cầu xác thực qua link lạ thay vì ứng dụng/website chính thức của ngân hàng",
+      "Tạo cảm giác khẩn cấp với thông báo giao dịch bất thường",
+      "Cấp mã OTP trong tin nhắn để dụ dỗ nạn nhân truy cập link",
+      "Số hotline giả mạo (1800-9998 không phải số chính thức Techcombank)",
+      "Thiết kế thông báo giống tin nhắn chính thức của ngân hàng để tăng độ thuyết phục"
+    ],
+    "matched_patterns": [
+      "Giả danh ngân hàng, công an, luật sư lừa 'thu hồi tiền treo'",
+      "Phát tán link độc hại mạo danh cơ quan/doanh nghiệp"
+    ],
+    "recommended_actions": [
+      "Tuyệt đối không click vào link trong tin nhắn, dù giao diện có giống website ngân hàng",
+      "Chủ động mở ứng dụng ngân hàng chính thức hoặc truy cập website chính thức của Techcombank (techcombank.com.vn) để kiểm tra giao dịch",
+      "Gọi trực tiếp hotline chính thức của Techcombank (in trên thẻ ATM hoặc sổ tiết kiệm) để xác minh tình trạng tài khoản, KHÔNG gọi số trong tin nhắn này",
+      "Không bao giờ cung cấp mã OTP cho bất kỳ ai, kể cả khi tự xưng nhân viên ngân hàng",
+      "Nếu phát hiện tài khoản có giao dịch lạ, liên hệ ngân hàng ngay và báo cáo sự cố cho công an địa phương"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 7581
+}

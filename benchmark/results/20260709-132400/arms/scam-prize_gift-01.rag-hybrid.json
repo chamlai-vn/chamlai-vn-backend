@@ -1,0 +1,32 @@
+{
+  "case_id": "scam-prize_gift-01",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Giả danh thương hiệu nổi tiếng (Lazada) qua tài khoản Zalo không chính thức",
+      "Thông báo trúng thưởng bất ngờ mà nạn nhân không tham gia chương trình nào",
+      "Yêu cầu cung cấp thông tin nhạy cảm (CMND, số tài khoản ngân hàng, mã OTP)",
+      "Tạo áp lực thời gian (yêu cầu xác nhận trong 24 giờ)",
+      "Trang web giả mạo giao diện của Lazada để lừa nhập thông tin",
+      "Yêu cầu chuyển tiền phí xử lý để nhận quà giả",
+      "Chuyển đổi điểm liên lạc (từ Zalo sang SMS từ số điện thoại lạ)",
+      "Tài khoản nhận tiền là công ty logistics (Hân Phát), không phải Lazada chính thức"
+    ],
+    "matched_patterns": [
+      "[1] Lừa đảo tặng quà tri ân yêu cầu chuyển tiền phí",
+      "[2] Giả danh công ty/siêu thị tặng quà tri ân, yêu cầu làm nhiệm vụ online để chiếm đoạt tiền",
+      "[4] Giả danh sàn TMĐT yêu cầu chuyển tiền để nhận quà tri ân khách hàng"
+    ],
+    "recommended_actions": [
+      "Không bao giờ tin tưởng thông báo trúng thưởng từ những tài khoản không được xác minh chính thức trên mạng xã hội hoặc Zalo",
+      "Luôn xác minh thông tin bằng cách truy cập trực tiếp ứng dụng/website chính thức của công ty (Lazada.vn), không qua link từ tin nhắn",
+      "Tuyệt đối không cung cấp CMND, số tài khoản ngân hàng, mã OTP cho bất kỳ ai qua điện thoại, Zalo hay email",
+      "Không chuyển tiền phí xử lý, phí nhận quà hay bất kỳ khoản phí nào để nhận giải thưởng",
+      "Nếu nghi ngờ, liên hệ Lazada qua số điện thoại chính thức trên app hoặc website để xác minh",
+      "Báo cáo các tài khoản giả mạo cho Lazada và cảnh sáo Công an về vụ lừa đảo"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 8515
+}

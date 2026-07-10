@@ -1,0 +1,54 @@
+{
+  "case_id": "scam-package_delivery-09",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Tên miền website giả mạo, đáng ngờ: 'vietshipp-logistics.com.vn' không rõ nguồn gốc, không phải website chính thống của bất kỳ đơn vị vận chuyển nào",
+      "Yêu cầu thanh toán phí trước khi nhận hàng – thủ đoạn kinh điển",
+      "Link dẫn đến trang web giả mạo nhằm đánh cắp thông tin cá nhân (địa chỉ, họ tên, số điện thoại, thông tin thẻ ngân hàng)",
+      "Tạo áp lực thời gian '24h' và đe dọa 'phí lưu kho' để gây hoảng loạn, mất cảnh giác",
+      "Số điện thoại lạ không xác minh được nguồn gốc: 0936-527-481"
+    ],
+    "matched_patterns": [
+      "Giả mạo dịch vụ vận chuyển",
+      "Yêu cầu chuyển khoản/thanh toán trước khi nhận hàng",
+      "Tạo áp lực thời gian (urgency)",
+      "Đánh cắp thông tin cá nhân và thông tin ngân hàng qua trang web giả mạo"
+    ],
+    "recommended_actions": [
+      "TUYỆT ĐỐI KHÔNG bấm vào link 'vietshipp-logistics.com.vn'",
+      "TUYỆT ĐỐI KHÔNG chuyển khoản bất kỳ khoản tiền nào",
+      "TUYỆT ĐỐI KHÔNG gọi vào số 0936-527-481 và cung cấp thông tin cá nhân",
+      "Kiểm tra đơn hàng thực tế qua ứng dụng chính thức hoặc website của đơn vị vận chuyển, không qua link lạ",
+      "Xóa tin nhắn và chặn số điện thoại lạ",
+      "Trình báo cơ quan Công an nơi gần nhất nếu nghi ngờ bị lừa đảo",
+      "Chia sẻ cảnh báo đến người thân, bạn bè để tránh trở thành nạn nhân"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## 🚨 ĐÂY LÀ LỪA ĐẢO! Hãy cảnh giác ngay!\n\nTin nhắn trên có **tất cả các dấu hiệu điển hình** của một vụ lừa đảo giả mạo dịch vụ vận chuyển – một thủ đoạn đang bùng phát mạnh tại Việt Nam.\n\n---\n\n### ❌ Tại sao đây là lừa đảo?\n\n**1. Tên miền website giả mạo, đáng ngờ**\nLink `vietshipp-logistics.com.vn` là tên miền **không rõ nguồn gốc**, không phải website chính thống của bất kỳ đơn vị vận chuyển nào. Dấu hiệu nhận biết rõ ràng là địa chỉ người gửi/link xuất phát từ một tên miền hoàn toàn lạ lẫm, không liên quan đến đơn vị vận chuyển.\n\n**2. Yêu cầu thanh toán phí trước khi nhận hàng – thủ đoạn kinh điển**\nThủ đoạn phổ biến nhất hiện nay là các đối tượng lừa đảo gọi điện hoặc nhắn tin yêu cầu khách hàng chuyển khoản tiền hàng hoặc phí vận chuyển trước khi nhận hàng.\n\n**3. Các công ty vận chuyển hợp pháp KHÔNG làm điều này**\nBưu tá/nhân viên giao hàng hợp pháp luôn mặc đồng phục, mang thẻ nhân viên, chủ động liên hệ trước khi giao hàng và tuyệt đối không yêu cầu chuyển khoản trước.\n\n**4. Nếu bạn bấm vào link, nguy cơ rất lớn**\nSau khi truy cập vào đường dẫn, nạn nhân sẽ được chuyển hướng tới trang web giả mạo. Tại đây, trang web sẽ yêu cầu cung cấp các thông tin như địa chỉ nhà, họ tên, số điện thoại, thông tin thẻ ngân hàng... để \"xác minh\" lộ trình giao hàng.\n\n**5. Tạo áp lực thời gian \"24h\" là chiêu tâm lý**\nViệc đặt thời hạn 24h và đe dọa \"phí lưu kho\" là để khiến bạn hoảng loạn, mất cảnh giác và hành động vội vàng – đây là chiêu thức tâm lý phổ biến trong lừa đảo.\n\n**6. Hậu quả có thể rất nghiêm trọng**\nChỉ với một cú bấm \"xác minh thanh toán\", nhiều nạn nhân bị chiếm đoạt thông tin ngân hàng và mất trắng tiền trong tài khoản. Tổng thiệt hại do lừa đảo trực tuyến gây ra trong năm 2024 ước tính lên đến 18.900 tỷ đồng.\n\n---\n\n### ✅ Bạn cần làm gì ngay bây giờ?\n\n1. **🚫 TUYỆT ĐỐI KHÔNG** bấm vào link `vietshipp-logistics.com.vn`\n2. **🚫 TUYỆT ĐỐI KHÔNG** chuyển khoản bất kỳ khoản tiền nào\n3. **🚫 TUYỆT ĐỐI KHÔNG** gọi vào số `0936-527-481` và cung cấp thông tin cá nhân\n\n4. **✅ Kiểm tra đơn hàng thực tế:** Theo dõi tình trạng đơn hàng trực tiếp qua ứng dụng chính thức hoặc website của đơn vị vận chuyển để xác thực thông tin, thay vì tin vào những cuộc gọi/tin nhắn không xác minh được nguồn gốc.\n\n5. **✅ Xóa tin nhắn và chặn số điện thoại lạ.**\n\n6. **✅ Trình báo cơ quan chức năng:** Trường hợp nghi ngờ bị lừa đảo, cần nhanh chóng trình báo cơ quan Công an nơi gần nhất để được hỗ trợ kịp thời.\n\n7. **✅ Chia sẻ cảnh báo** đến người thân, bạn bè để tránh trở thành nạn nhân.\n\n---\n\n\u003e 💡 **Ghi nhớ:** Bạn không đặt hàng từ \"JapanMart\"? → Đây chắc chắn là lừa đảo. Bạn có đặt hàng thật? → Vẫn phải xác minh qua ứng dụng/website **chính thức** của đơn vị vận chuyển, không qua link lạ.",
+  "sources": [
+    "https://ttbc-hcm.gov.vn/canh-bao-tin-nhan-gia-mao-buu-dien-1020248.html",
+    "https://congan.quangngai.gov.vn/danh-muc-san-pham/-tin-tuc-su-kien/canh-bao-thu-doan-gia-danh-nhan-vien-buu-dien-de-lua-chuyen-khoan.html",
+    "https://vnpost.vn/vi/hoat-dong-nganh/can-trong-de-khong-sap-bay-lua-dao-giao-hang",
+    "http://lsvn.vn/canh-giac-voi-thu-doan-lua-dao-gia-mao-cong-ty-dich-vu-buu-chinh-a152395.html",
+    "https://vnpost.vn/vi/hoat-dong-nganh/canh-bao-khan-lua-dao-mao-danh-buu-dien-viet-nam-kich-hoat-the-hoi-vien-nham-chiem-doat-tai-san",
+    "https://congan.binhthuan.gov.vn/gia-mao-buu-dien-de-lua-dao-chiem-doat-tai-san-N4281.aspx",
+    "https://trithuc24h.com.vn/doi-song/ngan-chan-hanh-vi-gia-mao-buu-dien-de-lua-dao.html",
+    "https://vietnamnet.vn/canh-giac-hanh-vi-gia-danh-nhan-vien-giao-hang-buu-dien-de-lua-dao-2349442.html",
+    "https://vnpost.vn/vi/hoat-dong-nganh/giao-hang-gia-mao-lua-dao-that-canh-bao-tu-nhung-don-hang-chua-giao",
+    "https://kenh14.vn/them-thu-doan-lua-dao-moi-lien-quan-shipper-doc-chuan-xac-thong-tin-don-hang-de-lua-sach-tien-trong-tai-khoan-215260626185651735.chn",
+    "https://www.youtube.com/watch?v=2QEdeXkqihs",
+    "https://vantage-logistics.com.vn/phong-ngua-rui-ro-lua-dao-va-nang-cao-uy-tin-trong-nganh-logistics-voi-chung-nhan-fmc-bv251.htm",
+    "https://vla.com.vn/tranh-bay-gian-lan-thuong-mai-quoc-te/",
+    "https://vlr.vn/mot-vu-lua-dao-tinh-vi-bang-nghiep-vu-logistics-thong-thuong-5625.html",
+    "https://tinhte.vn/thread/viet-trung-logistics-lua-dao.2876050/",
+    "https://www.youtube.com/watch?v=oxqNBNxPXwk",
+    "https://thienngaden.com/lua-dao-logistics-nhung-chieu-thuc-va-canh-giac-cho-doanh-nghiep-van-tai/",
+    "https://camnangxnk-logistics.net/canh-bao-cac-vu-lua-dao-khi-giao-dich-quoc-te/",
+    "https://hatinh.gov.vn/bai-viet/lua-dao-mao-danh-shipper-giao-hang-nhan-chuyen-khoan-tien",
+    "https://logistics.gov.vn/nganh-hangthi-truong/canh-bao-thu-doan-lua-dao-moi-trong-buon-ban-quoc-te"
+  ],
+  "latency_ms": 47268
+}

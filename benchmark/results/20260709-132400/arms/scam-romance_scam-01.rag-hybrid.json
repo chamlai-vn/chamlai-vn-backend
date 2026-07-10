@@ -1,0 +1,30 @@
+{
+  "case_id": "scam-romance_scam-01",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Tài khoản kết bạn từ ứng dụng hẹn hò với ngoại hình đẹp, tự xưng là nhân vật nước ngoài có khả năng tài chính tốt",
+      "Yêu cầu chuyển tiền chỉ sau 2 tuần nối chuyện với lý do 'chứng minh tình cảm' và đặt cọc chuyến bay",
+      "Liên tục yêu cầu chuyển tiền thêm với các lý do: chi phí visa, bảo hiểm y tế",
+      "Tổng số tiền chuyển lớn (23 triệu đồng) trong thời gian ngắn (1 tháng)",
+      "Từ chối video call hoặc chia sẻ thông tin cá nhân cụ thể khi bị hỏi",
+      "Khóa tài khoản và biến mất hoàn toàn sau khi nạn nhân hết tiền hoặc nghi ngờ",
+      "Xác nhận các ảnh đều là hình ảnh giả mạo (tìm kiếm ngược trên Google trả về kết quả)",
+      "Sử dụng số điện thoại VoIP giả định để tạo dấu hiệu xác thực"
+    ],
+    "matched_patterns": [
+      "Giả danh doanh nhân qua ứng dụng hẹn hò lôi kéo đầu tư tài chính",
+      "Romance scam kết hợp lừa đảo tài chính (yêu cầu tiền qua các lý do tinh vi)"
+    ],
+    "recommended_actions": [
+      "Báo cáo tài khoản 'Mark' lên nền tảng Bumble với bằng chứng lừa đảo để hệ thống ngăn chặn các tài khoản tương tự",
+      "Liên hệ ngay với ngân hàng nơi chuyển tiền để cố gắng khóa/hoàn lại giao dịch nếu còn thời hạn",
+      "Giữ lại toàn bộ bằng chứng cuộc trò chuyện, ảnh tin nhắn, thông tin chuyển khoản và báo cáo cho cơ quan Công an để lập hồ sơ điều tra",
+      "Tìm kiếm hỗ trợ tâm lý từ bạn bè, gia đình hoặc các dịch vụ tư vấn để vượt qua sự tổn thương; không có lý do để xấu hổ vì những kẻ lừa đảo tinh vi rất khéo trong việc khai thác tình cảm",
+      "Trong tương lai, không chuyển khoản cho người lạ trên ứng dụng hẹn hò, đặc biệt sau thời gian quen biết ngắn; luôn xác minh danh tính qua video call trực tiếp và kiểm tra nguồn ảnh trước khi tin tưởng"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 9859
+}

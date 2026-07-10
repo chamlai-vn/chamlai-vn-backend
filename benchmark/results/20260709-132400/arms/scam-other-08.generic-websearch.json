@@ -1,0 +1,51 @@
+{
+  "case_id": "scam-other-08",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Yêu cầu nộp phí/thuế trước để nhận thưởng — không có cơ sở pháp lý",
+      "Giả danh nhân viên ngân hàng thông báo trúng thưởng/nhận quà/nâng hạng VIP",
+      "Khoản 'phí xác minh' có thể leo thang thành nhiều khoản phí tiếp theo",
+      "Tin nhắn đến từ tài khoản/số lạ, không phải kênh chính thức của ngân hàng",
+      "Sau khi nhận tiền, kẻ gian cắt liên lạc, khóa hoặc xóa tài khoản"
+    ],
+    "matched_patterns": [
+      "Giả danh nhân viên ngân hàng",
+      "Lừa đảo thông báo trúng thưởng/nhận quà"
+    ],
+    "recommended_actions": [
+      "KHÔNG chuyển tiền dù chỉ một khoản nhỏ",
+      "KHÔNG cung cấp thông tin cá nhân nhạy cảm như tên tuổi, địa chỉ, số tài khoản, mã OTP",
+      "Chủ động xác minh thông tin qua tổng đài chính thức của ngân hàng hoặc đến trực tiếp chi nhánh",
+      "Chụp màn hình và lưu lại bằng chứng (tin nhắn, số tài khoản, tên người liên hệ)",
+      "Trình báo cơ quan công an nơi gần nhất nếu đã bị lừa",
+      "Chặn và báo cáo tài khoản liên hệ"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## 🚨 ĐÂY LÀ LỪA ĐẢO 100%! Em hãy DỪNG LẠI NGAY và KHÔNG chuyển tiền!\n\nTin nhắn em nhận được là **một chiêu lừa đảo cực kỳ phổ biến tại Việt Nam**, được cơ quan công an cảnh báo rộng rãi. Dưới đây là phân tích chi tiết:\n\n---\n\n### 🔴 TẠI SAO ĐÂY LÀ LỪA ĐẢO?\n\n**1. Ngân hàng thật KHÔNG BAO GIỜ yêu cầu nộp phí trước để nhận thưởng**\n\nCác chương trình trúng thưởng hợp pháp không yêu cầu chuyển phí trước. Nếu có thuế, khoản này sẽ được khấu trừ trực tiếp vào giá trị giải thưởng hoặc người nhận thưởng phải tự quyết toán thuế — chứ không phải nộp trước cho người lạ.\n\n**2. Đây là thủ đoạn giả danh nhân viên ngân hàng rất phổ biến**\n\nLợi dụng nhu cầu sử dụng dịch vụ ngân hàng trực tuyến ngày càng phổ biến, các đối tượng tội phạm liên tục tung ra chiêu trò giả danh nhân viên ngân hàng thông báo \"nhận điểm thưởng\", \"quy đổi quà tặng\", \"nâng hạng khách hàng VIP\" nhằm đánh cắp thông tin tài khoản và chiếm đoạt tài sản của người dân.\n\n**3. Khoản \"phí xác minh\" là bẫy — và sẽ còn tiếp tục leo thang**\n\nKhoản \"phí nhận thưởng\" này không có bất kỳ cơ sở pháp lý nào. Sau khi chuyển tiền, nạn nhân sẽ không nhận được giải thưởng, không được hoàn tiền và kẻ gian thường cắt liên lạc hoặc tiếp tục bịa thêm các khoản phí khác để chiếm đoạt thêm tiền.\n\n**4. Tài khoản lạ liên hệ = dấu hiệu lừa đảo rõ ràng**\n\nTin nhắn trúng thưởng từ số lạ là dấu hiệu rất phổ biến của lừa đảo và không nên tin tưởng.\n\n**5. Sau khi lấy tiền, chúng sẽ \"bốc hơi\"**\n\nKhi nạn nhân chuyển khoản \"phí nhận thưởng\", số tiền này gần như không thể thu hồi ngay. Sau khi nhận được tiền, kẻ gian thường nhanh chóng cắt liên lạc, khóa hoặc xóa tài khoản sử dụng để giao dịch.\n\n**6. Đây là loại lừa đảo phổ biến thứ 2 tại Việt Nam**\n\nThủ đoạn lừa thông báo trúng thưởng, nhận quà để chiếm đoạt tiền đứng thứ 2 về độ phổ biến trong các hình thức lừa đảo trực tuyến tại Việt Nam.\n\n---\n\n### ✅ EM CẦN LÀM GÌ NGAY BÂY GIỜ?\n\n| Việc cần làm | Chi tiết |\n|---|---|\n| 🚫 **KHÔNG chuyển tiền** | Dù chỉ 500K — đó là bước đầu để chúng tiếp tục lấy thêm |\n| 🚫 **KHÔNG cung cấp thông tin cá nhân** | Tuyệt đối không cung cấp các thông tin nhạy cảm như tên tuổi, địa chỉ, số tài khoản ngân hàng, mã OTP khi đối tượng yêu cầu. |\n| 📞 **Xác minh trực tiếp với ngân hàng** | Khi nhận được cuộc gọi tự xưng là nhân viên ngân hàng, người dân cần chủ động xác minh thông tin qua tổng đài chính thức hoặc trực tiếp đến chi nhánh giao dịch để kiểm tra. |\n| 🖼️ **Lưu bằng chứng** | Chụp màn hình tin nhắn, lưu số tài khoản, tên người liên hệ |\n| 🚔 **Trình báo công an** | Nếu phát hiện bị lừa đảo, người dân cần nhanh chóng thông báo cho cơ quan công an nơi gần nhất. |\n\n---\n\n### 💡 GHI NHỚ NGUYÊN TẮC VÀNG:\n\n\u003e **\"Không có chương trình trúng thưởng hợp pháp nào yêu cầu em phải nộp tiền TRƯỚC để nhận thưởng.\"**\n\nEm hoàn toàn làm đúng khi nghi ngờ và hỏi trước khi hành động! Hãy chặn và báo cáo tài khoản đó ngay nhé! 💪",
+  "sources": [
+    "https://www.dnse.com.vn/hoc/lua-trung-thuong-lay-phi-nhan-tien",
+    "https://congan.quangngai.gov.vn/danh-muc-san-pham/-tin-tuc-su-kien/co-the-ban-chua-biet/canh-giac-thu-doan-lua-dao-gia-danh-ngan-hang-thong-bao-nhan-diem-thuong.html",
+    "https://bidv.com.vn/bidv/tin-tuc/tin-ve-bidv/canh-bao-cac-hinh-thuc-lua-dao-trong-linh-vuc-ngan-hang",
+    "https://truongdinh.haibatrung.hanoi.gov.vn/an-ninh-quoc-phong/-/asset_publisher/UByp2W88WPKe/content/nhan-dien-nhung-chieu-tro-lua-ao-nhan-qua-trung-thuong",
+    "https://dantri.com.vn/kinh-doanh/cac-chieu-thuc-lua-dao-cuom-tien-tu-tai-khoan-ngan-hang-20250121174108648.htm",
+    "https://congan.quangtri.gov.vn/nhan-dien-mot-so-thu-doan-lua-dao-bang-cong-nghe-cao/",
+    "https://doanhnghiepcuocsong.vn/canh-giac-thu-doan-gia-danh-ngan-hang-thong-bao-nhan-diem-thuong-de-lua-dao-a260427.html",
+    "https://www.seabank.com.vn/tin-tuc/tu-van-dich-vu/tu-van--meo/cach-lay-lai-tien-da-chuyen-khoan-khi-bi-lua-huong-dan-chi-tiet-va-day-du",
+    "https://thanhnien.vn/canh-giac-thu-doan-doi-diem-thuong-den-cuoc-goi-khong-noi-gi-185260628090926779.htm",
+    "https://nld.com.vn/kinh-te/vach-tran-6-chieu-lua-dao-chiem-doat-tien-trong-tai-khoan-ngan-hang-20210802152312462.htm",
+    "https://nhandan.vn/canh-giac-voi-thu-doan-lua-trung-thuong-post933798.html",
+    "https://congan.ninhbinh.gov.vn/canh-bao-thu-doan-su-dung-livestream-cao-ve-so-trung-thuong-de-lua-dao-chiem-doat-tai-san",
+    "https://vietbao.vn/thu-doan-livestream-cao-ve-trung-thuong-cong-an-canh-bao-chieu-lua-moi-596105.html",
+    "https://congan.hatinh.gov.vn/tin-tuc-su-kien/an-ninh-trat-tu/canh-giac-thu-doan-lua-dao-voi-chieu-tro-livestream-quay-so-trung-thuong-1758512051.caht",
+    "https://congan.baria-vungtau.gov.vn/vi/chi-tiet-tin-tuc?Id=72",
+    "https://congan.vinhlong.gov.vn/en/tin-tuc/-/journal_content/56_INSTANCE_sJaRkI9m9m1g/10180/1973266",
+    "https://congan.quangngai.gov.vn/danh-muc-san-pham/-tin-tuc-su-kien/canh-bao-hinh-thuc-lua-dao-livestream-xo-so-cao-trung-thuong.html",
+    "https://laodongthudo.vn/diem-danh-nhung-thu-doan-lua-dao-pho-bien-dau-nam-2025-184763.html",
+    "https://vietbao.vn/canh-giac-thu-doan-gia-danh-ngan-hang-thong-bao-nhan-diem-thuong-de-lua-dao-593001.html",
+    "https://dantri.com.vn/cong-nghe/nam-2025-nan-lua-dao-truc-tuyen-giam-nguoi-viet-van-mat-hon-6000-ty-dong-20260107104833121.htm"
+  ],
+  "latency_ms": 49177
+}

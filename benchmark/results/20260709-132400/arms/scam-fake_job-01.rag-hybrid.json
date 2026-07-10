@@ -1,0 +1,31 @@
+{
+  "case_id": "scam-fake_job-01",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Yêu cầu nộp tiền 100.000đ gọi là 'tài khoản huấn luyện' để xác thực danh tính trước khi làm việc",
+      "Lời hứa thu nhập bất thường: 50.000đ - 200.000đ/ngày chỉ với điện thoại, không cần kinh nghiệm",
+      "Sử dụng link rút gọn bit.ly thay vì website chính thức, dễ bị giả mạo",
+      "Gọi cấp quản lý trực tiếp qua Zalo/WhatsApp cá nhân thay vì kênh chính thức của công ty",
+      "Hứa hoàn 100% tiền huấn luyện + thưởng 500.000đ sau khi hoàn 5 đơn đầu - chiêu mồi nhử cổ điển",
+      "Cấm thảo luận lương suất với người khác, gọi là 'bảo mật công ty' - dấu hiệu khiến nạn nhân im lặng khi bị lừa",
+      "Hạn tuyển sắp đến (20/11) tạo áp lực thời gian để quyết định nhanh"
+    ],
+    "matched_patterns": [
+      "fake_job - Giả mạo doanh nghiệp tuyển CTV online, yêu cầu chuyển tiền trước qua đơn hàng ảo",
+      "fake_job - Lừa đảo tuyển cộng tác viên online: dẫn dụ chuyển tiền qua gói nhiệm vụ giả mạo"
+    ],
+    "recommended_actions": [
+      "Không nộp tiền dưới bất kỳ hình thức nào (kể cả 'tài khoản huấn luyện', 'xác thực danh tính') trước khi bắt đầu làm việc",
+      "Kiểm tra thông tin công ty TNHH Thiên Á Logistics qua website chính thức và cơ sở dữ liệu doanh nghiệp; gọi tổng đài công khai nếu có",
+      "Không truy cập link rút gọn (bit.ly); yêu cầu website chính thức với https:// và biểu tượng bảo mật",
+      "Không giao dịch với người tự xưng nhân viên qua Zalo/WhatsApp cá nhân; liên hệ trực tiếp qua số điện thoại chính thức của công ty",
+      "Yêu cầu xem hợp đồng lao động rõ ràng trước khi cung cấp bất kỳ thông tin cá nhân nào",
+      "Cảnh giác với lời hứa hoàn tiền 100% + thưởng khởi đầu - đây là chiêu tạo lòng tin trước khi yêu cầu chuyển khoản thêm",
+      "Báo cáo tin nhắn này cho nền tảng (Facebook, Zalo) và cơ quan chức năng nếu bị liên hệ"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 10358
+}

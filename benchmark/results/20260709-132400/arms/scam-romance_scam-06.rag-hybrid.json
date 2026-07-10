@@ -1,0 +1,31 @@
+{
+  "case_id": "scam-romance_scam-06",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Tài khoản giả mạo kẻ nước ngoài với vỏ bọc hào nhoáng (kỹ sư dầu khí, có tiền từ hợp đồng lớn)",
+      "Phát triển mối quan hệ tình cảm quá nhanh chóng (chỉ vài tuần đã nói yêu và hứa quà)",
+      "Sử dụng các lời ngọt ngào và câu hỏi tạo áp lực tình cảm ('Em yêu anh không?')",
+      "Hứa hẹn gửi tiền lớn (85.000 USD) để tạo lòng tin",
+      "Yêu cầu chuyển tiền trước với lý do sai lệch (đặt cọc an toàn, tiền bị khóa trong tài khoản công ty)",
+      "Sử dụng lý do không thuyết phục để giải thích tại sao không thể gửi tiền trực tiếp",
+      "Tài khoản ngân hàng ACB không được xác minh, có thể là tài khoản kẻ lừa đảo",
+      "Hứa hoàn trả với lợi suất cao (89.500 USD từ 4.500 USD), điều không phù hợp với bản chất thực của 'đặt cọc'"
+    ],
+    "matched_patterns": [
+      "romance_scam - Giả danh doanh nhân lôi kéo đầu tư, sau đó giả cơ quan chức năng tính phí quà tặng",
+      "romance_scam - Lừa đảo tình cảm dẫn dụ đầu tư sàn ảo, tiền ảo, làm nhiệm vụ online"
+    ],
+    "recommended_actions": [
+      "Ngay lập tức từ chối yêu cầu chuyển tiền và đừng tin vào lời hứa gửi tiền hoàn lại",
+      "Không chia sẻ thêm bất kỳ thông tin cá nhân hoặc tài chính nào với người này",
+      "Xác minh danh tính bằng cách yêu cầu video call trực tiếp hoặc tìm kiếm ảnh/thông tin qua các nguồn độc lập",
+      "Chặn tài khoản này ngay lập tức trên nền tảng mạng xã hội để tránh tiếp tục bị tiếp cận",
+      "Báo cáo tài khoản giả mạo này cho nền tảng (Facebook, Zalo, Tinder...) để nó bị xóa",
+      "Nếu đã chuyển tiền, liên hệ ngay với ngân hàng và công an địa phương để trình báo vụ lừa đảo"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 10505
+}

@@ -1,0 +1,60 @@
+{
+  "case_id": "scam-investment_fraud-07",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Hack tài khoản người quen (anh Minh) để làm mồi nhử, mạo danh dẫn dụ người thân vào bẫy",
+      "Nền tảng giao dịch giả mạo (TradeMax Pro) — không kết nối với sàn thật, dễ dàng tạo lãi giả",
+      "Hứa hẹn lợi nhuận phi thực tế 15–20%/tháng",
+      "Sử dụng ảnh chụp lợi nhuận giả và tài khoản chim mồi để tạo không khí đầu tư sôi động",
+      "Yêu cầu nạp thêm tiền với lý do 'kích hoạt rút tiền', 'trả thuế' hoặc 'xác minh bổ sung'",
+      "Yêu cầu chuyển tiền qua USDT (tiền điện tử) — không thể truy vết"
+    ],
+    "matched_patterns": [
+      "Lừa đảo đầu tư tài chính giả mạo qua Telegram",
+      "Sàn giao dịch ngoại hối giả mạo",
+      "Chiêu trò chim mồi trong nhóm đầu tư",
+      "Phí thuế / phí kích hoạt rút tiền giả",
+      "Chuyển tiền qua ví điện tử / USDT để xóa dấu vết"
+    ],
+    "recommended_actions": [
+      "Tạm dừng mọi liên hệ với các đối tượng lừa đảo và chụp màn hình toàn bộ bằng chứng (tin nhắn, giao dịch, thông tin tài khoản)",
+      "Trình báo công an cấp xã hoặc huyện nơi cư trú, hoặc tố giác qua ứng dụng VNeID (chức năng 'Tố giác tội phạm') hoặc Cổng thông tin điện tử Bộ Công an",
+      "Thông báo ngay cho anh Minh biết tài khoản Telegram của anh đã bị hack để anh cảnh báo danh bạ và thu hồi quyền kiểm soát tài khoản",
+      "Liên hệ ngân hàng để rà soát các giao dịch chuyển khoản gần nhất (lưu ý: khả năng thu hồi tiền đã chuyển qua USDT rất thấp)",
+      "Cảnh giác với các tài khoản lạ nhắn tin đề nghị 'giúp lấy lại tiền' vì đây có thể là bước lừa đảo tiếp theo trong cùng đường dây"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## ✅ KẾT LUẬN: Đây là LỪA ĐẢO 100% — Không có gì phải nghi ngờ\n\nTình huống của bạn gái Trang là một vụ lừa đảo đầu tư tài chính giả mạo qua Telegram — rất phổ biến và đã được cảnh báo rộng rãi tại Việt Nam. Dưới đây là phân tích chi tiết từng dấu hiệu:\n\n---\n\n## 🔴 CÁC DẤU HIỆU LỪA ĐẢO RÕ RÀNG\n\n### 1. Hack tài khoản người quen để làm mồi nhử\nTội phạm thường chiếm đoạt tài khoản Telegram của người dùng, sau đó mạo danh chủ tài khoản để dẫn dụ người thân, bạn bè vào bẫy. Khi truy cập vào link giả trong tin nhắn, tài khoản ngay lập tức bị chiếm đoạt. Việc anh Minh bị hack tài khoản và dùng để mời Trang vào nhóm là bước đầu tiên trong kịch bản lừa đảo có tổ chức.\n\n### 2. Nền tảng giao dịch giả mạo (TradeMax Pro)\nCác đối tượng lừa đảo dựng lên website hoặc ứng dụng giả mạo, dẫn dụ người dùng tạo tài khoản để giao dịch. Tất cả hoạt động của người dùng chỉ diễn ra trên hệ thống giả mạo, không có kết nối với các sàn giao dịch thật. Các đối tượng có thể dễ dàng tăng giảm giá trị để tạo ra lãi giả, từ đó kích thích lòng tham và lừa nạn nhân nạp thêm tiền.\n\n### 3. Hứa lợi nhuận 15–20%/tháng là bất khả thi\nHứa hẹn lợi nhuận cố định phi thực tế như \"cam kết lợi nhuận 15–30% mỗi tháng\" là dấu hiệu lừa đảo rõ ràng nhất. Đầu tư ngoại hối là thị trường có rủi ro cao, ngay cả các sàn lớn có tiếng đều cảnh báo rủi ro. Lợi nhuận luôn đi kèm với rủi ro và không có công thức nào đảm bảo thắng lợi tuyệt đối.\n\n### 4. Ảnh chụp lợi nhuận \"giả\" và tài khoản chim mồi\nTrên Telegram có hẳn \"thư viện\" lừa đảo với rất nhiều clip ảo, nick ảo và kịch bản thiết lập sẵn. Các nick ảo hay \"chim mồi\" phối hợp với nhau tạo nên không khí sôi động trong các nhóm đầu tư, khiến người dùng tin rằng mình đang đầu tư vào một kênh chính thống.\n\n### 5. Yêu cầu nạp tiền để \"kích hoạt rút tiền\" và \"trả thuế\"\nNgười chơi ban đầu thắng một số tiền, đối tượng yêu cầu phải đóng % trên số tiền thắng để rút tiền, cùng nhiều lý do như cần đóng thuế hay báo lỗi hệ thống để thuyết phục người chơi nộp thêm tiền. Đây là thủ đoạn phổ biến của các sàn lừa đảo: sau khi nhà giao dịch nạp tiền và đạt lợi nhuận, sàn sẽ viện cớ \"phí thuế\" hoặc \"xác minh bổ sung\" để giữ chân vốn, tạo áp lực tâm lý dẫn đến nạp thêm tiền với hy vọng \"giải phóng\" tài khoản.\n\n### 6. Chuyển tiền qua USDT (tiền điện tử) — không thể truy vết\nTheo báo cáo của Kaspersky, Telegram là nền tảng được sử dụng phổ biến nhất trong các vụ lừa đảo tài chính và giao dịch tiền số tại Đông Nam Á. Tội phạm thường tạo nhóm \"chuyên gia đầu tư\", đưa ra cam kết lợi nhuận cao, hiển thị số tiền \"lời\" từ những thành viên giả mạo khác, rồi dụ nạn nhân chuyển tiền vào ví điện tử hoặc tài khoản ảo.\n\n---\n\n## ⚠️ CẢNH BÁO THÊM: Tránh bị lừa lần 2!\n\nSau khi nạn nhân bị lừa, một tài khoản khác có thể sẽ nhắn tin với nội dung như \"Chúng tôi có thể giúp bạn lấy lại tiền\", yêu cầu cung cấp thêm thông tin cá nhân và nộp một khoản phí \"xử lý hồ sơ\". Đây thực chất chỉ là một bước tiếp theo trong chuỗi lừa đảo, khiến nạn nhân mất thêm sau khi đã mất trước.\n\n---\n\n## ✅ TRANG CẦN LÀM GÌ NGAY BÂY GIỜ?\n\n### Bước 1: Thu thập bằng chứng\nTạm dừng mọi liên hệ với các đối tượng, chụp màn hình tất cả tin nhắn, giao dịch, thông tin tài khoản liên quan.\n\n### Bước 2: Trình báo công an\nTheo Điều 174 Bộ luật Hình sự năm 2015, tội lừa đảo chiếm đoạt tài sản được xác định khi người phạm tội dùng thủ đoạn gian dối chiếm đoạt tài sản từ 2.000.000 đồng trở lên. Trang có thể nộp đơn trực tiếp tại cơ quan công an cấp xã hoặc huyện nơi cư trú, hoặc tố giác qua ứng dụng **VNeID** (chọn chức năng \"Tố giác tội phạm\") hoặc gửi trực tuyến qua Cổng thông tin điện tử của Bộ Công an.\n\n### Bước 3: Thông báo cho anh Minh\nNgay lập tức báo cho anh Minh biết tài khoản Telegram của anh ấy đã bị hack, để anh ấy có thể thông báo cho những người khác trong danh bạ và thu hồi quyền kiểm soát tài khoản.\n\n### Bước 4: Liên hệ ngân hàng (nếu có)\nLiên hệ ngân hàng để rà soát các giao dịch chuyển khoản gần nhất, dù trong trường hợp này tiền đã chuyển qua USDT thì khả năng thu hồi rất thấp.\n\n---\n\n## 📌 LƯU Ý QUAN TRỌNG VỀ KHẢ NĂNG LẤY LẠI TIỀN\n\nCông tác xác minh, truy tìm gặp nhiều khó khăn do hầu hết các nhóm chat đều có địa chỉ ở ngoài biên giới lãnh thổ Việt Nam. Tuy nhiên, nếu điều tra xác định tội phạm, cơ quan công an sẽ truy tố và có thể hỗ trợ thu hồi tài sản nếu tìm thấy nguồn tiền. Việc tố cáo kịp thời không chỉ giúp bảo vệ quyền lợi cá nhân mà còn góp phần ngăn chặn các hành vi lừa đảo tương tự.\n\nDù số tiền 3 triệu đồng không lớn, việc trình báo vẫn rất có giá trị vì có thể có nhiều nạn nhân khác trong cùng đường dây này.",
+  "sources": [
+    "https://locker.io/vi/blog/lua-dao-tren-telegram",
+    "https://cafef.vn/nhung-cu-lua-tien-ty-mat-trang-gia-san-tren-telegram-chi-sau-1-tin-nhan-la-cong-an-lien-tuc-dua-ra-khuyen-cao-188250524080108506.chn",
+    "https://adpia.vn/vach-tran-cac-hinh-thuc-lua-dao-qua-telegram.html",
+    "https://tuoitre.vn/mat-600-trieu-vi-tin-vao-nhom-dau-tu-tren-telegram-20250111165155029.htm",
+    "https://cafebiz.vn/lua-dao-dau-tu-thuong-qua-telegram-lua-dao-mao-danh-hay-qua-facebook-con-zalo-thi-sao-176250503212934707.chn",
+    "https://tingia.gov.vn/canh-bao-thu-doan-chiem-doat-tai-khoan-telegram-cua-nguoi-dung-de-thuc-hien-hanh-vi-lua-dao-chiem-doat-tai-san.html",
+    "https://dantri.com.vn/cong-nghe/telegram-vung-dat-mau-mo-cho-lua-dao-co-bac-va-mai-dam-tai-viet-nam-20250523155257808.htm",
+    "https://vtv.vn/xa-hoi/nhan-dien-bay-lua-dao-tren-telegram-20231018205828879.htm",
+    "https://vietnamnet.vn/viet-nam-dung-thu-3-dong-nam-a-ve-lua-dao-tai-chinh-telegram-bi-diem-mat-2351418.html",
+    "https://nld.com.vn/kinh-te/lua-dao-bua-vay-lam-sao-thoat-cu-vao-telegram-la-dinh-bay-20230801214234664.htm",
+    "https://www.wikifx.com/en/dealer/6166619932.html",
+    "https://forum.vnforex.com/tags/xep-hang-san-forex/",
+    "https://tuoitre.vn/lai-mat-tien-ti-voi-forex-20231115081546707.htm",
+    "https://tieninvest.com/danh-sach-cac-san-forex-scam-lua-dao/",
+    "https://thuvienphapluat.vn/banan/tin-tuc/san-forex-lua-dao-chiem-doat-tai-san-khach-hang-nhu-the-nao-10026",
+    "https://tieninvest.com/danh-gia-san-forex-tmgm-co-lua-dao-khong/",
+    "https://forex.com.vn/san-forex-lua-dao/",
+    "https://sanuytinonline.com/san-forex-scam/",
+    "https://tradersunion.com/brokers-blacklist/forex/",
+    "https://www.wikifx.com/vi/newsdetail/202601058454524073.html",
+    "https://sct.bacgiang.gov.vn/chi-tiet-tin-tuc/-/asset_publisher/xlu7j0ZrAR4z/content/thong-bao-thu-oan-lua-ao-chiem-oat-tai-san-tren-khong-gian-mang-duoi-hinh-thuc-au-tu-chung-khoan",
+    "https://congtyluatacc.vn/dau-tu-tai-chinh-telegram-bi-lua-co-to-cao-toi-lua-dao-khong/",
+    "https://congan.dongthap.gov.vn/en/chi-tiet-bai-viet/-/asset_publisher/wbj7qfWZntAi/content/id/19473257",
+    "https://congan.ninhbinh.gov.vn/canh-giac-truoc-thu-doan-chiem-doat-tai-khoan-telegram-cua-nguoi-dung-de-thuc-hien-hanh-vi-lua-dao-chiem-doat-tai-san",
+    "https://traderviet.tv/t/cong-an-thong-bao-den-tat-ca-nhung-ai-nhan-duoc-tin-nhan-sms-co-noi-dung-sau.116628/",
+    "https://bocongan.gov.vn/bai-viet/canh-bao-thu-doan-lua-dao-thong-qua-cac-hoi-nhom-nhom-chat-dau-tu-chung-khoan-d2-t38878"
+  ],
+  "latency_ms": 79340
+}

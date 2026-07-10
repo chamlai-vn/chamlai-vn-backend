@@ -1,0 +1,33 @@
+{
+  "case_id": "scam-other-06",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Yêu cầu thanh toán phí đăng ký trước (450.000 đồng) để xác thực và tham gia phỏng vấn",
+      "Yêu cầu nộp thêm tiền upgrade khóa học (1.8 triệu đồng) sau khi chuyển lần đầu",
+      "Chuyển tiền vào tài khoản cá nhân thay vì tài khoản công ty chính thức",
+      "Lương hứa hẹn quá cao so với thị trường (20-25 triệu/tháng) cho vị trí tư vấn bán hàng",
+      "Thời gian tuyển dụng quá nhanh - bắt đầu trong 3 ngày không có quy trình chính thức",
+      "Không cung cấp thông tin công ty rõ ràng (địa chỉ trụ sở, số điện thoại chính thức, website)",
+      "Liên hệ qua mạng xã hội cá nhân, không phải kênh tuyển dụng chính thức",
+      "Quy trình yêu cầu tiền trước khi ký hợp đồng lao động"
+    ],
+    "matched_patterns": [
+      "fake_job - Lừa đảo \"việc nhẹ, lương cao\" qua mạng xã hội",
+      "fake_job - Lừa đảo tuyển cộng tác viên online với gói nhiệm vụ giả mạo",
+      "fake_job - Giả danh doanh nghiệp tuyên danh nhân viên tuyển dụng, yêu cầu chuyển tiền trước"
+    ],
+    "recommended_actions": [
+      "Không chuyển tiền dưới bất kỳ hình thức nào (phí đăng ký, khóa học, xác thực) trước khi ký hợp đồng lao động chính thức",
+      "Xác minh thông tin công ty TopJob Việt Nam trực tiếp qua website chính thức hoặc gọi số điện thoại công khai được liệt kê",
+      "Yêu cầu thông tin chi tiết công ty: địa chỉ trụ sở, số điện thoại, email chính thức, thông tin pháp lý",
+      "Kiểm tra giấy phép hoạt động và thông tin pháp lý của công ty trước khi cung cấp bất kỳ thông tin cá nhân nào",
+      "Tuyệt đối không chuyển tiền vào tài khoản cá nhân; chỉ chuyển vào tài khoản công ty được xác minh",
+      "Cảnh giác với những lời hứa lương cao bất thường, quy trình tuyển dụng quá nhanh chóng",
+      "Nếu có nghi ngờ, liên hệ cơ quan lao động địa phương hoặc cảnh báo nội dung này cho Công an mạng"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 9625
+}

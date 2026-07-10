@@ -1,0 +1,35 @@
+{
+  "case_id": "scam-ecommerce_scam-09",
+  "rag_verdict": {
+    "strengths": [
+      "Nêu đầy đủ toàn bộ 4 ý chính: giá quá rẻ, đặt cọc qua app không rõ uy tín, mất liên lạc sau thanh toán, và tiền đã chuyển mà không có xác nhận chính thức",
+      "Cấu trúc rõ ràng, ngắn gọn: mức độ rủi ro, dấu hiệu cảnh báo, chiêu trò khớp, khuyến nghị",
+      "Khuyến nghị thực tế và cụ thể: trình báo công an với bằng chứng cụ thể, yêu cầu ngân hàng chặn tài khoản, lưu bằng chứng, và phòng ngừa trong tương lai",
+      "Đưa ra ngưỡng cụ thể (rẻ hơn 30% thị trường cần cảnh giác) giúp người dùng tự đánh giá lần sau"
+    ],
+    "weaknesses": [
+      "Thiếu yếu tố đồng cảm với tâm lý lo lắng của người hỏi",
+      "Không giải thích lý do tại sao mất liên lạc lại là dấu hiệu điển hình một cách sâu sắc, chỉ liệt kê"
+    ],
+    "reasoning": "Câu trả lời A bao phủ đầy đủ tất cả các ý chính cần thiết, có cấu trúc mạch lạc và các khuyến nghị hành động thực tế, cụ thể. Súc tích và dễ áp dụng. Tuy nhiên thiếu tính đồng cảm và độ giải thích chiều sâu.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Bao phủ đầy đủ tất cả 4 ý chính với giải thích sâu và có ngữ cảnh",
+      "Có tính đồng cảm cao, giọng điệu ấm áp phù hợp tình huống (chị-em)",
+      "Hướng dẫn hành động chia thành các bước rõ ràng, dễ theo",
+      "Cảnh báo bổ sung hữu ích: không chuyển thêm tiền dù người bán liên hệ lại với bất kỳ lý do gì",
+      "Giải thích rõ mỗi dấu hiệu vì sao đáng ngờ, giúp người đọc hiểu bản chất"
+    ],
+    "weaknesses": [
+      "Trích dẫn thông tin rất cụ thể (Công an Lạng Sơn tháng 5/2025, 80 nạn nhân, 250 triệu đồng) có nguy cơ bịa đặt/không kiểm chứng được, làm giảm độ tin cậy",
+      "Hơi dài, nhiều biểu tượng/định dạng có thể gây rối cho một số người đọc",
+      "Việc gán cho 'Bộ Công an khuyến cáo' nhiều lần mà không rõ nguồn có thể là thông tin không chính xác"
+    ],
+    "reasoning": "Câu trả lời B bao phủ đầy đủ các ý chính với giải thích sâu, tính đồng cảm cao và hướng dẫn hành động chi tiết theo từng bước. Điểm mạnh về giọng điệu và độ chi tiết. Tuy nhiên việc trích dẫn số liệu và vụ án cụ thể không thể kiểm chứng là rủi ro về độ chính xác thông tin, dù nội dung cốt lõi vẫn đúng hướng.",
+    "score": 8
+  },
+  "preferred": "tie",
+  "order_consistent": false
+}

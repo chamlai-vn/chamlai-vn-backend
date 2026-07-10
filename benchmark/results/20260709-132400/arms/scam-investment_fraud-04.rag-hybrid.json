@@ -1,0 +1,31 @@
+{
+  "case_id": "scam-investment_fraud-04",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Hứa hẹn lợi nhuận cực kỳ cao bất thường (150-200%/tháng)",
+      "Yêu cầu nạp tiền từ số tiền thấp để lôi kéo (500.000đ)",
+      "Mạo danh công ty môi giới tài chính không rõ nguồn gốc",
+      "Sử dụng câu chuyện thành công giả (127 người kiếm 50-100 triệu/tháng)",
+      "Cung cấp link nghi vấn để tham gia",
+      "Tạo áp lực thời gian bằng lời khuyến mại giới hạn (bonus 200k hôm nay)",
+      "Khẳng định không cần kinh nghiệm - dấu hiệu lừa kéo những người dễ tổn thương",
+      "Lô i kéo qua liên hệ trực tiếp (telesales/Zalo/cá nhân hóa)"
+    ],
+    "matched_patterns": [
+      "Lừa đảo đầu tư sàn ngoại hối Forex - thủ đoạn tham nhũng, chiếm đoạt tài sản lớn",
+      "Lôi kéo đầu tư sàn chứng khoán, forex giả mạo với lợi nhuận cao, rủi ro thấp",
+      "Lừa đảo đầu tư tiền ảo qua sàn giao dịch giả mạo với cam kết lợi nhuận siêu cao"
+    ],
+    "recommended_actions": [
+      "Từ chối ngay lập tức và không nhấp vào link được cung cấp",
+      "Không nạp tiền hoặc gửi thông tin cá nhân cho bất kỳ sàn Forex nào, đặc biệt những sàn liên hệ chủ động qua mạng xã hội hoặc điện thoại",
+      "Kiểm tra Ngân hàng Nhà nước Việt Nam để xác nhận - hiện chưa có sàn Forex nào được cấp phép hợp pháp tại Việt Nam",
+      "Tìm kiếm tên công ty 'FxProfit Global' kết hợp từ khóa 'lừa đảo' trên Google để kiểm tra lịch sử",
+      "Báo cáo tài khoản/tin nhắn này tới cơ quan chức năng (Công an, Bộ Công an) nếu còn tiếp tục bị quấy rầy"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 9165
+}

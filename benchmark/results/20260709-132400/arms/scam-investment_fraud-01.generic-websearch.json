@@ -1,0 +1,53 @@
+{
+  "case_id": "scam-investment_fraud-01",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Lợi nhuận cam kết 25%/tháng — mức bất khả thi với bất kỳ kênh đầu tư hợp pháp nào",
+      "App 'GlobalTrade Pro' là sàn giao dịch giả mạo, nhiều khả năng được tải từ đường link bên ngoài thay vì kho ứng dụng chính thống",
+      "Lợi nhuận ảo hiển thị trên app tăng 'thần kỳ' để kích thích nạp thêm tiền — con số 18 triệu hoàn toàn là ảo",
+      "Yêu cầu nạp thêm tiền (12 triệu) để 'rút tiền' — chiêu bài phí bảo hiểm/phí hệ thống giả mạo",
+      "Tài khoản Facebook 'Sơn' có thể là tài khoản bị hack hoặc giả mạo",
+      "Sàn giao dịch không có tư cách pháp lý tại Việt Nam — Ngân hàng Nhà nước chưa cấp phép cho bất kỳ tổ chức nào kinh doanh sàn forex"
+    ],
+    "matched_patterns": [
+      "Lừa đảo đầu tư forex giả mạo",
+      "Sàn giao dịch giả mạo (app không chính thống)",
+      "Chiêu bài cho thắng ảo ban đầu để kích thích nạp tiền",
+      "Bẫy phí rút tiền (phí bảo hiểm, phí hệ thống)",
+      "Tài khoản mạng xã hội giả mạo/bị hack để tiếp cận nạn nhân"
+    ],
+    "recommended_actions": [
+      "Ngừng mọi liên hệ với tài khoản 'Sơn', chặn và báo cáo tài khoản đó trên Facebook, không chuyển thêm tiền",
+      "Xóa app 'GlobalTrade Pro' ngay lập tức vì có thể thu thập thông tin cá nhân và tài khoản ngân hàng",
+      "Đổi mật khẩu ứng dụng ngân hàng và email sau khi xóa app",
+      "Báo cáo lên cổng thông tin cảnh sát mạng: https://canhbao.ncsc.gov.vn hoặc gọi đường dây nóng Bộ Công an: 113 hoặc đến Công an phường/xã gần nhất",
+      "Lưu lại toàn bộ bằng chứng: screenshot tin nhắn, thông tin tài khoản nhận tiền, thông tin app"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 ĐÂY LÀ LỪA ĐẢO 100% — Kịch bản cực kỳ điển hình!\n\nTình huống em trai bạn gặp phải là **một trong những hình thức lừa đảo đầu tư forex giả mạo phổ biến nhất tại Việt Nam hiện nay**. Dưới đây là phân tích chi tiết:\n\n---\n\n## 🔍 Tại sao khẳng định đây là lừa đảo?\n\n### 1. Lợi nhuận 25%/tháng — Bất khả thi trong thực tế\nKhông có bất kỳ kênh đầu tư hợp pháp nào có thể đảm bảo mức lợi nhuận này. Người dùng cần trang bị kiến thức cơ bản về tài chính để hiểu rằng không có một dạng đầu tư nào có thể sinh lợi nhuận nhanh và cao như vậy. Đây chỉ là \"mồi nhử\" để kéo nạn nhân vào bẫy.\n\n### 2. App \"GlobalTrade Pro\" là sàn giao dịch giả mạo\nCác công ty lừa đảo có giấy tờ pháp lý không rõ ràng, trụ sở và máy chủ đặt ở nước ngoài, và các sàn giao dịch trên nền tảng di động do đối tượng cung cấp thường không có trên hệ thống CH Play và App Store. App này nhiều khả năng được tải từ đường link bên ngoài, không phải kho ứng dụng chính thống.\n\n### 3. Lợi nhuận ảo tăng \"thần kỳ\" — Chiêu bài kinh điển\nPhương thức hoạt động của các sàn Forex lừa đảo là cho các nhân viên môi giới mời chào lôi kéo, thu hút người chơi qua mạng xã hội Zalo, Facebook. Ban đầu thường cho nhà đầu tư \"thắng\" để kích thích nạp thêm nhiều tiền vào tài khoản. Con số 18 triệu hiển thị trên app là **hoàn toàn ảo**, không có tiền thật nào được đầu tư cả.\n\n### 4. Yêu cầu nạp thêm 12 triệu để \"rút tiền\" — Bẫy kinh điển\nKhi đầu tư số tiền lớn hơn, việc rút tiền sẽ bị báo \"lỗi\" và yêu cầu nộp thêm phí bảo hiểm, phí hệ thống. Sau khi chiếm đoạt được nhiều tiền, đối tượng lập tức cắt liên lạc.\n\n### 5. Tài khoản \"Sơn\" trên Facebook — Có thể là tài khoản giả\nCác đối tượng lừa đảo thường sử dụng các tài khoản mạng xã hội như Facebook, Zalo, Telegram \"ảo\", với thông tin cá nhân không rõ ràng, tài khoản mới đưa vào sử dụng. Tài khoản \"bạn cũ tên Sơn\" rất có thể là tài khoản bị hack hoặc giả mạo.\n\n### 6. Không có tư cách pháp lý\nPháp luật Việt Nam có quy định cấm các cá nhân đầu tư ngoại hối, tiền ảo, cổ phiếu quốc tế. Ngân hàng Nhà nước cũng chưa cấp phép cho bất kỳ tổ chức, cá nhân nào kinh doanh sàn giao dịch forex.\n\n---\n\n## ⚠️ Hậu quả nếu tiếp tục nạp tiền\nCác đối tượng đưa ra những lời hứa hẹn như \"lợi nhuận 30%/tháng\", \"hoàn vốn trong 3 tháng\", đánh trúng tâm lý của người dân — tất cả chỉ để lợi dụng tâm lý \"làm giàu nhanh chóng\" và lòng tham. Nếu tiếp tục nạp, sẽ luôn có thêm lý do mới để đòi thêm tiền: phí thuế, phí VIP, phí xác minh... cho đến khi nạn nhân cạn tiền hoặc nghi ngờ.\n\n---\n\n## ✅ Em trai bạn cần làm ngay bây giờ:\n\n### 🛑 Ngừng mọi liên hệ với \"Sơn\"\nChặn và báo cáo tài khoản đó trên Facebook. Đừng chuyển thêm bất kỳ đồng nào.\n\n### 📱 Xóa app \"GlobalTrade Pro\" ngay\nApp này có thể thu thập thông tin cá nhân, tài khoản ngân hàng. Sau khi xóa, hãy **đổi mật khẩu ứng dụng ngân hàng và email**.\n\n### 🚔 Báo cáo cơ quan chức năng (đã đúng hướng!)\nBạn đã khuyên đúng. Cụ thể em trai có thể:\n- **Cổng thông tin cảnh sát mạng:** [https://canhbao.ncsc.gov.vn](https://canhbao.ncsc.gov.vn)\n- **Đường dây nóng Bộ Công an:** 113 hoặc đến Công an phường/xã gần nhất\n- **Lưu lại bằng chứng:** Screenshot toàn bộ tin nhắn, thông tin tài khoản nhận tiền (0987.123.456), thông tin app\n\n### 💰 Khả năng lấy lại tiền?\nTheo quy định hiện hành, người tham gia chơi Forex vừa vi phạm pháp luật về hoạt động ngoại hối, vừa không được pháp luật bảo vệ nếu có tranh chấp, xung đột xảy ra. Tuy nhiên, việc trình báo sớm giúp cơ quan điều tra có cơ sở phong tỏa tài khoản và có thể thu hồi một phần.\n\n---\n\n## 💬 Lời kết\n\nMay mắn là em trai bạn đã **dừng đúng lúc** — sau lần nạp đầu 15 triệu, chưa bị cuốn sâu hơn. Hãy động viên em không tự trách bản thân vì nhiều nạn nhân thừa nhận đã bị \"mê hoặc\" khi nhìn vào số tiền lãi tăng vọt hiển thị trên màn hình điện thoại, sau khi được các đối tượng dùng nhiều thủ đoạn tinh vi để dẫn dụ. Đây là thủ đoạn được thiết kế rất bài bản để đánh vào tâm lý con người.\n\nHãy chia sẻ câu chuyện này rộng rãi để cảnh báo thêm nhiều người khác nhé! 🙏",
+  "sources": [
+    "https://vietnamnet.vn/he-luy-don-dau-tu-dam-me-dau-tu-tren-cac-san-kinh-doanh-forex-trai-phep-2499771.html",
+    "https://congan.dongthap.gov.vn/en/chi-tiet-bai-viet/-/asset_publisher/wbj7qfWZntAi/content/id/7147949",
+    "https://congan.dongthap.gov.vn/en/chi-tiet-bai-viet/-/asset_publisher/wbj7qfWZntAi/content/id/19473257",
+    "https://thuonghieucongluan.com.vn/lat-tay-chieu-tro-lua-dao-dau-tu-san-ngoai-hoi-forex-dung-mang-tien-cho-ke-lua-dao-a168139.html",
+    "https://tuoitre.vn/lai-mat-tien-ti-voi-forex-20231115081546707.htm",
+    "https://congly.vn/thong-doc-nguyen-thi-hong-san-forex-co-tinh-chat-lua-dao-458487.html",
+    "https://thanhtra.com.vn/an-sinh-AFA9C5670/choi-tien-ao-tren-san-forex-tien-mat-tat-mang-vi-pham-phap-luat-D657E640.html",
+    "https://vneconomy.vn/lat-tay-thu-doan-lua-dao-cua-cac-san-forex.htm",
+    "https://traderviet.tv/t/cong-an-chi-dich-danh-cac-san-forex-lua-dao-nay.105945/",
+    "https://vneconomy.vn/4-dau-hieu-nhan-biet-lua-dao-dau-tu-tien-ao-da-cap-san-chung-khoan-ao.htm",
+    "https://www.wikifx.com/en/dealer/3965540222.html",
+    "https://tradersunion.com/brokers-blacklist/forex/",
+    "https://brokerchooser.com/safety/pro-trade-broker-safe-or-scam",
+    "https://sanuytinonline.com/san-forex-scam/tradingpro/",
+    "https://topsanuytin.com/broker/tradingpro/",
+    "https://thuvienphapluat.vn/banan/tin-tuc/san-forex-lua-dao-chiem-doat-tai-san-khach-hang-nhu-the-nao-10026",
+    "https://vnexpress.net/tien-ao-lua-dao-cu-ngo-anh-la-dinh-menh-khong-ngo-la-ke-san-moi-doi-lot-tinh-yeu-4952001.html",
+    "https://m.youtube.com/watch?v=qIZ7mnKZh5Q",
+    "https://vov.vn/phap-luat/chuyen-gia-lat-tay-manh-khoe-lua-dao-san-giao-dich-ngoai-hoi-chung-khoan-post1142913.vov"
+  ],
+  "latency_ms": 63322
+}

@@ -1,0 +1,27 @@
+{
+  "case_id": "scam-vacation_contract-06",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "\"Được chọn lọc\" + giảm giá sốc phi lý (150 triệu xuống 45 triệu, dùng suốt đời) đánh vào tâm lý \"hời\"",
+      "Nhắn tin ngẫu nhiên từ số lạ, không qua kênh chính thức",
+      "Yêu cầu chuyển khoản đặt cọc vào tài khoản cá nhân/công ty lạ trước khi xác minh gì cả",
+      "App \"quản lý lịch trình\" lạ tải qua link trong tin nhắn — có thể là app độc hại chiếm quyền điện thoại/tài khoản",
+      "Khớp mô hình chuẩn \"đặt cọc rồi phát sinh thêm phí\" (nâng hạng VIP, phí chuyển nhượng, thuế thủ tục) của lừa đảo timeshare đang bị công an khởi tố hàng loạt"
+    ],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Không chuyển khoản dù số tiền nhỏ — đây chỉ là bước đầu dẫn dụ vào các khoản phí tiếp theo",
+      "Không cài app từ link trong tin nhắn",
+      "Xác minh độc lập: tự tìm số điện thoại/website chính thức của công ty, kiểm tra đăng ký kinh doanh trên cổng thông tin quốc gia",
+      "Tra cứu cảnh báo lừa đảo liên quan đến số tài khoản/số điện thoại trên các cổng uy tín hoặc hỏi tổng đài ngân hàng",
+      "Lưu lại bằng chứng (tin nhắn, số điện thoại, link app, số tài khoản) để nộp cơ quan chức năng nếu cần",
+      "Nếu đã trót chuyển tiền/cài app: báo công an địa phương hoặc đường dây nóng an ninh mạng ngay, đồng thời liên hệ ngân hàng"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## Kết luận: Đây rất có khả năng là lừa đảo\n\nTình huống của anh Thanh khớp gần như hoàn toàn với mô hình lừa đảo \"sở hữu kỳ nghỉ\" (timeshare) đang bùng phát mạnh ở Việt Nam thời gian gần đây. Đây không phải suy đoán cảm tính — trong 3 tuần qua, công an Hà Nội đã khởi tố 21 vụ án với 187 bị can liên quan đến lừa đảo mua bán, chuyển nhượng quyền sở hữu kỳ nghỉ du lịch, với 493 bị hại và tổng thiệt hại hơn 181,4 tỷ đồng. Tại TP.HCM cũng vừa phanh phui 11 doanh nghiệp du lịch lừa đảo qua hình thức bán hợp đồng kỳ nghỉ, với gần 200 bị can và thiệt hại 612 tỷ đồng.\n\n### Các dấu hiệu lừa đảo cụ thể trong tin nhắn này\n\n1. **\"Được chọn lọc\" + giảm giá sốc phi lý** — Từ 150 triệu xuống 45 triệu, \"dùng suốt đời\". Đây chính là chiêu đưa ra những lời mời chào hấp dẫn với ưu đãi bất thường để lôi kéo khách hàng mua thẻ nghỉ dưỡng, đánh vào tâm lý \"hời\".\n\n2. **Nhắn tin ngẫu nhiên từ số lạ, không qua kênh chính thức** — Đúng thủ đoạn phổ biến: các đối tượng lừa đảo hoạt động mạnh trên không gian mạng, đặc biệt trong lĩnh vực đặt phòng khách sạn, tour nghỉ dưỡng, với cách tiếp cận ngày càng tinh vi.\n\n3. **Yêu cầu chuyển khoản đặt cọc vào tài khoản trước khi xác minh gì cả** — Đây là bước then chốt của kịch bản. Cảnh báo từ báo chí nêu rõ: các chuyên gia lưu ý người dân không nên chuyển tiền vào tài khoản khi chưa xác minh đầy đủ thông tin pháp lý của đơn vị cung cấp dịch vụ. Một tài khoản Sacombank cá nhân/công ty lạ, không thể kiểm chứng ngay, là cờ đỏ lớn.\n\n4. **App \"quản lý lịch trình\" lạ** — Có thể chỉ để tạo cảm giác \"chuyên nghiệp, đáng tin\" (theo mô tả các vụ án, kẻ lừa đảo hay xây dựng fanpage chuyên nghiệp, sao chép thông tin doanh nghiệp uy tín), hoặc tệ hơn — có nguy cơ là app độc hại để chiếm quyền điện thoại/tài khoản ngân hàng. **Tuyệt đối không nên tải app từ link trong tin nhắn lạ.**\n\n5. **Mô hình \"sau đặt cọc sẽ có thêm phí phát sinh\"** — Đây là kịch bản chuẩn: sau khi đặt cọc, nạn nhân thường bị dẫn dắt nộp thêm vài chục đến vài trăm triệu để \"nâng hạng thẻ VIP\", \"phí chuyển nhượng\", hoặc \"thuế thủ tục\", sau đó công ty khất lần, né tránh hoặc cắt đứt liên lạc.\n\n### Anh Thanh nên làm gì tiếp theo\n\n- **Không chuyển khoản 3 triệu đó.** Ngay cả khi số tiền nhỏ so với 150 triệu \"được giảm\", đây chỉ là bước đầu để dẫn dụ vào các khoản phí tiếp theo.\n- **Không cài app \"ResortClub\"** từ link trong tin nhắn.\n- **Xác minh độc lập:** tự tìm số điện thoại/website chính thức của công ty \"DreamVacation\" (không dùng số/link trong tin nhắn), gọi hỏi trực tiếp, kiểm tra đăng ký kinh doanh trên cổng thông tin quốc gia về đăng ký doanh nghiệp.\n- **Kiểm tra tài khoản STK 9876543210 (Sacombank)** — nếu nghi ngờ, có thể tra cứu cảnh báo lừa đảo liên quan đến số tài khoản/số điện thoại này trên các cổng như tinnhiemmang.vn hoặc hỏi tổng đài Sacombank.\n- **Lưu lại bằng chứng** (tin nhắn, số điện thoại, link app, STK) — theo khuyến cáo người dân cần lưu lại bằng chứng và nộp lên cơ quan chức năng khi gặp trường hợp lừa đảo.\n- Nếu đã trót chuyển tiền hoặc cài app, cần báo công an địa phương hoặc gọi đường dây nóng an ninh mạng ngay lập tức, đồng thời liên hệ ngân hàng để được hỗ trợ.\n\nCon gái anh Thanh cảm nhận đúng — sự nghi ngờ ban đầu của anh là hoàn toàn có cơ sở, nên tin vào bản năng đó.",
+  "sources": [],
+  "latency_ms": 0
+}

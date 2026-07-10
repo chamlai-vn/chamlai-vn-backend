@@ -1,0 +1,26 @@
+{
+  "case_id": "scam-romance_scam-08",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Yêu nhanh, nói yêu sớm để tạo cảm giác gắn bó, khiến nạn nhân mất cảnh giác",
+      "Chưa gặp mặt trực tiếp nhưng đã cần tiền — tín hiệu đỏ lớn nhất",
+      "Lý do \"bay sang gặp em\" là kịch bản kinh điển để câu kéo, xin thêm tiền (vé máy bay, visa, phí xuất cảnh, phí hải quan...)",
+      "Mô hình phổ biến: sau lần chuyển tiền đầu, sẽ viện đủ lý do (lỗi giao dịch, phí phát sinh...) để yêu cầu chuyển thêm nhiều lần trước khi cắt liên lạc"
+    ],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Ngừng chuyển thêm tiền ngay lập tức dù có lý do gì",
+      "Không cung cấp thêm thông tin cá nhân, mã OTP, mật khẩu ngân hàng",
+      "Liên hệ ngay ngân hàng để báo cáo giao dịch nghi ngờ lừa đảo, hỏi khả năng khóa/tra soát",
+      "Trình báo công an phường/xã, chuẩn bị sao kê, tin nhắn, hồ sơ mạng xã hội của người đó",
+      "Kiểm tra danh tính bằng công cụ tìm kiếm ảnh ngược (reverse image search)",
+      "Cắt đứt liên lạc nếu đã chắc chắn là lừa đảo — không thử chuyển thêm để \"xem có đến thật không\""
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "Rất tiếc phải nói thẳng: đây gần như chắc chắn là **lừa đảo tình cảm (romance scam)**, và khả năng cao anh ấy sẽ **không bao giờ đến**.\n\n## Tại sao đây là dấu hiệu lừa đảo rõ ràng\n\n- **Yêu nhanh, nói yêu sớm**: Kẻ lừa đảo thường tỏ tình rất nhanh, dùng lời lẽ nồng nhiệt để tạo cảm giác gắn bó, khiến nạn nhân mất cảnh giác.\n- **Chưa gặp mặt trực tiếp nhưng đã cần tiền**: Đây là tín hiệu đỏ lớn nhất. Người thật lòng muốn gặp bạn thường tự lo được vé máy bay, hoặc nếu khó khăn thật thì cũng không đặt gánh nặng tài chính lên người mới quen qua mạng.\n- **Lý do \"bay sang gặp em\"** là kịch bản kinh điển của romance scam quốc tế — dùng để câu kéo, kéo dài mối quan hệ và liên tục xin thêm tiền (vé máy bay, visa, \"phí xuất cảnh\", \"phí hải quan\", sự cố bất ngờ...).\n- Thực tế cho thấy mô hình lừa đảo phổ biến hiện nay: sau khi nạn nhân chuyển tiền lần đầu, đối tượng thường viện đủ lý do (lỗi giao dịch, cần xác thực, phí phát sinh...) để yêu cầu chuyển thêm nhiều lần nữa, trước khi cắt đứt liên lạc hoàn toàn.\n\n## Khả năng anh ấy sẽ đến?\n\nRất thấp, gần như không có. Nếu đúng là kịch bản lừa đảo tình cảm, thường sẽ xảy ra một trong hai hướng:\n1. Nhận tiền xong thì im lặng, chặn liên lạc.\n2. Tiếp tục bịa thêm lý do (kẹt ở sân bay, bị hải quan giữ, cần thêm tiền \"phí\" này nọ) để moi thêm tiền, rồi mới biến mất.\n\n## Bạn nên làm gì tiếp theo\n\n1. **Ngừng chuyển thêm tiền ngay lập tức**, dù anh ấy có đưa ra lý do gì đi nữa.\n2. **Không cung cấp thêm thông tin cá nhân, mã OTP, mật khẩu ngân hàng** cho người này.\n3. **Liên hệ ngay ngân hàng** của bạn để báo cáo giao dịch nghi ngờ lừa đảo, hỏi khả năng khóa/tra soát giao dịch (cơ hội thu hồi tiền sẽ cao hơn nếu báo càng sớm).\n4. **Trình báo công an** tại công an phường/xã nơi bạn cư trú hoặc nơi thực hiện giao dịch. Chuẩn bị: sao kê chuyển khoản, tin nhắn trò chuyện, ảnh đại diện/hồ sơ mạng xã hội của người đó, số tài khoản nhận tiền.\n5. **Kiểm tra lại danh tính**: thử tìm ảnh của người đó bằng công cụ tìm kiếm ảnh ngược (reverse image search) — nhiều đối tượng lừa đảo dùng ảnh đánh cắp từ người khác.\n6. **Cắt đứt liên lạc** nếu bạn đã chắc chắn đây là lừa đảo, đừng \"thử thách lòng tin\" bằng cách chuyển thêm để \"xem có đến thật không\" — đó chính là bẫy tiếp theo.\n\nBạn không có lỗi trong chuyện này — đây là những kịch bản được xây dựng rất tinh vi, chuyên đánh vào cảm xúc, nên rất nhiều người có kinh nghiệm cũng từng bị mắc bẫy. Bạn có muốn mình giúp soạn nội dung đơn trình báo công an không?",
+  "sources": [],
+  "latency_ms": 0
+}

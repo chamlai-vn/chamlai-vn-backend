@@ -1,0 +1,28 @@
+{
+  "case_id": "scam-investment_fraud-02",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Lãi suất 15% mỗi tháng là mức cao bất thường và không thực tế trong đầu tư hợp pháp",
+      "Quỹ tiền mã hóa 'Finvest Capital' không rõ nguồn gốc, không có thông tin về giấy phép hoạt động",
+      "Được lôi kéo qua bạn bè - điển hình của chiêu trò xây dựng lòng tin qua mạng xã hội",
+      "Nhắc đến '500 thành viên tham gia' - gợi ý hình thức đa cấp/kinh doanh theo tầng nấc",
+      "Yêu cầu gửi tiền ban đầu (10 triệu) để tham gia"
+    ],
+    "matched_patterns": [
+      "Sàn chứng khoán ảo, tiền ảo, đa cấp lừa đảo: hứa hẹn lãi suất cao rồi chiếm tiền",
+      "Lừa đảo đầu tư tiền ảo, chứng khoán trái phép qua mạng xã hội với cam kết lãi suất cao",
+      "Lôi kéo đầu tư sàn chứng khoán, forex giả mạo với lợi nhuận cao, rủi ro thấp"
+    ],
+    "recommended_actions": [
+      "Tuyệt đối không gửi tiền vào quỹ này. Xác minh 'Finvest Capital' có giấy phép hoạt động hợp pháp từ cơ quan chứng khoán nhà nước không bằng cách tra cứu danh sách chính thức trên website Ủy ban Chứng khoán Nhà nước",
+      "Lãi suất 15% mỗi tháng (180%/năm) là mức siêu cao và không phù hợp với thực tế đầu tư, là dấu hiệu điển hình của lừa đảo",
+      "Không nên tin lời mời từ bạn bè qua mạng xã hội về các dự án đầu tư lạ; kiểm tra kỹ thông tin độc lập trước",
+      "Cảnh báo rằng nếu muốn rút tiền sau này, sàn có thể yêu cầu nhiều khoản phí bổ sung hoặc khóa tài khoản",
+      "Báo cáo thông tin về sàn giao dịch giả mạo này cho cơ quan Công an Kinh tế hoặc Ủy ban Chứng khoán Nhà nước"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 8439
+}

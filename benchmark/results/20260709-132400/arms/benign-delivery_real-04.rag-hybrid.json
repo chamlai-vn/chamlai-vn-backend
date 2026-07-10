@@ -1,0 +1,15 @@
+{
+  "case_id": "benign-delivery_real-04",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "green",
+    "red_flags": [],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Để an toàn, hãy xác minh thông tin đơn hàng trực tiếp qua ứng dụng chính thức của công ty vận chuyển hoặc gọi hotline chính thức được liệt kê trên website",
+      "Nếu nhận được tin nhắn hoặc cuộc gọi tiếp theo yêu cầu chuyển khoản hoặc click link lạ, hãy từ chối ngay lập tức"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 2886
+}

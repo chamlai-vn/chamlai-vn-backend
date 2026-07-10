@@ -1,0 +1,49 @@
+{
+  "case_id": "scam-prize_gift-03",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Số lạ 0901234567 không phải số chính thức của bất kỳ tổ chức nào",
+      "Thông báo 'Trúng thưởng 50 triệu' không rõ nguồn gốc — chiêu bài kinh điển để thu hút nạn nhân",
+      "Link `khuyen-mai-2024.vn` là tên miền giả, không phải website ngân hàng thật",
+      "Giao diện giả logo ngân hàng dùng để tạo lòng tin giả",
+      "Yêu cầu cung cấp CCCD + tài khoản + mã OTP — toàn bộ thông tin để chiếm đoạt tài khoản"
+    ],
+    "matched_patterns": [
+      "Phishing SMS giả mạo"
+    ],
+    "recommended_actions": [
+      "Gọi ngay hotline ngân hàng để khóa thẻ/tài khoản khẩn cấp, phong tỏa các giao dịch đáng ngờ và đổi mật khẩu Internet Banking",
+      "Trình báo công an gần nhất để làm đơn tố giác tội phạm, cung cấp đầy đủ bằng chứng về giao dịch (có thể gọi đường dây nóng Cục Cảnh sát Hình sự - Bộ Công an: 0692 345 860)",
+      "Chụp màn hình và lưu lại bằng chứng: tin nhắn SMS gốc, lịch sử truy cập link lừa đảo, sao kê tài khoản ngân hàng thể hiện khoản bị rút",
+      "Đổi toàn bộ mật khẩu, đặc biệt là tài khoản ngân hàng, email, Zalo, Facebook",
+      "Tuyệt đối không liên hệ với các website/fanpage/tài khoản mạng xã hội quảng cáo dịch vụ hỗ trợ lấy lại tiền bị lừa đảo, không chuyển thêm tiền cho bên thứ ba để 'mở khóa' hoặc 'lấy lại tiền'"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 ĐÂY LÀ LỪA ĐẢO — Bạn đã trở thành nạn nhân của thủ đoạn \"Phishing SMS giả mạo\"\n\nTôi rất tiếc khi nghe bạn bị mất tiền. Điều quan trọng bây giờ là hành động **ngay lập tức**. Dưới đây là phân tích đầy đủ:\n\n---\n\n## ✅ XÁC NHẬN: Đây chắc chắn là lừa đảo\n\nTình huống của bạn khớp 100% với một thủ đoạn lừa đảo đã được cơ quan chức năng Việt Nam cảnh báo nhiều lần:\n\nCác đối tượng xấu sử dụng phần mềm AI gửi tin nhắn giả mạo ngân hàng đến người dân, trong đó có thông báo trúng thưởng, nhận quà từ các chương trình ưu đãi, hoặc yêu cầu khách hàng truy cập link để nâng cấp tài khoản.\n\nKẻ gian thường gửi tin nhắn dẫn dụ khách hàng truy cập vào những trang web giả mạo ngân hàng, thông báo trúng thưởng. Các website được kẻ gian gửi tới có giao diện tương tự website chính thức của các ngân hàng, khiến người dùng khó phân biệt.\n\nĐường link trong tin nhắn là địa chỉ giả mạo, có cấu trúc và nội dung gần giống địa chỉ website thật của ngân hàng, khiến người dân nhập toàn bộ thông tin tài khoản ngân hàng (tên đăng nhập, mật khẩu, mã OTP…). Qua đó, các đối tượng có được thông tin, chiếm đoạt tài khoản ngân hàng và chuyển tiền trong tài khoản của bị hại sang tài khoản khác.\n\n---\n\n## 🔍 Các dấu hiệu lừa đảo trong trường hợp của bạn\n\n| Dấu hiệu | Phân tích |\n|---|---|\n| 📱 Số lạ 0901234567 | Không phải số chính thức của bất kỳ tổ chức nào |\n| 🎁 \"Trúng thưởng 50 triệu\" không rõ nguồn gốc | Chiêu bài kinh điển để thu hút nạn nhân |\n| 🔗 Link `khuyen-mai-2024.vn` | Tên miền giả, không phải website ngân hàng thật |\n| 🏦 Giao diện giả logo ngân hàng | Dùng để tạo lòng tin giả |\n| 🔑 Yêu cầu CCCD + tài khoản + mã OTP | Đây là toàn bộ \"chìa khóa\" để chiếm đoạt tài khoản |\n\nChỉ với một lần cung cấp mã xác thực OTP, kẻ gian có thể thực hiện nhiều giao dịch để chiếm đoạt số tiền lớn trong hạn mức của thẻ.\n\n---\n\n## 🚨 BẠN PHẢI LÀM NGAY NHỮNG VIỆC SAU (theo thứ tự ưu tiên)\n\n### 1️⃣ Liên hệ ngân hàng NGAY LẬP TỨC\nNếu kẻ lừa đảo đã chuyển tiền mà không có sự chấp thuận của bạn, hãy báo ngay cho ngân hàng để yêu cầu đóng băng tài khoản và giao dịch. Liên hệ ngay lập tức với ngân hàng và tổ chức tài chính để báo cáo lừa đảo và yêu cầu họ dừng mọi giao dịch.\n\n\u003e 📞 Gọi ngay **hotline ngân hàng của bạn**, yêu cầu:\n\u003e - **Khóa thẻ/tài khoản khẩn cấp**\n\u003e - **Phong tỏa các giao dịch đáng ngờ**\n\u003e - Đổi mật khẩu Internet Banking ngay\n\n### 2️⃣ Trình báo công an\nKhi phát hiện mình bị lừa đảo, bước quan trọng nhất là trình báo cơ quan công an để được bảo vệ quyền lợi pháp lý. Bạn nên đến cơ quan công an gần nhất để làm đơn tố giác tội phạm, trình bày chi tiết về vụ việc. Khi trình báo, cần cung cấp đầy đủ bằng chứng về giao dịch: sao kê, biên lai, xác nhận chuyển tiền hoặc ảnh chụp màn hình giao dịch.\n\n\u003e 📞 Đường dây nóng của **Cục Cảnh sát Hình sự - Bộ Công an**: **0692 345 860**\n\n### 3️⃣ Thu thập và lưu giữ bằng chứng\nNgay bây giờ, hãy **chụp màn hình và lưu lại**:\n- Tin nhắn SMS gốc từ số 0901234567\n- Lịch sử truy cập link lừa đảo (nếu còn)\n- Sao kê tài khoản ngân hàng thể hiện khoản bị rút 8 triệu đồng\n\n### 4️⃣ Đổi toàn bộ mật khẩu\nHãy tạo một mật khẩu mới mạnh hơn, đảm bảo rằng bạn chưa từng sử dụng mật khẩu đó trước đây. Nếu bạn đã sử dụng mật khẩu bị rò rỉ ở bất kỳ nơi nào khác, hãy thay đổi mật khẩu ở đó.\n\n\u003e Đặc biệt đổi mật khẩu: tài khoản ngân hàng, email, Zalo, Facebook.\n\n---\n\n## ⚠️ CẢNH BÁO QUAN TRỌNG — Tránh bị lừa lần hai!\n\nKhi phát hiện bị lừa, khách hàng chỉ nên làm việc với công an địa phương và ngân hàng. Tuyệt đối không liên hệ với các website, fanpage, tài khoản mạng xã hội quảng cáo dịch vụ \"tiếp nhận hồ sơ\", \"hỗ trợ lấy lại tiền bị treo\", \"thu hồi tiền lừa đảo\" trên không gian mạng.\n\nChỉ có ngân hàng và công an mới có thẩm quyền phối hợp xử lý giao dịch lừa đảo. Người bị hại tuyệt đối không nên chuyển thêm tiền cho bên thứ ba để \"mở khóa\" hoặc \"lấy lại tiền\", tránh \"mất tiền lần hai\".\n\n---\n\n## 💡 Khả năng lấy lại tiền?\n\nViệc lấy lại tiền khi bị lừa đảo qua mạng phụ thuộc vào mức độ nhanh chóng và cách bạn xử lý tình huống. Trong nhiều trường hợp, nếu bạn kịp thời phát hiện và trình báo với cơ quan chức năng hoặc ngân hàng liên quan, cơ hội lấy lại tiền là hoàn toàn có thể.\n\nDù bạn đã phát hiện sau 2 ngày, vẫn hãy trình báo ngay — cơ quan công an vẫn có thể điều tra và hỗ trợ bạn. Đừng bỏ cuộc!\n\n---\n\n\u003e 🔒 **Bài học quan trọng:** Ngân hàng không gửi yêu cầu đổi điểm thưởng hay nhận thưởng qua email, tin nhắn SMS, website hay ứng dụng nhắn tin có đính kèm đường link để khách hàng cung cấp thông tin cá nhân hoặc thông tin bảo mật. Bất kỳ ai yêu cầu bạn nhập **CCCD + số tài khoản + mã OTP** qua một đường link đều là **lừa đảo 100%**.",
+  "sources": [
+    "https://congan.nghean.gov.vn/an-ninh-trat-tu/canh-giac/201912/canh-bao-cac-thu-doan-lua-dao-tu-viec-gia-mao-thuong-hieu-qua-tin-nhan-va-website-887291/",
+    "https://congan.hungyen.gov.vn/canh-giac-voi-cac-thu-doan-gia-mao-tin-nhan-sms-ngan-hang-de-lua-dao-chiem-doat-tai-san-c230418.html",
+    "https://congan.quangtri.gov.vn/nhan-dien-mot-so-thu-doan-lua-dao-bang-cong-nghe-cao/",
+    "https://thanhnien.vn/canh-giac-thu-doan-doi-diem-thuong-den-cuoc-goi-khong-noi-gi-185260628090926779.htm",
+    "https://mst.gov.vn/dong-loat-canh-bao-nan-tin-nhan-lua-dao-mao-danh-ngan-hang-bhxh-197152291.htm",
+    "https://lsvn.vn/canh-bao-thu-doan-lua-dao-gia-mao-ngan-hang-doi-diem-thuong-a161033.html",
+    "https://vnba.org.vn/vi/vietcombank-canh-bao-lua-dao-mao-danh-sms-thong-bao-diem-thuong-het-han-22421.htm",
+    "https://daibieunhandan.vn/vietcombank-canh-bao-lua-dao-gia-mao-tin-nhan-sms-thong-bao-diem-thuong-het-han-10421928.html",
+    "https://itel.vn/tin-tuc/tin-tuc-itel/canh-bao-cac-chieu-thuc-lua-dao-qua-cuoc-goi-thoai-va-tin-nhan-sms.html",
+    "https://mst.gov.vn/nhieu-nguoi-sap-bay-lua-khi-nhan-nhung-tin-nhan-y-nhu-that-197240718093528417.htm",
+    "https://www.seabank.com.vn/tin-tuc/tu-van-dich-vu/tu-van--meo/cach-lay-lai-tien-da-chuyen-khoan-khi-bi-lua-huong-dan-chi-tiet-va-day-du",
+    "https://ghn.vn/blogs/tip-ban-hang/cach-lay-lai-tien-da-chuyen-khoan-khi-bi-lua",
+    "https://nhandan.vn/special/phai-lam-gi-khi-bi-lua-dao-truc-tuyen/index.html",
+    "https://www.aia.com.vn/vi/song-khoe/loi-khuyen/tai-chinh/cach-lay-lai-tien-da-chuyen-khoan-khi-bi-lua.html",
+    "https://www.vpbank.com.vn/bi-kip-va-chia-se/retail-story-and-tips/account/cach-lay-lai-tien-khi-bi-lua-chuyen-khoan",
+    "https://vov.gov.vn/cach-nao-de-lay-lai-tien-bi-lua-chuyen-khoan-dtnew-759190",
+    "https://timo.vn/blogs/bi-lua-dao-qua-tai-khoan-ngan-hang/",
+    "https://techcombank.com/thong-tin/blog/cach-lay-lai-tien-da-chuyen-khoan-khi-bi-lua",
+    "https://consumer.ftc.gov/system/files/consumer_ftc_gov/pdf/What%20to%20do%20if%20you%20were%20scammed_VI.pdf",
+    "https://cafef.vn/cach-lay-lai-tien-da-chuyen-khoan-khi-bi-lua-dung-quy-dinh-phap-luat-18825101912212633.chn"
+  ],
+  "latency_ms": 70971
+}

@@ -1,0 +1,30 @@
+{
+  "case_id": "scam-ecommerce_scam-02",
+  "rag_verdict": {
+    "strengths": [
+      "Đầy đủ các ý chính cần thiết.",
+      "Cấu trúc thông tin khoa học (Mức độ rủi ro, Dấu hiệu cảnh báo, Chiêu trò, Khuyến nghị).",
+      "Trực diện, dễ đọc, nhanh chóng nắm bắt được vấn đề."
+    ],
+    "weaknesses": [
+      "Thiếu hướng dẫn chi tiết cụ thể về cách liên hệ với Momo (như hotline) hoặc cách chuẩn bị hồ sơ trình báo công an."
+    ],
+    "reasoning": "Câu trả lời A có cấu trúc rõ ràng, tóm tắt đầy đủ các dấu hiệu cảnh báo trực tiếp từ tình huống của người dùng và đưa ra các khuyến nghị hữu ích. Tuy nhiên, so với câu trả lời B, nó hơi ngắn gọn và thiếu hướng dẫn chi tiết từng bước để xử lý hậu quả.",
+    "score": 8.5
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Phân tích rất sâu sắc, chi tiết và đầy đủ các ý chính.",
+      "Hướng dẫn hành động rõ ràng theo từng bước (Thu thập bằng chứng -\u003e Liên hệ Momo với số hotline cụ thể -\u003e Trình báo công an).",
+      "Có cảnh báo rất quan trọng về bẫy lừa đảo tiếp theo (thu hồi tiền).",
+      "Giọng điệu đồng cảm, an ủi nạn nhân giúp họ bớt hoang mang."
+    ],
+    "weaknesses": [
+      "Không có."
+    ],
+    "reasoning": "Câu trả lời B xuất sắc ở cả khía cạnh giải thích lẫn đưa ra lời khuyên. Nó không chỉ phân tích chi tiết các thủ đoạn lừa đảo mà còn cung cấp một lộ trình hành động cực kỳ rõ ràng, thực tế và dễ làm theo cho nạn nhân. Thêm vào đó, việc cảnh báo về bẫy \"lừa đảo lần 2\" (phục hồi tiền) là một điểm cộng rất lớn và thực tế. Giọng điệu của câu trả lời cũng rất nhân văn và an ủi nạn nhân.",
+    "score": 9.8
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

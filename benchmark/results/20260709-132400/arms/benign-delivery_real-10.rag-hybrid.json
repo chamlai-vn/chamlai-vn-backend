@@ -1,0 +1,16 @@
+{
+  "case_id": "benign-delivery_real-10",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "green",
+    "red_flags": [],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Mặc dù tin nhắn này là hợp lệ, nên luôn xác minh độc lập bằng cách truy cập ứng dụng chính thức của Viettel Post hoặc Tiki thay vì click vào link trong tin nhắn",
+      "Kiểm tra email hoặc lịch sử đơn hàng trên website/ứng dụng TMĐT để xác nhận đơn hàng trước khi thực hiện bất kỳ hành động gì",
+      "Nếu trong tương lai nhận được tin nhắn từ shipper yêu cầu chuyển khoản hoặc thông báo lỗi hệ thống, hãy liên hệ trực tiếp tổng đài của công ty vận chuyển để xác minh"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 3632
+}

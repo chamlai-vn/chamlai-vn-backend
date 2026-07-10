@@ -1,0 +1,52 @@
+{
+  "case_id": "scam-fake_job-02",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Tuyển cộng tác viên chốt đơn hàng online qua mạng xã hội (Facebook, Zalo) với hoa hồng cao bất thường (10–30%)",
+      "Yêu cầu nạn nhân chuyển tiền để 'chốt đơn', hứa hoàn tiền gốc cùng hoa hồng",
+      "Ban đầu trả tiền nhỏ để tạo lòng tin, sau đó yêu cầu chuyển số tiền ngày càng lớn hơn",
+      "Yêu cầu cài đặt ứng dụng giả mạo 'ShopCart Pro' từ link người lạ gửi (không qua App Store/CH Play chính thức), có thể chứa mã độc",
+      "Ứng dụng giả yêu cầu cấp quyền truy cập thiết bị, có khả năng thu thập thông tin cá nhân và thực hiện giao dịch ngầm",
+      "Chiêu 'yêu cầu chuyển thêm tiền' với lý do nâng cấp tài khoản, mở khóa đơn hàng hoặc rút tiền",
+      "Đối tượng mạo danh nhân viên sàn thương mại điện tử (Tiki, Shopee, Lazada)"
+    ],
+    "matched_patterns": [
+      "Lừa đảo tuyển cộng tác viên chốt đơn hàng ảo cho sàn thương mại điện tử"
+    ],
+    "recommended_actions": [
+      "Xóa ngay ứng dụng 'ShopCart Pro' khỏi điện thoại",
+      "Đổi mật khẩu ngân hàng và khóa thẻ/tài khoản ngay lập tức nếu đã cài ứng dụng này",
+      "Trình báo cơ quan công an nơi gần nhất",
+      "Cung cấp cho công an: ảnh chụp màn hình toàn bộ tin nhắn Zalo với đối tượng, số tài khoản ngân hàng nhận tiền, và bill chuyển khoản 890.000 đồng",
+      "Lưu toàn bộ bằng chứng trước khi bị xóa (tin nhắn, bill chuyển tiền, link Facebook của đối tượng...)",
+      "Cảnh báo người thân và bạn bè xung quanh về hình thức lừa đảo này"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## ✅ KẾT LUẬN: ĐÂY LÀ LỪA ĐẢO 100% — Rất nguy hiểm!\n\nTình huống Linh gặp phải là một **vụ lừa đảo điển hình**, đã được cơ quan công an Việt Nam cảnh báo nhiều lần. Dưới đây là phân tích chi tiết:\n\n---\n\n## 🔴 TẠI SAO ĐÂY LÀ LỪA ĐẢO?\n\n### 1. Đúng kịch bản \"tuyển CTV chốt đơn hàng ảo\"\n\nMột trong những hình thức lừa đảo phổ biến hiện nay là lừa đảo tuyển cộng tác viên chốt đơn hàng cho các sàn thương mại điện tử để lấy \"tiền hoa hồng\".\n\nNắm bắt được tâm lý của nhiều người muốn có công việc nhẹ nhàng, thu nhập cao, các nhóm đối tượng đã sử dụng thủ đoạn lừa đảo thông qua việc tuyển cộng tác viên làm việc online với tỷ lệ hoa hồng lớn — giả mạo các trang sàn thương mại điện tử như Tiki, Shopee, Lazada và các thương hiệu lớn để chiếm đoạt tài sản của các nạn nhân.\n\n---\n\n### 2. Quy trình bẫy tiền theo từng bước — đúng như Linh đã gặp\n\nBước 1: Kẻ lừa đảo mạo danh nhân viên sàn TMĐT đăng tin tuyển CTV qua mạng xã hội như Facebook, Zalo. Bước 2: Nạn nhân được cấp app/đường link giả. Bước 3: CTV phải chuyển tiền \"chốt đơn\" — số tiền ban đầu sẽ được hoàn trả cùng \"hoa hồng\" từ 10–30%. Bước 4: Sau khi đã tạo lòng tin, khi đơn hàng có giá trị cao hơn, đối tượng lừa đảo không chuyển trả lại tiền gốc và hoa hồng như hứa hẹn mà yêu cầu nạn nhân chuyển thêm tiền.\n\nĐến khi nạn nhân không thể tiếp tục chốt đơn và chuyển tiền nữa thì các đối tượng chặn tài khoản và cắt liên lạc.\n\n---\n\n### 3. Ứng dụng giả \"ShopCart Pro\" là cực kỳ nguy hiểm\n\nMột kịch bản lừa đảo phổ biến là hướng dẫn nạn nhân cài đặt các ứng dụng giả trên điện thoại. Những ứng dụng này có chứa mã độc, cho phép tội phạm chiếm quyền điều khiển thiết bị và thực hiện các giao dịch chuyển tiền mà nạn nhân không hay biết.\n\nCác ứng dụng giả mạo sẽ yêu cầu nạn nhân cấp quyền truy cập thiết bị hoặc chứa mã độc có khả năng thu thập thông tin (như sinh trắc học, tài khoản đăng nhập ngân hàng điện tử); chiếm đoạt thông tin cá nhân sử dụng cho mục đích xấu như phạm pháp, vay khống, tống tiền; điều khiển thiết bị thực hiện giao dịch chuyển tiền từ tài khoản nạn nhân sang tài khoản của đối tượng.\n\n---\n\n### 4. Chiêu \"yêu cầu chuyển thêm tiền\" là đặc trưng cốt lõi của bẫy\n\nBan đầu, chúng trả khoản tiền nhỏ để tạo lòng tin, sau đó yêu cầu nạn nhân chuyển thêm tiền nhằm \"nâng cấp tài khoản\", \"mở khóa đơn hàng\" hoặc \"rút tiền\". Khi số tiền đã chuyển ngày càng lớn, nạn nhân không thể rút lại và tiếp tục bị yêu cầu đóng thêm các khoản phí vô lý.\n\n---\n\n### 5. Thiệt hại có thể rất lớn — không chỉ 890.000 đồng\n\nĐã có nạn nhân chuyển gần 1,4 tỷ đồng nhưng không rút được tiền, và chỉ đến lúc đó mới biết mình bị lừa và đến cơ quan công an trình báo.\n\nKhoản tiền các đối tượng lừa chiếm đoạt được từ hình thức này thường từ vài triệu đến vài trăm triệu đồng.\n\n---\n\n### 6. Đây là đường dây có tổ chức, đã bị Bộ Công an triệt phá\n\nTháng 1/2024, Bộ Công an đã triệt phá đường dây lừa đảo trực tuyến qua hình thức \"tuyển cộng tác viên mua hàng online\" tại khu vực đặc khu kinh tế Tam giác vàng — tức là các ổ nhóm này hoạt động xuyên quốc gia.\n\n---\n\n## ✅ NHỮNG GÌ BẠN VÀ LINH CẦN LÀM NGAY BÂY GIỜ\n\n### 🔒 Bước 1: Xóa ngay ứng dụng \"ShopCart Pro\"\nVì ứng dụng này rất có thể chứa mã độc đang hoạt động ngầm trên điện thoại. **Nên đổi mật khẩu ngân hàng và khóa thẻ/tài khoản ngay lập tức** nếu Linh đã cài ứng dụng này.\n\n### 🚔 Bước 2: Trình báo công an — đã làm đúng!\nNếu phát hiện ra trường hợp lừa đảo, người dân cần báo ngay cho cơ quan công an để nhanh chóng xác minh, ngăn chặn và xử lý các đối tượng vi phạm theo quy định của pháp luật.\n\nKhi trình báo, hãy cung cấp: **ảnh chụp màn hình toàn bộ tin nhắn Zalo với \"Trần Minh Đức\"**, số tài khoản ngân hàng nhận tiền, và bill chuyển khoản 890.000 đồng.\n\n### 📸 Bước 3: Lưu bằng chứng trước khi bị xóa\nKhi phát hiện các dấu hiệu nghi vấn lừa đảo hoặc không may đã trở thành nạn nhân, hãy nhanh chóng chụp lại màn hình (tin nhắn giao dịch, bill chuyển tiền, link Facebook của đối tượng...) và báo ngay cho cơ quan công an nơi gần nhất.\n\n### ⚠️ Bước 4: Cảnh báo người thân xung quanh\nTích cực chia sẻ các thông tin cảnh báo đến người thân, bạn bè và mọi người xung quanh, góp phần ngăn chặn tội phạm lừa đảo chiếm đoạt tài sản trên không gian mạng.\n\n---\n\n## 🧠 GHI NHỚ 3 NGUYÊN TẮC VÀNG\n\n| ❌ Không bao giờ | ✅ Luôn luôn |\n|---|---|\n| Tải app từ link người lạ gửi | Chỉ cài app từ App Store / CH Play chính thức |\n| Chuyển tiền \"ký cọc / kích hoạt / mở khóa\" | Kiểm tra kỹ danh tính công ty tuyển dụng |\n| Tin vào lời hứa \"lương cao, việc nhẹ, không cần kinh nghiệm\" | Nhớ rằng: **không có việc nào dễ mà lương cao đến vậy** |\n\nLinh thật may mắn khi kịp nhận ra và dừng lại đúng lúc. Chúc cô ấy bình an!",
+  "sources": [
+    "https://iuoss.com/canh-bao-ve-24-hinh-thuc-lua-dao-tren-khong-gian-mang/",
+    "https://conganthanhhoa.gov.vn/tin-tuc-su-kien/tin-an-ninh-trat-tu/canh-giac-voi-thu-doan-lua-chot-don-hang-kiem-tien-online-.html",
+    "https://congan.longan.gov.vn/vi/chi-tiet-tin-tuc?Id=194766",
+    "https://vnexpress.net/bo-cong-an-neu-7-thu-doan-lua-dao-mang-pho-bien-4906637.html",
+    "https://congan.dongthap.gov.vn/chi-tiet-bai-viet/-/asset_publisher/wbj7qfWZntAi/content/id/7076161",
+    "https://congan.quangtri.gov.vn/nhan-dien-mot-so-thu-doan-lua-dao-bang-cong-nghe-cao/",
+    "https://mst.gov.vn/canh-giac-voi-cac-chieu-tro-lua-dao-ngan-hang-truc-tuyen-197154333.htm",
+    "https://bocongan.gov.vn/bai-viet/canh-bao-lua-dao-chiem-doat-tai-san-tu-su-co-an-ninh-mang-tai-trung-tam-thong-tin-tin-dung-quoc-gia-cic-1757991790",
+    "https://congluan.vn/sap-bay-lam-cong-tac-vien-online-nguoi-phu-nu-bi-lua-gan-1-4-ty-dong-10254676.html",
+    "https://kenh14.vn/mot-ngan-hang-lon-canh-bao-thu-doan-lua-dao-cai-dat-ung-dung-gia-mao-co-kha-nang-thu-thap-sinh-trac-hoc-dieu-khien-thiet-bi-chuyen-tien-215241226093804048.chn",
+    "https://www.facebook.com/groups/340709529753351/",
+    "https://congan.ninhbinh.gov.vn/canh-bao-chieu-tro-shop-ao-lua-dao-tren-facebook",
+    "https://traderviet.tv/t/day-co-phai-la-dau-hieu-cua-mot-thay-trading-lua-dao-muon-danh-giao-dich-thuat-toan-tai-viet-nam.37833/",
+    "https://vtv.vn/thoi-phong-chat-luong-lua-ban-hang-gia-dung-gia-cao-6-doi-tuong-bi-khoi-to-100260708230206122.htm",
+    "https://laodong.vn/phap-luat/bi-lua-tien-ti-khi-lam-cong-tac-vien-ban-hang-online-dat-don-hang-ao-1014725.ldo",
+    "https://baoquangninh.vn/tran-lan-shop-ao-gia-sieu-re-lua-nguoi-tieu-dung-tren-san-thuong-mai-dien-tu-3287147.html",
+    "https://traderviet.tv/t/tat-ca-nguoi-dan-khi-mua-hang-tren-tren-tiktok-shop-dac-biet-chu-y.116253/",
+    "https://tichuot.com/blogs/thong-bao/1000090321-danh-sach-khach-hang-khong-trung-thuc-bi-blacklist-cam-mua-ban-tai-shop-ti-chuot",
+    "https://tuoitre.vn/doanh-nghiep-bat-dong-san-dau-dau-vi-bi-nhai-thuong-hieu-20200117153149016.htm",
+    "https://vnexpress.net/khach-dung-anh-ai-lua-tien-shop-online-4987885.html"
+  ],
+  "latency_ms": 80033
+}

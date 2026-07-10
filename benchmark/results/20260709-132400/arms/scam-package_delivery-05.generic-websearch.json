@@ -1,0 +1,27 @@
+{
+  "case_id": "scam-package_delivery-05",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Tên miền lạ shipgiao-xnb.vn — không phải domain chính thức của Shopee hay bất kỳ đơn vị vận chuyển nào (GHN, GHTK, J&T...)",
+      "Yêu cầu trả \"phí giao hàng\" qua link ngoài app — Shopee không bao giờ yêu cầu thanh toán phí giao hàng qua link ngoài nền tảng",
+      "Tạo áp lực thời gian (thanh toán trong 24h) để nạn nhân hoảng và bấm link mà không kịp suy nghĩ",
+      "Mã vận đơn và số điện thoại \"hỗ trợ\" không thể tra cứu trên hệ thống chính thức",
+      "Khớp đúng mô hình lừa đảo giả shipper mà Shopee từng cảnh báo: dẫn dụ nhấn link để lấy OTP/mật khẩu/thông tin ngân hàng"
+    ],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Tuyệt đối không bấm vào link, không nhập thông tin thẻ/mật khẩu/OTP",
+      "Không gọi lại số điện thoại trong tin nhắn",
+      "Kiểm tra trực tiếp trong app Shopee mục \"Đơn mua\" thay vì tin theo link ngoài",
+      "Xóa tin nhắn hoặc chặn số gửi",
+      "Báo cáo qua tổng đài Shopee 1900 1221, đầu số phản ánh lừa đảo của nhà mạng, hoặc canhbao.ncsc.gov.vn",
+      "Nếu đã lỡ nhập thông tin thẻ/OTP: liên hệ ngân hàng khóa thẻ ngay, đổi mật khẩu các tài khoản dùng chung, bật xác thực 2 lớp"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## Đây là tin nhắn lừa đảo (phishing) — gần như chắc chắn 100%\n\n**Các dấu hiệu rõ ràng:**\n\n1. **Tên miền lạ, không liên quan Shopee**: `shipgiao-xnb.vn` không phải domain chính thức của Shopee hay bất kỳ đơn vị vận chuyển nào (GHN, GHTK, J&T, Ninh Sơn Express...). Đây là kiểu domain \"nhái\" thường thấy trong các chiến dịch lừa đảo.\n\n2. **Yêu cầu trả \"phí giao hàng\" qua link lạ**: Theo cảnh báo chính thức từ Shopee, Shopee KHÔNG bao giờ yêu cầu người dùng cung cấp thông tin cá nhân, và mọi cảnh báo lừa đảo đều nhấn mạnh không nên thực hiện giao dịch bên ngoài nền tảng Shopee. Đơn hàng thật của Shopee (nếu có phụ phí COD) sẽ hiển thị ngay trong app, không cần bấm link ngoài để \"thanh toán phí giao hàng\".\n\n3. **Tạo áp lực thời gian (24h)**: Chiêu thức kinh điển để khiến nạn nhân hoảng và bấm link mà không kịp suy nghĩ kỹ.\n\n4. **Mã vận đơn và số điện thoại \"hỗ trợ\" tự bịa**: Không thể tra cứu trên hệ thống chính thức của Shopee hay các đơn vị vận chuyển.\n\n5. Đây đúng là mô hình lừa đảo phổ biến mà Shopee từng cảnh báo: tin nhắn/cuộc gọi lừa đảo thường thông báo có vấn đề với đơn hàng và yêu cầu bạn nhấn vào các đường dẫn đáng ngờ để cung cấp thông tin nhạy cảm như OTP, mật khẩu đăng nhập, thông tin ngân hàng, sau đó dùng thông tin này để chiếm đoạt tiền.\n\n**Mục đích thật sự của link đó** thường là:\n- Trang giả mạo cổng thanh toán để lấy thông tin thẻ ngân hàng/OTP, hoặc\n- Cài mã độc/ứng dụng gián điệp lên điện thoại nếu bạn tải file APK.\n\n## Bạn nên làm gì tiếp theo\n\n1. **Tuyệt đối không bấm vào link**, không nhập bất kỳ thông tin thẻ, mật khẩu, OTP nào.\n2. **Không gọi lại số điện thoại** trong tin nhắn.\n3. **Kiểm tra trực tiếp trong app Shopee** – nếu có đơn hàng thật đang chờ, nó sẽ hiện trong mục \"Đơn mua\" với trạng thái vận chuyển rõ ràng, không cần trả thêm phí qua link ngoài.\n4. **Xóa tin nhắn** hoặc chặn số gửi.\n5. Nếu muốn báo cáo: gọi tổng đài Shopee 1900 1221, hoặc **soạn tin nhắn LD [số điện thoại] [nội dung]** gửi đến đầu số phản ánh lừa đảo/spam của nhà mạng, hoặc phản ánh với **Trung tâm Giám sát an toàn không gian mạng quốc gia (NCSC)** qua trang canhbao.ncsc.gov.vn.\n6. Nếu bạn **đã lỡ bấm vào link và nhập thông tin thẻ/OTP**: liên hệ ngay ngân hàng để khóa thẻ/tài khoản, đổi mật khẩu Shopee và các tài khoản dùng chung mật khẩu, bật xác thực 2 lớp.\n\nNói ngắn gọn: đây là lừa đảo giả mạo shipper/Shopee để chiếm đoạt tiền hoặc thông tin ngân hàng — không tương tác, không bấm link, xóa và báo cáo.",
+  "sources": [],
+  "latency_ms": 0
+}

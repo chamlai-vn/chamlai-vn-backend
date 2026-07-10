@@ -1,0 +1,53 @@
+{
+  "case_id": "scam-impersonation_authority-03",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Giả mạo cơ quan Công an, gọi điện thoại tự xưng là cán bộ Công an yêu cầu cài đặt ứng dụng",
+      "Yêu cầu truy cập link và cài app giả mạo VNeID (vneidsecure.app) chứa mã độc (malware)",
+      "App giả mạo thu thập mã OTP ngân hàng, mật khẩu, dữ liệu sinh trắc học để chiếm đoạt tài khoản ngân hàng",
+      "Chiến thuật tạo áp lực thời gian (đặt thời hạn 2 tiếng) để nạn nhân không kịp kiểm tra, suy nghĩ kỹ"
+    ],
+    "matched_patterns": [
+      "Giả mạo cơ quan công an",
+      "App giả mạo chứa mã độc",
+      "Lừa đảo chiếm đoạt tài khoản ngân hàng qua VNeID giả"
+    ],
+    "recommended_actions": [
+      "TUYỆT ĐỐI KHÔNG bấm vào link vneidsecure.app",
+      "KHÔNG cung cấp số CCCD, ngày sinh, mật khẩu cho bất kỳ ai",
+      "Chặn và xóa tin nhắn này ngay lập tức",
+      "Thông báo cho cơ quan Công an xã, phường, thị trấn nơi cư trú hoặc cơ quan Công an gần nhất",
+      "Nếu đã lỡ cài app: khóa tài khoản ngân hàng, xóa ứng dụng giả mạo, thay đổi mật khẩu ứng dụng ngân hàng và khôi phục cài đặt gốc của điện thoại",
+      "Nếu đã bị mất tài sản: trình báo với cơ quan công an gần nhất để được hỗ trợ điều tra, truy vết và thu hồi tài sản",
+      "Chỉ tải app VNeID từ App Store hoặc CH Play, không từ link lạ",
+      "Chia sẻ thông tin cảnh báo này với người thân, đặc biệt là người lớn tuổi"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 ĐÂY LÀ LỪA ĐẢO 100% — CỰC KỲ NGUY HIỂM!\n\nTin nhắn bạn nhận được là một **chiêu lừa đảo kinh điển** đang lan rộng khắp Việt Nam. Dưới đây là phân tích chi tiết:\n\n---\n\n## ❌ Tại sao đây là lừa đảo?\n\n### 1. Giả mạo cơ quan Công an\nCán bộ Công an khi muốn làm việc với người dân sẽ làm việc trực tiếp hoặc thông qua Giấy mời, hoặc hướng dẫn đến Cơ quan Công an địa phương. **Tất cả các trường hợp gọi điện thoại từ người lạ tự xưng là cán bộ Công an để yêu cầu công dân tải, cài đặt ứng dụng trên điện thoại đều là hành vi lừa đảo nhằm chiếm đoạt tài sản.**\n\n### 2. Link cài app giả mạo (vneidsecure.app)\nCác đối tượng yêu cầu người dân truy cập vào một đường link hoặc tải ứng dụng VNeID giả mạo, được giới thiệu là \"chính thức\". Thực chất, những đường dẫn hoặc ứng dụng này **chứa mã độc (malware)**, cho phép tin tặc chiếm quyền điều khiển thiết bị di động của nạn nhân.\n\nBộ Công an chỉ có **một ứng dụng duy nhất** để định danh và xác thực điện tử là \"VneID\", ngoài ra không còn ứng dụng nào khác. Tên \"VneID**+**\" hay link \"vneidsecure.app\" đều là **giả mạo hoàn toàn**.\n\n### 3. Hậu quả nếu cài app giả\nKhi người dân vô tình cài đặt ứng dụng hoặc truy cập link, mã độc sẽ âm thầm thu thập dữ liệu, bao gồm **mã OTP từ tin nhắn ngân hàng, mật khẩu**, hoặc thậm chí dữ liệu sinh trắc học như khuôn mặt, vân tay.\n\nSau khi ứng dụng VNeID giả mạo được cài đặt và được cấp quyền truy cập mức cao, đối tượng kiểm soát được tài khoản ngân hàng, sau đó **thực hiện lệnh chuyển tiền và chiếm đoạt tài sản**.\n\n### 4. Chiến thuật tạo áp lực thời gian\nKẻ xấu thường lợi dụng tâm lý **ngại đi đến cơ quan công an, sợ gặp rắc rối** nếu không chấp hành theo hướng dẫn của đối tượng mạo danh công an. Việc đặt thời hạn \"2 tiếng\" là để bạn không có thời gian kiểm tra, suy nghĩ kỹ.\n\n### 5. Nạn nhân thực tế đã mất tiền tỷ\nCó nạn nhân chỉ truy cập link và làm theo hướng dẫn, đến sáng hôm sau **bàng hoàng phát hiện 129 triệu đồng trong tài khoản không cánh mà bay**. Nhiều người bị lừa sạch tiền trong tài khoản, có nạn nhân bị lừa đến **1,5 tỉ đồng**.\n\n---\n\n## ✅ Bạn cần làm gì ngay bây giờ?\n\n### Nếu CHƯA bấm vào link hay cài app:\n- ✅ **TUYỆT ĐỐI KHÔNG** bấm vào link `vneidsecure.app`\n- ✅ **KHÔNG** cung cấp số CCCD, ngày sinh, mật khẩu cho bất kỳ ai\n- ✅ Chặn và xóa tin nhắn này ngay lập tức\n- ✅ Kịp thời thông báo ngay cho cơ quan Công an xã, phường, thị trấn nơi cư trú hoặc cơ quan Công an gần nhất để kịp thời ngăn chặn và hướng dẫn giải quyết.\n\n### Nếu ĐÃ lỡ cài app hoặc cung cấp thông tin:\nNhanh chóng **khóa tài khoản ngân hàng**, xóa ứng dụng giả mạo, **thay đổi mật khẩu** ứng dụng ngân hàng và **khôi phục cài đặt gốc của điện thoại**.\n\nNếu đã bị lừa đảo và mất tài sản, cần nhanh chóng **trình báo với cơ quan công an gần nhất** để được hỗ trợ điều tra, truy vết và có cơ hội thu hồi tài sản.\n\n---\n\n## 📌 Ghi nhớ quan trọng\n\n| ✅ Thật | ❌ Giả mạo |\n|---|---|\n| App VNeID tải từ **App Store / CH Play** | App từ link lạ như `vneidsecure.app` |\n| Công an làm việc trực tiếp hoặc gửi giấy mời | Gọi điện yêu cầu xác thực gấp qua điện thoại |\n| Tổng đài duy nhất hỗ trợ VNeID là **1900.0368** | Mọi số điện thoại khác tự xưng là \"công an\" |\n\n\u003e 💬 **Hãy chia sẻ thông tin này với người thân, đặc biệt là người lớn tuổi, để tránh bị lừa đảo!**",
+  "sources": [
+    "https://congan.ninhbinh.gov.vn/canh-giac-voi-thu-doan-gia-danh-can-bo-cong-an-huong-dan-cai-dat-ung-dung-vneid-de-lua-dao-chiem-doat-tai-san",
+    "https://dongnai.gov.vn/vi/news/phong-chong-toi-pham-canh-bao-toi-pham/canh-bao-thu-doan-lua-dao-gia-danh-co-quan-cong-an-huong-dan-cai-dat-vneid-gia-mao-de-thuc-hien-hanh-vi-chiem-doat-tai-san-41488.html",
+    "https://congan.tayninh.gov.vn/vi/chi-tiet-tin-tuc?Id=153793",
+    "https://congan.ninhbinh.gov.vn/canh-bao-nguoi-dan-bi-cac-doi-tuong-lua-dao-bang-hinh-thuc-cap-nhat-thong-tin-tren-ung-dung-dinh-danh-dien-tu-vneid",
+    "https://baochinhphu.vn/gia-cong-an-bao-loi-vneid-chiem-hang-ty-dong-102240630164327625.htm",
+    "https://congan.kontum.gov.vn/an-ninh-trat-tu/toi-pham-va-vi-pham-phap-luat/canh-bao-toi-pham/canh-bao-thu-doan-lua-dao-chiem-doat-tai-san-qua-ung-dung-vneid.html",
+    "https://www.vietnamplus.vn/canh-giac-lua-dao-mao-danh-cong-an-yeu-cau-tai-cai-ung-dung-vneid-gia-mao-post995565.vnp",
+    "https://congan.quangtri.gov.vn/canh-giac-thu-doan-gia-danh-can-bo-cong-an/",
+    "https://www.hoabinh.gov.vn/tin-chi-tiet/-/bai-viet/canh-bao-thu-doan-goi-dien-gia-danh-can-bo-cong-an-can-bo-co-quan-nha-nuoc-gui-duong-link-cai-dat-ung-dung-vneid-gia-mao-de-chiem-doat-tai-san-52458-1363.html",
+    "https://chinhsachcuocsong.vnanet.vn/canh-giac-lua-dao-mao-danh-cong-an-yeu-cau-tai-cai-ung-dung-vneid-gia-mao/51523.html",
+    "https://baokhanhhoa.vn/phap-luat/202507/canh-bao-thu-doan-lua-dao-cai-ung-dung-vneid-gia-mao-6c16804/",
+    "https://bocongan.gov.vn/bai-viet/canh-bao-thu-doan-lua-dao-cai-ung-dung-vneid-gia-mao-d22-t45880",
+    "https://congan.tayninh.gov.vn/vi/chi-tiet-tin-tuc?Id=112922",
+    "https://hcc.bacninh.gov.vn/news/-/details/11742135/canh-bao-thu-oan-lua-ao-huong-dan-cai-at-vneid-gia-mao-e-chiem-oat-tai-san-57561472",
+    "https://congan.binhthuan.gov.vn/hiem-hoa-lua-dao-cai-dat-ung-dung-vneid-gia-mao--thu-doan-cu-nan-nhan-moi-N2888.aspx",
+    "https://congan.daklak.gov.vn/-/canh-giac-hanh-vi-huong-dan-cai-at-ung-dung-vneid-gia-mao-nham-thuc-hien-hanh-vi-chiem-oat-thong-tin-va-tai-san",
+    "https://tuoitre.vn/gia-cong-an-huong-dan-cai-app-vneid-dom-lua-lay-tien-ti-20240318224720091.htm",
+    "https://dx.camau.gov.vn/tin-tuc/canh-giac-voi-thu-doan-lua-dao-lien-quan-den-ung-dung-vneid-119513",
+    "https://congan.laichau.gov.vn/index.php/pho-bien-giao-duc-phap-luat/canh-bao-lua-dao-tai-cai-ung-dung-vneid-gia-mao-2566.html",
+    "https://nhoquan.ninhbinh.gov.vn/chuyen-doi-so/cong-an-chi-cach-nhan-biet-khi-bi-cai-ung-dung-vneid-gia-mao-326156"
+  ],
+  "latency_ms": 57796
+}

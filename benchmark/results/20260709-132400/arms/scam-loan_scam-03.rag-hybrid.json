@@ -1,0 +1,31 @@
+{
+  "case_id": "scam-loan_scam-03",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Mạo danh công ty tài chính (Tài chính Xanh Plus) không xác minh được",
+      "Hứa hẹn vay tiền siêu tốc chỉ 30 phút - không hợp lý",
+      "Lãi suất quá thấp (1.2%/tháng) so với lãi suất ngân hàng chính thức",
+      "Yêu cầu chuyển phí duyệt hồ sơ trước khi nhận tiền (450k) - dấu hiệu điển hình",
+      "Yêu cầu cung cấp số CCCD qua link lạ - nguy cơ đánh cắp thông tin cá nhân",
+      "Link trang web không rõ nguồn gốc, có ID tham số khả nghi",
+      "Giới thiệu không chuyên nghiệp, thiếu thông tin chính thức về công ty",
+      "Yêu cầu thanh toán qua Momo hoặc ngân hàng cá nhân thay vì tài khoản doanh nghiệp chính thức"
+    ],
+    "matched_patterns": [
+      "Lừa đảo vay tiền qua app giả mạo công ty tài chính, yêu cầu nộp phạt trước",
+      "Mạo danh ngân hàng, công ty tài chính cho vay trực tuyến để lừa đảo"
+    ],
+    "recommended_actions": [
+      "Tuyệt đối không click vào link hoặc truy cập trang web được cung cấp",
+      "Không điền thông tin CCCD hoặc bất kỳ dữ liệu cá nhân nào trên link lạ",
+      "Không chuyển khoản 450k hoặc bất kỳ khoản tiền nào cho người này",
+      "Kiểm tra danh tính Tài chính Xanh Plus qua website chính thức (nếu tồn tại) hoặc liên hệ trực tiếp qua số hotline được công khai rõ ràng",
+      "Chỉ vay tiền từ các ngân hàng hoặc công ty tài chính hợp pháp được Nhà nước cấp phép - liên hệ trực tiếp chi nhánh hoặc website chính thức",
+      "Báo cáo tin nhắn này cho cơ quan công an hoặc bộ phận chống lừa đảo nếu có"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 8182
+}

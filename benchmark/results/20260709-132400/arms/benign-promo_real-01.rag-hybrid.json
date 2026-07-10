@@ -1,0 +1,24 @@
+{
+  "case_id": "benign-promo_real-01",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "yellow",
+    "red_flags": [
+      "Yêu cầu xác minh danh tính qua link từ người lạ hoặc nguồn không xác định",
+      "Thông báo hoạt động bất thường là dấu hiệu điển hình của lừa đảo tech_fraud và recovery_scam",
+      "Không có chi tiết cụ thể về link hoặc nguồn gốc của thông báo"
+    ],
+    "matched_patterns": [
+      "tech_fraud",
+      "recovery_scam"
+    ],
+    "recommended_actions": [
+      "Không click vào link bất kỳ được gửi qua tin nhắn từ người lạ, dù thông báo có vẻ từ Shopee",
+      "Truy cập trực tiếp ứng dụng Shopee chính thức trên điện thoại để kiểm tra tài khoản",
+      "Liên hệ hotline chính thức của Shopee để xác minh xem có thực sự có hoạt động bất thường hay không",
+      "Tuyệt đối không nhập mật khẩu, mã OTP hoặc thông tin tài khoản ngân hàng qua bất kỳ link lạ nào"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 4483
+}

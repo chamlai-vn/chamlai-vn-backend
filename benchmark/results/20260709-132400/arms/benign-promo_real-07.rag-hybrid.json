@@ -1,0 +1,27 @@
+{
+  "case_id": "benign-promo_real-07",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Đường link Shopee không phải từ miền shopee.com.vn hoặc shopee.vn chính thức (link có dấu hiệu giả mạo)",
+      "Yêu cầu cập nhật thông tin tài khoản qua link khả nghi, có nguy cơ đánh cắp dữ liệu đăng nhập",
+      "Tạo áp lực thời gian với thông báo 'chỉ 100 khách hàng đầu tiên' và thời hạn 24 giờ",
+      "Mạo danh Shopee (sàn thương mại uy tín) để tăng độ tin cậy",
+      "Voucher 500K và giảm giá 20% cùng miễn phí vận chuyển là ưu đãi quá khủng, không phổ biến từ Shopee chính thức"
+    ],
+    "matched_patterns": [
+      "prize_gift - Cửa hàng giả mạo khuyến mãi khủng và tặng quà miễn phí để lừa đảo chiếm đoạt tiền",
+      "package_delivery - Giả danh shipper gọi điện yêu cầu chuyển khoản trước, gửi link giả mạo"
+    ],
+    "recommended_actions": [
+      "Không nhấp vào bất kỳ link nào trong tin nhắn; truy cập trực tiếp ứng dụng Shopee chính thức trên điện thoại hoặc website shopee.vn để kiểm tra chương trình khuyến mãi",
+      "Liên hệ trực tiếp Hotline CSKH chính thức của Shopee (1900 6969) để xác nhận chương trình này có thực hay không",
+      "Tuyệt đối không cập nhật thông tin tài khoản qua link từ tin nhắn; chỉ cập nhật trong ứng dụng chính thức",
+      "Kiểm tra URL link bằng cách di chuột qua link mà không nhấp để xem đúng là shopee chính thức hay không",
+      "Báo cáo tin nhắn lừa đảo này cho Shopee và các cơ quan chức năng"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 7940
+}

@@ -1,0 +1,29 @@
+{
+  "case_id": "scam-prize_gift-07",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Giả danh thương hiệu nổi tiếng (VinFast) mà chưa từng có tương tác trước đó",
+      "Thông báo trúng thưởng mà người nhận không hề tham gia chương trình nào",
+      "Yêu cầu click vào link rút gọn lạ (bit.ly) thay vì trang chính thức",
+      "Yêu cầu cung cấp thông tin nhạy cảm (CMND, số tài khoản) qua link lạ",
+      "Số điện thoại liên hệ không nằm trong danh sách công ty chính thức",
+      "Hứa hẹn quà tặng giá trị cao (voucher 5 triệu + điều hòa) để tăng lòng tin"
+    ],
+    "matched_patterns": [
+      "prize_gift - Lừa đảo tặng quà tri ân",
+      "prize_gift - Giả danh công ty/siêu thị tặng quà tri ân",
+      "tech_fraud - Giả danh shipper dẫn dụ click link giả để hack tài khoản"
+    ],
+    "recommended_actions": [
+      "Không bao giờ click vào link rút gọn hoặc link lạ từ những tin nhắn thông báo trúng thưởng",
+      "Luôn xác minh trực tiếp với công ty qua số hotline chính thức trên website chính thức của hãng, không dùng số điện thoại từ tin nhắn",
+      "Không cung cấp thông tin cá nhân nhạy cảm (CMND, số tài khoản, mật khẩu) qua link hoặc qua người lạ",
+      "Nếu nghi ngờ, hãy trực tiếp liên hệ đơn vị được xưng danh để xác minh",
+      "Cân nhắc báo cáo tài khoản Zalo giả mạo này cho nền tảng để hạn chế lừa đảo tiếp theo"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 6955
+}

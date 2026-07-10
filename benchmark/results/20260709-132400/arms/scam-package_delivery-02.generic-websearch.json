@@ -1,0 +1,56 @@
+{
+  "case_id": "scam-package_delivery-02",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Tin nhắn được gửi từ số điện thoại cá nhân (+84947382156), không phải từ đầu số thương hiệu hoặc tài khoản có dấu xác thực",
+      "Link rút gọn dẫn đến website giả mạo giao diện công ty vận chuyển",
+      "Yêu cầu trả 'phí đóng gói và bảo hiểm' trước khi nhận hàng",
+      "Yêu cầu chuyển tiền vào tài khoản cá nhân ('Nguyễn Văn Tuấn' tại Vietcombank Thanh Xuân), không phải tài khoản doanh nghiệp",
+      "Website giả mạo yêu cầu cung cấp thông tin cá nhân, số tài khoản và mã OTP",
+      "Số tiền phí nhỏ (250.000 đồng) chỉ là mồi nhử, mục tiêu thật là toàn bộ tài khoản ngân hàng"
+    ],
+    "matched_patterns": [
+      "Giả mạo công ty giao hàng/bưu điện",
+      "Yêu cầu chuyển khoản phí trước khi nhận hàng",
+      "Website giả mạo đánh cắp thông tin cá nhân và OTP",
+      "Chuyển tiền vào tài khoản cá nhân thay vì tài khoản doanh nghiệp"
+    ],
+    "recommended_actions": [
+      "Quét virus/malware toàn bộ điện thoại ngay lập tức bằng ứng dụng bảo mật uy tín",
+      "Đổi mật khẩu ứng dụng ngân hàng, email và mạng xã hội",
+      "Bật xác thực 2 lớp (2FA) cho tất cả tài khoản quan trọng",
+      "Theo dõi lịch sử giao dịch ngân hàng trong vài ngày tới — nếu có giao dịch lạ, báo ngân hàng ngay",
+      "Báo cáo số điện thoại lừa đảo lên cơ quan công an",
+      "Liên hệ Hotline Bưu điện Việt Nam: 1900 545 481 hoặc Fanpage Vietnam Post để được hỗ trợ",
+      "Báo cáo lên Cục An toàn thông tin tại https://canhbao.ncsc.gov.vn",
+      "Trình báo Công an địa phương hoặc Phòng An ninh mạng (PC02) tỉnh/thành phố"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## ✅ KẾT LUẬN: ĐÂY LÀ LỪA ĐẢO 100% — Bạn đã đúng khi cảnh báo Linh!\n\nTình huống của Linh là một **vụ lừa đảo điển hình và rất phổ biến tại Việt Nam**, khớp hoàn toàn với các cảnh báo từ cơ quan công an và các chuyên gia an ninh mạng. Dưới đây là phân tích chi tiết:\n\n---\n\n## 🔍 Tại sao đây là lừa đảo?\n\n### 1. 📲 Tin nhắn từ số điện thoại cá nhân — dấu hiệu đỏ đầu tiên\nTin nhắn hợp lệ từ công ty giao hàng luôn được gửi từ tài khoản có dấu xác thực hoặc từ đầu số thương hiệu, **không bao giờ dùng số điện thoại cá nhân**. Số +84947382156 là số cá nhân — đây là dấu hiệu giả mạo rõ ràng.\n\n### 2. 🔗 Link rút gọn dẫn đến website giả mạo\nKẻ gian gửi tin nhắn giả mạo từ công ty vận chuyển, yêu cầu người dùng nhấn vào đường link để xác nhận đơn hàng. Một khi nạn nhân truy cập vào link, thông tin cá nhân và tài khoản ngân hàng có thể bị đánh cắp.\n\n### 3. 💸 Yêu cầu trả \"phí đóng gói/bảo hiểm\" trước khi nhận hàng — chiêu bài cốt lõi\nThủ đoạn phổ biến nhất hiện nay là các đối tượng lừa đảo gọi điện hoặc nhắn tin **yêu cầu khách hàng chuyển khoản tiền hàng hoặc phí vận chuyển trước khi nhận hàng**. Không có công ty giao hàng hợp pháp nào yêu cầu thanh toán \"phí đóng gói và bảo hiểm\" kiểu này vào tài khoản cá nhân.\n\n### 4. 🏦 Chuyển tiền vào tài khoản cá nhân, không phải tài khoản công ty\nTài khoản \"Nguyễn Văn Tuấn\" tại Vietcombank Thanh Xuân là tài khoản cá nhân — không phải tài khoản doanh nghiệp của bất kỳ công ty giao hàng nào.\n\n### 5. 🌐 Website giả mạo với giao diện y hệt thật\nChỉ cần bấm vào, người dùng bị dẫn sang một website giả mạo giao diện bưu điện, rồi kẻ gian tiếp tục yêu cầu cung cấp thông tin cá nhân, số tài khoản, mã OTP — mở đường cho việc chiếm đoạt toàn bộ tiền trong tài khoản ngân hàng.\n\n### 6. 🎯 250.000 đồng chỉ là \"mồi nhử\" — mục tiêu thật là toàn bộ tài khoản\nSố tiền phí giao hàng nhỏ lẻ ban đầu chỉ là bước đệm, **mục tiêu cốt lõi là toàn bộ số tiền trong tài khoản ngân hàng**. Trong lúc bối rối, nạn nhân rất dễ mất cảnh giác, truy cập vào đường link chứa mã độc hoặc vô tình cung cấp mã OTP, dẫn đến việc mất toàn quyền kiểm soát thiết bị và tài khoản.\n\n---\n\n## ⚠️ Linh cần làm gì ngay bây giờ?\n\nDù Linh chưa chuyển tiền, cô ấy **đã bấm vào link và nhập số điện thoại + tên đầy đủ**, nên cần thực hiện ngay các bước sau:\n\n### ✅ Việc cần làm ngay:\n\n| STT | Hành động |\n|-----|-----------|\n| 1 | **Quét virus/malware** toàn bộ điện thoại ngay lập tức (dùng app bảo mật uy tín) |\n| 2 | **Đổi mật khẩu** ứng dụng ngân hàng, email, mạng xã hội |\n| 3 | **Bật xác thực 2 lớp (2FA)** cho tất cả tài khoản quan trọng |\n| 4 | **Theo dõi lịch sử giao dịch** ngân hàng trong vài ngày tới — nếu có giao dịch lạ, báo ngân hàng ngay |\n| 5 | **Tiếp tục duy trì báo cáo** số điện thoại lừa đảo lên cơ quan công an |\n\n### 📞 Kênh báo cáo chính thức:\nNếu phát hiện nghi vấn lừa đảo, khách hàng có thể liên hệ **Hotline Bưu điện Việt Nam: 1900 545 481** hoặc Fanpage: Vietnam Post để được hỗ trợ nhanh nhất.\n\nNgoài ra, Linh có thể:\n- **Báo cáo lên Cục An toàn thông tin**: `https://canhbao.ncsc.gov.vn`\n- **Trình báo Công an** địa phương hoặc Phòng An ninh mạng (PC02) tỉnh/thành phố\n\n---\n\n## 💡 Bài học phòng tránh cho tương lai\n\nCác công ty giao hàng hợp pháp **không bao giờ gửi link yêu cầu khách hàng cung cấp thông tin cá nhân, tài khoản ngân hàng hay mã OTP**.\n\nNgười dân cần hết sức cảnh giác khi nhận số điện thoại lạ, **không chuyển khoản khi chưa thấy món hàng đã đặt**; không nên chuyển tiền cho người lạ và cần xác minh thật kỹ các thông tin trước khi chuyển khoản.\n\nHiện nay, các doanh nghiệp bưu chính, chuyển phát đều có website và ứng dụng để **tra cứu thông tin mã vận đơn**, do đó người dân nên chủ động truy cập để theo dõi đường đi của đơn hàng, đảm bảo đúng đơn hàng đã đặt trước khi nhận hàng.\n\n---\n\n**Bạn đã làm rất đúng khi kịp thời cảnh báo Linh!** Hãy chia sẻ thông tin này cho người thân, bạn bè để tránh trở thành nạn nhân tiếp theo. 🛡️",
+  "sources": [
+    "https://ttbc-hcm.gov.vn/canh-bao-tin-nhan-gia-mao-buu-dien-1020248.html",
+    "https://kenh14.vn/them-thu-doan-lua-dao-moi-lien-quan-shipper-doc-chuan-xac-thong-tin-don-hang-de-lua-sach-tien-trong-tai-khoan-215260626185651735.chn",
+    "https://afamily.vn/them-thu-doan-lua-dao-moi-lien-quan-shipper-doc-chuan-xac-thong-tin-don-hang-de-lua-sach-tien-trong-tai-khoan-236260627085355359.chn",
+    "https://mucnews.com/gia-shipper-doc-dung-ten-hang-va-gia-tien-de-lua-chiem-tai-khoan-ngan-hang-233237.html",
+    "https://vnpost.vn/vi/hoat-dong-nganh/can-trong-de-khong-sap-bay-lua-dao-giao-hang",
+    "https://pcspost.vn/khach-khong-nhan-hang-ship-cod-thi-nguoi-gui-co-bi-tinh-phi-khong-id196",
+    "https://baochinhphu.vn/phong-chong-lua-dao-gia-danh-shipper-bo-khcn-yeu-cau-doanh-nghiep-buu-chinh-tang-cuong-bao-mat-du-lieu-10225040316240619.htm",
+    "https://congan.quangbinh.gov.vn/canh-bao-thu-doan-gia-mao-nhan-vien-giao-hang-shipper-lua-nguoi-dan-chuyen-tien-de-nhan-hang-nham-muc-dich-chiem-doat-tai-san/",
+    "https://phunutoday.vn/ly-giai-hien-tuong-shipper-lua-dao-nam-ro-thong-tin-ca-nhan-cua-nguoi-mua-d456047.html",
+    "https://hoahoctro.tienphong.vn/shipper-giao-hang-du-khong-he-dat-mua-thu-doan-lua-dao-moi-can-canh-giac-post1648282.tpo",
+    "http://vietexpress.com.vn/",
+    "https://vietexpress.vn/",
+    "https://vietexpress.vn/gioi-thieu.html",
+    "https://vietxpresscargo.com/",
+    "https://www.facebook.com/vietxpresscargo/?locale=vi_VN",
+    "https://viettexpress.com/",
+    "https://vietxpress.net/",
+    "https://viettinexpress.com/",
+    "https://vietxpresscargo.com/track-package",
+    "https://vietexpress.vn/dich-vu.html"
+  ],
+  "latency_ms": 63286
+}

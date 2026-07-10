@@ -1,0 +1,29 @@
+{
+  "case_id": "scam-impersonation_service-08",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Giả danh nhân viên nhà mạng Viettel gọi điện từ số lạ",
+      "Thông báo hoạt động bất thường ở nước ngoài để tạo lo lắng",
+      "Yêu cầu cấp quyền truy cập toàn bộ thông tin cá nhân và chỉ số dư tài khoản ngân hàng",
+      "Yêu cầu cung cấp mã OTP",
+      "Tạo áp lực thời gian: đe dọa khóa vĩnh viễn trong 30 phút nếu không xác minh",
+      "Giọng nói lạ, phát âm sai tên công ty",
+      "Yêu cầu thực hiện xác minh qua điện thoại thay vì trực tiếp tại cửa hàng chính thức"
+    ],
+    "matched_patterns": [
+      "Giả danh nhân viên Viettel lừa cung cấp mã OTP để chiếm đoạt tiền",
+      "Giả danh nhân viên nhà mạng gọi điện lừa thanh toán cước và mã OTP"
+    ],
+    "recommended_actions": [
+      "Tuyệt đối không cung cấp mã OTP cho bất kỳ ai tự xưng nhân viên Viettel qua điện thoại",
+      "Không cấp quyền truy cập toàn bộ thông tin cá nhân hay chỉ số dư tài khoản ngân hàng qua cuộc gọi lạ",
+      "Khi nhận thông báo về hoạt động bất thường, chủ động gọi trực tiếp số tổng đài chính thức Viettel để xác minh thay vì thực hiện theo hướng dẫn của người gọi",
+      "Để xử lý mọi vấn đề về SIM hay dịch vụ, hãy trực tiếp tới cửa hàng/đại lý Viettel chính thức hoặc sử dụng ứng dụng My Viettel chính thức mà bạn đã cài sẵn",
+      "Báo cáo cuộc gọi lừa đảo này cho công an và Viettel để họ xử lý"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 7483
+}

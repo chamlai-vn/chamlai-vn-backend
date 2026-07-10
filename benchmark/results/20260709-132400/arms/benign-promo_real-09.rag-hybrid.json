@@ -1,0 +1,25 @@
+{
+  "case_id": "benign-promo_real-09",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "yellow",
+    "red_flags": [
+      "Thông báo tài khoản bị khóa do hoạt động bất thường tạo cảm giác khẩn cấp",
+      "Yêu cầu xác minh ngay (tạo áp lực thời gian)",
+      "Cần kiểm tra xem tin nhắn có đến từ Shopee chính thức hay không"
+    ],
+    "matched_patterns": [
+      "tech_fraud",
+      "package_delivery"
+    ],
+    "recommended_actions": [
+      "Không click vào bất kỳ link nào trong tin nhắn, dù có vẻ đến từ Shopee",
+      "Mở ứng dụng Shopee chính thức trên điện thoại để kiểm tra trạng thái tài khoản thay vì theo link trong tin",
+      "Nếu tài khoản thực sự bị khóa, hãy liên hệ trực tiếp với bộ phận hỗ trợ Shopee qua ứng dụng hoặc website chính thức",
+      "Xác minh sơ bộ: kiểm tra xem tin nhắn có đến từ số điện thoại/tên người dùng chính thức của Shopee hay không",
+      "Tuyệt đối không cung cấp mật khẩu, mã OTP hay thông tin ngân hàng nếu bị yêu cầu qua tin nhắn"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 5973
+}

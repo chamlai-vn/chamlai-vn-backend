@@ -1,0 +1,30 @@
+{
+  "case_id": "scam-investment_fraud-01",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Người lạ tiếp cận qua Facebook với lời dẫn dụ kiếm tiền nhanh",
+      "Hứa hẹn lợi nhuận siêu cao không thực tế (25% mỗi tháng)",
+      "Yêu cầu nạp tiền vào tài khoản cá nhân (số 0987.123.456) thay vì qua kênh chính thức",
+      "Ứng dụng 'GlobalTrade Pro' không rõ nguồn gốc, không xác minh được cấp phép",
+      "Hiển thị lợi nhuận ảo để tạo niềm tin",
+      "Yêu cầu nạp thêm tiền với lý do 'xác minh tài khoản VIP' để rút lợi nhuận",
+      "Kéo nạn nhân vào các tài khoản ảo giả danh thân quen (bạn cũ)"
+    ],
+    "matched_patterns": [
+      "investment_fraud - Lừa đảo đầu tư tiền ảo qua sàn giao dịch giả mạo với cam kết lợi nhuận siêu cao",
+      "investment_fraud - Giả mạo nhân thân để dụ dỗ đầu tư vào sàn giao dịch tài chính giả mạo"
+    ],
+    "recommended_actions": [
+      "Báo cáo ngay cho cảnh sát mạng hoặc công an địa phương với các thông tin: tên 'Sơn', số tài khoản 0987.123.456, tên ứng dụng 'GlobalTrade Pro'",
+      "Yêu cầu ngân hàng nơi tài khoản 0987.123.456 tạm dừng giao dịch và lưu ý chặn các chuyển khoản tiếp theo",
+      "Chụp ảnh đầy đủ lịch sử chat với 'Sơn' bao gồm các tin nhắn về ứng dụng, số tiền, lệnh yêu cầu nạp thêm để làm bằng chứng",
+      "Gỡ cài đặt ứng dụng 'GlobalTrade Pro' ngay lập tức",
+      "Cảnh báo với các thành viên gia đình và bạn bè về chiêu trò này để tránh bị lừa",
+      "Kiểm tra tài khoản Facebook 'Sơn' xem có phải tài khoản giả mạo (kiểm tra ngày tạo, lịch sử hoạt động lạ lẫm)"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 8911
+}

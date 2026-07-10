@@ -1,0 +1,32 @@
+{
+  "case_id": "scam-recovery_scam-02",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Giả danh cơ quan nhà nước (Trung tâm Bảo vệ Người tiêu dùng Quốc gia)",
+      "Yêu cầu chuyển tiền phí 'xử lý hồ sơ' trước (2.1 triệu đồng)",
+      "Hứa hẹn hoàn trả toàn bộ tiền trong thời hạn cụ thể (5 ngày)",
+      "Cung cấp tài khoản ngân hàng cá nhân để chuyển phí",
+      "Tạo cảm giác đây là liên lạc 'chính thức duy nhất'",
+      "Liên lạc qua số điện thoại thay vì kênh chính thức của cơ quan nhà nước",
+      "Tiếp cận nạn nhân khi nạn nhân đang tuyệt vọng muốn lấy lại tiền"
+    ],
+    "matched_patterns": [
+      "Giả danh cơ quan nhà nước lừa lấy tiền 'hỗ trợ khôi phục tài sản bị lừa'",
+      "Lừa đảo giả danh cơ quan pháp luật, luật sư để chiếm đoạt phí 'thu hồi tiền bị lừa'",
+      "Giả danh cán bộ, luật sư lừa đảo 'lấy lại tiền treo' qua mạng xã hội",
+      "Lừa đảo kép: Giả công ty luật hỗ trợ lấy lại tiền bị lừa sau lần thứ nhất"
+    ],
+    "recommended_actions": [
+      "Không chuyển tiền cho số điện thoại hoặc tài khoản này dưới bất kỳ hình thức nào",
+      "Trình báo ngay vụ lừa đảo này (cả lần thứ nhất và lần thứ hai) tới Công an địa phương hoặc Cục An ninh mạng",
+      "Xác minh thông tin chính thức của các cơ quan nhà nước qua các kênh công bố công thức (trang web chính thức, hotline chính thức) thay vì tin các liên lạc qua điện thoại",
+      "Ghi lại toàn bộ thông tin về số điện thoại, tài khoản ngân hàng được cung cấp để cung cấp cho cơ quan chức năng",
+      "Tuyệt đối không chia sẻ thông tin cá nhân, tài khoản ngân hàng với bất kỳ ai liên hệ qua điện thoại hoặc mạng xã hội",
+      "Nhớ rằng các cơ quan nhà nước KHÔNG bao giờ yêu cầu nạn nhân chuyển tiền phí để lấy lại tiền bị lừa"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 8681
+}

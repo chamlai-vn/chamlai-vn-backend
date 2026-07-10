@@ -1,0 +1,25 @@
+{
+  "case_id": "benign-promo_real-05",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Yêu cầu xác minh tài khoản qua link từ tin nhắn lạ",
+      "Thông báo tài khoản bị đăng nhập từ thiết bị lạ - đây là chiêu thức phát tán link độc hại phổ biến",
+      "Tạo cảm giác khẩn cấp để dẫn dụ click link ngay mà không kiểm tra kỹ",
+      "Link có thể dẫn đến website giả mạo để thu thập thông tin mật khẩu, tài khoản, mã OTP"
+    ],
+    "matched_patterns": [
+      "Giả danh shipper dẫn dụ click link giả để hack tài khoản và ăn cắp tiền"
+    ],
+    "recommended_actions": [
+      "TUYỆT ĐỐI KHÔNG click vào link trong tin nhắn, dù nó trông như từ Shopee",
+      "Hãy truy cập trực tiếp vào ứng dụng Shopee chính thức hoặc website shopee.vn để kiểm tra tài khoản của bạn",
+      "Nếu cần xác minh, hãy vào Shopee qua ứng dụng từ App Store/Google Play, không qua link tin nhắn",
+      "Gọi trực tiếp hotline chính thức của Shopee để xác minh xem tài khoản có thực sự bị đăng nhập bất thường không",
+      "Tuyệt đối không nhập mật khẩu, mã OTP hay thông tin tài khoản ngân hàng vào bất kỳ link lạ nào"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 6179
+}

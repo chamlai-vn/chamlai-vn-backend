@@ -1,0 +1,31 @@
+{
+  "case_id": "scam-package_delivery-02",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Mạo danh công ty giao hàng uy tín (VietExpress) qua tin nhắn từ số lạ",
+      "Yêu cầu chuyển khoản trước (phí đóng gói và bảo hiểm 250.000 đồng) trước khi nhận hàng",
+      "Gửi link rút gọn (bit.ly) thay vì link chính thức của công ty",
+      "Trang web giả mạo có giao diện giống hệt trang thật để tăng độ tin cậy",
+      "Yêu cầu nhập thông tin cá nhân (số điện thoại, tên đầy đủ) trên trang giả",
+      "Cung cấp tài khoản ngân hàng để chuyển tiền (dấu hiệu điển hình của lừa đảo)",
+      "Chiêu thức kết hợp: vừa gây áp lực tài chính vừa dẫn dụ click link độc hại"
+    ],
+    "matched_patterns": [
+      "package_delivery - Giả danh shipper gọi điện yêu cầu chuyển khoản trước, gửi link giả mạo",
+      "tech_fraud - Giả danh shipper dẫn dụ click link giả để hack tài khoản và ăn cắp tiền",
+      "package_delivery - Giả danh shipper lừa đảo qua cuộc gọi và đường link dụ dỗ"
+    ],
+    "recommended_actions": [
+      "Tuyệt đối không chuyển khoản cho bất kỳ ai tự xưng là shipper/nhân viên giao hàng qua điện thoại hay tin nhắn",
+      "Trước khi thanh toán, kiểm tra lại đơn hàng trên ứng dụng chính thức của Shopee, Lazada, TikTok Shop để xác nhận liệu bạn có thực sự đặt mua hàng đó hay không",
+      "Không click vào bất kỳ link rút gọn (bit.ly, tinyurl, v.v.) hoặc link lạ được gửi qua tin nhắn từ người tự xưng là shipper",
+      "Nếu cần xác minh thông tin đơn hàng, hãy tra cứu trực tiếp trên website/ứng dụng chính thức của công ty giao hàng hoặc gọi hotline chính thức (không dùng số điện thoại từ tin nhắn)",
+      "Chỉ thanh toán sau khi đã trực tiếp nhận hàng và kiểm tra từng chi tiết",
+      "Báo ngay cho cơ quan công an hoặc nền tảng thương mại điện tử nếu gặp các tin nhắn lừa đảo tương tự"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 9421
+}

@@ -1,0 +1,53 @@
+{
+  "case_id": "scam-loan_scam-01",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Chào mời vay tiền không cần chứng minh thu nhập qua số điện thoại lạ",
+      "Lời mời quá hấp dẫn, không thực tế: vay nhanh, không cần thẩm định hồ sơ, không cần chứng minh thu nhập, có thể vay số tiền lớn",
+      "Yêu cầu cung cấp thông tin cá nhân (họ tên, số điện thoại, ảnh CMND/CCCD, ảnh chân dung) để làm hồ sơ vay",
+      "Yêu cầu chuyển trước một khoản tiền nhỏ (khoảng 500 nghìn đến 5 triệu đồng) với lý do phí hồ sơ, phí bảo hiểm, phí xác minh...",
+      "Sau khi nhận tiền, các đối tượng chiếm đoạt và ngắt liên lạc",
+      "Nguy cơ mất toàn bộ thông tin danh tính cá nhân, có thể bị lợi dụng cho các hoạt động vi phạm pháp luật"
+    ],
+    "matched_patterns": [
+      "Mạo danh nhân viên công ty tài chính/ngân hàng để cho vay tín dụng đen",
+      "Yêu cầu chuyển tiền trước khi giải ngân (phí hồ sơ, phí bảo hiểm, phí xác minh)",
+      "Thu thập thông tin cá nhân/CMND/CCCD để lợi dụng"
+    ],
+    "recommended_actions": [
+      "KHÔNG liên lạc lại, chặn số 0913445782 ngay",
+      "KHÔNG cung cấp thông tin cá nhân: CCCD, ảnh cá nhân, số tài khoản, mã OTP",
+      "KHÔNG chuyển bất kỳ khoản tiền nào dù với bất kỳ lý do gì",
+      "Trình báo công an địa phương nơi cư trú",
+      "Gọi đường dây nóng Phòng An ninh mạng: 069.219.4053",
+      "Báo cáo online tại canhbao.ncsc.gov.vn",
+      "Nếu có nhu cầu vay tiền thực sự, hãy đến trực tiếp các ngân hàng hoặc tổ chức tín dụng hợp pháp"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## ⚠️ CẢNH BÁO: Đây rất có thể là LỪA ĐẢO!\n\nTình huống bạn mô tả có **đầy đủ các dấu hiệu đỏ** của một chiêu lừa đảo phổ biến tại Việt Nam. Dưới đây là phân tích chi tiết:\n\n---\n\n### 🚩 Tại sao đây là lừa đảo?\n\n**1. Chào mời vay tiền không cần chứng minh thu nhập qua số điện thoại lạ**\n\nThủ đoạn chung của các đối tượng lừa đảo cho vay tín dụng đen trên mạng là **mạo danh nhân viên của các công ty tài chính, ngân hàng lớn** để tạo lòng tin, sau đó yêu cầu người vay chuyển khoản đặt cọc hoặc trả trước một khoản tiền nhất định.\n\n**2. Lời mời quá hấp dẫn, không thực tế**\n\nNhững kẻ lừa đảo thường đưa ra những lời hứa mời gọi hấp dẫn, như **vay tiền nhanh chóng, không cần thẩm định hồ sơ, không cần chứng minh thu nhập**, và có thể vay số tiền lớn.\n\nHiện nay, **không có đơn vị, tổ chức cho vay hợp pháp nào có thể cam kết duyệt vay cho mọi đối tượng**. Trên thực tế, mọi khoản vay đều cần đánh giá rủi ro nhất định. Cam kết duyệt vay tuyệt đối là dấu hiệu cho thấy đơn vị không hoạt động theo quy trình tài chính bình thường.\n\n**3. Kịch bản tiếp theo: Yêu cầu chuyển tiền trước**\n\nKhi có người vay tiếp cận, các đối tượng sẽ dẫn dụ, **yêu cầu người vay cung cấp thông tin cá nhân** như họ tên, số điện thoại, ảnh chụp CMND/CCCD, ảnh chụp chân dung... phục vụ làm hồ sơ vay. Sau đó các đối tượng **yêu cầu người vay phải chuyển trước một số khoản tiền nhỏ** (khoảng từ 500 nghìn đến 5 triệu đồng), để phục vụ hỗ trợ xác minh, duyệt khoản vay…\n\n**4. Chiếm đoạt tiền và biến mất**\n\nKhi người vay chuyển tiền vào số tài khoản của các đối tượng cung cấp, **các đối tượng sẽ lập tức chiếm đoạt và ngắt liên lạc.**\n\n**5. Hậu quả nguy hiểm hơn: Mất thông tin cá nhân**\n\nVới thủ đoạn này, người dân không những bị mất tiền mà còn **bị mất toàn bộ thông tin danh tính cá nhân**, tiềm ẩn nguy cơ tiếp tục bị lợi dụng để phục vụ cho các hoạt động vi phạm pháp luật khác như đăng ký SIM không chính chủ, đăng ký mở tài khoản ngân hàng, ví điện tử phục vụ các hoạt động lừa đảo, rửa tiền…\n\n---\n\n### ✅ Bạn nên làm gì ngay bây giờ?\n\n| Việc cần làm | Chi tiết |\n|---|---|\n| 🚫 **KHÔNG liên lạc lại** | Chặn số 0913445782 ngay |\n| 🚫 **KHÔNG cung cấp thông tin** | Không gửi CCCD, ảnh cá nhân, số tài khoản |\n| 🚫 **KHÔNG chuyển bất kỳ khoản tiền nào** | Dù với lý do gì: phí hồ sơ, phí bảo hiểm, phí xác minh... |\n| 📢 **Trình báo công an** | Đến công an địa phương nơi bạn cư trú |\n| 📞 **Gọi đường dây nóng** | Phòng An ninh mạng: **069.219.4053** |\n| 🌐 **Báo cáo online** | Tại [canhbao.ncsc.gov.vn](https://canhbao.ncsc.gov.vn) |\n\nTuyệt đối **không cung cấp bất kỳ thông tin cá nhân** (CMND/CCCD, địa chỉ, hình ảnh nhận diện khuôn mặt…) khi chưa xác định chính xác danh tính tư vấn viên. **Không cung cấp thông tin tài khoản ngân hàng, mã OTP** được gửi vào điện thoại. **Không chuyển tiền vào tài khoản cá nhân** mà các đối tượng lạ cung cấp, dụ dỗ.\n\n---\n\n### 💡 Nếu bạn thực sự cần vay tiền?\n\nKhi có nhu cầu vay tiền, người dân cần **đến các Ngân hàng, tổ chức tín dụng hợp pháp** trên địa bàn mình cư trú để làm hồ sơ, thủ tục vay theo quy định. Các đơn vị uy tín có thể kể đến như Home Credit, FE Credit, MoMo, Viettel Money, hoặc trực tiếp đến ngân hàng gần nhất.\n\n\u003e **Tóm lại: Đừng tin, đừng gọi lại, đừng cung cấp thông tin, và đừng chuyển tiền!** 🛑",
+  "sources": [
+    "https://congan.hatinh.gov.vn/bai-viet/canh-giac-voi-thu-doan-cho-vay-tien-online-mao-danh-cac-co-quan-to-chuc-ca-nhan_1682667214.caht",
+    "https://vietbao.vn/vay-tien-online-nam-thanh-nien-lot-ho-ke-lua-dao-598050.html",
+    "https://congan.ninhbinh.gov.vn/thu-doan-gia-danh-cac-cong-ty-tai-chinh-ngan-hang-thu-thap-thong-tin-de-lua-dao",
+    "https://duytien.ninhbinh.gov.vn/en/canh-giac-voi-hanh-vi-lua-dao-tu-cac-ung-dung-vay-tien-online",
+    "https://congan.quangngai.gov.vn/danh-muc-san-pham/-tin-tuc-su-kien/canh-bao-lua-dao-voi-thu-doan-mao-danh-ngan-hang-cho-vay-tien-online-voi-lai-suat-thap-vao-dip-cuoi-nam.html",
+    "https://www.youtube.com/watch?v=XU55O71fvfQ",
+    "https://moneymua.com/cach-nhan-biet-ung-dung-vay-tien-co-dau-hieu-lua-dao/",
+    "https://www.otosaigon.com/threads/co-khep-vao-lua-dao.9074487/",
+    "https://www.aia.com.vn/vi/song-khoe/loi-khuyen/tai-chinh/bi-lua-dao-vay-tien-online-phai-lam-sao.html",
+    "https://vietnamnet.vn/lua-dao-cho-vay-tin-dung-den-lai-hoanh-hanh-tren-khong-gian-mang-viet-nam-2331669.html",
+    "https://diendandoanhnghiep.vn/van-nhuc-nhoi-lua-dao-vay-tien-10143747.html",
+    "https://mafc.com.vn/vay-tin-chap-khong-chung-minh-thu-nhap.html",
+    "https://www.momo.vn/vay-nhanh",
+    "https://www.homecredit.vn/blog/vay-tien-mat-khong-can-chung-minh-thu-nhap",
+    "https://www.fecredit.com.vn/cam-nang-truc-tuyen/meo-tai-chinh/vay-online-khong-can-chung-minh-thu-nhap/",
+    "https://hdbank.com.vn/vi/news/detail/tin-tuc-khac/vay-tien-khong-can-chung-minh-thu-nhap",
+    "https://timo.vn/blogs/4-luu-y-cua-hinh-thuc-vay-tien-tra-gop-khong-chung-minh-thu-nhap/",
+    "https://tiki.vn/blog/vay-tien-online/",
+    "https://lsvn.vn/canh-giac-chieu-lua-dao-cho-vay-tien-online-lai-suat-thap-1690670490-a133470.html"
+  ],
+  "latency_ms": 50356
+}

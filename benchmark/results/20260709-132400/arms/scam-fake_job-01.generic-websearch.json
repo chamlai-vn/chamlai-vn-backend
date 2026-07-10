@@ -1,0 +1,54 @@
+{
+  "case_id": "scam-fake_job-01",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Việc nhẹ, lương cao, không cần kinh nghiệm — chiêu dụ cộng tác viên thanh toán đơn hàng sàn thương mại điện tử",
+      "Yêu cầu nộp tiền trước khi làm việc (100.000đ 'phí huấn luyện')",
+      "Hứa hoàn tiền 100% và thưởng 500.000đ để tạo lòng tin, sau đó yêu cầu chuyển thêm tiền ngày càng nhiều",
+      "Quy định 'tuyệt đối không được thảo luận lương suất với người khác' — chiêu cô lập nạn nhân",
+      "Sử dụng link rút gọn bit.ly có nguy cơ chứa mã độc và liên hệ qua Zalo cá nhân thay vì kênh chính thức",
+      "Kịch bản leo thang: yêu cầu chuyển tiền ngày càng nhiều, sau đó chặn liên lạc và biến mất"
+    ],
+    "matched_patterns": [
+      "Việc nhẹ lương cao / cộng tác viên sàn thương mại điện tử",
+      "Yêu cầu nộp phí/tiền trước khi làm việc",
+      "Bẫy tạo lòng tin bằng hoàn tiền và thưởng ban đầu",
+      "Cô lập nạn nhân",
+      "Link rút gọn / liên hệ qua mạng xã hội cá nhân",
+      "Kịch bản leo thang — chiếm đoạt tiền ngày càng nhiều rồi biến mất"
+    ],
+    "recommended_actions": [
+      "KHÔNG nộp tiền dù chỉ 100.000đ — đó là bẫy đầu tiên",
+      "KHÔNG bấm vào link bit.ly vì có thể chứa mã độc",
+      "KHÔNG cung cấp thông tin cá nhân như CCCD, tài khoản ngân hàng, OTP",
+      "Chặn số điện thoại và báo cáo tài khoản lừa đảo",
+      "Trình báo ngay cho cơ quan Công an nơi gần nhất khi phát hiện dấu hiệu lừa đảo",
+      "Chia sẻ thông tin cảnh báo đến người thân để tránh bị lừa"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 ĐÂY LÀ LỪA ĐẢO! Hãy cảnh giác!## 🚨 KẾT LUẬN: ĐÂY CHẮC CHẮN LÀ LỪA ĐẢO! TUYỆT ĐỐI KHÔNG THAM GIA!\n\n---\n\n## 🔍 Phân tích chi tiết các dấu hiệu lừa đảo trong tin nhắn này\n\n### 🚩 DẤU HIỆU 1: \"Việc nhẹ, lương cao, không cần kinh nghiệm\"\nĐây là thủ đoạn kinh điển: các đối tượng dẫn dụ nạn nhân làm cộng tác viên, thanh toán các đơn hàng cho sàn thương mại điện tử, với yêu cầu công việc rất đơn giản — không cần kinh nghiệm, chỉ cần có điện thoại. Tin nhắn bạn nhận được khớp hoàn toàn với mô tả này.\n\n---\n\n### 🚩 DẤU HIỆU 2: Yêu cầu nộp tiền trước khi làm việc (100.000đ \"phí huấn luyện\")\nĐây là **dấu hiệu lừa đảo rõ ràng nhất!**\n\nNgười dân cần ghi nhớ nguyên tắc quan trọng: **doanh nghiệp tuyển dụng hợp pháp không bao giờ yêu cầu ứng viên nộp phí hoặc chuyển tiền trước khi làm việc.**\n\nNếu bạn được yêu cầu nộp một khoản tiền tạm ứng trước khi bắt đầu công việc, hãy cảnh giác. Lừa đảo thường sử dụng chiêu này để chiếm đoạt số tiền của bạn mà không cung cấp công việc thực tế.\n\n---\n\n### 🚩 DẤU HIỆU 3: Hứa \"hoàn tiền 100% + thưởng 500.000đ\" — Bẫy tạo lòng tin!\nCác đối tượng thường yêu cầu người dân đóng trước một khoản tiền nhỏ ban đầu, sau đó sẽ được trả lương và hoa hồng đầy đủ. Với cam kết này, dần dần khi chiếm được lòng tin, đối tượng yêu cầu chuyển thêm nhiều tiền hoặc tìm nhiều cách khiến người dân không thể rút tiền mà còn phải đóng thêm nhiều khoản phí.\n\nThực tế đã có nạn nhân: khi làm nhiệm vụ thanh toán 4 đơn hàng đầu thì nhận được tiền hoa hồng, nhưng từ nhiệm vụ lần thứ 5 đến lần thứ 10, nạn nhân đã chuyển **1,2 tỷ đồng** nhưng không nhận được tiền.\n\n---\n\n### 🚩 DẤU HIỆU 4: \"Tuyệt đối KHÔNG được thảo luận lương suất với người khác\"\nĐây là chiêu **cô lập nạn nhân** để không ai biết mà can ngăn. Công ty hợp pháp **không bao giờ** có quy định như vậy. Các đối tượng lừa đảo thường tạo áp lực tâm lý bằng cách hối thúc nạn nhân phải chuyển tiền nhanh nếu không sẽ \"mất cơ hội.\"\n\n---\n\n### 🚩 DẤU HIỆU 5: Link rút gọn bit.ly + Liên hệ qua Zalo cá nhân\nKhông đăng nhập các đường link lạ do những người không quen biết hoặc chỉ quen qua mạng xã hội gửi, có nguy cơ chứa mã độc và có thể bị chiếm quyền điều khiển điện thoại.\n\nNếu đơn vị tuyển dụng không có địa chỉ cụ thể, không có thông tin pháp lý rõ ràng, chỉ trao đổi qua tài khoản mạng xã hội cá nhân, nguy cơ lừa đảo rất cao.\n\n---\n\n### 🚩 DẤU HIỆU 6: Kịch bản leo thang — Mất tiền ngày càng nhiều\nKhi nạn nhân tin tưởng và muốn làm nhiệm vụ có giá trị lớn hơn để hưởng hoa hồng cao, các đối tượng yêu cầu chuyển số tiền ngày càng nhiều. Đến khi tổng số tiền đã nạp lên đến hàng chục triệu đồng, hệ thống bất ngờ báo lỗi hoặc yêu cầu nộp thêm tiền. Nếu không tiếp tục chuyển khoản, toàn bộ số tiền trước đó bị \"đóng băng\". Khi nạn nhân không còn khả năng nộp thêm, các đối tượng lập tức **chặn liên lạc, xóa nhóm và biến mất.**\n\n---\n\n## ✅ BẠN CẦN LÀM GÌ NGAY BÂY GIỜ?\n\n| Hành động | Chi tiết |\n|-----------|----------|\n| ❌ **KHÔNG** nộp tiền | Dù chỉ 100.000đ — đó là bẫy đầu tiên |\n| ❌ **KHÔNG** bấm vào link bit.ly | Có thể chứa mã độc |\n| ❌ **KHÔNG** cung cấp thông tin cá nhân | CCCD, tài khoản ngân hàng, OTP |\n| 🚫 **Chặn \u0026 báo cáo** | Chặn số điện thoại và báo cáo tài khoản lừa đảo |\n| 👮 **Trình báo Công an** | Khi phát hiện dấu hiệu lừa đảo, báo ngay cho cơ quan Công an nơi gần nhất để được hỗ trợ. |\n| 📢 **Cảnh báo người thân** | Chia sẻ thông tin này để tránh người khác bị lừa |\n\n---\n\n\u003e 💡 **Nhớ nguyên tắc vàng:** Bất kỳ công việc nào yêu cầu bạn **nộp tiền trước** để được làm việc đều là **LỪA ĐẢO**, không có ngoại lệ!",
+  "sources": [
+    "https://canhsatquanlyhanhchinh.gov.vn/phong-chong-toi-pham/canh-giac-thu-doan-lua-dao-tuyen-cong-tac-vien-lam-online-viec-nhe-luong-cao-2681",
+    "https://congan.vinhlong.gov.vn/canh-bao-phuong-thuc-thu-doan-cua-toi-pham/canh-giac-lua-dao-voi-thu-doan-tuyen-cong-tac-vien-online-1622.html",
+    "https://mst.gov.vn/canh-giac-truoc-nhung-thu-doan-lua-dao-moi-197241230143647271.htm",
+    "https://congan.longan.gov.vn/vi/chi-tiet-tin-tuc?Id=133438",
+    "https://special.nhandan.vn/lua-dao-tuyen-cong-tac-vien-online/index.html",
+    "https://lsvn.vn/canh-bao-cac-khoa-hoc-cap-bang-chung-chi-online-lua-dao-1715859242-a143718.html",
+    "https://congan.quangngai.gov.vn/danh-muc-san-pham/-tin-tuc-su-kien/canh-giac-voi-chieu-tro-mao-danh-hoc-ky-cong-an-va-trai-he-quan-doi-nam-2025-de-lua-dao2.html",
+    "https://baovinhlong.com.vn/phap-luat/202409/canh-giac-thu-doan-lua-dao-tuyen-cong-tac-vien-online-da56a10/",
+    "https://congan.hatinh.gov.vn/bai-viet/lua-dao-tuyen-dung-cong-tac-vien-ban-hang-online_1705456982.caht",
+    "https://mic.gov.vn/canh-giac-truoc-nhung-thu-doan-lua-dao-moi-197241230143647271.htm",
+    "https://thienngaden.com/lua-dao-logistics-nhung-chieu-thuc-va-canh-giac-cho-doanh-nghiep-van-tai/",
+    "https://nhandan.vn/special/lua-dao-tuyen-cong-tac-vien-online/index.html",
+    "https://congan.haiphong.gov.vn/Tin-An-ninh-trat-tu/Canh-bao-thu-doan-lua-dao-bang-hinh-thuc-tuyen-cong-tac-vien-xu-ly-don-hang-cho-cac-trang-thuong-mai-dien-tu-171717.html",
+    "https://dx.gov.vn/lua-dao-tuyen-cong-tac-vien-online-tien-loi-cao-bao-nguoi-sap-bay-1666065688293.htm",
+    "https://baomoi.com/lap-cong-ty-o-nuoc-ngoai-tuyen-nhan-vien-de-lua-dao-c55320862.epi",
+    "https://baotreonline.com/van-hoc/phong-su-viet-nam/bay-lua-viec-nhe-luong-cao.baotre",
+    "https://thanhtra.com.vn/an-ninh-trat-tu-D718A18CA/canh-giac-doi-voi-cac-chieu-lua-tuyen-cong-tac-vien-xu-ly-don-hang-online-97A1D9D0.html",
+    "https://congan.quangngai.gov.vn/danh-muc-san-pham/-tin-tuc-su-kien/canh-bao-thu-doan-lua-dao-tuyen-cong-tac-vien-online-dat-don-hang-ao-de-chiem-doat-tai-san.html"
+  ],
+  "latency_ms": 64739
+}

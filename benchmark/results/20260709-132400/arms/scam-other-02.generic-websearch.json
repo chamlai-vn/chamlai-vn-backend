@@ -1,0 +1,53 @@
+{
+  "case_id": "scam-other-02",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Mức lương 'trên trời' không tương xứng với công việc: 25 triệu/tháng chỉ cần 2–3 giờ/ngày là hoàn toàn vô lý",
+      "Yêu cầu nạp tiền đặt cọc/giữ chỗ trước khi làm việc — không có doanh nghiệp uy tín nào làm vậy",
+      "Kịch bản 'hoàn tiền sau khi hoàn thành nhiệm vụ' là bẫy kinh điển: sau khi nhận tiền, đối tượng khóa liên lạc và biến mất",
+      "Kịch bản lừa đảo 'task marketing / làm nhiệm vụ nhận hoa hồng': yêu cầu nạp tiền để nâng cấp tài khoản VIP hoặc tham gia giao dịch",
+      "Đường link rút gọn lạ (bit.do/VietTechRecruitment) có nguy cơ chứa mã độc, có thể bị chiếm quyền điều khiển điện thoại",
+      "Nguy cơ mất nhiều hơn số tiền đã nạp do tâm lý muốn lấy lại tiền, dẫn đến nạp thêm cho đến hàng chục/hàng trăm triệu đồng"
+    ],
+    "matched_patterns": [
+      "Lừa đảo tuyển dụng trực tuyến",
+      "Task marketing / làm nhiệm vụ nhận hoa hồng",
+      "Yêu cầu đặt cọc/phí giữ chỗ khi tuyển dụng"
+    ],
+    "recommended_actions": [
+      "KHÔNG nạp bất kỳ đồng nào, dù đối tượng giải thích thế nào",
+      "KHÔNG nhấn vào link bit.do/VietTechRecruitment vì có thể chứa mã độc hoặc dẫn đến trang lừa đảo",
+      "KHÔNG cung cấp thông tin cá nhân như CCCD, tài khoản ngân hàng, mã OTP",
+      "Chặn và báo cáo người này trên nền tảng đang dùng (Zalo, Facebook, Telegram...)",
+      "Nếu đã chuyển tiền, nộp đơn tố giác tội phạm cho cơ quan công an dù số tiền nhỏ",
+      "Xác minh pháp nhân doanh nghiệp qua Cổng thông tin quốc gia về đăng ký doanh nghiệp tại dangkykinhdoanh.gov.vn",
+      "Cảnh báo cho người thân và bạn bè để tránh trở thành nạn nhân tiếp theo"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## 🚨 ĐÂY LÀ LỪA ĐẢO! TUYỆT ĐỐI KHÔNG NẠP TIỀN!\n\nTình huống bạn mô tả là **lừa đảo tuyển dụng trực tuyến điển hình** đang rất phổ biến tại Việt Nam. Dưới đây là phân tích chi tiết:\n\n---\n\n### 🔴 CÁC DẤU HIỆU LỪA ĐẢO RÕ RÀNG TRONG TIN NHẮN NÀY\n\n**1. Mức lương \"trên trời\" với công việc quá dễ dàng**\n\nQuảng cáo mức thu nhập quá cao, không tương xứng với khối lượng hoặc tính chất công việc; hứa hẹn chỉ cần vài phút mỗi ngày nhưng thu nhập lại gấp nhiều lần so với mức trung bình trên thị trường — đây là dấu hiệu cổ điển của lừa đảo. 25 triệu/tháng chỉ cần 2-3 giờ/ngày là hoàn toàn vô lý.\n\n**2. Yêu cầu nạp tiền \"đặt cọc\" trước khi làm việc**\n\nHầu hết các nhà tuyển dụng không thu phí hoặc yêu cầu ứng viên đặt cọc, giữ chỗ dưới bất kỳ hình thức nào. Các đối tượng xấu sẽ \"vẽ ra một công việc như mơ\", từ đó yêu cầu người tìm việc phải nộp phí đặt cọc, phí giữ chỗ hay phí bảo lãnh để đăng ký làm việc.\n\nKhông có một doanh nghiệp uy tín nào lại yêu cầu người lao động đóng tiền hay đặt cọc trước cả khi tuyển dụng.\n\n**3. Kịch bản \"hoàn tiền sau khi hoàn thành nhiệm vụ\" là bẫy kinh điển**\n\nCác đối tượng yêu cầu nạn nhân phải đóng các khoản phí, tiền đặt cọc để được làm nhân viên chính thức của công ty và hứa sẽ hoàn lại khi làm việc 3 tháng hay khi kết thúc hợp đồng. Tuy nhiên, sau khi nhận được tiền hoặc khi phát hiện bị lộ, các \"nhà tuyển dụng\" lập tức khóa các thông tin liên lạc và biến mất.\n\n**4. Đây đúng là kịch bản lừa đảo \"task marketing / làm nhiệm vụ nhận hoa hồng\"**\n\nScammer tuyển dụng giả danh nhà tuyển dụng, mời ứng viên làm cộng tác viên online, yêu cầu đặt cọc hoặc làm nhiệm vụ nạp tiền để nhận hoa hồng.\n\nĐối tượng chỉ cho người tham gia rút được một số tiền nhất định với lý do không đủ điểm tín dụng hoặc hết hạn mức tài khoản. Để tiếp tục rút được tiền, các \"hướng dẫn viên\" yêu cầu người tham gia \"nâng cấp tài khoản VIP\" hoặc tham gia các \"giao dịch thương mại\" bằng cách nạp tiền vào tài khoản.\n\n**5. Đường link rút gọn lạ (bit.do/...) — cực kỳ nguy hiểm**\n\nKhông đăng nhập các đường link lạ do những người không quen biết hoặc chỉ quen qua mạng xã hội gửi, có nguy cơ chứa mã độc và có thể bị chiếm quyền điều khiển điện thoại.\n\n**6. Nếu bị lún sâu hơn, bạn sẽ mất nhiều hơn 4,5 triệu**\n\nDo tâm lý muốn lấy lại số tiền đã nạp, người tham gia tiếp tục nạp tiền cho đến khi số tiền lên đến hàng chục, hàng trăm, thậm chí hàng tỷ đồng thì các đối tượng chiếm đoạt tiền, chặn tài khoản, ngắt liên lạc với người tham gia.\n\n---\n\n### ✅ BẠN CẦN LÀM GÌ NGAY BÂY GIỜ?\n\n1. **KHÔNG nạp bất kỳ đồng nào** — Dù họ có giải thích thế nào, đây vẫn là lừa đảo.\n2. **KHÔNG nhấn vào link** `bit.do/VietTechRecruitment` — Link có thể chứa mã độc hoặc dẫn đến trang lừa đảo.\n3. **KHÔNG cung cấp thông tin cá nhân** — CCCD, tài khoản ngân hàng, mã OTP.\n4. **Chặn và báo cáo** người này trên nền tảng bạn đang dùng (Zalo, Facebook, Telegram...).\n5. **Nếu đã chuyển tiền**, hãy làm theo lời khuyên của luật sư: \"Nếu chẳng may đã bị lừa đảo, cho dù số tiền nhỏ, người lao động mạnh dạn nộp đơn tố giác tội phạm cho cơ quan công an để họ có thông tin tìm cách điều tra, xử lý.\"\n6. Có thể xác minh pháp nhân doanh nghiệp qua Cổng thông tin quốc gia về đăng ký doanh nghiệp tại **dangkykinhdoanh.gov.vn** — một công ty thật sẽ có đăng ký rõ ràng.\n\n---\n\n### ⚠️ LƯU Ý PHÁP LÝ\n\nHành vi lừa đảo chiếm đoạt tài sản có thể bị xử lý theo Điều 174 Bộ luật Hình sự 2015. Bạn hoàn toàn có quyền tố cáo hành vi này với công an.\n\n---\n\n**Tóm lại:** Đây là lừa đảo 100%. Hãy bỏ qua, chặn liên lạc và cảnh báo cho người thân, bạn bè để tránh trở thành nạn nhân tiếp theo! 🛡️",
+  "sources": [
+    "https://baochinhphu.vn/lua-dao-tuyen-dung-truc-tuyen-bay-tinh-vi-nham-vao-nguoi-tim-viec-1022509300917299.htm",
+    "https://careerviet.vn/vi/talentcommunity/cach-nhan-biet-cac-hinh-thuc-lua-dao-qua-tin-tuyen-dung-cho-nguoi-tim-viec.35A51E0C.html",
+    "https://nld.com.vn/canh-giac-bay-lua-viec-lam-truc-tuyen-196250221213606116.htm",
+    "https://canhsatquanlyhanhchinh.gov.vn/phong-chong-toi-pham/canh-giac-thu-doan-lua-dao-tuyen-cong-tac-vien-lam-online-viec-nhe-luong-cao-2681",
+    "https://nld.com.vn/cong-doan/7-dau-hieu-nhan-biet-hanh-vi-lua-dao-tuyen-dung-qua-mang-20221118075752826.htm",
+    "https://congan.hanam.gov.vn/index.php/vi/news/canh-bao-toi-pham/bay-lua-dao-tuyen-dung-ngan-hang-lien-tuc-dua-ra-canh-bao-3339.html",
+    "https://www.vietcombank.com.vn/vi-VN/Trang-thong-tin-dien-tu/Articles/2024/07/25/20240724_QHCC_VCB-Canh-Bao-Giao-Mao-Tuyen-Dung",
+    "https://vieclam24h.vn/nghe-nghiep/la-ban-su-nghiep/4-loai-tuyen-dung-lua-dao-vao-cuoi-nam",
+    "https://www.vietcombank.com.vn/vi-VN/Trang-thong-tin-dien-tu/Articles/2024/05/16/20240516_QHCC_Bai-viet-CANH-BAO-GIA-MAO",
+    "https://www.baotravinh.vn/khoa-hoc-va-cong-nghe/lua-dao-cho-vay-tin-dung-den-lai-hoanh-hanh-tren-khong-gian-mang-viet-nam-40700.html",
+    "https://congan.daklak.gov.vn/-/nhan-dien-va-phong-tranh-thu-oan-lua-ao-lam-nhiem-vu-truc-tuyen-moi-tren-khong-gian-mang",
+    "https://thichlamthem.com/kinh-nghiem-lam-them/nhung-viec-lam-online-de-bi-lua-dao-nhat-hien-nay.html",
+    "https://www.cafeuniversel.com/scammer-la-gi/",
+    "https://conganthanhhoa.gov.vn/tin-tuc-su-kien/tin-an-ninh-trat-tu/canh-giac-voi-thu-doan-lua-chot-don-hang-kiem-tien-online-.html",
+    "https://vn.joboko.com/blog/lua-dao-tuyen-dung-nwi5562",
+    "https://vithongthai.com/scam-la-gi/",
+    "https://dantri.com.vn/lao-dong-viec-lam/chieu-tro-du-chuyen-tien-dat-coc-ho-so-viec-nhe-luong-cao-20260707164832705.htm",
+    "https://www.cake.me/resources/job-searching-guide/lua-dao-tuyen-dung",
+    "https://baohaiquanvietnam.vn/tin-tuc/canh-giac-chieu-tro-lua-dao-lam-cong-tac-vien-ban-hang-online"
+  ],
+  "latency_ms": 64737
+}

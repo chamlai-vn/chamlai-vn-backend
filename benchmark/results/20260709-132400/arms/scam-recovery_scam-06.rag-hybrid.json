@@ -1,0 +1,32 @@
+{
+  "case_id": "scam-recovery_scam-06",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Giả danh 'Tổng cục Hỗ trợ Lấy Lại Tài Sản Trực Tuyến' - tên gọi không chính thống, không phải cơ quan nhà nước thực tế",
+      "Yêu cầu nạp phí dịch vụ trước (3 triệu, 2 triệu, 4 triệu) để 'lấy lại tiền'",
+      "Lý do phí liên tục thay đổi (hồ sơ, xác thực, bảo mật, phí luật sư)",
+      "Tiếp cận qua cuộc gọi từ số điện thoại không xác thực, tự xưng là 'nhân viên'",
+      "Cam kết không thực tế: lấy lại 100% tiền qua 'điều tra bảo mật' và 'phục hồi từ xa'",
+      "Yêu cầu chuyển tiền liên tục thay vì một lần, tác động kéo dài",
+      "Đẩy mạnh tác động tâm lý lợi dụng sự thất vọng của nạn nhân bị lừa lần đầu"
+    ],
+    "matched_patterns": [
+      "recovery_scam - Giả danh cán bộ, luật sư lừa đảo \"lấy lại tiền treo\" qua mạng xã hội",
+      "recovery_scam - Lừa đảo giả danh cơ quan pháp luật, luật sư để chiếm đoạt phí \"thu hồi tiền bị lừa\"",
+      "recovery_scam - Giả danh cơ quan Công an, công ty luật để lừa đảo \"hỗ trợ thu hồi tiền bị lừa đảo\"",
+      "recovery_scam - Lừa đảo kép: Giả công ty luật hỗ trợ lấy lại tiền bị lừa sau lần thứ nhất"
+    ],
+    "recommended_actions": [
+      "Báo ngay cho Công an địa phương thay vì tìm kiếm các dịch vụ 'lấy lại tiền' trên mạng",
+      "Không tiếp tục chuyển khoán hoặc liên hệ thêm với số điện thoại 0987.654.321 hoặc tài khoản này",
+      "Ghi lại tất cả thông tin liên lạc (số điện thoại, tài khoản ngân hàng, lời nói của đối tượng) để cung cấp cho cơ quan chức năng",
+      "Xác minh: Bộ Công an không ủy quyền cho bất kỳ đơn vị nào nhận hồ sơ hoặc hỗ trợ lấy lại tiền qua mạng xã hội hay điện thoại",
+      "Nếu cần hỗ trợ pháp lý, liên hệ với công ty luật uy tín (tìm hiểu qua Đoàn Luật sư) hoặc tổ chức tiêu dùng chính thống, không phải các 'dịch vụ' trên mạng",
+      "Cảnh báo người thân, bạn bè để tránh rơi vào cùng chiêu trò"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 9864
+}

@@ -1,0 +1,30 @@
+{
+  "case_id": "scam-vacation_contract-08",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Yêu cầu chuyển tiền trước khi xem hợp đồng (chỉ gửi hợp đồng sau khi có tiền)",
+      "Tuyên bố là giải thưởng trúng thăm đột ngột không có yêu cầu trước đó",
+      "Lời hứa 'sử dụng mãi mãi' với phí duy nhất một lần (điều kiện không thực tế)",
+      "Chuyển khoản vào tài khoản cá nhân (chủ tài khoản là 'Trương Minh Phương', không phải tên công ty)",
+      "Mô tả sơ sài về hợp đồng, không cung cấp thông tin chi tiết lúc liên hệ ban đầu",
+      "Tạo sự gấp gáp với việc 'hoàn tất thủ tục' ngay"
+    ],
+    "matched_patterns": [
+      "Lừa đảo bán hợp đồng kỳ nghỉ qua công ty kinh doanh du lịch giả danh",
+      "Lừa đảo bán gói kỳ nghỉ cao cấp với cam kết lợi nhuận bất thường",
+      "Hợp đồng sở hữu kỳ nghỉ: Lừa đảo bằng cách tuyên truyền sai về quyền sở hữu"
+    ],
+    "recommended_actions": [
+      "Không chuyển tiền vào tài khoản cá nhân bất kỳ cho bất kỳ loại hợp đồng du lịch hay sở hữu kỳ nghỉ nào",
+      "Xác minh thông tin công ty Paradise Resorts qua Sở Kế hoạch Đầu tư (kiểm tra giấy phép kinh doanh, người đại diện pháp luật, địa chỉ trụ sở)",
+      "Yêu cầu được xem toàn bộ hợp đồng TRƯỚC khi thanh toán bất kỳ khoản tiền nào",
+      "Tìm hiểu phản hồi từ những khách hàng cũ về công ty này; tìm kiếm trên mạng xã hội hoặc diễn đàn về các trường hợp lừa đảo liên quan",
+      "Hiểu rõ rằng hợp đồng sở hữu kỳ nghỉ chỉ là dịch vụ lưu trú có thời hạn, KHÔNG phải sở hữu tài sản; quyền lợi không bằng mua bất động sản và có khó khăn khi chuyển nhượng",
+      "Báo cáo cho cơ quan công an địa phương nếu nghi ngờ đây là lừa đảo"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 8943
+}

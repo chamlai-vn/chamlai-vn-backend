@@ -1,0 +1,27 @@
+{
+  "case_id": "scam-package_delivery-06",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Kịch bản \"phí ship giả\" — số tiền nhỏ (85.000đ) khiến người nhận chủ quan, tạo cảm giác khẩn cấp sợ mất hàng",
+      "Tên miền lạ (.xyz) — công ty vận chuyển/ngân hàng chính thức ở Việt Nam không dùng loại tên miền này",
+      "Trang web yêu cầu nhập cả CVV và OTP ngân hàng chỉ để trả phí ship — không cổng thanh toán hợp pháp nào yêu cầu vậy",
+      "Số điện thoại không nghe máy khi gọi lại — dấu hiệu số dùng một lần cho mục đích lừa đảo",
+      "Hậu quả thực tế: 3 giao dịch lạ mất 2.450.000đ ngay sau khi nhập OTP+CVV — khớp đúng kịch bản lừa đảo"
+    ],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Gọi ngay hotline ngân hàng (in trên thẻ hoặc app) để khóa thẻ và tra soát các giao dịch bất thường",
+      "Trình báo công an phường/quận nơi cư trú hoặc đường dây nóng Cục Cảnh sát Hình sự - Bộ Công an",
+      "Thu thập bằng chứng: chụp màn hình tin nhắn, link web giả, lịch sử giao dịch trước khi bị gỡ",
+      "Đổi mật khẩu ứng dụng ngân hàng và các tài khoản khác nếu dùng chung mật khẩu",
+      "Không liên hệ các dịch vụ quảng cáo \"hỗ trợ lấy lại tiền bị lừa\" trên mạng — thường là lừa đảo lần hai",
+      "Có thể báo cáo số điện thoại lừa đảo qua tổng đài 156/5656"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## Đây chắc chắn là lừa đảo (phishing/smishing) — và tiếc là Linh đã bị mất tiền thật\n\n**Tại sao đây là lừa đảo, không phải nghi ngờ:**\n\n1. **Kịch bản \"phí ship giả\"** — tin nhắn báo có kiện hàng cần trả phí nhỏ (85.000đ) là mồi nhử kinh điển. Số tiền nhỏ khiến người nhận chủ quan, không nghi ngờ nhiều, trong khi nỗi sợ \"mất hàng\" thúc đẩy hành động vội vàng mà không kiểm tra kỹ.\n\n2. **Tên miền `.xyz` lạ** — các công ty vận chuyển/ngân hàng chính thức ở Việt Nam không bao giờ dùng tên miền `.xyz`, `.top` lạ như vậy. Đây là dấu hiệu nhận diện web giả mạo rất phổ biến.\n\n3. **Trang web yêu cầu nhập CVV và OTP** — đây là dấu hiệu **chắc chắn 100% là lừa đảo**. Không một cổng thanh toán hợp pháp nào của công ty vận chuyển yêu cầu nhập CVV *và* OTP ngân hàng để trả phí 85.000đ. Các ngân hàng luôn cảnh báo tuyệt đối không cung cấp thông tin thẻ, mã OTP, thông tin đăng nhập ngân hàng cho bất kỳ ai dưới bất kỳ hình thức nào.\n\n4. **Số điện thoại không nghe máy khi gọi lại** — xác nhận đây là số dùng một lần cho mục đích lừa đảo, không phải tổng đài thật.\n\n5. **Hậu quả: 3 giao dịch lạ, mất 2.450.000đ** — đây chính là kết quả điển hình khi kẻ gian dùng OTP + số thẻ + CVV để thực hiện giao dịch thanh toán trực tuyến tại các \"cửa hàng\" (thực chất có thể là điểm bán giả hoặc trung gian rửa tiền của chúng).\n\n**Đây là mô hình lừa đảo rất phổ biến hiện nay ở Việt Nam** — các ngân hàng như Vietcombank liên tục cảnh báo về những trang web giả mạo yêu cầu số điện thoại, tên chủ thẻ, số thẻ, ngày hết hạn và mã CVV dưới vỏ bọc \"xác minh\", tương tự cách tin nhắn giả mạo FastGo hoạt động.\n\n---\n\n### Linh nên làm ngay:\n\n1. **Gọi ngay hotline ngân hàng** (in trên mặt sau thẻ hoặc app ngân hàng) để báo mất tiền do lừa đảo, yêu cầu **khóa thẻ ngay lập tức** và tra soát 3 giao dịch đó.\n2. **Trình báo công an** — đến công an phường/quận nơi cư trú, hoặc gọi đường dây nóng Cục Cảnh sát Hình sự - Bộ Công an theo số 0692 345 860 để được hướng dẫn.\n3. **Thu thập bằng chứng**: chụp màn hình tin nhắn, link web giả, lịch sử giao dịch bất thường — lưu lại trước khi trang web/tin nhắn có thể bị gỡ.\n4. **Đổi mật khẩu** ứng dụng ngân hàng và các tài khoản khác nếu dùng chung mật khẩu.\n5. **Không liên hệ với các dịch vụ quảng cáo \"hỗ trợ lấy lại tiền bị lừa\"** trên mạng — tuyệt đối không liên hệ với các website, fanpage quảng cáo \"hỗ trợ lấy lại tiền bị treo\", \"thu hồi tiền lừa đảo\", vì đây thường là lừa đảo lần hai.\n6. Có thể báo cáo số điện thoại lừa đảo qua tổng đài **156/5656**.\n\n**Về sau**: nguyên tắc an toàn — **không bấm link lạ, không nhập OTP/CVV trên bất kỳ trang nào ngoài app/web chính thức của ngân hàng**, và nếu nghi ngờ, luôn tự tra số hotline chính thức để gọi xác minh thay vì bấm vào link trong tin nhắn.",
+  "sources": [],
+  "latency_ms": 0
+}

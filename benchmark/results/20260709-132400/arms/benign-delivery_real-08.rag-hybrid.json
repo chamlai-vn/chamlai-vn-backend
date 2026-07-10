@@ -1,0 +1,22 @@
+{
+  "case_id": "benign-delivery_real-08",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "yellow",
+    "red_flags": [
+      "Yêu cầu xác minh thông tin cá nhân qua tin nhắn thay vì ứng dụng chính thức",
+      "Áp lực thời gian: giao hàng trong 24 giờ tới",
+      "Tin nhắn có thể từ số giả mạo công ty vận chuyển",
+      "Yêu cầu cung cấp thông tin nhạy cảm (số điện thoại, địa chỉ) mà công ty vận chuyển đã có sẵn"
+    ],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Không trả lời ngay tin nhắn này; thay vào đó, hãy mở ứng dụng giao hàng chính thức (Shopee, Lazada, Tiktok Shop hoặc website công ty vận chuyển) để kiểm tra trạng thái đơn hàng",
+      "Liên hệ trực tiếp số hotline chính thức của công ty vận chuyển (tra cứu trên website chính thức, không dùng số từ tin nhắn) để xác nhận thông báo này",
+      "Không chia sẻ thông tin cá nhân, mã OTP hoặc dữ liệu tài khoản qua tin nhắn",
+      "Nếu có nghi ngờ, báo cáo tin nhắn này như spam/phishing cho nhà mạng và cơ quan công an"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 4774
+}

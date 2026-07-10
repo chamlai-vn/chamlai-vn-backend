@@ -1,0 +1,38 @@
+{
+  "case_id": "scam-fake_job-07",
+  "rag_verdict": {
+    "strengths": [
+      "Xác định đúng mức độ rủi ro (red) một cách rõ ràng, ngắn gọn",
+      "Bao phủ đầy đủ tất cả các ý chính: lương cao bất thường, tiền đảm bảo upfront, việc dễ dàng bắt đầu ngay, dùng Zalo",
+      "Khớp chính xác chiêu trò 'fake_job' và giải thích cơ chế nạp tiền qua 'gói nhiệm vụ'",
+      "Lời khuyên cụ thể, có tính hành động cao: yêu cầu hợp đồng, xác minh qua kênh chính thức, không nộp tiền dưới mọi vỏ bọc",
+      "Cấu trúc gọn gàng, dễ đọc, tập trung vào trọng tâm"
+    ],
+    "weaknesses": [
+      "Thiếu hướng dẫn tố giác với cơ quan công an",
+      "Không cảnh báo cụ thể về nguy cơ lộ thông tin cá nhân/OTP",
+      "Ít yếu tố đồng cảm và giọng điệu trấn an cho người hỏi"
+    ],
+    "reasoning": "Câu trả lời A ngắn gọn, chính xác và bao phủ toàn bộ các ý chính được yêu cầu. Kết luận rủi ro rõ ràng, phân tích dấu hiệu sát với tình huống, khớp đúng loại chiêu trò và đưa ra khuyến nghị thực tế, hành động được. Điểm trừ nhỏ là thiếu bước tố giác và cảnh báo về thông tin cá nhân, cùng giọng điệu hơi khô.",
+    "score": 8.5
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Kết luận lừa đảo dứt khoát, gây chú ý mạnh với người đọc",
+      "Phân tích rất chi tiết, bao phủ toàn bộ ý chính và còn mở rộng kịch bản lừa đảo tiếp theo (nạp tiền mở khóa nhiệm vụ, biến mất)",
+      "Có căn cứ pháp lý: người lao động không phải nộp phí tuyển dụng",
+      "Hướng dẫn hành động đầy đủ: không nộp tiền, không cung cấp OTP/CCCD, chặn, báo cáo, tố giác công an, chia sẻ người thân",
+      "Giọng điệu đồng cảm, trấn an và động viên phù hợp với người đang lo lắng",
+      "Cảnh báo rõ nguy cơ mất thông tin cá nhân"
+    ],
+    "weaknesses": [
+      "Khá dài, nhiều điểm trùng lặp (dấu hiệu 4 và 5 tương tự nhau)",
+      "Nêu con số 7-12 triệu không khớp chính xác với tình huống (10-15 triệu), gây lệch nhẹ",
+      "Dùng nhiều emoji và định dạng có thể làm loãng thông tin trọng tâm với một số người đọc"
+    ],
+    "reasoning": "Câu trả lời B bao phủ đầy đủ các ý chính và mở rộng thêm giá trị: căn cứ pháp lý, kịch bản lừa đảo tiếp diễn, hướng dẫn tố giác, cảnh báo thông tin cá nhân. Giọng điệu đồng cảm phù hợp với người dùng đang lo lắng. Điểm yếu là hơi dài và có một chút trùng lặp, cùng con số ví dụ không hoàn toàn khớp tình huống, nhưng tổng thể vẫn rất chất lượng và toàn diện hơn.",
+    "score": 9
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

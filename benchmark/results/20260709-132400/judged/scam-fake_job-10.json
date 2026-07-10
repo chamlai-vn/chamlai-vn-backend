@@ -1,0 +1,41 @@
+{
+  "case_id": "scam-fake_job-10",
+  "rag_verdict": {
+    "strengths": [
+      "Cấu trúc rõ ràng, súc tích: mức độ rủi ro, dấu hiệu cảnh báo, chiêu trò khớp, khuyến nghị",
+      "Bao quát đầy đủ cả 4 ý chính: fake job lương cao, phí đăng ký 890k, app/nhóm chat giả, số lạ + tên công ty giả",
+      "Chỉ ra chi tiết cụ thể quan trọng: tên chủ tài khoản là cá nhân (Võ Thị Mỹ Linh) chứ không phải tên công ty",
+      "Khuyến nghị thực tế, đúng trọng tâm: không chuyển tiền, xác minh qua kênh chính thức, chỉ tải app từ store chính thống, yêu cầu hợp đồng, báo cơ quan chức năng, cảnh báo người thân",
+      "Ngắn gọn, dễ đọc, không lan man"
+    ],
+    "weaknesses": [
+      "Không đề cập rõ ràng việc nên xóa app ShopWork Pro (nguy cơ mã độc)",
+      "Không cung cấp thông tin liên hệ/đường dây nóng cụ thể để trình báo",
+      "Không dự báo kịch bản tiếp theo (nạp thêm tiền, nâng cấp hội viên) để giúp hiểu sâu cơ chế lừa",
+      "Không ghi nhận việc em Tuấn đã làm đúng khi nghi ngờ (yếu tố động viên/củng cố hành vi tốt)"
+    ],
+    "reasoning": "Câu trả lời A ngắn gọn, chính xác và bao quát đủ 4 ý chính. Các dấu hiệu cảnh báo và khuyến nghị đều đúng trọng tâm và có giá trị thực tiễn cao. Điểm cộng là chỉ ra chi tiết tên chủ tài khoản là cá nhân. Tuy nhiên thiếu một số khuyến nghị an toàn quan trọng như xóa app nghi chứa mã độc và cung cấp kênh liên hệ cụ thể.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Rất chi tiết, phân tích sâu cơ chế của chiêu lừa theo từng bước kịch bản",
+      "Bao quát đầy đủ 4 ý chính và bổ sung nhiều thông tin giá trị",
+      "Dự báo kịch bản tiếp theo nếu đã chuyển tiền (nâng cấp hội viên, đóng thuế TNCN, bị chặn liên lạc) rất hữu ích để hiểu bản chất",
+      "Hướng dẫn hành động cụ thể theo bước: không làm theo, xóa app ShopWork Pro, lưu bằng chứng và trình báo, cảnh báo người thân",
+      "Cung cấp kênh hỗ trợ cụ thể (công an, khonggianmang.vn)",
+      "Ghi nhận và động viên hành vi đúng của em Tuấn"
+    ],
+    "weaknesses": [
+      "Có lỗi chính tả trong tiêu đề ('KHẲNG ĐỊNH')",
+      "Đường dây nóng '113' là số cảnh sát khẩn cấp chung, cách trình bày 'Đường dây nóng tội phạm mạng: 113' hơi gây hiểu nhầm",
+      "Khá dài, nhiều trích dẫn/lời chứng nạn nhân khiến câu trả lời dài dòng, có thể gây loãng thông tin",
+      "Khẳng định 'LỪA ĐẢO 100%' hơi tuyệt đối về mặt ngôn ngữ, dù trong ngữ cảnh này phù hợp",
+      "Dùng nhiều emoji và định dạng nặng có thể không cần thiết"
+    ],
+    "reasoning": "Câu trả lời B phân tích rất sâu và toàn diện, bao quát đủ 4 ý chính, bổ sung dự báo kịch bản, hướng dẫn hành động cụ thể theo bước, cung cấp kênh hỗ trợ và động viên hành vi đúng. Chất lượng giải thích cao và có tính giáo dục. Điểm trừ là có lỗi chính tả, thông tin đường dây nóng chưa chuẩn xác, và hơi dài dòng.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

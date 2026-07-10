@@ -1,0 +1,54 @@
+{
+  "case_id": "scam-other-04",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Giả danh nhân viên VinaPhone hoặc nhà mạng, thông báo SIM sắp bị khóa hoặc cần nâng cấp/chuẩn hóa thông tin thuê bao",
+      "Gửi link lạ để yêu cầu xác thực thuê bao hoặc chuẩn hóa thông tin — dấu hiệu nguy hiểm điển hình",
+      "Cuộc gọi đến từ số điện thoại thường (0934...) thay vì tổng đài chính thức của VinaPhone (0888001091)",
+      "Yêu cầu cung cấp thông tin cá nhân, mã OTP, mật khẩu ngân hàng qua điện thoại hoặc link",
+      "Kẻ lừa đảo có thể giả mạo số điện thoại hiển thị (Voice Phishing) bằng ứng dụng mạo danh số gọi đến và giọng nói",
+      "Có thể yêu cầu cài đặt ứng dụng qua link lạ chứa mã độc hoặc ứng dụng giả mạo để chiếm quyền kiểm soát thiết bị"
+    ],
+    "matched_patterns": [
+      "Giả danh nhân viên nhà mạng (VinaPhone) thông báo SIM bị khóa/cần nâng cấp để lừa cung cấp thông tin",
+      "Gửi link giả mạo để đánh cắp thông tin cá nhân và tài khoản ngân hàng (Phishing)",
+      "Voice Phishing — mạo danh số điện thoại và giọng nói để lừa đảo"
+    ],
+    "recommended_actions": [
+      "KHÔNG bấm vào link họ gửi trong bất kỳ trường hợp nào",
+      "KHÔNG cung cấp CCCD, mã OTP hay mật khẩu ngân hàng cho bất kỳ ai qua điện thoại hoặc link",
+      "Gọi tổng đài chính thức VinaPhone 18001091 (miễn phí) để kiểm tra và xác minh thông tin",
+      "Chỉ cập nhật hoặc xác thực thông tin thuê bao qua kênh chính thống: ứng dụng VNeID, ứng dụng chính thức của nhà mạng hoặc trực tiếp tại điểm giao dịch",
+      "Chặn số điện thoại đó và không gọi lại",
+      "Nếu đã bấm link hoặc nhập thông tin: đổi mật khẩu ngân hàng ngay lập tức và liên hệ ngân hàng để khóa tạm thời tài khoản",
+      "Báo cáo cho cơ quan Công an gần nhất hoặc Phòng An ninh mạng và phòng chống tội phạm công nghệ cao, hotline 0766.05.05.05",
+      "Báo cáo số lừa đảo cho VinaPhone bằng cách soạn tin nhắn theo cú pháp: V [số điện thoại] [nội dung] gửi 5656"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## 🚨 ĐÂY RẤT CÓ KHẢ NĂNG LÀ LỪA ĐẢO! Hãy cảnh giác ngay!\n\nTình huống bạn mô tả **khớp hoàn toàn** với một thủ đoạn lừa đảo đang rất phổ biến tại Việt Nam. Dưới đây là phân tích chi tiết:\n\n---\n\n### ❌ Tại sao đây là dấu hiệu lừa đảo?\n\n**1. Đúng kịch bản lừa đảo đã được cảnh báo:**\nĐây là chiêu thức giả danh nhân viên VinaPhone hoặc các nhà mạng khác, thông báo SIM sắp bị khóa, cần nâng cấp lên 4G/5G, hoặc chuẩn hóa thông tin thuê bao… sau đó dụ người dùng cung cấp thông tin, chiếm quyền kiểm soát SIM và tài khoản ngân hàng.\n\n**2. Gửi link lạ là dấu hiệu nguy hiểm điển hình:**\nCác đối tượng xấu giả danh nhân viên nhà mạng hoặc cơ quan chức năng gọi điện yêu cầu \"xác thực thuê bao\", \"chuẩn hóa thông tin\". Trong quá trình này, chúng tìm cách dụ người dân cung cấp mã OTP, mật khẩu ngân hàng, thông tin tài khoản hoặc truy cập vào các đường link giả mạo để chiếm đoạt tài sản.\n\n**3. Số điện thoại thường (0934...) không phải kênh chính thức của VinaPhone:**\nCác cuộc gọi chính thức của VinaPhone từ tổng đài chăm sóc khách hàng sẽ hiển thị số 0888001091, tin nhắn của VinaPhone đến máy khách hàng sẽ hiển thị tên thương hiệu VinaPhone.\n\n**4. VinaPhone khẳng định họ KHÔNG BAO GIỜ làm vậy:**\nVinaPhone KHÔNG bao giờ yêu cầu khách hàng cung cấp thông tin cá nhân, mã OTP qua điện thoại, tin nhắn hoặc link lạ.\n\n**5. Kẻ lừa đảo có thể giả mạo cả số điện thoại hiển thị:**\nHiện nay đã xuất hiện các ứng dụng nguy hiểm cho phép kẻ gian thực hiện hành vi mạo danh số điện thoại (Voice Phishing) với kịch bản tinh vi, có khả năng mạo danh bất kỳ số gọi đến và giọng nói nào để lừa đảo người dùng.\n\n---\n\n### ⚠️ Hậu quả nếu bị lừa:\n\nCơ quan công an nhận định các hành vi trên tiềm ẩn nhiều rủi ro nghiêm trọng. Người dân không chỉ có nguy cơ mất toàn bộ tiền trong tài khoản mà còn bị lộ lọt thông tin cá nhân, tạo điều kiện cho các đối tượng tiếp tục thực hiện nhiều hành vi lừa đảo khác.\n\nĐặc biệt, một số đối tượng còn yêu cầu cài đặt ứng dụng của nhà mạng thông qua đường link lạ chứa mã độc hoặc ứng dụng giả mạo. Khi người dân cài đặt, các đối tượng có thể chiếm quyền kiểm soát thiết bị, đánh cắp dữ liệu, mã OTP, thông tin tài khoản ngân hàng điện tử để từ đó thực hiện hành vi chiếm đoạt tài sản.\n\n---\n\n### ✅ Bạn cần làm gì ngay bây giờ?\n\n| Hành động | Chi tiết |\n|-----------|----------|\n| 🚫 **KHÔNG bấm vào link** | Tuyệt đối không mở đường link họ gửi |\n| 🚫 **KHÔNG cung cấp thông tin** | Không đưa CCCD, OTP, mật khẩu ngân hàng |\n| 📞 **Gọi tổng đài chính thức** | Liên hệ tổng đài **18001091** (miễn phí) để kiểm tra và được hỗ trợ kịp thời. |\n| 📍 **Xác minh trực tiếp** | Chỉ nên thực hiện cập nhật, xác thực thông tin thuê bao thông qua các kênh chính thống như ứng dụng VNeID, ứng dụng chính thức của nhà mạng hoặc trực tiếp tại điểm giao dịch. |\n| 🚔 **Báo công an** | Khi có nghi vấn, báo ngay cho cơ quan Công an gần nhất hoặc Phòng An ninh mạng và phòng chống tội phạm công nghệ cao, hotline **0766.05.05.05**. |\n| 📢 **Báo cáo số lừa đảo** | Người dùng VinaPhone có thể báo cáo bằng cách soạn tin nhắn theo cú pháp: **V [số điện thoại] [nội dung]** gửi **5656**. |\n\n---\n\n\u003e 💡 **Lời khuyên quan trọng:** Nếu bạn chưa bấm vào link và chưa cung cấp thông tin nào, bạn vẫn an toàn. Hãy **chặn số đó** và **không gọi lại**. Nếu lỡ bấm link hoặc nhập thông tin, hãy **đổi mật khẩu ngân hàng ngay lập tức** và liên hệ ngân hàng để khóa tạm thời tài khoản.",
+  "sources": [
+    "https://vinaphone.com.vn/tu-van/vinaphone-khuyen-cao-toi-quy-khach-hang-cac-chieu-tro-lua-dao-pho-bien-dang-dien-ra-hien-nay.html",
+    "https://kenh14.vn/thong-bao-quan-trong-nguoi-dung-viettel-vinaphone-mobifone-can-nam-ro-215260506183240101.chn",
+    "https://vinaphone.online/bao-cao-so-dien-thoai-lam-phien-vinaphone.html",
+    "https://cafef.vn/cong-an-canh-bao-thu-doan-lua-dao-hoan-toan-moi-nham-den-tai-khoan-ngan-hang-cua-nguoi-dung-viettel-vinaphone-188260506102020467.chn",
+    "https://congan.nghean.gov.vn/thong-tin-chuyen-de/canh-bao-toi-pham/202409/canh-giac-thu-doan-gia-danh-nha-mang-vien-thong-goi-dien-tu-van-gia-han-goi-cuoc-data-4g-1020848/",
+    "https://vietnamnet.vn/ngan-hang-canh-bao-thu-doan-lua-dao-qua-cuoc-goi-mao-danh-2513959.html",
+    "https://bocongan.gov.vn/bai-viet/canh-bao-lua-dao-chiem-doat-tai-san-tu-su-co-an-ninh-mang-tai-trung-tam-thong-tin-tin-dung-quoc-gia-cic-1757991790",
+    "https://tuoitre.vn/khoahocphothong/canh-giac-voi-tin-nhan-lua-dao-gia-mao-tong-dai-10197.html",
+    "https://www.pvcombank.com.vn/tin-tuc/tin-pvcombank/canh-bao-lua-dao-truc-tuyen-tranh-lao-dao-mat-tien",
+    "https://congly.vn/cong-an-tp-hai-phong-canh-bao-thu-doan-lua-dao-thong-bao-khoa-sim-dien-thoai-519530.html",
+    "https://daklak24h.com.vn/cong-nghe/46471/canh-bao-gia-mao-tong-dai-vinaphone-lua-tien-nguoi-dung.html",
+    "https://vnpt-vinaphone.net/index.php/en/component/k2/item/1690-vnpt-vinaphone-canh-bao-khach-hang-de-phong-tin-nhan-lua-dao",
+    "https://baochinhphu.vn/vinaphone-khuyen-cao-khach-hang-canh-giac-voi-cac-cuoc-goi-lua-dao-102246947.htm",
+    "https://banhangvnpt.vn/tin-tuc/vinaphone-khuyen-cao-khach-hang-ve-cac-hinh-thuc-lua-dao-mao-danh-tong-dai-12618",
+    "https://danviet.vn/mobifone-vinaphone-canh-bao-khan-nan-lua-dao-doi-sim-4g-5020215413299436.htm",
+    "https://vnpt.com.vn/gioi-thieu/tin-tuc/vinaphone-khuyen-cao-khach-hang-ve-cac-hinh-thuc-lua-dao-mao-danh-tong-dai.html",
+    "https://shop.vnptthanhhoa.vn/tin-tuc/canh-bao-hien-tuong-quay-roi-lua-dao-qua-dien-thoai",
+    "https://baokhanhhoa.vn/doi-song/202507/vinaphone-khuyen-cao-khach-hang-ve-cac-hinh-thuc-lua-dao-mao-danh-tong-dai-fc5159c/",
+    "https://vnpt.com.vn/tin-tuc/vnpt-canh-bao-bung-phat-cac-cuoc-goi-mao-danh-de-lua-dao.html"
+  ],
+  "latency_ms": 57487
+}

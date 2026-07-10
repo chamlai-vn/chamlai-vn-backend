@@ -1,0 +1,27 @@
+{
+  "case_id": "scam-recovery_scam-06",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Không có cơ quan nào tên \"Tổng cục Hỗ trợ Lấy Lại Tài Sản Trực Tuyến\" — không phải tên một cơ quan nhà nước có thật ở Việt Nam",
+      "Đúng kịch bản lừa đảo kép: nhắm vào nạn nhân vừa bị lừa tiền ảo, đang tuyệt vọng muốn lấy lại tiền",
+      "\"Nhân viên điều tra/luật sư\" chủ động gọi điện, tự xưng \"phục hồi tài khoản từ xa\" — cơ quan chức năng thật không làm việc kiểu này qua điện thoại",
+      "Yêu cầu đóng phí hồ sơ, rồi liên tục phát sinh thêm phí mới (phí bảo mật, phí luật sư) — không bao giờ có điểm dừng",
+      "Không có biên nhận, hợp đồng pháp lý minh bạch, không có văn phòng hay danh tính xác thực"
+    ],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Dừng ngay mọi giao dịch với \"Anh Minh Trần\", không chuyển thêm bất kỳ khoản nào dù bị hối thúc hay đe dọa",
+      "Lưu giữ bằng chứng: số điện thoại, tin nhắn, số tài khoản đã chuyển tiền, ảnh chụp màn hình",
+      "Trình báo công an phường/quận nơi cư trú, có thể gửi đơn tới Phòng An ninh mạng (PA05) — trình báo cả vụ gốc lẫn vụ lừa lần 2",
+      "Liên hệ ngân hàng đã chuyển tiền để báo cáo, đề nghị tra soát/phong tỏa tài khoản nhận nếu còn kịp",
+      "Không tin bất kỳ ai/dịch vụ nào chủ động liên hệ hứa \"lấy lại tiền bị lừa\" trong tương lai — gần như luôn là lừa đảo tiếp theo",
+      "Có thể báo cáo qua ứng dụng VNeID hoặc canhbao.ncsc.gov.vn"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "Đây là **lừa đảo 100%**, và thực chất là **lớp lừa đảo thứ hai** chồng lên vụ lừa đầu tiên. Đây là chiêu thức rất phổ biến tại Việt Nam, công an nhiều địa phương đã cảnh báo cụ thể về việc các đối tượng mạo danh Bộ Công an, công ty luật, văn phòng luật sư để \"hỗ trợ lấy lại tiền bị lừa\".\n\n## Vì sao chắc chắn là lừa đảo\n\n**1. Không có cơ quan nào tên \"Tổng cục Hỗ trợ Lấy Lại Tài Sản Trực Tuyến\"** – đây không phải tên một cơ quan nhà nước có thật ở Việt Nam. Bộ Công an, ngân hàng hay tòa án không có đơn vị nào mang tên gọi này.\n\n**2. Mô hình hoạt động đúng \"kịch bản lừa đảo kép\" (double scam):**\n- Kẻ lừa đảo biết rằng người từng bị lừa đảo tiền ảo đang tuyệt vọng, mất cảnh giác và rất muốn lấy lại tiền → đây chính là nhóm \"khách hàng\" mà bọn lừa đảo thứ hai nhắm tới (thường mua/bán lại danh sách nạn nhân cho nhau).\n- \"Nhân viên điều tra/luật sư\" gọi điện chủ động, tự xưng có thể \"phục hồi tài khoản từ xa\" – không cơ quan chức năng thật nào làm việc kiểu này qua điện thoại và yêu cầu chuyển khoản trước.\n- Yêu cầu đóng \"phí hồ sơ\", rồi liên tục phát sinh thêm phí mới (\"phí bảo mật\", \"phí luật sư\") – đây là dấu hiệu kinh điển của lừa đảo: **không bao giờ có điểm dừng**, càng đóng càng bị đòi thêm.\n- Không có biên nhận, hợp đồng pháp lý minh bạch, không có văn phòng, danh tính xác thực.\n\n**3. Cơ quan chức năng thật sự không bao giờ:**\n- Chủ động gọi điện mời \"dịch vụ lấy lại tiền\".\n- Yêu cầu nộp phí trước để \"xử lý hồ sơ\" qua tài khoản cá nhân/không rõ nguồn gốc.\n- Việc thu hồi tài sản do lừa đảo chỉ có thể qua **trình báo công an và tòa án**, quá trình này không thu phí \"dịch vụ\" như vậy.\n\n## Lan nên làm gì tiếp theo\n\n1. **Dừng ngay mọi giao dịch** với \"Anh Minh Trần\" – không chuyển thêm bất kỳ khoản nào nữa, dù bị hối thúc hay đe dọa.\n2. **Lưu giữ bằng chứng**: số điện thoại, tin nhắn, số tài khoản ngân hàng đã chuyển tiền, ảnh chụp màn hình.\n3. **Trình báo công an** tại công an phường/quận nơi Lan cư trú, đồng thời có thể gửi đơn tới Phòng An ninh mạng và phòng chống tội phạm sử dụng công nghệ cao (PA05) của Công an tỉnh/thành. Trình báo cả 2 vụ (vụ đầu tư tiền ảo gốc và vụ giả danh hỗ trợ lấy lại tiền).\n4. **Liên hệ ngân hàng** đã chuyển tiền để báo cáo và đề nghị hỗ trợ tra soát, phong tỏa tài khoản nhận tiền nếu còn kịp.\n5. **Không tin bất kỳ ai/dịch vụ nào chủ động liên hệ hứa \"lấy lại tiền bị lừa\"** trong tương lai – đây gần như luôn là lừa đảo tiếp theo nhắm vào nạn nhân cũ.\n\nNếu Lan cần, có thể gọi đường dây nóng phòng chống lừa đảo qua ứng dụng **VNeID** hoặc trang **canhbao.ncsc.gov.vn** (Cổng cảnh báo an toàn thông tin) để tra cứu và báo cáo số điện thoại/tài khoản lừa đảo.",
+  "sources": [],
+  "latency_ms": 0
+}

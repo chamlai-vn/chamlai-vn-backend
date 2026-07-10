@@ -1,0 +1,31 @@
+{
+  "case_id": "scam-romance_scam-09",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Tài khoản kết bạn có vỏ bọc hào nhoáng (ngoại hình đẹp, công việc ổn định, lương cao, đang công tác nước ngoài)",
+      "Phát triển tình cảm quá nhanh chóng trong vòng 2 tháng, liên tục bày tỏ lời ngọt ngào và hứa hẹn tương lai chung",
+      "Yêu cầu chuyển tiền với những lý do bề ngoài hợp lý nhưng không thể xác minh (phí ký kết hợp đồng, phí hải quan)",
+      "Tránh video call trực tiếp, luôn tìm cớ từ chối xác minh danh tính",
+      "Ảnh hồ sơ là giả mạo (sao chép từ trang cá nhân của diễn viên thực)",
+      "Tài khoản ngân hàng nhận tiền mang tên người Việt (Nguyễn Văn A) khác hoàn toàn với tên giả danh",
+      "Yêu cầu tiền từng lần theo từng lý do khác nhau (phí ký hợp đồng, sau đó phí hải quan)"
+    ],
+    "matched_patterns": [
+      "romance_scam - Giả danh doanh nhân lôi kéo đầu tư, sau đó giả cơ quan chức năng tính phí quà tặng",
+      "romance_scam - Giả danh người tình qua mạng xã hội để lừa đầu tư"
+    ],
+    "recommended_actions": [
+      "Ngừng mọi liên lạc với tài khoản này ngay lập tức và báo cáo hồ sơ lên nền tảng hẹn hò Bumble",
+      "Thu thập tất cả bằng chứng (đoạn chat, tên tài khoản ngân hàng, ảnh được sao chép) và ghi lại thông tin chi tiết",
+      "Liên hệ ngay với ngân hàng nơi bạn chuyển tiền để báo cáo gian lận và yêu cầu khóa/theo dõi tài khoản nhận tiền",
+      "Báo cáo vụ việc với Công an địa phương hoặc Phòng Cảnh sát Hình sự để được hỗ trợ và điều tra",
+      "Kiểm tra tài khoản ngân hàng, email, Zalo của bạn để đảm bảo chúng không bị hack; bật xác thực hai bước (2FA)",
+      "Chia sẻ thông tin về tài khoản giả mạo này với bạn bè/gia đình để họ cảnh giác, tránh rơi vào cùng bẫy",
+      "Tìm kiếm hỗ trợ tâm lý từ những người tin cậy hoặc các tổ chức hỗ trợ nạn nhân lừa đảo"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 10547
+}

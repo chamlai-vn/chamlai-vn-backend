@@ -1,0 +1,39 @@
+{
+  "case_id": "scam-ecommerce_scam-05",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận rõ ràng mức độ rủi ro đỏ (red), phù hợp với tình huống",
+      "Liệt kê đầy đủ các dấu hiệu cảnh báo: shop không confirm, số lạ, yêu cầu tiền bổ sung",
+      "Có phần khớp chiêu trò lừa đảo du lịch đã biết",
+      "Khuyến nghị hành động thiết thực: ngừng chuyển tiền, liên hệ Shopee, liên hệ ngân hàng, không cung cấp OTP",
+      "Nhắc đến việc yêu cầu giấy phép kinh doanh và biên lai chính thức"
+    ],
+    "weaknesses": [
+      "Bỏ sót điểm mấu chốt quan trọng nhất: Nha Trang là du lịch NỘI ĐỊA nên không hề có phí visa — đây là dấu hiệu bịa đặt rõ ràng nhất mà câu trả lời không nhận ra",
+      "Không nhấn mạnh tổng số tiền lớn (2.5tr + 800k) như một yếu tố rủi ro",
+      "Trình bày khá khô khan, dạng danh sách, thiếu giải thích sâu về logic từng dấu hiệu",
+      "Không nhắc đến việc thu thập/chụp lại bằng chứng"
+    ],
+    "reasoning": "Câu trả lời A đưa ra kết luận đúng hướng và bao phủ 3/4 ý chính (lừa đảo TMĐT, yêu cầu phí bổ sung, số lạ không xác minh). Tuy nhiên nó bỏ lỡ hoàn toàn điểm phân tích sắc bén nhất là việc tour nội địa Nha Trang không thể có phí visa, vốn là bằng chứng vô lý dễ thấy nhất. Lời khuyên đầy đủ và hữu ích, nhưng phần giải thích còn máy móc và thiếu chiều sâu.",
+    "score": 7
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Phát hiện và giải thích chính xác điểm mấu chốt: Nha Trang là du lịch nội địa nên KHÔNG có phí visa — vạch trần logic vô lý của kẻ lừa đảo",
+      "Bao phủ đầy đủ cả 4 ý chính: lừa đảo TMĐT, phí bổ sung sau đặt cọc, số lạ không chính thức, số tiền lớn",
+      "Giải thích chi tiết cơ chế từng chiêu trò, dẫn chiếu cảnh báo của Bộ Công an/Cục Du lịch tăng độ tin cậy",
+      "Hướng dẫn hành động cụ thể, có cấu trúc bảng dễ theo dõi: không chuyển tiền, chụp bằng chứng, báo Shopee, ngân hàng, công an",
+      "Có phần bài học phòng ngừa về sau, mang tính giáo dục",
+      "Trình bày trực quan, dễ đọc, tông giọng hỗ trợ tích cực"
+    ],
+    "weaknesses": [
+      "Hơi dài, có thể gây quá tải thông tin cho người đang lo lắng",
+      "Sử dụng nhiều emoji và định dạng có thể không cần thiết",
+      "Câu 'Chúc bạn lấy lại được tiền' có phần lạc quan quá mức khi thực tế khả năng thu hồi thấp"
+    ],
+    "reasoning": "Câu trả lời B toàn diện hơn, bao phủ đủ cả 4 ý chính và đặc biệt nắm bắt được điểm phân tích quan trọng nhất mà A bỏ lỡ: tour nội địa không có phí visa. Phần giải thích có chiều sâu, dẫn nguồn uy tín, và lời khuyên hành động vừa cụ thể vừa có tổ chức tốt. Dù hơi dài, chất lượng nội dung và lời khuyên vượt trội.",
+    "score": 9
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

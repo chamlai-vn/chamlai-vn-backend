@@ -1,0 +1,16 @@
+{
+  "case_id": "benign-sms_bank_real-04",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "green",
+    "red_flags": [],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Tiếp tục duy trì thói quen xác minh danh tính người gửi tin nhắn trước khi đáp ứng bất kỳ yêu cầu nào",
+      "Luôn kiểm tra chính sách bảo mật của ngân hàng để hiểu về các thông báo hợp lệ",
+      "Nếu nhận được tin nhắn từ ngân hàng có yêu cầu khẩn cấp, hãy liên hệ trực tiếp số điện thoại tổng đài chính thức của ngân hàng để xác minh thay vì nhấp vào link hoặc tuân theo hướng dẫn trong tin nhắn"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 4029
+}

@@ -1,0 +1,29 @@
+{
+  "case_id": "scam-investment_fraud-06",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Nhóm lôi kéo đầu tư qua Telegram với lời hứa lợi nhuận cao (15-20%/tháng)",
+      "Giới thiệu từ người bạn cũ - thủ đoạn giả mạo lòng tin",
+      "Có hình ảnh chứng minh kiếm tiền lớn (50 triệu) - tiền ảo, bằng chứng giả mạo",
+      "Yêu cầu gửi tiền vào tài khoản mà không rõ nguồn gốc sàn giao dịch",
+      "Không có thông tin rõ ràng về tên sàn, giấy phép hoạt động, trụ sở pháp lý"
+    ],
+    "matched_patterns": [
+      "Lôi kéo đầu tư sàn Forex giả mạo với lợi nhuận cao",
+      "Lừa đảo đầu tư tài chính trực tuyến qua sàn giao dịch giả mạo",
+      "Sàn giao dịch Forex trái phép hoạt động như mô hình lừa đảo Ponzi"
+    ],
+    "recommended_actions": [
+      "KHÔNG THAM GIA - Đây là dấu hiệu lừa đảo rõ ràng, tuyệt đối không gửi tiền",
+      "Ngân hàng Nhà nước Việt Nam chưa cấp phép cho bất kỳ sàn Forex nào - bất kỳ sàn nào hứa hẹn giao dịch ngoại hối đều trái phép",
+      "Tìm kiếm tên nhóm/sàn + từ khóa 'lừa đảo' trên Google để kiểm tra xem đã có báo cáo nạn nhân trước đó",
+      "Tham khảo danh sách sàn Forex bị triệt phá (Tradenew.io, Rforex.com, Yaibroker, v.v.) để đối chiếu",
+      "Nếu bạn bè tiếp tục thuyết phục, đặc biệt yêu cầu nạp tiền, hãy cân nhắc yêu cầu họ cung cấp giấy phép hoạt động chính thức",
+      "Báo cáo nhóm Telegram này cho quản trị viên nền tảng hoặc cơ quan công an nếu có thêm bằng chứng"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 8433
+}

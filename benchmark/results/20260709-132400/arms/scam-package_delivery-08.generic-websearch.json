@@ -1,0 +1,52 @@
+{
+  "case_id": "scam-package_delivery-08",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Giả mạo shipper/nhân viên giao hàng để tạo lòng tin",
+      "Yêu cầu chuyển tiền 'phí xác nhận đơn hàng' hoặc 'phí bảo hiểm hàng hóa' trước khi nhận hàng",
+      "Dùng tâm lý 'sợ mất hàng' để thúc ép hành động nhanh, không kịp suy nghĩ",
+      "Gửi đường link giả mạo website công ty vận chuyển để đánh cắp thông tin",
+      "Yêu cầu nhập thông tin đăng nhập ngân hàng, mật khẩu và mã OTP trên website giả mạo",
+      "Số tiền bị rút (2.800.000đ) lớn hơn nhiều so với 'phí' được thông báo ban đầu (185.000đ)",
+      "Giao dịch rút tiền xảy ra chỉ 5 phút sau khi nhập OTP"
+    ],
+    "matched_patterns": [
+      "Giả Shipper, Phí Bảo Hiểm, Link Giả, Lấy OTP"
+    ],
+    "recommended_actions": [
+      "Khóa tài khoản ngân hàng ngay lập tức (có thể nhập sai mật khẩu 5 lần liên tiếp để tự khóa dịch vụ)",
+      "Gọi ngay tổng đài ngân hàng (24/7) để báo cáo giao dịch gian lận, yêu cầu phong tỏa tài khoản và lấy lịch sử giao dịch làm bằng chứng",
+      "Chụp màn hình lưu lại toàn bộ bằng chứng: tin nhắn SMS gốc, đường link, thông báo giao dịch ngân hàng, số điện thoại kẻ lừa đảo",
+      "Trình báo ngay cho cơ quan Công an gần nhất",
+      "Quét virus trên điện thoại, đổi mật khẩu các tài khoản liên quan; gỡ ngay các ứng dụng đã cài theo hướng dẫn của kẻ lừa đảo, xem xét khôi phục cài đặt gốc điện thoại",
+      "Cảnh giác với các cuộc gọi tiếp theo tự xưng là 'ngân hàng', 'công an' hay 'bên hỗ trợ hoàn tiền' — đây có thể là vòng lừa đảo thứ hai, hãy cúp máy ngay"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 XÁC NHẬN: Đây là LỪA ĐẢO 100% — Kiểu \"Giả Shipper, Phí Bảo Hiểm, Link Giả, Lấy OTP\"\n\nChị của bạn đã trở thành nạn nhân của một chiêu lừa đảo **cực kỳ phổ biến và tinh vi** tại Việt Nam hiện nay. Dưới đây là phân tích toàn diện:\n\n---\n\n## 🔍 Đây là lừa đảo vì những dấu hiệu rõ ràng sau:\n\n### 1. Giả mạo công ty giao hàng để tạo lòng tin\nKẻ lừa đảo mạo danh shipper hoặc nhân viên giao hàng, gửi tin nhắn thông báo \"đơn hàng đang được giao\", kèm đường link giả mạo website của các đơn vị vận chuyển, sau đó yêu cầu người nhận chuyển trước một khoản \"phí xác nhận đơn hàng\" hoặc \"phí bảo hiểm hàng hóa\" với lý do \"quy định mới của công ty vận chuyển\".\n\n### 2. Dùng tâm lý \"sợ mất hàng\" để thúc ép\nVì số tiền chỉ dao động từ vài chục nghìn đến vài trăm nghìn đồng, nhiều người dễ dàng mất cảnh giác và thực hiện chuyển khoản ngay để không bị \"hoãn giao hàng\". Đây chính xác là tâm lý mà chị bạn đã rơi vào.\n\n### 3. Dùng link giả để đánh cắp thông tin ngân hàng và OTP\nTrong nội dung các tin nhắn giả mạo này luôn kèm đường dẫn đến các trang web giả mạo do các đối tượng quản lý (các trang web này có tên gần giống với các trang web chính thức). Khi người dùng truy cập vào đường dẫn, hệ thống sẽ tự động hiển thị một trang web giả mạo và được yêu cầu điền các thông tin như: tên đăng nhập, mật khẩu, mã OTP…\n\n### 4. Cơ chế lấy OTP để rút tiền ngay lập tức\nKhi bạn nhập OTP trên website giả mạo, kẻ gian có thể dùng mã đó để đăng nhập vào tài khoản thật và thực hiện giao dịch chuyển tiền ngay lập tức. Điều này giải thích tại sao chỉ **5 phút** sau khi nhập OTP, chị đã bị rút 2.800.000 đồng — không phải 185.000 đồng như thông báo ban đầu.\n\n### 5. Số tiền bị rút lớn hơn nhiều so với \"phí\" được thông báo — đây là đặc trưng\nTrong quá trình \"hướng dẫn\", đối tượng liên tục thúc ép thực hiện nhiều thao tác phức tạp như đăng nhập ngân hàng số qua đường link lạ, nhập mã OTP vào các biểu mẫu không rõ nguồn gốc. Thủ đoạn này nhằm đánh cắp thông tin bảo mật và chiếm đoạt tiền trong tài khoản.\n\n---\n\n## ⚡ Chị bạn cần làm NGAY BÂY GIỜ (Theo thứ tự ưu tiên):\n\n### Bước 1: Khóa tài khoản ngân hàng ngay lập tức\nKhóa dịch vụ hoặc đổi mật khẩu dịch vụ ngân hàng số ngay lập tức: để khóa dịch vụ, chủ động nhập sai mật khẩu 5 lần liên tiếp. Sau đó liên hệ ngay với ngân hàng theo số hotline (24/7) hoặc đến ngay Chi nhánh/Phòng giao dịch gần nhất.\n\n### Bước 2: Gọi ngay tổng đài ngân hàng để:\n- Báo cáo giao dịch gian lận và yêu cầu điều tra\n- Đề nghị tạm ngừng/phong tỏa tài khoản để tránh bị rút thêm tiền\n- Yêu cầu cung cấp lịch sử giao dịch làm bằng chứng\n\n### Bước 3: Thu thập bằng chứng và trình báo công an\nKhi phát hiện các website giả mạo hoặc có dấu hiệu bị lừa đảo, người dân cần lưu trữ ngay các bằng chứng (tin nhắn, số điện thoại, biên lai chuyển tiền...) và trình báo ngay cho cơ quan Công an gần nhất để được can thiệp, xử lý kịp thời.\n\n\u003e 📸 **Chụp màn hình giữ lại**: tin nhắn SMS gốc, đường link, thông báo giao dịch ngân hàng, số điện thoại của kẻ lừa đảo.\n\n### Bước 4: Kiểm tra điện thoại\nQuét virus trên thiết bị và đổi mật khẩu tài khoản liên quan để đảm bảo an toàn. Nếu chị đã cài bất kỳ ứng dụng nào theo hướng dẫn trong quá trình đó, hãy gỡ ngay và xem xét khôi phục cài đặt gốc điện thoại.\n\n---\n\n## ⚠️ Lưu ý quan trọng: Cảnh giác với bước lừa đảo tiếp theo\n\nSau khi chiếm đoạt thành công khoản phí nhỏ ban đầu, các đối tượng tiếp tục \"dụ\" nạn nhân tham gia vào kịch bản phức tạp hơn như \"hủy hợp đồng bảo hiểm\", \"xác minh hoàn tiền\", nhằm chiếm đoạt thêm số tiền lớn hơn nhiều lần.\n\n\u003e Nếu có bất kỳ ai gọi điện tự xưng là \"ngân hàng\", \"công an\", hay \"bên hỗ trợ hoàn tiền\" — **hãy cúp máy ngay**, đó rất có thể là cùng một băng nhóm đang tiếp tục thực hiện vòng lừa đảo thứ hai.\n\n---\n\n## 📌 Bài học cần nhớ:\n\nCác ngân hàng khẳng định **không bao giờ yêu cầu khách hàng cung cấp thông tin đăng nhập, mật khẩu, OTP** dưới hình thức như trên.\n\nMột số dấu hiệu nhận biết tin nhắn lừa đảo: nội dung tin nhắn mang tính thúc giục, đe dọa hủy đơn nếu không xử lý ngay; yêu cầu cung cấp mã OTP, thông tin thẻ ngân hàng hoặc tài khoản ngân hàng.\n\n**Hành động nhanh nhất có thể là yếu tố quyết định** — mỗi phút trôi qua, khả năng thu hồi tiền sẽ giảm dần. Chúc chị bạn sớm lấy lại được tài sản!",
+  "sources": [
+    "https://antg.cand.com.vn/Phong-su/gia-shipper-lua-dao-bang-hop-dong-bao-hiem-hang-hoa-i785172",
+    "https://congan.nghean.gov.vn/thong-tin-chuyen-de/canh-bao-toi-pham/202512/canh-bao-xuat-hien-chieu-lua-dao-moi-nham-vao-nguoi-huong-luong-huu-va-tro-cap-bao-hiem-1053412/index.htm",
+    "https://congan.nghean.gov.vn/tin-tuc-su-kien/phong-chong-lua-dao-truc-tuyen/202511/can-trong-tin-nhan-lua-dao-co-the-khien-ban-mat-sach-tien-trong-tai-khoan-ngan-hang-1052442/index.htm",
+    "https://congan.quangngai.gov.vn/danh-muc-san-pham/-tin-tuc-su-kien/canh-bao-thu-doan-gia-mao-don-hang-qua-tin-nhan-sms.html",
+    "https://congan.camau.gov.vn/ch26/859-Gia-mao-tin-nhan-thuong-hieu-de-lua-dao.html",
+    "https://www.dnse.com.vn/hoc/duong-link-phishing-lay-otp",
+    "https://bidv.com.vn/bidv/ca-nhan/thong-bao/thay-doi-mang-luoi/canh-bao-lua-dao-mao-danh-truc-tuyen",
+    "https://ngoisao.vn/theo-dong-su-kien/tin-nong-trong-ngay/canh-bao-khan-toi-toan-bo-nguoi-dan-khi-giao-dich-dong-phi-bao-hiem-manulife-prudential-dai-ichi-bao-viet-d485572.html",
+    "https://itel.vn/tin-tuc/tin-tuc-itel/canh-bao-cac-chieu-thuc-lua-dao-qua-cuoc-goi-thoai-va-tin-nhan-sms.html",
+    "https://mst.gov.vn/dong-loat-canh-bao-nan-tin-nhan-lua-dao-mao-danh-ngan-hang-bhxh-197152291.htm",
+    "https://congan.quangngai.gov.vn/danh-muc-san-pham/-tin-tuc-su-kien/co-the-ban-chua-biet/canh-giac-thu-doan-lua-dao-gia-danh-ngan-hang-thong-bao-nhan-diem-thuong.html",
+    "https://congan.ninhbinh.gov.vn/canh-bao-chieu-thuc-lua-dao-danh-cap-tai-khoan-ngan-hang",
+    "https://tienphong.vn/ngan-hang-canh-bao-nan-lua-dao-moi-post1845929.tpo",
+    "https://bidv.com.vn/bidv/tin-tuc/tin-ve-bidv/canh-bao-cac-hinh-thuc-lua-dao-trong-linh-vuc-ngan-hang",
+    "https://vietbao.vn/ngan-hang-canh-bao-thu-doan-lua-dao-moi-nham-vao-cac-ho-kinh-doanh-597216.html",
+    "https://www.msb.com.vn/ve-chung-toi/tin-tuc-va-su-kien/ve-msb/canh-bao-gia-mao-tin-nhan-lua-dao-chiem-doat-tien/",
+    "https://kenh14.vn/phat-hien-thu-doan-moi-cuc-nguy-hiem-khien-tat-ca-otp-dang-nhap-tai-khoan-ngan-hang-vi-dien-tu-cua-nguoi-dung-chuyen-thang-cho-lua-dao-215260522213711868.chn",
+    "https://cafef.vn/cong-an-ghi-nhan-nhieu-truong-hop-nguoi-dan-bi-chiem-doat-tien-trong-tai-khoan-ngan-hang-ma-khong-he-phat-hien-188251228163848331.chn",
+    "https://tapchinganhang.gov.vn/ngan-hang-nang-cap-cong-nghe-bao-mat-kip-thoi-ngan-chan-toi-pham-cong-nghe-va-lua-dao-9257.html",
+    "https://thoibaonganhang.vn/canh-giac-chieu-thuc-moi-mao-danh-ngan-hang-chiem-doat-tai-san-175717.html"
+  ],
+  "latency_ms": 69194
+}

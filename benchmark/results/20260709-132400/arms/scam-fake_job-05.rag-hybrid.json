@@ -1,0 +1,33 @@
+{
+  "case_id": "scam-fake_job-05",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Lương quá cao so với khối lượng công việc (15-20 triệu/tháng với 2-3 tiếng/ngày)",
+      "Yêu cầu thanh toán tiền đào tạo 480.000đ để bắt đầu",
+      "Bắt buộc mua gói sản phẩm test 1.200.000đ trước khi làm việc",
+      "Hứa hẹn lợi nhuận 4-5 triệu trong 2 tuần từ gói test",
+      "Liên hệ qua Zalo (mạng xã hội cá nhân) thay vì kênh chính thức của công ty",
+      "Sử dụng link rút gọn bit.ly thay vì website chính thức có xác minh",
+      "Tạo áp lực thời gian (hạn cuối ngày hôm nay)",
+      "Không cung cấp thông tin công ty cụ thể, địa chỉ làm việc hoặc liên hệ chính thức",
+      "Tên công ty \"Sao Việt\" không rõ ràng, có thể là công ty giả mạo"
+    ],
+    "matched_patterns": [
+      "Lừa đảo tuyển cộng tác viên online giả mạo sàn thương mại điện tử",
+      "Dụ dỗ chuyển tiền qua các gói nhiệm vụ giả mạo",
+      "Lừa đảo việc nhẹ lương cao trên mạng xã hội"
+    ],
+    "recommended_actions": [
+      "Không chuyển tiền dưới bất kỳ hình thức nào (đào tạo, gói sản phẩm test, phí kích hoạt)",
+      "Kiểm tra thông tin Công ty Thương mại Điện tử Sao Việt qua website chính thức hoặc tổng đài công khai, không liên hệ qua Zalo",
+      "Tránh nhấp vào link rút gọn (bit.ly), yêu cầu xem website chính thức có giao thức https và thông tin công ty rõ ràng",
+      "Yêu cầu xem hợp đồng lao động chính thức trước khi nộp bất kỳ tiền nào",
+      "Không cung cấp thông tin cá nhân nhạy cảm như CCCD, số tài khoản ngân hàng, mã OTP",
+      "Báo cáo tài khoản này cho Zalo, Facebook nếu có hành vi lừa đảo"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 8216
+}

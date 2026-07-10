@@ -1,0 +1,54 @@
+{
+  "case_id": "scam-impersonation_service-09",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Website giả mạo: link 'https://dien-luc-thanhtoan.vn' không phải website chính thức của Điện lực TP.HCM (website chính thức là cskh.evnhcmc.vn)",
+      "Số điện thoại lạ (0989-456-123): tổng đài chính thức của EVNHCMC là 1900.54.54.54, không phải số di động",
+      "Kênh thông báo sai: kể từ 1/4/2024, thông báo tiền điện chỉ gửi qua app EVNHCMC CSKH, SMS thương hiệu EVNHCMC, hoặc email cskh@hcmpc.com.vn",
+      "Thủ đoạn tạo áp lực: thông báo nợ tiền điện số tiền lớn và yêu cầu thanh toán ngay lập tức để tránh bị cắt điện",
+      "Dẫn dụ truy cập link/app giả mạo có giao diện giống trang chính thức của EVN nhằm đánh cắp thông tin cá nhân và tài khoản ngân hàng"
+    ],
+    "matched_patterns": [
+      "Giả mạo điện lực (EVNHCMC)",
+      "Website/link giả mạo tổ chức chính thức",
+      "Tạo áp lực thanh toán khẩn cấp",
+      "Đánh cắp thông tin cá nhân và tài khoản ngân hàng qua trang web giả"
+    ],
+    "recommended_actions": [
+      "KHÔNG bấm vào link dien-luc-thanhtoan.vn",
+      "KHÔNG gọi lại số điện thoại lạ 0989-456-123",
+      "KHÔNG cung cấp thông tin cá nhân như tên, CCCD, số tài khoản ngân hàng",
+      "Kiểm tra hóa đơn thật bằng cách đăng nhập app EVNHCMC CSKH hoặc truy cập cskh.evnhcmc.vn",
+      "Gọi tổng đài chính thức của EVNHCMC: 1900.54.54.54 để xác minh thông tin",
+      "Báo cáo tin nhắn lừa đảo cho EVNHCMC qua số tổng đài 1900545454",
+      "Nếu đã lỡ bấm link hoặc cung cấp thông tin ngân hàng, liên hệ ngân hàng ngay lập tức để khóa tài khoản và ngăn chặn giao dịch"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 ĐÂY LÀ TIN NHẮN LỪA ĐẢO! Hãy cảnh giác ngay!\n\n## ❌ Kết luận: RẤT CÓ KHẢ NĂNG LÀ LỪA ĐẢO\n\nTin nhắn này có **đầy đủ dấu hiệu của một vụ lừa đảo giả mạo điện lực** đang rất phổ biến tại TP.HCM và cả nước.\n\n---\n\n## 🔍 Tại sao đây là lừa đảo?\n\n### 1. 🌐 Website giả mạo\nLink `https://dien-luc-thanhtoan.vn` **KHÔNG PHẢI** website chính thức của Điện lực TP.HCM.\n\nWebsite chính thức của Điện lực TP.HCM để giao dịch là `https://cskh.evnhcmc.vn`. Bất kỳ link nào khác đều là giả mạo.\n\nDù đường link có chứa từ liên quan đến điện lực, nhưng phần đuôi tên miền khác với địa chỉ chính thức — EVN khẳng định đây là tin nhắn giả mạo do các đối tượng lừa đảo phát tán để dụ người dùng truy cập vào website giả, từ đó chiếm đoạt thông tin cá nhân và tài sản.\n\n### 2. 📞 Số điện thoại lạ (0989-456-123)\nTổng đài chăm sóc khách hàng chính thức của Điện lực TP.HCM là **1900.54.54.54**, không phải số điện thoại di động như `0989-456-123`.\n\nĐể người dân dễ phân biệt, EVNHCMC đã phối hợp với các nhà mạng đưa vào sử dụng hệ thống định danh cuộc gọi — khi nhân viên của EVNHCMC gọi đến, tên định danh hiển thị trên điện thoại di động sẽ là **\"EVNHCMC\"**.\n\n### 3. 📲 Kênh thông báo chính thức bị bỏ qua\nKể từ ngày 1/4/2024, thông báo tiền điện và các thông tin về điện tại TP.HCM **chỉ gửi qua ứng dụng (App) EVNHCMC CSKH** — khách hàng vui lòng cài đặt ứng dụng này để nhận thông tin chính thống.\n\nTrường hợp khách hàng còn nợ tiền điện, EVNHCMC sẽ có thông báo qua tin nhắn SMS có tên thương hiệu **EVNHCMC**, qua email `cskh@hcmpc.com.vn`, hoặc qua ứng dụng EVNHCMC CSKH.\n\n### 4. 🧠 Thủ đoạn quen thuộc đã được cảnh báo\nĐây là thủ đoạn phổ biến: đối tượng thông báo khách hàng đang nợ tiền điện với số tiền lớn, **yêu cầu thanh toán ngay lập tức** để tránh bị cắt điện.\n\nSau đó, các đối tượng sẽ gợi ý người dân truy cập **các đường link, app giả mạo** có giao diện giống với trang web chính thức của EVN.\n\nKhi truy cập các trang web, app giả mạo này, người dân sẽ bị chiếm đoạt tài khoản ngân hàng hoặc có nguy cơ bị đánh cắp thông tin cá nhân.\n\n---\n\n## ✅ Bạn cần làm gì ngay bây giờ?\n\n| Hành động | Chi tiết |\n|---|---|\n| 🚫 **KHÔNG bấm vào link** | Tuyệt đối không truy cập `dien-luc-thanhtoan.vn` |\n| 🚫 **KHÔNG gọi số lạ** | Không gọi `0989-456-123` |\n| 🚫 **KHÔNG cung cấp thông tin** | Không cho tên, CCCD, số tài khoản ngân hàng |\n| ✅ **Kiểm tra hóa đơn thật** | Đăng nhập app **EVNHCMC CSKH** hoặc vào `cskh.evnhcmc.vn` |\n| ✅ **Gọi tổng đài chính thức** | Hotline EVNHCMC: **1900.54.54.54** |\n| ✅ **Báo cáo lừa đảo** | Thông báo ngay cho EVNHCMC qua số tổng đài **1900545454** để Tổng công ty có biện pháp xử lý kịp thời. |\n\n---\n\n\u003e ⚠️ **Lưu ý quan trọng:** Ngành điện lực **KHÔNG** yêu cầu người dân thanh toán tiền điện qua tài khoản cá nhân hoặc đường link lạ. Nếu bạn đã lỡ bấm vào link hoặc cung cấp thông tin ngân hàng, hãy **liên hệ ngân hàng ngay lập tức** để khóa tài khoản và ngăn chặn giao dịch!",
+  "sources": [
+    "https://www.evnhcmc.vn/",
+    "https://cskh.evnhcmc.vn/",
+    "https://www.evnhcmc.vn/Home/GioiThieu",
+    "https://cskh.hcmpc.com.vn/Tracuu/HDDT",
+    "https://www.evnhcmc.vn/GiaoDichTrucTuyen/hopdongdientu",
+    "https://www.evnhcmc.vn/lienhe",
+    "https://www.evnhcmc.vn/Tct/GioiThieu/DichVuKhachHang",
+    "https://www.evnhcmc.vn/Tct/GioiThieu/tongQuan",
+    "https://tphcm.chinhphu.vn/cai-app-dien-luc-tphcm-de-nhan-thong-bao-ve-dien-101240401123130555.htm",
+    "https://www.facebook.com/evnhcmc1900545454/",
+    "https://cand.com.vn/tai-chinh-40/gia-danh-nhan-vien-dien-luc-thong-bao-cat-dien-de-lua-dao-i759321/",
+    "https://congan.hanoi.gov.vn/tin-antt-va-canh-bao-toi-pham/thu-doan-lua-dao-gia-danh-nhan-vien-29330",
+    "https://congan.laichau.gov.vn/index.php/thu-doan-pham-toi/canh-bao-thu-doan-lua-dao-gia-danh-nhan-vien-dien-luc-cai-ung-dung-doc-hai-de-chiem-doat-tai-san-2922.html",
+    "https://www.evnhcmc.vn/Tintuc/chitiet/519",
+    "https://thanhnien.vn/ro-thu-doan-gia-nhan-vien-doi-cat-dien-diem-mat-cach-lua-dao-185250225200811774.htm",
+    "https://ttbc-hcm.gov.vn/canh-bao-gia-danh-dien-luc-goi-dien-thoai-cho-nguoi-dan-15620.html",
+    "https://tuoitre.vn/xuat-hien-tin-nhan-lua-dao-kem-duong-dan-gia-mao-dien-luc-nguoi-dan-chu-y-100260622184758592.htm",
+    "https://bnews.vn/canh-giac-khi-nhan-duoc-cac-cuoc-goi-thong-bao-cat-dien/195099.html",
+    "https://congthuong.vn/thong-bao-tam-cat-dien-bang-so-dien-thoai-la-la-lua-dao-156072.html",
+    "https://chinhsachcuocsong.vnanet.vn/canh-bao-tinh-trang-gia-mao-nhan-vien-dien-luc-de-lua-dao/49557.html"
+  ],
+  "latency_ms": 48060
+}

@@ -1,0 +1,28 @@
+{
+  "case_id": "scam-other-07",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Hứa hẹn lợi nhuận siêu cao 25% mỗi tháng, không phù hợp với thực tế thị trường",
+      "Tạo áp lực thời gian với yêu cầu gửi tiền trong 48 giờ",
+      "Yêu cầu tải ứng dụng từ liên kết lạ (giả mạo) để thu thập thông tin tài khoản ngân hàng",
+      "Mạo danh công ty tài chính ảo 'VietTech Solutions' không có giấy phép hoạt động",
+      "Chuyển tiền vào tài khoản thứ ba mà nạn nhân không rõ ràng danh tính pháp nhân",
+      "Liên hệ chủ động qua số điện thoại lạ, không phải từ cơ quan chính thức"
+    ],
+    "matched_patterns": [
+      "investment_fraud - Lừa đảo đầu tư tiền ảo qua sàn giao dịch giả mạo với cam kết lợi nhuận siêu cao",
+      "investment_fraud - Sàn chứng khoán ảo, tiền ảo, đa cấp lừa đảo: hứa hẹn lãi suất cao rồi chiếm tiền"
+    ],
+    "recommended_actions": [
+      "Tuyệt đối không tải ứng dụng từ liên kết không rõ nguồn gốc hoặc lạ lẫm; chỉ tải từ App Store / Google Play chính thức",
+      "Kiểm tra giấy phép hoạt động của bất kỳ công ty tài chính trên website chính thức của Ủy ban Chứng khoán Nhà nước hoặc Ngân hàng Nhà nước Việt Nam trước khi đầu tư",
+      "Không tin vào lời hứa lợi nhuận cao bất thường (25%/tháng); tỷ lệ này không có thật trong thị trường tài chính hợp pháp",
+      "Cảnh báo người thân: không gửi tiền vào tài khoản cá nhân hoặc tài khoản công ty không rõ danh tính; luôn xác minh trực tiếp với ngân hàng hoặc cơ quan quản lý",
+      "Nếu nhận cuộc gọi từ 'công ty tài chính ảo', hãy gọi ngay đến cơ quan công an địa phương hoặc cục cảnh sát hình sự để báo cáo"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 9293
+}

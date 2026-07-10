@@ -1,0 +1,48 @@
+{
+  "case_id": "scam-fake_job-06",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Tiếp cận nạn nhân qua Telegram, mời gọi làm nhiệm vụ online với cam kết thu nhập cao",
+      "Ban đầu giao nhiệm vụ đơn giản và trả hoa hồng nhỏ để tạo lòng tin",
+      "Yêu cầu nộp tiền 'bảo hiểm' và 'kích hoạt gói cao cấp'",
+      "Yêu cầu chuyển khoản thêm tiền để 'xác minh đơn hàng, bảo lưu tài khoản'",
+      "Đe dọa tài khoản bị khóa và mất tiền nếu không chuyển khoản nhanh",
+      "Sau khi nạn nhân hết tiền, chặn toàn bộ liên lạc và chiếm đoạt tiền",
+      "Sử dụng Telegram để xóa dấu vết tội phạm",
+      "Khai thác tâm lý 'Ngụy biện chi phí chìm' (Sunk Cost Fallacy) để nạn nhân tiếp tục nạp tiền"
+    ],
+    "matched_patterns": [
+      "Lừa đảo cộng tác viên chốt đơn hàng online",
+      "Thủ đoạn lừa đảo qua Telegram"
+    ],
+    "recommended_actions": [
+      "Thu thập và lưu lại toàn bộ bằng chứng: tin nhắn, ghi âm, lịch sử giao dịch, chụp màn hình mọi thứ còn sót lại",
+      "Liên hệ ngay đường dây nóng ngân hàng đã chuyển tiền đi và ngân hàng nhận tiền để yêu cầu tra soát giao dịch",
+      "Trình báo cơ quan Công an gần nhất hoặc tố giác qua ứng dụng VNeID",
+      "Báo cáo các tài khoản/nhóm lừa đảo trực tiếp trên ứng dụng Telegram",
+      "Tuyệt đối không tin vào bất kỳ dịch vụ nào quảng cáo 'lấy lại tiền bị lừa' — đây là nguy cơ bị lừa đảo lần 2"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 ĐÂY CHẮC CHẮN LÀ LỪA ĐẢO! Hãy bình tĩnh và đọc kỹ phần này.\n\n---\n\n## ✅ KẾT LUẬN: Em trai bạn đã là nạn nhân của một vụ lừa đảo có tổ chức, rất phổ biến tại Việt Nam.\n\nTình huống của Minh khớp **100%** với kịch bản lừa đảo \"cộng tác viên chốt đơn hàng online\" đã được cơ quan chức năng cảnh báo nhiều lần.\n\n---\n\n## 🔍 TẠI SAO ĐÂY LÀ LỪA ĐẢO?\n\n### Dấu hiệu 1: Kịch bản y hệt các vụ lừa đảo đã bị vạch trần\n\nCác đối tượng lừa đảo tiếp cận nạn nhân qua Telegram, mời gọi tham gia làm nhiệm vụ online với cam kết thu nhập cao. Ban đầu, chúng giao các nhiệm vụ đơn giản như tương tác bài viết, đánh giá sản phẩm hoặc đặt hàng ảo. Khi nạn nhân hoàn thành nhiệm vụ, các đối tượng sẽ chuyển một khoản tiền hoa hồng nhỏ để tạo lòng tin.\n\n### Dấu hiệu 2: Yêu cầu nộp tiền \"bảo hiểm\" rồi \"kích hoạt gói cao cấp\" — đây là bẫy điển hình\n\nSau khi tạo được lòng tin, chúng hướng dẫn, dụ dỗ nạn nhân chốt nhiều đơn hàng với số tiền lớn hơn, đồng thời yêu cầu nạn nhân phải chuyển khoản thêm tiền để \"xác minh đơn hàng, bảo lưu tài khoản\". Nếu không chuyển tiền nhanh thì tài khoản sẽ bị khóa và mất toàn bộ số tiền đã chuyển. Với tâm lý muốn lấy lại tiền, nhiều người đã tin theo và liên tục chuyển khoản.\n\n### Dấu hiệu 3: Khi nạn nhân hết tiền — chúng biến mất ngay lập tức\n\nSau khi nạn nhân hết tiền để chuyển khoản hoặc phát hiện bị lừa, các đối tượng sẽ chặn toàn bộ liên lạc với nạn nhân và chiếm đoạt toàn bộ số tiền. Đây chính xác là điều đã xảy ra với Minh.\n\n### Dấu hiệu 4: Telegram được dùng để xóa dấu vết\n\nThủ đoạn lừa đảo qua Telegram là thủ đoạn lừa đảo lợi dụng sự bảo mật của ứng dụng Telegram để **xóa dấu vết tội phạm** nhằm thực hiện hành vi chiếm đoạt số tiền từ nạn nhân.\n\n### Dấu hiệu 5: Khai thác tâm lý — \"Ngụy biện chi phí chìm\"\n\nLoại hình này dựa trên \"Ngụy biện chi phí chìm\" (Sunk Cost Fallacy). Nạn nhân sẽ được hoàn lại thành công cả vốn lẫn hoa hồng sau nhiệm vụ đầu tiên có giá trị nhỏ. Khi đã tin tưởng và đầu tư số tiền lớn hơn, kẻ lừa đảo sẽ viện cớ lỗi kỹ thuật để yêu cầu nạp thêm, khiến nạn nhân không dám dừng lại vì sợ mất số tiền đã đầu tư.\n\n---\n\n## ⚠️ CẢNH BÁO THÊM: Nguy cơ bị lừa tiếp!\n\nKẻ lừa đảo thường nhắm đến những nạn nhân đã từng bị lừa đảo và đang trong trạng thái hoang mang, lo lắng. Họ sẽ tạo ra các dịch vụ \"giúp đỡ\" hoặc \"tư vấn\" để lấy lại tiền. Khi nạn nhân liên hệ với các dịch vụ này, kẻ lừa đảo sẽ yêu cầu cung cấp thêm thông tin cá nhân hoặc đòi hỏi một khoản phí để \"xử lý vụ việc\".\n\n\u003e 🛑 **Tuyệt đối không tin vào bất kỳ dịch vụ nào quảng cáo \"lấy lại tiền bị lừa\" — đây là lừa đảo lần 2!**\n\n---\n\n## 📋 MINH (VÀ BẠN) CẦN LÀM NGAY NHỮNG VIỆC SAU:\n\n### Bước 1: Thu thập bằng chứng ngay lập tức\nLưu lại tất cả các tin nhắn, đoạn ghi âm, giao dịch và bằng chứng cụ thể liên quan đến việc lừa đảo. Chụp màn hình mọi thứ còn sót lại trước khi mất dữ liệu.\n\n### Bước 2: Liên hệ ngân hàng ngay\nGọi điện ngay đến đường dây nóng của ngân hàng mà Minh đã chuyển tiền đi và cả ngân hàng nhận tiền để yêu cầu hỗ trợ tra soát giao dịch (dù cơ hội phong tỏa tài khoản nhận tiền đã khó hơn do vụ việc xảy ra trước đó).\n\n### Bước 3: Trình báo cơ quan công an\nTrường hợp bị lừa đảo chiếm đoạt tài sản, cần khẩn trương đến cơ quan Công an gần nhất để trình báo hoặc tố giác qua ứng dụng **VNeID** để được giải quyết theo quy định của pháp luật.\n\n### Bước 4: Báo cáo trên Telegram\nBáo cáo cho Telegram để ứng dụng ngăn chặn các nhóm lừa đảo lan truyền, gây ảnh hưởng đến cộng đồng.\n\n---\n\n## 💡 BÀI HỌC ĐỂ TRÁNH LẦN SAU\n\n**Không bao giờ có công việc gắn mác \"việc nhẹ lương cao\" hợp pháp mà lại yêu cầu người tham gia phải nạp tiền.**\n\nKhông có bất kỳ cơ quan, công ty hợp pháp nào yêu cầu thanh toán ngay tại chỗ dưới dạng chuyển khoản ngân hàng hoặc ứng dụng chuyển tiền.\n\n---\n\nTôi rất tiếc vì Minh đã gặp phải tình huống này. Hãy hành động **càng sớm càng tốt** — thời gian là yếu tố quan trọng để cơ quan chức năng có thể hỗ trợ truy vết dòng tiền. Chúc Minh sớm lấy lại được phần nào thiệt hại! 💪",
+  "sources": [
+    "https://luatanhngoc.vn/4902/lua-dao-qua-telegram-lam-nhiem-vu-bi-xu-ly-nhu-the-nao",
+    "https://luatminhkhue.vn/telegram-co-lua-dao-khong.aspx",
+    "https://thuvienphapluat.vn/phap-luat-doanh-nghiep/cau-hoi-thuong-gap/nhan-vien-cong-ty-bi-lua-dao-qua-telegram-thi-phai-lam-sao-4371.html",
+    "https://locker.io/vi/blog/lua-dao-tren-telegram",
+    "https://www.msb.com.vn/ve-chung-toi/tin-tuc-va-su-kien/cach-lay-lai-tien-khi-bi-lua-dao-tren-telegram/",
+    "https://conganthanhhoa.gov.vn/tin-tuc-su-kien/tin-an-ninh-trat-tu/canh-bao-lua-dao-qua-ung-dung-telegram.html",
+    "https://mst.gov.vn/canh-giac-voi-cac-hinh-thuc-lua-dao-hoat-dong-vi-pham-phap-luat-tren-telegram-197240807153222406.htm",
+    "https://congan.ninhbinh.gov.vn/canh-giac-truoc-thu-doan-chiem-doat-tai-khoan-telegram-cua-nguoi-dung-de-thuc-hien-hanh-vi-lua-dao-chiem-doat-tai-san",
+    "https://thanhnien.vn/nhieu-nguoi-van-sap-bay-lua-dao-tren-telegram-facebook-zalo-185230414150936028.htm",
+    "https://bidv.com.vn/bidv/ca-nhan/thong-bao/thay-doi-mang-luoi/canh-bao-lua-dao-lam-nhiem-vu-online-nhan-hoa-hong",
+    "https://baobinhduong.vn/canh-giac-voi-thu-doan-lua-dao-lam-nhiem-vu-online-de-huong-hoa-hong-tren-mang-xa-hoi-a328248.html",
+    "https://tuoitre.vn/bay-tuyen-dung-online-lua-dao-nguoi-tim-viec-ky-2-chieu-tro-lua-dao-tren-telegram-2023083010523942.htm",
+    "https://dichthuatkhanhan.com/lua-dao-viec-lam-qua-ung-dung-telegram/",
+    "https://laodong.vn/xa-hoi/lam-nhiem-vu-nhan-hoa-hong-va-loat-chieu-tro-lua-dao-tren-telegram-1245669.ldo",
+    "https://dichthuatkhanhan.com/giai-ma-chieu-tro-lua-dao-qua-telegram/"
+  ],
+  "latency_ms": 70753
+}

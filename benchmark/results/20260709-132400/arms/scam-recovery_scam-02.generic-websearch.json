@@ -1,0 +1,54 @@
+{
+  "case_id": "scam-recovery_scam-02",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Nhắm vào nạn nhân đã bị lừa trước đó (lừa đảo kép)",
+      "Thu phí 'xử lý hồ sơ' 2.1 triệu đồng để lấy lại 8.5 triệu — chiêu bài kinh điển",
+      "Tài khoản nhận tiền là tài khoản cá nhân mang tên 'Trần Minh Dũng' tại Vietcombank, không phải tài khoản cơ quan nhà nước",
+      "Cơ quan chức năng không làm việc, điều tra, xác minh tài khoản qua điện thoại hay mạng xã hội",
+      "Câu chuyện 'thông tin từ đơn vị điều tra' là bịa đặt — kẻ lừa đảo có thể mua thông tin từ dữ liệu bị rò rỉ",
+      "Hứa hoàn tiền trong thời gian cụ thể ('5 ngày làm việc') là chiêu tạo lòng tin giả"
+    ],
+    "matched_patterns": [
+      "Lừa đảo kép (lừa đảo lần thứ hai nhắm vào nạn nhân đã bị lừa)",
+      "Mạo danh tổ chức/cơ quan nhà nước (tự xưng 'Trung tâm Bảo vệ Người tiêu dùng Quốc gia')",
+      "Thu phí dịch vụ/xử lý hồ sơ để hỗ trợ lấy lại tiền bị lừa",
+      "Thu tiền qua tài khoản ngân hàng cá nhân"
+    ],
+    "recommended_actions": [
+      "KHÔNG chuyển bất kỳ đồng nào cho đối tượng",
+      "Lưu toàn bộ bằng chứng: ảnh chụp màn hình tin nhắn, số điện thoại +84 901 556 7823, thông tin tài khoản 'Trần Minh Dũng'",
+      "Trình báo công an phường/xã nơi cư trú ngay lập tức",
+      "Trình báo lên Cục An ninh mạng và phòng chống tội phạm sử dụng công nghệ cao — Bộ Công an",
+      "Báo cáo qua cổng thông tin điện tử canhbao.ncsc.gov.vn",
+      "Báo ngay cho ngân hàng về vụ lừa đảo ban đầu để can thiệp kịp thời"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 CẢNH BÁO: ĐÂY LÀ LỪA ĐẢO KÉP — RẤT NGUY HIỂM!\n\nBạn đã đúng khi nghi ngờ. Tin nhắn từ số **+84 901 556 7823** tự xưng là \"Trung tâm Bảo vệ Người tiêu dùng Quốc gia\" là một vụ **lừa đảo lần thứ hai (lừa đảo kép)** — một thủ đoạn đang rất phổ biến tại Việt Nam hiện nay.\n\n---\n\n## 🔴 Tại sao đây chắc chắn là lừa đảo?\n\nCó **ít nhất 6 dấu hiệu đỏ** rõ ràng trong tình huống này:\n\n### 1. Nhắm vào nạn nhân đã bị lừa trước đó\nĐây là thủ đoạn \"lừa đảo kép\" đang rất phổ biến. Đặc biệt từ tháng 5/2024 đến nay, **60% bị hại của các vụ lừa đảo qua mạng lại bị lừa thêm một lần nữa**. Các tài khoản tự xưng là hỗ trợ lấy lại tiền cũng chính là tài khoản lừa đảo ban đầu (hoặc một nhóm tội phạm khác nhắm vào danh sách nạn nhân đã lộ).\n\n### 2. Thu phí \"xử lý hồ sơ\" để lấy lại tiền — dấu hiệu lừa đảo kinh điển\nMột số đối tượng còn **mạo danh tổ chức \"chống lừa đảo\"**, yêu cầu nạn nhân chuyển phí dịch vụ để tiếp tục đánh cắp thêm tiền. Yêu cầu nộp 2.1 triệu đồng \"phí xử lý hồ sơ\" để nhận lại 8.5 triệu là chiêu bài cổ điển — không cơ quan nhà nước nào yêu cầu bạn chuyển khoản vào tài khoản cá nhân.\n\n### 3. Tài khoản nhận tiền là tài khoản cá nhân\nChuyển tiền vào tài khoản mang tên cá nhân **\"Trần Minh Dũng\"** tại Vietcombank — không phải tài khoản của bất kỳ cơ quan nhà nước nào — là dấu hiệu lừa đảo rõ ràng nhất. Cơ quan nhà nước không bao giờ thu phí qua tài khoản cá nhân.\n\n### 4. Cơ quan chức năng không làm việc qua điện thoại/tin nhắn như vậy\nCơ quan công an cho biết **không làm việc, điều tra, xác minh tài khoản qua điện thoại hay mạng xã hội**. Khi có cuộc gọi tự xưng là công an, viện kiểm sát, tòa án thì người dân phải yêu cầu gửi giấy mời hoặc giấy triệu tập hợp lệ đến công an địa phương nơi mình cư trú.\n\n### 5. Câu chuyện \"thông tin từ đơn vị điều tra\" là bịa đặt\nNăm 2024, tình trạng lộ lọt dữ liệu cá nhân tại Việt Nam tiếp tục diễn biến phức tạp. Có tới **66,24% người dùng xác nhận thông tin của họ từng bị sử dụng trái phép**. Kẻ lừa đảo có thể đã mua thông tin của bạn từ dữ liệu bị rò rỉ — không phải từ \"đơn vị điều tra\" nào cả.\n\n### 6. Hứa hoàn tiền trong thời gian cụ thể (\"5 ngày làm việc\") là chiêu tạo lòng tin giả\nKẻ lừa đảo sử dụng thông tin về người bị lừa đảo trước đó rồi đưa ra thông tin \"có cách lấy lại tiền đã bị lừa\". Sau khi nhận được tiền từ các nạn nhân, chúng đưa ra các lý do như xác minh hệ thống, sai cú pháp, chuyển khoản qua tài khoản ngân hàng... để tiếp tục chiếm đoạt thêm.\n\n---\n\n## ✅ Bạn phải làm gì ngay bây giờ?\n\n### Bước 1: KHÔNG chuyển bất kỳ đồng nào\nCơ quan Công an khuyến cáo: **Tuyệt đối không liên hệ với các tài khoản quảng cáo dịch vụ \"tiếp nhận hồ sơ\", \"hỗ trợ lấy lại tiền bị treo\", \"thu hồi tiền lừa đảo\"** trên không gian mạng. Không chuyển tiền cho các đối tượng để được hướng dẫn, hoàn thiện hồ sơ.\n\n### Bước 2: Lưu toàn bộ bằng chứng\nKhi bị lừa chuyển tiền qua mạng, người bị hại cần **lưu ngay tất cả tài liệu** — vì dữ liệu có thể bị xóa bất cứ lúc nào sau khi đối tượng phát hiện bị trình báo. Bao gồm: ảnh chụp màn hình tin nhắn, số điện thoại +84 901 556 7823, thông tin tài khoản \"Trần Minh Dũng\".\n\n### Bước 3: Trình báo công an ngay\nTheo chuyên gia của Hiệp hội An ninh mạng quốc gia, **việc báo cáo với các cơ quan chức năng khi gặp lừa đảo là rất cần thiết** để bảo vệ quyền lợi của bản thân nạn nhân và ngăn chặn các hành vi phạm pháp. Bạn có thể trình báo tại:\n- **Công an phường/xã nơi bạn cư trú** (gần nhất)\n- **Cục An ninh mạng và phòng chống tội phạm sử dụng công nghệ cao** — Bộ Công an\n- **Cổng thông tin điện tử** [canhbao.ncsc.gov.vn](https://canhbao.ncsc.gov.vn)\n\n### Bước 4: Báo cho ngân hàng về vụ lừa đảo ban đầu\nBáo ngay ngân hàng và cơ quan công an để can thiệp kịp thời. Thu thập đầy đủ bằng chứng: giao dịch, tin nhắn, email, ảnh chụp màn hình.\n\n---\n\n## ⚠️ Lưu ý thực tế về khả năng lấy lại 8.5 triệu\nKhảo sát của Hiệp hội An ninh mạng quốc gia cho thấy, **số nạn nhân bị lừa đảo lớn nhưng số có thể lấy lại được tiền rất nhỏ**. Tuy nhiên, nếu trình báo sớm và tiền vẫn còn trong tài khoản nhận, cơ hội phong tỏa và thu hồi sẽ cao hơn đáng kể. Ngược lại, càng để lâu, khả năng thu hồi càng thấp.\n\n---\n\n**Bạn đã rất thông minh khi kiểm tra và không bị lừa lần thứ hai. Hãy trình báo ngay hôm nay và chia sẻ thông tin này để cảnh báo người thân xung quanh!** 💪",
+  "sources": [
+    "https://bocongan.gov.vn/bai-viet/canh-giac-voi-thu-doan-ho-tro-lay-lai-tien-bi-lua-dao-1758700973",
+    "https://nhandan.vn/nca-nam-2024-uoc-tinh-nguoi-viet-mat-18900-ty-dong-do-lua-dao-truc-tuyen-post850801.html",
+    "https://www.vista.gov.vn/vi/news/khoa-hoc-doi-song/thiet-hai-do-lua-dao-truc-tuyen-uoc-tinh-18-900-ty-dong-nam-2024-10432.html",
+    "https://www.seabank.com.vn/tin-tuc/tu-van-dich-vu/tu-van--meo/cach-lay-lai-tien-da-chuyen-khoan-khi-bi-lua-huong-dan-chi-tiet-va-day-du",
+    "https://antv.gov.vn/phap-luat-3/canh-bao-tai-dien-thu-doan-lua-dao-lay-lai-tien-bi-lua--11EA941BF.html",
+    "https://www.vietnamplus.vn/nguoi-viet-mat-den-18900-ty-dong-trong-nam-2024-vi-lua-dao-truc-tuyen-post1002321.vnp",
+    "https://newlawfirm.com.vn/bi-lua-chuyen-tien-qua-mang-van-con-cach-doi-lai-khong-2026",
+    "https://vneconomy.vn/thiet-hai-do-lua-dao-truc-tuyen-nam-2024-tai-viet-nam-len-toi-gan-19-000-ty-dong.htm",
+    "https://baochinhphu.vn/thiet-hai-do-lua-dao-truc-tuyen-uoc-tinh-18900-ty-dong-nam-2024-102241216153209577.htm",
+    "https://cand.com.vn/Cong-nghe/thiet-hai-do-lua-dao-truc-tuyen-gay-ra-trong-nam-2024-len-den-18-900-ty-dong-i753474/",
+    "https://appvaynhanh.com/fastmoneypro/",
+    "https://www.fecredit.com.vn/tin-tuc-khuyen-mai/tin-tuc/fe-credit-canh-bao-cac-thu-doan-mao-danh-de-lua-dao-vay-tien-chiem-doat-tai-san/",
+    "https://eit.edu.vn/fast-loan.html",
+    "https://www.fecredit.com.vn/canh-bao-cac-thu-doan-lua-dao-chiem-doat-tai-san-thuong-gap/",
+    "https://appvayonline.com/fast-loan-vay-tien/",
+    "https://www.easycredit.vn/canh-bao-thu-doan-lua-dao-chiem-doat-tai-san",
+    "https://idiadiem.vn/fast-money-vay-tien-momo-co-lua-dao-khong/",
+    "https://vtv.vn/kinh-te/canh-giac-thu-doan-lua-dao-tu-cac-app-dau-tu-chung-khoan-gia-mao-20220919122756879.htm",
+    "https://gocnhintaichinh.com/vay-fast-money-khong-tra-co-sao-khong/",
+    "https://redbag.vn/blog/vietcredit-lua-dao-khong"
+  ],
+  "latency_ms": 70073
+}

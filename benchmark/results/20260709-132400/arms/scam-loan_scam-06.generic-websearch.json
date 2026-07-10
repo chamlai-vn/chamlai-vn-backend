@@ -1,0 +1,51 @@
+{
+  "case_id": "scam-loan_scam-06",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Mạo danh công ty tài chính/ngân hàng lớn (tên công ty giả mạo 'FastCredit Vietnam' không có thật)",
+      "Mồi nhử bằng lãi suất 0%, thủ tục đơn giản, không cần chứng minh tài sản, không kiểm tra tín dụng",
+      "Yêu cầu tải ứng dụng giả mạo ('LoanHub') qua link lạ để đánh cắp thông tin cá nhân",
+      "Thu 'phí bảo hiểm hợp đồng' / phí bảo lưu hồ sơ trước khi giải ngân",
+      "Chiếm đoạt tiền rồi ngắt liên lạc, số điện thoại không còn hoạt động"
+    ],
+    "matched_patterns": [
+      "Mạo danh công ty tài chính cho vay tín dụng đen trên mạng",
+      "Thu phí trước (phí bảo hiểm hợp đồng / phí bảo lưu hồ sơ)",
+      "Ứng dụng độc hại giả mạo ứng dụng cho vay tiền trực tuyến"
+    ],
+    "recommended_actions": [
+      "BƯỚC 1 — Khóa tài khoản ngân hàng ngay lập tức: liên hệ ngân hàng để đổi mật khẩu, khóa tài khoản hoặc tạm ngừng các dịch vụ liên quan; nếu đã cung cấp mã OTP thì báo ngay với ngân hàng",
+      "BƯỚC 2 — Gỡ ứng dụng 'LoanHub' giả mạo ngay, đổi mật khẩu tất cả tài khoản quan trọng (email, mạng xã hội, ví điện tử); cân nhắc cài lại hệ điều hành điện thoại (factory reset)",
+      "BƯỚC 3 — Thu thập bằng chứng: lưu lại tin nhắn, email, cuộc gọi, lịch sử giao dịch, ảnh chụp màn hình ứng dụng, các tài liệu liên quan và thông tin cá nhân của kẻ lừa đảo",
+      "BƯỚC 4 — Trình báo cơ quan công an/cảnh sát điều tra tội phạm tại địa phương; có thể trình báo online tại canhbao.ncsc.gov.vn",
+      "BƯỚC 5 — Cảnh báo người thân và bạn bè về thủ đoạn này, đặc biệt nếu kẻ lừa đảo đã truy cập danh bạ qua ứng dụng độc hại"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 ĐÂY LÀ LỪA ĐẢO 100% — Bạn Là Nạn Nhân Của Một Chiêu Trò Rất Phổ Biến!\n\nTrước tiên, tôi muốn nói: **Bạn không đơn độc và không nên tự trách mình.** Đây là một thủ đoạn lừa đảo cực kỳ tinh vi đang diễn ra tràn lan tại Việt Nam. Hãy đọc kỹ phân tích dưới đây để hiểu chuyện gì đã xảy ra và cần làm gì ngay bây giờ.\n\n---\n\n## 🔍 TẠI SAO ĐÂY LÀ LỪA ĐẢO?\n\nTình huống của bạn khớp hoàn toàn với một kịch bản lừa đảo đã được cơ quan chức năng cảnh báo. Cụ thể:\n\n### 1. Mạo danh công ty tài chính\nThủ đoạn chung của các đối tượng lừa đảo cho vay tín dụng đen trên mạng là **mạo danh nhân viên của các công ty tài chính, ngân hàng lớn** để tạo lòng tin, sau đó yêu cầu người vay chuyển khoản đặt cọc hoặc trả trước một khoản tiền nhất định. \"FastCredit Vietnam\" là tên công ty giả mạo không có thật, được dùng để tạo uy tín.\n\n### 2. Mồi nhử bằng lãi suất 0%, thủ tục đơn giản\nĐối tượng lừa đảo dẫn dụ người dân bằng cách hứa hẹn khoản vay nhanh, không cần chứng minh tài sản, không kiểm tra tín dụng và thủ tục đơn giản. Lãi suất 0% trong 3 tháng đầu chính là \"mồi nhử\" để bạn hạ cảnh giác.\n\n### 3. Ứng dụng độc hại được gửi qua link lạ\nCác đối tượng lừa đảo có thể yêu cầu người dùng tải ứng dụng cho vay tiền trực tuyến giả mạo được phát triển để **đánh cắp thông tin cá nhân, số tài khoản ngân hàng, thậm chí là thông tin thẻ tín dụng**.\n\nKhi người dùng cài đặt, ứng dụng sẽ yêu cầu cấp quyền truy cập danh bạ, hình ảnh, vị trí, thậm chí cả dữ liệu thiết bị. Đây chính là bước then chốt để các đối tượng thu thập thông tin cá nhân, phục vụ việc khống chế nạn nhân.\n\n### 4. Thu \"phí bảo hiểm hợp đồng\" — chiêu trò kinh điển\nChúng lập hồ sơ giả về việc cho vay, chụp hình hồ sơ này và gửi cho người vay, đồng thời **yêu cầu người vay phải chuyển trước cho đối tượng một khoản tiền để trả phí bảo hiểm khoản vay** và phí bảo lưu hồ sơ vay.\n\n### 5. Chiếm đoạt tiền rồi biến mất\nKhi người vay chuyển tiền vào số tài khoản của các đối tượng cung cấp, các đối tượng sẽ **lập tức chiếm đoạt và ngắt liên lạc**. Đây chính xác là điều đã xảy ra với bạn — số điện thoại đã không còn hoạt động.\n\n---\n\n## ⚠️ MỨC ĐỘ NGUY HIỂM — BẠN ĐANG ĐỐI MẶT VỚI NHIỀU RỦI RO HƠN BẠN NGHĨ!\n\nBị hại không những bị mất tiền mà còn bị mất toàn bộ thông tin danh tính cá nhân, tiềm ẩn nguy cơ tiếp tục bị lợi dụng để phục vụ cho các hoạt động vi phạm pháp luật khác, ví dụ như: **đăng ký SIM không chính chủ, đăng ký mở tài khoản ngân hàng, ví điện tử phục vụ các hoạt động lừa đảo, rửa tiền, cá độ trực tuyến**…\n\nNgoài ra, nhiều ứng dụng giả mạo được thiết kế tinh vi, máy chủ đặt ở nước ngoài, gây khó khăn cho công tác truy vết, xử lý.\n\n---\n\n## ✅ BẠN CẦN LÀM NGAY NHỮNG VIỆC SAU (Theo thứ tự ưu tiên)\n\n### 🔴 BƯỚC 1 — Khóa tài khoản ngân hàng ngay lập tức\nLập tức dừng tất cả giao dịch với ứng dụng hoặc tổ chức đáng nghi. Liên hệ ngân hàng để **đổi mật khẩu, khóa tài khoản hoặc tạm ngừng các dịch vụ liên quan** nhằm ngăn chặn thiệt hại thêm. Nếu đã cung cấp mã OTP, hãy báo ngay với ngân hàng để được hỗ trợ.\n\n### 🔴 BƯỚC 2 — Gỡ ứng dụng \"LoanHub\" giả mạo ngay\nXóa ứng dụng khỏi điện thoại và **đổi mật khẩu tất cả tài khoản quan trọng** (email, mạng xã hội, ví điện tử). Cân nhắc cài lại hệ điều hành điện thoại (factory reset) nếu có thể.\n\n### 🟡 BƯỚC 3 — Thu thập bằng chứng\nGhi lại mọi thông tin liên quan đến vụ lừa đảo, bao gồm tin nhắn, email, cuộc gọi, lịch sử giao dịch, ảnh chụp màn hình ứng dụng và các tài liệu, giấy tờ liên quan đến quá trình vay tiền. Đặc biệt, hãy chú ý đến những thông tin cá nhân của kẻ lừa đảo như tên, số điện thoại, địa chỉ — những bằng chứng này sẽ hỗ trợ quá trình tố cáo và **tăng khả năng lấy lại tiền**.\n\n### 🟡 BƯỚC 4 — Trình báo cơ quan công an\nLiên hệ ngay với cơ quan Công an, cơ quan Cảnh sát điều tra tội phạm tại địa phương để **trình báo sự việc**. Bạn cũng có thể trình báo online tại **canhbao.ncsc.gov.vn** (Cục An toàn thông tin).\n\n### 🟢 BƯỚC 5 — Cảnh báo người thân\nThông báo cho gia đình và bạn bè về thủ đoạn này để tránh có thêm nạn nhân. Đặc biệt lưu ý nếu kẻ lừa đảo đã truy cập danh bạ của bạn qua ứng dụng độc hại — chúng có thể tiếp tục liên hệ người thân bạn để lừa đảo tiếp.\n\n---\n\n## 📊 Bức tranh toàn cảnh\n\nTheo nền tảng an ninh mạng Viettel Threat Intelligence, trong 6 tháng đầu năm 2025, các vụ lừa đảo tài chính tại Việt Nam gia tăng chóng mặt với hơn 4.500 tên miền độc hại và hơn 1.000 trang giả mạo được phát hiện — **tăng hơn 90% so với cùng kỳ năm 2024**.\n\n---\n\n\u003e 💬 **Lời khuyên cuối:** Đừng xấu hổ hay im lặng. Hãy trình báo công an — đây là hành vi **lừa đảo chiếm đoạt tài sản có tổ chức** theo pháp luật hình sự Việt Nam. Việc tố cáo không chỉ giúp bạn có cơ hội lấy lại tiền mà còn bảo vệ nhiều nạn nhân khác.\n\nBạn có muốn tôi hỗ trợ thêm thông tin về cách liên hệ ngân hàng cụ thể hoặc mẫu trình báo công an không?",
+  "sources": [
+    "https://vietnamnet.vn/lua-dao-cho-vay-tin-dung-den-lai-hoanh-hanh-tren-khong-gian-mang-viet-nam-2331669.html",
+    "https://congan.quangngai.gov.vn/danh-muc-san-pham/-tin-tuc-su-kien/canh-bao-lua-dao-voi-thu-doan-mao-danh-ngan-hang-cho-vay-tien-online-voi-lai-suat-thap-vao-dip-cuoi-nam.html",
+    "https://congan.gialai.gov.vn/vi/news/canh-giac-canh-bao/nhan-dien-bay-ung-dung-vay-tien-truc-tuyen-thu-doan-lua-dao-ngay-cang-tinh-vi-11118.html",
+    "https://congan.hatinh.gov.vn/bai-viet/canh-giac-voi-thu-doan-cho-vay-tien-online-mao-danh-cac-co-quan-to-chuc-ca-nhan_1682667214.caht",
+    "https://vneconomy.vn/lua-dao-tai-chinh-tang-vot-trong-nua-dau-nam-2025.htm",
+    "https://tapchibaohiemxahoi.gov.vn/mobile/canh-giac-truoc-hinh-thuc-lua-dao-cho-vay-tin-dung-den-132473.html",
+    "https://congan.longan.gov.vn/vi/chi-tiet-tin-tuc?Id=194691",
+    "https://xaydungchinhsach.chinhphu.vn/canh-bao-hien-tuong-mao-danh-ngan-hang-cho-vay-truc-tuyen-lai-suat-thap-de-lua-dao-119230428085842108.htm",
+    "https://zalopay.vn/bi-lua-vay-tien-qua-app-phai-lam-sao-7076",
+    "https://www.aia.com.vn/vi/song-khoe/loi-khuyen/tai-chinh/bi-lua-dao-vay-tien-online-phai-lam-sao.html",
+    "https://thanhnien.vn/vietcredit-tags538674.html",
+    "https://www.vietcredit.vn/canh-bao-lua-dao",
+    "https://www.easycredit.vn/canh-bao-thu-doan-lua-dao-chiem-doat-tai-san",
+    "https://eit.edu.vn/fast-loan.html",
+    "https://play.google.com/store/apps/details?id=com.vietnam.iloan\u0026hl=en_US",
+    "https://visala.info/fast-loan-vay-tien/",
+    "https://www.vietcredit.vn/canh-bao-lua-dao/canh-bao-thu-doan-lua-dao-mao-danh-thuong-hieu-vietcredit",
+    "https://h5vay.com/fast-loan-vay-tien-lua-dao",
+    "https://rais.edu.vn/vietcredit-lua-dao.html",
+    "https://vaynhanhonline.com.vn/vietcredit-lua-dao/"
+  ],
+  "latency_ms": 76784
+}

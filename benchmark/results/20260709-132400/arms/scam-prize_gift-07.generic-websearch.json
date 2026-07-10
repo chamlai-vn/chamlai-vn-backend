@@ -1,0 +1,55 @@
+{
+  "case_id": "scam-prize_gift-07",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Tài khoản lạ 'Cộng Tác Viên VinFast Hà Nội' — không phải kênh chính thức của VinFast",
+      "Link rút gọn bit.ly/... — không phải tên miền chính thức của VinFast",
+      "Yêu cầu cung cấp CMND và số tài khoản ngân hàng — mục đích đánh cắp danh tính và tiền",
+      "Số điện thoại không có trong danh sách công ty — dùng SIM rác",
+      "Thông báo 'trúng thưởng bất ngờ' — chiêu dụ điển hình",
+      "Hotline VinFast đã xác nhận đây là lừa đảo"
+    ],
+    "matched_patterns": [
+      "Giả mạo thương hiệu lớn (VinFast) qua mạng xã hội (Zalo)",
+      "Thông báo trúng thưởng giả mạo",
+      "Link rút gọn dẫn đến website giả mạo để đánh cắp thông tin cá nhân",
+      "Yêu cầu cung cấp thông tin cá nhân và tài khoản ngân hàng qua tin nhắn",
+      "Dùng SIM rác và tài khoản mạng xã hội ảo để phát tán tin nhắn hàng loạt"
+    ],
+    "recommended_actions": [
+      "Chặn và xóa tài khoản Zalo lừa đảo ngay lập tức",
+      "Báo cáo tin nhắn lừa đảo bằng tính năng 'Báo xấu' trên Zalo",
+      "Trình báo Công an địa phương gần nhất",
+      "Tuyệt đối không click vào link lạ dù chỉ để xem",
+      "Cảnh báo người thân và bạn bè xung quanh vì chiêu trò này được phát tán hàng loạt",
+      "Ghi nhớ nguyên tắc: không cung cấp thông tin cá nhân (CCCD, tài khoản ngân hàng, mật khẩu, mã OTP) cho bất kỳ ai qua điện thoại hoặc tin nhắn",
+      "Khi nhận thông báo trúng thưởng, chủ động kiểm tra lại qua website chính thức hoặc tổng đài của doanh nghiệp thay vì làm theo hướng dẫn trong tin nhắn"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 ĐÂY LÀ LỪA ĐẢO 100% — Phân Tích Chi Tiết\n\n## ✅ Kết luận: Tin nhắn mẹ bạn nhận được là LỪA ĐẢO HOÀN TOÀN\n\nMay mắn thay, mẹ bạn đã không cung cấp bất kỳ thông tin gì. Dưới đây là phân tích đầy đủ dựa trên các dấu hiệu nhận diện và cảnh báo chính thức.\n\n---\n\n## 🔍 Tại sao đây là lừa đảo?\n\n### 1. VinFast đã chính thức cảnh báo về đúng chiêu trò này\nNgày 25/10/2025, VinFast thông báo đã phát hiện một số trường hợp giả mạo fanpage của VinFast và các đại lý, nhà phân phối chính hãng để đăng thông tin sai sự thật về các chương trình khuyến mại, nhằm mục đích lừa đảo và trục lợi.\n\nGần đây xuất hiện một số cá nhân giả danh là người của VinFast và trang web giả mạo sử dụng tên, thương hiệu và hình ảnh của VinFast nhằm đánh lừa khách hàng nhằm thu thập thông tin cá nhân và trục lợi tài chính.\n\n### 2. Website/link không chính thức là dấu hiệu lừa đảo rõ ràng\nWebsite chính thức của VinFast chỉ gồm: **vinfast.com**, **vinfastauto.com** và **vinfast.vn**. Tất cả các địa chỉ website khác đều không thuộc sở hữu của VinFast và VinFast không chịu trách nhiệm với nội dung, các hành động và/hoặc hệ quả có thể xảy ra tại các trang website đó.\n\nLink `bit.ly/vinfast-award-2024` rõ ràng **không phải** tên miền chính thức của VinFast.\n\n### 3. Đây là thủ đoạn lừa đảo rất phổ biến trên Zalo\nTheo cảnh báo từ Công an thành phố Huế, thời gian gần đây xuất hiện nhiều vụ việc người dân nhận được tin nhắn với nội dung \"trúng thưởng\", \"nhận quà tri ân\", \"khuyến mãi đặc biệt\" hay \"trúng xe máy, điện thoại, tiền mặt\", sau đó bị dẫn dụ truy cập vào các website giả mạo để đánh cắp thông tin cá nhân và chiếm đoạt tài sản.\n\nĐể tạo dựng lòng tin, chúng thường mạo danh các thương hiệu lớn, ngân hàng hoặc hệ thống siêu thị uy tín, đồng thời sử dụng SIM rác, tài khoản mạng xã hội ảo (Facebook, Zalo, Telegram,...) hoặc email để phát tán hàng loạt tin nhắn thông báo \"trúng thưởng khủng\".\n\n### 4. Yêu cầu CMND + số tài khoản = Mục tiêu đánh cắp danh tính và tiền\nNhiều kẻ lừa đảo còn giả mạo tài khoản Zalo của các công ty, ngân hàng, thương hiệu lớn để lừa đảo người dùng dưới hình thức trúng thưởng, hoàn tiền, nhận khuyến mãi đặc biệt — gửi tin nhắn thông báo trúng thưởng, kèm đường link yêu cầu nhập thông tin cá nhân hoặc tài khoản ngân hàng.\n\n### 5. Hậu quả nếu sập bẫy có thể rất nghiêm trọng\nKhông chỉ dừng lại ở việc chiếm đoạt tài khoản ngân hàng, nhiều đối tượng sau khi kiểm soát được tài khoản mạng xã hội còn tiếp tục mạo danh chính nạn nhân để vay tiền người thân, bạn bè hoặc phát tán link độc tới danh bạ nhằm mở rộng quy mô lừa đảo.\n\n---\n\n## ⚠️ Các dấu hiệu nhận diện trong tin nhắn này\n\n| Dấu hiệu | Phân tích |\n|---|---|\n| 🔴 Tài khoản lạ \"Cộng Tác Viên VinFast Hà Nội\" | Không phải kênh chính thức của VinFast |\n| 🔴 Link rút gọn `bit.ly/...` | Không phải tên miền của VinFast |\n| 🔴 Yêu cầu CMND + số tài khoản ngân hàng | Mục đích đánh cắp danh tính và tiền |\n| 🔴 Số điện thoại không có trong danh sách công ty | Dùng SIM rác |\n| 🔴 Thông báo \"trúng thưởng bất ngờ\" | Chiêu dụ điển hình |\n| 🔴 Hotline VinFast xác nhận là lừa đảo | Đã được kiểm chứng |\n\n---\n\n## 📋 Mẹ bạn và gia đình nên làm gì ngay bây giờ?\n\n### ✅ Các bước cần thực hiện:\n\n1. **Chặn và xóa** tài khoản Zalo lừa đảo đó ngay lập tức.\n\n2. **Báo cáo** tin nhắn lừa đảo này:\n   - Nếu nhận được tin nhắn hoặc thấy quảng cáo có dấu hiệu lừa đảo, hãy sử dụng tính năng **\"Báo xấu\"** trên Zalo để giúp Zalo ngăn chặn và bảo vệ cộng đồng.\n   - Trình báo **Công an địa phương** gần nhất.\n\n3. **Không click vào link** dù chỉ để xem: Người dùng tuyệt đối không nên nhấn vào các đường link lạ được gửi qua tin nhắn hoặc mạng xã hội.\n\n4. **Cảnh báo người thân, bạn bè** xung quanh vì chiêu trò này được phát tán hàng loạt.\n\n5. **Ghi nhớ nguyên tắc vàng**: Tuyệt đối không tin vào bất kỳ lời hứa hẹn trúng thưởng, quà tặng, hay cơ hội đầu tư không rõ nguồn gốc; không cung cấp thông tin cá nhân (CCCD, tài khoản ngân hàng, mật khẩu, mã OTP) cho bất kỳ ai qua điện thoại, tin nhắn; không bấm vào các đường link lạ hay cài đặt ứng dụng theo hướng dẫn từ người lạ qua điện thoại/tin nhắn.\n\n---\n\n\u003e 💡 **Lời khuyên quan trọng**: Khi nhận được thông báo trúng thưởng hoặc quà tặng có giá trị lớn, người dân cần chủ động kiểm tra lại thông tin qua website chính thức hoặc tổng đài của doanh nghiệp thay vì làm theo hướng dẫn trong tin nhắn. Bạn đã làm đúng khi gọi thẳng tới hotline VinFast để xác minh — đây chính xác là cách xử lý khôn ngoan nhất!",
+  "sources": [
+    "https://www.nait.vn/attt/canh-bao-hanh-vi-gia-mao-website-doanh-nghiep-nham-lua-dao-chiem-doat-tai-san-1424.html",
+    "https://vinfast.vn/thong-bao-canh-bao-trang-web-lua-dao-va-gia-mao/",
+    "https://diendandoanhnghiep.vn/vinfast-canh-bao-hien-tuong-lua-dao-thong-qua-fanpage-gia-mao-10163771.html",
+    "https://nld.com.vn/vinfast-canh-bao-tinh-trang-lua-dao-qua-fanpage-gia-mao-196251025214547293.htm",
+    "https://vietnamnet.vn/canh-bao-lua-dao-mao-danh-vinfast-thong-qua-fanpage-gia-2456316.html",
+    "https://vinfastphunhuan.com/thong-bao-vv-gia-mao-fanpage-vinfast-de-thuc-hien-hanh-vi-lua-dao",
+    "https://truyenhinhthanhhoa.vn/vu-lua-tang-xe-vinfast-cu-dan-mang-de-dai-chia-se-thong-tin-ca-nhan-1808164723.htm",
+    "https://www.vingroup.net/tin-tuc-su-kien/bai-viet/3672/vinfast-canh-bao-hien-tuong-lua-dao-thong-qua-fanpage-gia-mao",
+    "https://www.vietnam.vn/canh-bao-thu-doan-nhan-tin-trung-thuong-tren-zalo-facebook",
+    "https://24hmoney.vn/news/vinfast-canh-bao-hien-tuong-lua-dao-thong-qua-fanpage-gia-mao-c50a2667848.html",
+    "https://plus24h.com/zalo-marketing/cach-nhan-dien-va-phong-tranh-lua-dao-qua-zalo.html",
+    "https://daidoanket.vn/canh-bao-chieu-tro-lua-dao-moi-qua-zalo.html",
+    "https://traderviet.tv/t/cong-an-canh-bao-khan-den-nguoi-nhan-duoc-tin-nhan-zalo-facebook-co-noi-dung-sau.115005/",
+    "https://congan.tayninh.gov.vn/vi/chi-tiet-tin-tuc?Id=194700",
+    "https://plus24h.com/zalo-marketing/canh-bao-ve-tinh-trang-gia-mao-tai-khoan-zalo-de-chiem-doat-tien-tu-nguoi-dung.html",
+    "https://congan.quangninh.gov.vn/thong-bao/thu-doan-toi-pham/canh-bao-tai-dien-thu-doan-hack-tai-khoan-zalo-de-lua-dao-chiem-doat-tai-san-2473.html",
+    "https://kenh14.vn/hang-chuc-trieu-nguoi-dung-zalo-chu-y-phat-hien-dau-hieu-nay-can-phai-doi-mat-khau-ngay-lap-tuc-215251208173144332.chn",
+    "https://kenh14.vn/thong-bao-khan-toi-hang-chuc-trieu-nguoi-dung-zalo-thay-dau-hieu-nay-thi-phai-doi-mat-khau-ngay-lap-tuc-21525110209400994.chn",
+    "https://cafef.vn/thong-bao-toi-hang-chuc-trieu-nguoi-dung-zalo-thay-dau-hieu-nay-thi-phai-doi-mat-khau-ngay-lap-tuc-188260206061433564.chn"
+  ],
+  "latency_ms": 61898
+}

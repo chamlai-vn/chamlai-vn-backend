@@ -1,0 +1,33 @@
+{
+  "case_id": "scam-fake_job-09",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Tên miền không đáng tin: saleeboost-official.pro (sử dụng .pro thay vì .vn hay .com.vn)",
+      "Yêu cầu nộp tiền đặt cọc 890.000 đồng trước khi làm việc",
+      "Lời hứa lương cao không thực tế (5 triệu đồng/tuần + hoa hồng 20%) cho công việc đơn giản",
+      "Tải app từ nguồn không xác định (SaleBoost)",
+      "Liên hệ qua Telegram cá nhân thay vì kênh chính thức của công ty",
+      "Cơ chế 'hoàn lại tiền đặt cọc' sau khi hoàn thành điều kiện (dấu hiệu điển hình của lừa đảo nhiệm vụ)",
+      "Hệ thống hoa hồng/bonus cho người giới thiệu (đa cấp)",
+      "Thiếu thông tin rõ ràng về công ty (địa chỉ, giấy phép hoạt động)"
+    ],
+    "matched_patterns": [
+      "fake_job: Lừa đảo tuyên dụng cộng tác viên online qua các gói nhiệm vụ giả mạo",
+      "fake_job: Giả mạo doanh nghiệp tuyên CTV online, yêu cầu chuyển tiền trước qua đơn hàng ảo",
+      "fake_job: Lừa đảo việc nhẹ, lương cao qua mạng xã hội"
+    ],
+    "recommended_actions": [
+      "Không nộp tiền đặt cọc dưới bất kỳ hình thức nào",
+      "Xác minh thông tin công ty Thăng Long Trading trực tiếp qua website chính thức hoặc gọi tổng đài công khai, tránh liên hệ qua Telegram/mạng xã hội cá nhân",
+      "Kiểm tra tên miền website: tránh những tên miền lạ (.pro, .top, .cc) - hãy tìm kiếm tên miền .vn hoặc .com.vn chính thức của công ty",
+      "Không tải app từ link lạ, chỉ tải từ Google Play hoặc App Store chính thức",
+      "Yêu cầu xem hợp đồng lao động rõ ràng trước khi tham gia",
+      "Cảnh giác với hệ thống hoa hồng/bonus cho người giới thiệu (dấu hiệu lừa đảo đa cấp)",
+      "Nếu không chắc, tìm việc qua các nền tảng tuyển dụng uy tín hoặc trung tâm dịch vụ việc làm chính thức"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 8682
+}

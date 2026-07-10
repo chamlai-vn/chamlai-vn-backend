@@ -1,0 +1,31 @@
+{
+  "case_id": "scam-impersonation_authority-03",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Giả danh Cơ quan Cảnh sát Điều tra với tên chức danh cụ thể (Trung tá Lê Hữu Tâm)",
+      "Yêu cầu cài đặt ứng dụng VneID từ link lạ (vneidsecure.app) - không phải ứng dụng chính thức",
+      "Yêu cầu cung cấp thông tin nhạy cảm (CCCD, ngày sinh, mật khẩu cấp 2) qua ứng dụng lạ",
+      "Tạo áp lực thời gian ('trong vòng 2 tiếng') để ép buộc hành động nhanh chóng",
+      "Đe dọa khóa tài sản điện tử nếu không tuân thủ",
+      "Link ứng dụng có gốc rễ khả nghi - không phải trang chính thức của Bộ Công an",
+      "Sử dụng số điện thoại di động để liên hệ - không phải đường dây chính thức của cơ quan"
+    ],
+    "matched_patterns": [
+      "Giả danh Công an, Viện Kiểm sát dựng chuyện vụ án để dụ dỗ chuyển tiền",
+      "VNeID giả mạo - yêu cầu cài đặt ứng dụng VNeID từ đường link lạ"
+    ],
+    "recommended_actions": [
+      "Không cài đặt ứng dụng từ link vneidsecure.app - đây là link giả mạo",
+      "Không cung cấp bất kỳ thông tin cá nhân nào như CCCD, mật khẩu, ngày sinh cho link/ứng dụng này",
+      "Ngắt liên lạc ngay với số điện thoại được cung cấp",
+      "Liên hệ trực tiếp đến Công an tỉnh Bình Dương hoặc Công an địa phương qua đường dây chính thức để xác minh thông tin",
+      "Tải ứng dụng VNeID chính thức chỉ từ App Store hoặc Google Play - kiểm tra publisher là 'Bộ Công an'",
+      "Cơ quan Công an sẽ không bao giờ yêu cầu cung cấp mật khẩu hay cài ứng dụng lạ qua điện thoại",
+      "Báo cáo tin nhắn này cho Cục Cảnh sát Điều tra tội phạm công nghệ cao hoặc công an địa phương"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 8363
+}

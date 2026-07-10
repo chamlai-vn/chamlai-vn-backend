@@ -1,0 +1,16 @@
+{
+  "case_id": "benign-work_real-07",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "green",
+    "red_flags": [],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Hỏi chị xác minh lại thông tin qua kênh chính thức của công ty (website, email công ty, hoặc gọi bộ phận Tài chính trực tiếp)",
+      "Kiểm tra email công ty hoặc hệ thống quản lý hóa đơn nội bộ để xác nhận yêu cầu thanh toán",
+      "Nếu không chắc chắn, liên hệ trực tiếp bộ phận Tài chính qua số điện thoại công ty để xác minh"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 3317
+}

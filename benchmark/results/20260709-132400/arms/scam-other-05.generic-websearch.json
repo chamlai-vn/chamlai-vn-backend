@@ -1,0 +1,60 @@
+{
+  "case_id": "scam-other-05",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Thông báo trúng thưởng không rõ nguồn gốc, không có đăng ký trước",
+      "Công ty và sản phẩm giả mạo ('Công ty Kỹ thuật số Việt Á', 'VietAtech Pro')",
+      "Yêu cầu cung cấp thông tin tài khoản, mật khẩu, mã OTP",
+      "Yêu cầu truy cập đường link lạ hoặc cài đặt ứng dụng không rõ nguồn gốc",
+      "Ứng dụng giả mạo có khả năng theo dõi thiết bị, đọc trộm thông tin, chiếm quyền truy cập",
+      "Tấn công SIM Swap: dùng giấy tờ giả để chiếm quyền kiểm soát số điện thoại của nạn nhân",
+      "Rút tiền nhanh qua nhiều tài khoản, chuyển sang tiền mặt hoặc tiền điện tử để xóa dấu vết",
+      "Tạo cảm giác cấp bách qua điện thoại để ép nạn nhân thực hiện theo chỉ dẫn"
+    ],
+    "matched_patterns": [
+      "Thông báo trúng thưởng hoặc hoàn tiền",
+      "Giả mạo tổ chức uy tín",
+      "Lừa cài đặt ứng dụng độc hại",
+      "Tấn công SIM Swap (Đánh cắp SIM)",
+      "Đánh cắp thông tin tài khoản ngân hàng (OTP, mật khẩu)"
+    ],
+    "recommended_actions": [
+      "Gọi ngay hotline Agribank (1900 558818) yêu cầu khóa tài khoản và dịch vụ Internet Banking",
+      "Gọi nhà mạng để khóa SIM đang bị chiếm quyền",
+      "Trình báo công an địa phương hoặc Cục An ninh mạng (Bộ Công an)",
+      "Gỡ ngay ứng dụng độc hại và đặt lại thiết bị về cài đặt gốc (factory reset)",
+      "Tuyệt đối không cung cấp OTP, mật khẩu cho bất kỳ ai qua điện thoại, tin nhắn hay mạng xã hội",
+      "Không truy cập các đường link lạ được gửi qua SMS, Zalo, Messenger hoặc email không rõ nguồn gốc",
+      "Ưu tiên sử dụng Smart OTP hoặc ứng dụng tạo mã xác thực (Google Authenticator) thay vì OTP qua SMS",
+      "Nếu điện thoại mất sóng bất thường, dùng thiết bị khác gọi ngay tổng đài nhà mạng và liên hệ ngân hàng khóa dịch vụ trực tuyến",
+      "Khi nhận cuộc gọi tự xưng nhân viên tổ chức, chủ động xác minh qua tổng đài chính thức hoặc đến trực tiếp chi nhánh"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 KẾT LUẬN: ĐÂY LÀ LỪA ĐẢO 100% — Rất Nghiêm Trọng!\n\nTình huống của chị Linh là một **vụ lừa đảo công nghệ cao điển hình**, kết hợp nhiều thủ đoạn tinh vi đang hoành hành tại Việt Nam. Dưới đây là phân tích chi tiết:\n\n---\n\n## 🔍 PHÂN TÍCH CÁC DẤU HIỆU LỪA ĐẢO\n\n### 1️⃣ Bước 1 – Dùng \"Trúng thưởng\" để dụ dỗ\nĐây là hình thức lừa đảo \"Thông báo trúng thưởng hoặc hoàn tiền\" nhằm dẫn dụ người dùng thao tác để \"nhận tiền\". Không có cuộc thi hay chương trình khuyến mãi nào tự nhiên chọn bạn mà không có đăng ký trước. \"Công ty Kỹ thuật số Việt Á\" và sản phẩm \"VietAtech Pro\" đều là bình phong giả mạo.\n\n### 2️⃣ Bước 2 – Yêu cầu xác minh thông tin cá nhân\nChúng hướng dẫn người dân truy cập vào các đường link giả mạo hoặc yêu cầu cung cấp thông tin tài khoản, mật khẩu, mã OTP, thậm chí cài đặt ứng dụng lạ trên điện thoại nhằm chiếm quyền kiểm soát tài khoản ngân hàng.\n\n### 3️⃣ Bước 3 – Ép cài ứng dụng giả mạo \"VietAtech Pro\"\nHacker sử dụng các kịch bản tinh vi để lừa đảo, nhắm vào người dùng thông qua việc giả mạo tổ chức uy tín và dẫn dụ nạn nhân tải ứng dụng độc hại. Họ liên hệ qua điện thoại, tạo cảm giác cấp bách, yêu cầu nạn nhân thực hiện theo chỉ dẫn. Sau khi nạn nhân cài đặt ứng dụng, hacker sẽ theo dõi toàn bộ hoạt động trên thiết bị, thu thập thông tin nhạy cảm, bao gồm mật khẩu, OTP, hoặc mã PIN và thực hiện các giao dịch lớn hoặc chiếm đoạt tài khoản.\n\nSau khi ứng dụng giả mạo được cài đặt vào điện thoại, các đối tượng sẽ tạo ra một số tình huống để người dùng thực hiện các giao dịch. Trong thời gian này, ứng dụng giả mạo có thể đọc trộm các thông tin lưu trữ, theo dõi thao tác của khách hàng, sau đó chiếm quyền truy cập và sử dụng trái phép thiết bị di động của khách hàng — thường nhắm vào các ứng dụng tài chính như ngân hàng điện tử, ví điện tử để chiếm đoạt tài sản.\n\n### 4️⃣ Bước 4 – Tấn công SIM Swap (Đánh cắp SIM)\nKẻ lừa đảo SIM giành quyền kiểm soát một số điện thoại bằng cách giả mạo danh tính của nạn nhân và thuyết phục nhà cung cấp dịch vụ di động chuyển số đó sang thẻ SIM mà kẻ lừa đảo sở hữu. Khi đã đạt được điều này, kẻ lừa đảo có thể vượt qua bất kỳ quy trình xác thực hai yếu tố dựa trên SMS nào cho các tài khoản được liên kết với số đó.\n\nKẻ gian dùng giấy tờ giả đến cửa hàng nhà mạng báo mất SIM để yêu cầu cấp lại số điện thoại của bạn. Khi đã giữ số điện thoại, kẻ gian dùng tính năng \"Quên mật khẩu\" để nhận mã OTP từ ngân hàng, từ đó đổi mật khẩu và rút hết tiền trong tài khoản.\n\n### 5️⃣ Bước 5 – Rút tiền nhanh và \"bốc hơi\"\nNgay sau khi nạn nhân nhập thông tin hoặc mã OTP, các đối tượng sẽ nhanh chóng đăng nhập tài khoản và thực hiện hành vi chuyển tiền, rút tiền trong thời gian rất ngắn. Khi tiền bị chuyển qua nhiều tài khoản khác nhau và rút ra dưới dạng tiền mặt hoặc tiền điện tử, việc truy vết gần như trở nên vô nghĩa.\n\n---\n\n## ⚠️ TẠI SAO CHÚNG TA KHÔNG NHẬN RA SỚM HƠN?\n\nCác đối tượng giả mạo thường sử dụng nhiều kịch bản khác nhau, được xây dựng rất bài bản nhằm đánh trúng tâm lý sợ hãi hoặc tham lợi của người dùng.\n\nTrong khi đó, các ngân hàng hiện nay hầu như **không yêu cầu** khách hàng cung cấp mật khẩu, mã OTP hoặc truy cập đường link lạ để nhận quà hay quy đổi điểm thưởng.\n\n---\n\n## ✅ CHỊ LINH CẦN LÀM GÌ NGAY (Và Bài Học Cho Người Khác)\n\n### 🆘 Nếu vừa xảy ra:\n| Bước | Hành động |\n|---|---|\n| 1 | **Gọi ngay hotline Agribank** (1900 558818) yêu cầu khóa tài khoản và dịch vụ Internet Banking |\n| 2 | **Gọi nhà mạng** khóa SIM đang bị chiếm quyền |\n| 3 | **Trình báo công an** địa phương hoặc Cục An ninh mạng (Bộ Công an) |\n| 4 | **Gỡ ngay ứng dụng độc hại** và đặt lại thiết bị về cài đặt gốc (factory reset) |\n\n### 🔐 Phòng tránh trong tương lai:\n\n- Tuyệt đối **không cung cấp OTP, mật khẩu** cho bất kỳ ai: Ngân hàng không bao giờ yêu cầu khách hàng cung cấp các thông tin này qua điện thoại, tin nhắn hay mạng xã hội.\n\n- **Không truy cập các đường link lạ** được gửi qua tin nhắn SMS, Zalo, Messenger hoặc email không rõ nguồn gốc.\n\n- **Ưu tiên sử dụng Smart OTP** (tích hợp trong ứng dụng ngân hàng) hoặc ứng dụng tạo mã xác thực như Google Authenticator thay vì nhận OTP qua tin nhắn SMS.\n\n- Nếu điện thoại **mất sóng bất thường**, hãy dùng một thiết bị khác gọi ngay cho tổng đài nhà mạng để kiểm tra tình trạng SIM và liên hệ ngân hàng để khóa tạm thời các dịch vụ trực tuyến.\n\n- Khi nhận được cuộc gọi tự xưng là nhân viên bất kỳ tổ chức nào, hãy **chủ động xác minh thông tin qua tổng đài chính thức** hoặc trực tiếp đến chi nhánh giao dịch để kiểm tra.\n\n---\n\n\u003e 💡 **Nguyên tắc vàng cần nhớ:** Không có \"quà tặng miễn phí\" nào cần bạn cài ứng dụng lạ, cung cấp thông tin ngân hàng, hay xác minh qua link SMS. Đó luôn luôn là lừa đảo!",
+  "sources": [
+    "https://congan.quangngai.gov.vn/danh-muc-san-pham/-tin-tuc-su-kien/co-the-ban-chua-biet/canh-giac-thu-doan-lua-dao-gia-danh-ngan-hang-thong-bao-nhan-diem-thuong.html",
+    "https://congan.ninhbinh.gov.vn/canh-bao-chieu-thuc-lua-dao-danh-cap-tai-khoan-ngan-hang",
+    "https://vietbao.vn/canh-giac-thu-doan-gia-danh-ngan-hang-thong-bao-nhan-diem-thuong-de-lua-dao-593001.html",
+    "https://tienphong.vn/ngan-hang-canh-bao-lua-dao-kieu-moi-post1840247.tpo",
+    "https://www.div.gov.vn/canh-giac-truoc-chieu-tro-lua-dao-moi-cua-toi-pham-de-khong-mat-tien-trong-tai-khoan",
+    "https://tuoitre.vn/lam-cho-khach-hang-lo-lang-khi-tai-khoan-bi-khoa-roi-lua-lay-luon-tai-khoan-ngan-hang-20250220231938811.htm",
+    "https://www.dnse.com.vn/hoc/gia-mao-nhan-vien-ngan-hang",
+    "https://bidv.com.vn/bidv/tin-tuc/tin-ve-bidv/canh-bao-cac-hinh-thuc-lua-dao-trong-linh-vuc-ngan-hang",
+    "https://dantri.com.vn/kinh-doanh/ro-chieu-lua-dao-danh-cap-tai-khoan-ngan-hang-rut-sach-tien-dip-can-tet-20250114164344821.htm",
+    "https://dantri.com.vn/kinh-doanh/cac-chieu-thuc-lua-dao-cuom-tien-tu-tai-khoan-ngan-hang-20250121174108648.htm",
+    "https://www.dnse.com.vn/hoc/cach-hacker-chiem-tai-khoan-bang-sim-swap",
+    "https://baomoi.com/ngan-hang-ncb-canh-bao-thu-doan-lua-dao-chiem-quyen-kiem-soat-sim-de-rut-tien-c54716573.epi",
+    "https://congan.gialai.gov.vn/vi/news/canh-giac/canh-giac-thu-doan-chiem-quyen-su-dung-sim-de-chiem-doat-tai-khoan-ngan-hang-10865.html",
+    "https://vietnamnet.vn/mat-song-dien-thoai-bat-thuong-tai-khoan-ngan-hang-co-the-bi-rut-sach-2497391.html",
+    "https://kienthuc.net.vn/bao-ve-tai-khoan-truoc-nguy-co-bi-chiem-quyen-sim-va-lua-dao-ngan-hang-post1609593.html",
+    "https://kenh14.vn/tin-hieu-tren-dien-thoai-cho-thay-tai-khoan-ngan-hang-dang-bi-xam-nhap-tu-xa-215260427210757377.chn",
+    "https://doanhnghiepcuocsong.vn/canh-giac-thu-doan-chiem-quyen-su-dung-sim-nguoi-dan-de-mat-tien-neu-lo-la-a255890.html",
+    "https://www.kaspersky.com.vn/resource-center/threats/sim-swapping",
+    "https://doisongphapluat.com.vn/cong-an-canh-bao-thu-doan-chiem-quyen-su-dung-sim-de-chiem-doat-tai-khoan-ngan-hang-a719753.html",
+    "https://kenh14.vn/dien-thoai-hien-len-dong-chu-nay-la-bieu-hien-bi-chiem-doat-sim-de-xam-nhap-tai-khoan-ngan-hang-215260424133156568.chn"
+  ],
+  "latency_ms": 73625
+}

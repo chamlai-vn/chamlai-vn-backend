@@ -1,0 +1,47 @@
+{
+  "case_id": "scam-impersonation_service-01",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Tên miền giả mạo: website 'techcombank-verify.com' không phải website chính thức của Techcombank (phải có đuôi .techcombank.com.vn)",
+      "Kịch bản 'giao dịch bất thường' nhằm gây hoảng loạn tâm lý cho nạn nhân",
+      "Chứa link lạ kết hợp với thúc ép hành động gấp, dẫn đến trang web sao chép giao diện ngân hàng",
+      "Yêu cầu nhập thông tin nhạy cảm bao gồm số thẻ, CVV và mã OTP — trao chìa khóa tài khoản cho kẻ gian",
+      "Sử dụng kỹ thuật giả mạo SMS qua trạm phát sóng BTS giả để mạo danh thương hiệu ngân hàng"
+    ],
+    "matched_patterns": [
+      "Phishing giả mạo ngân hàng",
+      "Giả mạo SMS (SMS Spoofing via BTS giả)"
+    ],
+    "recommended_actions": [
+      "KHÔNG bấm vào link trong tin nhắn, xóa tin nhắn ngay",
+      "KHÔNG gọi số 1800-9998 vì đây là số của kẻ lừa đảo",
+      "KHÔNG cung cấp mã OTP cho bất kỳ ai",
+      "Gọi hotline chính thức của Techcombank: 1800 588 822 (24/7) để xác minh",
+      "Kiểm tra tài khoản bằng cách đăng nhập qua app Techcombank Mobile chính thức",
+      "Báo cáo lừa đảo tới Cục An toàn thông tin qua đầu số 5656 hoặc website chongthurac.vn"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 ĐÂY LÀ LỪA ĐẢO! TUYỆT ĐỐI KHÔNG THỰC HIỆN THEO HƯỚNG DẪN TRONG TIN NHẮN!\n\n---\n\n## ✅ Kết luận: TIN NHẮN GIẢ MẠO NGÂN HÀNG - 100% LỪA ĐẢO\n\nTin nhắn bạn nhận được là một hình thức **lừa đảo Phishing (giả mạo ngân hàng)** điển hình, đã được các cơ quan chức năng cảnh báo nhiều lần.\n\n---\n\n## 🔍 Tại sao khẳng định đây là lừa đảo?\n\nCó **5 dấu hiệu đỏ** rõ ràng trong tin nhắn này:\n\n### 1. 🌐 Tên miền giả mạo\nWebsite trong tin nhắn là `techcombank-verify.com` — **không phải website chính thức** của Techcombank. Tất cả các đường link trong tin nhắn/email gửi từ Techcombank thật đều có đuôi là `.techcombank.com.vn`. Tên miền `techcombank-verify.com` hoàn toàn khác và là website giả mạo.\n\n### 2. 📲 Kịch bản \"giao dịch bất thường\" quen thuộc\nNội dung của những thông điệp lừa đảo này được thiết kế cực kỳ khéo léo nhằm đánh thẳng vào điểm yếu tâm lý của khách hàng, thường gửi thông báo giả về các vấn đề tài khoản để gây hoảng loạn.\n\n### 3. 🔗 Link lạ + thúc ép hành động gấp\nĐiểm chung của tất cả các kịch bản lừa đảo là luôn kết thúc bằng một đường link lạ, hối thúc người dùng truy cập ngay lập tức. Ngay khi nạn nhân hoang mang và nhấp vào đường link giả mạo, họ sẽ bị dẫn dụ vào một trang web sao chép giao diện chính thức của ngân hàng.\n\n### 4. 💀 Mã OTP trong tin nhắn = Bẫy nguy hiểm nhất\nHệ thống lừa đảo sẽ yêu cầu nhập các thông tin nhạy cảm nhất bao gồm tên chủ thẻ, số thẻ, ngày hết hạn, mã bảo mật CVV và đặc biệt là mã xác thực OTP. Việc cung cấp mã OTP đồng nghĩa với việc bạn trao chìa khóa tài khoản cho kẻ gian.\n\n### 5. 📡 Kỹ thuật giả mạo SMS tinh vi\nKẻ lừa đảo sử dụng trạm phát sóng BTS giả, khi được kích hoạt cùng với một số thiết bị chuyên dụng, có thể chèn sóng nhà mạng để \"đánh lừa\" các điện thoại xung quanh trong khu vực — từ đó dễ dàng mạo danh bất cứ thương hiệu ngân hàng nào.\n\n---\n\n## ⚠️ Hậu quả nếu làm theo\n\nNếu làm theo hướng dẫn, khách hàng không chỉ bị lộ toàn bộ thông tin tài khoản để kẻ gian rút cạn tiền, mà thiết bị di động còn có nguy cơ bị cài đặt mã độc, dẫn đến việc bị chiếm đoạt toàn quyền điều khiển điện thoại từ xa.\n\n---\n\n## ✅ Bạn phải làm gì ngay bây giờ?\n\nTechcombank đặc biệt lưu ý nguyên tắc **\"ba không\"**: **Không truy cập link lạ**, **không nhập mã OTP**, và **không cung cấp thông tin tài khoản** cho bất kỳ ai, kể cả khi người đó tự xưng là công an hay nhân viên ngân hàng.\n\n| Việc cần làm | Chi tiết |\n|---|---|\n| ❌ **KHÔNG** bấm vào link | Xóa tin nhắn ngay |\n| ❌ **KHÔNG** gọi số 1800-9998 | Đây là số của kẻ lừa đảo |\n| ❌ **KHÔNG** cung cấp mã OTP | Cho bất kỳ ai |\n| ✅ **GỌI HOTLINE THẬT** | Gọi ngay **1800 588 822** (24/7) — đường dây nóng chính thức của Techcombank |\n| ✅ **Kiểm tra tài khoản** | Đăng nhập qua app Techcombank Mobile chính thức |\n| ✅ **Báo cáo lừa đảo** | Phản ánh ngay với Cục An toàn thông tin qua đầu số **5656** hoặc website **chongthurac.vn** |\n\n---\n\n\u003e 💡 **Nhớ:** Ngân hàng thật **KHÔNG BAO GIỜ** gửi mã OTP sẵn trong tin nhắn, không yêu cầu bạn bấm link lạ để \"xác thực khẩn cấp\", và không thúc ép bạn hành động trong vài phút.",
+  "sources": [
+    "https://techcombank.com/en/information/updates/fake-app-installment-scams-how-criminals-steal-your-information",
+    "https://techcombank.com/en/information/updates/techcombank-warning-on-bank-impersonation-scam-email-messages",
+    "https://mst.gov.vn/gia-mao-techcombank-lua-dao-danh-cap-thong-tin-nguoi-dung-197154131.htm",
+    "https://techcombank.com/thong-tin/thong-bao/techcombank-canh-bao-ve-hanh-vi-gia-mao-nhan-vien-ngan-hang-de-lua-dao-cung-cap-khoan-vay",
+    "https://techcombank.com/thong-tin/thong-bao/canh-giac-voi-hien-tuong-lua-dao-qua-email-gia-mao",
+    "https://www.thegioididong.com/tin-tuc/canh-giac-chieu-tro-gia-mao-techcombank-de-lua-dao-1442641",
+    "https://techcombank.com/en/information/updates/warning-protect-yourself-against-financial-fraud-on-social-media",
+    "https://techcombank.com/thong-tin/thong-bao/canh-bao-lua-dao-qua-cuoc-goi-gia-mao-so-dien-thoai",
+    "https://mic.gov.vn/gia-mao-techcombank-lua-dao-danh-cap-thong-tin-nguoi-dung-197154131.htm",
+    "https://congan.com.vn/thi-truong/ngan-hang/techcombank-canh-bao-tin-nhan-lua-dao-mao-danh-ngan-hang_135228.html",
+    "https://techcombank.com/thong-tin/thong-bao/canh-bao-hien-tuong-lua-dao-qua-tin-nhan-sms-gia-danh-ngan-hang",
+    "https://cafef.vn/techcombank-canh-bao-den-nguoi-nhan-duoc-tin-nhan-nay-188260410065923604.chn",
+    "https://soha.vn/techcombank-canh-bao-den-nguoi-nhan-duoc-tin-nhan-nay-198260410091702901.htm",
+    "https://cand.com.vn/doanh-nghiep/techcombank-canh-bao-tin-nhan-lua-dao-mao-danh-ngan-hang-i663339/",
+    "https://chongluadao.vn/blog/en/2023/09/canh-bao-gia-mao-techcombank-de-lua-dao-va-chiem-doat-tai-san/",
+    "https://techcombank.com/en/information/updates/warning-online-scam-banking-brand-abuse"
+  ],
+  "latency_ms": 50076
+}

@@ -1,0 +1,26 @@
+{
+  "case_id": "scam-recovery_scam-09",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Oxbet là nền tảng cờ bạc/cá cược online trái phép tại Việt Nam — nạp tiền vào đây là tham gia đường dây bất hợp pháp, không có cơ chế pháp lý chính thức bảo vệ người chơi",
+      "\"Người tư vấn giúp lấy lại tiền\" gần như 100% là bước 2 của trò lừa (recovery scam) — nhóm lừa đảo nắm thông tin nạn nhân vừa mất tiền để lừa tiếp",
+      "Yêu cầu đóng phí xử lý/phí bảo lãnh/phí giải ngân, hoặc cung cấp tài khoản ngân hàng/OTP để \"kiểm tra\" — dẫn đến mất thêm tiền hoặc bị chiếm tài khoản",
+      "Đây là mô hình \"dịch vụ hack/lấy lại tiền cờ bạc\" rất phổ biến ở Việt Nam mà công an nhiều lần cảnh báo"
+    ],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Tuyệt đối không trả bất kỳ khoản phí nào cho người/nhóm nhắn tin đó dù gọi tên gì",
+      "Không cung cấp số tài khoản ngân hàng, mật khẩu, OTP, hay đăng nhập vào bất kỳ link/app nào họ gửi",
+      "Chặn và báo cáo số điện thoại/tài khoản đó",
+      "Chấp nhận khoản tiền đã mất trên nền tảng cờ bạc bất hợp pháp rất khó lấy lại qua con đường không chính thức",
+      "Có thể trình báo công an địa phương hoặc Cổng thông tin tiếp nhận phản ánh lừa đảo trực tuyến của Bộ Công an để họ có dữ liệu điều tra đường dây",
+      "Về lâu dài: tránh xa app cờ bạc online, cẩn trọng với bất kỳ ai chủ động đề nghị \"giúp lấy lại tiền đã mất\""
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "Đây gần như chắc chắn là **lừa đảo chồng lừa đảo** (scam kép). Em đang gặp đúng một kịch bản rất phổ biến hiện nay. Để em hiểu rõ:\n\n## Vì sao đây là lừa đảo\n\n**1. Oxbet là nền tảng cờ bạc/cá cược online trái phép tại Việt Nam.** Đánh bạc online chưa được cấp phép hợp pháp ở VN (trừ vài trường hợp thí điểm rất hạn chế). Nạp tiền vào các app kiểu này bản chất là tham gia đường dây cờ bạc bất hợp pháp, và cơ quan công an từng cảnh báo về các \"ma trận cờ bạc\" tương tự (như 8XBET) — người chơi mất tiền, tài khoản bị khóa, không rút được, và gần như không có cơ chế pháp lý chính thức nào bảo vệ người chơi vì bản thân hoạt động này là bất hợp pháp.\n\n**2. \"Người nhắn tư vấn giúp lấy lại tiền\" gần như 100% là bước 2 của trò lừa** — gọi là **\"dịch vụ thu hồi tiền lừa đảo\" (recovery scam)**. Cách nó hoạt động:\n- Sau khi em mất tiền trên app cờ bạc, thông tin của em (số điện thoại, việc em vừa bị mất tiền) thường đã bị lộ hoặc chính là do cùng một nhóm lừa đảo nắm được.\n- Có người chủ động nhắn tin/gọi điện tự xưng là \"luật sư\", \"chuyên gia công nghệ\", \"nhân viên hỗ trợ\", \"hacker\"... nói có thể giúp lấy lại tiền.\n- Họ sẽ yêu cầu em: đóng \"phí xử lý\", \"phí bảo lãnh\", \"phí giải ngân\", hoặc yêu cầu em cung cấp thông tin tài khoản ngân hàng, OTP, đăng nhập app để \"kiểm tra\".\n- Kết quả: em mất thêm tiền (thường nhiều hơn số tiền ban đầu), hoặc bị chiếm đoạt luôn tài khoản ngân hàng.\n\nĐây là mô hình lừa đảo rất phổ biến ở VN, thường được gọi là \"dịch vụ hack/lấy lại tiền cờ bạc\", và công an nhiều lần cảnh báo về nó.\n\n## Em nên làm gì tiếp theo\n\n1. **Tuyệt đối không trả bất kỳ khoản phí nào** cho người/nhóm nhắn tin đó, dù họ nói là \"phí xử lý\", \"phí bảo lãnh\" hay bất cứ tên gì.\n2. **Không cung cấp** số tài khoản ngân hàng, mật khẩu, mã OTP, hay đăng nhập vào bất kỳ link/app nào họ gửi.\n3. **Chặn và báo cáo** số điện thoại/tài khoản đó (chặn trên Zalo/Messenger, báo cáo spam).\n4. Chấp nhận rằng khoản 2.5 triệu đã mất trên Oxbet **rất khó lấy lại** qua con đường không chính thức — vì bản thân nền tảng cờ bạc online là bất hợp pháp, không có cơ quan nào đứng ra bảo vệ quyền lợi người chơi trong trường hợp này.\n5. Nếu muốn, em có thể **trình báo công an địa phương** (qua công an phường/quận hoặc Cổng thông tin tiếp nhận phản ánh lừa đảo trực tuyến của Bộ Công an) — chủ yếu để họ có dữ liệu điều tra đường dây, chứ không đảm bảo lấy lại được tiền.\n6. Về lâu dài: tránh xa các app cờ bạc online, và cẩn trọng với bất kỳ ai chủ động liên hệ đề nghị \"giúp lấy lại tiền đã mất\" — đây luôn là dấu hiệu cảnh báo đỏ.\n\nEm có muốn mình soạn giúp một tin nhắn báo cáo/trình báo gửi công an hoặc hướng dẫn chặn & bảo vệ tài khoản ngân hàng không?",
+  "sources": [],
+  "latency_ms": 0
+}

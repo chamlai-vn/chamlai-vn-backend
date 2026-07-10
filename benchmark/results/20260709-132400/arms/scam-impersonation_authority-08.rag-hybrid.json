@@ -1,0 +1,30 @@
+{
+  "case_id": "scam-impersonation_authority-08",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Giả danh cấp bộ Công an với chức danh cụ thể (Trung tá Nguyễn Văn Linh, Chi cục Cảnh sát Quản lý hành chính tỉnh Bình Dương)",
+      "Yêu cầu tải ứng dụng giả mạo 'VNeID Verify Pro' từ liên kết lạ",
+      "Thông báo vu vơ vi phạm dữ liệu sinh trắc học để tạo tâm lý hoang mang",
+      "Gửi giấy tờ công vụ giả mạo có số hiệu (THÔNG BÁO VI PHẠM HÀNH CHÍNH SỐ 2024/CP-CAH)",
+      "Đưa ra hạn chót (phải hoàn tất nhanh nếu không bị phạt hành chính) để tạo áp lực tâm lý",
+      "Yêu cầu thanh toán 2.500.000 đồng qua ứng dụng nhân danh 'Quỹ Bảo vệ An toàn Công dân'",
+      "Số điện thoại giả danh cấp Công an (+84 28 xxxx)"
+    ],
+    "matched_patterns": [
+      "Giả danh Công an, Viện kiểm sát với biến thể VNeID giả",
+      "Giả danh cán bộ Công an yêu cầu chuyển tiền để phục vụ điều tra"
+    ],
+    "recommended_actions": [
+      "Anh Minh nên ngắt liên lạc ngay với người gọi và không cài đặt bất kỳ ứng dụng nào từ liên kết trong tin nhắn",
+      "Liên hệ trực tiếp Chi cục Cảnh sát Quản lý hành chính tỉnh Bình Dương hoặc Công an địa phương gần nhất để xác minh thông tin cuộc gọi",
+      "Tuyệt đối không thanh toán tiền cho bất kỳ lý do nào được nêu ra, vì cơ quan Công an không bao giờ yêu cầu chuyển tiền qua điện thoại",
+      "Chỉ tải ứng dụng VNeID từ các nguồn chính thức: Google Play Store, App Store hoặc website bộ.vn, không từ liên kết lạ",
+      "Báo cáo sự việc với công an gần nhất để ngăn chặn và truy bắt kẻ lừa đảo",
+      "Bảo vệ các thông tin cá nhân (CCCD, mã OTP, mật khẩu) và không cung cấp cho bất kỳ ai qua điện thoại hay tin nhắn"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 7920
+}

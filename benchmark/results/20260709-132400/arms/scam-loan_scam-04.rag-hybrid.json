@@ -1,0 +1,32 @@
+{
+  "case_id": "scam-loan_scam-04",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Mạo danh công ty tài chính (FastCredit Vietnam) qua cuộc gọi từ số điện thoại lạ",
+      "Hứa hẹn lãi suất 0% trong 3 tháng (quá hấp dẫn, không thực tế)",
+      "Yêu cầu tải ứng dụng từ đường link SMS (không phải từ chợ ứng dụng chính thức)",
+      "Yêu cầu cung cấp thông tin căn cước công dân qua ứng dụng lạ",
+      "Yêu cầu chuyển tiền 'phí xác minh danh tính' trước khi giải ngân",
+      "Tài khoản nhận tiền là cá nhân (Trần Minh Khôi) thay vì tên công ty chính thức",
+      "Ứng dụng vô dụng sau khi nhận tiền, số điện thoại bị tắt máy",
+      "Từ chối hoàn lại tiền với lý do không xác định"
+    ],
+    "matched_patterns": [
+      "Lừa đảo vay tiền qua app giả mạo công ty tài chính, yêu cầu nộp phạt trước",
+      "Giả danh ngân hàng, công ty tài chính lừa đảo cho vay 'tín dụng đen' qua mạng",
+      "Mạo danh ngân hàng, công ty tài chính cho vay trực tuyến để lừa đảo"
+    ],
+    "recommended_actions": [
+      "Liên hệ ngay với chi nhánh Agribank để báo cáo giao dịch ghi vào tài khoản 0821234567 của Trần Minh Khôi, yêu cầu khóa tài khoản và hỗ trợ truy cập giao dịch",
+      "Nộp đơn tố giác lừa đảo tại công an địa phương với đầy đủ thông tin: số điện thoại +84 987 654 321, tên app 'FC Wallet', tên công ty giả mạo 'FastCredit Vietnam', số tiền bị chiếm đoạt",
+      "Khóa CCCD/căn cước công dân tại cơ quan công an để ngăn chặn lạm dụng thông tin cá nhân",
+      "Theo dõi tài khoản ngân hàng và báo cáo ngay nếu phát hiện giao dịch bất thường",
+      "Tuyệt đối không chuyển tiền thêm dù có bất kỳ thông báo hoặc yêu cầu gì từ ứng dụng hoặc người gọi",
+      "Cảnh báo gia đình, bạn bè về chiêu trò này để tránh bị lừa"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 9700
+}

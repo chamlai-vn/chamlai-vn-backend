@@ -1,0 +1,53 @@
+{
+  "case_id": "scam-impersonation_service-04",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Giả mạo nhân viên ngân hàng Agribank để liên hệ với khách hàng",
+      "Yêu cầu cung cấp mã OTP, mật khẩu hoặc thông tin thẻ",
+      "Dụ dỗ cài đặt ứng dụng giả mạo ('Agribank Shield') từ đường link lạ",
+      "Ứng dụng/website giả có giao diện gần giống Agribank thật, khó phân biệt",
+      "Tạo áp lực tâm lý với các lý do như 'nợ quá hạn', 'nâng hạn mức thẻ tín dụng', 'mở khóa tài khoản', 'kiểm tra tiền chuyển đến'",
+      "Tiền đã bị chiếm đoạt thực tế"
+    ],
+    "matched_patterns": [
+      "Giả mạo nhân viên ngân hàng (mạo danh Agribank)",
+      "Lừa đảo chiếm đoạt mã OTP/mật khẩu qua điện thoại",
+      "Website/ứng dụng giả mạo thương hiệu ngân hàng",
+      "Yêu cầu cài đặt ứng dụng lạ để xác thực hoặc hỗ trợ từ xa"
+    ],
+    "recommended_actions": [
+      "Gọi ngay tổng đài Agribank 1900 558818 để khóa tài khoản, báo cáo sự việc và đề nghị phong tỏa tài khoản nhận tiền",
+      "Gỡ ngay ứng dụng giả mạo 'Agribank Shield' khỏi điện thoại",
+      "Đổi mật khẩu tài khoản ngân hàng, mạng xã hội, email và kích hoạt bảo mật 2 lớp",
+      "Thu thập bằng chứng: ảnh chụp màn hình giao dịch, tin nhắn, email, nội dung chat, cuộc gọi, đường link liên quan — TUYỆT ĐỐI không xóa",
+      "Đến trực tiếp công an phường/xã nơi cư trú hoặc nơi xảy ra vụ việc để trình báo",
+      "Liên hệ đường dây nóng Cục Cảnh sát Hình sự - Bộ Công an: 0692 345 860",
+      "Báo cáo online tại https://canhbao.ncsc.gov.vn",
+      "Tuyệt đối không liên hệ các website/fanpage quảng cáo dịch vụ 'hỗ trợ lấy lại tiền' và không chuyển tiền cho bất kỳ ai để được hướng dẫn (tránh bẫy lừa đảo thứ hai)"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 KHẲNG ĐỊNH: ĐÂY LÀ LỪA ĐẢO 100% — Và Đã Xảy Ra Rồi!\n\nTình huống anh trai bạn gặp phải là một vụ lừa đảo giả mạo ngân hàng **rất điển hình và đã được cảnh báo chính thức**. Dưới đây là phân tích đầy đủ:\n\n---\n\n## 🔍 TẠI SAO ĐÂY LÀ LỪA ĐẢO?\n\n### 1. Agribank KHÔNG BAO GIỜ làm như vậy\nAgribank không bao giờ yêu cầu khách hàng cung cấp thông tin mã xác thực để nhận quà/giải thưởng, xác nhận định danh.\n\nKhách hàng tuyệt đối KHÔNG thực hiện theo yêu cầu đó, thậm chí nếu yêu cầu đó có vẻ như là từ phía Agribank vì Agribank sẽ không bao giờ yêu cầu khách hàng tiết lộ mật khẩu hay mã xác thực thông qua điện thoại.\n\nAgribank khuyến cáo: Ngân hàng **TUYỆT ĐỐI KHÔNG** gửi tin nhắn nào gắn đường link yêu cầu khách hàng cung cấp hoặc nhập User/Mật khẩu.\n\n### 2. Đây là kịch bản lừa đảo mạo danh nhân viên ngân hàng đã được cảnh báo\nAgribank cho biết, mạo danh nhân viên ngân hàng là kịch bản lừa đảo thường xuyên xảy ra. Kẻ gian liên hệ với khách hàng, tự xưng là nhân viên Agribank để thông báo \"nợ quá hạn\", \"nâng hạn mức thẻ tín dụng\", \"mở khóa tài khoản\" hoặc \"kiểm tra tiền chuyển đến\". Sau khi tạo áp lực tâm lý, chúng dụ người dùng cung cấp mã OTP, mật khẩu hoặc thông tin thẻ để chiếm đoạt tiền.\n\n### 3. Ứng dụng giả mạo giao diện gần giống Agribank thật\nGần đây xảy ra các vụ lừa đảo thông qua các website, trang điện tử giả mạo lợi dụng uy tín, thương hiệu của Agribank để chiếm đoạt thông tin về tài khoản cá nhân. Thủ đoạn này tinh vi ở chỗ, các website được kẻ gian gửi tới có giao diện gần giống với website, ứng dụng Agribank E-Mobile, Internet banking chính thức, khiến người dùng rất khó phân biệt.\n\n### 4. Cài ứng dụng từ link lạ là bẫy\nMột thủ đoạn phổ biến là yêu cầu cài đặt ứng dụng lạ để \"xác thực\", \"hỗ trợ nhanh từ xa\". Agribank khuyến cáo: Không bấm vào đường link lạ gửi qua điện thoại, Zalo, SMS.\n\nAgribank khuyến cáo khách hàng tuyệt đối không truy cập đường link lạ, không tải hoặc cài đặt ứng dụng không rõ nguồn gốc, chỉ nên cài ứng dụng từ CH Play (Android) hoặc App Store (iOS).\n\n---\n\n## ⚡ PHẢI LÀM GÌ NGAY BÂY GIỜ?\n\n\u003e ⚠️ **Dù đã 2 tiếng trôi qua và tiền đã mất, vẫn còn việc cần làm ngay!**\n\n### Bước 1: Liên hệ Agribank ngay lập tức\nTổng đài Agribank: **1900 558818** — yêu cầu khóa tài khoản, báo cáo sự việc và đề nghị hỗ trợ can thiệp phong tỏa tài khoản nhận tiền.\n\n### Bước 2: Xóa ứng dụng giả và đổi mật khẩu ngay\nThay đổi mật khẩu tài khoản ngân hàng, mạng xã hội, email. Kích hoạt bảo mật 2 lớp cho các tài khoản quan trọng. Ngoài ra, hãy gỡ ngay ứng dụng \"Agribank Shield\" giả mạo đó khỏi điện thoại vì nó có thể tiếp tục theo dõi thiết bị.\n\n### Bước 3: Thu thập bằng chứng TRƯỚC KHI báo công an\nCần chuẩn bị: ảnh chụp màn hình giao dịch chuyển tiền; tin nhắn, email, nội dung chat, cuộc gọi với đối tượng lừa đảo; đường link, website liên quan; giấy tờ tùy thân của người bị hại (CCCD/CMND).\n\n**⚠️ TUYỆT ĐỐI:** Không xóa tin nhắn, lịch sử giao dịch, cuộc gọi.\n\n### Bước 4: Trình báo công an NGAY\nNgười dân cần đến trực tiếp cơ quan Công an nơi cư trú hoặc nơi xảy ra vụ việc để trình báo, cung cấp thông tin đối tượng, phương thức lừa đảo, số tiền bị chiếm đoạt.\n\nBạn cũng có thể liên hệ đường dây nóng của **Cục Cảnh sát Hình sự - Bộ Công an** theo số **0692 345 860** để được tư vấn và hướng dẫn.\n\nThời gian là yếu tố quyết định — càng báo sớm, khả năng ngăn chặn dòng tiền càng cao.\n\n### Bước 5: TRÁNH bẫy lừa đảo thứ hai\nKhi phát hiện bị lừa, khách hàng chỉ nên làm việc với công an địa phương và ngân hàng, **tuyệt đối không** liên hệ với các website, fanpage quảng cáo dịch vụ \"tiếp nhận hồ sơ\", \"hỗ trợ lấy lại tiền\". Không chuyển tiền cho bất kỳ đối tượng nào để được hướng dẫn.\n\n---\n\n## 📋 TÓM TẮT NHANH\n\n| Việc cần làm | Liên hệ |\n|---|---|\n| 🏦 Báo ngân hàng | Agribank: **1900 558818** |\n| 👮 Báo công an | Công an phường/xã hoặc **0692 345 860** |\n| 🌐 Báo cáo online | https://canhbao.ncsc.gov.vn |\n| 📱 Gỡ ứng dụng giả | Làm ngay trên điện thoại |\n\nViệc báo án không chỉ nhằm mục tiêu thu hồi tiền mà còn góp phần ngăn chặn các đối tượng tiếp tục lừa đảo người khác. Hãy hành động ngay — mỗi phút đều có giá trị!",
+  "sources": [
+    "https://www.agribank.com.vn/vn/ve-agribank/tin-tuc/dtl/!ut/p/z0/fY1LC8IwEIR_jcclqU88ioiPgygiaC6ypiVZqxtbkqL_3m3Fq7eZnW9mlVEnZRgbchgpMN7Fn8340s8Ww9XwoHfL0WKq9-PJ8rid7wZ6namNMv8BWaBbVZmZMjZwLF5RndBdkcuebgpAV9PXRGKIyYpAAuuJPbBDBo_sevrHQenTu2CwGESi9V0OsU7BytFC9AnyIL17QsiFylGWLD4lCS3ZvulUJUDXqNuFnIr2PzhCeGBQz9KcP9aCVmk!/",
+    "https://www.agribank.com.vn/vn/ve-agribank/tin-tuc-su-kien/tin-ve-agribank/agribank-thong-bao/agribank-khuyen-cao-khach-hang-nang-cao-canh-giac-voi-cac-thu-doan-mao-danh-lua-dao-khi-giao-dich",
+    "https://www.agribank.com.vn/vn/ve-agribank/tin-tuc-su-kien/tin-ve-agribank/agribank-thong-bao/agribank-canh-bao-va-phong-tranh-lua-dao-qua-giao-dich-thuong-mai-dien-tu-giao-dich-online",
+    "https://www.agribank.com.vn/wcm/connect/29bea59d-86d2-43e4-8706-59fa34501b4c/Khuyen+cao+bao+mat+thong+tin_dinh+kem+VB8900_tang+cuong+bao+mat+giao+dich+truc+tuyen.pdf?MOD=AJPERES\u0026CVID=nsu5eBI",
+    "https://kenh14.vn/agribank-phat-canh-bao-toi-cac-ho-kinh-doanh-lien-quan-ve-thong-tin-tai-khoan-215251223155905933.chn",
+    "https://kenh14.vn/agribank-cong-bo-loat-danh-sach-cac-trang-fanpage-group-gia-mao-canh-bao-khach-hang-can-trong-khong-mat-tien-215251103122002556.chn",
+    "https://dantri.com.vn/kinh-doanh/canh-bao-gia-danh-nhan-vien-ngan-hang-thu-thap-sinh-trac-hoc-20240729172751365.htm",
+    "https://vhtt.ninhbinh.gov.vn/vi/tuyen-truyen-nang-cao-nhan-thuc-an-toan-thong-tin/lam-gi-khi-lo-chuyen-tien-cho-ke-lua-dao-quy-trinh-bao-an-tai-co-quan-cong-an-1866.html",
+    "https://www.seabank.com.vn/tin-tuc/tu-van-dich-vu/tu-van--meo/cach-lay-lai-tien-da-chuyen-khoan-khi-bi-lua-huong-dan-chi-tiet-va-day-du",
+    "https://nhandan.vn/special/phai-lam-gi-khi-bi-lua-dao-truc-tuyen/index.html",
+    "https://vov.gov.vn/cach-nao-de-lay-lai-tien-bi-lua-chuyen-khoan-dtnew-759190",
+    "https://techcombank.com/thong-tin/blog/cach-lay-lai-tien-da-chuyen-khoan-khi-bi-lua",
+    "https://special.nhandan.vn/phai-lam-gi-khi-bi-lua-dao-truc-tuyen/index.html",
+    "https://thanhnien.vn/bi-lua-dao-chiem-doat-tai-san-can-phai-lam-gi-co-lay-lai-tien-duoc-khong-18524032308555946.htm",
+    "https://www.bachhoaxanh.com/kinh-nghiem-hay/thu-tuc-trinh-bao-cong-an-khi-bi-lua-dao-chiem-doat-tai-san-1433590",
+    "https://ghn.vn/blogs/tip-ban-hang/cach-lay-lai-tien-da-chuyen-khoan-khi-bi-lua",
+    "https://www.aia.com.vn/vi/song-khoe/loi-khuyen/tai-chinh/cach-lay-lai-tien-da-chuyen-khoan-khi-bi-lua.html"
+  ],
+  "latency_ms": 70712
+}

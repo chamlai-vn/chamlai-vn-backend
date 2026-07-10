@@ -1,0 +1,39 @@
+{
+  "case_id": "scam-fake_job-04",
+  "rag_verdict": {
+    "strengths": [
+      "Xác định đúng mức độ rủi ro (red) và liệt kê đầy đủ các dấu hiệu cảnh báo cốt lõi",
+      "Bao quát cả 4 ý chính: giả danh công ty lớn, yêu cầu nạp phí premium, ứng dụng lạ giao nhiệm vụ giả, đe dọa công khai thông tin",
+      "Nhận diện đúng các loại chiêu trò (fake_job, loan_scam) và ánh xạ hợp lý",
+      "Khuyến nghị thực tế, súc tích: trình báo công an, giữ chứng cứ, gỡ app, đổi mật khẩu, liên hệ ngân hàng, cảnh báo người thân",
+      "Ngắn gọn, dễ đọc, đi thẳng vào trọng tâm"
+    ],
+    "weaknesses": [
+      "Thiếu số hotline/đầu mối liên hệ chính thức cụ thể (113, A05)",
+      "Không giải thích sâu về rủi ro pháp lý khi vô tình tham gia 'rửa tiền' qua nhiệm vụ chuyển khoản",
+      "Phần chiêu trò 'loan_scam' hơi khiên cưỡng vì đây thiên về lừa CTV hơn là vay tiền",
+      "Giọng văn hơi kỹ thuật/liệt kê, ít mang tính trấn an nạn nhân"
+    ],
+    "reasoning": "Câu trả lời A chính xác, đầy đủ và bao quát tất cả các ý chính quan trọng. Cấu trúc rõ ràng, khuyến nghị thực tiễn và có tính hành động. Điểm trừ nhỏ là thiếu thông tin liên hệ cụ thể và phần phân tích rủi ro pháp lý chưa sâu, giọng văn thiên về liệt kê kỹ thuật.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Phân tích rất chi tiết theo từng bước (5 bước) giúp nạn nhân hiểu rõ toàn bộ kịch bản lừa đảo",
+      "Bao quát đầy đủ cả 4 ý chính và giải thích sâu từng ý",
+      "Nêu rõ rủi ro pháp lý nghiêm trọng khi vô tình trở thành 'con rối rửa tiền' — điểm mà A thiếu",
+      "Cung cấp thông tin liên hệ cụ thể (hotline 113, Cục A05) và hướng dẫn trình báo chính thức",
+      "Giọng văn trấn an, đồng cảm với nạn nhân, khích lệ hành động",
+      "Nhấn mạnh dấu hiệu đặc trưng 'không việc làm hợp pháp nào yêu cầu nộp tiền trước'"
+    ],
+    "weaknesses": [
+      "Khá dài, nhiều emoji, có thể gây loãng thông tin đối với người cần hành động nhanh",
+      "Một số câu trích dẫn/mô tả chung chung có thể không hoàn toàn khớp tình huống cụ thể (ví dụ mô tả 'gửi hoa hồng đơn giá trị thấp trước')",
+      "Lặp lại một số ý ở phần khuyến nghị"
+    ],
+    "reasoning": "Câu trả lời B toàn diện hơn, giải thích cặn kẽ toàn bộ kịch bản lừa đảo theo từng bước, bổ sung rủi ro pháp lý và thông tin liên hệ cụ thể mà A còn thiếu. Giọng văn trấn an phù hợp với nạn nhân. Điểm trừ là hơi dài và nhiều emoji, nhưng nội dung chất lượng và hữu ích cao.",
+    "score": 9
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

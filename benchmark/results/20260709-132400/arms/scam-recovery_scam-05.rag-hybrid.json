@@ -1,0 +1,27 @@
+{
+  "case_id": "scam-recovery_scam-05",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Người낯陌生tự xưng là 'Minh Trung' gọi điện sau khi bạn vừa bị lừa",
+      "Hứa hẹn lấy lại tiền bị lừa thông qua dịch vụ vô danh 'Quỹ Bảo vệ Nhà đầu tư'",
+      "Yêu cầu chuyển tiền trước (800k) với lý do 'phí xác minh'",
+      "Người liên hệ là cá nhân tư nhân, không phải cơ quan chính thức",
+      "Mô hình điển hình của recovery scam - lừa người bị lừa lần thứ nhất"
+    ],
+    "matched_patterns": [
+      "recovery_scam - Giả danh cán bộ, luật sư lừa đảo 'lấy lại tiền treo' qua mạng xã hội",
+      "recovery_scam - Lừa đảo kép: Giả công ty luật hỗ trợ lấy lại tiền bị lừa sau lần thứ nhất"
+    ],
+    "recommended_actions": [
+      "Tuyệt đối không chuyển tiền cho người này hoặc bất kỳ ai tự xưng là hỗ trợ lấy lại tiền bị lừa",
+      "Không tin vào bất kỳ lời hứa nào về 'lấy lại 100% tiền bị lừa' từ các cá nhân hay tổ chức trung gian",
+      "Trình báo ngay đến Công an địa phương về cả vụ bị lừa lần đầu lẫn cuộc gọi lừa đảo này",
+      "Nhớ rằng cơ quan chức năng không bao giờ yêu cầu chuyển tiền qua điện thoại để 'hỗ trợ'",
+      "Không chia sẻ thông tin cá nhân, tài khoản ngân hàng với người này"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 6619
+}

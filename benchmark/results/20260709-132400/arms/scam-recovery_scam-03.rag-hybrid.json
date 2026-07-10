@@ -1,0 +1,31 @@
+{
+  "case_id": "scam-recovery_scam-03",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Giả danh cán bộ Công an TP Hồ Chí Minh",
+      "Yêu cầu chuyển tiền với lý do 'phí xử lý hồ sơ'",
+      "Cung cấp số tài khoản ngân hàng cá nhân để chuyển tiền",
+      "Yêu cầu tải ứng dụng từ liên kết lạ (safeguard-recovery.me)",
+      "Tạo áp lực thời gian ('24h để confirm')",
+      "Hứa hẹn hoàn lại tiền trong 7 ngày",
+      "Sử dụng số điện thoại di động (093.256.7814) thay vì số hotline chính thức",
+      "Đây là 'lừa đảo lần hai' - nhân giả hỗ trợ khôi phục tiền cho những người từng bị lừa"
+    ],
+    "matched_patterns": [
+      "recovery_scam - Giả danh luật sư, cơ quan Công an 'hỗ trợ lấy lại tiền bị lừa đảo' để lừa lần hai",
+      "recovery_scam - Giả danh cán bộ, luật sư lừa đảo 'lấy lại tiền treo' qua mạng xã hội"
+    ],
+    "recommended_actions": [
+      "Tuyệt đối KHÔNG chuyển tiền vào tài khoản được cung cấp",
+      "KHÔNG tải ứng dụng 'SafeGuard Recovery' hoặc bất kỳ app nào từ liên kết này",
+      "Xác minh thực tế bằng cách gọi trực tiếp số tổng đài chính thức của Công an TP Hồ Chí Minh (không phải số được cho trong tin nhắn)",
+      "Trình báo sự cố này đến Công an nơi gần nhất hoặc qua trang web công an chính thức",
+      "Nhớ rằng Bộ Công an KHÔNG bao giờ ủy quyền cho cá nhân hay tổ chức nào nhận hồ sơ lừa đảo qua mạng xã hội hoặc điện thoại",
+      "Nếu muốn giải quyết vụ lừa đảo ban đầu, hãy đến trực tiếp cơ quan Công an để trình báo chính thức"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 10367
+}

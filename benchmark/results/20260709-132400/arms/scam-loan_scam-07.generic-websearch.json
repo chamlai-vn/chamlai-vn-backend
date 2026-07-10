@@ -1,0 +1,52 @@
+{
+  "case_id": "scam-loan_scam-07",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Quảng cáo vay tiền không cần chứng minh thu nhập, không cần thẩm định hồ sơ, duyệt vay 100% — chiêu mồi điển hình của lừa đảo",
+      "Yêu cầu nộp 'phí dịch vụ' (2.5 triệu) trước khi nhận tiền vào tài khoản cá nhân",
+      "Thu thập CMND/CCCD và ảnh selfie cầm CMND nhằm đánh cắp danh tính",
+      "Mạo danh nhân viên công ty tài chính hoặc ngân hàng lớn để tạo lòng tin",
+      "Có thể đe dọa, bôi nhọ danh dự, khủng bố tinh thần người vay và người thân nếu không trả đúng hạn"
+    ],
+    "matched_patterns": [
+      "Lừa đảo vay tiền online (yêu cầu phí trước khi giải ngân)",
+      "Đánh cắp danh tính qua thu thập CMND/CCCD và ảnh selfie",
+      "Mạo danh tổ chức tài chính/ngân hàng"
+    ],
+    "recommended_actions": [
+      "Tuyệt đối không chuyển khoản 2.5 triệu hoặc bất kỳ khoản phí nào cho họ",
+      "Không gửi ảnh CMND/CCCD, ảnh selfie cầm CMND hay bất kỳ giấy tờ cá nhân nào",
+      "Không cung cấp số tài khoản ngân hàng hoặc mã OTP",
+      "Không liên hệ lại với số điện thoại trên",
+      "Lưu lại bằng chứng (chụp màn hình tin nhắn, số điện thoại liên quan)",
+      "Báo cáo cho công an địa phương nếu đã lỡ cung cấp thông tin hoặc chuyển tiền",
+      "Thông báo cho người thân để đề phòng họ cũng bị liên hệ",
+      "Nếu thực sự có nhu cầu vay tiền, liên hệ trực tiếp với các ngân hàng uy tín (Vietcombank, BIDV, Agribank...) hoặc công ty tài chính được Ngân hàng Nhà nước cấp phép"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 ĐÂY LÀ LỪA ĐẢO! Hãy cảnh giác ngay!\n\nTin nhắn bạn nhận được có **đầy đủ dấu hiệu của một chiêu lừa đảo vay tiền online cực kỳ phổ biến tại Việt Nam**. Dưới đây là phân tích chi tiết:\n\n---\n\n## 🔴 Tại sao đây là lừa đảo?\n\n### 1. Quảng cáo \"không cần chứng minh thu nhập\" – chiêu mồi điển hình\n\nNhững kẻ lừa đảo thường đưa ra những lời hứa mời gọi hấp dẫn, như vay tiền nhanh chóng, không cần thẩm định hồ sơ, không cần chứng minh thu nhập, và có thể vay số tiền lớn.\n\nCác quảng cáo \"vay tiền không cần thế chấp\", \"vay tiền không cần chứng minh thu nhập\", \"duyệt vay 100%\"... thường là dấu hiệu của các tổ chức vay tiền online lừa đảo.\n\n### 2. Yêu cầu nộp \"phí dịch vụ\" TRƯỚC khi nhận tiền – dấu hiệu chắc chắn nhất\n\nBất kỳ yêu cầu nào về chuyển phí vào tài khoản cá nhân trước khi vay đều là lừa đảo. Không một tổ chức cho vay hợp pháp nào dám cam kết duyệt vay 100% cho mọi hồ sơ.\n\nKẻ lừa đảo yêu cầu bạn thanh toán phí trước khi được giải ngân. Sau khi bạn thanh toán phí, họ sẽ biến mất và bạn không nhận được khoản vay của mình.\n\n### 3. Thu thập CMND/CCCD + ảnh selfie = đánh cắp danh tính\n\nKhi người vay chuyển tiền vào số tài khoản của các đối tượng cung cấp, các đối tượng sẽ lập tức chiếm đoạt và ngắt liên lạc. Với thủ đoạn lừa đảo tinh vi này, bị hại không những bị mất tiền mà còn bị mất toàn bộ thông tin danh tính cá nhân, tiềm ẩn nguy cơ tiếp tục bị lợi dụng để phục vụ cho các hoạt động vi phạm pháp luật khác.\n\nMột số kẻ lừa đảo có thể sử dụng thông tin cá nhân của bạn như số CMND, số điện thoại để tạo hồ sơ vay tiền giả mạo, sau đó rút tiền hoặc chuyển khoản mà không cần sự đồng ý của chủ sở hữu thông tin.\n\n### 4. Đây là thủ đoạn được Bộ Công an chính thức cảnh báo\n\nPhân tích của Cục An toàn thông tin cho hay, thủ đoạn chung của các đối tượng lừa đảo là mạo danh nhân viên của các công ty tài chính, ngân hàng lớn để tạo lòng tin, sau đó yêu cầu người vay chuyển khoản đặt cọc hoặc trả trước một khoản tiền nhất định. Đối tượng lừa đảo dẫn dụ người dân bằng cách hứa hẹn khoản vay nhanh, không cần chứng minh tài sản, không kiểm tra tín dụng và thủ tục đơn giản. Tuy nhiên, sau khi người vay đăng ký, họ được yêu cầu phải trả trước các khoản phí dịch vụ, phí hồ sơ và bị chiếm đoạt.\n\n### 5. Có thể bị đe dọa sau đó\n\nNghiêm trọng hơn, nếu người vay không trả đúng hạn sẽ bị đe dọa, bôi nhọ danh dự, thậm chí khủng bố tinh thần người thân, bạn bè.\n\n---\n\n## ✅ Bạn cần làm gì ngay bây giờ?\n\n### ❌ TUYỆT ĐỐI KHÔNG:\n- **Không chuyển khoản** 2.5 triệu (hoặc bất kỳ khoản nào) cho họ\n- **Không gửi ảnh CMND/CCCD, ảnh selfie cầm CMND** hay bất kỳ giấy tờ cá nhân nào\n- **Không cung cấp số tài khoản ngân hàng**\n- **Không liên hệ lại** với số điện thoại trên\n\nKhông cung cấp bất kỳ thông tin cá nhân (CMND/CCCD, địa chỉ, hình ảnh nhận diện khuôn mặt) khi chưa xác định chính xác danh tính. Tuyệt đối không cung cấp thông tin tài khoản ngân hàng, mã OTP cho các đối tượng.\n\n### ✔️ NÊN LÀM:\n1. **Báo cáo cho công an địa phương** nếu bạn đã lỡ cung cấp thông tin hoặc chuyển tiền.\n2. **Lưu lại bằng chứng** (chụp màn hình tin nhắn, số điện thoại).\n3. **Thông báo cho người thân** đề phòng họ cũng bị liên hệ.\n\nNhanh chóng trình báo cơ quan Công an nơi gần nhất khi phát hiện thủ đoạn mạo danh, lừa đảo chiếm đoạt tài sản.\n\n### 💡 Nếu thực sự cần vay tiền:\nKhi có nhu cầu vay tiền, cần liên hệ trực tiếp với các tổ chức tín dụng, chi nhánh ngân hàng để được tư vấn, hướng dẫn làm thủ tục vay vốn. Các ngân hàng uy tín như Vietcombank, BIDV, Agribank... hay các công ty tài chính được Ngân hàng Nhà nước cấp phép là lựa chọn an toàn.\n\n---\n\n\u003e ⚠️ **Kết luận:** Tin nhắn này là **lừa đảo 100%**. Mục tiêu là lấy 2.5 triệu \"phí dịch vụ\" của bạn và/hoặc đánh cắp thông tin CMND để dùng vào các mục đích phi pháp. Hãy bỏ qua và cảnh báo người thân về chiêu trò này!",
+  "sources": [
+    "https://www.aia.com.vn/vi/song-khoe/loi-khuyen/tai-chinh/bi-lua-dao-vay-tien-online-phai-lam-sao.html",
+    "https://www.seabank.com.vn/tin-tuc/tu-van-dich-vu/tu-van--meo/canh-bao-vay-tin-dung-den-hau-qua-va-cach-nhan-biet-chieu-tro-lua-dao",
+    "https://lsvn.vn/canh-giac-chieu-lua-dao-cho-vay-tien-online-lai-suat-thap-1690670490-a133470.html",
+    "https://www.fecredit.com.vn/tin-tuc-khuyen-mai/tin-tuc/fe-credit-canh-bao-cac-thu-doan-mao-danh-de-lua-dao-vay-tien-chiem-doat-tai-san/",
+    "https://daibieunhandan.vn/canh-giac-truoc-hinh-thuc-lua-dao-cho-vay-tin-dung-den-post393214.html",
+    "https://www.momo.vn/vay-nhanh",
+    "https://congan.laichau.gov.vn/thu-doan-pham-toi/vay-tien-online-con-dao-hai-luoi-3788.html",
+    "https://mst.gov.vn/canh-bao-cac-thu-doan-lua-dao-khi-vay-tien-qua-app-hoac-the-atm-197153961.htm",
+    "https://vietmoney.vn/lua-dao-vay-tien-online/",
+    "https://xinhgarden.com/tin-tuc/vay-tien-online-an-toan-cach-nhan-biet-lua-dao",
+    "https://congan.ninhbinh.gov.vn/thu-doan-gia-danh-cac-cong-ty-tai-chinh-ngan-hang-thu-thap-thong-tin-de-lua-dao",
+    "https://baodautu.vn/canh-giac-trong-viec-vay-tin-chap-khuyen-cao-tu-tin-vay-d245698.html",
+    "https://www.bocongan.gov.vn/canh-bao-toi-pham/canh-bao-mao-danh-ngan-hang-cac-to-chuc-tin-dung-cho-vay-truc-tuyen-lai-suat-thap-de-lua-dao-d104-t35031.html",
+    "https://vneconomy.vn/cong-nhan-de-sap-bay-khi-vay-tin-dung-den-qua-mang.htm",
+    "https://vneconomy.vn/4-buoc-lua-dao-nham-vao-nguoi-dung-the-tin-dung-viet-nam.htm",
+    "https://xaydungchinhsach.chinhphu.vn/canh-bao-hien-tuong-mao-danh-ngan-hang-cho-vay-truc-tuyen-lai-suat-thap-de-lua-dao-119230428085842108.htm",
+    "https://vietnamnet.vn/lua-dao-cho-vay-tin-dung-den-lai-hoanh-hanh-tren-khong-gian-mang-viet-nam-2331669.html",
+    "https://www.momo.vn/blog/tin-dung-den-la-gi-nhung-dau-hieu-de-ban-nhan-biet-tin-dung-den-c116dt1761"
+  ],
+  "latency_ms": 60591
+}

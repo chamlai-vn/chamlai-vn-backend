@@ -1680,36 +1680,8 @@
     ]
   },
   {
-    "id": "benign-sms_bank_real-01",
-    "text": "Chào bạn, tôi vừa nhận được tin nhắn từ ngân hàng: \"VietcomBank thông báo: Tài khoản xx1234 của bạn vừa bị trừ 15.000.000 VND lúc 14:30. Nếu không phải bạn, vui lòng liên hệ ngay 1900 1234 hoặc truy cập vcb.com.vn\". Có phải bị hack không ạ? Tôi không thực hiện giao dịch nào.",
-    "is_scam": false,
-    "expected_verdict": "green",
-    "scam_type": "",
-    "style": "short_question",
-    "key_facts": [
-      "Đây là thông báo giao dịch thật từ ngân hàng, không phải lừa đảo",
-      "Tin nhắn chứa số tài khoản ẩn danh và hướng dẫn kiểm tra chính thức",
-      "Người dùng có thể hoang mang nhưng cần kiểm tra qua app/website ngân hàng chứ không click link",
-      "Cần hướng dẫn xác minh giao dịch qua channel chính thức của ngân hàng"
-    ]
-  },
-  {
-    "id": "benign-sms_bank_real-02",
-    "text": "Chào khách hàng, Ngân hàng Vietcombank thông báo: Thẻ tín dụng của bạn vừa ghi nhận giao dịch bất thường tại cửa hàng điện tử AmazonGlobal, số tiền 4.890.000 VNĐ vào lúc 14:32 hôm nay. Nếu đây không phải giao dịch của bạn, vui lòng liên hệ ngay Hotline 1900 1577 hoặc nhấn link xác minh: www.vietcombank-verify.vn/check123456. Mã OTP xác thực của bạn là: 827391. Thời hạn hiệu lực 5 phút.",
-    "is_scam": false,
-    "expected_verdict": "green",
-    "scam_type": "",
-    "style": "long_narration",
-    "key_facts": [
-      "Thông báo giao dịch hợp pháp từ ngân hàng liên quan đến một khoản thanh toán thực sự xảy ra",
-      "OTP có thời hạn ngắn (5 phút) để xác thực danh tính của chủ tài khoản",
-      "Cung cấp con đường liên hệ chính thức (hotline) để người dùng xác nhận giao dịch",
-      "Thông báo có thể gây lo lắng vì liên quan tới giao dịch bất thường nhưng thực tế hoàn toàn hợp pháp"
-    ]
-  },
-  {
     "id": "benign-sms_bank_real-03",
-    "text": "Vietcombank thông báo: Giao dịch rút tiền tại ATM từ tài khoản 1234567890 ngày 15/01/2024 lúc 14:32 số tiền 5.000.000 VND. Số dư khả dụng: 2.150.000 VND. Nếu không phải bạn, vui lòng gọi hotline 1900545486 ngay.",
+    "text": "Vietcombank thông báo: Giao dịch rút tiền tại ATM từ tài khoản 1234567890 ngày 15/01/2024 lúc 14:32 số tiền 5.000.000 VND. Số dư khả dụng: 2.150.000 VND. Nếu không phải bạn, vui lòng gọi hotline 1900 545413 ngay.",
     "is_scam": false,
     "expected_verdict": "green",
     "scam_type": "",
@@ -1765,7 +1737,7 @@
   },
   {
     "id": "benign-sms_bank_real-07",
-    "text": "Kính gửi khách hàng, Chúng tôi phát hiện hoạt động bất thường trên tài khoản của bạn. Vào lúc 14:32, ngày 15/01/2024, có một giao dịch chuyển tiền 5.000.000 VNĐ đến số tài khoản 0123456789 tại Ngân hàng TPBank. Nếu không phải bạn thực hiện giao dịch này, vui lòng liên hệ ngay với chúng tôi qua hotline 1900545412 hoặc truy cập https://www.vietcombank.com.vn để khóa tài khoản. Mã xác thực: 847392. Không chia sẻ mã này với bất kỳ ai. - Vietcombank",
+    "text": "Kính gửi khách hàng, Chúng tôi phát hiện hoạt động bất thường trên tài khoản của bạn. Vào lúc 14:32, ngày 15/01/2024, có một giao dịch chuyển tiền 5.000.000 VNĐ đến số tài khoản 0123456789 tại Ngân hàng TPBank. Nếu không phải bạn thực hiện giao dịch này, vui lòng liên hệ ngay với chúng tôi qua hotline 1900 545413 hoặc truy cập https://www.vietcombank.com.vn để khóa tài khoản. Mã xác thực: 847392. Không chia sẻ mã này với bất kỳ ai. - Vietcombank",
     "is_scam": false,
     "expected_verdict": "green",
     "scam_type": "",
@@ -1779,7 +1751,7 @@
   },
   {
     "id": "benign-sms_bank_real-08",
-    "text": "Hôm qua em trai mình vừa nhận được tin nhắn từ số 1234 (mà nó không biết từ đâu) nội dung: \"Ngân hàng BIDV thông báo: Tài khoản của bạn vừa có giao dịch rút tiền 5.000.000 VNĐ lúc 14:35 tại ATM Nguyễn Huệ, TP HCM. Nếu không phải bạn, vui lòng liên hệ 1900xx ngay. Mã TXN: BV230915001\". Em trai mình hoảng hốt tưởng tài khoản bị kẻ gác chủ, nhưng sau đó gọi ngân hàng mới biết đó là giao dịch anh ấy rút tiền từ ATM sáng hôm đó, chỉ là ngân hàng gửi thông báo trễ vài giờ do quá tải hệ thống. Vậy nên tin nhắn này hoàn toàn hợp pháp, chỉ là khiến người nhận cảm thấy lo lắng lúc đầu mà thôi.",
+    "text": "Hôm qua em trai mình vừa nhận được tin nhắn từ số 1234 (mà nó không biết từ đâu) nội dung: \"Ngân hàng BIDV thông báo: Tài khoản của bạn vừa có giao dịch rút tiền 5.000.000 VNĐ lúc 14:35 tại ATM Nguyễn Huệ, TP HCM. Nếu không phải bạn, vui lòng liên hệ 1900 9247 ngay. Mã TXN: BV230915001\". Em trai mình hoảng hốt tưởng tài khoản bị kẻ gác chủ, nhưng sau đó gọi ngân hàng mới biết đó là giao dịch anh ấy rút tiền từ ATM sáng hôm đó, chỉ là ngân hàng gửi thông báo trễ vài giờ do quá tải hệ thống. Vậy nên tin nhắn này hoàn toàn hợp pháp, chỉ là khiến người nhận cảm thấy lo lắng lúc đầu mà thôi.",
     "is_scam": false,
     "expected_verdict": "green",
     "scam_type": "",
@@ -1803,20 +1775,6 @@
       "Ngân hàng thường gửi cảnh báo giao dịch để bảo vệ tài khoản khách hàng",
       "Người nhận không cần cung cấp OTP hay thông tin nhạy cảm nếu đây là thông báo đầy đủ từ ngân hàng",
       "Nếu không nhận ra giao dịch, khách hàng nên gọi trực tiếp số điện thoại chính thức trên thẻ chứ không gọi số trong tin nhắn"
-    ]
-  },
-  {
-    "id": "benign-delivery_real-01",
-    "text": "Bạn có 1 bưu kiện đang giao từ Viettel Post. Hãy nhập mã PIN để xác nhận nhận hàng: https://tracking.viettelpost.com/confirm?id=8472910294. Mã PIN sẽ được gửi tới số điện thoại của bạn. Lưu ý: không chia sẻ mã PIN với ai.",
-    "is_scam": false,
-    "expected_verdict": "green",
-    "scam_type": "",
-    "style": "verbatim_message",
-    "key_facts": [
-      "Đây là thông báo giao hàng từ đơn vị vận chuyển hợp pháp (Viettel Post)",
-      "Yêu cầu xác nhận nhận hàng qua mã PIN là quy trình bình thường để bảo vệ bưu kiện",
-      "Không yêu cầu thanh toán phí bất thường hoặc cung cấp thông tin tài chính",
-      "Thông báo nhắc nhở không chia sẻ mã PIN là dấu hiệu bảo mật hợp lý"
     ]
   },
   {
@@ -1960,34 +1918,6 @@
     ]
   },
   {
-    "id": "benign-promo_real-02",
-    "text": "Hôm nay tôi nhận được tin nhắn từ Shopee với nội dung: \"🎉 CHÚC MỪNG! Bạn đã được chọn để nhận gói ưu đãi độc quyền trị giá 500.000đ. Vui lòng xác nhận thông tin tài khoản trong vòng 24h để kích hoạt ưu đãi. Nhấn vào đây: [link]\". Lúc đầu tôi rất hoang mang vì sợ đây là tin nhắn lừa đảo, nhất là khi thấy yêu cầu xác nhận thông tin tài khoản. Tôi gọi ngay cho bạn tôi là Hà để hỏi xem cô ấy có gặp tình huống tương tự không. Hà kể rằng cô ấy cũng nhận được tin nhắn giống hệt, và cô ấy kiểm tra trực tiếp trên ứng dụng Shopee chính thức bằng cách vào phần \"Tài khoản \u003e Khuyến mãi dành cho tôi\", thấy rõ ràng có thông báo về chương trình ưu đãi này. Hà tự tin rằng đây là khuyến mãi thật từ Shopee, vì nó có tên miền chính thức trong tin nhắn. Sau khi xác nhận thông tin, Hà nhận được mã giảm giá 500.000đ vào ví Shopee của mình. Cuối cùng, tôi cũng thực hiện bước xác nhận giống như Hà đã hướng dẫn, và thành công nhận được ưu đãi mà không gặp bất kỳ vấn đề gì. Sự việc này khiến tôi nhận ra rằng mình cần phải xác minh từ các nguồn chính thức trước khi kết luận là lừa đảo.",
-    "is_scam": false,
-    "expected_verdict": "green",
-    "scam_type": "",
-    "style": "long_narration",
-    "key_facts": [
-      "Tin nhắn khuyến mãi từ Shopee (nhà mạng/sàn TMĐT đã đăng ký) yêu cầu xác nhận thông tin tài khoản",
-      "Xác minh trực tiếp trên ứng dụng chính thức của Shopee để kiểm tra tính hợp pháp của chương trình",
-      "Ưu đãi thực tế được kích hoạt thành công sau khi xác nhận, không gặp mất mát hay rủi ro gì",
-      "Tình huống gây hoang mang nhưng hoàn toàn hợp pháp - đây là phương thức marketing bình thường của các sàn TMĐT"
-    ]
-  },
-  {
-    "id": "benign-promo_real-03",
-    "text": "Chào khách hàng! Tài khoản Viettel của bạn đã bị sử dụng bất thường. Nhấn vào link: app.viettel.vn/verify?token=2024abc để xác minh tài khoản ngay trong 24 giờ. Nếu không xác minh, tài khoản sẽ bị khóa vĩnh viễn. CMND: ****5678. Không chia sẻ link này cho người khác!",
-    "is_scam": false,
-    "expected_verdict": "green",
-    "scam_type": "",
-    "style": "verbatim_message",
-    "key_facts": [
-      "Yêu cầu xác minh tài khoản khẩn cấp với thời hạn 24 giờ để tạo cảm giác sợ hãi",
-      "Sử dụng tên thương hiệu lớn (Viettel) để tăng độ tin tưởng",
-      "Cung cấp phần cuối CMND để tạo vẻ xác thực nhưng thực chất là thông tin có thể công khai",
-      "Link xác minh giả mạo domain chính thức (app.viettel.vn/verify) có thể dẫn đến phishing"
-    ]
-  },
-  {
     "id": "benign-promo_real-04",
     "text": "Hôm qua bạn mình (tên là Minh) vừa nhận được tin nhắn từ Viettel: \"Kính gửi khách hàng Minh, bạn vừa tiêu thụ 50GB dữ liệu, vượt quá gói cước của mình. Để tránh phí phát sinh, hãy nâng cấp gói ngay tại đây: [link]. Hoặc gọi 0877 để được tư vấn. Hiệu lực 24h. Viettel.\"\n\nBạn mình Minh rất lo lắng vì sợ có ai đó đã hack tài khoản của cô ấy hoặc mạo danh nhà mạng. Cô ấy gọi ngay cho tổng đài 0877 để kiểm tra tình hình, kết quả là tin nhắn đó hoàn toàn hợp pháp - chính nhân viên tổng đài xác nhận Minh thực sự vừa sử dụng gần hết dữ liệu trong tháng này. Đây là tin nhắn khuyến mãi thực sự từ Viettel để giúp khách hàng cập nhật gói cước phù hợp với nhu cầu sử dụng thực tế.",
     "is_scam": false,
@@ -2016,20 +1946,6 @@
     ]
   },
   {
-    "id": "benign-promo_real-06",
-    "text": "Anh Minh vừa nhận được tin nhắn từ Viettel lúc 3 giờ sáng thứ 2 hôm qua, kèm một link và dòng chữ: \"Chúc mừng! Bạn đã được chọn là khách hàng may mắn hôm nay. Nhấn vào đây để nhận ngay voucher 500.000 đồng từ Viettel. Link: [bit.ly/viettel_promo]\". Anh Minh hoảng sợ vì thời gian gửi tin lạ lùng và thiếu thắm tương lai, nhưng khi gọi điện tới đường dây tổng đài Viettel, họ xác nhận đó là chiến dịch khuyến mãi hàng tuần hợp lệ của công ty. Hóa ra Viettel gửi ngẫu nhiên cho khách hàng vào các khung giờ khác nhau để tránh quá tải hệ thống, và voucher này có thể dùng để mua dữ liệu hoặc các dịch vụ gia tăng. Anh Minh kéo xuống xem kỹ hơn, phát hiện tin nhắn có chứng thực bằng \"Viettel Official\" và không yêu cầu nhập mật khẩu hay thông tin cá nhân, chỉ cần bấm vào link để xem chi tiết. Sau đó anh Minh yên tâm sử dụng voucher cho lần nạp tiếp theo.",
-    "is_scam": false,
-    "expected_verdict": "green",
-    "scam_type": "",
-    "style": "long_narration",
-    "key_facts": [
-      "Tin nhắn khuyến mãi từ Viettel (nhà mạng chính thức) có chứa link và voucher 500.000 đồng",
-      "Gửi vào lúc bất thường (3 giờ sáng) nhưng đó là chiến dịch hợp lệ để phân tán tải hệ thống",
-      "Không yêu cầu nhập mật khẩu hoặc dữ liệu nhạy cảm, chỉ link xem chi tiết",
-      "Tin nhắn có dấu hiệu xác thực chính thức (Viettel Official) và xác nhận qua tổng đài là hợp pháp"
-    ]
-  },
-  {
     "id": "benign-promo_real-07",
     "text": "🎉 KHUYẾN MÃI KHỦNG TỪ SHOPEE! 🎉\n\nChúc mừng bạn được chọn tham gia chương trình VIP Flash Sale độc quyền! \n\n👉 Nhấp vào link ngay để nhận voucher 500K: https://shopee.vn/flash-sale/vip-exclusive-2024\n\n⚡ Ưu đãi chỉ dành cho 100 khách hàng đầu tiên\n⚡ Mã VIPFLASH24 - Giảm thêm 20% cho tất cả sản phẩm\n⚡ Miễn phí vận chuyển toàn quốc\n\n⏰ Thời gian: 24/01 - 25/01/2024\n\nLưu ý: Để nhận đủ ưu đãi, vui lòng cập nhật thông tin tài khoản tại: https://shopee.vn/user/profile\n\nShopee - Mua sắm an tâm, giao hàng nhanh!\nHotline CSKH: 1900 6969",
     "is_scam": false,
@@ -2044,20 +1960,6 @@
     ]
   },
   {
-    "id": "benign-promo_real-08",
-    "text": "Hôm qua Linh kể cho tôi rằng cô ấy vừa nhận được tin nhắn từ Tiki thông báo: \"LINH ơi! Tài khoản của bạn vừa truy cập từ điện thoại mới lúc 14:30. Nếu không phải là bạn, vui lòng xác minh tại: [liên kết Tiki chính thức]. Để bảo mật, chúng tôi sẽ khóa tài khoản trong 24h nếu không xác minh. - TIKI\". Linh hơi lo lắng vì tin nhắn có tính cấp bách, nhưng sau khi kiểm tra lại, cô ấy nhận ra mình thực sự vừa đăng nhập từ điện thoại mới mà cô mới mua. Linh nhấn vào liên kết từ Tiki để xác minh danh tính và mọi thứ bình thường. Hóa ra đó chỉ là biện pháp xác minh bảo mật tiêu chuẩn mà Tiki gửi cho tất cả người dùng khi phát hiện hoạt động bất thường.",
-    "is_scam": false,
-    "expected_verdict": "green",
-    "scam_type": "",
-    "style": "third_person",
-    "key_facts": [
-      "Tiki gửi thông báo bảo mật xác minh danh tính khi phát hiện truy cập từ thiết bị mới",
-      "Tin nhắn có ngôn ngữ khẩn cấp nhưng thực chất là quy trình bảo mật hợp pháp của sàn thương mại điện tử",
-      "Người nhận cần xác minh danh tính thông qua liên kết chính thức từ nhà cung cấp dịch vụ",
-      "Đây là biện pháp bảo vệ tài khoản tiêu chuẩn, không phải lừa đảo"
-    ]
-  },
-  {
     "id": "benign-promo_real-09",
     "text": "Tôi vừa nhận được tin từ Shopee saying tài khoản tôi bị khóa do hoạt động bất thường, yêu cầu xác minh ngay. Cái này có phải lừa đảo không?",
     "is_scam": false,
@@ -2069,62 +1971,6 @@
       "Yêu cầu xác minh tài khoản là hành động bảo mật hợp pháp để bảo vệ tài khoản người dùng",
       "Người nhận có lý do e ngại vì ngôn ngữ cảnh báo mạnh (khóa tài khoản)",
       "Cần kiểm tra qua kênh chính thức của Shopee để xác thực thông báo"
-    ]
-  },
-  {
-    "id": "benign-promo_real-10",
-    "text": "Chào bạn, đây là tin nhắn từ Shopee. Bạn vừa vượt quá hạn mức thẻ tín dụng liên kết với tài khoản của mình. Để tránh bị khóa tài khoản, vui lòng xác nhận danh tính bằng cách nhập mã OTP: 847592 vào ứng dụng Shopee trong vòng 10 phút. Nếu bạn không thực hiện điều này, tài khoản sẽ bị tạm khóa và các đơn hàng đang chờ xử lý sẽ bị hủy. Cảm ơn.",
-    "is_scam": false,
-    "expected_verdict": "green",
-    "scam_type": "",
-    "style": "long_narration",
-    "key_facts": [
-      "Đây là tin nhắn khuyến mãi/thông báo hợp pháp từ sàn thương mại điện tử Shopee",
-      "Sử dụng chiến thuật tạo cảm giác khẩn cấp và lo lắng về khóa tài khoản để thu hút sự chú ý",
-      "Yêu cầu xác nhận OTP là hành động bình thường và hợp pháp của các sàn thương mại",
-      "Tin nhắn này có thể gây e ngại nhưng hoàn toàn vô hại vì đến từ nguồn chính thức"
-    ]
-  },
-  {
-    "id": "benign-work_real-01",
-    "text": "Từ: HR@company.vn\nTiêu đề: Kiểm toán tài chính định kỳ - Yêu cầu cung cấp tài liệu khẩn cấp\n\nThân gửi bạn,\n\nĐể hoàn thành cuộc kiểm toán tài chính nội bộ hàng quý, chúng tôi yêu cầu bạn cung cấp các tài liệu sau trong vòng 24 giờ:\n\n- Bảng lương tháng trước\n- Giấy tờ xác thực danh tính (ID/Passport)\n- Thông tin tài khoản ngân hàng để xác minh thanh toán\n\nVui lòng gửi các tài liệu này qua email này hoặc truy cập link: company-internal-audit.vn/doc-submission\n\nĐây là yêu cầu bắt buộc theo quy định công ty. Nếu không cung cấp sẽ ảnh hưởng đến xử lý lương tháng này.\n\nCảm ơn sự hợp tác.\n\nBộ phận Nhân sự\nCông ty TNHH ABC",
-    "is_scam": false,
-    "expected_verdict": "green",
-    "scam_type": "",
-    "style": "verbatim_message",
-    "key_facts": [
-      "Yêu cầu tài liệu cá nhân và tài chính trong thời hạn ngắn có thể gây hoài nghi",
-      "Đặc điểm giống lừa đảo: khẩn cấp, đe dọa hậu quả, yêu cầu thông tin nhạy cảm",
-      "Nhưng có thể hoàn toàn hợp pháp nếu là quy trình kiểm toán thật từ công ty chính thức",
-      "Cần xác minh: kiểm tra email domain, liên hệ trực tiếp bộ phận HR, không click link"
-    ]
-  },
-  {
-    "id": "benign-work_real-02",
-    "text": "Hôm qua Linh kể cho mình một chuyện. Sáng hôm đó cô ấy nhận được tin nhắn từ một số lạ: \"Chào bạn, tôi là Anh Tuấn từ phòng Kiểm toán Công ty ABC. Công ty có chiến dịch kiểm tra chi phí khẩn cấp. Chúng tôi cần xác nhận dữ liệu tài khoản ngân hàng của tất cả nhân viên trong 24 giờ để hoàn thành báo cáo cho Bộ Tài chính. Vui lòng gửi cho tôi số tài khoản, tên chủ tài khoản và chi nhánh ngân hàng của bạn sớm nhất.\" Linh hoảng sợ lúc đầu vì tin nhắn rất \"gấp gáp\" và đòi hỏi thông tin nhạy cảm. Nhưng rồi cô ấy gọi trực tiếp phòng Kiểm toán và phát hiện ra đó là chiến dịch xác minh tài khoản hợp lệ thực sự, chỉ là cách liên lạc qua SMS của công ty hơi khác thường. Hóa ra công ty nhờ một đơn vị bên ngoài gửi tin nhắn này cho tất cả nhân viên để cập nhật dữ liệu lương. Kết cục là hợp pháp hoàn toàn, nhưng lúc đó Linh cũng không biết là tin nhắn hay lừa đảo.",
-    "is_scam": false,
-    "expected_verdict": "green",
-    "scam_type": "",
-    "style": "third_person",
-    "key_facts": [
-      "Tin nhắn yêu cầu thông tin tài khoản ngân hàng - dù hợp pháp nhưng khiến người nhận cảnh báo",
-      "Tính cấp tính và hạn chót 24 giờ - điểm dấu hiệu nguy hiểm nhưng là quy trình kiểm toán thực",
-      "Xác minh bằng cách gọi điện trực tiếp - phương pháp đúng để kiểm chứng danh tính của người gửi",
-      "Hệ thống xác minh lương của công ty thực sự - tin nhắn hợp pháp từ đơn vị ủy quyền"
-    ]
-  },
-  {
-    "id": "benign-work_real-03",
-    "text": "Chị ơi, anh Minh bộ phận IT vừa gửi mail bảo rằng hôm nay phải cập nhật hệ thống ngân hàng khẩn cấp, yêu cầu mình nhập lại mật khẩu toàn bộ để xác minh quyền truy cập. Cái này có phải lừa đảo không ạ?",
-    "is_scam": false,
-    "expected_verdict": "green",
-    "scam_type": "",
-    "style": "short_question",
-    "key_facts": [
-      "Yêu cầu cập nhật hệ thống từ IT là hoạt động nội bộ hợp pháp nhưng cách thức nghi ngờ",
-      "Không nên nhập mật khẩu qua email dù là từ đồng nghiệp - đây là phương thức không an toàn",
-      "Cần xác minh trực tiếp qua điện thoại hoặc hệ thống chính thức của công ty, không phải qua email",
-      "Tin nhắn này mô tả hành động hợp pháp (cập nhật hệ thống) nhưng kỹ thuật thực hiện không an toàn (phishing qua email)"
     ]
   },
   {
@@ -2181,34 +2027,6 @@
       "Nội dung liên quan đến tài chính nơi làm việc, không phải lừa đảo",
       "Tin nhắn có thể gây lo lắng nhưng vô hại vì là quy trình làm việc bình thường",
       "Người gửi có quyền yêu cầu nộp hóa đơn theo quy định công ty"
-    ]
-  },
-  {
-    "id": "benign-work_real-08",
-    "text": "Anh Minh,\n\nCông ty vừa phát hiện một số bất thường trong hệ thống quản lý dự án. Để đảm bảo an toàn thông tin, bộ phận CNTT cần xác minh lại tài khoản của toàn bộ nhân viên trong vòng 24 giờ. Anh vui lòng nhấp vào đường link dưới đây để cập nhật thông tin bảo mật: [link trang xác minh nội bộ]. Quá trình này là bắt buộc và sẽ được hoàn thành trong 10 phút. Nếu có thắc mắc, hãy liên hệ phòng IT qua hotline nội bộ 2855. Cảm ơn sự hợp tác của anh.\n\nChi tiết sự việc: Anh Trọng, một nhân viên bộ phận bán hàng, vừa nhận được tin nhắn này vào sáng thứ ba và cảm thấy lo lắng vì chưa từng nhận được thông báo kiểm tra an toàn tương tự trước đó. Anh nhay nhanh quyết định gọi điện trực tiếp cho người bạn làm việc ở bộ phận CNTT để xác nhận. Qua cuộc gọi, bạn anh xác nhận rằng đây chính là một chiến dịch xác minh bảo mật thực sự được khởi động từ hôm qua, và công ty đã gửi email chính thức để thông báo nhưng có vẻ một số người không kịp nhận được. Anh Trọng lúc đó mới yên tâm và tiến hành cập nhật thông tin tài khoản theo đúng hướng dẫn. Sau khi hoàn tất, anh nhận được email xác nhận từ hệ thống ghi rõ quá trình xác minh của anh đã thành công, không có vấn đề gì với tài khoản công ty.",
-    "is_scam": false,
-    "expected_verdict": "green",
-    "scam_type": "",
-    "style": "long_narration",
-    "key_facts": [
-      "Thông báo kiểm tra bảo mật tài khoản là thực sự từ bộ phận CNTT",
-      "Yêu cầu cập nhật thông tin bảo mật là hợp pháp và bắt buộc",
-      "Người dùng nên xác minh qua liên hệ trực tiếp hoặc kiểm tra email chính thức",
-      "Hoàn thành quá trình cập nhật là cần thiết để bảo vệ hệ thống công ty"
-    ]
-  },
-  {
-    "id": "benign-work_real-09",
-    "text": "Thông báo khẩn: Cần bạn cập nhật thông tin tài khoản ngay trong hệ thống trước 17h hôm nay. Vui lòng nhấp vào link này để xác minh: https://portal-company.local/verify-account để tránh khóa tài khoản. Đây là yêu cầu từ bộ phận NHÂN SỰ. Xin cảm ơn!",
-    "is_scam": false,
-    "expected_verdict": "green",
-    "scam_type": "",
-    "style": "verbatim_message",
-    "key_facts": [
-      "Tin nhắn có tính chất khẩn cấp giả tạo để tạo áp lực tâm lý cho người nhận",
-      "Yêu cầu cập nhật thông tin nhạy cảm qua link bên ngoài là dấu hiệu lừa đảo điển hình",
-      "Dùng tên bộ phận chính thức (NHÂN SỰ) để tạo độ tin cậy giả",
-      "URL giả mạo (portal-company.local) thay vì domain chính thức của công ty"
     ]
   },
   {

@@ -1,0 +1,52 @@
+{
+  "case_id": "scam-prize_gift-08",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Giả mạo thương hiệu Lazada để tạo lòng tin",
+      "Dùng link rút gọn đáng ngờ (bit.ly/lazada-gift-claim-vn) thay vì tên miền chính thức lazada.vn",
+      "Yêu cầu tải ứng dụng lạ không chính thức tên 'LazadaReward' có thể chứa mã độc",
+      "Kịch bản 'trúng thưởng' yêu cầu liên kết thẻ ngân hàng, nhập số tài khoản hoặc mã OTP",
+      "Tạo áp lực thời gian '24 giờ' để ép người dùng hành động gấp",
+      "Email giả mạo (tranvana.rewards@lazada-vn.com) dùng tên miền lazada-vn.com thay vì lazada.vn chính thức"
+    ],
+    "matched_patterns": [
+      "Giả mạo thương hiệu",
+      "Lừa đảo trúng thưởng",
+      "Lừa đảo qua link rút gọn",
+      "Ứng dụng giả mạo chứa mã độc",
+      "Tạo áp lực thời gian",
+      "Email/tên miền giả mạo"
+    ],
+    "recommended_actions": [
+      "KHÔNG nhấp vào link bit.ly/lazada-gift-claim-vn",
+      "KHÔNG tải ứng dụng 'LazadaReward'",
+      "KHÔNG cung cấp OTP, CMND, số tài khoản ngân hàng hay bất kỳ thông tin cá nhân nào",
+      "Gọi hotline Lazada chính thức 1900 6509 để xác minh thông tin",
+      "Kiểm tra link đáng ngờ tại trang chongluadao.vn",
+      "Báo cáo lừa đảo cho Bộ Công an qua cổng canhbao.ncsc.gov.vn",
+      "Nếu đã lỡ nhấp vào link hoặc cung cấp thông tin: đổi mật khẩu các tài khoản quan trọng ngay lập tức, liên hệ ngân hàng để khóa thẻ tạm thời, và trình báo cơ quan công an địa phương"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## 🚨 ĐÂY LÀ LỪA ĐẢO! TUYỆT ĐỐI KHÔNG NHẤP VÀO LINK!\n\nTin nhắn bạn nhận được có **tất cả các dấu hiệu điển hình của lừa đảo giả mạo thương hiệu**. Dưới đây là phân tích chi tiết:\n\n---\n\n### ❌ Tại sao đây là lừa đảo?\n\n**1. Giả mạo thương hiệu Lazada**\nLazada là một trong những sàn thương mại điện tử lớn ở Việt Nam và đã trở thành mục tiêu giả mạo của những đối tượng lừa đảo để chiếm đoạt tài sản người dùng. Kẻ xấu lợi dụng uy tín của Lazada để tạo lòng tin.\n\n**2. Dùng link rút gọn đáng ngờ (bit.ly/...)**\nLink chính thức của Lazada luôn là `lazada.vn`. Đường link các đối tượng cung cấp trong tin nhắn là địa chỉ giả mạo, có cấu trúc gần giống địa chỉ website thật, khiến người dân lầm tưởng là website thật. Link `bit.ly/lazada-gift-claim-vn` là link rút gọn không rõ nguồn gốc — **KHÔNG** phải tên miền chính thức của Lazada.\n\n**3. Yêu cầu tải app lạ \"LazadaReward\"**\nĐây không phải ứng dụng chính thức. Các đối tượng hướng dẫn người dùng cài đặt các ứng dụng, truy cập website giả mạo — các ứng dụng, website này chứa mã độc có khả năng thu thập thông tin, chiếm quyền sử dụng thiết bị của người bùng.\n\n**4. Kịch bản \"trúng thưởng\" là bẫy cổ điển**\nCác đối tượng gửi thông báo cho người dùng rằng họ may mắn trúng thưởng, rồi yêu cầu liên kết thẻ ngân hàng, đăng nhập vào đường link, nhập số tài khoản, mã OTP để nhận tiền — nhằm lừa đảo chiếm đoạt tài sản.\n\n**5. Tạo áp lực thời gian \"24 giờ\"**\nĐây là chiêu tâm lý cổ điển. Kịch bản giả mạo \"trúng thưởng lớn\" hay khuyến mãi hấp dẫn là cái bẫy quen thuộc khiến nhiều người nhẹ dạ mắc bẫy.\n\n**6. Email giả mạo (`tranvana.rewards@lazada-vn.com`)**\nEmail chính thức của Lazada Việt Nam kết thúc bằng `@lazada.vn`, **không phải** `@lazada-vn.com`. Đây là tên miền giả mạo.\n\n**7. Đây là hình thức lừa đảo đã được ghi nhận**\nMột trong những chiêu phổ biến là gửi tin nhắn giả mạo nhân viên Lazada về việc nhận quà thưởng và yêu cầu bạn phải chi trả phần phí vận chuyển hoặc hỗ trợ mới nhận được quà.\n\n---\n\n### ✅ Lazada thật hoạt động như thế nào?\n\nLazada sẽ **không** yêu cầu khách hàng cung cấp quá nhiều thông tin, đặc biệt là các mã OTP hay số tài khoản.\n\nNếu có cuộc gọi tự xưng là từ Lazada yêu cầu thông tin thanh toán, người dùng nên tắt máy ngay lập tức và liên hệ với Bộ phận Chăm sóc khách hàng của Lazada qua mục Chat với Lazada hoặc gọi hotline **1900 6509** để xác nhận lại thông tin.\n\n---\n\n### 🛡️ Bạn cần làm gì ngay bây giờ?\n\n| Việc cần làm | Chi tiết |\n|---|---|\n| 🚫 **KHÔNG nhấp vào link** | `bit.ly/lazada-gift-claim-vn` là link độc hại |\n| 🚫 **KHÔNG tải app \"LazadaReward\"** | Không phải app chính thức |\n| 🚫 **KHÔNG cung cấp OTP, CMND, số tài khoản** | Tuyệt đối không cung cấp bất kỳ thông tin nào liên quan đến OTP, tài khoản ngân hàng, địa chỉ cụ thể. |\n| 📞 **Gọi hotline Lazada chính thức** | 1900 6509 để xác minh |\n| 🔍 **Kiểm tra link đáng ngờ** | Dùng trang `chongluadao.vn` để tra cứu |\n| 🚨 **Báo cáo lừa đảo** | Báo cáo cho Bộ Công an qua cổng `canhbao.ncsc.gov.vn` |\n\n\u003e ⚠️ **Nếu bạn đã lỡ nhấp vào link hoặc cung cấp thông tin**: Hãy ngay lập tức đổi mật khẩu các tài khoản quan trọng, liên hệ ngân hàng để khóa thẻ tạm thời, và trình báo cơ quan công an địa phương.",
+  "sources": [
+    "https://www.lazada.vn/helpcenter/canh-bao-gia-mao-lazada-10426.html",
+    "https://magiamgialazada.chanhtuoi.com/Blog/lazada-lua-dao/",
+    "https://vietnamnet.vn/chieu-tro-lua-dao-gia-lam-nhan-vien-ngan-hang-tuyen-xu-ly-don-hang-2163776.html",
+    "https://chanhtuoi.com/lazada-lua-dao-p35.html",
+    "https://congan.quangtri.gov.vn/nhan-dien-mot-so-thu-doan-lua-dao-bang-cong-nghe-cao/",
+    "https://chongluadao.vn/blog/en/2023/09/canh-bao-trang-tuyen-dung-gia-mao-lazada/",
+    "https://magiamgia.com/danh-gia-lazada/",
+    "https://www.facebook.com/LazadaVietnam/posts/%EF%B8%8Fg%C3%B3c-c%E1%BA%A3nh-gi%C3%A1c%EF%B8%8Fg%E1%BA%A7n-%C4%91%C3%A2y-c%C3%B3-r%E1%BA%A5t-nhi%E1%BB%81u-h%C3%ACnh-th%E1%BB%A9c-gi%E1%BA%A3-m%E1%BA%A1o-lazada-qua-trang-tin-tin-n/6251513671612283/",
+    "https://lsvn.vn/canh-bao-thu-doan-lua-dao-mua-hang-nhan-tien-hoa-hong-1691966933-a133973.html",
+    "https://kenh14.vn/lua-dao-truc-tuyen-gay-thiet-hai-gan-19000-ty-dong-trong-nam-2024-215241217100241204.chn",
+    "https://www.scamadviser.com/check-website/lazada.vn",
+    "https://www.trustpilot.com/review/www.lazada.vn",
+    "https://www.marqvision.com/blog/is-lazada-legit",
+    "https://lazada-vietnam.pissedconsumer.com/review.html",
+    "https://www.remove.tech/brand-blog/why-lazada-struggles-with-scam-websites-and-how-identity-can-fix-it"
+  ],
+  "latency_ms": 50008
+}

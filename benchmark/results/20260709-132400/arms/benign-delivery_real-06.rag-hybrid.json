@@ -1,0 +1,15 @@
+{
+  "case_id": "benign-delivery_real-06",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "green",
+    "red_flags": [],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Mặc dù tin nhắn này là hợp lệ, vẫn nên xác minh thêm bằng cách truy cập trực tiếp vào ứng dụng Tiki để kiểm tra tình trạng đơn hàng, hoặc gõ tay URL theo dõi vào trình duyệt thay vì click link",
+      "Luôn kiểm tra kỹ thông tin đơn hàng (mã vận đơn, địa chỉ giao) qua ứng dụng gặp hàng chính thức trước khi tin tưởng bất kỳ tin nhắn nào"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 3606
+}

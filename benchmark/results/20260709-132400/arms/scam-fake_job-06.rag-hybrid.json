@@ -1,0 +1,30 @@
+{
+  "case_id": "scam-fake_job-06",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Liên hệ qua tài khoản mạng xã hội giả mạo (HRVietnam_Recruitment) thay vì kênh chính thức của công ty",
+      "Lời hứa lương cao bất thường (15 triệu/tháng) cho công việc dễ dàng, ít thời gian",
+      "Yêu cầu nộp tiền trước dưới hình thức 'bảo hiểm tài khoản' hoặc 'phí kích hoạt'",
+      "Tài khoản nhận tiền có tên giả (Công ty CP Thương Mại Mạnh Phát) không rõ nguồn gốc",
+      "Yêu cầu liên tiếp chuyển thêm tiền với các lý do khác nhau (kích hoạt gói, nâng cấp)",
+      "Sau khi chiếm đoạt đủ tiền, đối tượng tắc liên lạc và xóa tài khoản",
+      "Bản chất công việc là 'gọi vốn' từ người khác (hành vi bất hợp pháp)"
+    ],
+    "matched_patterns": [
+      "fake_job - Lừa đảo tuyển cộng tác viên online qua sàn giả mạo",
+      "fake_job - Lừa đảo 'việc nhẹ lương cao' qua mạng xã hội"
+    ],
+    "recommended_actions": [
+      "Báo cáo tài khoản Telegram giả mạo cho Telegram Support và cơ quan chức năng",
+      "Liên hệ ngân hàng nơi chuyển tiền để báo cáo tài khoản nhận tiền (có thể bị khóa/cấm giao dịch)",
+      "Nộp đơn trình báo tội lừa đảo chiếm đoạt tài sản lên Công an địa phương với đầy đủ bằng chứng (tin nhắn, thông tin tài khoản nhân danh)",
+      "Thu thập tất cả bằng chứng giao dịch, đoạn hội thoại để hỗ trợ quá trình điều tra",
+      "Kiểm tra các tài khoản liên quan của em trai để phát hiện sớm nếu thông tin cá nhân bị lợi dụng",
+      "Chia sẻ kinh nghiệm này với bạn bè, người thân để cảnh báo về chiêu trò tuyển dụng giả mạo trên mạng xã hội"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 9953
+}

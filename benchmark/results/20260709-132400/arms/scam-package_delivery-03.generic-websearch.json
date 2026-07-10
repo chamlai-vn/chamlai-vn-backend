@@ -1,0 +1,52 @@
+{
+  "case_id": "scam-package_delivery-03",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Tên miền giả mạo: 'shop.giao-hanhnhanh.xyz' không phải website chính thức của GHN (ghn.vn), dùng đuôi .xyz và viết sai chính tả có gạch ngang",
+      "Yêu cầu bấm vào đường link lạ để cập nhật thông tin đơn hàng hoặc thanh toán",
+      "Yêu cầu thực hiện nhiều bước xác minh không cần thiết nhằm đánh cắp thông tin cá nhân và tài khoản ngân hàng",
+      "Yêu cầu chuyển khoản phí giao hàng 45.000đ – số tiền nhỏ dùng làm mồi nhử để tạo lòng tin",
+      "Có nguy cơ bị yêu cầu cung cấp thông tin tài khoản ngân hàng, mật khẩu và mã OTP",
+      "Kẻ gian giả danh shipper GHN, có thể dùng đồng phục giả, gọi từ số lạ (0865.221.889) và yêu cầu chuyển khoản các khoản phí bất thường không thuộc quy định GHN"
+    ],
+    "matched_patterns": [
+      "Lừa đảo giả mạo shipper / hãng vận chuyển",
+      "Tên miền giả mạo thương hiệu uy tín",
+      "Yêu cầu chuyển khoản phí nhỏ để tạo lòng tin (mồi nhử)",
+      "Đánh cắp thông tin tài khoản ngân hàng và mã OTP qua link giả mạo"
+    ],
+    "recommended_actions": [
+      "KHÔNG bấm vào link 'shop.giao-hanhnhanh.xyz'",
+      "KHÔNG chuyển tiền dù chỉ 45.000đ",
+      "KHÔNG cung cấp mật khẩu tài khoản ngân hàng hoặc mã OTP cho bất kỳ ai",
+      "Xác minh đơn hàng qua kênh chính thức: gọi hotline GHN 1900 636 677 hoặc truy cập ghn.vn",
+      "Liên hệ bên bán hàng để xác nhận lại thông tin đơn hàng",
+      "Báo cáo số điện thoại lừa đảo 0865.221.889 lên Tổng đài 156 (Cục Viễn thông)",
+      "Trình báo cơ quan công an gần nhất nếu có dấu hiệu bị lừa đảo"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 ĐÂY LÀ LỪA ĐẢO! Đừng bấm vào link và đừng chuyển tiền!\n\nTình huống bạn mô tả có **đầy đủ dấu hiệu của một vụ lừa đảo giả mạo shipper** đang rất phổ biến tại Việt Nam. Dưới đây là phân tích chi tiết:\n\n---\n\n## ❌ Tại sao đây là lừa đảo?\n\n### 1. Tên miền giả mạo – Dấu hiệu rõ nhất\nWebsite **`shop.giao-hanhnhanh.xyz`** là **KHÔNG PHẢI** website chính thức của Giao Hàng Nhanh. Website thật của GHN là `ghn.vn`. Đuôi `.xyz` kết hợp với tên miền \"giao-hanhnhanh\" (viết có gạch ngang, sai chính tả) là kiểu domain giả mạo điển hình. Hãy chú ý đến tên miền và đường dẫn URL – trường hợp có lỗi chính tả hoặc không có các chứng chỉ tín nhiệm mạng, đây rất có thể là trang giả mạo để đánh cắp thông tin.\n\n### 2. Đây là thủ đoạn lừa đảo cực kỳ phổ biến\nKẻ xấu có thể gửi đường dẫn giả mạo đến khách hàng thông qua tin nhắn hoặc email, yêu cầu cập nhật thông tin đơn hàng hoặc thanh toán.\n\nKẻ gian thường cố tình tạo ra quy trình thanh toán phức tạp, yêu cầu người nhận truy cập vào đường link lạ hoặc thực hiện nhiều bước xác minh không cần thiết – mục đích là đánh cắp thông tin cá nhân và tài khoản ngân hàng thay vì tiến hành giao dịch trên ứng dụng chính thức.\n\n### 3. Số tiền nhỏ là bẫy để chiếm lòng tin\nKẻ lừa đảo thường yêu cầu chuyển khoản trước với các nội dung như thanh toán phí giao hàng – và để tạo lòng tin, số tiền yêu cầu sẽ rất nhỏ để tránh bị nghi ngờ. Con số 45.000đ chính là \"mồi nhử\" này.\n\n### 4. Nguy cơ mất toàn bộ tài khoản ngân hàng\nChúng sẽ gửi các đường link giả mạo, yêu cầu nạn nhân bấm vào để chiếm đoạt tài khoản ngân hàng và toàn bộ số tiền đã thanh toán.\n\nMột kịch bản thường thấy sau đó: Kẻ lừa đảo tiếp tục liên hệ, dựng chuyện người dùng đã chuyển nhầm tiền vào \"tài khoản thành viên\" và sẽ bị trừ tự động hàng triệu đồng mỗi tháng. Nạn nhân hoảng sợ, được hướng dẫn kết bạn qua mạng xã hội và nhận được đường link có giao diện hãng giao hàng, bị yêu cầu cung cấp thông tin tài khoản ngân hàng, mật khẩu và mã OTP.\n\n### 5. GHN không bao giờ yêu cầu làm vậy\nKẻ gian giả danh shipper GHN, dùng đồng phục giả, gọi từ số lạ và yêu cầu chuyển khoản các khoản phí bất thường không thuộc quy định GHN.\n\n---\n\n## ✅ Bạn cần làm gì ngay bây giờ?\n\n| Việc cần làm | Chi tiết |\n|---|---|\n| 🚫 **KHÔNG bấm vào link** | Tuyệt đối không truy cập `shop.giao-hanhnhanh.xyz` |\n| 🚫 **KHÔNG chuyển tiền** | Dù chỉ 45.000đ |\n| 🚫 **KHÔNG cung cấp OTP/mật khẩu** | Tuyệt đối không cung cấp mật khẩu tài khoản ngân hàng, mã OTP cho bất kỳ ai dưới mọi hình thức, kể cả khi người đó xưng là nhân viên giao hàng. |\n| ✅ **Xác minh qua kênh chính thức** | Gọi hotline GHN: **1900 636 677** hoặc truy cập `ghn.vn` để kiểm tra đơn hàng thật sự của bạn |\n| ✅ **Liên hệ người bán** | Hãy bình tĩnh từ chối yêu cầu và liên hệ bên bán hàng để xác nhận lại thông tin. |\n| ✅ **Báo cáo số điện thoại lừa đảo** | Phản ánh số `0865.221.889` lên **Tổng đài 156** (Cục Viễn thông) |\n| ✅ **Trình báo công an** | Khi có dấu hiệu bất thường hoặc nghi ngờ bị lừa đảo, lập tức dừng mọi giao dịch/liên lạc và nhanh chóng trình báo cơ quan công an gần nhất để được hỗ trợ kịp thời. |\n\n---\n\n\u003e 💡 **Ghi nhớ:** Giao Hàng Nhanh (GHN) hoặc bất kỳ hãng vận chuyển uy tín nào **KHÔNG BAO GIỜ** yêu cầu bạn truy cập link lạ, xác nhận địa chỉ qua website bên thứ ba, hay thanh toán phí trước khi nhận hàng.",
+  "sources": [
+    "https://ghn.vn/blogs/thong-tin-giao-hang/canh-giac-thu-doan-shipper-lua-dao",
+    "https://ghn.vn/blogs/thong-tin-giao-hang/cong-ty-giao-hang-lua-dao-cach-nhan-biet-va-phong-tranh",
+    "https://ghn.vn/blogs/tip-ban-hang/cach-lay-lai-tien-da-chuyen-khoan-khi-bi-lua",
+    "https://vnpost.vn/vi/hoat-dong-nganh/giao-hang-gia-mao-lua-dao-that-canh-bao-tu-nhung-don-hang-chua-giao",
+    "https://vnpost.vn/vi/hoat-dong-nganh/can-trong-de-khong-sap-bay-lua-dao-giao-hang",
+    "https://congan.hatinh.gov.vn/tin-tuc-su-kien/an-ninh-trat-tu/bay-don-hang-0-dong-chieu-lua-cu-thu-doan-moi-1746687986.caht",
+    "https://congan.quangtri.gov.vn/canh-giac-thu-doan-gia-danh-shipper-lua-dao-khach-hang-chuyen-khoan/",
+    "https://newpost.vn/blogs/tin-tuc/canh-bao-thu-doan-gia-mao-nhan-vien-giao-hang-de-lua-dao-chiem-doat-tai-san",
+    "https://baohaiquanvietnam.vn/tin-tuc/canh-bao-lua-dao-thong-qua-hinh-thuc-giao-hang",
+    "https://hoilhpn.org.vn/en/tin-chi-tiet/-/chi-tiet/giao-hang-gia-mao-lua-%C4%91ao-that-canh-bao-tu-nhung-%C4%91on-hang-chua-giao-536303-8.html",
+    "https://ghn.vn/blogs/tip-ban-hang/shopee-mall-co-lua-dao-khong",
+    "https://www.vietnam.vn/en/giao-hang-gia-mao-lua-dao-that-canh-bao-tu-nhung-don-hang-chua-giao",
+    "https://www.tiktok.com/discover/shopacckhanhcom-c%C3%B3-uy-t%C3%ADn-kh%C3%B4ng",
+    "https://www.youtube.com/watch?v=xjdm6jOqCs8",
+    "https://congan.com.vn/vu-an/canh-giac/can-trong-khi-nhan-hang-va-chuyen-tien_167772.html",
+    "https://congan.ninhbinh.gov.vn/canh-bao-chieu-tro-shop-ao-lua-dao-tren-facebook",
+    "https://kenh14.vn/nguoi-tung-sap-bay-lua-dao-giao-hang-ship-cod-can-khan-truong-trinh-bao-cong-an-215260707132857904.chn"
+  ],
+  "latency_ms": 56604
+}

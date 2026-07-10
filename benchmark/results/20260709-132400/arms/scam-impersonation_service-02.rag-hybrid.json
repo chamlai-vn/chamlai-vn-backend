@@ -1,0 +1,30 @@
+{
+  "case_id": "scam-impersonation_service-02",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Cuộc gọi từ số điện thoại không phải số chính thức của Viettel",
+      "Tự xưng là nhân viên Viettel nhưng sử dụng phương thức liên hệ không chính thức",
+      "Yêu cầu tải ứng dụng từ đường link lạ (viettel-secureupdate.tk) thay vì Google Play Store hoặc App Store chính thức",
+      "Tên miền giả mạo (viettel-secureupdate.tk) không phải tên miền chính thức của Viettel",
+      "Tạo áp lực khẩn cấp bằng cách báo cáo 'dấu hiệu sử dụng bất thường ở nước ngoài' yêu cầu xác minh tức thì",
+      "Đe dọa khóa SIM trong 24 giờ khi bị từ chối để ép nạn nhân tuân theo yêu cầu",
+      "Yêu cầu cài đặt ứng dụng lạ (phần mềm độc hại tiềm năng) mà không thông qua kênh chính thức"
+    ],
+    "matched_patterns": [
+      "impersonation_service",
+      "impersonation_authority"
+    ],
+    "recommended_actions": [
+      "Tuyệt đối không cài đặt ứng dụng từ các đường link gửi qua tin nhắn hoặc cuộc gọi - chỉ tải từ Google Play Store hoặc Apple App Store chính thức",
+      "Khi nhận cuộc gọi tự xưng là nhân viên Viettel, hãy chủ động gọi lại số tổng đài chính thức của Viettel (19000, 24/7) để xác minh độc lập",
+      "Không bao giờ cung cấp mã OTP hay thông tin nhạy cảm cho người lạ qua điện thoại hoặc ứng dụng lạ",
+      "Kiểm tra tên miền URL kỹ lưỡng - tên miền Viettel chính thức là viettel.com.vn, không bao giờ là các tên miền lạ như viettel-secureupdate.tk",
+      "Báo cáo số điện thoại giả mạo và đường link lừa đảo cho Viettel và cơ quan Công an để ngăn chặn các nạn nhân khác",
+      "Bất kỳ yêu cầu thanh toán, cập nhật thông tin hay thay đổi dịch vụ nên được thực hiện trực tiếp tại cửa hàng Viettel chính thức hoặc qua ứng dụng My Viettel chính thức"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 8334
+}

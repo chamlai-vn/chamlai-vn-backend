@@ -1,0 +1,29 @@
+{
+  "case_id": "scam-loan_scam-02",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Mạo danh công ty tài chính không chính thức (VietCredit Pro)",
+      "Lãi suất bất thường thấp (0,5%/tháng)",
+      "Yêu cầu chuyển tiền phí xác minh trước khi giải ngân",
+      "Liên hệ qua Zalo từ số điện thoại lạ (không phải đường dây chính thức)",
+      "Ngân hàng không rõ nguồn gốc (TechBank - không phổ biến)",
+      "Thủ tục vay được mô tả quá đơn giản mà không thẩm định",
+      "Hứa hẹn hạn mức vay cao mà không kiểm tra tín dụng"
+    ],
+    "matched_patterns": [
+      "loan_scam - Giả danh công ty tài chính lừa đảo cho vay với lãi suất bất thường thấp, yêu cầu nộp phí trước",
+      "loan_scam - Lừa đảo vay tiền qua app giả mạo công ty tài chính, yêu cầu nộp phí xác minh"
+    ],
+    "recommended_actions": [
+      "Không chuyển khoản tiền phí xác minh hay bất kỳ khoản chi phí nào trước khi nhận tiền vay",
+      "Khi cần vay tiền, liên hệ trực tiếp đến chi nhánh ngân hàng hoặc công ty tài chính được cấp phép hoạt động chính thức, kiểm tra mã số thuế và giấy phép trên website chính thức",
+      "Tuyệt đối không cung cấp thông tin cá nhân (CMND/CCCD, ảnh nhận diện) cho người không xác định được danh tính",
+      "Nếu có nghi ngờ, gọi trực tiếp hotline chính thức của ngân hàng/công ty tài chính để xác minh thông tin",
+      "Báo cáo số điện thoại lừa đảo cho cơ quan công an hoặc nhà mạng để chặn tiếp"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 7466
+}

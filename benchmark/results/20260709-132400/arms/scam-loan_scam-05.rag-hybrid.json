@@ -1,0 +1,29 @@
+{
+  "case_id": "scam-loan_scam-05",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Yêu cầu nạp tiền trước để 'xác minh tài khoản' - chiêu thức lừa đảo điển hình",
+      "App 'FastLoan Pro' không rõ nguồn gốc, có thể là app giả mạo",
+      "Lãi suất và điều kiện vay không được cung cấp rõ ràng",
+      "Liên hệ qua số điện thoại lạ, không có thông tin xác minh từ tổ chức chính thức",
+      "Hứa hẹn giải ngân nhanh chóng sau khi nạp phí - dấu hiệu điển hình của tín dụng đen",
+      "Không đề cập đến bất kỳ giấy phép hoạt động hay thông tin pháp nhân nào"
+    ],
+    "matched_patterns": [
+      "Lừa đảo vay tiền qua app giả mạo công ty tài chính, yêu cầu nộp phạt trước",
+      "App vay tiền quảng cáo trên mạng - Lừa đảo tín dụng đen",
+      "Giả danh ngân hàng, công ty tài chính lừa đảo cho vay 'tín dụng đen' qua mạng"
+    ],
+    "recommended_actions": [
+      "Tuyệt đối KHÔNG chuyển tiền 890 nghìn hay bất kỳ khoản phí nào",
+      "Ngắt liên lạc với số điện thoại này ngay lập tức và chặn số",
+      "Không tải hoặc sử dụng app 'FastLoan Pro' - đây là app giả mạo",
+      "Nếu cần vay tiền, chỉ liên hệ trực tiếp với các ngân hàng hoặc công ty tài chính có giấy phép chính thức (kiểm tra trên Cổng thông tin quốc gia về đăng ký doanh nghiệp)",
+      "Báo cáo số điện thoại và app giả mạo này cho Công an nơi cư trú hoặc Cục Cảnh sát hình sự để xử lý"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 7634
+}

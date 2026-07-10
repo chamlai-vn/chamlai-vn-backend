@@ -1,0 +1,40 @@
+{
+  "case_id": "scam-fake_job-06",
+  "rag_verdict": {
+    "strengths": [
+      "Xác định đúng mức độ rủi ro (red) và phân loại chính xác chiêu trò fake_job",
+      "Liệt kê đầy đủ và chính xác các dấu hiệu cảnh báo, bao gồm cả bản chất 'gọi vốn' bất hợp pháp",
+      "Bao quát đủ 4 ý chính: công việc giả lương cao, phí bảo hiểm, chuyển khoản ngân hàng, tài khoản Telegram giả tắc liên lạc",
+      "Khuyến nghị hành động cụ thể và thực tế: báo Telegram, liên hệ ngân hàng, trình báo công an, thu thập bằng chứng",
+      "Trình bày ngắn gọn, có cấu trúc rõ ràng, dễ theo dõi"
+    ],
+    "weaknesses": [
+      "Không cảnh báo về nguy cơ lừa đảo lần 2 (dịch vụ 'lấy lại tiền')",
+      "Không đề cập tổng số tiền cụ thể bị chiếm đoạt (3,7 triệu)",
+      "Giọng văn khá khô khan, thiếu sự đồng cảm với người thân nạn nhân",
+      "Không giải thích cơ chế tâm lý khiến nạn nhân dễ mắc bẫy"
+    ],
+    "reasoning": "Câu trả lời A chính xác, súc tích và bao quát tốt các ý chính. Phân loại chiêu trò đúng, dấu hiệu và khuyến nghị thực tế. Tuy nhiên thiếu chiều sâu giải thích tâm lý, không nhắc số tiền cụ thể và thiếu cảnh báo lừa đảo lần 2 — một yếu tố quan trọng cho nạn nhân đang hoang mang.",
+    "score": 7.5
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Giải thích rất chi tiết cơ chế lừa đảo qua từng dấu hiệu, giúp người đọc hiểu bản chất kịch bản",
+      "Cảnh báo thêm về nguy cơ lừa đảo lần 2 (dịch vụ 'lấy lại tiền') — rất quan trọng và thiết thực",
+      "Giải thích cơ chế tâm lý (Ngụy biện chi phí chìm) làm rõ vì sao nạn nhân bị dụ nạp thêm tiền",
+      "Hướng dẫn hành động cụ thể theo từng bước, có nhắc kênh VNeID để trình báo",
+      "Giọng văn đồng cảm, trấn an người thân nạn nhân, khuyến khích hành động nhanh",
+      "Đưa ra bài học phòng tránh rõ ràng, dễ nhớ"
+    ],
+    "weaknesses": [
+      "Một số mô tả không hoàn toàn khớp tình huống của Minh (ví dụ nhấn mạnh 'nhận hoa hồng nhỏ tạo lòng tin' trong khi bài gốc không nêu Minh từng nhận được tiền)",
+      "Không nêu tổng số tiền cụ thể bị chiếm đoạt (3,7 triệu)",
+      "Dùng nhiều emoji và định dạng có thể gây rối, hơi dài dòng",
+      "Khẳng định 'chắc chắn 100%' hơi tuyệt đối, dù trong ngữ cảnh này phù hợp"
+    ],
+    "reasoning": "Câu trả lời B bao quát đầy đủ các ý chính và vượt trội ở chiều sâu giải thích cơ chế lừa đảo, tâm lý nạn nhân, và đặc biệt là cảnh báo lừa đảo lần 2 — rất giá trị cho người đang hoang mang. Giọng văn đồng cảm và hướng dẫn hành động chi tiết. Điểm trừ nhỏ là một vài chi tiết mô tả chung không khớp hoàn toàn tình huống và hơi dài.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

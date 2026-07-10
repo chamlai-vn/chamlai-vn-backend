@@ -1,0 +1,29 @@
+{
+  "case_id": "scam-ecommerce_scam-01",
+  "rag_verdict": {
+    "strengths": [
+      "Đầy đủ các ý chính được yêu cầu.",
+      "Cấu trúc rõ ràng, dễ theo dõi.",
+      "Lời khuyên kiểm tra lịch sử fanpage rất hữu ích và thực tế."
+    ],
+    "weaknesses": [
+      "Trình bày hơi ngắn gọn, chưa phân tích sâu vì sao mức giá 890k là phi lý.",
+      "Thiếu các hướng dẫn báo cáo hoặc kiểm tra thông tin qua các kênh chính thống của nhà nước."
+    ],
+    "reasoning": "Câu trả lời A đáp ứng đầy đủ các ý chính được yêu cầu. Định dạng rõ ràng theo cấu trúc phân loại rủi ro, dấu hiệu cảnh báo, chiêu trò và khuyến nghị. Phần khuyến nghị kiểm tra lịch sử fanpage rất thực tế. Tuy nhiên, phần phân tích còn hơi ngắn gọn và chưa sâu sắc bằng câu trả lời B.",
+    "score": 8.5
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Đáp ứng đầy đủ, chi tiết và phân tích sâu sắc tất cả các ý chính.",
+      "Định dạng đẹp mắt, trực quan, dễ đọc và tạo được sự cảnh báo tốt.",
+      "Cung cấp dẫn chứng thực tế từ cơ quan chức năng (Công an Đà Nẵng).",
+      "Hướng dẫn hành động cụ thể và cung cấp các công cụ kiểm tra/tố cáo hữu ích (tinnhiemmang.vn, đầu số 156)."
+    ],
+    "weaknesses": [],
+    "reasoning": "Câu trả lời B xuất sắc về mọi mặt. Không chỉ đáp ứng đầy đủ và chi tiết tất cả các ý chính, câu trả lời còn phân tích sâu sắc lý do tại sao mức giá đó là phi thực tế. Định dạng sử dụng emoji trực quan, tạo cảm giác khẩn cấp cần thiết. Đặc biệt, câu trả lời bổ sung thông tin cảnh báo từ Công an Đà Nẵng, hướng dẫn kiểm tra số tài khoản qua tinnhiemmang.vn và cách báo cáo qua đầu số 156, mang lại giá trị thực tiễn rất cao cho người dùng.",
+    "score": 10
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

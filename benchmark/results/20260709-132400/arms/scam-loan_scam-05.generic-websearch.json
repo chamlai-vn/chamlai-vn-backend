@@ -1,0 +1,51 @@
+{
+  "case_id": "scam-loan_scam-05",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Yêu cầu nạp phí 890k trước khi giải ngân với lý do 'xác minh tài khoản'",
+      "Chủ động gọi điện mời vay — ngân hàng chính thống không bao giờ làm vậy",
+      "Sau khi nhận phí, kẻ lừa đảo sẽ chặn liên lạc và biến mất",
+      "Kịch bản đánh vào tâm lý cần tiền gấp, thủ tục đơn giản, giải ngân nhanh",
+      "App 'FastLoan Pro' mạo danh công ty tài chính uy tín, yêu cầu xác minh tài khoản hoặc đe dọa nếu không trả nợ"
+    ],
+    "matched_patterns": [
+      "Yêu cầu đóng phí trước khi giải ngân (phí thẩm định, phí mở tài khoản, phí bảo hiểm, phí kích hoạt)",
+      "Giả mạo nhân viên công ty tài chính/ngân hàng uy tín",
+      "App vay tiền lừa đảo (FastLoan / FastLoan Pro / FastLoan 365)"
+    ],
+    "recommended_actions": [
+      "TUYỆT ĐỐI KHÔNG chuyển 890k hay bất kỳ khoản phí nào",
+      "Chặn ngay số điện thoại, tài khoản mạng xã hội của đối tượng",
+      "Lưu bằng chứng: chụp màn hình tin nhắn, cuộc gọi, thông tin tài khoản nhận tiền, tên app",
+      "Tố cáo với cơ quan chức năng: Công an (113 / 069.219.4050), Ngân hàng Nhà nước (1900 545441), Cục An toàn Thông tin (024.3943.6684)",
+      "Cảnh báo người thân và bạn bè để tránh mắc bẫy tương tự"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 ĐÂY LÀ LỪA ĐẢO 100%! Đừng chuyển tiền!\n\nTình huống bạn mô tả là **một trong những chiêu lừa đảo phổ biến và điển hình nhất** tại Việt Nam hiện nay. Dưới đây là phân tích chi tiết:\n\n---\n\n## ❌ Tại sao đây là lừa đảo?\n\n### 1. Dấu hiệu số 1: Yêu cầu nạp phí trước khi nhận tiền\nYêu cầu đóng phí trước khi giải ngân là **dấu hiệu điển hình nhất** của lừa đảo. Các app lừa đảo thường yêu cầu nạn nhân chuyển khoản các khoản phí như phí thẩm định hồ sơ, phí mở tài khoản, phí bảo hiểm, **phí kích hoạt tài khoản**… với lý do cần xác minh khả năng thanh toán.\n\n**Kịch bản bạn gặp khớp hoàn toàn:** Họ yêu cầu bạn nạp 890k để \"xác minh tài khoản\" — đây chính xác là chiêu đó.\n\n### 2. Dấu hiệu số 2: Chủ động gọi điện mời vay\nNgân hàng chính thống **không bao giờ gọi điện chào vay chủ động** hay yêu cầu khách hàng chuyển phí trước.\n\n### 3. Dấu hiệu số 3: Chúng sẽ biến mất ngay sau khi bạn nạp tiền\nKẻ lừa đảo thường tự xưng là nhân viên của các công ty tài chính hoặc ngân hàng uy tín, yêu cầu cung cấp thông tin cá nhân và nộp một khoản phí để giải ngân. **Sau khi nhận được phí, chúng sẽ chặn mọi liên lạc và biến mất.**\n\n### 4. Dấu hiệu số 4: Kịch bản quen thuộc, lặp đi lặp lại\nCác đối tượng đánh vào tâm lý cần tiền gấp, muốn vay nhanh, thủ tục đơn giản. Khi người dân liên hệ, chúng thông báo hồ sơ đã được phê duyệt, rồi viện ra nhiều lý do như: **đóng phí hồ sơ, phí bảo hiểm khoản vay, phí xác minh tài khoản**, phí mở hạn mức, tiền ký quỹ hoặc tiền thuế…\n\n### 5. Về app \"FastLoan Pro\"\nFast Loan và các ứng dụng tương tự thường quảng cáo các gói vay với lãi suất thấp, giải ngân nhanh, và không cần tài sản thế chấp. Tuy nhiên, sau khi người dùng cung cấp thông tin cá nhân và cài đặt ứng dụng, họ bị yêu cầu chuyển tiền để **\"xác minh tài khoản\"** hoặc bị đe dọa nếu không trả nợ.\n\nFastLoan 365 là app vay tiền có giao diện bắt mắt nhưng **hoạt động lừa đảo nghiêm trọng**, mạo danh công ty tài chính uy tín để thu hút khách hàng.\n\n---\n\n## ✅ Bạn cần làm ngay những việc này:\n\n### Bước 1: TUYỆT ĐỐI KHÔNG chuyển 890k\nKhông chuyển tiền dưới bất kỳ hình thức nào đối với các yêu cầu phải chuyển tiền đóng phí trước khi được xem xét hoặc giải ngân hồ sơ vay.\n\n### Bước 2: Chặn số điện thoại\nDừng ngay mọi giao dịch và liên lạc với đối tượng lừa đảo. Chặn tất cả các số điện thoại, tài khoản mạng xã hội của những người đã liên lạc với bạn.\n\n### Bước 3: Lưu bằng chứng\nChụp lại màn hình tất cả các tin nhắn, cuộc gọi, email trao đổi với đối tượng lừa đảo. Lưu giữ các biên lai chuyển khoản (nếu có), thông tin tài khoản nhận tiền, số điện thoại liên lạc, tên ứng dụng và website.\n\n### Bước 4: Tố cáo với cơ quan chức năng\nBạn có thể liên hệ: Công an địa phương hoặc đường dây nóng của Bộ Công an: **113** hoặc **069.219.4050** | Ngân hàng Nhà nước Việt Nam: **1900 545441** | Cục An toàn Thông tin (Bộ TT\u0026TT): **024.3943.6684**\n\n### Bước 5: Cảnh báo người thân\nChia sẻ thông tin này để người thân, bạn bè không mắc bẫy tương tự.\n\n---\n\n## 💡 Quy tắc vàng cần nhớ\n\n\u003e **Không một tổ chức cho vay hợp pháp nào yêu cầu bạn nạp tiền trước để nhận khoản vay. Nếu ai yêu cầu điều này — đó chắc chắn là lừa đảo.**\n\nNếu có nhu cầu vay vốn chính đáng, hãy liên hệ các **ngân hàng, tổ chức tín dụng và công ty tài chính được cơ quan có thẩm quyền cấp phép hoạt động**. Bạn may mắn vì chưa chuyển tiền — hãy dừng lại ngay!",
+  "sources": [
+    "https://www.aia.com.vn/vi/song-khoe/loi-khuyen/tai-chinh/bi-lua-dao-vay-tien-online-phai-lam-sao.html",
+    "https://zalopay.vn/bi-lua-vay-tien-qua-app-phai-lam-sao-7076",
+    "https://congan.quangngai.gov.vn/danh-muc-san-pham/-tin-tuc-su-kien/canh-bao-lua-dao-voi-thu-doan-mao-danh-ngan-hang-cho-vay-tien-online-voi-lai-suat-thap-vao-dip-cuoi-nam.html",
+    "https://baodongnai.com.vn/doanh-nhan-doanh-nghiep/dich-vu/202407/lam-gi-khi-bi-lua-dao-vay-tien-online-nhung-buoc-xu-ly-hieu-qua-ef9428a/",
+    "https://cafef.vn/tat-ca-nguoi-dan-khi-vay-tien-dac-biet-chu-y-188260709101404598.chn",
+    "https://vietmoney.vn/bi-lua-vay-tien-qua-app-phai-lam-sao/",
+    "https://royallaw.vn/cach-giai-quyet-khi-bi-lua-dao-vay-tien-online/",
+    "https://vietmoney.vn/lua-dao-vay-tien-online/",
+    "https://vietnamnet.vn/vach-tran-thu-doan-lua-dao-cho-vay-tien-online-lai-suat-thap-789212.html",
+    "https://tuoitre.vn/bi-lua-cung-cap-otp-va-cccd-cho-ke-xau-gio-app-cho-vay-doi-tien-phai-lam-sao-20251017151505482.htm",
+    "https://vay888.net/fast-loan/",
+    "https://eit.edu.vn/fast-loan.html",
+    "https://visala.info/fast-loan-vay-tien/",
+    "https://codientech.edu.vn/nhung-app-vay-tien-bi-bat.html",
+    "https://h5vay.com/fast-loan-vay-tien-lua-dao",
+    "https://ufa.edu.vn/tag/cach-vay-tien-fast-loan",
+    "https://www.momo.vn/vay-nhanh/blog/bi-lua-dao-vay-tien-online-1090",
+    "https://congan.quangninh.gov.vn/thong-bao/thu-doan-toi-pham/canh-bao-mot-so-thu-doan-lua-dao-vay-tien-qua-app-tren-mang-xa-hoi-2535.html",
+    "https://appvaynhanh.com/fastmoneypro/",
+    "https://taiappvay.pro/fast-loan/"
+  ],
+  "latency_ms": 55081
+}

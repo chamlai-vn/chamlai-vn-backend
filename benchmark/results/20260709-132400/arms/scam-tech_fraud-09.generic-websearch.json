@@ -1,0 +1,27 @@
+{
+  "case_id": "scam-tech_fraud-09",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Tên miền giả mạo (đuôi .tk) — hoàn toàn không phải website chính thức của ngân hàng",
+      "Yêu cầu nhập mã OTP qua link lạ — ngân hàng không bao giờ yêu cầu cung cấp mật khẩu/OTP theo cách này",
+      "Câu \"lưu ý không chia sẻ OTP cho ai\" là chiêu tâm lý tạo cảm giác an toàn giả, trong khi nhập OTP vào link đó chính là đang chia sẻ cho kẻ gian",
+      "Kịch bản \"phát hiện hoạt động lạ từ IP nước ngoài\" tạo cảm giác khẩn cấp để hành động vội vàng"
+    ],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Không nhấp vào link, không nhập OTP/mật khẩu/thông tin cá nhân nào",
+      "Không gọi lại số điện thoại hoặc reply tin nhắn đó",
+      "Nếu đã lỡ nhấp link nhưng chưa nhập gì: xóa ngay, không nhập thông tin",
+      "Nếu đã lỡ nhập OTP/mật khẩu: khóa tài khoản/thẻ ngay qua app chính thức hoặc gọi hotline chính thức, đổi mật khẩu eBank ngay",
+      "Muốn kiểm tra tài khoản: tự mở app ngân hàng chính thức hoặc gọi hotline, không dùng link trong tin nhắn",
+      "Chặn số/tin nhắn và báo cáo cho nhà mạng hoặc công an nếu đã mất tiền",
+      "Bật xác thực 2 lớp và sinh trắc học trên app ngân hàng để tăng bảo mật"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## Kết luận: Đây là LỪA ĐẢO (Phishing) — gần như chắc chắn 100%\n\n### Dấu hiệu nhận biết rõ ràng:\n\n1. **Tên miền giả mạo**: `tpbank-secure-verify.tk` — hoàn toàn không phải website chính thức. Website thật của TPBank chỉ là `https://tpb.vn` hoặc các trang con `*.tpb.vn`. Đuôi `.tk` là tên miền miễn phí, kẻ gian hay dùng vì dễ đăng ký và khó truy vết.\n\n2. **Yêu cầu nhập mã OTP qua link lạ** — đây là dấu hiệu lừa đảo kinh điển nhất. TPBank không bao giờ yêu cầu khách hàng cung cấp mật khẩu, mã OTP trong bất cứ trường hợp nào.\n\n3. **\"Lưu ý không chia sẻ OTP cho ai\"** — đây là chiêu tâm lý rất tinh vi: kẻ gian cố tình thêm câu này để tạo cảm giác an toàn giả, khiến bạn tin tưởng và mất cảnh giác, trong khi chính hành động nhập OTP vào link đó *chính là* đang \"chia sẻ\" OTP cho kẻ gian.\n\n4. **Kịch bản \"phát hiện hoạt động lạ từ IP nước ngoài\"** — tạo cảm giác khẩn cấp, hoảng sợ để bạn hành động vội vàng mà không suy xét kỹ, đây là chiến thuật lừa đảo cổ điển.\n\n5. Theo khuyến cáo chính thức từ TPBank, tuyệt đối không cung cấp thông tin bảo mật như tên đăng nhập, mã OTP, số thẻ, mã CVV, mật khẩu tài khoản qua các đường dẫn, tin nhắn, chat, cuộc gọi chưa được xác thực trong bất kỳ trường hợp nào, và các website/link yêu cầu đăng nhập dịch vụ ngân hàng điện tử được gửi qua kênh ngoài ứng dụng chính thống đều là giả mạo.\n\n### Bạn nên làm gì tiếp theo:\n\n- ❌ **KHÔNG** nhấp vào link, **KHÔNG** nhập OTP, mật khẩu hay bất kỳ thông tin cá nhân nào.\n- ❌ Không gọi lại số điện thoại hoặc reply tin nhắn đó.\n- ✅ Nếu đã lỡ nhấp vào link nhưng chưa nhập gì: xóa ngay, không nhập thông tin.\n- ✅ Nếu đã lỡ nhập OTP/mật khẩu: **ngay lập tức** khóa tài khoản/thẻ qua app TPBank chính thức hoặc gọi hotline chính thức: **1900 6036 / 1900 585885**, đồng thời đổi mật khẩu eBank ngay.\n- ✅ Nếu muốn kiểm tra tài khoản có vấn đề thật không, hãy tự mở app TPBank chính thức (tải từ Google Play/App Store) hoặc gọi hotline trên — **không** dùng link trong tin nhắn.\n- ✅ Có thể chặn số/tin nhắn và báo cáo tin nhắn lừa đảo cho nhà mạng hoặc cơ quan công an nếu đã bị mất tiền.\n- ✅ Nên bật xác thực 2 lớp và sinh trắc học trên app ngân hàng để tăng bảo mật.\n\nNói ngắn gọn: ngân hàng thật **không bao giờ** yêu cầu bạn xác minh danh tính bằng cách nhập OTP qua một đường link gửi trong SMS. Đây là chiêu đánh cắp OTP để chiếm đoạt tài khoản — hãy xóa tin nhắn và không tương tác với link này.",
+  "sources": [],
+  "latency_ms": 0
+}

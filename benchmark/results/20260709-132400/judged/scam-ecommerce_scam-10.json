@@ -1,0 +1,39 @@
+{
+  "case_id": "scam-ecommerce_scam-10",
+  "rag_verdict": {
+    "strengths": [
+      "Xác định đúng mức độ rủi ro là 'red' và liệt kê đầy đủ các dấu hiệu cảnh báo phù hợp với tình huống",
+      "Đề cập đủ 4 ý chính: giá rẻ bất thường, đánh giá 5 sao giả, thanh toán cọc qua ngân hàng cá nhân + đòi thêm phí, chuyển kênh chat để tránh chứng cứ",
+      "Cấu trúc rõ ràng, súc tích, dễ đọc với các mục phân loại",
+      "Có khuyến nghị thực tế: báo công an, liên hệ ngân hàng khóa tài khoản, lưu bằng chứng, cảnh báo người thân"
+    ],
+    "weaknesses": [
+      "Không cung cấp kênh báo cáo cụ thể (không có số hotline hay cổng thông tin chính thức như 1022, ncsc.gov.vn)",
+      "Lời khuyên tương đối chung chung, thiếu hướng dẫn phòng tránh trong tương lai một cách chi tiết",
+      "Thiếu sự đồng cảm với nạn nhân (không có lời an ủi khi họ đã mất tiền)",
+      "Không giải thích sâu 'tại sao' mỗi dấu hiệu là lừa đảo, chỉ liệt kê"
+    ],
+    "reasoning": "Câu trả lời A chính xác, đầy đủ về mặt nhận diện dấu hiệu và bao quát hết các ý chính. Cấu trúc gọn gàng và dễ theo dõi. Tuy nhiên thiếu chi tiết về kênh báo cáo cụ thể và phần phòng tránh tương lai, cũng như thiếu tính đồng cảm. Đây là một câu trả lời tốt, đáng tin cậy nhưng chưa toàn diện bằng B.",
+    "score": 7.5
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Bao quát toàn bộ 4 ý chính một cách chi tiết, mỗi dấu hiệu được giải thích rõ 'tại sao' là lừa đảo",
+      "Cung cấp kênh báo cáo cụ thể và hữu ích: Cổng 1022, khieunai.cac.gov.vn, canhbao.ncsc.gov.vn",
+      "Hướng dẫn hành động rất cụ thể (mang theo gì khi trình báo, phong tỏa giao dịch ngân hàng)",
+      "Có phần bài học phòng tránh tương lai rõ ràng",
+      "Thể hiện sự đồng cảm với nạn nhân, tạo cảm giác được hỗ trợ",
+      "Phân tích tên miền .shop là dấu hiệu đáng ngờ - chi tiết tinh tế"
+    ],
+    "weaknesses": [
+      "Trích dẫn số liệu thống kê (18.900 tỷ đồng, Hiệp hội An ninh mạng 2024) có thể không kiểm chứng chính xác - rủi ro về độ tin cậy",
+      "Tuyên bố 'LỪA ĐẢO 100%' hơi quá tuyệt đối về mặt ngôn từ",
+      "Dùng nhiều emoji và định dạng có thể gây rối cho một số người đọc",
+      "Hơi dài dòng, một số nội dung có thể được cô đọng hơn"
+    ],
+    "reasoning": "Câu trả lời B toàn diện hơn, giải thích sâu từng dấu hiệu và cung cấp hướng dẫn hành động rất cụ thể với kênh báo cáo chính thức. Có tính đồng cảm và phần phòng tránh tương lai. Điểm trừ là việc trích dẫn số liệu cụ thể có thể không chính xác và giọng điệu hơi cường điệu, nhưng tổng thể chất lượng giải thích và lời khuyên vượt trội hơn A.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

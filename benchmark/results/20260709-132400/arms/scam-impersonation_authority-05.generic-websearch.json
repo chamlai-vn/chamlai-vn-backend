@@ -1,0 +1,55 @@
+{
+  "case_id": "scam-impersonation_authority-05",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Yêu cầu cài đặt ứng dụng 'VNeID Pro' — không phải ứng dụng chính thức, đây là ứng dụng giả mạo chứa mã độc",
+      "Kịch bản 'xác minh giao dịch bất thường' được dùng để tạo niềm tin và dẫn dụ nạn nhân",
+      "Đối tượng mạo danh cơ quan nhà nước (cảnh sát khu vực, cán bộ hộ tịch) liên lạc qua điện thoại",
+      "Yêu cầu cung cấp mã OTP ngân hàng — mục tiêu cuối cùng để chiếm đoạt tiền",
+      "Cung cấp thông tin cá nhân chính xác của nạn nhân để tạo độ tin cậy giả tạo",
+      "Hướng dẫn truy cập đường link hoặc tải ứng dụng từ nguồn không chính thức chứa mã độc (malware)",
+      "Công an không bao giờ làm việc với người dân qua điện thoại hay mạng xã hội"
+    ],
+    "matched_patterns": [
+      "Mạo danh cơ quan nhà nước (công an, cán bộ hộ tịch) qua điện thoại",
+      "Giả mạo ứng dụng VNeID để cài mã độc chiếm quyền điều khiển thiết bị",
+      "Lừa lấy mã OTP ngân hàng để chiếm đoạt tài sản"
+    ],
+    "recommended_actions": [
+      "KHÔNG cung cấp mã OTP cho bất kỳ ai — đây là chìa khóa để kẻ lừa đảo rút tiền",
+      "KHÔNG cài đặt 'VNeID Pro' hoặc bất kỳ ứng dụng nào từ đường link lạ",
+      "KHÔNG cung cấp thông tin cá nhân như CCCD, số tài khoản, mật khẩu",
+      "Cúp máy ngay, không tiếp tục trò chuyện với đối tượng",
+      "Nếu đã lỡ cài ứng dụng hoặc truy cập link: liên hệ ngân hàng ngay để khóa tài khoản và tắt nguồn điện thoại",
+      "Mang thiết bị đến trung tâm công nghệ uy tín để kiểm tra và gỡ bỏ mã độc",
+      "Trình báo với cơ quan Công an gần nhất để được hỗ trợ điều tra và truy vết thu hồi tài sản",
+      "Chỉ tin tưởng tổng đài chính thức hỗ trợ VNeID: 1900.0368 — mọi số gọi khác đều là lừa đảo"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## 🚨 ĐÂY LÀ LỪA ĐẢO! TUYỆT ĐỐI KHÔNG cung cấp mã OTP!\n\nTình huống em mô tả là một **chiêu lừa đảo rất phổ biến và nguy hiểm** đang xảy ra trên toàn quốc, đã được Bộ Công an và nhiều cơ quan chức năng chính thức cảnh báo. Dưới đây là phân tích chi tiết:\n\n---\n\n### 🔍 Tại sao đây là lừa đảo?\n\n**1. \"VNeID Pro\" không phải ứng dụng chính thức**\n\nỨng dụng VNeID chính thức do Trung tâm Dữ liệu quốc gia về dân cư phát triển, được cung cấp trên CH Play và App Store, có gắn nhãn xác thực của cơ quan Nhà nước. Không có ứng dụng nào tên là \"VNeID Pro\" — đây là ứng dụng giả mạo chứa mã độc.\n\n**2. Đúng thủ đoạn lừa đảo đang bị cảnh báo**\n\nBộ Công an đã phát đi cảnh báo về tình trạng các đối tượng mạo danh cơ quan nhà nước như cảnh sát khu vực, cán bộ hộ tịch xã/phường mới, gọi điện hướng dẫn người dân truy cập đường link hoặc cài ứng dụng VNeID giả mạo chứa mã độc.\n\n**3. Kịch bản \"xác minh giao dịch bất thường\" là mồi nhử**\n\nĐể tạo niềm tin, các đối tượng thường cung cấp thông tin cá nhân chính xác của nạn nhân. Sau đó, yêu cầu người dân truy cập vào một đường link hoặc tải về ứng dụng VNeID giả mạo, được giới thiệu là \"chính thức\" để cập nhật thông tin. Thực chất, những đường dẫn hoặc ứng dụng này chứa mã độc (malware), cho phép tin tặc chiếm quyền điều khiển thiết bị di động của nạn nhân.\n\n**4. Mã OTP là mục tiêu cuối cùng để cướp tiền**\n\nSau khi chiếm quyền điều khiển thiết bị, chúng tiếp tục dụ dỗ để lấy mã OTP ngân hàng hoặc quét dữ liệu sinh trắc học nhằm chiếm đoạt tiền trong tài khoản ngân hàng.\n\n**5. Thực tế đã có nạn nhân mất tiền tỷ**\n\nCó trường hợp nạn nhân truy cập vào đường link được gửi, làm theo hướng dẫn, đăng nhập ứng dụng và thanh toán khoản phí giao dịch 22.000 đồng qua tài khoản ngân hàng. Đến sáng hôm sau, nạn nhân bàng hoàng phát hiện 129 triệu đồng trong tài khoản không cánh mà bay.\n\n**6. Công an KHÔNG làm việc qua điện thoại**\n\nCông an các cấp tuyệt đối không bao giờ làm việc với người dân qua điện thoại và mạng xã hội.\n\nLực lượng Công an chỉ hỗ trợ kích hoạt tài khoản định danh điện tử và thu thập, cập nhật thông tin dân cư cho người dân; không yêu cầu công dân tải, cài đặt ứng dụng khác với ứng dụng VNeID hoặc cung cấp tài khoản ngân hàng, mã OTP hoặc mật khẩu cá nhân.\n\n---\n\n### ✅ Em cần làm ngay những việc sau:\n\n| Hành động | Chi tiết |\n|---|---|\n| 🚫 **KHÔNG** cung cấp mã OTP | Tuyệt đối không! Đây là chìa khóa để chúng rút tiền |\n| 🚫 **KHÔNG** cài \"VNeID Pro\" | Không tải bất kỳ app nào từ link lạ |\n| 🚫 **KHÔNG** cung cấp thông tin cá nhân | CCCD, số tài khoản, mật khẩu... |\n| 📵 **Cúp máy ngay** | Không tiếp tục trò chuyện |\n| 🔒 **Khóa tài khoản ngân hàng** nếu đã lỡ làm gì | Gọi hotline ngân hàng ngay lập tức |\n| 📞 **Trình báo công an** | Đến cơ quan Công an gần nhất |\n\nBộ Thông tin và Truyền thông đã tiếp nhận hơn 21.800 phản ánh của người dân về cuộc gọi, tin nhắn lừa đảo, trong đó nhiều nhất là mạo danh công an yêu cầu tải, cài ứng dụng VNeID giả mạo.\n\n---\n\n### 📌 Nếu em lỡ cài ứng dụng hoặc truy cập link:\n\nNgay lập tức liên hệ với ngân hàng để khóa tài khoản và tắt nguồn điện thoại, không để các đối tượng có cơ hội lấy được mã OTP ngân hàng hoặc dữ liệu sinh trắc học.\n\nThiết bị cần được mang đến các trung tâm công nghệ uy tín để kiểm tra và gỡ bỏ mã độc. Nếu đã bị lừa đảo và mất tài sản, người dân cần nhanh chóng trình báo với cơ quan công an gần nhất để được hỗ trợ điều tra, truy vết để có cơ hội thu hồi tài sản.\n\n\u003e 💡 **Lưu ý thêm:** Tổng đài duy nhất hướng dẫn cài đặt VNeID chính thức là **1900.0368**. Nếu ai gọi từ số khác, đó là lừa đảo.",
+  "sources": [
+    "https://thanhtra.com.vn/an-ninh-trat-tu-D718A18CA/canh-bao-lua-dao-cai-ung-dung-vneid-gia-mao-sau-sap-xep-don-vi-hanh-chinh-3259f5003.html",
+    "https://congan.thainguyen.gov.vn/tin-tuc/an-ninh-trat-tu/canh-bao-thu-doan-mao-danh-can-bo-nha-nuoc-yeu-cau-cai-dat-ung-dung-vneid-gia-mao-de-lua-dao-2768.html",
+    "https://congan.ninhbinh.gov.vn/canh-giac-voi-thu-doan-gia-danh-can-bo-cong-an-huong-dan-cai-dat-ung-dung-vneid-de-lua-dao-chiem-doat-tai-san",
+    "https://baochinhphu.vn/gia-cong-an-bao-loi-vneid-chiem-hang-ty-dong-102240630164327625.htm",
+    "https://nguoiquansat.vn/bo-cong-an-phat-canh-bao-den-toan-bo-nguoi-dan-ve-ung-dung-vneid-233706.html",
+    "https://dongnai.gov.vn/vi/news/phong-chong-toi-pham-canh-bao-toi-pham/canh-bao-thu-doan-lua-dao-gia-danh-co-quan-cong-an-huong-dan-cai-dat-vneid-gia-mao-de-thuc-hien-hanh-vi-chiem-doat-tai-san-41488.html",
+    "https://cafef.vn/canh-giac-thu-doan-gia-danh-can-bo-dang-kiem-ho-tro-tich-hop-giay-to-xe-tren-vneid-de-chiem-doat-tai-san-188260619133138311.chn",
+    "https://baokhanhhoa.vn/phap-luat/202507/canh-bao-thu-doan-lua-dao-cai-ung-dung-vneid-gia-mao-6c16804/",
+    "https://www.vietnamplus.vn/canh-giac-lua-dao-mao-danh-cong-an-yeu-cau-tai-cai-ung-dung-vneid-gia-mao-post995565.vnp",
+    "https://cafef.vn/cuc-an-ninh-mang-va-phong-chong-toi-pham-su-dung-cong-nghe-cao-vua-phat-di-canh-bao-moi-188250708152759396.chn",
+    "https://bocongan.gov.vn/bai-viet/canh-bao-thu-doan-lua-dao-cai-ung-dung-vneid-gia-mao-d22-t45880",
+    "https://vov.vn/cong-nghe/tin-cong-nghe/canh-bao-ve-toi-pham-mang-loi-dung-ung-dung-vneid-gia-mao-post1213395.vov",
+    "https://dantri.com.vn/cong-nghe/canh-giac-truoc-ung-dung-vneid-gia-mao-chiem-doat-tai-san-20250708131924591.htm",
+    "https://nhoquan.ninhbinh.gov.vn/chuyen-doi-so/cong-an-chi-cach-nhan-biet-khi-bi-cai-ung-dung-vneid-gia-mao-326156",
+    "https://nhandan.vn/video-canh-bao-thu-doan-lua-dao-cai-ung-dung-vneid-gia-mao-post892694.html",
+    "https://congan.tayninh.gov.vn/vi/chi-tiet-tin-tuc?Id=112922",
+    "https://dx.camau.gov.vn/tin-tuc/canh-giac-voi-thu-doan-lua-dao-lien-quan-den-ung-dung-vneid-119513",
+    "https://daknong.gov.vn/chuyendoiso/canh-bao-tro-lua-dao-cai-ung-dung-vneid-gia-mao-431937",
+    "https://congan.laichau.gov.vn/index.php/pho-bien-giao-duc-phap-luat/canh-bao-lua-dao-tai-cai-ung-dung-vneid-gia-mao-2566.html"
+  ],
+  "latency_ms": 60455
+}

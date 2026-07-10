@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-tech_fraud-08",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Cuộc gọi video yêu cầu chuyển tiền khẩn cấp từ người được coi là anh trai",
+      "Khuôn mặt trong video có dấu hiệu bất thường: ánh mắt không tự nhiên, miệng bị delay khi nói",
+      "Số tiền yêu cầu rất lớn (250 triệu đồng)",
+      "Gửi link tải ứng dụng nghi vấn để lừa nhập mã OTP",
+      "Kẻ gian sử dụng ảnh chân dung từ Facebook để tạo deepfake",
+      "Yêu cầu xác thực tài khoản và lấy mã OTP qua link không chính thức"
+    ],
+    "matched_patterns": [
+      "Deepfake lừa đảo: giả danh người thân qua video call để chiếm đoạt tiền",
+      "Deepfake - Công nghệ giả mạo hình ảnh, giọng nói để lừa đảo tài chính",
+      "Deepfake giả mạo hình ảnh, giọng nói, video để lừa chuyển khoản",
+      "Lừa đảo bằng cuộc gọi video Deepfake mạo danh người thân",
+      "Deepfake giả mạo để lừa đảo tiền qua video call"
+    ],
+    "recommended_actions": [
+      "Không bao giờ chuyển tiền dù nhìn thấy hình ảnh hoặc giọng nói giống người thân trong video - phải xác minh qua cuộc gọi điện thoại trực tiếp dùng số đã biết",
+      "Ngay lập tức liên hệ với anh trai qua số điện thoại bạn thường dùng để xác nhận xem anh ấy có thực sự yêu cầu chuyển tiền hay không",
+      "Tuyệt đối không tải hoặc cài đặt bất kỳ ứng dụng nào từ link được gửi kèm yêu cầu chuyển tiền - đây là mưu để chiếm quyền truy cập tài khoản ngân hàng",
+      "Không bao giờ nhập mã OTP cho bất kỳ ai hoặc bất kỳ ứng dụng nào ngoài ứng dụng chính thức của ngân hàng",
+      "Cảnh báo anh trai biết rằng tài khoản hoặc hình ảnh của anh có thể đã bị chiếm dụng, cần kiểm tra bảo mật ngay",
+      "Bật xác thực hai bước (2FA) cho tất cả tài khoản mạng xã hội, email và ngân hàng để chặn truy cập trái phép",
+      "Báo cáo vụ lừa đảo cho cơ quan công an địa phương và công ty ngân hàng để họ cảnh báo rộng rãi",
+      "Không chia sẻ quá nhiều ảnh chân dung rõ mặt trên mạng xã hội công khai, vì đó là \"nguyên liệu\" để kẻ gian tạo deepfake"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 9922
+}

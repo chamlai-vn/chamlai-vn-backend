@@ -1,0 +1,54 @@
+{
+  "case_id": "scam-investment_fraud-08",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Lợi nhuận 8-15%/tháng, cam kết 'không có risk' — không tưởng, không ai đảm bảo được điều này",
+      "'47 người đã giàu lên', '500 triệu – 2 tỷ trong 6 tháng' — khách hàng giả, bịa đặt hoàn toàn",
+      "Yêu cầu tải app riêng (TradePro/TradingPro) — app giả mạo để kiểm soát giao dịch",
+      "'Gửi vào tài khoản anh ngay hôm nay' — muốn chiếm đoạt tiền nhanh nhất có thể",
+      "'Miễn phí, không có risk' — câu nhử để vượt qua rào cản tâm lý",
+      "App TradingPRO bị tố gây khó khăn trong việc rút tiền và tạo áp lực tâm lý để trader không dám rút tiền",
+      "Hoạt động Forex không được Ngân hàng Nhà nước cấp phép — bất hợp pháp tại Việt Nam"
+    ],
+    "matched_patterns": [
+      "Lừa đảo đầu tư Forex",
+      "Sàn giao dịch Forex giả mạo",
+      "Chiêu trò cho rút tiền nhỏ để tạo lòng tin rồi dụ nạp tiền lớn",
+      "Dùng khách hàng giả/giàn cảnh để tạo uy tín",
+      "App đầu tư giả mạo"
+    ],
+    "recommended_actions": [
+      "TUYỆT ĐỐI KHÔNG chuyển tiền và không cung cấp thông tin cá nhân, tài khoản ngân hàng",
+      "KHÔNG tải app TradePro theo yêu cầu — chỉ thực hiện giao dịch trên các sàn giao dịch chính thống, không cài ứng dụng không rõ nguồn gốc",
+      "Chặn và báo cáo tài khoản 'Phạm Duy' trên mọi nền tảng mạng xã hội",
+      "Tố cáo đến cơ quan Công an hoặc Đường dây nóng Bộ Công an 113 để cảnh báo và ngăn chặn kẻ lừa đảo",
+      "Cảnh báo người thân, bạn bè để tránh sập bẫy tương tự"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 ĐÂY LÀ LỪA ĐẢO 100% - ĐỪNG CHUYỂN TIỀN!\n\nTin nhắn bạn nhận được có **đầy đủ dấu hiệu** của một vụ lừa đảo đầu tư Forex kinh điển đang hoành hành tại Việt Nam. Dưới đây là phân tích chi tiết:\n\n---\n\n## ❌ Tại sao đây là lừa đảo?\n\n### 1. Lợi nhuận \"không tưởng\" để nhử mồi\nLời hứa **8-12%/tháng, thậm chí +15% tháng đầu** là không có thật trong thực tế đầu tư. Không có một dạng đầu tư nào có thể sinh lợi nhuận nhanh và cao như vậy. Đây là chiêu bài kinh điển: những đối tượng lừa đảo lợi dụng điểm yếu của nạn nhân để câu nhử với lãi suất lên đến hàng trăm, thậm chí hàng nghìn phần trăm.\n\n### 2. Hoạt động Forex kiểu này là BẤT HỢP PHÁP tại Việt Nam\nPháp luật Việt Nam có quy định cấm các cá nhân đầu tư ngoại hối, và Ngân hàng Nhà nước cũng chưa cấp phép cho bất kỳ tổ chức, cá nhân nào kinh doanh sàn giao dịch Forex. Vì vậy, bất kỳ ai tham gia các sàn giao dịch không chính thống, không được cơ quan nhà nước cấp phép thì rất khó được pháp luật bảo vệ.\n\n### 3. Đây là kịch bản lừa đảo đã được cảnh báo nhiều lần\nPhương thức hoạt động của các sàn Forex lừa đảo là cho nhân viên môi giới mời chào, thu hút người chơi qua mạng xã hội; ban đầu thường cho nhà đầu tư đánh thắng để nạp thêm nhiều tiền vào tài khoản, sau đó tư vấn đánh các lệnh lớn, dẫn đến nhà đầu tư mất hết tiền.\n\n### 4. App TradePro/TradingPro có dấu hiệu đáng ngờ\nDựa trên tổng hợp phản hồi người dùng và mức độ lặp lại của các khiếu nại, TradingPRO là một sàn có dấu hiệu lừa đảo và rủi ro cao. Sàn bị tố sử dụng chiêu trò làm khó khăn trong việc rút tiền nhằm giữ chân khách hàng tiếp tục nạp tiền vào tài khoản, và còn tạo áp lực tâm lý để trader không dám rút tiền.\n\n### 5. Các \"khách hàng thành công\" là GIÀN CẢNH\nTổ chức lừa đảo thường tạo ra những khách hàng giả tương tác với khách hàng thật, khoe kiếm được lợi nhuận cao, nhằm kích thích lòng tham của nạn nhân. Câu chuyện \"47 người giàu lên\" và \"500 triệu – 2 tỷ trong 6 tháng\" là bịa đặt hoàn toàn.\n\n### 6. Kịch bản tiếp theo nếu bạn nạp tiền\nKhi bị hại tin tưởng và tiếp tục tham gia, các đối tượng dẫn dụ tăng thêm vốn; những bị hại có khả năng tăng vốn thì chúng tìm cách tạo niềm tin (như cho rút tiền nhỏ) để tiếp tục tăng vốn đầu tư; những bị hại không còn khả năng tăng vốn thì chúng tìm mọi lý do để bị hại không rút được tiền, khóa không cho đăng nhập tài khoản.\n\n---\n\n## 🔴 Nhận diện dấu hiệu lừa đảo trong tin nhắn này\n\n| Dấu hiệu trong tin nhắn | Bản chất thật |\n|---|---|\n| Lợi nhuận 8-15%/tháng, \"không có risk\" | Không tưởng, không ai đảm bảo được điều này |\n| \"47 người đã giàu lên\" | Khách hàng giả, bịa đặt |\n| Yêu cầu tải app riêng (TradePro) | App giả mạo để kiểm soát giao dịch |\n| \"Gửi vào tài khoản anh ngay hôm nay\" | Muốn chiếm đoạt tiền nhanh nhất có thể |\n| \"Miễn phí, không có risk\" | Câu nhử để vượt qua rào cản tâm lý |\n\nCác nhóm đầu tư kiểu này thường đưa ra những lời lẽ hoa mỹ cam kết mang lại lợi nhuận cao với rủi ro thấp, thậm chí không rủi ro — đánh vào lòng tham người đầu tư, làm sao để nộp tiền nhanh nhất có thể.\n\n---\n\n## ✅ Bạn nên làm gì ngay bây giờ?\n\n1. **TUYỆT ĐỐI KHÔNG chuyển tiền** và không cung cấp thông tin cá nhân, tài khoản ngân hàng.\n2. **KHÔNG tải app TradePro** theo yêu cầu — chỉ thực hiện giao dịch trên các sàn giao dịch chính thống, không cài ứng dụng không rõ nguồn gốc.\n3. **Chặn và báo cáo** tài khoản \"Phạm Duy\" trên mọi nền tảng mạng xã hội.\n4. **Tố cáo** đến cơ quan Công an hoặc Đường dây nóng Bộ Công an **113** để cảnh báo và ngăn chặn kẻ lừa đảo.\n5. **Cảnh báo người thân, bạn bè** để tránh sập bẫy tương tự.\n\n\u003e ⚠️ **Lưu ý quan trọng:** Ngay cả khi \"Phạm Duy\" cho bạn rút một khoản tiền nhỏ ban đầu để tạo lòng tin — đó vẫn là một phần của kịch bản lừa đảo, nhằm dụ bạn nạp số tiền lớn hơn sau đó.",
+  "sources": [
+    "https://vtv.vn/phap-luat/triet-pha-duong-day-lua-dao-forex-xuyen-bien-gioi-chiem-doat-hon-1800-ty-dong-20230728110054739.htm",
+    "https://thuonghieucongluan.com.vn/lat-tay-chieu-tro-lua-dao-dau-tu-san-ngoai-hoi-forex-dung-mang-tien-cho-ke-lua-dao-a168139.html",
+    "https://www.tinnhanhchungkhoan.vn/ma-tran-nganh-cong-nghiep-lua-dao-tren-mang-bai-3-bay-forex-cho-hon-3-ty-dong-de-lua-25-ty-dong-post340093.html",
+    "https://congan.dongthap.gov.vn/en/chi-tiet-bai-viet/-/asset_publisher/wbj7qfWZntAi/content/id/19473257",
+    "https://tuoitre.vn/lai-mat-tien-ti-voi-forex-20231115081546707.htm",
+    "https://congan.dongthap.gov.vn/en/chi-tiet-bai-viet/-/asset_publisher/wbj7qfWZntAi/content/id/7147949",
+    "https://vneconomy.vn/lat-tay-thu-doan-lua-dao-cua-cac-san-forex.htm",
+    "https://vov.vn/phap-luat/chuyen-gia-lat-tay-manh-khoe-lua-dao-san-giao-dich-ngoai-hoi-chung-khoan-post1142913.vov",
+    "https://vietnamnet.vn/he-luy-don-dau-tu-dam-me-dau-tu-tren-cac-san-kinh-doanh-forex-trai-phep-2499771.html",
+    "https://congly.vn/thong-doc-nguyen-thi-hong-san-forex-co-tinh-chat-lua-dao-458487.html",
+    "https://www.wikifx.com/en/dealer/2031797118.html",
+    "https://www.wikifx.com/en/dealer/3965540222.html",
+    "https://sanuytinonline.com/san-forex-scam/tradingpro/",
+    "https://topsanuytin.com/broker/tradingpro/",
+    "https://pippenguin.net/vi/reviews/danh-gia-san-fxpro/",
+    "https://traderviet.tv/t/chieu-lua-chuyen-khoan-thanh-cong-bang-app-ngan-hang-ao.116627/",
+    "https://nguyenhuuduc.vn/nhung-app-dau-tu-pho-bien-ma-trader-can-biet/",
+    "https://tradersunion.com/brokers-blacklist/forex/",
+    "https://vnblog.mitrade.com/ngoai-hoi/san-forex/hoc-trade-forex-san-forex-and-forex-app"
+  ],
+  "latency_ms": 62176
+}

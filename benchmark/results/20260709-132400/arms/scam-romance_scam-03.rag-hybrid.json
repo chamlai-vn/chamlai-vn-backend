@@ -1,0 +1,31 @@
+{
+  "case_id": "scam-romance_scam-03",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Tài khoản kết bạn trên Tinder với ngoại hình đẹp, tự xưng doanh nhân người nước ngoài",
+      "Phát triển mối quan hệ tình cảm quá nhanh chóng (trong vài tuần đã nói những lời ngôn tình)",
+      "Tìm lý do để không gặp mặt trực tiếp (bế tắc hợp đồng ở Qatar)",
+      "Yêu cầu sử dụng tài khoản ngân hàng cá nhân để 'xác minh danh tính' cho giao dịch lớn (15 tỷ VNĐ)",
+      "Yêu cầu chuyển tiền phí 'xác minh tạm thời' vào số tài khoản được cấp",
+      "Liên tục báo cáo 'vấn đề với quá trình xác minh' và yêu cầu chuyển thêm tiền",
+      "Đã thực tế chiếm đoạt 5 triệu đồng từ nạn nhân"
+    ],
+    "matched_patterns": [
+      "Romance scam - Giả danh doanh nhân qua hẹn hò online để lừa đầu tư",
+      "Recovery scam - Yêu cầu chuyển tiền phí để 'giải ngân' hoặc 'xác minh' khoản tiền lớn"
+    ],
+    "recommended_actions": [
+      "Báo cáo ngay cho cơ quan Công an địa phương hoặc Phòng Cảnh sát hình sự với bằng chứng cuộc trò chuyện và số tài khoản nhận tiền (1029384756 - Vietcombank)",
+      "Liên hệ ngân hàng Vietcombank để yêu cầu phong tỏa tài khoản nhận tiền lừa đảo này",
+      "Lưu giữ tất cả bằng chứng: lịch sử chat, ảnh hồ sơ, số điện thoại, các giao dịch chuyển khoản",
+      "Chặn liên lạc với tài khoản Daniel trên Tinder ngay lập tức",
+      "Không chuyển thêm tiền cho bất kỳ lý do gì, dù có báo cáo 'vấn đề' hay yêu cầu thêm phí",
+      "Tâm sự cùng người thân, bạn bè để được hỗ trợ về mặt tinh thần - đây không phải lỗi của nạn nhân",
+      "Kiểm tra định kỳ tài khoản ngân hàng để phát hiện sớm hoạt động gian lận"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 9495
+}

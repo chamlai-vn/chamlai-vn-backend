@@ -1,0 +1,32 @@
+{
+  "case_id": "scam-loan_scam-06",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Mạo danh công ty tài chính không rõ ràng (FastCredit Vietnam)",
+      "Yêu cầu tải ứng dụng từ link SMS thay vì Google Play/App Store",
+      "Lãi suất 0% quá hấp dẫn và không thực tế",
+      "Yêu cầu cung cấp thông tin định danh và số tài khoản ngân hàng",
+      "Yêu cầu chuyển tiền trước (phí bảo hiểm) trước khi nhận tiền vay",
+      "Ứng dụng tải được là bản clone độc hại không có trên Google Play",
+      "Số điện thoại ngay lập tức vô hiệu sau khi nhận tiền",
+      "Toàn bộ tiền trong tài khoản bị rút hết (lâu đó là phần mềm độc hại)"
+    ],
+    "matched_patterns": [
+      "Lừa đảo vay tiền qua app giả mạo công ty tài chính, yêu cầu nộp phạt trước",
+      "Ứng dụng vay tiền trực tuyến giả mạo: Thu thập dữ liệu cá nhân để chiếm đoạt tài sản",
+      "Mạo danh ngân hàng, công ty tài chính cho vay trực tuyến để lừa đảo"
+    ],
+    "recommended_actions": [
+      "Khóa ngay lập tức toàn bộ tài khoản ngân hàng của bạn để ngăn chặn giao dịch tiếp theo",
+      "Liên hệ với ngân hàng để báo cáo về hoạt động nghi ngờ và yêu cầu khôi phục giao dịch nếu còn trong thời gian cho phép",
+      "Lưu giữ toàn bộ chứng cứ (cuộc gọi, SMS, ảnh chụp ứng dụng giả, giao dịch chuyển tiền) và nộp đơn trình báo tội lừa đảo, chiếm đoạt tài sản cho công an địa phương hoặc Phòng Cảnh sát hình sự",
+      "Thay đổi mật khẩu tất cả các tài khoản trực tuyến (ngân hàng, mạng xã hội, email) và bật xác thực hai yếu tố nếu có",
+      "Kiểm tra báo cáo tín dụng và theo dõi tài khoản ngân hàng trong thời gian dài để phát hiện các giao dịch bất thường",
+      "Nạp lại thẻ SIM hoặc thay đổi số điện thoại nếu có khả năng kẻ lừa đã làm được SIM ghép"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 9790
+}

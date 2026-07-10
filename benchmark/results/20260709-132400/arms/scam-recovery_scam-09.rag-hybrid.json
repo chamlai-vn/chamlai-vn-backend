@@ -1,0 +1,22 @@
+{
+  "case_id": "scam-recovery_scam-09",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "yellow",
+    "red_flags": [
+      "Nạn nhân vừa bị lừa đảo và tìm kiếm dịch vụ lấy lại tiền trên mạng - đây là điểm yếu lý tưởng cho các chiêu trò lừa đảo lần hai",
+      "Đã có người liên hệ nạn nhân để \"tư vấn\" lấy lại tiền - dấu hiệu điển hình của recovery scam"
+    ],
+    "matched_patterns": [
+      "Lừa đảo kép (recovery_scam): Nạn nhân bị lừa lần đầu sẽ nhanh chóng nhận được liên hệ đề nghị hỗ trợ lấy lại tiền"
+    ],
+    "recommended_actions": [
+      "Không chuyển tiền cho bất kỳ cá nhân, tổ chức nào tự xưng hỗ trợ lấy lại tiền qua mạng xã hội hay ứng dụng nhắn tin",
+      "Báo ngay cho Công an địa phương nơi bạn cư trú để trình báo vụ lừa đảo và được hướng dẫn đúng thủ tục pháp luật",
+      "Hãy hiểu rằng Bộ Công an không ủy quyền cho bất kỳ tổ chức tư nhân nào nhận hồ sơ lừa đảo",
+      "Không cung cấp thông tin cá nhân, tài khoản ngân hàng cho những người liên hệ từ mạng xã hội, kể cả những người tự xưng là luật sư hay công ty luật"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 5872
+}

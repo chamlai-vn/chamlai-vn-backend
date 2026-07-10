@@ -1,0 +1,28 @@
+{
+  "case_id": "scam-impersonation_service-03",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Cuộc gọi từ số điện thoại lạ tự xưng nhân viên Viettel",
+      "Tuyên bố tài khoản SIM bị khóa để tạo áp lực và sợ hãi",
+      "Yêu cầu cài đặt ứng dụng lạ (ViettelSecure) từ không rõ nguồn gốc",
+      "Không yêu cầu đến cửa hàng chính thức mà hướng dẫn qua điện thoại",
+      "Cách thức thực hiện điển hình của kẻ lừa đảo để chiếm quyền SIM hoặc tài khoản"
+    ],
+    "matched_patterns": [
+      "Giả danh nhân viên Viettel lừa cung cấp mã OTP để chiếm đoạt tiền",
+      "Giả danh nhân viên nhà mạng gọi điện lừa thanh toán cước và mã OTP",
+      "Giả danh nhà mạng/cơ quan viễn thông xác thực SIM để chiếm quyền điện thoại, đánh cắp OTP và tài khoản"
+    ],
+    "recommended_actions": [
+      "Tuyệt đối không cài đặt ứng dụng từ đường link hoặc theo yêu cầu cuộc gọi — chỉ tải app từ Google Play Store hoặc Apple App Store chính thức",
+      "Không cung cấp mã OTP hay thông tin cá nhân cho người gọi, kể cả khi tự xưng là nhân viên Viettel",
+      "Hãy chủ động gọi trực tiếp tổng đài Viettel qua số chính thức (1900 1234) để xác minh thông tin",
+      "Đến trực tiếp cửa hàng Viettel chính thức nếu cần giải quyết vấn đề SIM",
+      "Báo ngay công an địa phương hoặc Viettel về cuộc gọi lừa đảo này"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 6431
+}

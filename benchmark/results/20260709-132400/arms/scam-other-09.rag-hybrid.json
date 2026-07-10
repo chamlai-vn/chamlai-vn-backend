@@ -1,0 +1,29 @@
+{
+  "case_id": "scam-other-09",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Cuộc gọi từ số điện thoại có đầu số nước ngoài (+84 9xxx) giả danh cơ quan chính phủ",
+      "Yêu cầu nộp lệ phí 450 triệu đồng trước thời hạn gấp (3 giờ chiều cùng ngày) - áp lực thời gian",
+      "Hướng dẫn tải ứng dụng lạ 'SQDTHN Pro' từ link không rõ nguồn gốc",
+      "Ứng dụng giả mạo giao diện website chính thức của sở xây dựng",
+      "Yêu cầu chuyển tiền vào tài khoản cá nhân ('Nguyễn Văn A') thay vì tài khoản chính thức của cơ quan",
+      "Sử dụng kỹ thuật spoofing để làm giả số điện thoại của cơ quan chính phủ",
+      "Lợi dụng lợi ích kinh doanh lớn (8.5 tỷ đồng) để tạo sự tin tưởng và mất bình tĩnh"
+    ],
+    "matched_patterns": [
+      "impersonation_authority",
+      "recovery_scam"
+    ],
+    "recommended_actions": [
+      "Khi nhận cuộc gọi từ cơ quan chính phủ, ngắt máy ngay và tự động gọi đến số điện thoại chính thức được công bố trên website chính thức của sở/cục để xác minh danh tính người gọi",
+      "Không bao giờ tải ứng dụng từ link được cung cấp qua điện thoại hoặc tin nhắn; chỉ tải từ CH Play hoặc App Store chính thức",
+      "Cơ quan chính phủ không yêu cầu chuyển tiền qua điện thoại hoặc ứng dụng; luôn yêu cầu làm việc trực tiếp tại trụ sở và nộp hồ sơ chính thức",
+      "Không cung cấp mã OTP, mật khẩu, hoặc dữ liệu cá nhân cho người lạ qua điện thoại",
+      "Khi gặp áp lực thời gian, hãy giữ bình tĩnh và liên hệ ngay với cơ quan công an địa phương hoặc cán bộ đại diện chính thức để xác minh"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 7162
+}

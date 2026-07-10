@@ -1,0 +1,28 @@
+{
+  "case_id": "scam-tech_fraud-07",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Tải app ngân hàng/thanh toán từ file APK ngoài Play Store — app hợp pháp luôn phát hành qua Play Store/App Store",
+      "Yêu cầu quyền đọc tin nhắn (SMS) và danh bạ — \"chữ ký\" đặc trưng của mã độc ngân hàng (banking trojan) để đánh cắp OTP",
+      "Đã đăng nhập tài khoản ngân hàng thật vào app lạ — nguy cơ thông tin đăng nhập đã bị gửi thẳng cho kẻ gian",
+      "\"Cảnh báo lạ\" xuất hiện lúc đăng nhập — có thể là chiêu dụ nhập thêm OTP/mã xác thực"
+    ],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Ngắt kết nối mạng (tắt Wifi/4G) ngay để app không thể gửi thêm dữ liệu ra ngoài",
+      "Gỡ cài đặt app lạ ngay lập tức",
+      "Đổi mật khẩu tài khoản ngân hàng trên một thiết bị khác sạch, sau khi đã gỡ app và quét virus",
+      "Gọi hotline chính thức của ngân hàng (không dùng số trong app lạ) để báo cáo và yêu cầu khóa/tạm ngưng giao dịch",
+      "Kiểm tra lịch sử giao dịch gần đây xem có bất thường không",
+      "Quét mã độc toàn bộ điện thoại bằng phần mềm bảo mật uy tín",
+      "Cân nhắc khôi phục cài đặt gốc nếu nghi ngờ nhiễm sâu, sau khi đã sao lưu dữ liệu quan trọng",
+      "Về sau: chỉ tải app ngân hàng từ store chính thức, không cấp quyền đọc SMS/danh bạ cho app tài chính trừ khi thực sự cần thiết"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "Đây gần như chắc chắn là dấu hiệu lừa đảo/mã độc, không phải vấn đề nhỏ. Em nên dừng ngay và xử lý theo các bước dưới đây.\n\n## Tại sao đây là dấu hiệu nguy hiểm\n\n**1. Tải app ngân hàng/thanh toán từ ngoài Play Store**\nCác app ngân hàng, ví điện tử hợp pháp luôn được phát hành qua Google Play (hoặc App Store). Việc phải tải file APK từ một trang web bên ngoài là dấu hiệu cảnh báo hàng đầu — kẻ gian thường giả mạo giao diện app ngân hàng thật để lừa người dùng cài đặt.\n\n**2. Yêu cầu quyền đọc tin nhắn (SMS) và danh bạ**\nĐây chính là \"chữ ký\" của mã độc ngân hàng (banking trojan) trên Android. Lý do:\n- Quyền đọc SMS cho phép app **đánh cắp mã OTP** ngân hàng gửi về khi em giao dịch, để kẻ gian tự chuyển tiền mà không cần em xác nhận.\n- Quyền danh bạ giúp chúng lấy dữ liệu để tiếp tục lừa đảo người thân, bạn bè của em.\n- App hợp pháp của ngân hàng **không có lý do chính đáng** để cần đọc toàn bộ tin nhắn và danh bạ.\n\n**3. Đăng nhập tài khoản ngân hàng thật vào trong app lạ đó**\nĐây là bước rủi ro nhất — nếu app này là giả mạo (fake login screen), thông tin đăng nhập (username/password) của em có thể đã bị gửi thẳng cho kẻ gian ngay khi em nhập vào.\n\n**4. \"Cảnh báo lạ\" xuất hiện lúc đăng nhập**\nCó thể là dấu hiệu hệ thống bảo mật của điện thoại/ngân hàng phát hiện bất thường, hoặc chính app độc hại đang cố lừa em bấm tiếp (ví dụ giả cảnh báo để dụ nhập thêm OTP, mã xác thực).\n\n## Em nên làm ngay\n\n1. **Ngắt kết nối mạng** (tắt Wifi/4G) trên điện thoại trước khi làm gì tiếp, để app không thể gửi thêm dữ liệu ra ngoài.\n2. **Gỡ cài đặt app \"MobilePay+\" ngay lập tức.**\n3. **Đổi mật khẩu tài khoản ngân hàng** (thực hiện trên một thiết bị khác sạch, hoặc sau khi đã gỡ app và quét virus) — vì mật khẩu có thể đã bị lộ.\n4. **Gọi hotline chính thức của ngân hàng** (số in trên thẻ, mặt sau thẻ, hoặc trên web chính thức — không dùng số trong app lạ) để báo cáo và yêu cầu khóa/tạm ngưng giao dịch nếu nghi ngờ bị xâm nhập.\n5. **Kiểm tra lịch sử giao dịch** gần đây xem có phát sinh bất thường không.\n6. **Quét mã độc toàn bộ điện thoại** bằng phần mềm bảo mật uy tín (Google Play Protect, hoặc app antivirus có tên tuổi).\n7. Nếu điện thoại đã root/jailbreak hoặc nghi ngờ nhiễm sâu, cân nhắc **khôi phục cài đặt gốc (factory reset)** sau khi đã sao lưu dữ liệu quan trọng (trừ app lạ).\n8. Trong tương lai: **chỉ tải app ngân hàng từ Play Store/App Store chính thức**, không bao giờ cấp quyền đọc SMS/danh bạ cho app tài chính trừ khi thực sự cần và app đó có uy tín rõ ràng.\n\nNếu em cho biết tên ngân hàng cụ thể, mình có thể tìm giúp số hotline chính thức hoặc thông tin cảnh báo liên quan (nếu có) để em xử lý nhanh hơn.",
+  "sources": [],
+  "latency_ms": 0
+}

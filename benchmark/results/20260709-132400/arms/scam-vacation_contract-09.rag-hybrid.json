@@ -1,0 +1,32 @@
+{
+  "case_id": "scam-vacation_contract-09",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Liên hệ chủ động qua điện thoại với lời mời tham gia chương trình VIP không rõ nguồn gốc",
+      "Tạo áp lực thời gian: yêu cầu quyết định trong 24 giờ vì chỉ còn 3 suất cuối cùng",
+      "Yêu cầu thanh toán trước (15 triệu đồng) với danh nghĩa 'phí kích hoạt thành viên'",
+      "Hướng dẫn tải ứng dụng giả mạo 'ResortPay' để ký hợp đồng và chuyển tiền",
+      "Hợp đồng điện tử viết chuyên nghiệp nhưng chứa nhiều điều khoản mơ hồ",
+      "Email xác nhận từ miền tên giả mạo 'support@resortparadise-vn.com'",
+      "Sau khi nhận tiền, công ty cắt đứt liên lạc: số điện thoại không kết nối, email không trả lời, ứng dụng khóa tài khoản",
+      "Không cung cấp dịch vụ như cam kết"
+    ],
+    "matched_patterns": [
+      "vacation_contract - Lừa đảo kinh doanh thẻ/gói kỳ nghỉ cao cấp với chiếm đoạt ngay sau thanh toán",
+      "vacation_contract - Bán gói sở hữu kỳ nghỉ với giá cao, khóa liên lạc sau nhận tiền",
+      "ecommerce_scam - Giả mạo công ty du lịch, khách sạn bằng fanpage/website giả, yêu cầu đặt cọc trước"
+    ],
+    "recommended_actions": [
+      "Người bạn Linh nên báo cáo vụ lừa đảo ngay cho công an địa phương hoặc cơ quan chức năng để cấp tập trung bắt giữ các đối tượng",
+      "Linh cần lưu giữ toàn bộ bằng chứng: email, ảnh chụp hợp đơp ký, biên lai chuyển tiền, hoạt động ứng dụng giả",
+      "Kiểm tra và khóa các tài khoản ngân hàng của Linh nếu có, vì các đối tượng có thể lợi dụng thông tin được cung cấp",
+      "Để phòng tránh trong tương lai, không vội tin các lời quảng cáo 'du lịch trọn đời', 'quyền lợi VIP độc quyền' từ những cuộc gọi/liên hệ chủ động không rõ nguồn gốc",
+      "Luôn kiểm chứng tư cách pháp lý của doanh nghiệp (hồ sơ đăng ký, người đại diện) trước khi ký hợp đồng, thanh toán hoặc tải ứng dụng lạ",
+      "Tuyệt đối không chuyển tiền vào tài khoản cá nhân hoặc ứng dụng không chính thức; ưu tiên thanh toán trực tiếp qua các nền tảng uy tín có bảo vệ người dùng"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 10647
+}

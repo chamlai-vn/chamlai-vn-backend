@@ -1,0 +1,26 @@
+{
+  "case_id": "scam-tech_fraud-05",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Tên miền giả mạo (vietcombank-security.mobi) không phải tên miền chính thức của ngân hàng",
+      "Tạo áp lực thời gian (\"hạn chót 30 phút\") để khiến nạn nhân hoảng loạn, không kịp xác minh",
+      "Yêu cầu cài app lạ ngoài App Store/Google Play chính thức",
+      "Yêu cầu nhập mã OTP vào app/website ngoài — ngân hàng không bao giờ yêu cầu điều này để \"khóa tài khoản\"",
+      "Nêu số tiền cụ thể (\"47.5 triệu\") để tạo cảm giác tin cậy giả, đánh vào tâm lý sợ mất tiền"
+    ],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Không bấm vào link, không cài app, không nhập OTP vào đâu cả",
+      "Nếu đã lỡ cài app/nhập OTP: gọi ngay hotline chính thức của ngân hàng để khóa/kiểm tra tài khoản, gỡ app lạ khỏi điện thoại",
+      "Muốn kiểm tra tài khoản: tự mở app ngân hàng chính chủ đã cài từ trước hoặc gọi hotline chính thức, không dùng link/app trong tin nhắn",
+      "Chặn số gửi tin nhắn, báo cáo lừa đảo qua tổng đài nhà mạng hoặc Cục An toàn thông tin (156)",
+      "Nhắc người thân, đặc biệt người lớn tuổi, về chiêu trò này"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "Đây gần như chắc chắn là **lừa đảo (phishing/smishing)**. Dưới đây là lý do và việc bạn nên làm ngay.\n\n## Vì sao đây là lừa đảo\n\n1. **Tên miền giả mạo**: `vietcombank-security.mobi` **không phải** tên miền chính thức của Vietcombank (chính thức là `vietcombank.com.vn`). Các ngân hàng không bao giờ dùng tên miền phụ lạ như thế này để gửi link cài app.\n\n2. **Tạo áp lực thời gian**: \"Hạn chót 30 phút\" là chiêu thức kinh điển để khiến nạn nhân hoảng loạn, không kịp suy nghĩ hay xác minh.\n\n3. **Yêu cầu cài app lạ ngoài store chính thức**: Không có ngân hàng nào yêu cầu bạn cài \"app bảo mật mới\" qua link SMS/Zalo. App chính thức của Vietcombank chỉ có trên App Store/Google Play.\n\n4. **Yêu cầu nhập mã OTP**: Đây là dấu hiệu rõ ràng nhất. **Không ngân hàng nào bao giờ yêu cầu bạn nhập OTP vào một ứng dụng/website ngoài để \"khóa tài khoản\"**. OTP chỉ dùng để xác nhận giao dịch bạn tự thực hiện trên app/web chính chủ. Câu \"đừng chia sẻ OTP với ai\" nghe có vẻ như lời khuyên bảo mật, nhưng thực chất kẻ lừa đảo dùng chính OTP đó (mà bạn nhập vào app giả) để chiếm quyền tài khoản hoặc xác nhận giao dịch chuyển tiền.\n\n5. **Số tiền cụ thể \"47.5 triệu\"**: Tạo cảm giác tin cậy giả, đánh vào tâm lý sợ mất tiền.\n\nĐây là mô hình lừa đảo phổ biến: dụ nạn nhân cài \"app ngân hàng giả\" (thực chất là app gián điệp) hoặc lừa nhập OTP thật vào form giả để hacker dùng OTP đó chiếm đoạt tài khoản/thực hiện giao dịch.\n\n## Bạn nên làm gì ngay\n\n- **Không bấm vào link, không cài app, không nhập OTP đó vào đâu cả.**\n- Nếu đã lỡ cài app hoặc nhập OTP: ngay lập tức gọi hotline chính thức Vietcombank **1900 54 54 13** để khóa/kiểm tra tài khoản, và gỡ app lạ khỏi điện thoại.\n- Muốn kiểm tra tài khoản có vấn đề gì không: tự mở app Vietcombank chính chủ (đã cài từ trước) hoặc gọi hotline trên, **không dùng link/app trong tin nhắn**.\n- Chặn số gửi tin nhắn, có thể báo cáo lừa đảo qua tổng đài của nhà mạng hoặc Cục An toàn thông tin (đầu số 156).\n- Nhắc người thân, đặc biệt người lớn tuổi, về chiêu trò này vì nó đang khá phổ biến hiện nay.\n\nTóm lại: đây là lừa đảo, tuyệt đối không tương tác với link/app/OTP trong tin nhắn này.",
+  "sources": [],
+  "latency_ms": 0
+}

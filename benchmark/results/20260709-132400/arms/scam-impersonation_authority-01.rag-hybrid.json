@@ -1,0 +1,27 @@
+{
+  "case_id": "scam-impersonation_authority-01",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Giả danh cơ quan chức năng (Cơ quan Thi hành án dân sự) qua điện thoại",
+      "Yêu cầu thanh toán tiền nợ trong thời hạn rất ngắn (24 giờ) - tạo áp lực tâm lý khẩn cấp",
+      "Dùi dọa khởi tố để gây sợ hãi",
+      "Yêu cầu thanh toán qua ứng dụng lạ (Secure Pay) - không phải kênh thanh toán chính thức của cơ quan chức năng",
+      "Cuộc gọi từ số điện thoại riêng lẻ, không phải đường dây tổng đài chính thức của cơ quan"
+    ],
+    "matched_patterns": [
+      "impersonation_authority - Giả danh cơ quan tư pháp gọi điện đe dọa yêu cầu chuyển tiền",
+      "impersonation_authority - Giả danh cơ quan công quyền gọi điện đe dọa, yêu cầu chuyển tiền"
+    ],
+    "recommended_actions": [
+      "Ngay lập tức ngắt điện thoại và không cung cấp bất kỳ thông tin cá nhân nào",
+      "Không chuyển tiền hoặc tải ứng dụng lạ như Secure Pay",
+      "Hãy lên trang web chính thức của Cơ quan Thi hành án dân sự Hà Đông (tra cứu từ website Tòa án) để lấy số điện thoại chính thức rồi gọi để xác minh",
+      "Liên hệ trực tiếp Công an quận Hà Đông để báo cáo cuộc gọi lừa đảo này",
+      "Giữ bình tĩnh - những cơ quan chức năng thực sẽ gửi giấy tờ hợp pháp trực tiếp, không yêu cầu làm việc hay chuyển tiền qua điện thoại"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 7464
+}

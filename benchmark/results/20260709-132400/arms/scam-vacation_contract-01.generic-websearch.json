@@ -1,0 +1,25 @@
+{
+  "case_id": "scam-vacation_contract-01",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Mô hình \"tách nhỏ khoản phí\" — sau phí đăng ký ban đầu liên tục phát sinh thêm phí thẩm định, phí bảo hiểm, hộp quà...",
+      "Lời mời chào \"quá hời\" bất thường: gói kỳ nghỉ 5 sao \"sử dụng suốt đời\" với ưu đãi hấp dẫn",
+      "Biến mất ngay sau khi nhận tiền: chặn số điện thoại, website báo \"bảo trì\"",
+      "Khớp mô hình lừa đảo \"hợp đồng kỳ nghỉ\" (vacation ownership scam) quy mô lớn đang bị công an nhiều tỉnh thành điều tra, triệt phá"
+    ],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Lưu giữ toàn bộ bằng chứng: tin nhắn, ghi âm cuộc gọi, biên lai chuyển khoản, tên tài khoản nhận tiền, thông tin công ty",
+      "Trình báo công an ngay tại công an phường/quận hoặc Phòng Cảnh sát kinh tế/hình sự — có thể được gộp vào vụ án đang điều tra",
+      "Báo cho nhà cung cấp ví điện tử/ngân hàng đã chuyển tiền để báo cáo giao dịch lừa đảo, hỏi khả năng phong tỏa",
+      "Chuẩn bị tâm lý: khả năng lấy lại toàn bộ tiền là thấp, nhưng trình báo vẫn quan trọng để được xem xét bồi hoàn nếu vụ án được xử lý",
+      "Cảnh báo người thân, bạn bè: không chuyển tiền/đặt cọc cho lời mời chào gói nghỉ dưỡng/kỳ nghỉ VIP qua điện thoại khi chưa xác minh đầy đủ"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## Đây là lừa đảo — gần như chắc chắn 100%\n\nTình huống của anh Minh khớp gần như y hệt với mô hình lừa đảo **\"hợp đồng kỳ nghỉ\" (vacation ownership scam)** đang bị Bộ Công an và công an nhiều tỉnh thành cảnh báo rầm rộ trong thời gian gần đây — thậm chí đã bị triệt phá quy mô lớn ở Hà Nội và TP.HCM.\n\n**Vì sao khẳng định đây là lừa đảo:**\n\n1. **Mô hình \"tách nhỏ khoản phí\" kinh điển**: Ban đầu chỉ 20 triệu \"phí đăng ký\", sau đó liên tục phát sinh thêm \"phí thẩm định tín dụng\", \"phí bảo hiểm du lịch\", \"hộp quà chào mừng\"... Đây chính là kịch bản mà công an mô tả: các đối tượng lừa đảo thường không công khai đầy đủ thông tin về dự án, chi phí phát sinh, chính sách hủy hợp đồng hoặc hoàn tiền, và nhân viên tư vấn thường yêu cầu đóng thêm nhiều khoản phí sau khi khách đã trả tiền lần đầu.\n\n2. **Lời mời chào \"quá hời\" bất thường**: gói kỳ nghỉ 5 sao \"sử dụng suốt đời\", \"trọn đời\", tặng thêm ưu đãi — đây chính là chiêu bài quảng cáo lợi ích quá hấp dẫn mà công an cảnh báo.\n\n3. **Biến mất ngay sau khi nhận tiền**: chặn số điện thoại, website \"bảo trì\" — đúng như mô tả sau khi nhận được tiền, các đối tượng lập tức chặn liên lạc và xóa toàn bộ dấu vết.\n\n4. **Quy mô vụ việc thật ở Việt Nam rất lớn**: Chỉ riêng đợt điều tra tháng 6/2026, Công an Hà Nội đã khởi tố 24 vụ án, 194 bị can, ước tính số tiền liên quan hơn 2.700 tỷ đồng, còn Công an TP.HCM khởi tố 11 vụ án, gần 200 bị can, thiệt hại hơn 612 tỷ đồng. Đây không phải trường hợp cá biệt.\n\n## Anh Minh nên làm gì tiếp theo\n\n**Ngay lập tức:**\n- **Lưu giữ toàn bộ bằng chứng**: tin nhắn, ghi âm cuộc gọi (nếu có), biên lai chuyển khoản Momo, tên tài khoản nhận tiền, số điện thoại, mọi thông tin về \"công ty RAV\".\n- **Trình báo công an** ngay tại công an phường/quận nơi cư trú, hoặc Phòng Cảnh sát kinh tế/Cảnh sát hình sự công an tỉnh/thành phố — nên trình báo ngay cho cơ quan Công an nơi gần nhất để được hỗ trợ, xử lý theo quy định pháp luật. Vì đây là mô hình lừa đảo đang bị điều tra diện rộng, khả năng có đường dây liên quan đã bị/đang bị công an xử lý là khá cao, nên trình báo giúp gộp chung vào vụ án đang điều tra (dễ được xem xét hoàn tiền hơn).\n- **Báo cho Momo**: liên hệ tổng đài Momo để báo cáo giao dịch lừa đảo, cung cấp thông tin tài khoản nhận tiền — có thể giúp phong tỏa nếu tiền chưa bị rút hết (dù khả năng thành công không cao nếu đã qua vài ngày).\n\n**Về khả năng lấy lại tiền:**\n- Cần nói thật với anh Minh: khả năng lấy lại toàn bộ 45 triệu là thấp, vì các nhóm lừa đảo này thường rút tiền và biến mất rất nhanh. Tuy nhiên, nếu công ty này nằm trong các đường dây đang bị điều tra, nạn nhân trình báo có thể được đưa vào danh sách bị hại để xem xét bồi hoàn khi vụ án được xử lý.\n\n**Phòng ngừa cho người khác:**\n- Nhắc anh Minh và bạn bè, người thân: **tuyệt đối không chuyển tiền cho bất kỳ ai mời chào \"gói nghỉ dưỡng/kỳ nghỉ VIP\" qua điện thoại**, dù họ có vẻ chuyên nghiệp đến đâu. Công an khuyến cáo không tin vào các lời quảng cáo cam kết lợi nhuận, nghỉ dưỡng trọn đời hoặc ưu đãi \"chỉ có hôm nay\", và tuyệt đối không chuyển tiền, đặt cọc khi chưa xác minh đầy đủ thông tin.\n\nNếu anh Minh cần, tôi có thể giúp soạn sẵn một bản tường trình để nộp cho công an, liệt kê rõ diễn biến sự việc và các khoản đã chuyển — việc này thường giúp quá trình trình báo nhanh và đầy đủ hơn.",
+  "sources": [],
+  "latency_ms": 0
+}

@@ -1,0 +1,52 @@
+{
+  "case_id": "scam-fake_job-07",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Tuyển dụng qua Zalo, không rõ danh tính công ty",
+      "Thu nhập 'khủng' 10–15 triệu/tháng cho việc đơn giản (chiêu bài 'việc nhẹ, lương cao')",
+      "Yêu cầu nộp 'tiền đảm bảo' trước khi làm việc",
+      "Kịch bản lừa đảo tiếp theo: yêu cầu nộp phí/đặt cọc để 'mở khóa nhiệm vụ' sau khi tạo niềm tin ban đầu",
+      "Sau khi lấy tiền là chặn liên lạc hoặc biến mất",
+      "Nguy cơ mất thông tin cá nhân: số điện thoại, số tài khoản ngân hàng, mã OTP"
+    ],
+    "matched_patterns": [
+      "Lừa đảo tuyển dụng việc làm online (việc nhẹ lương cao)",
+      "Lừa đảo yêu cầu đặt cọc/phí tuyển dụng trước",
+      "Lừa đảo làm nhiệm vụ online / bán hàng online",
+      "Giả danh công ty môi giới việc làm"
+    ],
+    "recommended_actions": [
+      "TUYỆT ĐỐI KHÔNG chuyển tiền dù chỉ 100.000đ",
+      "KHÔNG cung cấp thông tin cá nhân như CCCD, số tài khoản ngân hàng, mã OTP cho bất kỳ ai",
+      "Chặn và báo cáo tài khoản Zalo đó ngay lập tức",
+      "Tố giác với cơ quan công an nơi cư trú, kèm theo bằng chứng như tin nhắn, hóa đơn, sao kê chuyển khoản",
+      "Chia sẻ thông tin này với người thân để tránh bị lừa tương tự"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## ⚠️ ĐÂY LÀ LỪA ĐẢO! Chị tuyệt đối KHÔNG nộp tiền!\n\nTình huống chị mô tả có đầy đủ các dấu hiệu của một vụ lừa đảo điển hình đang rất phổ biến tại Việt Nam. Dưới đây là phân tích chi tiết:\n\n---\n\n### 🚩 Những dấu hiệu lừa đảo rõ ràng trong tình huống của chị\n\n**1. Tuyển dụng qua Zalo, không rõ danh tính công ty**\nCác đối tượng lừa đảo thường sử dụng mạng xã hội như Facebook, Zalo để đăng tải các thông tin tuyển dụng với mức thu nhập cao, thủ tục đơn giản nhằm thu hút sự quan tâm của người dân.\n\n**2. Thu nhập \"khủng\" 10–15 triệu/tháng cho việc đơn giản**\nThủ đoạn phổ biến là quảng cáo yêu cầu công việc rất đơn giản, không cần kinh nghiệm, chỉ cần có điện thoại, thời gian làm việc linh động, chỉ cần rảnh 1–2 giờ mỗi ngày nhưng thu nhập từ 7–12 triệu đồng/tháng. Đây là chiêu bài \"việc nhẹ, lương cao\" kinh điển.\n\n**3. Yêu cầu nộp \"tiền đảm bảo\" trước khi làm việc**\nTheo quy định pháp luật, người lao động không phải trả bất kỳ khoản chi phí nào liên quan đến quá trình tuyển dụng. Vì vậy, người lao động không có nghĩa vụ nộp tiền cọc khi tham gia ứng tuyển. Nếu nhà tuyển dụng yêu cầu thu tiền cọc của người lao động trong quá trình tuyển dụng, hành vi này có thể bị xem là dấu hiệu lừa đảo.\n\nHãy nhớ rằng không có một doanh nghiệp uy tín nào lại yêu cầu người lao động đóng tiền hay đặt cọc trước khi tuyển dụng.\n\n**4. Kịch bản lừa đảo tiếp theo sau khi nộp tiền**\nKẻ gian mời người dùng tham gia làm nhiệm vụ, bán hàng online hoặc vào các nhóm đầu tư với cam kết lợi nhuận cao. Ban đầu, nạn nhân có thể nhận được tiền thật để tạo niềm tin, sau đó bị yêu cầu nộp phí, đặt cọc hoặc chuyển tiền để \"mở khóa nhiệm vụ\", rồi bị chiếm đoạt.\n\n**5. Sau khi lấy tiền là \"bốc hơi\"**\nCác đối tượng lừa đảo thường giả danh công ty môi giới, tạo ra tin tuyển dụng hấp dẫn với mức lương cao, yêu cầu ứng viên nộp tiền cọc hoặc phí dịch vụ. Sau khi nhận được tiền, chúng nhanh chóng chặn liên lạc hoặc biến mất.\n\n**6. Nguy cơ mất thêm thông tin cá nhân**\nMột số trường hợp còn yêu cầu ứng viên nộp phí tuyển dụng, phí hồ sơ, hoặc phí phỏng vấn thông qua chuyển khoản, ví điện tử. Đồng thời, chúng thu thập thông tin cá nhân quan trọng như số điện thoại, số tài khoản ngân hàng, thậm chí mã OTP để chiếm đoạt tài sản.\n\n---\n\n### ✅ Chị cần làm gì ngay bây giờ?\n\n1. **TUYỆT ĐỐI KHÔNG chuyển tiền** dù chỉ 100.000đ — đây là bước mồi để chúng yêu cầu thêm sau đó.\n2. **KHÔNG cung cấp thông tin cá nhân** như CCCD, số tài khoản ngân hàng, mã OTP cho bất kỳ ai.\n3. **Chặn và báo cáo** tài khoản Zalo đó ngay lập tức.\n4. **Tố giác với cơ quan công an**: Người bị hại có quyền làm đơn tố giác gửi cơ quan công an hoặc cơ quan điều tra nơi mình cư trú. Khi tố giác cần kèm theo bằng chứng như hóa đơn, sao kê chuyển khoản, tin nhắn để cơ quan chức năng xác minh và xử lý.\n5. **Chia sẻ thông tin này** với người thân để tránh bị lừa tương tự.\n\n---\n\n### 💡 Nguyên tắc vàng khi tìm việc online\n\n\u003e **\"Việc tìm người, không phải người nộp tiền để xin việc.\"**\n\nNgười tìm việc hãy cảnh giác với các yêu cầu đóng phí tuyển dụng, đặt cọc bảo đảm… vì doanh nghiệp uy tín không bao giờ thu tiền của người lao động.\n\nChị hãy bảo vệ bản thân và chia sẻ cho mọi người xung quanh cùng biết nhé! 💪",
+  "sources": [
+    "https://congan.ninhbinh.gov.vn/canh-bao-thu-doan-lua-dao-xuat-khau-lao-dong-tren-khong-gian-mang",
+    "https://congan.longan.gov.vn/vi/chi-tiet-tin-tuc?Id=194700",
+    "https://congan.hanam.gov.vn/index.php/vi/news/thong-bao/ha-nam-canh-giac-thu-doan-chiem-quyen-su-dung-zalo-facebook-lua-dao-chiem-doat-tai-san-qua-mang-xa-hoi-1307.html",
+    "https://congan.laichau.gov.vn/pho-bien-giao-duc-phap-luat/canh-giac-thu-doan-hack-tai-khoan-zalo-facebook-nham-lua-dao-chiem-doat-tai-san-tren-dia-ban-tinh-1555.html",
+    "https://help.zalo.me/huong-dan/chuyen-muc/bao-mat-va-rieng-tu/xu-ly-canh-bao-link-lua-dao-tren-zalo/",
+    "https://vtv.vn/cong-nghe/canh-giac-chieu-tro-lua-dao-moi-lam-viec-online-tai-nha-20240617191930564.htm",
+    "https://tuoitre.vn/bay-tuyen-dung-online-lua-dao-nguoi-tim-viec-ky-cuoi-san-thong-tin-nan-nhan-de-ban-cho-trum-cuoi-20230901103759011.htm",
+    "https://nhandan.vn/canh-giac-voi-thu-doan-chiem-quyen-su-dung-zalo-facebook-de-lua-dao-post779948.html",
+    "https://cafef.vn/thu-doan-lua-dao-moi-nhat-tren-zalo-khien-nguoi-dung-mat-tien-chi-sau-mot-lan-mo-tin-nhan-188260120101107427.chn",
+    "https://luatngoctinphat.com/dich-vu-viec-lam-online-gia-nguoi-bi-hai-can-lam-gi-de-doi-lai-tien",
+    "https://canhsatquanlyhanhchinh.gov.vn/phong-chong-toi-pham/canh-giac-thu-doan-lua-dao-tuyen-cong-tac-vien-lam-online-viec-nhe-luong-cao-2681",
+    "https://nld.com.vn/canh-giac-bay-lua-viec-lam-truc-tuyen-196250221213606116.htm",
+    "https://antv.gov.vn/kinh-te-5/canh-giac-bay-lua-dao-tuyen-dung-online-D62F09BDF.html",
+    "https://vieclam24h.vn/nghe-nghiep/la-ban-su-nghiep/4-loai-tuyen-dung-lua-dao-vao-cuoi-nam",
+    "https://vieclam3t.com/cach-tranh-bi-lua-dao-khi-tim-viec-online",
+    "https://www.truongminhngoclawfirm.com/lua-dao-tuyen-dung-online-nguoi-dan-co-the-to-giac-the-nao",
+    "https://www.cake.me/resources/job-searching-guide/lua-dao-tuyen-dung",
+    "https://nld.com.vn/cong-doan/7-dau-hieu-nhan-biet-hanh-vi-lua-dao-tuyen-dung-qua-mang-20221118075752826.htm",
+    "https://baochinhphu.vn/lua-dao-tuyen-dung-truc-tuyen-bay-tinh-vi-nham-vao-nguoi-tim-viec-1022509300917299.htm"
+  ],
+  "latency_ms": 52973
+}

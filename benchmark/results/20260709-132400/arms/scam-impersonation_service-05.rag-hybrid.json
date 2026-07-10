@@ -1,0 +1,29 @@
+{
+  "case_id": "scam-impersonation_service-05",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Yêu cầu chuyển tiền gấp vào tài khoản cá nhân (không phải kênh thanh toán chính thức của điện lực)",
+      "Tạo áp lực thời gian với hạn chót 48 giờ",
+      "Đe dọa cắt điện và phạt thêm tiền",
+      "Giả danh nhân viên Điện lực TP.HCM",
+      "Cung cấp số tài khoản ngân hàng cá nhân và tên người thụ hưởng lạ",
+      "Nêu địa chỉ cụ thể để tăng tính tin cậy",
+      "Đưa ra số nợ tiền cụ thể để gây sợ hãi"
+    ],
+    "matched_patterns": [
+      "impersonation_authority",
+      "impersonation_service"
+    ],
+    "recommended_actions": [
+      "Không chuyển tiền vào tài khoản cá nhân được cung cấp trong tin nhắn này",
+      "Kiểm tra hóa đơn tiền điện qua website chính thức của Điện lực TP.HCM hoặc ứng dụng EVN",
+      "Gọi trực tiếp đến hotline chính thức của Điện lực TP.HCM để xác minh tình trạng nợ tiền",
+      "Chỉ thanh toán tiền điện qua các kênh chính thức như internet banking, mobile banking, ví điện tử uy tín (Momo, ViettelMoney, ZaloPay)",
+      "Báo cáo tin nhắn này cho Công an địa phương hoặc Bộ Công an để điều tra lừa đảo"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 6321
+}

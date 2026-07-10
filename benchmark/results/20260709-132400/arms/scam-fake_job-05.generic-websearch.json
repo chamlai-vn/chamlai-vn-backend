@@ -1,0 +1,50 @@
+{
+  "case_id": "scam-fake_job-05",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Lương 15–20 triệu, chỉ 2–3 tiếng/ngày — phi thực tế, không tương xứng công sức",
+      "Yêu cầu đóng 480.000đ 'phí đào tạo' — công ty hợp pháp không thu phí này",
+      "Yêu cầu mua 'gói sản phẩm test' 1.200.000đ — bẫy ứng tiền trước kinh điển",
+      "'Cam kết hoàn tiền nếu không hài lòng' — lời hứa miệng, không có giá trị pháp lý",
+      "Liên hệ qua Zalo cá nhân — công ty thật sử dụng kênh tuyển dụng chính thống",
+      "Link rút gọn bit.ly — ẩn địa chỉ thật, dễ chứa mã độc",
+      "'Hạn cuối hôm nay!' — tạo áp lực, không cho nạn nhân có thời gian suy nghĩ"
+    ],
+    "matched_patterns": [
+      "Lừa đảo việc nhẹ lương cao / cộng tác viên online",
+      "Yêu cầu đóng tiền trước khi làm việc (phí đào tạo, gói sản phẩm test)",
+      "Bẫy leo thang — hoàn tiền ban đầu để tạo lòng tin, sau đó yêu cầu chuyển tiền nhiều hơn",
+      "Giả mạo sàn thương mại điện tử / tuyển cộng tác viên làm nhiệm vụ"
+    ],
+    "recommended_actions": [
+      "TUYỆT ĐỐI KHÔNG chuyển bất kỳ khoản tiền nào (dù là 480.000đ hay 1.200.000đ)",
+      "TUYỆT ĐỐI KHÔNG click vào link bit.ly trong tin nhắn vì có nguy cơ chứa mã độc và có thể bị chiếm quyền điều khiển điện thoại",
+      "KHÔNG cung cấp thông tin cá nhân: CCCD, số tài khoản ngân hàng, mã OTP",
+      "Chặn và báo cáo tài khoản Zalo/mạng xã hội đó",
+      "Báo cơ quan Công an bằng cách gọi 113 hoặc đến Công an phường/xã gần nhất",
+      "Chia sẻ thông tin này với người thân, bạn bè để tránh bị lừa"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 ĐÂY LÀ LỪA ĐẢO! Hãy cảnh giác ngay!\n\nTin nhắn bạn nhận được **khớp gần như hoàn toàn** với một kịch bản lừa đảo đã được Bộ Công an, Công an nhiều tỉnh thành và các cơ quan chức năng cảnh báo nhiều lần. Dưới đây là phân tích chi tiết:\n\n---\n\n## 🔴 Tại sao đây là lừa đảo?\n\n### 1. Dấu hiệu \"việc nhẹ, lương cao\" bất thường\nĐiểm chung của các vụ lừa đảo là quảng cáo công việc quá dễ dàng nhưng thu nhập cao bất thường. Công việc chỉ cần vài thao tác đơn giản trên điện thoại như xử lý đơn hàng, đăng bài sản phẩm… mà không yêu cầu kỹ năng chuyên môn hay kinh nghiệm. — Đây chính xác là mô tả trong tin nhắn bạn nhận được (15–20 triệu/tháng, chỉ 2–3 tiếng/ngày).\n\n### 2. Yêu cầu đóng tiền trước khi làm việc — Đây là dấu hiệu lừa đảo rõ nhất\nDoanh nghiệp tuyển dụng hợp pháp **không bao giờ** yêu cầu ứng viên nộp phí hoặc chuyển tiền trước khi làm việc. Tin nhắn này yêu cầu bạn nộp tới **480.000đ** (phí đào tạo) và **1.200.000đ** (gói sản phẩm test) — tổng gần **1,7 triệu đồng** trước khi bắt đầu.\n\n### 3. Thủ đoạn \"mồi nhử\" quen thuộc\nCác đối tượng tạo lập các trang thương mại điện tử giả mạo, lấy danh nghĩa các doanh nghiệp uy tín tuyển cộng tác viên làm việc ngoài giờ, dụ dỗ nạn nhân tham gia đóng trước các khoản tiền tạm ứng để nhận nhiệm vụ hoặc mua các gói nhiệm vụ từ số tiền nhỏ đến số tiền lớn.\n\n### 4. Bẫy leo thang — Mất tiền ngày càng nhiều hơn\nỞ giai đoạn đầu, người tham gia sẽ được hoàn tiền đầy đủ và nhận thêm hoa hồng nhằm tạo lòng tin. Sau vài lần, đối tượng yêu cầu nạn nhân chuyển tiền nhiều hơn để \"đạt chỉ tiêu – mở khóa cấp cao – nhận thưởng lớn\". Khi số tiền đủ lớn, các đối tượng sẽ ngắt liên lạc, chặn tài khoản, và chiếm đoạt toàn bộ số tiền.\n\n### 5. Nạn nhân thực tế đã mất rất nhiều tiền\nMột nạn nhân đã chuyển gần **5 tỷ đồng** để làm nhiệm vụ nhưng sau đó không rút được tiền ra. Lúc này chị mới biết mình bị lừa và đến cơ quan Công an trình báo.\n\nNgoài thiệt hại về tài chính, nhiều nạn nhân còn vô tình cung cấp thông tin cá nhân như căn cước công dân, số tài khoản ngân hàng, mã OTP. Những dữ liệu này có thể bị lợi dụng để mở tài khoản ngân hàng, đăng ký vay tiền trực tuyến hoặc thực hiện các hành vi vi phạm pháp luật khác.\n\n---\n\n## ⚠️ Các dấu hiệu đỏ cụ thể trong tin nhắn này\n\n| Dấu hiệu | Phân tích |\n|---|---|\n| Lương 15–20 triệu, chỉ 2–3 tiếng/ngày | Phi thực tế, không tương xứng công sức |\n| Yêu cầu đóng 480.000đ \"phí đào tạo\" | Công ty hợp pháp không thu phí này |\n| Yêu cầu mua \"gói sản phẩm test\" 1,2 triệu | Bẫy ứng tiền trước kinh điển |\n| \"Cam kết hoàn tiền nếu không hài lòng\" | Lời hứa miệng, không có giá trị pháp lý |\n| Liên hệ qua Zalo cá nhân | Công ty thật sử dụng kênh tuyển dụng chính thống |\n| Link rút gọn bit.ly | Ẩn địa chỉ thật, dễ chứa mã độc |\n| \"Hạn cuối hôm nay!\" | Tạo áp lực, không cho bạn có thời gian suy nghĩ |\n\n---\n\n## ✅ Bạn nên làm gì ngay bây giờ?\n\n1. **TUYỆT ĐỐI KHÔNG** chuyển bất kỳ khoản tiền nào (dù là 480.000đ hay 1.200.000đ).\n2. **TUYỆT ĐỐI KHÔNG** click vào link bit.ly trong tin nhắn — không đăng nhập các đường link lạ do những người không quen biết hoặc chỉ quen qua mạng xã hội gửi, có nguy cơ chứa mã độc và có thể bị chiếm quyền điều khiển điện thoại.\n3. **KHÔNG** cung cấp thông tin cá nhân: CCCD, số tài khoản ngân hàng, mã OTP.\n4. **Chặn và báo cáo** tài khoản Zalo/mạng xã hội đó.\n5. **Báo cơ quan Công an**: Nếu phát hiện ra trường hợp lừa đảo tương tự, người dân cần báo ngay cho cơ quan Công an để nhanh chóng xác minh, ngăn chặn và xử lý các đối tượng vi phạm. Bạn có thể gọi **113** hoặc đến Công an phường/xã gần nhất.\n6. **Chia sẻ thông tin** này với người thân, bạn bè để tránh bị lừa.\n\n---\n\n\u003e 💡 **Ghi nhớ:** Không có công việc hợp pháp nào yêu cầu bạn phải **đóng tiền trước** để được nhận việc. Đó luôn là dấu hiệu của lừa đảo!",
+  "sources": [
+    "https://canhsatquanlyhanhchinh.gov.vn/phong-chong-toi-pham/canh-giac-thu-doan-lua-dao-tuyen-cong-tac-vien-lam-online-viec-nhe-luong-cao-2681",
+    "https://congan.longan.gov.vn/vi/chi-tiet-tin-tuc?Id=133438",
+    "https://baovinhlong.com.vn/phap-luat/202409/canh-giac-thu-doan-lua-dao-tuyen-cong-tac-vien-online-da56a10/",
+    "https://congan.vinhlong.gov.vn/canh-bao-phuong-thuc-thu-doan-cua-toi-pham/canh-giac-lua-dao-voi-thu-doan-tuyen-cong-tac-vien-online-1622.html",
+    "https://hoabinhtv.vn/phap-luat/canh-giac-voi-chieu-tro-lua-dao-cong-tac-vien-online",
+    "https://daidoanket.vn/canh-giac-voi-chieu-tro-lua-dao-cong-tac-vien-online-10301532.html",
+    "https://cand.vn/Cong-nghe/tai-dien-nhieu-tro-lua-dao-tuyen-cong-tac-vien-viec-nhe-luong-cao-i724233/",
+    "https://congan.quangngai.gov.vn/danh-muc-san-pham/-tin-tuc-su-kien/canh-bao-thu-doan-lua-dao-tuyen-cong-tac-vien-online-dat-don-hang-ao-de-chiem-doat-tai-san.html",
+    "https://special.nhandan.vn/lua-dao-tuyen-cong-tac-vien-online/index.html",
+    "https://www.tinnhanhdienban.com/canh-bao-lua-dao-tuyen-cong-tac-vien-chot-don-ban-hang-online.html",
+    "https://vov.vn/phap-luat/vi-sao-nhieu-nguoi-sap-bay-khi-lam-cong-tac-vien-online-post995714.vov",
+    "https://baovinhlong.com.vn/phap-luat/202208/thu-doan-lua-dao-tuyen-cong-tac-vien-xu-ly-don-hang-online-3130517/",
+    "https://congan.hatinh.gov.vn/bai-viet/lua-dao-tuyen-dung-cong-tac-vien-ban-hang-online_1705456982.caht",
+    "https://bdt.bacgiang.gov.vn/chi-tiet-tin-tuc/-/asset_publisher/ivaa62McqTU0/content/canh-bao-thu-oan-lua-ao-thong-qua-hinh-thuc-cong-tac-vien-online-tuyen-nhan-vien-lam-viec-tai-nha?inheritRedirect=false",
+    "https://congan.haiphong.gov.vn/Tin-An-ninh-trat-tu/Canh-bao-thu-doan-lua-dao-bang-hinh-thuc-tuyen-cong-tac-vien-xu-ly-don-hang-cho-cac-trang-thuong-mai-dien-tu-171717.html"
+  ],
+  "latency_ms": 62275
+}

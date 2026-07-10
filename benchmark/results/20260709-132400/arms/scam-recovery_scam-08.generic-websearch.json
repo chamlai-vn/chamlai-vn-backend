@@ -1,0 +1,27 @@
+{
+  "case_id": "scam-recovery_scam-08",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Không có cơ quan nào chủ động liên hệ để \"chọn\" hỗ trợ nạn nhân — không tồn tại \"Trung tâm Hỗ trợ Nạn nhân Lừa đảo Quốc gia\" hoạt động kiểu này",
+      "Thu hồi tiền bị lừa phải qua điều tra chính thức của công an/VKS/tòa án, không có \"chương trình đặc biệt\" nào lấy lại tiền nhanh qua tin nhắn",
+      "Kịch bản \"hết phí này đến phí khác\" (phí kích hoạt, phí nâng cấp hạn mức...) là dấu hiệu kinh điển của lừa đảo lần 2",
+      "Cố tình nhắm vào người vừa bị lừa — thậm chí có thể chính là cùng một nhóm lừa đảo ban đầu đóng vai \"hỗ trợ thu hồi\"",
+      "Luật sư/chuyên gia thật cũng không có khả năng \"thu hồi tiền\" bị lừa qua mạng, chỉ tư vấn pháp lý"
+    ],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Dừng ngay mọi giao dịch với số điện thoại đó, chặn và không chuyển thêm bất kỳ khoản nào",
+      "Không cung cấp thêm thông tin cá nhân, tài khoản ngân hàng, mã OTP",
+      "Giữ lại toàn bộ bằng chứng: tin nhắn, số điện thoại, số tài khoản, lịch sử giao dịch",
+      "Liên hệ ngân hàng nơi đã chuyển tiền để báo sự việc và hỏi khả năng phong tỏa/tra soát",
+      "Trình báo công an nơi cư trú về cả hai vụ lừa đảo (vụ gốc và vụ \"hỗ trợ lấy lại tiền\"), có thể gọi đường dây nóng Cục Cảnh sát Hình sự - Bộ Công an",
+      "Không ngại trình báo vì xấu hổ — bị lừa không phải là tội, im lặng mới nguy hiểm"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## Đây chính xác là lừa đảo — và là \"lừa đảo kép\" (lừa lần 2 nhắm vào nạn nhân lần 1)\n\nKết quả tìm kiếm xác nhận đây là thủ đoạn rất phổ biến ở Việt Nam, được công an nhiều tỉnh liên tục cảnh báo (Lâm Đồng, Ninh Bình, Khánh Hòa, Thanh Hóa, Bình Định...). Kịch bản của Hương khớp gần như 100% với mô tả trong các cảnh báo chính thức.\n\n**Vì sao chắc chắn là lừa đảo:**\n\n1. **Không có cơ quan nào chủ động liên hệ để \"chọn\" bạn hỗ trợ.** Công an, tòa án hay bất kỳ cơ quan nhà nước nào không phối hợp, ủy quyền cho bất cứ đơn vị nào để hướng dẫn, nhận hồ sơ của người dân về các vụ việc lừa đảo, chiếm đoạt tài sản qua mạng xã hội. Không hề tồn tại \"Trung tâm Hỗ trợ Nạn nhân Lừa đảo Quốc gia\" nào hoạt động theo kiểu này.\n\n2. **Việc thu hồi tiền bị lừa phải qua điều tra chính thức**, tuân theo quy trình điều tra, xác minh chặt chẽ của cơ quan Công an, Viện kiểm sát và Tòa án — không có \"chương trình đặc biệt\" nào giúp lấy lại tiền nhanh qua tin nhắn.\n\n3. **Kịch bản \"hết phí này đến phí khác\" là dấu hiệu kinh điển.** Các báo cáo mô tả: sau khi nạn nhân chuyển tiền, các đối tượng đưa ra nhiều lý do khác nhau như phí kích hoạt giải ngân, phí nâng cấp hạn mức, phí nâng cấp điểm tín nhiệm... để yêu cầu nạn nhân tiếp tục chuyển tiền, sau đó chiếm đoạt tài sản, khóa tài khoản và cắt đứt liên lạc.\n\n4. **Chúng cố tình nhắm vào người vừa bị lừa** vì biết tâm lý tuyệt vọng: đối tượng đánh vào tâm lý những người từng bị lừa đảo mong muốn lấy lại số tiền đã mất; đáng chú ý, chính đối tượng lừa lần một có thể là người giả danh luật sư/chuyên gia để \"hỗ trợ thu hồi tiền\" khiến nạn nhân sập bẫy lần hai — nghĩa là kẻ lừa Hương lần đầu và kẻ \"hỗ trợ\" này rất có thể là cùng một nhóm.\n\n5. **Luật sư/chuyên gia thật cũng không có khả năng \"thu hồi tiền\"**: việc tìm đến dịch vụ pháp lý của luật sư khi bị lừa đảo qua mạng chỉ là tham vấn, tư vấn giải pháp, chứ luật sư không có khả năng thu hồi tiền bị lừa đảo qua mạng.\n\n## Hương nên làm gì ngay:\n\n- **Dừng ngay mọi giao dịch với số điện thoại đó, chặn và không chuyển thêm một đồng nào**, dù họ có đưa ra lý do gì.\n- **Không cung cấp thêm thông tin cá nhân, tài khoản ngân hàng, mã OTP...** cho họ.\n- **Giữ lại toàn bộ bằng chứng**: tin nhắn, số điện thoại, số tài khoản đã chuyển, lịch sử giao dịch — đừng xóa gì cả.\n- **Liên hệ ngân hàng** nơi Hương đã chuyển tiền để báo sự việc và hỏi khả năng phong tỏa/tra soát giao dịch.\n- **Trình báo công an** nơi cư trú (mang theo bằng chứng) về cả hai vụ lừa đảo — vụ ban đầu và vụ \"hỗ trợ lấy lại tiền\" này. Có thể gọi đường dây nóng Cục Cảnh sát Hình sự – Bộ Công an: **0692 345 860**.\n- Nhắc Hương: bị lừa không phải là tội, im lặng mới là điều nguy hiểm — nên đừng ngại trình báo vì xấu hổ.\n\nNếu bạn muốn, mình có thể giúp soạn sẵn nội dung trình báo công an hoặc tin nhắn báo ngân hàng để Hương gửi nhanh hơn.",
+  "sources": [],
+  "latency_ms": 0
+}

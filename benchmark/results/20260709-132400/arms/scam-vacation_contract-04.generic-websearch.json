@@ -1,0 +1,27 @@
+{
+  "case_id": "scam-vacation_contract-04",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "\"Trúng giải\" mà không hề tham gia quay thưởng — mồi nhử kinh điển",
+      "Phải đóng tiền trước để nhận giải thưởng — nghịch lý cơ bản, giải thật không bắt trả phí trước",
+      "Chuyển khoản vào tài khoản cá nhân (MoMo cá nhân), không phải tài khoản doanh nghiệp chính thức",
+      "Tạo áp lực thời gian (\"hạn chót\", \"chuyển ngay\") để nạn nhân không kịp xác minh",
+      "Khớp mô hình \"sở hữu kỳ nghỉ\" (timeshare) đang bị công an Hà Nội/TP.HCM khởi tố hàng loạt với thiệt hại hàng trăm tỷ đồng"
+    ],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Không chuyển bất kỳ khoản tiền nào, không bấm vào thông tin tài khoản trong tin nhắn",
+      "Không gọi lại số điện thoại được cung cấp trong tin nhắn",
+      "Không cung cấp thông tin cá nhân (CCCD, số tài khoản ngân hàng...)",
+      "Chặn số gửi tin nhắn/gọi điện",
+      "Nếu đã trót chuyển tiền: liên hệ ngay ngân hàng/ví điện tử để tra soát, trình báo công an địa phương hoặc đường dây nóng phòng chống lừa đảo",
+      "Có thể kiểm tra tên công ty trên cổng thông tin đăng ký doanh nghiệp quốc gia, nhưng lưu ý công ty có đăng ký thật vẫn có thể là vỏ bọc lừa đảo"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## Kết luận: Đây gần như chắc chắn là LỪA ĐẢO\n\nTin nhắn này khớp gần như hoàn hảo với mô hình lừa đảo **\"sở hữu kỳ nghỉ\" (timeshare)** đang bùng phát ở Việt Nam — thậm chí công an Hà Nội và TP.HCM vừa khởi tố hàng trăm bị can, với thiệt hại lên tới hơn 700 tỷ đồng chỉ trong vài tháng gần đây.\n\n### Các dấu hiệu lừa đảo rõ ràng trong tin nhắn của bạn:\n\n1. **\"Trúng giải\" mà bạn không hề tham gia quay thưởng** — Bạn không đăng ký, không mua vé, nhưng bỗng dưng \"trúng\" giải trị giá 45 triệu. Đây là mồi nhử kinh điển.\n\n2. **Phải đóng tiền để nhận... giải thưởng** — Nghịch lý cơ bản: nếu thật sự trúng thưởng thì không ai bắt bạn trả phí trước để nhận nó. Thủ đoạn phổ biến là gọi điện, nhắn tin hoặc quảng cáo thông báo khách hàng trúng thưởng, nhận voucher nghỉ dưỡng miễn phí hoặc quà tặng có giá trị lớn, sau đó mời tham dự các buổi giới thiệu sản phẩm sở hữu kỳ nghỉ.\n\n3. **Chuyển khoản vào tài khoản cá nhân, không phải tài khoản doanh nghiệp chính thức** — MoMo của \"Nguyễn Văn Hùng\" cá nhân là điểm cực kỳ đáng ngờ cho một giao dịch \"công ty\".\n\n4. **Tạo áp lực thời gian** (\"hạn chót\", \"chuyển ngay\") — chiêu thúc ép nạn nhân không kịp suy nghĩ hay xác minh.\n\n5. **Vụ án thực tế tương tự vừa bị phanh phui**: Công an TP Hà Nội đã khởi tố 21 vụ án, khởi tố 187 bị can về tội \"Lừa đảo chiếm đoạt tài sản\" liên quan đến việc mua bán thẻ sở hữu kỳ nghỉ, với 493 bị hại và tổng số tiền bị chiếm đoạt hơn 181,4 tỷ đồng. Công an TP.HCM sau đó cũng khởi tố 11 vụ án, gần 200 bị can, với số tiền chiếm đoạt lên đến hơn 612 tỷ đồng. Kịch bản mở đầu luôn giống nhau: gọi điện/nhắn tin báo trúng thưởng hoặc tặng voucher miễn phí, rồi dẫn dụ vào hợp đồng \"sở hữu kỳ nghỉ\" và các khoản phí phát sinh.\n\n6. Ngay cả sau khi đóng tiền, nhiều khách hàng phát hiện các cam kết trong hợp đồng không được thực hiện đầy đủ, khi yêu cầu hoàn tiền thì doanh nghiệp lấy lý do chưa triển khai được hoặc tiếp tục dụ dỗ đóng thêm phí — vòng lặp lừa đảo không có điểm dừng.\n\n### Bạn nên làm gì tiếp theo:\n\n- **Không chuyển bất kỳ khoản tiền nào** — tuyệt đối không bấm vào số Agribank hay MoMo trong tin nhắn.\n- **Không gọi lại số điện thoại được cung cấp** trong tin nhắn.\n- **Không cung cấp thông tin cá nhân** (CCCD, số tài khoản ngân hàng...) cho họ.\n- **Chặn số** gửi tin nhắn/gọi điện này.\n- Nếu đã trót chuyển tiền: liên hệ ngay ngân hàng/MoMo để yêu cầu tra soát, đồng thời trình báo công an địa phương hoặc gọi đường dây nóng phòng chống lừa đảo.\n- Có thể kiểm tra tên \"Công ty Du Lịch Á Châu\" trên cổng thông tin đăng ký doanh nghiệp quốc gia (dangkykinhdoanh.gov.vn) để xác minh — nhưng lưu ý là ngay cả công ty có đăng ký thật vẫn có thể là vỏ bọc lừa đảo, như nhóm 27 công ty vừa bị công bố danh sách.\n\nNếu muốn, tôi có thể giúp bạn kiểm tra xem tên công ty hoặc số điện thoại trong tin nhắn có nằm trong danh sách các công ty/số điện thoại đã bị công an cảnh báo hay không.",
+  "sources": [],
+  "latency_ms": 0
+}

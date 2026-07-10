@@ -1,0 +1,37 @@
+{
+  "case_id": "scam-ecommerce_scam-03",
+  "rag_verdict": {
+    "strengths": [
+      "Bao quát đầy đủ 4 ý chính: giá quá rẻ, tài khoản cá nhân, tạo cảm giác khẩn cấp, thiếu thông tin công ty chính thức",
+      "Bổ sung nhiều dấu hiệu tinh tế mà tin nhắn thể hiện: thiếu chi tiết hành trình, không có hợp đồng, không có điều khoản hoàn hủy",
+      "Khuyến nghị cụ thể và thực tế: gợi ý nền tảng uy tín (Traveloka, Booking), kiểm tra giấy phép kinh doanh, yêu cầu hợp đồng và hóa đơn",
+      "Cấu trúc rõ ràng, mạch lạc, dễ theo dõi với phần mức độ rủi ro, dấu hiệu, chiêu trò, khuyến nghị",
+      "Đưa ra ngưỡng định lượng hữu ích (giá thấp hơn thị trường 30-40% là đáng ngờ)"
+    ],
+    "weaknesses": [
+      "Không nêu con số cụ thể giá thị trường tham chiếu để so sánh trực quan",
+      "Thiếu hướng dẫn xử lý nếu người dùng đã lỡ chuyển tiền (liên hệ ngân hàng, báo công an)",
+      "Không đề cập kênh tố cáo/trình báo khi phát hiện lừa đảo"
+    ],
+    "reasoning": "Câu trả lời A đề cập đầy đủ cả 4 ý chính quan trọng, thậm chí bổ sung thêm nhiều dấu hiệu hợp lý. Kết luận rủi ro rõ ràng (red), lời khuyên cụ thể và khả thi. Điểm yếu chính là thiếu hướng dẫn hành động sau khi đã bị lừa và không có số liệu thị trường cụ thể để tăng tính thuyết phục.",
+    "score": 8.5
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Bao quát đầy đủ cả 4 ý chính với phân tích sâu, có dẫn số liệu thị trường cụ thể (tour thật ~5,2 triệu, giá quảng cáo chưa bằng 1/5)",
+      "Giải thích rõ cơ chế lừa đảo: kẻ gian chặn liên lạc, xóa tài khoản sau khi nhận tiền, khiến việc tra soát vô hiệu",
+      "Có bảng hành động rõ ràng, dễ đọc, kèm hướng dẫn xử lý nếu đã lỡ chuyển tiền (phong tỏa giao dịch, báo công an)",
+      "Trình bày trực quan, sinh động với emoji, bảng, mục phân loại giúp người đọc dễ nắm bắt",
+      "Nhấn mạnh tính phổ biến của chiêu trò tại Việt Nam giúp người dùng nhận thức mức độ nghiêm trọng"
+    ],
+    "weaknesses": [
+      "Con số '5,2 triệu' và 'thấp hơn 30-50%' được trình bày như số liệu khảo sát/chuyên gia nhưng không rõ nguồn, có nguy cơ tạo cảm giác chắc chắn quá mức",
+      "Một số nội dung mang tính khái quát chung về chiêu lừa (tài khoản ảo, biên lai giả) hơi lan man, không hoàn toàn khớp trực tiếp với chi tiết tin nhắn",
+      "Định dạng dài, nhiều trang trí có thể gây rối với một số người đọc muốn thông tin ngắn gọn"
+    ],
+    "reasoning": "Câu trả lời B cũng đề cập đầy đủ 4 ý chính, phân tích chi tiết và có chiều sâu hơn, đặc biệt có số liệu tham chiếu, giải thích cơ chế lừa đảo và hướng dẫn xử lý khi đã bị lừa. Trình bày trực quan tốt. Điểm yếu là một số số liệu thiếu nguồn xác thực và có phần lan man về chiêu trò chung.",
+    "score": 8.5
+  },
+  "preferred": "tie",
+  "order_consistent": true
+}

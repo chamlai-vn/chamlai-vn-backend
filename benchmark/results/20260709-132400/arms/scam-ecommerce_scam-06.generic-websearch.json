@@ -1,0 +1,56 @@
+{
+  "case_id": "scam-ecommerce_scam-06",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Quảng cáo vé máy bay giá rẻ bất thường (vé Hà Nội–Bangkok chỉ 99.000đ) trên mạng xã hội",
+      "Fanpage/tài khoản Facebook giả mạo hãng hàng không, sử dụng hình ảnh giả mạo và tương tác ảo",
+      "Website giả mạo giao diện hãng hàng không (Vietjet) với địa chỉ và thiết kế tương tự kênh chính thức",
+      "Yêu cầu chuyển tiền gấp qua Momo để 'giữ chỗ' với lý do vé giá rẻ chỉ áp dụng trong thời gian ngắn",
+      "Yêu cầu cung cấp số CCCD sau khi đã nhận tiền — có thể bị dùng để mạo danh danh tính cho các hành vi gian lận khác"
+    ],
+    "matched_patterns": [
+      "Quảng cáo vé máy bay giá rẻ bất thường trên mạng xã hội",
+      "Giả mạo fanpage/tài khoản hãng hàng không hoặc công ty du lịch",
+      "Website giả mạo hãng hàng không",
+      "Yêu cầu chuyển khoản gấp để giữ chỗ rồi cắt liên lạc",
+      "Thu thập thông tin CCCD để mạo danh danh tính"
+    ],
+    "recommended_actions": [
+      "Liên hệ ngay tổng đài MoMo 1800 54 54 41 (miễn phí, 24/7) để báo cáo lừa đảo và yêu cầu khóa/truy vết tài khoản nhận tiền",
+      "Chụp màn hình và lưu toàn bộ bằng chứng: biên lai chuyển khoản, sao kê giao dịch, nội dung trò chuyện trên Facebook, thông tin tài khoản kẻ lừa đảo",
+      "Trình báo công an trong vòng 24–48 giờ qua các kênh: công an phường/quận, Phòng An ninh mạng A05 (069.219.4053), Cục Cảnh sát Hình sự C02 (0692.345.860), Tổng đài An toàn mạng 1800.1031, website canhbao.ncsc.gov.vn hoặc App VNeID",
+      "Theo dõi chặt mọi thông báo tín dụng, vay vốn, giao dịch lạ liên quan đến tên bạn do CCCD đã bị lộ",
+      "Thông báo cho gia đình và người thân đề phòng kẻ gian dùng thông tin CCCD của bạn để lừa đảo họ",
+      "Nếu phát hiện CCCD bị lạm dụng, trình báo ngay cơ quan công an",
+      "Tuyệt đối cảnh giác với các 'dịch vụ lấy lại tiền' — đây thường là lừa đảo lần hai",
+      "Trong tương lai, chỉ mua vé tại website chính thức của hãng hàng không (vietjetair.com, vietnamairlines.com, bambooairways.com); không chuyển tiền cá nhân qua Momo/ngân hàng để mua vé; không cung cấp CCCD qua mạng xã hội"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 XÁC NHẬN: Đây là LỪA ĐẢO 100% — Một chiêu trò rất phổ biến tại Việt Nam!\n\nTình huống bạn gặp phải là một vụ lừa đảo điển hình và đã được cơ quan công an Việt Nam cảnh báo nhiều lần. Dưới đây là phân tích chi tiết và hướng dẫn bạn cần làm ngay.\n\n---\n\n## 🔍 Tại sao đây là lừa đảo?\n\nMọi dấu hiệu trong câu chuyện của bạn đều khớp với mô thức lừa đảo được ghi nhận bởi công an:\n\n**1. Quảng cáo giá vé \"rẻ bất thường\" trên mạng xã hội**\nCác đối tượng thường đăng tải quảng cáo vé máy bay giá rẻ bất thường kèm những thông điệp hấp dẫn như \"vé hot, giá siêu hời, số lượng có hạn\", \"vé thanh lý phút chót giá rẻ bất ngờ\". Vé Hà Nội–Bangkok chỉ 99.000đ là một mức giá không có thật, được dùng để nhử nạn nhân.\n\n**2. Tạo fanpage/tài khoản Facebook giả mạo hãng hàng không**\nCác đối tượng thường lập fanpage, website giả mạo các hãng hàng không, công ty du lịch uy tín hoặc đăng tải quảng cáo trên Facebook, Zalo, TikTok nhằm thu hút người có nhu cầu mua vé. Để tạo lòng tin, các đối tượng sử dụng hình ảnh phòng vé, giấy phép kinh doanh giả, thậm chí thuê chạy quảng cáo, tạo lượt tương tác \"ảo\".\n\n**3. Website giả mạo giao diện Vietjet**\nCục Hàng không Việt Nam thông tin, phương thức lừa đảo phổ biến nhất hiện nay là các đối tượng mạo danh đại lý, tự tạo ra các website, trang mạng xã hội với địa chỉ đường dẫn, thiết kế tương tự kênh của các hãng hoặc đại lý chính thức.\n\n**4. Yêu cầu chuyển tiền gấp — rồi \"bốc hơi\"**\nChiêu thức phổ biến là các đối tượng yêu cầu khách chuyển khoản nhanh để \"giữ chỗ\", với lý do vé giá rẻ chỉ áp dụng trong thời gian ngắn. Sau khi nhận được tiền, nhóm lừa đảo hoặc cắt đứt liên lạc, hoặc tiếp tục báo lỗi giao dịch, yêu cầu khách chuyển thêm tiền.\n\n**5. Yêu cầu số CCCD — nguy hiểm kép!**\nViệc kẻ lừa đảo hỏi số CCCD sau khi đã nhận tiền là dấu hiệu cực kỳ nguy hiểm. Chúng có thể dùng thông tin này để **mạo danh danh tính bạn** cho các hành vi gian lận khác (vay tín dụng online, lừa đảo người thân...).\n\n---\n\n## ⚡ Bạn cần làm NGAY bây giờ — theo thứ tự ưu tiên\n\n### Bước 1: Liên hệ Momo ngay lập tức\nĐối với ứng dụng chuyển tiền: Báo cáo với nhà cung cấp ứng dụng ngay. Liên hệ **tổng đài MoMo: 1800 54 54 41** (miễn phí, 24/7), trình bày bạn vừa bị lừa đảo và yêu cầu họ hỗ trợ khóa/truy vết tài khoản nhận tiền. Dù khả năng lấy lại thấp, hành động sớm vẫn tốt hơn.\n\n### Bước 2: Chụp màn hình và lưu TẤT CẢ bằng chứng\nCác bằng chứng cần có bao gồm: biên lai, sao kê chuyển khoản chứng minh số tiền đã chuyển và thông tin tài khoản nhận; ảnh chụp màn hình hoặc file lưu trữ cuộc trò chuyện trên Facebook, bao gồm nội dung quảng cáo vé máy bay giá rẻ, thỏa thuận giao dịch; thông tin cá nhân của bên bán như tên tài khoản Facebook, số điện thoại để xác định danh tính đối tượng.\n\n### Bước 3: Trình báo công an càng sớm càng tốt\nThời hạn báo cáo lý tưởng là trong vòng 24–48 giờ sau khi phát hiện để tăng cơ hội truy vết tài khoản nhận tiền.\n\nBạn có thể trình báo qua các kênh sau:\n\n| Kênh | Thông tin liên hệ |\n|---|---|\n| 🏢 Công an phường/quận nơi bạn ở | Đến trực tiếp |\n| 📞 Phòng An ninh mạng (A05) | **069.219.4053** |\n| 📞 Cục Cảnh sát Hình sự (C02) | **0692.345.860** |\n| 📞 Tổng đài An toàn mạng quốc gia | **1800.1031** (miễn phí) |\n| 🌐 Website cảnh báo | **canhbao.ncsc.gov.vn** |\n| 📱 App VNeID | Tố giác tội phạm online |\n\nKhi đến công an, nạn nhân cần chuẩn bị đầy đủ hồ sơ bao gồm đơn trình báo, chứng minh nhân dân hoặc căn cước công dân (bản sao công chứng), sổ hộ khẩu (bản sao công chứng), và các bằng chứng đi kèm như sao kê giao dịch, ảnh chụp màn hình.\n\n### Bước 4: Cảnh giác với \"dịch vụ lấy lại tiền\" giả mạo\nSau khi bị lừa, bạn có thể nhận được tin nhắn từ người tự xưng có thể lấy lại tiền cho bạn — **đây thường là lừa đảo lần hai!** Hãy tuyệt đối cảnh giác.\n\n---\n\n## ⚠️ Về số CCCD bạn đã cung cấp\n\nĐây là điều cần xử lý **song song ngay hôm nay**:\n- **Theo dõi chặt** mọi thông báo tín dụng, vay vốn, hay giao dịch lạ liên quan đến tên bạn.\n- **Thông báo cho gia đình và người thân** đề phòng kẻ gian dùng thông tin của bạn để lừa họ (giả vờ là bạn gặp khó khăn cần tiền gấp).\n- Nếu phát hiện CCCD bị lạm dụng, trình báo ngay cơ quan công an.\n\n---\n\n## 📌 Bài học để tránh trong tương lai\n\nNgười dân cần nâng cao cảnh giác khi đặt vé máy bay trực tuyến; chỉ nên mua vé qua website chính thức của các hãng hàng không hoặc đại lý uy tín được cấp phép hoạt động.\n\n- ✅ **Chỉ mua vé** tại **vietjetair.com**, **vietnamairlines.com**, **bambooairways.com** hoặc tổng đài chính thức của các hãng.\n- ❌ **Không bao giờ** chuyển tiền cho cá nhân qua Momo/ngân hàng để mua vé máy bay.\n- ❌ **Không cung cấp CCCD** cho bất kỳ ai qua mạng xã hội.\n- ❌ Vé máy bay quốc tế **không bao giờ** có giá 99.000đ — đây là \"mồi nhử\" cổ điển.\n\nBạn không phải lỗi vì tin vào giao diện chuyên nghiệp — những kẻ này ngày càng tinh vi. Điều quan trọng nhất bây giờ là **hành động nhanh để bảo vệ bản thân** và ngăn chúng lừa thêm người khác.",
+  "sources": [
+    "https://cafef.vn/canh-bao-nong-den-nhung-ai-hay-dat-ve-may-bay-gia-re-qua-facebook-zalo-188260520205743423.chn",
+    "https://congan.quangtri.gov.vn/canh-bao-thu-doan-lua-dao-ban-ve-may-bay-gia-re-qua-mang/",
+    "https://congan.camau.gov.vn/ch9/388-Chieu-lua-ban-ve-may-bay-gia-re-tren-facebook-cua-co-gai-tre.html",
+    "https://tuoitre.vn/xuat-hien-chieu-lua-dao-dat-ve-may-bay-qua-mang-xa-hoi-o-nha-trang-20250730130922898.htm",
+    "https://nhandan.vn/canh-giac-voi-thu-doan-lua-dao-mua-ve-may-bay-gia-re-trong-dip-tet-post932395.html",
+    "https://giadinh.suckhoedoisong.vn/nhung-ai-dang-san-ve-may-bay-tet-gia-re-tren-facebook-phai-doc-ngay-keo-tien-mat-tat-mang-172251219180108802.htm",
+    "https://congtyluatacc.vn/bi-lua-mua-ve-may-bay-gia-re-tren-facebook-lay-lai-tien-duoc-khong/",
+    "https://tapchihangkhong.vn/dat-ve-may-bay-online-nguoi-phu-nu-sap-bay-lua-dao-132-trieu-dong-5369.html",
+    "https://daidoanket.vn/thu-doan-lua-dao-ban-ve-may-bay-gia-re-qua-mang-10275059.html",
+    "https://nld.com.vn/canh-bao-hinh-thuc-lua-mua-ve-may-bay-gia-re-de-chiem-doat-tai-san-196240820113318081.htm",
+    "https://fptshop.com.vn/tin-tuc/danh-gia/cach-trinh-bao-cong-an-khi-bi-lua-dao-174483",
+    "https://dansinh.dantri.com.vn/dien-dan-dan-sinh/to-giac-toi-pham-qua-ung-dung-vneid-voi-5-buoc-don-gian-20240901143243381.htm",
+    "https://luatminhkhue.vn/mau-don-trinh-bao-cong-an-lua-dao-qua-mang.aspx",
+    "https://nhandan.vn/special/phai-lam-gi-khi-bi-lua-dao-truc-tuyen/index.html",
+    "https://luatnhanhau.com/thu-tuc-trinh-bao-cong-an-khi-bi-lua-dao-chiem-doat-tai-san/",
+    "https://www.bachhoaxanh.com/kinh-nghiem-hay/thu-tuc-trinh-bao-cong-an-khi-bi-lua-dao-chiem-doat-tai-san-1433590",
+    "https://luatanhngoc.vn/830/to-cao-lua-dao-tren-mang-cach-ban-co-the-bao-ve-minh-va-nguoi-khac",
+    "https://luatminhkhue.vn/duong-day-nong-to-cao-lua-dao-qua-mang.aspx",
+    "https://vtrust.vn/vi/tin-tuc/to-giac-lua-dao-qua-mang",
+    "https://luattoanquoc.com/don-trinh-bao-cong-an-bi-lua-dao-qua-mang/"
+  ],
+  "latency_ms": 86135
+}

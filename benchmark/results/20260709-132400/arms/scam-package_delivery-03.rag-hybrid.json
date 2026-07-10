@@ -1,0 +1,26 @@
+{
+  "case_id": "scam-package_delivery-03",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Nhân vật tự xưng shipper liên hệ qua điện thoại yêu cầu chuyển khoản phí",
+      "Cung cấp đường link lạ (shop.giao-hanhnhanh.xyz) khác với tên miền chính thức của Giao Hàng Nhanh",
+      "Lý do khẩn cấp giả tạo (lỗi bưu kiện, cần xác nhận lại địa chỉ) để tạo áp lực",
+      "Yêu cầu thanh toán tiền qua link giả mạo trước khi giao hàng",
+      "Số điện thoại không phải tổng đài chính thức của công ty vận chuyển"
+    ],
+    "matched_patterns": [
+      "Giả danh shipper gọi điện yêu cầu chuyển khoản trước, gửi link giả mạo",
+      "Giả danh shipper/bưu điện, dụ dỗ cài ứng dụng lạ để chiếm quyền truy cập tài khoản ngân hàng"
+    ],
+    "recommended_actions": [
+      "Tuyệt đối không click vào đường link shop.giao-hanhnhanh.xyz hoặc bất kỳ link nào được gửi qua tin nhắn từ người tự xưng shipper",
+      "Không chuyển khoản số tiền 45.000 đồng hoặc bất kỳ số tiền nào cho số điện thoại này",
+      "Xác minh trực tiếp bằng cách vào ứng dụng Giao Hàng Nhanh chính thức hoặc gọi lại tổng đài 1900.6060 (số chính thức) để kiểm tra xem có thực sự lỗi bưu kiện hay không",
+      "Nếu có nghi ngờ, không thực hiện bất kỳ thao tác nào và báo cáo số điện thoại này cho công ty Giao Hàng Nhanh cũng như cơ quan công an"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 7350
+}

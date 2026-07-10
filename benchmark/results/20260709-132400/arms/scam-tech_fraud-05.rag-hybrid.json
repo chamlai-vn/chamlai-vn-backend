@@ -1,0 +1,32 @@
+{
+  "case_id": "scam-tech_fraud-05",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Giả danh nhân viên Vietcombank với tên riêng (Trần Minh)",
+      "Thông báo hoạt động đăng nhập bất thường để tạo sự cấp bách",
+      "Yêu cầu cài ứng dụng từ đường link lạ (vietcombank-security.mobi/install - không phải domain chính thức)",
+      "Cung cấp trực tiếp mã OTP trong tin nhắn (chi tiết bất thường)",
+      "Đặt hạn chót thời gian (30 phút) để tạo áp lực",
+      "Yêu cầu nhập OTP vào ứng dụng lạ",
+      "Tuyên bố bảo vệ số tiền lớn (47.5 triệu) để tăng độ tin tưởng"
+    ],
+    "matched_patterns": [
+      "Giả danh cơ quan/ngân hàng để tạo sự tin tưởng",
+      "Yêu cầu cài ứng dụng giả mạo từ đường link lạ",
+      "Yêu cầu cung cấp/nhập mã OTP",
+      "Tạo áp lực thời gian (hạn chót 30 phút)"
+    ],
+    "recommended_actions": [
+      "Ngay lập tức không cài ứng dụng từ đường link đó",
+      "Không nhập mã OTP hoặc cung cấp bất kỳ thông tin nào cho liên lạc này",
+      "Gọi trực tiếp số hotline chính thức của Vietcombank (1900 1886 hoặc số tổng đài ghi trên thẻ ATM/chứng chỉ xác nhận tài khoản) để xác minh thông tin",
+      "Kiểm tra trực tiếp tài khoản ngân hàng qua ứng dụng chính thức (VietcomBank Mobile Banking) để xem có hoạt động bất thường hay không",
+      "Không click vào bất kỳ link nào trong tin nhắn này",
+      "Báo cáo tin nhắn này là lừa đảo cho Vietcombank và cơ quan công an"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 7155
+}

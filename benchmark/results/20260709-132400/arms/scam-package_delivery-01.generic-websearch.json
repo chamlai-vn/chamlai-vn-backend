@@ -1,0 +1,57 @@
+{
+  "case_id": "scam-package_delivery-01",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Tên miền giả mạo: link 'ghtk-vnpay.click/confirm?ref=751639' không phải domain chính thức của GHTK (ghtk.vn), sử dụng đuôi '.click' xa lạ",
+      "Thủ đoạn lừa đảo đã được cảnh báo: tin nhắn về 'kiện hàng bị hoàn về' hoặc 'chưa thanh toán phí vận chuyển' kèm link giả mạo để thu thập thông tin cá nhân, số tài khoản, mã OTP",
+      "GHTK đã xác nhận đây là hành vi mạo danh doanh nghiệp nhằm chiếm đoạt tài sản",
+      "Chiêu tạo áp lực thời gian 'hạn chót 24h' để khiến nạn nhân hành động gấp mà không kịp suy nghĩ",
+      "Yêu cầu thanh toán/chuyển khoản trước khi nhận hàng — bất thường so với quy trình giao hàng hợp pháp",
+      "GHTK không bao giờ gửi link yêu cầu nhập thông tin bảo mật như mật khẩu hay OTP",
+      "Số điện thoại 0888.456.789 trong tin nhắn là số của kẻ lừa đảo"
+    ],
+    "matched_patterns": [
+      "Mạo danh đơn vị vận chuyển (GHTK)",
+      "Lừa đảo kiện hàng/bưu kiện giả",
+      "Link giả mạo thu thập thông tin ngân hàng/OTP",
+      "Tạo áp lực thời gian (urgency scam)",
+      "Yêu cầu chuyển khoản/thanh toán trước khi nhận hàng"
+    ],
+    "recommended_actions": [
+      "KHÔNG bấm vào link 'ghtk-vnpay.click' vì có thể đánh cắp thông tin ngân hàng",
+      "KHÔNG gọi lại số điện thoại 0888.456.789 trong tin nhắn",
+      "KHÔNG chuyển khoản bất kỳ khoản tiền nào",
+      "Kiểm tra đơn hàng thật bằng cách truy cập trực tiếp ghtk.vn hoặc app GHTK để tra cứu mã vận đơn",
+      "Liên hệ hotline chính thức GHTK 1900 6092 hoặc qua GHTK App để kiểm tra tính xác thực của đơn hàng",
+      "Chụp ảnh tin nhắn và báo cáo cho cơ quan công an hoặc Cục An toàn thông tin (Bộ TT\u0026TT)",
+      "Nếu đã lỡ bấm link hoặc nhập thông tin ngân hàng/mã OTP, liên hệ ngân hàng ngay lập tức để khóa tài khoản và ngăn chặn giao dịch trái phép"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## 🚨 ĐÂY LÀ LỪA ĐẢO! Hãy cảnh giác ngay!\n\nTin nhắn bạn nhận được có **tất cả các dấu hiệu của một vụ lừa đảo mạo danh GHTK điển hình**. Dưới đây là phân tích chi tiết:\n\n---\n\n## ❌ Tại sao đây là lừa đảo?\n\n### 1. 🔗 Tên miền (link) giả mạo\nLink trong tin nhắn là `ghtk-vnpay.click/confirm?ref=751639` — đây **KHÔNG PHẢI** domain chính thức của GHTK. Website chính thức của GHTK là **ghtk.vn**. Tên miền `.click` hoàn toàn xa lạ và không liên quan đến GHTK thật.\n\nĐiểm sơ hở duy nhất của các tin nhắn lừa đảo kiểu này là địa chỉ người gửi lại xuất phát từ một tên miền hoàn toàn lạ lẫm, không liên quan đến đơn vị vận chuyển.\n\n### 2. 📩 Đây là thủ đoạn lừa đảo đã được cảnh báo nhiều lần\nKẻ gian gửi tin nhắn SMS, Zalo, Facebook với nội dung \"kiện hàng bị hoàn về\", \"chưa thanh toán phí vận chuyển\", đi kèm với đường link giả mạo để yêu cầu người dân điền thông tin cá nhân, số tài khoản, mã OTP nhằm chiếm đoạt tài sản.\n\n### 3. 🏢 GHTK đã lên tiếng xác nhận về các vụ mạo danh này\nGHTK khẳng định đây là hành vi mạo danh doanh nghiệp, nhằm mục đích chiếm đoạt tài sản.\n\nSau khi một số khách hàng phản ánh về việc các cá nhân mạo danh GHTK, yêu cầu chuyển khoản/nhấn vào đường link lạ — đây là hành vi xấu, nhằm đánh cắp thông tin, chiếm dụng tiền của khách hàng.\n\n### 4. ⏰ Chiêu \"hạn chót 24h\" là chiêu tâm lý tạo áp lực\nĐây là kỹ thuật tạo sự hoảng loạn để bạn hành động gấp mà không kịp suy nghĩ. Không có đơn vị giao hàng hợp pháp nào \"hủy bưu kiện\" chỉ vì bạn chưa thanh toán trong 24 giờ.\n\n### 5. 💸 Yêu cầu thanh toán trước khi nhận hàng là bất thường\nHình thức phổ biến nhất là các đối tượng lừa đảo gọi điện, nhắn tin và tự xưng là bưu tá, người giao hàng để thông báo cho người nhận về một đơn hàng và yêu cầu, thúc ép người nhận chuyển khoản hoặc ấn vào link yêu cầu chuyển khoản trước để nhận hàng.\n\n### 6. 📱 GHTK không bao giờ gửi link yêu cầu nhập thông tin bảo mật\nGHTK không gửi tin nhắn kèm đường link yêu cầu nhập các thông tin cá nhân bảo mật như password, OTP.\n\n---\n\n## ✅ Bạn cần làm gì ngay bây giờ?\n\n| Việc cần làm | Chi tiết |\n|---|---|\n| 🚫 **KHÔNG** bấm vào link | Link `ghtk-vnpay.click` là giả mạo, có thể đánh cắp thông tin ngân hàng của bạn |\n| 🚫 **KHÔNG** gọi số 0888.456.789 | Đây là số điện thoại của kẻ lừa đảo |\n| 🚫 **KHÔNG** chuyển khoản bất kỳ khoản tiền nào | |\n| ✅ **Kiểm tra đơn hàng thật** | Truy cập trực tiếp **ghtk.vn** hoặc app GHTK để tra cứu mã vận đơn |\n| ✅ **Liên hệ hotline chính thức GHTK** | Liên hệ bộ phận CSKH qua GHTK App hoặc hotline của GHTK **1900 6092** để kiểm tra tính xác thực của đơn hàng. |\n| ✅ **Báo cáo tin nhắn lừa đảo** | Chụp ảnh tin nhắn và báo cho cơ quan công an hoặc Cục An toàn thông tin (Bộ TT\u0026TT) |\n\n---\n\n\u003e 💡 **Lưu ý quan trọng:** Nếu bạn đã lỡ bấm vào link hoặc nhập thông tin ngân hàng/mã OTP, hãy **liên hệ ngân hàng ngay lập tức** để khóa tài khoản và ngăn chặn giao dịch trái phép.",
+  "sources": [
+    "https://ghtk.vn/su-kien/canh-bao-mao-danh-ghtk-thuc-hien-hanh-vi-tuyen-dung-lua-dao/",
+    "https://vnmedia.vn/cong-nghe/202407/canh-bao-mao-danh-ghtk-thuc-hien-hanh-vi-lua-dao-1660146/",
+    "https://cafef.vn/nguoi-phu-nu-o-ha-noi-bi-lua-hon-10-trieu-boi-shipper-gia-danh-giao-hang-tiet-kiem-suyt-mat-them-19-trieu-dong-neu-khong-dung-ngay-thao-tac-nay-188240821155928087.chn",
+    "https://bocphot.club/boc-phot-dich-vu-giao-hang-khi-shipper-va-shop-cau-ket-lua-khach/",
+    "https://www.24h.com.vn/cong-nghe-thong-tin/them-mot-tro-lua-dao-truc-tuyen-moi-co-nan-nhan-da-mat-tien-trieu-c55a1581668.html",
+    "https://mst.gov.vn/buu-dien-viet-nam-canh-giac-hanh-vi-gia-danh-nhan-vien-giao-hang-de-lua-dao-197241206170840362.htm",
+    "https://congan.quangngai.gov.vn/danh-muc-san-pham/-tin-tuc-su-kien/canh-bao-thu-doan-gia-danh-nhan-vien-buu-dien-de-lua-chuyen-khoan.html",
+    "https://ttbc-hcm.gov.vn/canh-bao-tin-nhan-gia-mao-buu-dien-1020248.html",
+    "https://afamily.vn/them-thu-doan-lua-dao-moi-lien-quan-shipper-doc-chuan-xac-thong-tin-don-hang-de-lua-sach-tien-trong-tai-khoan-236260627085355359.chn",
+    "https://thuvienphapluat.vn/cong-dong-dan-luat/canh-giac-gia-mao-buu-dien-viet-nam-de-lua-dao-khach-hang-chiem-doat-tai-san-204598.html",
+    "https://ghtk.vn/",
+    "https://ghtk.vn/ghtk-chinh-thuc-ra-mat-giao-dien-website-moi/",
+    "https://ghtk.vn/su-kien/thong-bao-cac-kenh-thong-tin-chinh-thuc-cua-ghtk-2/",
+    "https://vietful.vn/blogs/thong-tin/ghtk-la-gi/",
+    "https://ghtk.vn/hoi-dap/tao-don/tao-don-hang-tren-website-ghtk-nhu-the-nao/",
+    "https://vietful.vn/blogs/huong-dan/cach-tra-cuu-ma-van-don-ghtk-don-gian-chinh-xac/",
+    "https://id.giaohangtietkiem.vn/",
+    "https://khachhang.giaohangtietkiem.vn/web/dang-ky",
+    "https://nhanh.vn/tat-ca-thong-tin-ve-domain-la-gi-ma-ban-can-biet-n67181.html",
+    "https://ghtk.vn/blog/sos-ghtk/"
+  ],
+  "latency_ms": 52353
+}

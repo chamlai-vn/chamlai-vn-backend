@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-ecommerce_scam-01",
+  "rag_verdict": {
+    "strengths": [
+      "Nêu đầy đủ 4 ý chính: giá rẻ bất thường, link/website không chính thức, đặt cọc 50%, số điện thoại cá nhân thay vì hotline công ty",
+      "Khuyến nghị hành động cụ thể và thực tế: kiểm tra lịch sử fanpage, xác minh website qua Google, gọi hotline chính thức, không chuyển vào tài khoản cá nhân, so sánh giá",
+      "Cấu trúc gọn gàng, dễ theo dõi, phân loại dấu hiệu - chiêu trò - khuyến nghị rõ ràng"
+    ],
+    "weaknesses": [
+      "Mức độ rủi ro 'yellow' có phần thấp so với số lượng dấu hiệu đỏ đã liệt kê, có thể khiến người dùng chủ quan",
+      "Có lỗi chính tả ('lừa dạo') và một số ý bị lặp (số điện thoại cá nhân được nêu 2 lần, chiêu trò giả mạo fanpage nêu 2 lần)",
+      "Thiếu kênh tố giác chính thức (156, công an) mà người dùng có thể cần"
+    ],
+    "reasoning": "Câu trả lời bao quát tất cả các ý chính, đưa lời khuyên hành động rất thực tế và cụ thể. Tuy nhiên có lỗi chính tả, ý lặp lại và mức rủi ro 'yellow' chưa nhất quán với mức độ nghiêm trọng của các dấu hiệu được nêu.",
+    "score": 7.5
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Bao quát đầy đủ 4 ý chính với giải thích sâu và có dẫn chứng (cảnh báo Công an Đà Nẵng, thủ đoạn đặt cọc 30-50%)",
+      "Lời khuyên hành động toàn diện: không chuyển tiền, không bấm link, không cung cấp OTP/CCCD, kiểm tra tinnhiemmang.vn, báo cáo Facebook, tố giác qua 156 và công an",
+      "Thông điệp cảnh báo rõ ràng, dứt khoát, phù hợp với mức độ rủi ro cao; củng cố sự nghi ngờ đúng đắn của người dùng",
+      "Cung cấp kênh tố giác chính thức cụ thể (cú pháp gửi 156, công an địa phương)"
+    ],
+    "weaknesses": [
+      "Hơi dài và nhiều emoji, có thể gây rối cho một số người đọc",
+      "Thiếu khuyến nghị so sánh giá với đại lý uy tín và xác minh website thật qua Google mà câu trả lời A có nêu",
+      "Một số nội dung mang tính khẳng định cao ('RẤT CÓ KHẢ NĂNG LÀ LỪA ĐẢO') nhưng chưa xác minh trực tiếp Travelix.vn"
+    ],
+    "reasoning": "Câu trả lời đầy đủ, có chiều sâu, dẫn chứng cụ thể và lời khuyên hành động toàn diện bao gồm cả kênh tố giác chính thức. Cảnh báo dứt khoát tương xứng với mức độ dấu hiệu. Điểm trừ nhỏ là hơi dài và thiếu vài bước xác minh mà A có.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

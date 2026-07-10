@@ -1,0 +1,29 @@
+{
+  "case_id": "scam-package_delivery-07",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Cuộc gọi/tin nhắn từ số điện thoại lạ tự xưng là shipper giao hàng",
+      "Yêu cầu chuyển khoản/thanh toán trước khi nhận hàng trực tiếp",
+      "Gửi đường link rút gọn (bit.do) khả nghi để thanh toán",
+      "Tạo cảm giác khẩn cấp (bưu kiện bị giữ) để gây áp lực",
+      "Không có cách thanh toán chính thức qua ứng dụng giao hàng"
+    ],
+    "matched_patterns": [
+      "Giả danh shipper yêu cầu chuyển khoản trước, gửi link độc hại",
+      "Giả danh shipper gọi điện yêu cầu chuyển khoản trước, gửi link giả mạo",
+      "Giả danh shipper lừa đảo qua cuộc gọi và đường link dụ dỗ"
+    ],
+    "recommended_actions": [
+      "Tuyệt đối không click vào link bit.do hoặc bất kỳ đường link lạ nào mà người này gửi",
+      "Không chuyển khoản cho số điện thoại hay tài khoản mà người gọi chỉ định",
+      "Kiểm tra trực tiếp đơn hàng qua ứng dụng chính thức Thiên Hương Express hoặc website của nền tảng mua hàng (Shopee, Lazada, Tiktok Shop) để xác minh thông tin",
+      "Gọi trực tiếp đến hotline chính thức của Thiên Hương Express từ website/ứng dụng để hỏi về bưu kiện này",
+      "Nếu thực sự có bưu kiện bị giữ, chỉ thanh toán khi shipper đến nhà và bạn nhận hàng trực tiếp",
+      "Báo cáo cuộc gọi/tin nhắn này cho công an hoặc ban chuyên trách lừa đảo"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 6793
+}

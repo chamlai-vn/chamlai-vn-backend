@@ -1,0 +1,37 @@
+{
+  "case_id": "scam-ecommerce_scam-02",
+  "rag_verdict": {
+    "strengths": [
+      "Nhận diện chính xác mức độ rủi ro (red) và liệt kê đầy đủ các dấu hiệu cảnh báo khớp với ý chính: fanpage giả mạo, giá bất thường thấp, chuyển khoản tài khoản cá nhân, lời hứa hoàn tiền, cắt liên lạc sau khi nhận tiền",
+      "Ngắn gọn, súc tích, dễ đọc, thông tin không bị dàn trải",
+      "Đưa ra khuyến nghị thực tế: báo cáo Momo, thu thập bằng chứng, chặn số, đặt vé qua kênh chính thức, kiểm tra fanpage",
+      "Có nhắc đến việc kiểm tra kỹ thông tin fanpage (ngày tạo, lịch sử, bình luận ảo) — chi tiết phòng ngừa hữu ích"
+    ],
+    "weaknesses": [
+      "Không cung cấp thông tin liên hệ cụ thể (số CSKH Momo, nơi trình báo công an cụ thể)",
+      "Không cảnh báo về chiêu trò lừa tiếp theo (yêu cầu chuyển thêm tiền để 'mở khóa vé' hoặc dịch vụ 'thu hồi tiền') — một điểm quan trọng để bảo vệ nạn nhân",
+      "Thiếu yếu tố trấn an tâm lý cho nạn nhân",
+      "Một số lỗi diễn đạt nhỏ ('số công bộ')"
+    ],
+    "reasoning": "Câu trả lời A bao quát đầy đủ cả ba ý chính, nhận diện đúng dấu hiệu và đưa lời khuyên hợp lý. Tuy nhiên nó thiếu chiều sâu hướng dẫn hành động cụ thể (thông tin liên hệ) và bỏ qua cảnh báo về nguy cơ bị lừa lần hai. Chất lượng giải thích tốt, súc tích nhưng chưa toàn diện bằng B.",
+    "score": 7.5
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Giải thích rất chi tiết và bao quát toàn bộ ba ý chính, mô tả rõ từng bước của thủ đoạn lừa đảo",
+      "Hướng dẫn hành động cụ thể theo từng bước: thu thập bằng chứng, số CSKH Momo (1900 5454 41), nơi trình báo công an, hồ sơ cần chuẩn bị",
+      "Cảnh báo rất giá trị về chiêu trò lừa lần hai ('chuyển sai nội dung', dịch vụ 'thu hồi tiền') — bảo vệ nạn nhân khỏi bị lừa thêm",
+      "Có yếu tố trấn an tâm lý ('Bạn hoàn toàn không có lỗi'), thể hiện sự đồng cảm phù hợp với nạn nhân",
+      "Trình bày trực quan, dễ theo dõi với các mục rõ ràng"
+    ],
+    "weaknesses": [
+      "Khẳng định '100% CHẮC CHẮN' là quá tuyệt đối, dù trong trường hợp này bằng chứng khá rõ nhưng cách diễn đạt tuyệt đối không phải thực hành tốt",
+      "Hơi dài, một số người có thể thấy quá tải thông tin",
+      "Đề cập không cung cấp OTP/mật khẩu — không sát tình huống này (nạn nhân chuyển khoản chủ động, không liên quan OTP)"
+    ],
+    "reasoning": "Câu trả lời B toàn diện hơn hẳn: giải thích chi tiết cơ chế lừa đảo, hướng dẫn hành động cụ thể với thông tin liên hệ thực tế, cảnh báo lừa lần hai, và trấn an tâm lý nạn nhân. Điểm trừ nhỏ là khẳng định quá tuyệt đối và độ dài. Nhìn chung chất lượng giải thích và lời khuyên vượt trội.",
+    "score": 8.8
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

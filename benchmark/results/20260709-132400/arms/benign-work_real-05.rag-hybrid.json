@@ -1,0 +1,15 @@
+{
+  "case_id": "benign-work_real-05",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "green",
+    "red_flags": [],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Đây là yêu cầu công việc bình thường từ cơ quan/doanh nghiệp. Tuy nhiên, nên xác minh danh tính người gửi nếu chưa quen thuộc và đảm bảo sử dụng hệ thống chính thức của công ty để upload tài liệu",
+      "Nếu nhận được yêu cầu tương tự qua email/tin nhắn cá nhân, hãy kiểm tra lại thông qua các kênh liên lạc chính thức để tránh giả mạo"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 4595
+}
