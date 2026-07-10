@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-romance_scam-06",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận đúng (red), phủ đủ 4 ý chính: giả danh kỹ sư Mỹ, yêu nhanh, hứa gửi 85.000 USD, đòi đặt cọc 4.500 USD trước",
+      "Bắt được logic phi lý: hoàn lại 89.500 USD từ 4.500 USD không phù hợp bản chất 'đặt cọc'",
+      "Khuyến nghị từ chối, xác minh qua video call, chặn tài khoản",
+      "Đầy đủ"
+    ],
+    "weaknesses": [
+      "Pattern khớp hơi lệch ('dẫn dụ đầu tư sàn ảo')",
+      "Không gọi tên rõ mô hình 'advance-fee fraud'",
+      "Không cung cấp kênh trình báo cụ thể"
+    ],
+    "reasoning": "Chính xác và bắt được logic phi lý của đặt cọc. Trừ điểm vì pattern khớp lệch và thiếu kênh trình báo.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Gọi tên chính xác 'romance scam + advance-fee fraud', giải thích logic ngược vô lý của phí đặt cọc",
+      "Nêu điểm 85.000 USD không bao giờ tồn tại, tài khoản cá nhân là dấu hiệu, dự báo phí leo thang",
+      "Gợi ý tra ảnh ngược, hỗ trợ tâm lý và chủ động đề nghị soạn tin phản hồi",
+      "Phân tích mạch lạc"
+    ],
+    "weaknesses": [
+      "Không có nguồn web trích dẫn (sources=0)",
+      "Dài"
+    ],
+    "reasoning": "Toàn diện, gọi tên mô hình và giải thích logic ngược rõ ràng. Điểm trừ là độ dài.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

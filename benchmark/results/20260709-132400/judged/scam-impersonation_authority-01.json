@@ -1,0 +1,35 @@
+{
+  "case_id": "scam-impersonation_authority-01",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận đúng (red) và bao quát cả 4 ý chính: giả danh cơ quan nhà nước, đe dọa khởi tố, app thanh toán lạ, số điện thoại không chính thức",
+      "Cấu trúc rõ ràng, súc tích, dễ đọc cho một câu hỏi ngắn",
+      "Khuyến nghị đúng trọng tâm: ngắt máy, không tải Secure Pay, tự tra số chính thức để xác minh, báo công an",
+      "Nêu đúng nguyên tắc cốt lõi: cơ quan chức năng gửi giấy tờ trực tiếp, không làm việc/thu tiền qua điện thoại"
+    ],
+    "weaknesses": [
+      "Có lỗi chính tả ('Dùi dọa')",
+      "Không cung cấp kênh trình báo/đường dây nóng cụ thể để người dùng hành động ngay",
+      "Không giải thích vì sao 'nợ không người ký' là chiêu bịa đặt, bỏ lỡ cơ hội giáo dục"
+    ],
+    "reasoning": "Câu trả lời chính xác, gọn và phủ đủ các ý chính, khuyến nghị thực tiễn. Trừ điểm nhẹ vì lỗi chính tả và thiếu kênh trình báo cụ thể.",
+    "score": 7.5
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Phân tích 5 dấu hiệu rõ ràng, giải thích sâu cơ chế của từng chiêu (kể cả app giả chiếm quyền, 'nợ không người ký')",
+      "Bảng hành động cụ thể, dễ theo dõi; có căn cứ pháp lý (Điều 145 BLTTHS) và địa điểm trình báo",
+      "Giải thích tại sao Secure Pay không được cấp phép và hậu quả khi cài",
+      "Có lời khuyên chốt bình tĩnh, chia sẻ với người thân"
+    ],
+    "weaknesses": [
+      "Khá dài so với một câu hỏi 'có phải lừa đảo không', có thể gây quá tải thông tin",
+      "Định dạng nặng emoji/bảng có thể không cần thiết",
+      "Không nêu số tổng đài báo cáo số điện thoại lừa đảo (156/5656)"
+    ],
+    "reasoning": "Câu trả lời rất toàn diện, có chiều sâu giáo dục và căn cứ pháp lý, hướng dẫn hành động rõ ràng. Điểm trừ chỉ là độ dài so với một câu hỏi ngắn.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

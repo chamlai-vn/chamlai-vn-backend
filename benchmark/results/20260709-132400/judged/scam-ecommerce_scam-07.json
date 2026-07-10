@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-ecommerce_scam-07",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận đúng (red), phủ đủ 4 ý chính: đặt cọc gấp 50% trong 30 phút, tài khoản cá nhân thay vì công ty, hứa app riêng + đòi OTP, bẫy 'chỉ còn 2 chỗ' + giá rẻ",
+      "Pattern khớp rất mạnh và đúng ngữ cảnh: 5 mẫu lừa đảo tour/du lịch — thể hiện giá trị truy hồi từ corpus",
+      "Bắt được chi tiết tên chủ tài khoản là cá nhân (Trần Văn Minh) và giá tour bất thường",
+      "Khuyến nghị kiểm tra giấy phép, xác minh qua số công bố, không nhập OTP"
+    ],
+    "weaknesses": [
+      "Không nêu kênh trình báo/tra cứu tài khoản lừa đảo cụ thể",
+      "Không hướng dẫn cách đặt tour an toàn (hợp đồng, con dấu)",
+      "Định dạng thuần liệt kê, ít giải thích cơ chế"
+    ],
+    "reasoning": "Chính xác, phủ đủ ý chính và có pattern khớp du lịch rất sát ngữ cảnh — một điểm mạnh truy hồi rõ rệt. Thiếu kênh trình báo và hướng dẫn đặt tour an toàn.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Phân tích 6 dấu hiệu, giải thích sâu cơ chế từng chiêu và vì sao giá tour + vé Bamboo là bất khả thi",
+      "Hướng dẫn đặt tour an toàn cụ thể (yêu cầu hợp đồng có chữ ký/con dấu, xem giấy phép lữ hành, chứng nhận đại lý hãng bay)",
+      "Nêu kênh tra cứu tài khoản lừa đảo (tinnhiemmang.vn) và trình báo công an",
+      "Số liệu quy mô lừa đảo tăng thuyết phục"
+    ],
+    "weaknesses": [
+      "Dài, định dạng nặng",
+      "Số liệu quy mô ít giá trị hành động trực tiếp"
+    ],
+    "reasoning": "Toàn diện, đặc biệt mạnh ở hướng dẫn đặt tour an toàn và kênh tra cứu. Điểm trừ là độ dài. Nhỉnh hơn RAG nhờ chiều sâu và bước phòng ngừa, dù RAG có pattern khớp rất sát.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

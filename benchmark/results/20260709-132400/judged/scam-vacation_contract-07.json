@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-vacation_contract-07",
+  "rag_verdict": {
+    "strengths": [
+      "Nhận diện đúng nạn nhân đã mất 15 triệu + cài app độc hại 'VPC Management' xin quyền danh bạ/tin nhắn",
+      "Phủ đủ 4 ý chính: gói VIP 24h giảm giá, chọn đặc biệt, app độc hại, công ty ma + tài khoản cá nhân",
+      "Khuyến nghị gỡ app + đổi mật khẩu, báo ngân hàng khóa, trình báo, theo dõi tài khoản nhận (rửa tiền)",
+      "Pattern khớp đúng loại"
+    ],
+    "weaknesses": [
+      "Có lỗi nghiêm trọng: câu đầu bị lẫn ký tự Ả Rập ('số điện thoại غير chính thức') làm hỏng chất lượng trình bày",
+      "Không nhắc bật chế độ máy bay/quét mã độc khi gỡ app",
+      "Không cung cấp đường dây nóng cụ thể"
+    ],
+    "reasoning": "Nội dung khắc phục đúng và đầy đủ, nhưng một câu bị lẫn ký tự Ả Rập (lỗi kỹ thuật) làm giảm chất lượng trình bày. Trừ điểm.",
+    "score": 7.5
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Xử lý xuất sắc mối nguy app độc hại (đọc OTP/danh bạ): gỡ app, bật chế độ máy bay khi gỡ, quét mã độc, đổi mật khẩu thiết bị sạch",
+      "Quy trình khắc phục ưu tiên rõ ràng với đường dây nóng cụ thể (1800.1031, 0692.345.860, canhbao.ncsc.gov.vn)",
+      "Ghi nhận nạn nhân đã phát hiện sớm, chủ động đề nghị soạn đơn tố giác",
+      "Cân bằng giữa xử lý malware và tài chính"
+    ],
+    "weaknesses": [
+      "Không có nguồn web trích dẫn (sources=0)",
+      "Dài"
+    ],
+    "reasoning": "Vượt trội nhờ xử lý mối nguy app độc hại chi tiết (bật chế độ máy bay, quét mã độc) và quy trình khắc phục có đường dây nóng cụ thể.",
+    "score": 9
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

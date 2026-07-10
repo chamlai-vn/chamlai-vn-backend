@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-tech_fraud-03",
+  "rag_verdict": {
+    "strengths": [
+      "Trả lời đúng câu hỏi: đây là lừa đảo (red); phủ đủ 4 ý chính: app giả tải từ link, tên giả 'Zalo Banking Pro', đòi OTP + mật khẩu ngân hàng",
+      "Khuyến nghị khẩn cấp đúng: xóa app, đổi mật khẩu từ thiết bị khác, kiểm tra giao dịch, liên hệ ngân hàng",
+      "Nhấn mạnh chỉ tải app từ store chính thức",
+      "Súc tích"
+    ],
+    "weaknesses": [
+      "Không chỉ rõ Zalo là app nhắn tin, không có sản phẩm ngân hàng riêng",
+      "Không nhắc quét mã độc/factory reset dù app có thể chứa malware",
+      "Không cung cấp kênh báo cáo cụ thể"
+    ],
+    "reasoning": "Trả lời đúng và khẩn cấp cho câu hỏi ngắn. Thiếu điểm 'Zalo không có app ngân hàng' và bước xử lý malware.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Chỉ rõ Zalo là app nhắn tin không có sản phẩm ngân hàng, 'Zalo Banking Pro' là giả",
+      "Giải thích cơ chế app giả lấy đăng nhập, dẫn cảnh báo công an về app mạo danh Zalo/ngân hàng",
+      "Hướng dẫn khẩn cấp gồm quét mã độc/factory reset, gọi hotline in trên thẻ",
+      "Nguyên tắc chốt về OTP/mật khẩu"
+    ],
+    "weaknesses": [
+      "Không có nguồn web trích dẫn (sources=0)",
+      "Hơi dài so với câu hỏi ngắn"
+    ],
+    "reasoning": "Chính xác, chỉ rõ Zalo không có app ngân hàng và có bước xử lý malware. Trừ điểm nhẹ vì không có nguồn.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

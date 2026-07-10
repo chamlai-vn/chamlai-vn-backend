@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-recovery_scam-03",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận đúng (red), phủ đủ 4 ý chính: giả danh CSHS TP.HCM, phí xử lý hồ sơ, app SafeGuard Recovery giả, tận dụng nạn nhân cũ",
+      "Pattern khớp đúng loại recovery_scam",
+      "Nêu nguyên tắc Bộ Công an không ủy quyền cá nhân nhận hồ sơ qua mạng",
+      "Khuyến nghị xác minh qua tổng đài chính thức, không dùng số trong tin nhắn"
+    ],
+    "weaknesses": [
+      "Không giải thích rõ nguy cơ app cấp quyền màn hình/đọc OTP",
+      "Không cung cấp kênh trình báo cụ thể (VNeID/5656)",
+      "Định dạng thuần liệt kê"
+    ],
+    "reasoning": "Chính xác, pattern khớp đúng loại và nêu đúng nguyên tắc công an không ủy quyền. Thiếu giải thích app độc hại và kênh trình báo.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Nêu nguyên tắc công an không nhận chuyển khoản, phải lập biên bản tại trụ sở",
+      "Giải thích nguy cơ app SafeGuard Recovery chiếm quyền, domain .me đáng ngờ",
+      "Hướng dẫn tố giác qua VNeID và tổng đài 5656, tách bạch vụ gốc",
+      "Trình bày gọn, sắc"
+    ],
+    "weaknesses": [
+      "Không có nguồn web trích dẫn (sources=0)",
+      "Một vài đoạn hơi dài"
+    ],
+    "reasoning": "Chính xác, nêu nguyên tắc công an không thu tiền và kênh tố giác VNeID cụ thể. Trừ điểm nhẹ vì không có nguồn trích dẫn.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

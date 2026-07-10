@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-vacation_contract-04",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận đúng (red), phủ đủ 4 ý chính: trúng thưởng giả, phí xử lý/bảo hiểm trước, nhiều kênh thanh toán (Agribank/MoMo cá nhân), hạn chót gấp",
+      "Pattern khớp mạnh: 3 mẫu vacation_contract",
+      "Khuyến nghị kiểm tra giấy phép, xác minh cơ sở lưu trú, nêu nguyên tắc người tổ chức thật không đòi phí trước",
+      "Đầy đủ"
+    ],
+    "weaknesses": [
+      "Không nêu số liệu/vụ án thực tế",
+      "Không nêu cổng ĐKKD cụ thể (dangkykinhdoanh.gov.vn)",
+      "Định dạng thuần liệt kê"
+    ],
+    "reasoning": "Chính xác, pattern khớp sát và khuyến nghị hợp lý. Thiếu số liệu và cổng xác minh cụ thể.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Dẫn số liệu vụ án cụ thể, nêu nghịch lý 'đóng tiền để nhận giải thưởng'",
+      "Nêu cổng dangkykinhdoanh.gov.vn và lưu ý tinh tế: công ty có đăng ký thật vẫn có thể là vỏ bọc (nhóm 27 công ty)",
+      "Chủ động đề nghị tra số/công ty trong danh sách cảnh báo",
+      "Đối chiếu từng dấu hiệu"
+    ],
+    "weaknesses": [
+      "Không có nguồn web trích dẫn (sources=0)",
+      "Dài"
+    ],
+    "reasoning": "Toàn diện, có số liệu và lưu ý sắc bén về công ty có đăng ký vẫn có thể lừa. Điểm trừ là độ dài.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

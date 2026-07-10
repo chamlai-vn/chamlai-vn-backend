@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-recovery_scam-06",
+  "rag_verdict": {
+    "strengths": [
+      "Nhận diện đúng nạn nhân đã bị lừa lần hai qua nhiều đợt phí (3tr+2tr+4tr)",
+      "Phủ đủ 4 ý chính: giả danh 'Tổng cục...' không có thật, phí theo giai đoạn, lý do phí đổi liên tục, tận dụng tuyệt vọng",
+      "Pattern khớp rất mạnh: 4 biến thể recovery_scam",
+      "Khuyến nghị nếu cần hỗ trợ pháp lý thì qua công ty luật uy tín/Đoàn Luật sư, không phải dịch vụ trên mạng"
+    ],
+    "weaknesses": [
+      "Không nhắc liên hệ ngân hàng phong tỏa tài khoản nhận",
+      "Không cung cấp kênh trình báo online cụ thể",
+      "Có lỗi đánh máy ('chuyển khoán')"
+    ],
+    "reasoning": "Chính xác, pattern khớp recovery_scam sát và có lời khuyên phân biệt luật sư uy tín. Thiếu bước liên hệ ngân hàng và kênh trình báo.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Chỉ rõ không tồn tại cơ quan mang tên đó, giải thích luật sư/chuyên gia thật cũng không thể 'thu hồi tiền'",
+      "Nêu nghi vấn kẻ lừa lần một và 'người hỗ trợ' có thể cùng nhóm",
+      "Quy trình khắc phục gồm liên hệ ngân hàng phong tỏa, đường dây 0692 345 860",
+      "Chủ động đề nghị soạn nội dung trình báo"
+    ],
+    "weaknesses": [
+      "Không có nguồn web trích dẫn (sources=0)",
+      "Hơi dài"
+    ],
+    "reasoning": "Toàn diện, mạnh ở điểm 'luật sư thật cũng không thu hồi được' và quy trình khắc phục. Trừ điểm nhẹ vì không có nguồn.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

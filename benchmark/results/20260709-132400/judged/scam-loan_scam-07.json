@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-loan_scam-07",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận đúng (red), phủ đủ 4 ý chính: xin CMND/selfie/tài khoản, hứa vay 50tr không chứng minh thu nhập, phí dịch vụ 2,5tr trước, mạo danh công ty",
+      "Pattern khớp đúng loại loan_scam",
+      "Khuyến nghị không chuyển phí, không gửi CCCD/selfie, tra cứu giấy phép",
+      "Đầy đủ"
+    ],
+    "weaknesses": [
+      "Có lỗi đánh máy ('nhạn được')",
+      "Không cảnh báo nguy cơ bị đe dọa/bôi nhọ nếu lộ danh bạ",
+      "Không cung cấp kênh trình báo cụ thể"
+    ],
+    "reasoning": "Chính xác và phủ đủ ý chính. Trừ điểm nhẹ vì lỗi đánh máy và thiếu cảnh báo hậu quả lộ thông tin.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Phân tích 5 dấu hiệu, cảnh báo hậu quả lộ CCCD (bị tạo hồ sơ vay giả) và nguy cơ bị đe dọa/khủng bố tinh thần",
+      "Nêu điểm ngân hàng không xin thông tin qua SMS/chat và không thu phí trước",
+      "Danh mục 'tuyệt đối không' rõ ràng, gợi ý đơn vị vay hợp pháp",
+      "Trích dẫn cảnh báo của Cục ATTT"
+    ],
+    "weaknesses": [
+      "Dài, định dạng nặng",
+      "Một số đoạn trích lặp ý"
+    ],
+    "reasoning": "Toàn diện, cảnh báo cả hậu quả lộ danh tính và nguy cơ bị đe dọa. Điểm trừ là độ dài.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

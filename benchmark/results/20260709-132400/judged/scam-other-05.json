@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-other-05",
+  "rag_verdict": {
+    "strengths": [
+      "Nhận diện đúng nạn nhân bị chiếm tài khoản qua app giả + SIM ghép",
+      "Phủ đủ 4 ý chính: trúng thưởng bất ngờ, app VietAtech Pro từ link SMS, đăng nhập ngân hàng bị đánh cắp, SIM ghép chiếm quyền",
+      "Khuyến nghị đúng: không cài app từ link, không đăng nhập ngân hàng trên app lạ, liên hệ ngân hàng khóa/khiếu nại",
+      "Đầy đủ"
+    ],
+    "weaknesses": [
+      "Pattern khớp chỉ là nhãn trống (prize_gift/impersonation_authority)",
+      "Không giải thích/khuyến nghị xử lý SIM ghép (gọi nhà mạng khóa SIM) dù đây là điểm mấu chốt",
+      "Không nêu số hotline cụ thể"
+    ],
+    "reasoning": "Chính xác và phủ đủ ý chính. Trừ điểm vì thiếu bước xử lý SIM ghép cụ thể và pattern khớp trống.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Bóc tách 5 bước gồm giải thích kỹ SIM swap và cách khắc phục (gọi nhà mạng khóa SIM)",
+      "Khuyến nghị dùng Smart OTP thay SMS OTP, dấu hiệu mất sóng bất thường cần cảnh giác",
+      "Quy trình khắc phục có hotline Agribank (1900 558818), gỡ app/factory reset",
+      "Nguyên tắc vàng về 'quà tặng miễn phí'"
+    ],
+    "weaknesses": [
+      "Rất dài",
+      "Định dạng nặng"
+    ],
+    "reasoning": "Vượt trội nhờ giải thích và xử lý SIM swap, khuyến nghị Smart OTP. Điểm trừ là độ dài.",
+    "score": 9
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

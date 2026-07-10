@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-romance_scam-01",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận đúng (red), phủ đủ 4 ý chính: quen qua app hẹn hò, xin tiền nhiều lý do (chuyến bay/visa/bảo hiểm), tổng 23 triệu, ảnh giả + số VoIP",
+      "Khuyến nghị đầy đủ: báo Bumble, liên hệ ngân hàng, lưu bằng chứng, trình báo công an",
+      "Có yếu tố trấn an tâm lý ('không có lý do để xấu hổ')",
+      "Bao quát, đúng trọng tâm"
+    ],
+    "weaknesses": [
+      "Pattern khớp hơi lệch (gán 'lôi kéo đầu tư' trong khi đây là xin tiền tình cảm)",
+      "Không cung cấp kênh trình báo/đường dây nóng cụ thể",
+      "Phân tích tâm lý còn ngắn so với mức tổn thương của nạn nhân"
+    ],
+    "reasoning": "Chính xác và phủ đủ ý chính, có trấn an tâm lý. Trừ điểm vì pattern khớp lệch và thiếu kênh trình báo cụ thể.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Phân tích 7 dấu hiệu sắc bén (love bombing, né video, VoIP, ảnh trộm), dùng thuật ngữ 'romance baiting' để giảm mặc cảm nạn nhân",
+      "Cung cấp nhiều kênh trình báo cụ thể (VNeID, A05 069.219.4053, email Bộ Công an, canhbao.ncsc.gov.vn)",
+      "Cảnh báo 'dịch vụ lấy lại tiền' cũng là lừa đảo, hỗ trợ tâm lý sâu sắc",
+      "Trình bày mạch lạc, đồng cảm"
+    ],
+    "weaknesses": [
+      "Không có nguồn web trích dẫn (sources=0)",
+      "Dài"
+    ],
+    "reasoning": "Vượt trội nhờ phân tích sắc bén, kênh trình báo cụ thể và đặc biệt là hỗ trợ tâm lý đúng trọng tâm với nạn nhân. Trừ điểm nhẹ vì không có nguồn.",
+    "score": 9
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

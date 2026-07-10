@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-loan_scam-01",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận đúng (red), phủ đủ 4 ý chính: mạo danh công ty tài chính, hứa vay không cần chứng minh thu nhập, số lạ, chưa rõ giấy phép NHNN",
+      "Pattern khớp đúng loại loan_scam/tín dụng đen — giá trị truy hồi",
+      "Khuyến nghị rất thực dụng: tra cứu giấy phép trên Cổng thông tin quốc gia về đăng ký doanh nghiệp, chỉ vay tại chi nhánh có địa chỉ/giấy phép",
+      "Súc tích, phù hợp câu hỏi ngắn"
+    ],
+    "weaknesses": [
+      "Có lỗi đánh máy ('lơi hứa')",
+      "Không nêu rõ chiêu 'phí trước khi giải ngân' — bẫy cốt lõi sắp tới",
+      "Không cung cấp kênh trình báo cụ thể"
+    ],
+    "reasoning": "Chính xác, có pattern khớp đúng loại và khuyến nghị tra cứu giấy phép rất thực tế. Thiếu cảnh báo 'phí trước' và kênh trình báo.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Phân tích rõ chuỗi lừa: mời vay → xin CCCD → đòi phí trước → chiếm đoạt/mất thông tin danh tính",
+      "Nêu điểm cốt lõi: không tổ chức hợp pháp nào cam kết duyệt vay 100%",
+      "Cung cấp kênh trình báo cụ thể (069.219.4053, canhbao.ncsc.gov.vn) và gợi ý đơn vị vay hợp pháp",
+      "Cảnh báo nguy cơ thông tin cá nhân bị lợi dụng (SIM/tài khoản rác)"
+    ],
+    "weaknesses": [
+      "Dài, định dạng nặng cho một câu hỏi ngắn",
+      "Một vài đoạn trích cảnh báo lặp ý"
+    ],
+    "reasoning": "Toàn diện, giải thích chuỗi lừa và hậu quả mất danh tính, có kênh trình báo cụ thể. Điểm trừ là độ dài.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

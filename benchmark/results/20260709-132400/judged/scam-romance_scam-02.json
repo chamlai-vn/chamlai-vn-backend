@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-romance_scam-02",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận đúng (red), phủ đủ 4 ý chính: tạo khẩn cấp (tai nạn), lý do y tế hợp lý bề ngoài, thao túng bằng tình cảm, chi tiết giả (bệnh viện Al Zahra)",
+      "Nêu góc nhìn giá trị: có thể là tài khoản người quen bị chiếm đoạt — khuyên gọi số cũ đã lưu để xác minh",
+      "Khuyến nghị liên hệ công ty/sếp xác minh, không gửi tài khoản/OTP qua Zalo",
+      "Súc tích"
+    ],
+    "weaknesses": [
+      "Pattern khớp một phần lệch ('dẫn dụ đầu tư')",
+      "Không nêu cách tự tra cứu/gọi bệnh viện để xác minh",
+      "Định dạng thuần liệt kê"
+    ],
+    "reasoning": "Chính xác và có góc nhìn tốt (nghi tài khoản bị chiếm đoạt, xác minh qua số cũ). Trừ điểm vì pattern khớp lệch.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Phân tích 6 dấu hiệu, nêu điểm bệnh viện thật không đòi đặt cọc qua Zalo cá nhân và ưu tiên cấp cứu",
+      "Hướng dẫn xác minh cụ thể: tự tra số bệnh viện Al Zahra và gọi trực tiếp kiểm tra bệnh nhân",
+      "Nêu kênh trình báo (156, A05), chủ động hỏi thêm bối cảnh để đánh giá kỹ hơn",
+      "Giọng thận trọng, không kết luận vội"
+    ],
+    "weaknesses": [
+      "Không có nguồn web trích dẫn (sources=0)",
+      "Hơi dài"
+    ],
+    "reasoning": "Chi tiết, có cách xác minh độc lập (gọi bệnh viện) và điểm về quy trình cấp cứu. Điểm trừ là độ dài.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

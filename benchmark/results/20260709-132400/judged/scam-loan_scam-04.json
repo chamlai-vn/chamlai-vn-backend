@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-loan_scam-04",
+  "rag_verdict": {
+    "strengths": [
+      "Nhận diện đúng nạn nhân đã mất 2,5 triệu và tập trung khắc phục",
+      "Phủ đủ 4 ý chính: app FC Wallet từ link SMS, nhập CCCD, phí xác minh trước, tài khoản cá nhân rồi mất tích",
+      "Khuyến nghị nổi bật: khóa CCCD tại cơ quan công an để ngăn lạm dụng — bước quan trọng ít nơi nhắc",
+      "Liên hệ Agribank khóa tài khoản nhận (0821234567), tố giác kèm bằng chứng"
+    ],
+    "weaknesses": [
+      "Không nêu số hotline Agribank cụ thể",
+      "Không cảnh báo app có thể chiếm quyền điều khiển điện thoại (gỡ app/factory reset)",
+      "Không nêu căn cứ pháp lý"
+    ],
+    "reasoning": "Đúng trọng tâm khắc phục, đặc biệt tốt ở khuyến nghị khóa CCCD. Thiếu bước xử lý app độc hại và hotline cụ thể.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Nhấn mạnh mối nguy lớn nhất: CCCD đã lộ có thể bị dùng mạo danh vay tiền nơi khác",
+      "Quy trình khắc phục theo bước, số hotline Agribank chính xác (1900 558 818) và đường dây 069.219.4053",
+      "Hướng dẫn gỡ app FC Wallet (nguy cơ chiếm quyền), đổi mật khẩu, theo dõi tài khoản",
+      "Đánh giá thực tế khả năng lấy lại tiền"
+    ],
+    "weaknesses": [
+      "Rất dài, có lỗi chính tả ('KHẲNG ĐỊNH')",
+      "Định dạng nặng"
+    ],
+    "reasoning": "Toàn diện, mạnh ở cảnh báo hậu quả lộ CCCD và quy trình khắc phục với hotline chính xác. Điểm trừ là độ dài và lỗi chính tả.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

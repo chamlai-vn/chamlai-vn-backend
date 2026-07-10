@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-romance_scam-07",
+  "rag_verdict": {
+    "strengths": [
+      "Nhận diện đúng nạn nhân đã mất 23 triệu qua chiêu 'dự án kinh doanh' + phí thuế",
+      "Phủ đủ 4 ý chính: giả danh kiến trúc sư Singapore, tình cảm 3 tháng, tài khoản trung gian, ảnh giả + số ảo",
+      "Khuyến nghị liên hệ MB Bank phong tỏa tài khoản (0987654321), lưu bằng chứng, trấn an",
+      "Pattern khớp đúng loại"
+    ],
+    "weaknesses": [
+      "Không cảnh báo nguy cơ recovery scam vòng 2",
+      "Không cung cấp kênh trình báo online cụ thể",
+      "Không nhắc bảo mật lại tài khoản nạn nhân"
+    ],
+    "reasoning": "Chính xác và phủ đủ ý chính với khuyến nghị khắc phục cụ thể. Thiếu cảnh báo vòng 2 và bảo mật tài khoản.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Giải thích tài khoản người thứ ba là trung gian/rửa tiền, chuỗi lý do leo thang",
+      "Ghi nhận đã báo công an/ngân hàng đúng hướng, cảnh báo giai đoạn 2, nhắc bảo mật lại tài khoản + 2FA",
+      "Số liệu quy mô (đường dây ~3.000 tỷ/năm, điểm nóng Campuchia), hỗ trợ tâm lý",
+      "Chủ động đề nghị soạn mẫu đơn tố giác"
+    ],
+    "weaknesses": [
+      "Không có nguồn web trích dẫn (sources=0)",
+      "Dài"
+    ],
+    "reasoning": "Toàn diện, có cảnh báo vòng 2, bảo mật tài khoản và hỗ trợ tâm lý. Điểm trừ là độ dài.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-tech_fraud-01",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận đúng (red), phủ đủ 4 ý chính: giả danh nhân viên VCB, link rút gọn bit.ly, urgency 24h khóa tài khoản, hotline/mã giả",
+      "Khuyến nghị đúng: không click link/cung cấp mã, tự tra số chính thức để xác minh",
+      "Nêu ngân hàng thật không yêu cầu xác minh qua link trong tin nhắn",
+      "Súc tích"
+    ],
+    "weaknesses": [
+      "Cung cấp hotline VCB '1900545454 hoặc 19008888' không chính xác (1900545454 là EVN; số đúng của VCB là 1900 545413) — sai ngay kênh xác minh khuyến nghị",
+      "Pattern khớp một phần lệch (recovery_scam)",
+      "Không giải thích rõ cơ chế 'mã xác nhận' là chiêu lấy OTP thật"
+    ],
+    "reasoning": "Phủ đủ ý chính nhưng cung cấp hotline VCB sai — lỗi factual đáng kể vì đó là kênh xác minh. Trừ điểm.",
+    "score": 7.5
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Nêu domain chính thức vietcombank.com.vn, giải thích 'mã xác nhận tạm thời' là chiêu lấy OTP thật",
+      "Phân tích 5 dấu hiệu rõ, hướng dẫn tự mở app/gọi hotline in trên thẻ",
+      "Nêu kênh báo cáo tin nhắn rác (5656), trình bày sạch",
+      "Hướng dẫn nếu đã lỡ nhập thông tin"
+    ],
+    "weaknesses": [
+      "Không có nguồn web trích dẫn (sources=0)",
+      "Không nêu số hotline VCB cụ thể (nhưng đúng đắn khi khuyên dùng số in trên thẻ)"
+    ],
+    "reasoning": "Chính xác về domain và cơ chế lấy OTP, khuyến nghị xác minh đúng cách. Trừ điểm nhẹ vì không có nguồn.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

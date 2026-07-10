@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-impersonation_authority-10",
+  "rag_verdict": {
+    "strengths": [
+      "Nhận diện đúng nạn nhân đã chuyển 5 triệu và tập trung vào khắc phục",
+      "Bắt được chi tiết quan trọng: 'Ngân hàng An Ninh Quốc Gia' không tồn tại trong hệ thống ngân hàng Việt Nam",
+      "Khuyến nghị cụ thể: báo ngân hàng khóa tài khoản nhận và truy hồi tiền, đổi mật khẩu, bật 2FA, gỡ app lạ",
+      "Bao quát đủ 4 ý chính"
+    ],
+    "weaknesses": [
+      "Không cảnh báo nguy cơ 'bị lừa lần hai' (dịch vụ lấy lại tiền giả)",
+      "Không cung cấp đường dây nóng công an cụ thể",
+      "Không nhắc mốc thời gian phong tỏa/tố giác"
+    ],
+    "reasoning": "Đúng trọng tâm khắc phục, bắt được điểm 'ngân hàng không tồn tại' và khuyến nghị cụ thể. Thiếu cảnh báo lừa lần hai và kênh trình báo.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Hướng dẫn khắc phục theo từng bước ưu tiên: bảo vệ tài khoản ngân hàng, xử lý điện thoại (factory reset), trình báo, đổi mật khẩu",
+      "Cảnh báo rõ nguy cơ 'bị lừa lần hai' — rất quan trọng với nạn nhân đã mất tiền",
+      "Khẳng định 'Ngân hàng An Ninh Quốc Gia'/'Quỹ bảo vệ danh tính' là bịa đặt, bảng hotline hữu ích",
+      "Trấn an nạn nhân, nhấn mạnh hành động nhanh"
+    ],
+    "weaknesses": [
+      "Ghi '113' là 'Đường dây tội phạm công nghệ cao (Bộ Công an)' là chưa chuẩn (113 là cảnh sát khẩn cấp chung)",
+      "Rất dài, định dạng nặng"
+    ],
+    "reasoning": "Câu trả lời khắc phục toàn diện với quy trình rõ ràng và cảnh báo lừa lần hai. Trừ điểm nhẹ vì chi tiết hotline 113 gán nhãn chưa chuẩn và độ dài.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

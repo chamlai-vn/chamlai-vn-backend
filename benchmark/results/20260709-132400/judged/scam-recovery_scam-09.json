@@ -1,0 +1,33 @@
+{
+  "case_id": "scam-recovery_scam-09",
+  "rag_verdict": {
+    "strengths": [
+      "Nhận diện đúng đây là recovery_scam nhắm nạn nhân cũ và cảnh báo không chuyển tiền",
+      "Khuyến nghị đúng: không cung cấp thông tin, trình báo công an, Bộ Công an không ủy quyền tổ chức tư nhân",
+      "Pattern khớp đúng loại recovery_scam"
+    ],
+    "weaknesses": [
+      "Phân tích khá mỏng (chỉ 2 dấu hiệu, 1 pattern) so với các câu khác",
+      "Bỏ lỡ điểm mấu chốt: Oxbet là app cờ bạc trái phép nên tiền gốc gần như không thể lấy lại qua kênh chính thức",
+      "Mức độ rủi ro để 'yellow' và giải thích ngắn khiến câu trả lời kém dứt khoát so với tình huống"
+    ],
+    "reasoning": "Đúng hướng nhưng phân tích mỏng và bỏ lỡ bối cảnh quan trọng (cờ bạc trái phép). Chất lượng giải thích thấp hơn hẳn các câu khác.",
+    "score": 7
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Bổ sung bối cảnh cốt lõi: Oxbet là cờ bạc trái phép nên tiền gốc rất khó lấy lại và không được pháp luật bảo vệ",
+      "Giải thích rõ cơ chế recovery scam và các loại phí bịa đặt, nguồn rò rỉ thông tin",
+      "Khuyến nghị thực tế (chấp nhận khó thu hồi, trình báo chủ yếu để cung cấp dữ liệu điều tra)",
+      "Chủ động đề nghị soạn tin trình báo/hướng dẫn bảo vệ tài khoản"
+    ],
+    "weaknesses": [
+      "Không có nguồn web trích dẫn (sources=0)",
+      "Hơi dài so với câu hỏi ngắn"
+    ],
+    "reasoning": "Vượt trội rõ rệt: bổ sung bối cảnh cờ bạc trái phép và đánh giá thực tế khả năng thu hồi, sâu hơn nhiều so với câu trả lời mỏng của arm còn lại.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

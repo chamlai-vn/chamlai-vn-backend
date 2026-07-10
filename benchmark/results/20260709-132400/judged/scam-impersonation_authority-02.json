@@ -1,0 +1,35 @@
+{
+  "case_id": "scam-impersonation_authority-02",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận đúng (red), bao quát đủ 4 ý chính: giả danh Thượng tá, nỗi sợ VNeID/rửa tiền, app VerifyID Pro giả, urgency+bí mật+mã vụ án giả",
+      "Khuyến nghị nổi bật: KHÔNG tuân theo yêu cầu giữ bí mật, hãy báo người thân — đúng điểm mấu chốt của chiêu này",
+      "Nhắc nguyên tắc công an gửi Giấy mời/triệu tập có dấu, không làm việc qua điện thoại",
+      "Súc tích, mọi ý đều đúng trọng tâm"
+    ],
+    "weaknesses": [
+      "Không ghi nhận/động viên việc nạn nhân đã làm đúng khi tra cứu trước",
+      "Không cung cấp đường dây nóng cụ thể để trình báo",
+      "Không nêu con số/quy mô thực tế để tăng sức thuyết phục"
+    ],
+    "reasoning": "Bao quát đủ ý chính, đặc biệt nhấn đúng điểm 'không giữ bí mật'. Thiếu kênh trình báo cụ thể và yếu tố động viên.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Ghi nhận và khen nạn nhân đã hành động đúng khi dừng lại tìm hiểu — củng cố hành vi tốt",
+      "Bảng phân tích từng dấu hiệu, số liệu thực tế (21.800 phản ánh, nạn nhân mất 1,5 tỉ) tăng thuyết phục",
+      "Cung cấp kênh trình báo cụ thể: 113, tổng đài 156/5656, nguồn tải VNeID chính thống",
+      "Đánh giá đúng rủi ro thấp vì chưa cài app/cung cấp thông tin"
+    ],
+    "weaknesses": [
+      "Dài, nhiều lặp ý về cơ chế app giả",
+      "Định dạng nặng emoji",
+      "Gọi 113 để 'báo cáo số điện thoại lừa đảo' hơi chưa chuẩn (113 là khẩn cấp chung)"
+    ],
+    "reasoning": "Toàn diện, có số liệu và kênh trình báo cụ thể, đồng thời động viên hành vi đúng của nạn nhân. Điểm trừ là độ dài và một chi tiết hotline chưa chuẩn.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

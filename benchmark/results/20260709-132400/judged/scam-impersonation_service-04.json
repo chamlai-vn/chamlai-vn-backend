@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-impersonation_service-04",
+  "rag_verdict": {
+    "strengths": [
+      "Nhận diện đúng nạn nhân đã mất 23,5 triệu và tập trung vào khắc phục",
+      "Phủ đủ 4 ý chính, khuyến nghị báo ngân hàng khóa tài khoản, nộp đơn tố cáo kèm bằng chứng, kiểm tra điện thoại có mã độc",
+      "Pattern khớp có mô tả chi tiết cơ chế (app kiểm tra tài khoản là mã độc)",
+      "Nhắc kiểm tra thiết bị bị cài phần mềm độc hại"
+    ],
+    "weaknesses": [
+      "Ghi tổng đài Agribank '1900 1828' là sai (số đúng là 1900 558818)",
+      "Pattern khớp gán nhãn 'Recovery scam' hơi lệch loại (đây là giả danh dịch vụ)",
+      "Không cảnh báo nguy cơ 'bị lừa lần hai'"
+    ],
+    "reasoning": "Đúng trọng tâm khắc phục cho nạn nhân đã mất tiền, có bước hành động. Trừ điểm vì số tổng đài sai và phân loại pattern lệch.",
+    "score": 7.5
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Hướng dẫn khắc phục theo bước rõ ràng, số tổng đài Agribank chính xác (1900 558818) và Cục CSHS 0692 345 860",
+      "Cảnh báo rõ 'bẫy lừa đảo thứ hai', hướng dẫn thu thập bằng chứng và không xóa lịch sử",
+      "Trích dẫn khuyến cáo chính thức của Agribank (không gửi link, chỉ cài app từ store)",
+      "Bảng tóm tắt liên hệ tiện dụng"
+    ],
+    "weaknesses": [
+      "Rất dài, nhiều đoạn trích khuyến cáo lặp ý",
+      "Có lỗi chính tả tiêu đề ('KHẲNG ĐỊNH')"
+    ],
+    "reasoning": "Câu trả lời khắc phục toàn diện với hotline chính xác và cảnh báo lừa lần hai — vượt trội cho nạn nhân đã mất tiền. Trừ điểm nhẹ vì độ dài và lỗi chính tả.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

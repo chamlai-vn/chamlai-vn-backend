@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-prize_gift-03",
+  "rag_verdict": {
+    "strengths": [
+      "Nhận diện đúng nạn nhân đã mất 8 triệu qua web nhái ngân hàng lấy CCCD/OTP",
+      "Phủ đủ 4 ý chính: SMS số lạ, web giả logo ngân hàng, xin CCCD/OTP, tiền bị rút",
+      "Khuyến nghị đúng: gọi ngân hàng khóa tài khoản, báo công an, đổi mật khẩu, theo dõi giao dịch",
+      "Pattern khớp đúng loại"
+    ],
+    "weaknesses": [
+      "Không cảnh báo nguy cơ 'bị lừa lần hai'",
+      "Không nêu số hotline/đường dây nóng cụ thể",
+      "Không nhắc thời gian trình báo càng sớm càng tốt để tăng khả năng thu hồi"
+    ],
+    "reasoning": "Chính xác và phủ đủ ý chính với khuyến nghị khắc phục hợp lý. Thiếu cảnh báo lừa lần hai và kênh cụ thể.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Bảng dấu hiệu đối chiếu, giải thích OTP bị dùng chiếm tài khoản tức thời",
+      "Quy trình khắc phục ưu tiên với đường dây 0692 345 860, thu thập bằng chứng",
+      "Cảnh báo rõ 'tránh mất tiền lần hai', đánh giá khả năng thu hồi dù đã 2 ngày",
+      "Bài học ngân hàng không gửi link đổi điểm/nhận thưởng"
+    ],
+    "weaknesses": [
+      "Rất dài",
+      "Định dạng nặng"
+    ],
+    "reasoning": "Toàn diện, quy trình khắc phục đầy đủ kèm cảnh báo lừa lần hai và trấn an. Điểm trừ là độ dài.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

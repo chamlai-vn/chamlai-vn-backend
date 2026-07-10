@@ -1,0 +1,33 @@
+{
+  "case_id": "scam-tech_fraud-06",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận đúng (red), phủ đủ 4 ý chính: app TikTok Pro Manager giả chứa malware, mất 12,5 triệu, SMS ngân hàng giả + link, kết hợp app giả + phishing + malware",
+      "Khuyến nghị khắc phục đúng: khóa tài khoản, gỡ app + factory reset, đổi mật khẩu từ thiết bị khác, trình báo",
+      "Nhấn mạnh chỉ tải app từ store chính thức"
+    ],
+    "weaknesses": [
+      "Pattern khớp chỉ là nhãn trống (loan_scam/tech_fraud)",
+      "Bỏ lỡ cảnh báo quan trọng: chính CUỘC GỌI 'bạn cũ báo bị hack' có thể là vector lừa vòng hai/deepfake",
+      "Không cung cấp kênh trình báo cụ thể"
+    ],
+    "reasoning": "Chính xác về khắc phục cho nạn nhân nhưng bỏ lỡ cảnh báo về chính cuộc gọi này — một góc nhìn quan trọng của tình huống. Chất lượng phân tích thấp hơn.",
+    "score": 7.5
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Nhận diện chính xác malware SparkKitty núp bóng TikTok Pro và cơ chế quyền trợ năng đánh cắp OTP",
+      "Insight sắc bén: tách bạch 'tin Linh đã bị hack' với 'không tin yêu cầu tiếp theo trong cuộc gọi' (nguy cơ vòng hai/deepfake)",
+      "Quy trình khắc phục đầy đủ cho Linh (khóa tài khoản, factory reset, đổi mật khẩu thiết bị sạch, PA05)",
+      "Cảnh báo không cài app 'hỗ trợ lấy lại tiền'"
+    ],
+    "weaknesses": [
+      "Không có nguồn web trích dẫn (sources=0)",
+      "Rất dài"
+    ],
+    "reasoning": "Vượt trội rõ rệt: nhận diện malware cụ thể và đặc biệt là insight tách bạch về chính cuộc gọi — góc nhìn RAG bỏ lỡ hoàn toàn.",
+    "score": 9
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

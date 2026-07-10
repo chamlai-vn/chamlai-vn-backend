@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-vacation_contract-02",
+  "rag_verdict": {
+    "strengths": [
+      "Trả lời đúng câu hỏi: đây là lừa đảo (red); phủ đủ ý chính: gọi chủ động số lạ, được 'chọn', giá quá rẻ, hợp đồng 10 năm",
+      "Pattern khớp đúng loại vacation_contract",
+      "Khuyến nghị rất thực dụng: yêu cầu xem toàn bộ hợp đồng trước khi trả tiền, chú ý phí ẩn (duy trì/chuyển nhượng/hủy), mang về/hỏi luật sư",
+      "Đầy đủ cho câu hỏi tư vấn"
+    ],
+    "weaknesses": [
+      "Không nêu số liệu/vụ án thực tế để tăng thuyết phục",
+      "Không nêu điểm timeshare là dịch vụ, không phải công cụ tài chính (cam kết sinh lời = dấu hiệu lừa)",
+      "Không cung cấp kênh xác minh cụ thể (cổng ĐKKD)"
+    ],
+    "reasoning": "Trả lời đúng và thực dụng với cảnh báo phí ẩn. Thiếu số liệu và điểm về bản chất dịch vụ timeshare.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Dẫn số liệu cụ thể (17.000 hợp đồng/27 công ty/2.700 tỷ, nhắm người cao tuổi), chỉ rõ điều khoản '10 năm' là cờ đỏ đã được cảnh báo",
+      "Nêu điểm cốt lõi: cam kết sinh lời/mua lại là dấu hiệu lừa vì timeshare chỉ là dịch vụ du lịch",
+      "Khuyến nghị xác minh doanh nghiệp, không ký dưới áp lực thời gian",
+      "Phân tích khớp từng chi tiết tình huống"
+    ],
+    "weaknesses": [
+      "Không có nguồn web trích dẫn (sources=0)",
+      "Dài so với câu hỏi ngắn"
+    ],
+    "reasoning": "Chi tiết, có số liệu và điểm bản chất timeshare rõ ràng, đối chiếu sát tình huống. Điểm trừ là độ dài.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

@@ -1,0 +1,33 @@
+{
+  "case_id": "scam-tech_fraud-07",
+  "rag_verdict": {
+    "strengths": [
+      "Trả lời đúng câu hỏi: đây là lừa đảo (red); phủ đủ 4 ý chính: app MobilePay+ ngoài store, xin quyền tin nhắn/danh bạ, đăng nhập ngân hàng, cảnh báo lạ",
+      "Khuyến nghị khẩn cấp: gỡ app, đổi mật khẩu, kiểm tra giao dịch, liên hệ ngân hàng",
+      "Nhấn mạnh không cấp quyền nhạy cảm cho app không rõ nguồn gốc"
+    ],
+    "weaknesses": [
+      "Pattern khớp lệch (gán loan_scam/app vay tiền trong khi đây là app thanh toán giả)",
+      "Không giải thích vì sao quyền đọc SMS = đánh cắp OTP (điểm cốt lõi)",
+      "Không nhắc ngắt mạng ngay để chặn app gửi dữ liệu"
+    ],
+    "reasoning": "Trả lời đúng và khẩn cấp cho câu hỏi ngắn. Trừ điểm vì pattern khớp lệch và thiếu giải thích cơ chế quyền SMS.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Giải thích rõ quyền đọc SMS là 'chữ ký' banking trojan để đánh cắp OTP, quyền danh bạ để lừa tiếp",
+      "Khuyến nghị ngắt mạng ngay để chặn app gửi dữ liệu — bước xử lý sắc",
+      "Quy trình khắc phục đầy đủ (gỡ app, đổi mật khẩu thiết bị sạch, quét mã độc, factory reset)",
+      "Nhấn mạnh gọi hotline in trên thẻ, không dùng số trong app lạ"
+    ],
+    "weaknesses": [
+      "Không có nguồn web trích dẫn (sources=0)",
+      "Hơi dài so với câu hỏi ngắn"
+    ],
+    "reasoning": "Chính xác, giải thích cơ chế banking trojan và có bước ngắt mạng sắc bén. Trừ điểm nhẹ vì không có nguồn.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

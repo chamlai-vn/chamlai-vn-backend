@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-recovery_scam-02",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận đúng (red), phủ đủ 4 ý chính: giả danh Trung tâm BVNTD Quốc gia, phí xử lý hồ sơ, dùng thông tin cá nhân tạo vẻ hợp pháp, tận dụng tâm lý tuyệt vọng",
+      "Pattern khớp rất mạnh: 4 biến thể recovery_scam — giá trị truy hồi",
+      "Bắt được chi tiết tài khoản nhận là cá nhân và chiêu 'liên lạc chính thức duy nhất'",
+      "Khuyến nghị trình báo cả hai vụ (lần đầu + lần hai)"
+    ],
+    "weaknesses": [
+      "Không giải thích số liệu/mức độ phổ biến để tăng thuyết phục",
+      "Không cung cấp kênh trình báo online cụ thể",
+      "Không đánh giá thực tế khả năng thu hồi tiền"
+    ],
+    "reasoning": "Chính xác, pattern khớp recovery_scam sát và khuyến nghị trình báo cả hai vụ. Thiếu số liệu và đánh giá khả năng thu hồi.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Phân tích 6 dấu hiệu với số liệu (60% nạn nhân bị lừa lại, 66% dữ liệu bị dùng trái phép)",
+      "Giải thích 'thông tin từ đơn vị điều tra' là bịa đặt do rò rỉ dữ liệu",
+      "Cung cấp kênh trình báo (canhbao.ncsc.gov.vn), đánh giá thực tế khả năng thu hồi",
+      "Ghi nhận người dùng đã kiểm tra đúng"
+    ],
+    "weaknesses": [
+      "Rất dài",
+      "Định dạng nặng"
+    ],
+    "reasoning": "Toàn diện, có số liệu thuyết phục và đánh giá thực tế khả năng thu hồi. Điểm trừ là độ dài.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

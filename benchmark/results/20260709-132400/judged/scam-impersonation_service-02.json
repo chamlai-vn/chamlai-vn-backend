@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-impersonation_service-02",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận đúng (red), phủ đủ 4 ý chính: giả danh Viettel, app từ link giả .tk, urgency, đe dọa khóa SIM",
+      "Nêu tên miền chính thức viettel.com.vn và nguyên tắc chỉ tải app từ store chính thức",
+      "Khuyến nghị chủ động gọi lại tổng đài để xác minh độc lập",
+      "Đầy đủ, thực dụng"
+    ],
+    "weaknesses": [
+      "Pattern khớp chỉ là nhãn trống ('impersonation_service'/'impersonation_authority'), không tăng thông tin",
+      "Ghi tổng đài '19000' chưa chính xác/thiếu",
+      "Không ghi nhận việc người dùng đã kịp ngăn em gái"
+    ],
+    "reasoning": "Bao quát, chính xác về bản chất và có tên miền đối chiếu. Trừ điểm vì pattern khớp trống rỗng và số tổng đài chưa chuẩn.",
+    "score": 7.5
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Ghi nhận người dùng đã làm đúng khi ngăn em gái kịp thời",
+      "Cung cấp số tổng đài chính thức cụ thể (1800 8098, 198), chỉ rõ .tk là cờ đỏ và app thật là MyViettel",
+      "Nhánh xử lý rõ ràng, bảng dấu hiệu Thật/Giả dễ nhớ, nêu kênh trình báo canhbao.ncsc.gov.vn",
+      "Nguyên tắc vàng: cúp máy và tự gọi lại tổng đài"
+    ],
+    "weaknesses": [
+      "Dài, nhiều đoạn lặp ý",
+      "Định dạng nặng"
+    ],
+    "reasoning": "Chi tiết, chính xác về tổng đài/tên app, có động viên và kênh trình báo. Điểm trừ là độ dài.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

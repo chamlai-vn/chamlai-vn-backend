@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-impersonation_service-03",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận đúng (red), phủ đủ ý chính: giả danh Viettel, app ViettelSecure giả, cớ khóa SIM, số lạ",
+      "Pattern khớp có nội dung thực (giả danh nhà mạng lừa OTP), phù hợp ngữ cảnh",
+      "Khuyến nghị chỉ tải app từ store, không cung cấp OTP, ra cửa hàng chính thức",
+      "Súc tích, phù hợp câu hỏi ngắn"
+    ],
+    "weaknesses": [
+      "Ghi tổng đài Viettel '1900 1234' là sai (không phải số chính thức)",
+      "Không chỉ rõ app thật tên MyViettel để đối chiếu",
+      "Không nêu kênh xác thực định danh đúng cách"
+    ],
+    "reasoning": "Đúng bản chất và có pattern khớp hợp lý, nhưng mắc lỗi factual về số tổng đài — điểm trừ đáng kể với một câu hỏi cần hành động xác minh.",
+    "score": 7
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Chỉ rõ app thật là MyViettel (không phải ViettelSecure) và tổng đài chính thức 18008098",
+      "Nêu cách xác thực thuê bao đúng: qua VNeID, MyViettel hoặc điểm giao dịch",
+      "Giải thích mục tiêu thật của kẻ lừa (chiếm tài khoản ngân hàng/ví), bảng hành động rõ",
+      "Phân biệt nhà mạng thật có lộ trình, không 'khóa ngay'"
+    ],
+    "weaknesses": [
+      "Dài so với câu hỏi ngắn",
+      "Định dạng nặng emoji"
+    ],
+    "reasoning": "Chính xác về tên app và tổng đài, cung cấp cách xác thực đúng chuẩn. Điểm trừ là độ dài.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

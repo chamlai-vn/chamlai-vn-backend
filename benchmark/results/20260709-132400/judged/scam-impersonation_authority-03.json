@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-impersonation_authority-03",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận đúng (red), phủ đủ 4 ý chính: giả danh CSĐT, app VNeID từ link lạ, urgency 2 giờ, yêu cầu dữ liệu nhạy cảm (CCCD, mật khẩu cấp 2)",
+      "Khuyến nghị cụ thể: chỉ tải VNeID từ store và kiểm tra publisher là 'Bộ Công an'",
+      "Chỉ rõ link vneidsecure.app là giả mạo",
+      "Ngắn gọn, chính xác"
+    ],
+    "weaknesses": [
+      "Không nêu tên miền chính thức (vneid.gov.vn) để đối chiếu",
+      "Không cung cấp tổng đài/đường dây nóng cụ thể",
+      "Không cảnh báo về nguy cơ mã độc chiếm quyền thiết bị rõ ràng"
+    ],
+    "reasoning": "Đầy đủ, chính xác và có khuyến nghị kiểm tra publisher rất thực tế. Thiếu tên miền chính thức và kênh trình báo cụ thể.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Chỉ rõ Bộ Công an chỉ có duy nhất app 'VNeID', 'VneID+' và link vneidsecure.app là giả mạo hoàn toàn",
+      "Nêu tên miền thật (vneid.gov.vn / dichvucong.gov.vn) và tổng đài duy nhất 1900.0368 để đối chiếu",
+      "Cấu trúc nếu-chưa-click / nếu-đã-click rất thực dụng; bảng Thật/Giả dễ nhớ",
+      "Giải thích hậu quả mã độc (đọc OTP, sinh trắc học) với ví dụ nạn nhân thực"
+    ],
+    "weaknesses": [
+      "Dài, nhiều emoji và lặp ý",
+      "Một số ví dụ nạn nhân mang tính giật gân hơn cần thiết"
+    ],
+    "reasoning": "Chi tiết, chính xác, cung cấp mốc đối chiếu (tên miền thật, tổng đài) và hướng dẫn theo nhánh rất hữu ích. Điểm trừ chỉ là độ dài.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

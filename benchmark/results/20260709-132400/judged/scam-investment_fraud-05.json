@@ -1,0 +1,33 @@
+{
+  "case_id": "scam-investment_fraud-05",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận đúng (red), liệt kê rất đầy đủ các dấu hiệu: chuyên gia giả, nhóm Telegram ảo, app FXPro Global domain khả nghi, công ty ma nhận tiền, phí 'giải phóng quỹ'",
+      "Pattern khớp đúng loại đầu tư/forex",
+      "Khuyến nghị liên hệ Techcombank khóa/truy vết tài khoản nhận (1027-482-9156), báo công an"
+    ],
+    "weaknesses": [
+      "Có lỗi nghiêm trọng: từ tiếng nước ngoài lạc ('Anzeige hóa đơn chuyển khoản') làm câu khuyến nghị khó hiểu",
+      "Không cảnh báo nguy cơ 'bị lừa lần hai'",
+      "Không nêu tổng thiệt hại/căn cứ pháp lý"
+    ],
+    "reasoning": "Nội dung phân tích đầy đủ và đúng, nhưng một câu khuyến nghị bị lẫn từ nước ngoài ('Anzeige') làm giảm chất lượng trình bày đáng kể — trừ điểm.",
+    "score": 7
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Rất toàn diện (27 nguồn), giải thích 'chim mồi', chỉ rõ domain .online là cờ đỏ và 'Dream Capital' là công ty ma",
+      "Phân biệt thương hiệu FxPro thật với các domain giả, bảng đối chiếu dấu hiệu với vụ việc",
+      "Quy trình khắc phục đầy đủ, số hotline Techcombank 1800 588 822, ước tính thiệt hại ~25 triệu",
+      "Cảnh báo không nạp thêm để được rút"
+    ],
+    "weaknesses": [
+      "Rất dài",
+      "Định dạng nặng"
+    ],
+    "reasoning": "Câu trả lời vượt trội: phân tích thương hiệu giả, công ty ma, bảng đối chiếu và quy trình khắc phục đầy đủ. Điểm trừ là độ dài.",
+    "score": 9
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

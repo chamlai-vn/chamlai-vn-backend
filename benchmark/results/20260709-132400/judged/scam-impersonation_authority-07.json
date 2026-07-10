@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-impersonation_authority-07",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận đúng (red), phủ đủ 4 ý chính: giả danh công an + số quyết định giả, VNeID/CCCD làm đòn bẩy, link độc hại, urgency 24 giờ",
+      "Khuyến nghị quan trọng: KHÔNG gọi lại hotline trong tin nhắn, tự tra số chính thức",
+      "Nhắc kiểm tra hồ sơ trên app VNeID chính thức",
+      "Súc tích, chính xác"
+    ],
+    "weaknesses": [
+      "Không nêu tên miền chính thức để đối chiếu",
+      "Không cung cấp kênh trình báo cụ thể",
+      "Không giải thích rõ hậu quả mã độc"
+    ],
+    "reasoning": "Đầy đủ, chính xác, đặc biệt đúng ở chỗ khuyên không gọi lại hotline trong tin nhắn. Thiếu tên miền thật và kênh trình báo.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Chỉ rõ domain xacnhanvneid-baomat.xyz là giả và nêu website thật (vneid.gov.vn/dichvucong.gov.vn)",
+      "Nhánh nếu-chưa-click/nếu-đã-click rõ ràng, cung cấp nhiều kênh trình báo cụ thể (069.219.4053, canhbao.ncsc.gov.vn, 08.3864.0508)",
+      "Khuyên chụp màn hình lưu bằng chứng trước khi trình báo",
+      "Giải thích cơ chế mã độc lấy OTP/sinh trắc học"
+    ],
+    "weaknesses": [
+      "Dài, nhiều đoạn trích cảnh báo lặp ý",
+      "Định dạng nặng emoji"
+    ],
+    "reasoning": "Chi tiết, chính xác, cung cấp mốc đối chiếu và nhiều kênh trình báo cụ thể cùng hướng dẫn lưu bằng chứng. Điểm trừ là độ dài.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

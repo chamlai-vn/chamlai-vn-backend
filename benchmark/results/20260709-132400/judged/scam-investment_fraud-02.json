@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-investment_fraud-02",
+  "rag_verdict": {
+    "strengths": [
+      "Trả lời trực tiếp: tuyệt đối không gửi tiền; kết luận đúng (red)",
+      "Phủ đủ 4 ý chính: lợi nhuận phi thực tế, FOMO '500 thành viên', thiếu thông tin quỹ, dấu hiệu Ponzi",
+      "Khuyến nghị rất thực dụng: tra cứu giấy phép trên website Ủy ban Chứng khoán Nhà nước — đúng kênh xác minh chính thống",
+      "Cảnh báo trước chiêu đòi phí khi rút tiền"
+    ],
+    "weaknesses": [
+      "Không nêu số liệu/quy mô để tăng thuyết phục",
+      "Không cung cấp kênh trình báo cụ thể",
+      "Định dạng thuần liệt kê"
+    ],
+    "reasoning": "Trả lời trực diện và chính xác, đặc biệt đúng ở khuyến nghị tra cứu giấy phép qua UBCKNN. Thiếu số liệu và kênh trình báo.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Giải thích mô hình Ponzi/HYIP, chỉ rõ 15%/tháng ~180%/năm vượt xa ngưỡng cảnh báo",
+      "Số liệu thực tế (thiệt hại 2025) tăng thuyết phục, quy tắc vàng dễ nhớ",
+      "Khuyến nghị tra cứu tổ chức được UBCKNN/NHNN cấp phép, tra Google + 'lừa đảo'",
+      "Động viên người dùng đã hỏi đúng lúc"
+    ],
+    "weaknesses": [
+      "Dài so với câu hỏi ngắn",
+      "Định dạng nặng emoji/bảng"
+    ],
+    "reasoning": "Chi tiết, giải thích mô hình Ponzi rõ ràng, có số liệu và kênh xác minh chính thống. Điểm trừ là độ dài.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

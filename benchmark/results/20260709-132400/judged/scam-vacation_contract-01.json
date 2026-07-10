@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-vacation_contract-01",
+  "rag_verdict": {
+    "strengths": [
+      "Nhận diện đúng nạn nhân đã mất 45 triệu qua chiêu tách nhỏ nhiều khoản phí",
+      "Phủ đủ 4 ý chính: gói kỳ nghỉ suốt đời giá rẻ, phí đăng ký qua Momo, phí phụ liên tiếp, biến mất + website 'bảo trì'",
+      "Pattern khớp rất mạnh: 3 mẫu vacation_contract — giá trị truy hồi",
+      "Khuyến nghị cụ thể: kiểm tra ĐKKD qua Sở KH-ĐT, liên hệ Momo khóa tài khoản, lưu bằng chứng"
+    ],
+    "weaknesses": [
+      "Không cảnh báo nguy cơ 'bị lừa lần hai'",
+      "Không nêu đánh giá thực tế khả năng thu hồi",
+      "Không cung cấp đường dây nóng cụ thể"
+    ],
+    "reasoning": "Chính xác, pattern khớp vacation_contract sát và khuyến nghị khắc phục cụ thể. Thiếu cảnh báo lừa lần hai và đánh giá thu hồi.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Dẫn số liệu vụ án thực tế cụ thể (Hà Nội 194 bị can/2.700 tỷ, TP.HCM ~200 bị can/612 tỷ) tăng thuyết phục",
+      "Giải thích mô hình 'tách nhỏ khoản phí', khả năng gộp vào vụ án đang điều tra để dễ hoàn tiền",
+      "Quy trình khắc phục rõ, đánh giá thực tế khả năng thu hồi, chủ động đề nghị soạn tường trình",
+      "Trình bày mạch lạc"
+    ],
+    "weaknesses": [
+      "Không có nguồn web trích dẫn (sources=0)",
+      "Dài"
+    ],
+    "reasoning": "Vượt trội nhờ số liệu vụ án cụ thể và insight về gộp vụ để hoàn tiền. Điểm trừ là độ dài.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}
