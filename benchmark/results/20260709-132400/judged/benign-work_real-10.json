@@ -1,0 +1,28 @@
+{
+  "case_id": "benign-work_real-10",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận đúng (green), không báo động giả cho lời mời họp nội bộ hợp lệ",
+      "Nhận định gọn, chính xác"
+    ],
+    "weaknesses": [
+      "Rất ngắn (một câu), không nêu vì sao an toàn hay dấu hiệu cảnh giác nếu tình huống tương tự bị giả mạo"
+    ],
+    "reasoning": "Kết luận đúng và không báo động giả, nhưng giải thích quá mỏng.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Kết luận đúng (không có dấu hiệu lừa đảo) và giải thích rõ vì sao (không đòi thông tin nhạy cảm/link)",
+      "Nêu các dấu hiệu tin giả danh HR để phòng ngừa về sau, khuyên xác minh nếu bất thường",
+      "Có nguồn dẫn"
+    ],
+    "weaknesses": [
+      "Dài so với một tin nhắn rõ ràng vô hại"
+    ],
+    "reasoning": "Đúng và giải thích đầy đủ hơn phần một câu của RAG. Cân bằng.",
+    "score": 8
+  },
+  "preferred": "tie",
+  "order_consistent": true
+}

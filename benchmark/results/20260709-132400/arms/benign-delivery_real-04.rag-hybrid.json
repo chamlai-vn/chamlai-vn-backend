@@ -1,0 +1,16 @@
+{
+  "case_id": "benign-delivery_real-04",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "green",
+    "red_flags": [],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Để chắc chắn, bạn có thể kiểm tra thông tin đơn hàng trên ứng dụng hoặc website chính thức của Giao nhanh 247 hoặc Điện máy Xanh",
+      "Nếu có bất kỳ thay đổi nào về địa chỉ giao hoặc thời gian, liên hệ trực tiếp số hotline chính thức của công ty vận chuyển",
+      "Khi shipper đến, hãy kiểm tra hàng hóa trước khi thanh toán (nếu là COD) hoặc xác nhận nhận hàng"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 3477
+}

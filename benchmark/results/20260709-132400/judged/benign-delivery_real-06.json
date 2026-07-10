@@ -1,0 +1,29 @@
+{
+  "case_id": "benign-delivery_real-06",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận đúng (green) cho thông báo GHTK hợp lệ, không báo động giả",
+      "Khuyến nghị đối chiếu qua app Tiki/website GHTK, nhắc thông báo thật không đòi OTP/chuyển khoản",
+      "Súc tích"
+    ],
+    "weaknesses": [
+      "Không nêu điểm xác nhận an toàn: link dùng đúng tên miền chính thức i.ghtk.vn"
+    ],
+    "reasoning": "Đúng, gọn và khuyến nghị hợp lý. Thiếu giải thích vì sao link an toàn.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Kết luận đúng (không phải lừa đảo) và chỉ rõ link i.ghtk.vn là tên miền theo dõi chính thức của GHTK",
+      "Trích cả cảnh báo của GHTK về tin giả để đối chiếu, khuyên đối chiếu qua app Tiki",
+      "Có nguồn dẫn"
+    ],
+    "weaknesses": [
+      "Dài hơn mức cần cho tình huống rõ ràng vô hại"
+    ],
+    "reasoning": "Đúng và giải thích cơ sở an toàn (đúng tên miền) có dẫn nguồn. Cân bằng với RAG; nhỉnh nhẹ nhờ chỉ rõ vì sao an toàn.",
+    "score": 8
+  },
+  "preferred": "tie",
+  "order_consistent": true
+}

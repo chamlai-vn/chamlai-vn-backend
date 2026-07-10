@@ -1,0 +1,30 @@
+{
+  "case_id": "benign-delivery_real-05",
+  "rag_verdict": {
+    "strengths": [
+      "Khuyến nghị thực tế: tự tra hotline JD.com chính thức (không dùng số trong tin), xác minh qua bảo vệ, không chuyển khoản"
+    ],
+    "weaknesses": [
+      "Gán mức 'yellow' và một 'matched pattern' lừa đảo cho một thông báo giao hàng vô hại — báo động giả",
+      "Suy diễn thừa các 'dấu hiệu cảnh báo' (giao cho bảo vệ, hạn 3 ngày) vốn là chuyện bình thường",
+      "Không cân nhắc khả năng đây là đơn hàng thật của người dùng"
+    ],
+    "reasoning": "Có khuyến nghị hợp lý nhưng over-flag một tình huống vô hại thành 'yellow' kèm pattern lừa đảo suy diễn — làm giảm chất lượng đánh giá.",
+    "score": 6.5
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Đánh giá cân bằng 'thấp đến trung bình', nêu rõ tin nhắn tự nó chưa có đặc điểm điển hình của lừa đảo",
+      "Phân nhánh rõ: nếu có đơn thì kiểm tra thế nào, nếu không đặt hàng thì bỏ qua",
+      "Chỉ ra mã/hotline trông giống mã ví dụ nhưng không kết luận vội"
+    ],
+    "weaknesses": [
+      "Dài",
+      "Không có nguồn tiếng Việt sát ngữ cảnh"
+    ],
+    "reasoning": "Hiệu chỉnh rủi ro hợp lý, không báo động giả và hướng dẫn phân nhánh rõ ràng — tốt hơn hẳn arm over-flag.",
+    "score": 8
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

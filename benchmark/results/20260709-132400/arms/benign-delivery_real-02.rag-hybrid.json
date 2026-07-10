@@ -1,0 +1,15 @@
+{
+  "case_id": "benign-delivery_real-02",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "green",
+    "red_flags": [],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Tiếp tục kiểm tra đơn hàng qua ứng dụng chính thức Shopee hoặc GHN để đối chiếu thông tin",
+      "Khi nhận hàng, xác minh danh tính shipper và kiểm tra kỹ tình trạng bưu kiện trước khi thanh toán"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 3196
+}

@@ -1,0 +1,29 @@
+{
+  "case_id": "benign-work_real-05",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận đúng (green) cho yêu cầu công vụ nội bộ hợp lệ",
+      "Khuyến nghị xác minh danh tính người gửi và kiểm tra folder/hệ thống là của công ty",
+      "Súc tích"
+    ],
+    "weaknesses": [
+      "Không nêu rõ dạng tấn công (giả mạo email nội bộ chủ đề kiểm toán) để cảnh giác"
+    ],
+    "reasoning": "Đúng và gọn với khuyến nghị hợp lý. Thiếu bối cảnh về phishing giả mạo nội bộ.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Kết luận đúng (không đủ dấu hiệu lừa đảo) và giải thích vì sao có vẻ hợp lệ",
+      "Cảnh báo phishing hay giả mạo chủ đề kiểm toán/tài liệu, nêu các dấu hiệu rủi ro tăng (link đăng nhập lạ, tệp bất thường)",
+      "Có nguồn dẫn"
+    ],
+    "weaknesses": [
+      "Dài"
+    ],
+    "reasoning": "Đúng và có bộ dấu hiệu cảnh giác đầy đủ hơn. Cân bằng với RAG.",
+    "score": 8
+  },
+  "preferred": "tie",
+  "order_consistent": true
+}

@@ -1,0 +1,17 @@
+{
+  "case_id": "benign-delivery_real-03",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "green",
+    "red_flags": [],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Đây là một câu hỏi tư vấn bình thường, không phải là tin nhắn lừa đảo đang xảy ra",
+      "Nếu bạn thực sự nhận được thông báo từ ViettelPost mà không nhớ đặt hàng, hãy kiểm tra trực tiếp trên ứng dụng ViettelPost hoặc gọi hotline chính thức của ViettelPost để xác minh",
+      "Không chuyển khoản hoặc cung cấp thông tin cá nhân cho bất kỳ ai gọi thông báo về gói hàng này, cho đến khi xác minh được thông tin từ nguồn chính thức",
+      "Nếu không thể xác minh đơn hàng, từ chối nhận và báo cho công ty vận chuyển"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 4112
+}

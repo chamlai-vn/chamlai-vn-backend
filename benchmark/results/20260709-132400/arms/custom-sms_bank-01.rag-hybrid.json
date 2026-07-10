@@ -1,0 +1,26 @@
+{
+  "case_id": "custom-sms_bank-01",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "yellow",
+    "red_flags": [
+      "Tin nhắn thông báo giao dịch bất thường từ người lạ (có thể là lừa đảo giả mạo ngân hàng)",
+      "Yêu cầu liên hệ số điện thoại kèm theo (có thể là số lừa đảo giả mạo)",
+      "Số tiền lớn bị trừ (15 triệu đồng) có thể dùng để tạo sự hoang mang, khẩn cấp",
+      "Đường link lạ vietcom-bank.com.vn (không phải đuôi chính thức của VietcomBank)"
+    ],
+    "matched_patterns": [
+      "recovery_scam",
+      "tech_fraud"
+    ],
+    "recommended_actions": [
+      "KHÔNG gọi số điện thoại trong tin nhắn - đây có thể là số lừa đảo. Thay vào đó, hãy gọi trực tiếp tổng đài chính thức của VietcomBank (ghi trên thẻ ATM hoặc website chính thức) để xác minh giao dịch",
+      "KHÔNG truy cập vào đường link vietcom-bank.com.vn - cần kiểm tra website chính thức VietcomBank qua trình duyệt (không click link từ tin nhắn) để tìm hiểu tình hình",
+      "Kiểm tra lịch sử giao dịch trực tiếp trên ứng dụng ngân hàng chính thức hoặc website chính thức của VietcomBank",
+      "Nếu xác nhận là giao dịch không hợp lệ, liên hệ cơ sở ghi danh thẻ tín dụng/tài khoản của VietcomBank để khóa tài khoản tạm thời và báo cáo",
+      "Cân nhắc thay đổi mật khẩu và bật xác thực 2 lớp nếu tài khoản chưa có"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 8135
+}

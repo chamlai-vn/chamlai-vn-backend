@@ -1,0 +1,14 @@
+{
+  "case_id": "benign-work_real-06",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "green",
+    "red_flags": [],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Tin nhắn này không chứa dấu hiệu lừa đảo. Đó là thông báo công việc bình thường từ đồng nghiệp về cuộc họp nội bộ của công ty"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 2752
+}

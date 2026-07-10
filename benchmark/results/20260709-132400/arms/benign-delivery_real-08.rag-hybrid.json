@@ -1,0 +1,22 @@
+{
+  "case_id": "benign-delivery_real-08",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "yellow",
+    "red_flags": [
+      "Gửi thông báo bí mật từ công ty vận chuyển mà không liên kết qua ứng dụng chính thức hoặc hotline",
+      "Yêu cầu cung cấp thông tin cá nhân (số điện thoại, địa chỉ) qua tin nhắn mà không xác minh danh tính người gửi",
+      "Tạo cảm giác cần xử lý ngay ('xác minh thông tin') để dẫn dắt người nhận hành động vội vàng",
+      "Không cung cấp mã đơn hàng, số tư vấn viên hoặc đường link xác minh chính thức để người dùng tự kiểm tra"
+    ],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Không chia sẻ thêm thông tin cá nhân qua tin nhắn này; truy cập trực tiếp ứng dụng vận chuyển hoặc sàn TMĐT để kiểm tra trạng thái đơn hàng",
+      "Gọi lại số hotline chính thức của công ty vận chuyển (không dùng số từ tin nhắn) để xác nhận xem họ có gửi thông báo này hay không",
+      "Nếu thất bại hoặc nhân viên khẳng định không gửi, đây có thể là dấu hiệu của chiêu lừa; tránh cung cấp bất kỳ dữ liệu nhạy cảm",
+      "Kiểm tra tên công ty và địa chỉ chính thức từ các nguồn độc lập để đảm bảo nó thực tế tồn tại"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 11553
+}

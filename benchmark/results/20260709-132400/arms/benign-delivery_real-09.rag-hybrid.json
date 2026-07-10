@@ -1,0 +1,16 @@
+{
+  "case_id": "benign-delivery_real-09",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "green",
+    "red_flags": [],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Vẫn nên xác minh đơn hàng trực tiếp qua tài khoản cá nhân trên website sàn thương mại điện tử nơi bạn mua hàng để đảm bảo tin nhắn này là chính hãng",
+      "Nếu có bất kỳ yêu cầu chuyển tiền hay click link lạ trong các tin nhắn tiếp theo, hãy liên hệ trực tiếp với Bưu điện Việt Nam qua số hotline chính thức 1900 545481 để xác minh",
+      "Không cần vội vàng thực hiện bất kỳ hành động gì ngoài chuẩn bị để nhận hàng - đây là tin thông báo bình thường"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 13265
+}

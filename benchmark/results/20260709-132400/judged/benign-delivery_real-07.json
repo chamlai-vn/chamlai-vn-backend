@@ -1,0 +1,29 @@
+{
+  "case_id": "benign-delivery_real-07",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận đúng (green), không báo động giả cho thông báo giao hàng thông thường",
+      "Khuyến nghị hợp lý: xác minh qua kênh chính thức, thanh toán COD, không chuyển khoản trước",
+      "Súc tích"
+    ],
+    "weaknesses": [
+      "Không nêu điểm cần lưu ý (tên 'ABC Express' chung chung, chưa xác định đơn vị cụ thể)"
+    ],
+    "reasoning": "Đúng và gọn với khuyến nghị an toàn phù hợp. Thiếu lưu ý về tên đơn vị chung chung.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Kết luận cân bằng (chưa đủ dấu hiệu lừa đảo), nêu rõ các điểm khiến tin nhắn trông bình thường",
+      "Chỉ ra điểm cần lưu ý (tên/mã vận đơn chung chung) và liệt kê các dấu hiệu sẽ khẳng định lừa đảo",
+      "Có dẫn nguồn cảnh báo"
+    ],
+    "weaknesses": [
+      "Dài"
+    ],
+    "reasoning": "Đúng và cung cấp bộ dấu hiệu phân biệt đầy đủ hơn. Cân bằng với RAG.",
+    "score": 8
+  },
+  "preferred": "tie",
+  "order_consistent": true
+}

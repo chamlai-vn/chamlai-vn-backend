@@ -1,0 +1,29 @@
+{
+  "case_id": "benign-delivery_real-10",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận đúng (green), khen đúng cách người dùng đã xác minh (kiểm tra email/lịch sử đơn)",
+      "Khuyến nghị: luôn xác minh trước khi bấm link, tra lịch sử đơn khi nhận thông báo bất ngờ",
+      "Súc tích"
+    ],
+    "weaknesses": [
+      "Không nhắc kiểm tra tên miền của link trước khi bấm"
+    ],
+    "reasoning": "Đúng, gọn và củng cố hành vi tốt của người dùng. Thiếu lưu ý kiểm tra tên miền link.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Kết luận đúng (không đủ dấu hiệu lừa đảo), giải thích vì sao hợp lệ (đối chiếu được đơn Tiki thật)",
+      "Lưu ý chỉ bấm link nếu đúng tên miền chính thức Viettel Post",
+      "Nêu các dấu hiệu bất thường cần cảnh giác về sau"
+    ],
+    "weaknesses": [
+      "Dài; lần này không có nguồn dẫn"
+    ],
+    "reasoning": "Đúng và có thêm lưu ý kiểm tra tên miền. Cân bằng với RAG.",
+    "score": 8
+  },
+  "preferred": "tie",
+  "order_consistent": true
+}

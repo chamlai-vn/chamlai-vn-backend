@@ -1,0 +1,29 @@
+{
+  "case_id": "benign-sms_bank_real-05",
+  "rag_verdict": {
+    "strengths": [
+      "Mức 'yellow' hợp lý và khuyến nghị đúng cốt lõi: không gọi số trong tin, tự mở app/tra số chính thức, không cung cấp OTP",
+      "Nhắc kiểm tra dấu hiệu bị xâm nhập"
+    ],
+    "weaknesses": [
+      "Phân tích khá mỏng, chưa giải thích vì sao khó phân biệt (tin giả nằm chung luồng, hotline thật vẫn có thể bị chèn)",
+      "Không xác nhận 1900558818 là số thật của Agribank"
+    ],
+    "reasoning": "Khuyến nghị an toàn đúng nhưng phân tích mỏng so với độ tinh vi của chiêu này.",
+    "score": 7.5
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Phân tích sâu, sát bối cảnh: trích cảnh báo của Agribank, chỉ rõ 1900558818 là số thật nhưng vẫn có thể bị chèn vào tin giả, tin giả nằm chung luồng với tin thật",
+      "Hướng dẫn tự mở app/tra số chính thức, báo cáo tin rác qua 5656/thongbaorac.ais.gov.vn",
+      "Hiệu chỉnh rủi ro rõ và có căn cứ"
+    ],
+    "weaknesses": [
+      "Rất dài, định dạng nhiều khoảng trắng"
+    ],
+    "reasoning": "Vượt trội nhờ giải thích sâu vì sao khó phân biệt (hotline thật không chứng minh tin thật, tin giả cùng luồng) và kênh báo cáo cụ thể.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

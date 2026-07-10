@@ -1,0 +1,16 @@
+{
+  "case_id": "benign-sms_bank_real-06",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "green",
+    "red_flags": [],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Tin nhắn này có mọi đặc điểm của thông báo giao dịch hợp lệ từ ngân hàng chính thức",
+      "Nếu không chắc chắn, hãy kiểm tra trực tiếp qua ứng dụng ngân hàng chính thức hoặc gọi hotline Vietcombank để xác minh",
+      "Lưu ý rằng các ngân hàng thực không bao giờ yêu cầu nạn nhân cung cấp mã OTP, mật khẩu hay thông tin nhạy cảm qua tin nhắn"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 4775
+}

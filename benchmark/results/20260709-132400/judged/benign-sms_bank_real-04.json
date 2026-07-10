@@ -1,0 +1,29 @@
+{
+  "case_id": "benign-sms_bank_real-04",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận đúng (green), trấn an đúng: đây là thông báo xác nhận thay đổi thông tin tiêu chuẩn",
+      "Khuyến nghị bình tĩnh, kiểm tra hoạt động gần đây, xác minh qua tổng đài chính thức",
+      "Súc tích"
+    ],
+    "weaknesses": [
+      "Không nêu điểm định dạng tin này cũng là 'công thức' lừa đảo phổ biến để người dùng cảnh giác lần sau"
+    ],
+    "reasoning": "Đúng và trấn an hợp lý. Thiếu lưu ý rằng định dạng này cũng hay bị giả mạo.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Phân tích hai mặt tinh tế: vừa giải thích vì sao có khả năng thật (khớp việc chị vừa làm), vừa cảnh báo đây là công thức lừa đảo phổ biến",
+      "Khuyến nghị không bấm link, không đọc OTP, tự mở app kiểm tra lịch sử thay đổi",
+      "Có tính giáo dục cao"
+    ],
+    "weaknesses": [
+      "Dài"
+    ],
+    "reasoning": "Nhỉnh hơn nhờ phân tích hai mặt (thật/giả) có tính giáo dục, giúp người dùng phân biệt lần sau.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

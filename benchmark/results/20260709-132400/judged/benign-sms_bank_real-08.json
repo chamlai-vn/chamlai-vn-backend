@@ -1,0 +1,30 @@
+{
+  "case_id": "benign-sms_bank_real-08",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận đúng (green) cho thông báo giao dịch thật (rút ATM) chỉ bị gửi trễ",
+      "Khuyến nghị phòng ngừa hợp lý: xác minh qua số chính thức, cảnh giác chiêu giả danh ngân hàng",
+      "Súc tích"
+    ],
+    "weaknesses": [
+      "Không xác nhận 1900 9247 là hotline chính thức của BIDV",
+      "Không nhắc kiểm tra lịch sử qua app trước khi kết luận"
+    ],
+    "reasoning": "Đúng và gọn. Thiếu xác nhận hotline chính thức và bước kiểm tra qua app.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Kết luận đúng (không phải lừa đảo), giải thích rõ đây là thông báo gửi chậm cho giao dịch thật",
+      "Xác nhận 1900 9247 là tổng đài BIDV và BIDV có dịch vụ BSMS, có nguồn dẫn",
+      "Nêu lưu ý về độ trễ hệ thống và cảnh báo SMS kèm link giả"
+    ],
+    "weaknesses": [
+      "Dài"
+    ],
+    "reasoning": "Nhỉnh hơn nhờ xác nhận hotline/dịch vụ chính thức và giải thích rõ nguyên nhân (thông báo trễ).",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

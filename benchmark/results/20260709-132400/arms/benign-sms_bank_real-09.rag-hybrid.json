@@ -1,0 +1,26 @@
+{
+  "case_id": "benign-sms_bank_real-09",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "yellow",
+    "red_flags": [
+      "Yêu cầu liên hệ ngay lập tức (tạo áp lực thời gian)",
+      "Thông báo giao dịch lạ không được phép xác nhận",
+      "Số điện thoại được cung cấp trong tin nhắn (có thể không phải số chính thức)",
+      "Mẫu tin nhắn phổ biến trong kịch bản recovery scam"
+    ],
+    "matched_patterns": [
+      "recovery_scam - Giả danh ngân hàng",
+      "impersonation_authority - Tạo cảnh báo giả mạo để dụ dỗ liên hệ"
+    ],
+    "recommended_actions": [
+      "Không gọi số điện thoại được cố gắng cung cấp trong tin nhắn - đây có thể là số của kẻ lừa đảo",
+      "Gọi trực tiếp số điện thoại chính thức của ngân hàng (tra cứu từ website chính thức hoặc thẻ ATM) để xác minh tính chính xác của cảnh báo",
+      "Kiểm tra lịch sử giao dịch trực tiếp trên ứng dụng ngân hàng hoặc quầy giao dịch",
+      "Nếu thực sự có giao dịch lạ, hãy làm việc trực tiếp với ngân hàng, không nghe theo hướng dẫn của người gọi",
+      "Tuyệt đối không cung cấp mã OTP, thông tin cá nhân cho bất kỳ ai"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 5989
+}

@@ -1,0 +1,28 @@
+{
+  "case_id": "benign-promo_real-01",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Link được cung cấp có giao diện giống Shopee nhưng URL chứa đường dẫn lạ '/dlink/verify/link' không phải của Shopee chính thức",
+      "Yêu cầu xác minh danh tính qua link từ bên thứ ba là dấu hiệu điển hình của lừa đảo",
+      "Thông báo 'hoạt động bất thường' được gửi ngoài ứng dụng chính thức của Shopee là đáng ngờ",
+      "Link chứa các tham số truy vấn nghi vấn (q=QbmnkejM\u0026event_type=1) điển hình của trang phishing",
+      "Nếu người dùng click vào link này sẽ có nguy cơ bị lừa nhập mật khẩu, mã OTP hoặc thông tin tài khoản"
+    ],
+    "matched_patterns": [
+      "tech_fraud",
+      "package_delivery"
+    ],
+    "recommended_actions": [
+      "Tuyệt đối không click vào link này hoặc bất kỳ link lạ nào được gửi qua tin nhắn/cuộc gọi",
+      "Mở trực tiếp ứng dụng Shopee chính thức để kiểm tra tài khoản thay vì qua link bên ngoài",
+      "Nếu thực sự có thông báo bất thường, vào mục 'Tài khoản' trong ứng dụng Shopee để xác minh",
+      "Liên hệ trực tiếp với bộ phận hỗ trợ khách hàng Shopee qua số hotline hoặc live chat chính thức để xác nhận",
+      "Không cung cấp mật khẩu, mã OTP hoặc thông tin cá nhân cho bất kỳ ai qua link hoặc cuộc gọi lạ",
+      "Báo cáo tin nhắn này cho Shopee như một nội dung lừa đảo"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 7332
+}

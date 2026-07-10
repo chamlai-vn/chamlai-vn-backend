@@ -1,0 +1,15 @@
+{
+  "case_id": "benign-work_real-07",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "green",
+    "red_flags": [],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Đây là một câu hỏi trao đổi bình thường giữa hai người về một thông báo tài chính, không phải tin nhắn lừa đảo",
+      "Nếu thực sự nhận được tin nhắn về phạt/nợ hóa đơn từ các cơ quan/công ty, hãy kiểm tra trực tiếp qua website hoặc ứng dụng chính thức của tổ chức đó để xác minh thông tin trước khi lo lắng"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 4052
+}

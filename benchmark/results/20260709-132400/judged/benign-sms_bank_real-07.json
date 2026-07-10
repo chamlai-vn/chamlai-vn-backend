@@ -1,0 +1,31 @@
+{
+  "case_id": "benign-sms_bank_real-07",
+  "rag_verdict": {
+    "strengths": [
+      "Bắt đúng dấu hiệu đáng ngờ: có 'mã xác thực' trong tin cùng thông báo giao dịch lạ — hallmark của phishing; mức 'yellow' được cân nhắc",
+      "Khuyến nghị đúng: không bấm link/gọi số trong tin, tự tra số chính thức, không cung cấp OTP",
+      "Kiểm tra lịch sử qua app chính thức"
+    ],
+    "weaknesses": [
+      "Pattern khớp gán 'recovery_scam' hơi lệch",
+      "Không xác nhận hotline/tên miền trong tin có chính thức hay không"
+    ],
+    "reasoning": "Cảnh giác đúng chỗ (mã OTP trong tin là dấu hiệu khả nghi) và khuyến nghị an toàn hợp lý.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Xác nhận link/hotline trong tin là chính thức của Vietcombank, hiệu chỉnh cân bằng",
+      "Chỉ ra chi tiết giao dịch có thể bịa để gây hoang mang, khuyên tự mở app kiểm tra, không đọc OTP",
+      "Chủ động hỏi thêm nguồn gửi để đánh giá chính xác hơn"
+    ],
+    "weaknesses": [
+      "Nghiêng 'khả năng hợp lệ khá cao' trong khi việc có 'mã xác thực' trong tin lại là dấu hiệu khả nghi — hơi thiếu cảnh giác ở điểm này",
+      "Dài"
+    ],
+    "reasoning": "Cả hai đều đưa khuyến nghị an toàn đúng nhưng nghiêng ngược chiều; RAG cảnh giác đúng ở chi tiết OTP-trong-tin, generic xác minh kênh chính thức tốt hơn — chất lượng tương đương.",
+    "score": 8
+  },
+  "preferred": "tie",
+  "order_consistent": true
+}

@@ -1,0 +1,31 @@
+{
+  "case_id": "custom-sms_bank-01",
+  "rag_verdict": {
+    "strengths": [
+      "Bắt được điểm mấu chốt: 'vietcom-bank.com.vn' không phải đuôi chính thức của Vietcombank",
+      "Khuyến nghị đúng cốt lõi: không gọi số/không truy cập link trong tin, tự tra số chính thức, kiểm tra qua app",
+      "Nhắc đổi mật khẩu/bật 2FA"
+    ],
+    "weaknesses": [
+      "Chỉ gán mức 'yellow' trong khi đây thực sự là tin lừa đảo rõ (tên miền giả + hotline cá nhân) — under-call",
+      "Không chỉ rõ số '08 3344 0301' là số cá nhân, không phải tổng đài",
+      "Pattern khớp 'recovery_scam' hơi lệch"
+    ],
+    "reasoning": "Bắt đúng tên miền giả và khuyến nghị an toàn, nhưng chỉ gọi 'yellow' trong khi đây là lừa đảo rõ — đánh giá mức độ chưa dứt khoát.",
+    "score": 7.5
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Kết luận dứt khoát và đúng: gần như chắc chắn phishing, giải thích rõ thủ thuật chèn dấu gạch ngang (vietcom-bank.com.vn) và số '08 3344 0301' là số lạ",
+      "Nêu hotline chính thức đúng (1900 54 54 13), giải thích mục đích kẻ gian (lấy OTP/số thẻ)",
+      "Trấn an đúng ('bạn không bị hack') và hướng dẫn kiểm tra qua app/tổng đài chính thức"
+    ],
+    "weaknesses": [
+      "Dài"
+    ],
+    "reasoning": "Vượt trội: nhận diện dứt khoát đây là phishing với lý do sắc (tên miền gạch ngang, số lạ), nêu hotline đúng và trấn an chính xác — trong khi arm còn lại chỉ gọi 'yellow'.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

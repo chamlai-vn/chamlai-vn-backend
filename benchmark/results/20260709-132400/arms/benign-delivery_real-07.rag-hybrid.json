@@ -1,0 +1,16 @@
+{
+  "case_id": "benign-delivery_real-07",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "green",
+    "red_flags": [],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Để an toàn, hãy xác minh đơn hàng này qua ứng dụng hoặc website chính thức của công ty vận chuyển ABC Express (không dùng số điện thoại từ tin nhắn này)",
+      "Khi shipper gọi, chỉ nhận hàng nếu bạn có thực sự đặt mua và xác nhận được mã vận đơn khớp với đơn hàng của mình",
+      "Thanh toán bằng COD (trả khi nhận hàng) hoặc qua ứng dụng giao hàng chính thức, không chuyển khoản trước cho bất kỳ ai"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 4427
+}

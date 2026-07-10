@@ -1,0 +1,29 @@
+{
+  "case_id": "benign-work_real-04",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận đúng (green) cho một thông báo họp nội bộ hợp lệ, không báo động giả",
+      "Khuyến nghị hợp lý: xác minh danh tính người gửi qua kênh nội bộ, chỉ chia sẻ thông tin cần thiết",
+      "Súc tích"
+    ],
+    "weaknesses": [
+      "Không nêu các dấu hiệu cần cảnh giác (email sai tên miền, có link/tệp lạ đính kèm)"
+    ],
+    "reasoning": "Đúng và gọn với khuyến nghị xác minh phù hợp môi trường công sở. Thiếu bộ dấu hiệu cảnh giác.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Kết luận đúng (khả năng lừa đảo thấp), giải thích rõ vì sao (không đòi link/OTP/chuyển tiền)",
+      "Nêu các dấu hiệu cần kiểm tra (email sai tên miền, link/tệp lạ) để phòng BEC",
+      "Có nguồn dẫn về phishing"
+    ],
+    "weaknesses": [
+      "Dài hơn mức cần cho một tin nhắn nội bộ rõ ràng vô hại"
+    ],
+    "reasoning": "Đúng và có bộ dấu hiệu cảnh giác đầy đủ hơn. Cân bằng với RAG.",
+    "score": 8
+  },
+  "preferred": "tie",
+  "order_consistent": true
+}

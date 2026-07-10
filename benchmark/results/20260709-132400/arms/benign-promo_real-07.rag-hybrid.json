@@ -1,0 +1,28 @@
+{
+  "case_id": "benign-promo_real-07",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Địa chỉ link không chuẩn của Shopee (shopee.vn không phải domain chính thức)",
+      "Yêu cầu cập nhật thông tin tài khoản thông qua link đáng ngờ",
+      "Tạo áp lực thời gian: 'chỉ dành cho 100 khách hàng đầu tiên'",
+      "Các mã giảm giá và ưu đãi quá lớ bất thường để lôi kéo",
+      "Gửi tin nhắn khuyến mãi từ nguồn không rõ ràng (có thể không phải Shopee chính thức)",
+      "Yêu cầu người dùng truy cập link và cập nhật thông tin cá nhân có nguy cơ chiếm đoạt tài khoản"
+    ],
+    "matched_patterns": [
+      "prize_gift - Cửa hàng giả mạo khuyến mãi khủng và tặng quà miễn phí để lừa đảo chiếm đoạt tiền",
+      "package_delivery - Gửi link giả mạo"
+    ],
+    "recommended_actions": [
+      "Không truy cập vào bất kỳ link nào từ tin nhắn này",
+      "Xác minh trực tiếp trên ứng dụng Shopee chính thức hoặc website shopee.com.vn để kiểm tra xem có chương trình VIP Flash Sale này hay không",
+      "Tuyệt đối không cập nhật thông tin tài khoản qua link được gửi - luôn vào trực tiếp qua ứng dụng chính thức",
+      "Liên hệ hotline Shopee chính thức (1900 6969) để xác minh tính xác thực của chương trình",
+      "Không chia sẻ liên kết này cho người khác để tránh họ bị lừa"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 11369
+}
