@@ -5,8 +5,18 @@ package root
 import (
 	"net/http"
 
+	"github.com/go-chi/chi/v5"
+
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/api/respond"
 )
+
+// Routes returns the unversioned root routes as their own sub-router, for
+// NewRouter to Mount at "/" alongside the v1 feature routers.
+func Routes() chi.Router {
+	r := chi.NewRouter()
+	r.Get("/health", Health)
+	return r
+}
 
 // Health is a liveness probe. It makes no DB or LLM calls, so it stays green
 // even when downstream dependencies are down — it only proves the server

@@ -110,9 +110,12 @@ Git hooks via `lefthook.yml`. DB creds (local docker): user/pass/db all `chamlai
      - an unexpected collaborator error → `return problem.Internal().WithErr(fmt.Errorf("...: %w", err))`
        — the wrapped error is logged server-side with the request's `request_id`, never sent to the client
      - anything else (a plain `error`) is treated as the previous case automatically by `problem.Handler`
-  4. **Wire it in `internal/api/router.go`**: mount under the right prefix
-     (`r.Route("/v1", func(r chi.Router) { r.Post("/...", problem.Handler(h.Handle)) })`), always wrapped
-     in `problem.Handler(...)` — that's what turns a returned error into `application/problem+json`.
+  4. **Wire it in `internal/api/router.go`**: the feature package owns its URL structure via a
+     `Routes() chi.Router` method on `Handler` (see `analyze.Handler.Routes`) — routes inside it are
+     always wrapped in `problem.Handler(...)`, which is what turns a returned error into
+     `application/problem+json`. Add the handler as a field on the `Handlers` struct in `router.go`,
+     then one `r.Mount("/...", h.<Feature>.Routes())` call inside `r.Route("/v1", ...)` — this keeps
+     `NewRouter`'s parameter list from growing one field per endpoint as the API adds features.
   5. **Swagger**: add `@Summary/@Tags/@Accept/@Produce/@Param/@Success/@Failure/@Router` comments above
      `Handle` (see `analyze.Handle` for the pattern), then run `make swagger`. `@Failure` responses should
      reference `problem.Problem`.

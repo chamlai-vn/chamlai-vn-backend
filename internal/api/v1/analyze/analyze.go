@@ -5,10 +5,23 @@ import (
 	"net/http"
 	"strings"
 
+	"github.com/go-chi/chi/v5"
+
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/api/bind"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/api/problem"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/api/respond"
 )
+
+// Routes returns this package's routes as their own sub-router, so the
+// package owns its URL structure and error-wrapping instead of router.go
+// listing them by hand. The parent router decides the mount point (see
+// NewRouter, which mounts this at "/v1/analyze"); POST "/" here is that
+// mount point's root.
+func (h *Handler) Routes() chi.Router {
+	r := chi.NewRouter()
+	r.Post("/", problem.Handler(h.Handle))
+	return r
+}
 
 // Handle scores a suspicious message. The pipeline is two steps — the
 // analyzer does NOT retrieve — mirroring cmd/seed: decode → validate →
