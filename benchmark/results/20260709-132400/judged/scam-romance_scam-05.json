@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-romance_scam-05",
+  "rag_verdict": {
+    "strengths": [
+      "Nhận diện đúng nạn nhân đã mất 25 triệu qua nhiều đợt (hợp đồng quân sự/bảo hiểm/vé máy bay)",
+      "Phủ đủ 4 ý chính: giả danh lính Mỹ, yêu sau 3 tuần, xin tiền từng đợt, ảnh giả copy từ mạng",
+      "Khuyến nghị báo Zingle, trình báo công an, liên hệ Momo/ngân hàng",
+      "Pattern khớp đúng loại romance_scam"
+    ],
+    "weaknesses": [
+      "Có khuyến nghị garbled/khó hiểu ('Cào dấu vân tay số kỹ thuật của kẻ lừa')",
+      "Không nêu điểm mấu chốt: quân đội Mỹ không yêu cầu lính tự nộp tiền/vay tiền",
+      "Không cung cấp số hotline Momo/đường dây nóng cụ thể"
+    ],
+    "reasoning": "Phủ đủ ý chính nhưng có một khuyến nghị garbled và bỏ lỡ điểm 'quân đội không đòi tiền'. Trừ điểm vì chất lượng trình bày.",
+    "score": 7.5
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Nêu đúng điểm mấu chốt: quân đội Mỹ không bao giờ yêu cầu lính tự bỏ tiền/vay tiền cho nhiệm vụ/bảo hiểm/vé",
+      "Cung cấp hotline Momo (1900 54 54 41), căn cứ Điều 174, cảnh báo recovery scam vòng 2",
+      "Đánh giá thực tế khả năng thu hồi, hỗ trợ tâm lý ('không đáng trách')",
+      "Phân tích military romance scam chuyên biệt"
+    ],
+    "weaknesses": [
+      "Không có nguồn web trích dẫn (sources=0)",
+      "Dài"
+    ],
+    "reasoning": "Vượt trội nhờ kiến thức chuyên biệt về military scam, hotline cụ thể và hỗ trợ tâm lý. Điểm trừ là độ dài.",
+    "score": 9
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

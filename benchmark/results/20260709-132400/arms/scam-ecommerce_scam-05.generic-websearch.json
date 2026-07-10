@@ -1,0 +1,47 @@
+{
+  "case_id": "scam-ecommerce_scam-05",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Đặt cọc qua chuyển khoản nhưng shop không confirm đơn sau khi nhận tiền",
+      "Số điện thoại lạ gọi đến — không phải kênh liên lạc chính thức của shop trên Shopee",
+      "Yêu cầu đóng 'phí visa 800k' cho tour nội địa Nha Trang — hoàn toàn vô lý vì du lịch nội địa không có phí visa",
+      "Yêu cầu chuyển thêm tiền qua kênh ngoài Shopee, có thể vào tài khoản cá nhân"
+    ],
+    "matched_patterns": [
+      "Lừa đảo bán tour du lịch, yêu cầu đặt cọc rồi chiếm đoạt tiền",
+      "Sử dụng số điện thoại/kênh liên lạc không chính thức",
+      "Bịa đặt phí visa/phí dịch vụ không có thực để móc thêm tiền",
+      "Yêu cầu chuyển tiền vào tài khoản cá nhân thay vì tài khoản công ty"
+    ],
+    "recommended_actions": [
+      "KHÔNG chuyển thêm tiền — tuyệt đối không chuyển 800k 'phí visa' hay bất kỳ khoản nào thêm",
+      "Chụp màn hình toàn bộ bằng chứng: lưu lại lịch sử chat, thông tin shop, số tài khoản đã chuyển, số điện thoại lạ",
+      "Báo cáo shop trên Shopee: vào đơn hàng → 'Yêu cầu hoàn tiền' / 'Báo cáo shop' để Shopee can thiệp",
+      "Liên hệ ngân hàng ngay: trình bày tình huống, yêu cầu hỗ trợ truy vết hoặc phong toả giao dịch nếu có thể",
+      "Trình báo công an nơi cư trú gần nhất để được hướng dẫn giải quyết"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## ⚠️ RẤT CÓ KHẢ NĂNG ĐÂY LÀ LỪA ĐẢO!\n\nTình huống của bạn có **ít nhất 4 dấu hiệu đỏ** trùng khớp với các thủ đoạn lừa đảo tour du lịch đã được Bộ Công an và Cục Du lịch Quốc gia cảnh báo. Hãy đọc kỹ phân tích dưới đây:\n\n---\n\n### 🚩 Các dấu hiệu lừa đảo trong tình huống của bạn\n\n**1. Đặt cọc qua chuyển khoản, shop không confirm đơn**\nThủ đoạn phổ biến nhất là đăng tải bài quảng cáo bán tour du lịch với nhiều tiện ích kèm theo, đề nghị nạn nhân chuyển tiền đặt cọc (từ 30–50% giá trị) để đặt cọc tour, từ đó chiếm đoạt số tiền đặt cọc. Việc bạn đã cọc 2.5 triệu mà shop không confirm đơn là dấu hiệu rất đáng lo ngại.\n\n**2. Số điện thoại lạ gọi đến — không phải kênh chính thức**\nNhững kẻ lừa đảo thường sử dụng số điện thoại, email không chính thức, không có địa chỉ văn phòng rõ ràng cũng như không cung cấp được hóa đơn, hợp đồng dấu đỏ. Một số lạ gọi đến (không phải hotline chính thức của shop trên Shopee) là dấu hiệu cực kỳ đáng ngờ.\n\n**3. Tour Nha Trang không cần visa — yêu cầu \"phí visa\" là bịa đặt!**\nNha Trang là điểm du lịch **nội địa trong nước**, hoàn toàn **không có phí visa** nào cả. Một chiêu lừa đảo được Bộ Công an ghi nhận là đăng bài quảng cáo dịch vụ làm visa du lịch nước ngoài, cam kết tỷ lệ thành công cao, sau đó chiếm đoạt tiền. Việc bịa ra \"phí visa 800k\" cho tour nội địa là hoàn toàn vô lý và là chiêu lừa để móc thêm tiền.\n\n**4. Yêu cầu chuyển thêm tiền qua kênh ngoài Shopee**\nYêu cầu khách chuyển tiền đặt tour vào tài khoản cá nhân thay vì tên công ty du lịch là một trong những dấu hiệu cho thấy khách đang giao dịch với kẻ lừa đảo.\n\n**5. Kịch bản tiếp theo rất có thể là \"mất liên lạc\"**\nNgay sau khi chuyển tiền thì các đối tượng này lập tức cắt đứt mọi liên hệ, các trang mạng xã hội Facebook, Zalo cũng đóng luôn và người tiêu dùng chỉ biết than trời chứ không thể làm gì.\n\n---\n\n### 🛑 Bạn cần làm NGAY bây giờ\n\n| Việc cần làm | Chi tiết |\n|---|---|\n| **KHÔNG chuyển thêm tiền** | Tuyệt đối không chuyển 800k \"phí visa\" hay bất kỳ khoản nào thêm |\n| **Chụp màn hình toàn bộ bằng chứng** | Lưu lại lịch sử chat, thông tin shop, số tài khoản đã chuyển, số điện thoại lạ |\n| **Báo cáo shop trên Shopee** | Vào đơn hàng → \"Yêu cầu hoàn tiền\" / \"Báo cáo shop\" để Shopee can thiệp |\n| **Liên hệ ngân hàng ngay** | Trình bày tình huống, yêu cầu hỗ trợ truy vết hoặc phong toả giao dịch nếu có thể |\n| **Trình báo công an** | Khi gặp các trường hợp nghi vấn lừa đảo qua không gian mạng, người dân cần tỉnh táo, cảnh giác và trình báo ngay cho cơ quan Công an nơi cư trú gần nhất để được hướng dẫn giải quyết. |\n\n---\n\n### 💡 Bài học để đặt tour an toàn về sau\n\nNgười dân được khuyến cáo chỉ nên đặt dịch vụ qua các website, fanpage chính thức của đơn vị kinh doanh du lịch được cấp phép hoặc qua các nền tảng đặt dịch vụ có uy tín.\n\nChỉ nên đặt cọc khi có hợp đồng hoặc biên nhận ghi rõ điều khoản dịch vụ, chính sách hoàn hủy và có dấu mộc của công ty du lịch.\n\n---\n\n**Tóm lại:** Đây **rất có khả năng là lừa đảo**. Ba dấu hiệu lớn nhất là: shop không confirm đơn sau khi nhận tiền, số lạ gọi đòi thêm tiền, và bịa ra \"phí visa\" cho tour **nội địa**. Hãy dừng mọi giao dịch, thu thập bằng chứng và báo ngay cho Shopee + công an. Chúc bạn lấy lại được tiền! 💪",
+  "sources": [
+    "https://congan.hanam.gov.vn/index.php/vi/news/canh-bao-toi-pham/nhan-biet-thu-doan-lua-dao-dat-tour-du-lich-gia-re-2826.html",
+    "https://baochinhphu.vn/nhan-biet-thu-doan-lua-dao-dat-tour-du-lich-gia-re-102230711151650138.htm",
+    "https://vnexpress.net/dau-hieu-lua-dao-khach-viet-can-biet-khi-dat-tour-tren-mang-4798932.html",
+    "https://www.24h.com.vn/du-lich-24h/canh-giac-voi-chieu-tro-lua-dao-du-lich-gia-re-va-tien-gia-dip-tet-c76a1636284.html",
+    "https://lsvn.vn/nhan-biet-thu-doan-lua-dao-dat-tour-du-lich-gia-re-1689076114-a132739.html",
+    "https://tuoitre.vn/bo-cong-an-canh-bao-5-chieu-lua-dao-mua-du-lich-2023042417454599.htm",
+    "https://vtv.vn/xa-hoi/canh-giac-sap-bay-chieu-lua-dao-dat-tour-du-lich-20230630112212666.htm",
+    "https://hatinh.gov.vn/vi/bai-viet/can-trong-chieu-tro-lua-dao-tour-du-lich-tet",
+    "https://antv.gov.vn/phap-luat-3/canh-giac-voi-thu-doan-lua-dao-chiem-doat-tai-san-bang-hinh-thuc-dat-tour-du-lich-gia-re-FA5DBDFDA.html",
+    "https://help.shopee.vn/portal/4/article/79564-%5BC%E1%BA%A3nh-b%C3%A1o-l%E1%BB%ABa-%C4%91%E1%BA%A3o%5D-N%C3%AAn-v%C3%A0-kh%C3%B4ng-n%C3%AAn-l%C3%A0m-%C4%91%E1%BB%83-tr%C3%A1nh-nh%E1%BA%ADn-ph%E1%BA%A3i-%C4%91%C6%A1n-h%C3%A0ng-%E1%BA%A3o%2Fgi%E1%BA%A3-m%E1%BA%A1o",
+    "http://online.gov.vn/baiviet/Canh-bao-thu-doan-lua-dao-dat-phong-ve-may-bay-mua-du-lich-H0gbNSk3xY",
+    "https://www.vietnamplus.vn/cuc-du-lich-quoc-gia-canh-bao-viec-xu-ly-lua-dao-tren-khong-gian-mang-post1011964.vnp",
+    "https://nld.com.vn/canh-bao-chieu-tro-lua-dao-dat-tour-ve-may-bay-khach-san-dip-tet-196250111122420925.htm",
+    "https://vov.vn/phap-luat/chieu-tro-lua-dao-du-lich-post1114373.vov",
+    "https://laodongthudo.vn/can-trong-voi-lua-dao-dat-tour-du-lich-truc-tuyen-184833.html",
+    "https://www.luavietours.com/tin-tuc/cac-thu-doan-lua-dao-khi-dat-tour-du-lich-online/"
+  ],
+  "latency_ms": 49733
+}

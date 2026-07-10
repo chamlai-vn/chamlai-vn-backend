@@ -1,0 +1,28 @@
+{
+  "case_id": "scam-romance_scam-06",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Nhân vật \"kỹ sư dầu khí ở nước ngoài\" — nghề nghiệp dùng nhiều nhất trong lừa tình vì giải thích được lý do không thể gặp mặt",
+      "Tình cảm phát triển cực nhanh — mới chat vài tuần đã nói yêu, muốn tặng quà lớn (love bombing)",
+      "Số tiền lớn bất thường (85.000 USD) gửi qua Western Union cho người mới quen",
+      "Yêu cầu người NHẬN quà phải nộp \"phí đặt cọc an toàn\" để người GỬI rút được tiền — logic ngược hoàn toàn vô lý",
+      "Yêu cầu chuyển vào tài khoản ngân hàng cá nhân lạ, không phải tài khoản công ty",
+      "Tạo áp lực khẩn cấp (\"anh cần em ngay bây giờ\") để thúc ép quyết định nhanh"
+    ],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Không chuyển bất kỳ khoản tiền nào, dù chỉ để \"test\"",
+      "Không gửi thêm thông tin cá nhân (CCCD, số tài khoản, ảnh nhạy cảm)",
+      "Lưu lại bằng chứng (chụp màn hình chat, số tài khoản họ đưa) trước khi chặn",
+      "Chặn và báo cáo tài khoản trên nền tảng đang dùng",
+      "Thử tra ảnh đại diện bằng công cụ tìm kiếm ảnh ngược (Google Images/TinEye) để kiểm tra ảnh bị đánh cắp",
+      "Nếu đã lỡ chuyển tiền: liên hệ ngay ngân hàng và công an (phòng an ninh mạng) để trình báo càng sớm càng tốt"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "**Đây chắc chắn là lừa đảo — kiểu \"romance scam\" (lừa tình) kết hợp \"advance fee fraud\" (lừa đặt cọc trước). Đừng chuyển bất kỳ khoản tiền nào.**\n\n## Vì sao có thể khẳng định là lừa đảo\n\nTình huống này hội tụ gần như toàn bộ các dấu hiệu kinh điển của kịch bản lừa đảo tình cảm quốc tế:\n\n- **Nhân vật \"kỹ sư dầu khí ở nước ngoài\"**: Đây là nghề nghiệp được dùng nhiều nhất trong các vụ lừa tình vì nó giải thích được lý do \"không thể gặp mặt\", \"làm việc ở nơi hẻo lánh\", \"sắp có tiền lớn\".\n- **Tình cảm phát triển cực nhanh**: Mới chat vài tuần đã nói yêu, muốn tặng quà lớn — đây là kỹ thuật thao túng tâm lý (\"love bombing\") để nạn nhân mất cảnh giác.\n- **Số tiền lớn bất thường gửi qua Western Union**: Người thật, có thu nhập hợp pháp, không ai gửi 85.000 USD cho người mới quen qua Western Union cả.\n- **Yêu cầu đặt cọc/phí để \"giải phóng\" tiền**: Đây là mấu chốt của trò lừa — không có công ty nào yêu cầu *người nhận quà* phải nộp \"phí đặt cọc an toàn\" để người *gửi* quà rút được tiền. Đây là logic ngược hoàn toàn vô lý, chỉ tồn tại trong kịch bản lừa đảo.\n- **Tài khoản ngân hàng cá nhân (ACB) để nhận \"phí\"**: Tiền thật từ công ty không bao giờ được yêu cầu chuyển vào một tài khoản cá nhân lạ.\n- **Tạo áp lực khẩn cấp**: \"Anh cần em ngay bây giờ\" — kỹ thuật thúc ép ra quyết định nhanh, không cho nạn nhân thời gian suy nghĩ hoặc hỏi ý kiến người khác.\n\nKết quả cuối cùng luôn giống nhau: bạn chuyển 4.500 USD, và số tiền 85.000 USD kia **không bao giờ tồn tại**. Sau khi nhận tiền, kẻ lừa đảo thường sẽ bịa thêm lý do khác để moi tiếp tiền (phí thuế, phí hải quan, phí luật sư...) cho đến khi bạn hết khả năng hoặc phát hiện ra sự thật.\n\n## Bạn nên làm gì tiếp theo\n\n1. **Không chuyển bất kỳ khoản tiền nào**, dù chỉ là số nhỏ để \"test\".\n2. **Không gửi thêm thông tin cá nhân** (CMND/CCCD, số tài khoản, ảnh nhạy cảm...).\n3. **Lưu lại bằng chứng** (chụp màn hình đoạn chat, số tài khoản ngân hàng họ đưa) trước khi chặn.\n4. **Chặn và báo cáo** tài khoản này trên nền tảng bạn đang dùng (Facebook, Zalo, app hẹn hò...).\n5. Nếu muốn, bạn có thể **thử tra ảnh đại diện** bằng công cụ tìm kiếm ảnh ngược (Google Images/TinEye) — rất nhiều khả năng ảnh này bị đánh cắp từ người khác.\n6. Nếu đã lỡ chuyển tiền, hãy liên hệ ngay ngân hàng ACB và cơ quan công an (phòng an ninh mạng) để trình báo càng sớm càng tốt — khả năng lấy lại tiền sẽ cao hơn nếu báo sớm.\n\nBạn làm rất đúng khi nghi ngờ và kiểm tra trước khi hành động. Nếu bạn muốn, mình có thể giúp soạn tin nhắn để bạn phản hồi lại (hoặc lặng lẽ chặn) người này.",
+  "sources": [],
+  "latency_ms": 0
+}

@@ -1,0 +1,54 @@
+{
+  "case_id": "scam-prize_gift-06",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Thông báo trúng thưởng từ chương trình người dùng chưa từng tham gia (chương trình 'Khuyến mại Lộc Phát')",
+      "Yêu cầu tải ứng dụng lạ không chính thống ('GiftXpress') — có thể chứa mã độc",
+      "Khả năng bị yêu cầu đóng phí nhận thưởng không có cơ sở pháp lý ('phí hồ sơ', 'phí thuế', 'phí xác nhận')",
+      "Có thể bị yêu cầu cung cấp thông tin cá nhân nhạy cảm (CMND/CCCD, số tài khoản ngân hàng, mã OTP)",
+      "Kẻ lừa đảo sẽ biến mất sau khi đạt mục đích, chặn số hoặc xóa tài khoản"
+    ],
+    "matched_patterns": [
+      "Lừa đảo trúng thưởng giả",
+      "Giả mạo chương trình khuyến mại",
+      "Lừa đảo cài đặt ứng dụng chứa mã độc",
+      "Lừa đảo thu phí nhận thưởng",
+      "Đánh cắp thông tin cá nhân"
+    ],
+    "recommended_actions": [
+      "Không tải ứng dụng 'GiftXpress' vì đây là app giả mạo/mã độc",
+      "Không bấm vào các đường link lạ được gửi qua SMS, Zalo, Messenger hoặc email không rõ nguồn gốc",
+      "Không cung cấp mã OTP, mật khẩu ngân hàng hoặc thông tin cá nhân cho bất kỳ ai",
+      "Không chuyển bất kỳ khoản tiền nào dù được gọi là 'phí hồ sơ', 'phí thuế' hay 'phí xác nhận'",
+      "Chụp màn hình tin nhắn để lưu lại bằng chứng",
+      "Báo cáo với cơ quan Công an nơi gần nhất, hoặc qua Cổng không gian mạng quốc gia, hoặc Tổng đài 156 của Bộ TT\u0026TT",
+      "Chặn số điện thoại 0912345678 và không liên lạc lại"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## 🚨 KẾT LUẬN: ĐÂY LÀ LỪA ĐẢO! Hãy cảnh giác ngay!\n\nTin nhắn bạn nhận được có **đầy đủ các dấu hiệu điển hình của một vụ lừa đảo trúng thưởng giả**. Dưới đây là phân tích chi tiết:\n\n---\n\n## 🔍 TẠI SAO ĐÂY LÀ LỪA ĐẢO?\n\n### 1. 🎰 Thông báo trúng thưởng từ chương trình bạn chưa từng tham gia\nNếu bạn nhận được thông báo trúng thưởng một chương trình mà bạn chưa từng tham gia, hãy đặt nghi vấn ngay lập tức. Bạn có nhớ mình từng tham gia chương trình \"Khuyến mại Lộc Phát\" này không? Gần như chắc chắn là không.\n\n### 2. 📱 Yêu cầu tải app lạ — dấu hiệu nguy hiểm nhất\nKẻ tấn công sẽ lừa người dùng thực hiện cài đặt các ứng dụng giả mạo như ứng dụng ngân hàng, ví điện tử, game miễn phí, phần mềm diệt virus giả. App \"GiftXpress\" hoàn toàn không phải ứng dụng chính thống — đây là cái bẫy.\n\nSau khi đã lừa được nạn nhân tải các app chứa mã độc, đối tượng lừa đảo sẽ \"bẫy\" người dùng cho phép truy cập vào thiết bị, trong đó có quyền truy cập dữ liệu, chụp ảnh màn hình, đọc tin nhắn. Và một khi được \"ngồi\" trong điện thoại, kẻ gian dễ dàng lấy cắp mật khẩu đăng nhập tài khoản ngân hàng và cả mã OTP giao dịch, thuận lợi thực hiện các lệnh chuyển tiền, hòng chiếm đoạt toàn bộ tài sản.\n\n### 3. 💸 Kịch bản tiếp theo rất có thể là yêu cầu đóng phí\nBản chất của lừa trúng thưởng là tạo ra một thông báo trúng thưởng giả để đánh vào tâm lý thích tặng quà, nhận thưởng, hoặc mạo danh chương trình thật để yêu cầu nạn nhân chuyển tiền. Khoản \"phí nhận thưởng\" này không có bất kỳ cơ sở pháp lý nào và chỉ yêu cầu từ 1 phía.\n\n### 4. 📋 Sau đó chúng sẽ đánh cắp thông tin cá nhân\nTrong quá trình làm \"hồ sơ nhận thưởng\", nạn nhân thường bị yêu cầu cung cấp các thông tin nhạy cảm như CMND/CCCD, số điện thoại và tài khoản ngân hàng. Những dữ liệu này không chỉ phục vụ cho một lần lừa đảo mà còn có thể bị kẻ gian lưu lại và sử dụng cho các mục đích xấu khác.\n\n### 5. 🏃 Sau khi đạt mục đích, chúng sẽ biến mất\nNạn nhân không bao giờ nhận được số tiền thắng giải như được hứa hẹn và kẻ lừa đảo sẽ chặn số điện thoại hoặc xóa tài khoản trên mạng xã hội khiến nạn nhân không thể liên lạc được.\n\n---\n\n## ✅ BẠN CẦN LÀM GÌ NGAY BÂY GIỜ?\n\n| Hành động | Chi tiết |\n|---|---|\n| 🚫 **Không tải app \"GiftXpress\"** | Đây là app giả mạo/mã độc |\n| 🚫 **Không bấm link lạ** | Không truy cập các đường link lạ được gửi qua tin nhắn SMS, Zalo, Messenger hoặc email không rõ nguồn gốc. |\n| 🚫 **Không cung cấp thông tin cá nhân** | Tuyệt đối không cung cấp mã OTP, mật khẩu ngân hàng hoặc thông tin cá nhân cho bất kỳ ai dưới mọi hình thức. |\n| 🚫 **Không chuyển bất kỳ khoản tiền nào** | Kể cả khi họ gọi đó là \"phí hồ sơ\", \"phí thuế\", \"phí xác nhận\" |\n| 📸 **Chụp màn hình tin nhắn** | Lưu lại bằng chứng để trình báo |\n| 📞 **Báo cáo với cơ quan chức năng** | Khi có bất kỳ thông tin nào về lừa đảo trực tuyến, người dùng cần thông tin đến các cơ quan chức năng, như cơ quan Công an nơi gần nhất, hay hệ thống tiếp nhận thông tin phản ánh Cổng không gian mạng quốc gia, Tổng đài **156** mà Bộ TT\u0026TT đang vận hành. |\n| 🔒 **Chặn số điện thoại** | Chặn số 0912345678 và không liên lạc lại |\n\n---\n\n## 💡 NGUYÊN TẮC VÀNG CẦN NHỚ\n\n\u003e **Nếu bạn thực sự trúng thưởng từ một chương trình uy tín, bạn sẽ không bao giờ phải trả bất kỳ khoản phí nào trước khi nhận giải, và càng không cần tải app lạ.**\n\nBạn hoàn toàn đúng khi nghi ngờ tin nhắn này. Hãy **bỏ qua, chặn số và báo cáo** để bảo vệ bản thân và người thân! 🛡️",
+  "sources": [
+    "https://www.dnse.com.vn/hoc/lua-trung-thuong-lay-phi-nhan-tien",
+    "https://thanhnien.vn/nhan-dien-lua-dao-qua-mang-nhung-chieu-thuc-qua-dien-thoai-can-ghi-nho-185250304171923866.htm",
+    "https://vietbao.vn/canh-giac-thu-doan-gia-danh-ngan-hang-thong-bao-nhan-diem-thuong-de-lua-dao-593001.html",
+    "https://truongdinh.haibatrung.hanoi.gov.vn/an-ninh-quoc-phong/-/asset_publisher/UByp2W88WPKe/content/nhan-dien-nhung-chieu-tro-lua-ao-nhan-qua-trung-thuong",
+    "https://truongdinh.haibatrung.hanoi.gov.vn/chuyen-doi-so/-/asset_publisher/UByp2W88WPKe/content/nhan-dien-nhung-chieu-tro-lua-ao-nhan-qua-trung-thuong",
+    "https://fpt.vn/tin-tuc/nhan-dien-chieu-tro-trung-thuong-tren-mang-va-cach-phong-tranh-11654.html",
+    "https://thanhnien.vn/canh-giac-thu-doan-doi-diem-thuong-den-cuoc-goi-khong-noi-gi-185260628090926779.htm",
+    "https://www.seabank.com.vn/tin-tuc/tu-van-dich-vu/tu-van--meo/cach-lay-lai-tien-da-chuyen-khoan-khi-bi-lua-huong-dan-chi-tiet-va-day-du",
+    "https://congan.quangtri.gov.vn/nhan-dien-mot-so-thu-doan-lua-dao-bang-cong-nghe-cao/",
+    "https://nhandan.vn/canh-giac-voi-thu-doan-lua-trung-thuong-post933798.html",
+    "https://support.apple.com/en-us/102568",
+    "https://support.apple.com/en-us/120933",
+    "https://nld.com.vn/cach-nhan-biet-app-gia-mao-de-tranh-bi-lua-dao-196240117210129322.htm",
+    "https://www.dienmayxanh.com/kinh-nghiem-hay/canh-bao-lua-dao-mao-danh-dien-may-xanh-qua-tang-vip-1574521",
+    "https://fptshop.com.vn/tin-tuc/thu-thuat/nhung-app-kiem-tien-lua-dao-184087",
+    "https://baodantoc.vn/mat-sach-tien-trong-tai-khoan-vi-thu-doan-lua-cai-dat-app-gia-mao-1689578211113.htm",
+    "https://home.vn/threads/canh-bao-chieu-lua-dung-app-gia-thong-bao-chuyen-khoan.56506/",
+    "https://dantri.com.vn/cong-nghe/phat-hien-35-ung-dung-lua-dao-tong-tien-nguoi-dung-iphone-20221205102537968.htm",
+    "https://traderviet.tv/t/chieu-lua-chuyen-khoan-thanh-cong-bang-app-ngan-hang-ao.116627/"
+  ],
+  "latency_ms": 58610
+}

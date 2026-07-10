@@ -1,0 +1,51 @@
+{
+  "case_id": "scam-loan_scam-09",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Yêu cầu nạp tiền (200k) trước khi được giải ngân khoản vay với lý do 'xác minh tài khoản'",
+      "Quảng cáo vay nhanh, không thế chấp, lãi suất thấp hoặc không đồng",
+      "Thông báo đã nhận được tiền nhưng không rút được do 'sai thông tin', yêu cầu chuyển tiền xác minh",
+      "Liên tục đưa ra lý do để đòi thêm phí (phí hồ sơ, phí bảo hiểm, phí duyệt khoản vay, phí kích hoạt giải ngân…)",
+      "Có nguy cơ đánh cắp thông tin cá nhân, tài khoản ngân hàng, mã OTP thông qua app giả mạo hoặc phần mềm điều khiển từ xa"
+    ],
+    "matched_patterns": [
+      "Yêu cầu nạp tiền/phí trước khi giải ngân khoản vay",
+      "Giả mạo ứng dụng vay tiền (app vay lừa đảo)",
+      "Thu thập thông tin cá nhân và tài khoản ngân hàng"
+    ],
+    "recommended_actions": [
+      "Tuyệt đối không chuyển 200k hay bất kỳ khoản tiền nào",
+      "Gỡ cài đặt app 'FastCash Pro' khỏi điện thoại ngay lập tức",
+      "Nếu đã nhập CMND/CCCD, OTP hay thông tin ngân hàng, cần đổi mật khẩu ngay và liên hệ ngân hàng để được hỗ trợ",
+      "Tố giác đến cơ quan Công an gần nhất hoặc gọi 113",
+      "Không click vào các đường link lạ quảng cáo vay tiền",
+      "Không cung cấp thông tin tài khoản ngân hàng, dữ liệu sinh trắc học hoặc ảnh căn cước cho người lạ",
+      "Cảnh báo cho bạn bè và người thân về chiêu thức lừa đảo này"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 ĐÂY LÀ LỪA ĐẢO 100%! Dừng lại ngay!\n\nApp \"FastCash Pro\" yêu cầu nạp 200k để \"xác minh tài khoản\" trước khi vay là một **chiêu lừa đảo kinh điển** đang hoành hành rất phổ biến tại Việt Nam. Dưới đây là phân tích chi tiết để em hiểu rõ:\n\n---\n\n## 🔴 Tại sao đây là lừa đảo?\n\n### 1. Dấu hiệu nhận biết số 1: Yêu cầu nạp tiền TRƯỚC khi vay\nĐây là chiêu thức phổ biến nhất: đối tượng lừa đảo yêu cầu khách hàng chuyển trước một khoản để nộp phí hồ sơ hoặc bảo hiểm khoản vay. Nhưng sau khi đã đóng tiền, khách hàng không nhận được giải ngân, còn các đối tượng lừa đảo sẽ chiếm đoạt số tiền này và chặn mọi liên lạc.\n\n### 2. Dấu hiệu nhận biết số 2: Quảng cáo \"vay nhanh, không thế chấp\"\nCác tin nhắn, quảng cáo kèm nội dung như \"Không cần thế chấp, lãi suất không đồng\", \"Vay siêu tốc, nhận tiền sau 30 phút, lãi suất thấp, nhận tiền ngay\"… là một hình thức lừa đảo trực tuyến.\n\n### 3. Dấu hiệu nhận biết số 3: \"Nạp tiền xác minh tài khoản\" là bẫy\nTrong quá trình hoàn tất hồ sơ vay, các đối tượng thông báo nạn nhân đã nhận được tiền nhưng không rút được do \"sai thông tin\" nên yêu cầu bị hại chuyển tiền xác minh tài khoản. Với thủ đoạn này, nhiều người dân bị mất hết tài sản hiện có thì mới nhận ra bị lừa.\n\n### 4. Chúng sẽ tiếp tục yêu cầu thêm tiền\nMột chiêu thức phổ biến là yêu cầu người vay nộp các khoản phí như phí hồ sơ, phí bảo hiểm, hoặc phí duyệt khoản vay. Kẻ lừa đảo liên tục đưa ra lý do để đòi thêm phí, nhưng khoản vay không bao giờ được chuyển đến tay người vay.\n\n### 5. Nguy hiểm hơn: Chúng đánh cắp thông tin cá nhân\nKhi nạn nhân tin tưởng cài đặt và làm theo hướng dẫn, các đối tượng sẽ từng bước chiếm đoạt thông tin tài khoản, thông tin bảo mật hoặc buộc chuyển tiền nhiều lần với lý do \"phí mở hồ sơ\", \"phí xác minh\", \"phí bảo hiểm khoản vay\", \"phí kích hoạt giải ngân\"… để chiếm đoạt tài sản.\n\nNguy hiểm hơn, có trường hợp nạn nhân bị dụ cài ứng dụng giả mạo hoặc phần mềm điều khiển từ xa, tạo điều kiện để đối tượng đọc trộm tin nhắn, lấy mã xác thực, đăng nhập ứng dụng ngân hàng và rút tiền.\n\n---\n\n## ✅ Em cần làm gì ngay bây giờ?\n\n| Hành động | Chi tiết |\n|---|---|\n| 🚫 **Không nạp tiền** | Tuyệt đối không chuyển 200k hay bất kỳ khoản nào |\n| 🗑️ **Xóa app ngay** | Gỡ cài đặt \"FastCash Pro\" khỏi điện thoại |\n| 🔒 **Bảo vệ thông tin** | Nếu đã nhập CMND/CCCD, OTP hay thông tin ngân hàng, cần đổi mật khẩu ngay và liên hệ ngân hàng |\n| 📢 **Báo cáo** | Tố giác đến cơ quan Công an gần nhất hoặc gọi **113** |\n\nCông an Hà Nội khuyến cáo: tuyệt đối không click vào các đường link lạ quảng cáo vay tiền; không cung cấp thông tin tài khoản ngân hàng, dữ liệu sinh trắc học hoặc gửi ảnh căn cước hay bất kỳ thông tin cá nhân cho người lạ; không chuyển tiền trước dưới bất kỳ lý do nào như \"phí mở hồ sơ\", \"phí xác minh\", \"phí bảo hiểm khoản vay\" hay \"phí kích hoạt giải ngân\".\n\n---\n\n## 💡 Nguyên tắc vàng cần nhớ\n\n\u003e **Không có tổ chức tài chính hợp pháp nào yêu cầu em nạp tiền TRƯỚC khi được giải ngân khoản vay.**\n\nNếu thực sự có nhu cầu về tài chính, em nên trực tiếp liên hệ, làm thủ tục hồ sơ vay tại các tổ chức tín dụng, ngân hàng chính thống để được hướng dẫn thủ tục vay tiền nhằm bảo vệ quyền lợi trước pháp luật.\n\nEm đã nhận ra dấu hiệu bất thường — điều đó cho thấy em rất tỉnh táo! Hãy cảnh báo thêm cho bạn bè và người thân xung quanh nhé! 💪",
+  "sources": [
+    "https://zalopay.vn/bi-lua-vay-tien-qua-app-phai-lam-sao-7076",
+    "https://thamtuvdt.com/dieu-tra-lua-dao-qua-app-dau-tu-tai-chinh/",
+    "https://www.aia.com.vn/vi/song-khoe/loi-khuyen/tai-chinh/bi-lua-dao-vay-tien-online-phai-lam-sao.html",
+    "https://www.nguoiduatin.vn/canh-giac-thu-doan-lap-app-mao-danh-ngan-hang-cho-vay-tien-de-lua-dao-204260402100933323.htm",
+    "https://mst.gov.vn/canh-bao-cac-thu-doan-lua-dao-khi-vay-tien-qua-app-hoac-the-atm-197153961.htm",
+    "https://tuoitre.vn/cong-an-tp-hcm-canh-bao-nguy-co-chiem-doat-tai-san-khi-vay-tien-qua-app-20231127134228746.htm",
+    "https://tienphong.vn/cong-an-canh-bao-thu-doan-lua-dao-vay-tien-truc-tuyen-gan-no-post1590591.tpo",
+    "https://afamily.vn/tat-ca-nguoi-dung-app-ngan-hang-dac-biet-chu-y-tranh-mat-sach-tai-san-23626040223113658.chn",
+    "https://congan.dongthap.gov.vn/en/chi-tiet-bai-viet/-/asset_publisher/wbj7qfWZntAi/content/id/12349153",
+    "https://tuoitre.vn/bi-lua-cung-cap-otp-va-cccd-cho-ke-xau-gio-app-cho-vay-doi-tien-phai-lam-sao-20251017151505482.htm",
+    "https://appvaynhanh.com/fastmoneypro/",
+    "https://fastmoneyevnfc.com/bi-lua-dao-vay-tien-online-vay-tien-qua-app-ban-can-phai-lam-gi-",
+    "https://h5vaynhanh.com/cashing-pro/",
+    "https://dnthuathienhue.edu.vn/fastmoney.html",
+    "https://appvayonline.com/flash-money/",
+    "https://vovgiaothong.vn/vay-tien-qua-app-va-nhung-he-luy-phan-1-d32741.html",
+    "https://fastmoneyevnfc.com/can-than-truoc-chieu-tro-cho-vay-tien-ho-tro-no-xau-",
+    "https://tietkiemnhom.com/fafacash/"
+  ],
+  "latency_ms": 52550
+}

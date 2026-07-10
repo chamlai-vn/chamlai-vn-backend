@@ -1,0 +1,16 @@
+{
+  "case_id": "benign-sms_bank_real-04",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "green",
+    "red_flags": [],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Tiếp tục bình tĩnh khi nhận các thông báo bất ngờ từ ngân hàng, đừng hoảng sợ ngay lập tức",
+      "Kiểm tra lịch sử giao dịch hoặc các hoạt động gần đây của tài khoản để xác nhận",
+      "Nếu không chắc chắn, hãy liên hệ trực tiếp số tổng đài chính thức của ngân hàng để xác minh thay vì dựa vào tin nhắn"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 4134
+}

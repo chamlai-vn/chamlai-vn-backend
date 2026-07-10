@@ -1,0 +1,21 @@
+{
+  "case_id": "benign-work_real-10",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "green",
+    "red_flags": [],
+    "matched_patterns": [
+      "Lời mời họp nội bộ từ phòng Nhân sự, không yêu cầu mật khẩu/OTP/thông tin cá nhân, không có link hay tệp đính kèm; cuộc họp diễn ra bình thường xác nhận đây là hợp lệ"
+    ],
+    "recommended_actions": [
+      "Không cần thực hiện hành động nào thêm vì đây là cuộc họp công việc bình thường",
+      "Trong tương lai, nếu nhận tin nhắn tương tự nhưng có thêm link, tệp đính kèm hoặc yêu cầu thông tin nhạy cảm, xác minh với phòng Nhân sự hoặc quản lý qua kênh chính thức trước khi thực hiện"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "**Kết luận:** **Không có dấu hiệu đây là một vụ lừa đảo.**\n\n**Lý do:**\n\n* Nội dung chỉ là một lời mời họp nội bộ từ phòng Nhân sự để gặp sếp bàn về kế hoạch dự án Q4.\n* Tin nhắn **không yêu cầu** cung cấp mật khẩu, mã OTP, thông tin cá nhân hoặc tài chính.\n* **Không chứa** liên kết, tệp đính kèm hoặc yêu cầu nhấp vào bất kỳ website nào.\n* Người nhận chỉ được yêu cầu xác nhận tham dự hoặc báo nếu bị trùng lịch, đây là quy trình làm việc bình thường.\n* Theo mô tả của bạn, Minh đã xác nhận, tham dự cuộc họp và **mọi việc diễn ra bình thường**, điều này xác nhận đây là một cuộc họp hợp lệ.\n\nTrong khi đó, các email/tin nhắn lừa đảo giả danh phòng Nhân sự thường có những dấu hiệu như:\n\n* Yêu cầu hành động khẩn cấp.\n* Đính kèm liên kết hoặc tệp để đăng nhập hay xác minh tài khoản.\n* Yêu cầu cung cấp thông tin nhạy cảm hoặc thông tin đăng nhập.\n* Người gửi không đúng địa chỉ của công ty hoặc có dấu hiệu giả mạo. ([Hỗ Trợ Microsoft][1])\n\n**Bạn nên làm gì tiếp theo?**\n\n* Với tình huống này: **không cần thực hiện hành động nào thêm**, vì đây là một cuộc họp công việc bình thường.\n* Trong tương lai, nếu nhận được các tin nhắn tương tự nhưng có thêm liên kết, tệp đính kèm hoặc yêu cầu cung cấp thông tin nhạy cảm, hãy xác minh với phòng Nhân sự hoặc quản lý qua kênh chính thức trước khi thực hiện bất kỳ yêu cầu nào. ([Hỗ Trợ Microsoft][1])\n\n[1]: https://support.microsoft.com/en-US/security/protect-yourself-from-phishing?utm_source=chatgpt.com \"Protect yourself from phishing | Microsoft Support\"",
+  "sources": [
+    "https://support.microsoft.com/en-US/security/protect-yourself-from-phishing?utm_source=chatgpt.com"
+  ],
+  "latency_ms": 0
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-other-01",
+  "rag_verdict": {
+    "strengths": [
+      "Nhận diện đúng nạn nhân đã bị rút 12 triệu và tập trung khắc phục",
+      "Phủ đủ 4 ý chính: giả danh công ty bảo hiểm + hoàn tiền, app SafeVerify từ link SMS, nhập OTP/đăng nhập ngân hàng, tiền bị rút rồi mất liên lạc",
+      "Khuyến nghị đúng cốt lõi: tổ chức tài chính không xin OTP để 'chuyển tiền cho bạn', gọi hotline chính thức xác minh, liên hệ ngân hàng khóa tài khoản",
+      "Súc tích, đúng trọng tâm"
+    ],
+    "weaknesses": [
+      "Pattern khớp chỉ là nhãn trống và hơi lệch loại (impersonation_authority/recovery_scam)",
+      "Không nhắc gỡ app/factory reset thiết bị nhiễm mã độc",
+      "Không cảnh báo nguy cơ 'bị lừa lần hai'"
+    ],
+    "reasoning": "Chính xác và phủ đủ ý chính với khuyến nghị đúng cốt lõi. Trừ điểm vì pattern khớp lệch loại và thiếu bước xử lý thiết bị/cảnh báo lừa lần hai.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Giải thích rõ nguyên tắc OTP (không ai cần OTP để chuyển tiền CHO bạn) — điểm giáo dục cốt lõi",
+      "Quy trình khắc phục ưu tiên: khóa tài khoản → gỡ app/factory reset → trình báo → lưu bằng chứng",
+      "Cảnh báo 'bị lừa lần hai', nêu kênh 156/canhbao.ncsc.gov.vn/PA05, chủ động đề nghị soạn bản tường trình",
+      "Trình bày sạch, mạch lạc dù không có nguồn web trích dẫn"
+    ],
+    "weaknesses": [
+      "Không có nguồn web nào được trích dẫn (sources=0) — dựa hoàn toàn vào kiến thức nội tại",
+      "Dài hơn mức cần"
+    ],
+    "reasoning": "Toàn diện, giải thích nguyên tắc OTP rõ ràng và quy trình khắc phục đầy đủ kèm cảnh báo lừa lần hai. Trừ điểm nhẹ vì không có nguồn trích dẫn.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

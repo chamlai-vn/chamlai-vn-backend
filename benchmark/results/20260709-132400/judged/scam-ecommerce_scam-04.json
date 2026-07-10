@@ -1,0 +1,38 @@
+{
+  "case_id": "scam-ecommerce_scam-04",
+  "rag_verdict": {
+    "strengths": [
+      "Cấu trúc rõ ràng, phân loại rủi ro rõ (red) và liệt kê đầy đủ dấu hiệu cảnh báo",
+      "Bao quát tốt tất cả các ý chính: giá quá rẻ, website giả, thanh toán trước, không có xác nhận, cắt liên lạc",
+      "Khuyến nghị phòng ngừa thiết thực và cụ thể (kiểm tra minh bạch fanpage, ngưỡng cảnh giác giá rẻ, không chuyển vào tài khoản cá nhân)",
+      "Đề cập việc lưu bằng chứng và báo công an, ngân hàng",
+      "Súc tích, dễ đọc, không lan man"
+    ],
+    "weaknesses": [
+      "Có điểm không chính xác: bài gốc nói tài khoản mang tên 'Công ty TNHH VietFly Việt Nam' nhưng câu trả lời khẳng định là 'tài khoản cá nhân' — suy diễn sai chi tiết",
+      "Phần hỗ trợ nạn nhân sau khi bị lừa (quy trình trình báo, khả năng lấy lại tiền) khá ngắn gọn, thiếu chi tiết",
+      "Không nhấn mạnh rằng các chi tiết cụ thể (số tài khoản, SĐT) chỉ mang tính minh họa"
+    ],
+    "reasoning": "Câu trả lời A có cấu trúc chuẩn, bao quát đầy đủ các ý chính về nhận diện lừa đảo và đưa ra lời khuyên phòng ngừa thực tế. Tuy nhiên có một suy diễn sai (cho rằng chuyển vào tài khoản cá nhân trong khi thông tin gốc là tài khoản công ty), và phần hướng dẫn xử lý sau khi bị lừa còn sơ sài so với B.",
+    "score": 7.5
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Phân tích rất chi tiết, giải thích cặn kẽ từng lý do tại sao đây là lừa đảo, khớp với các cảnh báo thực tế (dẫn Cục Hàng không VN)",
+      "Hướng dẫn xử lý sau khi bị lừa rất cụ thể và có tính hành động cao (lưu bằng chứng, trình báo công an trong 24-48h, liên hệ ngân hàng, cảnh báo cộng đồng)",
+      "Cung cấp thông tin pháp lý hữu ích (Điều 174 BLHS), giải thích tại sao vẫn nên trình báo dù số tiền nhỏ",
+      "Bao quát đầy đủ tất cả ý chính và đồng cảm với nạn nhân",
+      "Quy tắc vàng ở cuối dễ nhớ, thực dụng"
+    ],
+    "weaknesses": [
+      "Đề cập một số chi tiết không có trong tình huống gốc (yêu cầu chuyển thêm tiền, mã OTP, tích xanh) — có thể gây lệch trọng tâm, dù mang tính giáo dục chung",
+      "Không nêu rõ các chi tiết cụ thể (số tài khoản, SĐT, email) chỉ là minh họa để tạo uy tín",
+      "Định dạng nhiều emoji/heading có thể hơi rườm rà, dài",
+      "Tuyên bố 'khớp 100%' hơi tuyệt đối"
+    ],
+    "reasoning": "Câu trả lời B rất toàn diện, kết hợp giải thích nhận diện lừa đảo với hướng dẫn hành động chi tiết, thông tin pháp lý và cách hỗ trợ nạn nhân. Bao quát tốt tất cả ý chính, đồng thời thêm giá trị thực tiễn về quy trình xử lý. Một số chi tiết bổ sung không có trong tình huống nhưng nhìn chung mang tính giáo dục.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

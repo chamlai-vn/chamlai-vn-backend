@@ -1,0 +1,25 @@
+{
+  "case_id": "benign-sms_bank_real-06",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "yellow",
+    "red_flags": [
+      "Kẻ gian có thể giả mạo tên người gửi SMS (Brandname spoofing) dù nội dung và hotline trông hợp lệ"
+    ],
+    "matched_patterns": [
+      "Hotline 1900 545413 khớp đúng tổng đài chính thức của Vietcombank; không có link, không yêu cầu OTP/mật khẩu"
+    ],
+    "recommended_actions": [
+      "Không dựa vào tin nhắn để kết luận có giao dịch, mở app Vietcombank Digibank hoặc kênh chính thức để kiểm tra giao dịch/số dư thực tế",
+      "Nếu thực sự có giao dịch không phải do mình thực hiện, chủ động gọi tổng đài chính thức 1900 54 54 13 (tự tra từ website) để yêu cầu khóa thẻ/tra soát",
+      "Nếu không có giao dịch nào trong app, xóa tin nhắn và không liên hệ qua số/link khác ngoài kênh chính thức"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "**Đánh giá:** **Chưa thể kết luận đây là lừa đảo chỉ dựa trên nội dung tin nhắn.** Tuy nhiên, **đây là loại tin nhắn cần được xác minh độc lập trước khi làm theo**, vì nội dung rất giống các thông báo giao dịch thật và cũng là kiểu mà kẻ lừa đảo thường bắt chước.\n\n**Các dấu hiệu cần lưu ý:**\n\n* Tin nhắn nêu đầy đủ thời gian, địa điểm, số tiền và số dư, giống định dạng thông báo giao dịch của ngân hàng.\n* Số hotline **1900 545413** đúng là tổng đài chăm sóc khách hàng chính thức của Vietcombank. ([Vietcombank][1])\n* Không có đường link, không yêu cầu cung cấp OTP, mật khẩu hay bấm vào liên kết. Điều này làm giảm khả năng đây là một tin nhắn lừa đảo đơn thuần.\n\n**Tuy nhiên vẫn có rủi ro vì:**\n\n* Kẻ gian có thể giả mạo tên người gửi SMS (SMS Brandname spoofing) hoặc gửi tin nhắn với nội dung rất giống ngân hàng.\n* Vietcombank đã nhiều lần cảnh báo về các hình thức giả mạo ngân hàng để dụ khách hàng gọi lại, cung cấp thông tin bảo mật hoặc thực hiện các thao tác theo hướng dẫn. ([Vietcombank][2])\n\n**Bạn nên làm gì tiếp theo:**\n\n1. **Không dựa vào tin nhắn để kết luận có giao dịch.**\n2. Mở ứng dụng Vietcombank Digibank hoặc đăng nhập qua kênh chính thức để kiểm tra:\n\n   * Có đúng giao dịch 2.500.000 VND hay không.\n   * Số dư có đúng như tin nhắn hay không.\n3. Nếu thực sự có giao dịch mà bạn không thực hiện:\n\n   * Chủ động gọi tổng đài chính thức **1900 54 54 13** (tra từ website chính thức của Vietcombank, không chỉ dựa vào tin nhắn). ([Vietcombank][1])\n   * Yêu cầu khóa thẻ/tài khoản hoặc tra soát giao dịch theo hướng dẫn của ngân hàng.\n4. Nếu không có giao dịch nào trong ứng dụng, rất có thể tin nhắn là giả mạo hoặc gửi nhầm. Khi đó hãy xóa tin nhắn và không liên hệ qua bất kỳ số điện thoại hay đường link nào khác ngoài kênh chính thức.\n\n**Mức độ nghi ngờ:** **Trung bình.** Nội dung không có dấu hiệu lừa đảo rõ ràng, nhưng cũng không thể coi là đáng tin chỉ vì sử dụng đúng hotline. Cách an toàn nhất là **xác minh trực tiếp trên ứng dụng hoặc website chính thức của Vietcombank trước khi thực hiện bất kỳ hành động nào.**\n\n[1]: https://vietcombank.com.vn/vi-VN/To-chuc/SMEs/Lien-he-ho-tro/Lien-he-CSKH?utm_source=chatgpt.com \"Liên hệ CSKH\"\n[2]: https://www.vietcombank.com.vn/vi-VN/KHCN/Danh-sach-nguyen-tac-GDAT/khcn---rui-ro-lua-dao-the?utm_source=chatgpt.com \"Cảnh báo thủ đoạn lừa đảo phát hành thẻ, đánh cắp thông tin thẻ để liên kết ví và chiếm đoạt tiền\"",
+  "sources": [
+    "https://vietcombank.com.vn/vi-VN/To-chuc/SMEs/Lien-he-ho-tro/Lien-he-CSKH?utm_source=chatgpt.com",
+    "https://www.vietcombank.com.vn/vi-VN/KHCN/Danh-sach-nguyen-tac-GDAT/khcn---rui-ro-lua-dao-the?utm_source=chatgpt.com"
+  ],
+  "latency_ms": 0
+}

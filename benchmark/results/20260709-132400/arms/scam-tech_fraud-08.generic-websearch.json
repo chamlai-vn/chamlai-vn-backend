@@ -1,0 +1,27 @@
+{
+  "case_id": "scam-tech_fraud-08",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Ánh mắt không tự nhiên và miệng bị delay khi nói — dấu hiệu deepfake điển hình, công nghệ chưa mô phỏng hoàn hảo chuyển động mắt/đồng bộ âm thanh",
+      "Viện cớ \"sóng yếu\" để cắt cuộc gọi sớm, tránh bị phát hiện thêm sai sót",
+      "Kịch bản \"chuyển tiền khẩn cấp + gửi link app xác minh OTP\" — combo lừa đảo kinh điển nhằm chiếm toàn quyền tài khoản ngân hàng",
+      "Nhiều khả năng video giả được dựng từ ảnh/video/giọng nói đăng công khai trên mạng xã hội của người bị mạo danh"
+    ],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Xác minh trực tiếp ngay qua số điện thoại quen thuộc (không dùng kênh trong cuộc gọi video vừa rồi), hỏi câu chỉ hai người biết",
+      "Kiểm tra xem tài khoản Facebook/Zalo của người bị mạo danh có bị hack không",
+      "Không bấm bất kỳ link nào kẻ gian gửi, kể cả khi đổi chiêu khác (giả ngân hàng, công an...)",
+      "Lưu lại bằng chứng: tin nhắn, hình ảnh, video, lịch sử cuộc gọi, thông tin giao dịch",
+      "Trình báo công an phường/xã hoặc đường dây nóng A05, kể cả khi chưa mất tiền",
+      "Cảnh báo người thân khác trong gia đình vì kẻ gian đã có sẵn dữ liệu khuôn mặt/giọng nói",
+      "Hạn chế đăng ảnh/video công khai trên mạng xã hội để tránh bị lấy dữ liệu tạo deepfake tiếp"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## Kết luận: Đây chính xác là một vụ LỪA ĐẢO — mức độ nguy hiểm cao\n\nKhông có gì phải nghi ngờ nữa. Tình huống của anh Tuấn khớp gần như hoàn hảo với kịch bản lừa đảo deepfake kết hợp chiếm đoạt tài khoản ngân hàng đang bùng phát mạnh tại Việt Nam gần đây.\n\n### Vì sao có thể khẳng định chắc chắn\n\n**1. Các dấu hiệu deepfake anh Tuấn quan sát được là chính xác, không phải \"quá nhạy cảm\":**\n- Ánh mắt không tự nhiên là dấu hiệu dễ nhận biết nhất, vì công nghệ deepfake vẫn chưa mô phỏng hoàn hảo được chuyển động mắt và cách chớp mắt tự nhiên của con người\n- Miệng bị delay khi nói cũng là dấu hiệu điển hình, vì deepfake tập trung tái tạo hình ảnh hơn là đồng bộ âm thanh với chuyển động miệng\n- Kẻ gian thường sẽ viện cớ \"sóng yếu\" để cắt cuộc gọi sớm, tránh nạn nhân phát hiện thêm sai sót.\n\n**2. Kịch bản \"chuyển tiền khẩn cấp + gửi link app xác minh OTP\" là combo lừa đảo kinh điển:**\nKẻ gian thường tự xưng đang xử lý việc khẩn cấp, dùng hình ảnh AI để tăng tính thuyết phục, sau đó yêu cầu chuyển tiền hoặc cài ứng dụng chứa mã độc để kiểm soát thiết bị. Việc nhập OTP vào \"app xác minh danh tính ngân hàng\" giả sẽ cho phép kẻ gian **chiếm toàn quyền tài khoản ngân hàng thật** của anh Tuấn — nguy hiểm hơn cả việc mất 250 triệu, vì chúng có thể rút sạch mọi tài khoản liên kết.\n\n**3. Nguồn gốc video giả:** Kẻ gian nhiều khả năng đã thu thập hình ảnh, video và giọng nói được đăng công khai trên mạng xã hội của \"anh trai\" để tạo nội dung giả mạo — đúng như bạn của anh Tuấn đã chỉ ra (từ ảnh Facebook).\n\n### Anh Tuấn đã làm đúng 2 việc quan trọng nhất\n✅ Nghi ngờ và không vội chuyển tiền\n✅ Không tải app / không nhập OTP — đây là bước sống còn, vì tuyệt đối không nên cung cấp thông tin cá nhân, số CCCD, tài khoản ngân hàng, mật khẩu, mã OTP qua điện thoại, tin nhắn hay mạng xã hội\n\n### Việc cần làm tiếp theo\n\n1. **Xác minh trực tiếp ngay:** Gọi điện qua số điện thoại quen thuộc của anh trai (không dùng số/kênh trong cuộc gọi video vừa rồi) hoặc gặp trực tiếp để xác minh. Có thể hỏi một câu chỉ hai anh em biết để chắc chắn 100%.\n2. **Kiểm tra xem tài khoản Facebook/Zalo của anh trai có bị hack không** — vì kẻ gian thường lấy hình ảnh từ đó, và đôi khi còn chiếm luôn tài khoản để nhắn tin giả danh.\n3. **Không bấm bất kỳ link nào** kẻ gian gửi, kể cả sau này chúng đổi chiêu (ví dụ giả làm ngân hàng, công an...).\n4. **Lưu lại bằng chứng:** giữ lại tin nhắn, hình ảnh, video, lịch sử cuộc gọi và thông tin giao dịch để trình báo.\n5. **Trình báo công an** phường/xã nơi cư trú hoặc gọi đường dây nóng của Bộ Công an/Cục An ninh mạng (A05) để họ ghi nhận và cảnh báo sớm cho cộng đồng — kể cả khi anh Tuấn chưa mất tiền, việc trình báo giúp truy vết đối tượng.\n6. **Cảnh báo người thân khác** trong gia đình, vì kẻ gian thường nhắm tiếp vào những người quen khác sau khi đã có sẵn dữ liệu khuôn mặt/giọng nói của \"anh trai\".\n7. Nhắc anh trai **hạn chế đăng ảnh/video công khai** trên mạng xã hội, hoặc chuyển sang chế độ riêng tư, để tránh bị lấy dữ liệu tạo deepfake tiếp.\n\nAnh Tuấn đã rất tỉnh táo trong tình huống này — phản xạ \"dừng lại và kiểm tra\" chính là thứ khiến kẻ gian thất bại.",
+  "sources": [],
+  "latency_ms": 0
+}

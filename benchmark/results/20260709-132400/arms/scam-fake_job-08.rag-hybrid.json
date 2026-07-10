@@ -1,0 +1,35 @@
+{
+  "case_id": "scam-fake_job-08",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Liên hệ qua mạng xã hội cá nhân (Zalo) từ người lạ tự xưng nhân viên tuyển dụng",
+      "Lời hứa việc nhẹ lương cao bất thường (8 triệu/tháng, 2-3 giờ/ngày)",
+      "Yêu cầu nộp tiền trước dưới hình thức 'mua gói training, tools, sàn bán hàng'",
+      "Chuyển tiền vào tài khoản ngân hàng cá nhân thay vì công ty chính thức",
+      "Liên tục yêu cầu nạp thêm tiền với các lý do khác nhau",
+      "Bảo đảm lợi nhuận cao bất thường (20% hàng tuần)",
+      "Chặn liên hệ khi bị hỏi rõ, biểu hiện điển hình của lừa đảo",
+      "Không có hợp đồng lao động chính thức",
+      "Yêu cầu tham gia nhóm kín trên Telegram để cách ly nạn nhân"
+    ],
+    "matched_patterns": [
+      "Lừa đảo việc nhẹ lương cao qua mạng xã hội",
+      "Lừa đảo cộng tác viên online với gói nhiệm vụ giả mạo",
+      "Yêu cầu chuyển tiền trước qua đơn hàng ảo/gói service giả"
+    ],
+    "recommended_actions": [
+      "Ngay lập tức dừng giao dịch với đối tượng này và không chuyển thêm tiền nữa",
+      "Lưu lại toàn bộ tin nhắn, hình ảnh, thông tin liên lạc làm bằng chứng",
+      "Thông báo cho ngân hàng phát hành thẻ/tài khoản của anh để chặn tài khoản nhận tiền 'Trương Thanh Hải' nếu có thể",
+      "Báo cáo tài khoản Zalo giả mạo lên Meta/Zalo Việt Nam",
+      "Nộp đơn tố giác lừa đảo tại công an địa phương, mang theo toàn bộ bằng chứng",
+      "Kiểm tra xem liệu thông tin cá nhân (căn cước, số điện thoại, tài khoản) có bị dùng trái phép",
+      "Tìm việc qua các nền tảng uy tín (Indeed, VietnamWorks, TopCV) hoặc công ty có địa chỉ, thông tin pháp lý rõ ràng, yêu cầu hợp đồng lao động chính thức",
+      "Tuyệt đối không nộp tiền dưới bất kỳ hình thức nào trước khi ký hợp đồng với công ty thực"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 9982
+}

@@ -1,0 +1,26 @@
+{
+  "case_id": "scam-recovery_scam-05",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Không có tổ chức nào tên \"Quỹ Bảo vệ Nhà đầu tư\" đứng ra thu phí để \"lấy lại tiền bị lừa\" ở Việt Nam — giả mạo cơ quan/quỹ có vẻ chính thống để tạo lòng tin",
+      "Đúng mô hình recovery scam: nhắm lại vào nạn nhân vừa bị lừa qua app đầu tư, đóng vai \"chuyên gia hỗ trợ thu hồi tiền\"",
+      "Yêu cầu đóng trước phí xác minh/phí bảo hiểm/phí xử lý hồ sơ — cơ quan chức năng thật không bao giờ yêu cầu chuyển tiền trước để \"lấy lại tiền\" cho nạn nhân",
+      "Gọi điện đột ngột, hứa hẹn giúp lấy lại tiền nhanh, đòi phí trước — kịch bản điển hình của tội phạm mạng khai thác danh sách nạn nhân cũ"
+    ],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Tuyệt đối không chuyển thêm bất kỳ khoản tiền nào cho \"Minh Trung\" hay bất kỳ ai tự nhận giúp lấy lại tiền qua đóng phí trước",
+      "Chặn số điện thoại này, không cung cấp thêm thông tin cá nhân, số tài khoản, OTP",
+      "Trình báo công an phường/xã nơi cư trú về cả vụ Finvest lẫn cuộc gọi lừa đảo lần 2, kèm bằng chứng liên quan",
+      "Báo ngân hàng nơi đã chuyển tiền vào Finvest để tra soát, phong tỏa nếu dòng tiền chưa bị rút hết",
+      "Gọi tổng đài Cục An toàn thông tin (156) để phản ánh cuộc gọi lừa đảo",
+      "Ghi nhớ: thu hồi tiền bị lừa đảo hợp pháp không bao giờ yêu cầu đóng phí trước"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "**Đây gần như chắc chắn là lừa đảo — cụ thể là \"lừa đảo kép\" (recovery scam / lừa đảo lần 2).**\n\n## Vì sao có thể khẳng định như vậy\n\n1. **Không có tổ chức nào tên \"Quỹ Bảo vệ Nhà đầu tư\" đứng ra thu phí để \"lấy lại tiền bị lừa\" ở Việt Nam.** Đây là chiêu bài giả mạo cơ quan/quỹ có vẻ chính thống để tạo lòng tin.\n\n2. **Mô hình này rất phổ biến và đã được công an, báo chí cảnh báo nhiều lần**: sau khi nạn nhân bị lừa qua app đầu tư, kẻ gian tiếp tục nhắm vào chính nạn nhân đó (vì biết họ đang mất tiền, nóng lòng muốn lấy lại) và đóng vai \"người hỗ trợ\", \"chuyên gia\", \"dịch vụ thu hồi tiền\", yêu cầu đóng trước một khoản \"phí xác minh/phí bảo hiểm/phí xử lý hồ sơ\" — đây là dấu hiệu điển hình: người tư vấn thúc ép nạp thêm tiền với lý do phí xác minh, thuế hoặc phí mở khóa.\n\n3. **Nguyên tắc quan trọng**: các cơ quan chức năng thật (công an, tòa án, cơ quan thu hồi tài sản hợp pháp) **không bao giờ** yêu cầu bạn chuyển tiền trước để \"xử lý\" hay \"lấy lại tiền\" cho bạn. Việc thu hồi tài sản bị lừa đảo là một quá trình pháp lý qua công an/tòa án, không phải dịch vụ tư nhân thu phí trước qua điện thoại.\n\n4. Cách gọi điện đột ngột, tự xưng tên, hứa hẹn giúp lấy lại tiền nhanh, và đòi phí trước — đúng là kịch bản của tội phạm mạng, thường lợi dụng chính danh sách nạn nhân từ vụ lừa đảo đầu tiên (có thể chúng mua/bán thông tin nạn nhân, hoặc chính là một nhánh khác của cùng đường dây Finvest).\n\n## Bạn nên làm gì tiếp theo\n\n- **Tuyệt đối không chuyển thêm bất kỳ khoản tiền nào** cho \"Minh Trung\" hay bất kỳ ai tự nhận có thể giúp lấy lại tiền qua hình thức đóng phí trước.\n- **Chặn số điện thoại này** và không cung cấp thêm thông tin cá nhân, số tài khoản, OTP.\n- **Trình báo công an**: Đến công an phường/xã hoặc quận/huyện nơi bạn cư trú để tố giác cả vụ Finvest lẫn cuộc gọi lừa đảo lần 2 này. Chuẩn bị: thông tin về app Finvest, các tin nhắn/cuộc gọi từ Minh Trung, sao kê chuyển khoản, CCCD.\n- **Báo ngân hàng** nơi bạn chuyển tiền vào Finvest để họ hỗ trợ tra soát, có thể phong tỏa nếu dòng tiền chưa bị rút hết.\n- Có thể gọi tổng đài của **Cục An toàn thông tin** (Bộ TT&TT) qua đầu số 156 để phản ánh cuộc gọi lừa đảo.\n- Ghi nhớ: **việc thu hồi tiền bị lừa đảo hợp pháp không bao giờ yêu cầu bạn đóng phí trước** — bất kỳ ai đòi vậy đều là dấu hiệu lừa đảo tiếp theo.\n\nRất tiếc là bạn đã gặp phải tình huống này, nhưng việc bạn cảnh giác và hỏi trước khi chuyển tiền là quyết định đúng đắn.",
+  "sources": [],
+  "latency_ms": 0
+}

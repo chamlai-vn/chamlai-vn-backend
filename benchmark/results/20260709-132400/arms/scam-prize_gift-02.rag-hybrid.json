@@ -1,0 +1,27 @@
+{
+  "case_id": "scam-prize_gift-02",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Tin nhắn từ số điện thoại lạ không rõ nguồn gốc",
+      "Thông báo trúng giải thưởng mà không tham gia chương trình",
+      "Yêu cầu bấm link xác nhận đáng ngờ",
+      "Giải thưởng số tiền lớn (15 triệu đồng) được thông báo đột ngột",
+      "Mạo danh tập đoàn nổi tiếng (Tập đoàn Thương mại Việt Á)"
+    ],
+    "matched_patterns": [
+      "Giả danh công ty/siêu thị tặng quà tri ân, yêu cầu làm nhiệm vụ online để chiếm đoạt tiền",
+      "Cuộc gọi giả mạo báo trúng thưởng, tặng quà để chiếm đoạt tài sản"
+    ],
+    "recommended_actions": [
+      "Tuyệt đối không bấm vào link được gửi trong tin nhắn vì đó có thể là trang web giả mạo để lấy cắp thông tin cá nhân hoặc cài đặt phần mềm độc hại",
+      "Xác minh thông tin bằng cách liên hệ trực tiếp Tập đoàn Thương mại Việt Á qua số điện thoại chính thức trên website chính thức của họ, không dùng số liên hệ từ tin nhắn",
+      "Không cung cấp bất kỳ thông tin cá nhân, số tài khoản, mã OTP hoặc chuyển tiền cho bất kỳ ai",
+      "Báo cáo tin nhắn lừa đảo này cho nhà mạng hoặc cơ quan chức năng để cảnh báo những người dùng khác",
+      "Hãy nhớ rằng các chương trình trúng thưởng hợp pháp sẽ không yêu cầu bấm link lạ hoặc chuyển tiền phí dưới bất kỳ hình thức nào"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 6666
+}

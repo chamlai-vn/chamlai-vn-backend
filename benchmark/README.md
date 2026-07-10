@@ -5,6 +5,16 @@
 > trên codebase hiện tại, thiết kế harness dự kiến, vì sao *chưa* chạy, và điều kiện
 > nào thì quay lại chạy. (Origin: `docs/brainstorms/2026-07-02-retrieval-benchmark-requirements.md`)
 
+> **Khác với `cmd/benchmark`.** Harness mô tả ở đây đo **retrieval** (Recall@K/MRR,
+> vector-vs-hybrid) và vẫn đang hoãn (xem "Vì sao CHƯA chạy" bên dưới). `cmd/benchmark`
+> (đã build, xem package doc của nó) đo một trục khác: **giá trị end-to-end** — RAG-hybrid
+> so với một AI chung chung (Sonnet + web search), qua LLM-judge + confusion matrix. Hai
+> harness độc lập, không dùng chung dataset hay entrypoint. **Bẫy đặt tên**: nếu harness
+> retrieval ở đây sau này được build vào `cmd/benchmark`, cờ `-gen` sẽ cần namespace theo
+> suite (`-suite=retrieval` vs `-suite=quality`) để không đụng `cmd/benchmark`'s `-gen`
+> hiện tại (sinh dataset chất lượng end-to-end, không phải dataset query retrieval) —
+> xử lý việc này *trước*, không phải khi đã có xung đột.
+
 ## Câu hỏi cần trả lời
 
 Hybrid search (vector + keyword qua RRF, PR #5) có thực sự cải thiện retrieval so với
@@ -107,12 +117,17 @@ Nguyên tắc: benchmark khi có câu hỏi cần trả lời, không phải ben
 
 ## Cách chạy (khi harness đã build)
 
+`cmd/benchmark` giờ đã tồn tại nhưng cho harness **giá trị end-to-end** khác (xem cảnh
+báo ở đầu file) — các lệnh dưới đây là *thiết kế dự kiến*, chưa khớp `-gen`/`-k` thật
+của `cmd/benchmark` hiện tại. Khi build harness retrieval này, namespace theo suite
+trước (`-suite=retrieval`), đừng tái dùng `-gen`/`-k` trần:
+
 ```bash
 # 1. Sinh dataset từ snapshot corpus hiện tại (cần ANTHROPIC_API_KEY)
-VOYAGE_API_KEY=... ANTHROPIC_API_KEY=... go run ./cmd/benchmark -gen
+VOYAGE_API_KEY=... ANTHROPIC_API_KEY=... go run ./cmd/benchmark -suite=retrieval -gen
 
 # 2. Chấm điểm mọi strategy trên dataset đó (chỉ cần VOYAGE_API_KEY)
-VOYAGE_API_KEY=... go run ./cmd/benchmark -k 5
+VOYAGE_API_KEY=... go run ./cmd/benchmark -suite=retrieval -k 5
 ```
 
 Kết quả persist theo timestamp trong `benchmark/results/` để so sánh giữa các lần chạy.

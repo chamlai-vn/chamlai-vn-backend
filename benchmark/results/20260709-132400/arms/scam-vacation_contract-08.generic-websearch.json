@@ -1,0 +1,27 @@
+{
+  "case_id": "scam-vacation_contract-08",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "\"Trúng thưởng\" mà không hề tham gia rút thăm nào — mồi câu cổ điển",
+      "Yêu cầu chuyển tiền đặt cọc trước khi nhận bất cứ thứ gì — công ty du lịch hợp pháp không bắt trả tiền để \"mở khóa\" giải thưởng",
+      "Chuyển khoản vào tài khoản cá nhân, không phải tài khoản đứng tên pháp nhân công ty",
+      "Thúc ép ký hợp đồng ngay, không có thời gian xem xét kỹ",
+      "Chỉ liên hệ qua điện thoại/email, không có địa chỉ công ty rõ ràng"
+    ],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Tuyệt đối không chuyển bất kỳ khoản tiền nào vào tài khoản được cung cấp",
+      "Xác minh doanh nghiệp trên Cổng thông tin quốc gia về đăng ký doanh nghiệp — nếu không tìm thấy hoặc không khớp, gần như chắc chắn là giả",
+      "Không cung cấp thêm CCCD, số tài khoản ngân hàng, OTP",
+      "Tự tìm số hotline chính thức của công ty (không dùng số họ gửi) để xác nhận nếu muốn kiểm tra thêm",
+      "Nếu đã lỡ chuyển tiền: báo ngay ngân hàng để yêu cầu phong tỏa, trình báo công an địa phương hoặc Cổng cảnh báo an toàn thông tin",
+      "Chia sẻ tình huống này với người thân, đặc biệt người lớn tuổi vì đây là nhóm mục tiêu chính của loại lừa đảo này"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## Kết luận: Đây gần như chắc chắn là lừa đảo\n\nTình huống bạn gửi có đầy đủ các dấu hiệu kinh điển của lừa đảo \"trúng thưởng du lịch / sở hữu kỳ nghỉ\" (timeshare scam) mà công an nhiều tỉnh thành đã liên tục cảnh báo gần đây.\n\n### Các dấu hiệu đáng ngờ rõ ràng:\n\n1. **\"Trúng thưởng\" mà bạn không hề tham gia rút thăm nào** – Đây là mồi câu cổ điển để tiếp cận nạn nhân. Việc được thông báo trúng thưởng hoặc nhận quà giá trị lớn một cách bất ngờ là dấu hiệu cần đặc biệt cảnh giác.\n\n2. **Yêu cầu chuyển tiền trước khi nhận bất cứ thứ gì** – Đây là điểm mấu chốt của trò lừa: yêu cầu chuyển tiền đặt cọc hoặc các khoản phí trước khi giao dịch hoàn thành là dấu hiệu lừa đảo. Một công ty du lịch hợp pháp không bao giờ bắt bạn trả tiền để \"mở khóa\" một giải thưởng.\n\n3. **Chuyển khoản vào tài khoản cá nhân, không phải tài khoản công ty** – \"Trương Minh Phương\" là tên cá nhân, không phải tên doanh nghiệp. Đây là dấu hiệu rất đáng ngờ vì công ty thật sẽ có tài khoản đứng tên pháp nhân.\n\n4. **Thúc ép ký hợp đồng ngay, không có thời gian xem xét kỹ** – mô hình timeshare hợp pháp cũng tồn tại, nhưng phần lớn hợp đồng sở hữu kỳ nghỉ hiện nay có thời hạn dài và yêu cầu khách hàng thanh toán trước số tiền lớn, trong khi hành lang pháp lý tại Việt Nam đối với loại hình này vẫn còn nhiều khoảng trống.\n\n5. **Chỉ liên hệ qua điện thoại/email, không có địa chỉ công ty rõ ràng** – sử dụng số điện thoại lạ, thông tin doanh nghiệp không rõ ràng cũng là dấu hiệu cảnh báo.\n\nThực tế đã có một vụ lừa đảo timeshare quy mô lớn tại Anh với hơn 3.500 nạn nhân, chủ yếu là người cao tuổi, thiệt hại lên tới gần 985 tỷ đồng — cho thấy đây là mô hình lừa đảo phổ biến toàn cầu, và tại Việt Nam công an nhiều địa phương gần đây liên tục phát cảnh báo về nó.\n\n### Bạn nên làm gì tiếp theo:\n\n- ❌ **Tuyệt đối không chuyển bất kỳ khoản tiền nào** vào số tài khoản trên.\n- 🔍 **Xác minh doanh nghiệp**: tra cứu tên \"Công ty Du lịch Paradise Resorts\" trên Cổng thông tin quốc gia về đăng ký doanh nghiệp (dangkykinhdoanh.gov.vn) — nếu không tìm thấy hoặc thông tin không khớp, gần như chắc chắn là giả.\n- 📵 Không cung cấp thêm CCCD, số tài khoản ngân hàng, OTP cho họ.\n- 📞 Nếu muốn kiểm tra thêm, hãy tự tìm số hotline chính thức của công ty (không dùng số họ gửi) để xác nhận.\n- 🚨 Nếu bạn đã lỡ chuyển tiền, hãy báo ngay cho ngân hàng để yêu cầu phong tỏa giao dịch, và trình báo với công an địa phương hoặc qua Cổng cảnh báo an toàn thông tin (canhbao.khonggianmang.vn).\n- 🗣️ Nên chia sẻ tình huống này với người thân, đặc biệt nếu trong gia đình có người lớn tuổi, vì đây là nhóm mục tiêu chính của loại lừa đảo này.",
+  "sources": [],
+  "latency_ms": 0
+}

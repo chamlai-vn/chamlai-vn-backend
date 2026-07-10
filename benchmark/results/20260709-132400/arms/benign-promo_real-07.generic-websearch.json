@@ -1,0 +1,26 @@
+{
+  "case_id": "benign-promo_real-07",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "green",
+    "red_flags": [
+      "Cụm từ tạo cảm giác khẩn cấp ('chỉ dành cho 100 khách hàng đầu tiên') là kỹ thuật marketing thường bị kẻ lừa đảo bắt chước"
+    ],
+    "matched_patterns": [
+      "Link dùng đúng tên miền chính thức shopee.vn, khớp với chương trình Flash Sale/ShopeeVIP thật và hotline 1900 6969 quen thuộc của Shopee"
+    ],
+    "recommended_actions": [
+      "Chỉ mở link sau khi xác minh tên miền là shopee.vn",
+      "An toàn hơn: không bấm link trong tin nhắn, tự mở app Shopee để tìm Flash Sale/Voucher",
+      "Kiểm tra kỹ URL trước khi nhập OTP, mật khẩu hoặc thông tin thanh toán nếu được yêu cầu sau khi bấm link",
+      "Coi là rất đáng ngờ nếu sau này gặp tên miền dạng shopee-vn..., shopeevip..., shopee.sale... hoặc link rút gọn"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "**Đánh giá:** **Không có đủ dấu hiệu để kết luận đây là lừa đảo.** Ngược lại, nội dung này có vẻ **phù hợp với một chương trình khuyến mãi hợp lệ**, vì:\n\n* Các liên kết đều sử dụng tên miền chính thức **`https://shopee.vn`**, không phải tên miền giả mạo hoặc viết sai chính tả.\n* Đường dẫn Flash Sale và trang hồ sơ tài khoản đều khớp với các trang chính thức của Shopee. Shopee thực sự có các chương trình Flash Sale và dịch vụ ShopeeVIP. ([Trung Tâm Trợ Giúp Shopee][1])\n* Hotline `1900 6969` cũng là hotline quen thuộc của Shopee Việt Nam.\n\nTuy nhiên, vẫn có một vài điểm cần lưu ý:\n\n* Cụm từ như **\"Chúc mừng bạn được chọn\"**, **\"chỉ dành cho 100 khách hàng đầu tiên\"** nhằm tạo cảm giác khẩn cấp là kỹ thuật thường thấy trong các chiến dịch marketing, và cũng thường bị kẻ lừa đảo bắt chước.\n* Nội dung nói \"được chọn\" nhưng không nêu rõ vì sao bạn đủ điều kiện tham gia.\n\n**Bạn nên làm gì tiếp theo?**\n\n1. Chỉ mở liên kết nếu bạn đã xác minh tên miền là **`shopee.vn`**.\n2. An toàn hơn nữa là **không bấm vào link trong tin nhắn**, hãy tự mở ứng dụng Shopee hoặc truy cập trang chủ rồi tìm mục Flash Sale hoặc Voucher.\n3. Nếu được yêu cầu đăng nhập, nhập OTP, mật khẩu hoặc thông tin thanh toán sau khi bấm link, hãy kiểm tra kỹ URL trước khi tiếp tục.\n4. Nếu sau này bạn nhận được tin nhắn tương tự nhưng dùng các tên miền như `shopee-vn...`, `shopeevip...`, `shopee.sale...` hoặc các tên miền rút gọn, hãy coi đó là rất đáng ngờ. Shopee cũng khuyến cáo không đăng nhập hoặc cung cấp thông tin cá nhân trên các trang web không chính thức. ([Trung Tâm Trợ Giúp][2])\n\n**Kết luận:** Với nội dung bạn cung cấp, **khả năng cao đây không phải là lừa đảo**, vì các đường dẫn đều thuộc tên miền chính thức của Shopee và phù hợp với các chương trình hiện có. Tuy nhiên, vẫn nên truy cập khuyến mãi thông qua ứng dụng hoặc website chính thức thay vì nhấp trực tiếp vào liên kết trong tin nhắn để giảm rủi ro.\n\n[1]: https://help.shopee.vn/portal/4/article/79493-%5BFLASH-SALE%5D-Flash-Sale-l%C3%A0-g%C3%AC-C%C3%A1c-c%C3%A1ch-truy-c%E1%BA%ADp-v%C3%A0o-Flash-Sale-tr%C3%AAn-%E1%BB%A9ng-d%E1%BB%A5ng-Shopee?utm_source=chatgpt.com \"[FLASH SALE] Flash Sale là gì? Các cách truy cập vào Flash Sale trên ứng dụng Shopee? | Shopee Trung tâm trợ giúp\"\n[2]: https://help.shopee.ph/portal/4/article/81385-Protect-Yourself-from-Online-Scams-?seo=1&utm_source=chatgpt.com \"Protect Yourself from Online Shopping Scams & Fraudulent Activity | Shopee Help Center\"",
+  "sources": [
+    "https://help.shopee.vn/portal/4/article/79493-%5BFLASH-SALE%5D-Flash-Sale-l%C3%A0-g%C3%AC-C%C3%A1c-c%C3%A1ch-truy-c%E1%BA%ADp-v%C3%A0o-Flash-Sale-tr%C3%AAn-%E1%BB%A9ng-d%E1%BB%A5ng-Shopee?utm_source=chatgpt.com",
+    "https://help.shopee.ph/portal/4/article/81385-Protect-Yourself-from-Online-Scams-?seo=1&utm_source=chatgpt.com"
+  ],
+  "latency_ms": 0
+}

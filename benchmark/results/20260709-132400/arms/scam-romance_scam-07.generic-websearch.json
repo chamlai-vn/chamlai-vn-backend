@@ -1,0 +1,28 @@
+{
+  "case_id": "scam-romance_scam-07",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Người nước ngoài thành đạt ở xa (kiến trúc sư, Singapore) — vừa hấp dẫn vừa khó kiểm chứng/khó gặp mặt",
+      "Tình cảm phát triển rất nhanh và nồng nhiệt chỉ sau vài tuần — kỹ thuật tạo gắn bó cảm xúc để mất cảnh giác",
+      "Chuyển tiền vào tài khoản người thứ ba, không phải tài khoản của người tự xưng yêu đương — gần như chắc chắn là tài khoản trung gian/rửa tiền",
+      "Lời hứa \"hoàn gấp đôi\" là mồi nhử điển hình",
+      "Sau khi chuyển tiền lần 1, lập tức phát sinh lý do mới (\"vấn đề thuế\") để moi thêm tiền",
+      "Số điện thoại là số ảo, profile tạo gần đây, ảnh lấy từ internet — dấu hiệu 100% tài khoản giả mạo"
+    ],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Dừng ngay mọi liên lạc và mọi khoản chuyển tiền — cảnh giác với bất kỳ ai (kể cả tự xưng luật sư/cảnh sát mạng) hứa giúp lấy lại tiền, đó thường là lừa đảo vòng 2",
+      "Không xóa bất kỳ bằng chứng nào: tin nhắn, ảnh chuyển khoản, số điện thoại, link profile, lịch sử cuộc gọi",
+      "Làm đơn tố giác chính thức bằng văn bản tại cơ quan công an nơi cư trú nếu chưa có biên nhận",
+      "Bảo mật lại tài khoản: đổi mật khẩu ngân hàng, mạng xã hội, email, bật xác thực 2 lớp",
+      "Đề phòng giai đoạn 2: tuyệt đối cảnh giác với \"dịch vụ thu hồi tiền lừa đảo\" chủ động liên hệ hứa giúp lấy lại tiền",
+      "Gia đình nên đồng hành, tránh trách móc để nạn nhân không giấu diếm nếu còn liên lạc nào khác đang diễn ra"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "Rất tiếc phải nói thẳng: đây là **lừa đảo tình cảm (romance scam)** điển hình, gần như chắc chắn 100%. Dưới đây là lý do và những việc nên làm ngay.\n\n## Vì sao đây là lừa đảo\n\n**1. Đúng \"công thức\" kinh điển của romance scam:**\n- Làm quen qua app hẹn hò, tự nhận là người nước ngoài thành đạt (kiến trúc sư, ở Singapore) — vừa đủ hấp dẫn vừa đủ xa để khó kiểm chứng và khó gặp mặt trực tiếp.\n- Tình cảm phát triển rất nhanh và nồng nhiệt (\"yêu thương nhất\", hứa hẹn về Việt Nam gặp mặt) chỉ sau vài tuần — đây là kỹ thuật tạo gắn bó cảm xúc để nạn nhân mất cảnh giác.\n- Sau đó chuyển sang yêu cầu tài chính núp bóng \"dự án làm ăn\", \"đối tác kinh doanh\" — không phải chuyển tiền trực tiếp cho \"David\" mà chuyển vào tài khoản người thứ ba (Nguyễn Hùng Mạnh), đây gần như chắc chắn là tài khoản trung gian/rửa tiền.\n- Lời hứa \"hoàn gấp đôi\" là mồi nhử điển hình.\n- Khi đã chuyển tiền lần 1, lập tức phát sinh lý do mới (\"vấn đề thuế\") để moi thêm tiền — kịch bản này công an Việt Nam mô tả rất chính xác: khi nạn nhân tiếp tục nạp các khoản tiền lớn hơn, các đối tượng đưa ra nhiều lý do như đóng thuế, khắc phục lỗi giao dịch hoặc nâng cấp tài khoản để yêu cầu chuyển thêm tiền, đến khi nạn nhân không còn khả năng tài chính thì chúng lập tức cắt liên lạc và chiếm đoạt toàn bộ số tiền.\n\n**2. Bằng chứng kỹ thuật bạn tự phát hiện đã xác nhận:**\n- Số điện thoại Singapore là số ảo (dùng để tạo cảm giác đáng tin ở nước ngoài nhưng không thể xác minh danh tính thật).\n- Profile tạo gần đây, ảnh lấy từ internet (ảnh giả/đánh cắp) — dấu hiệu 100% của tài khoản giả mạo.\n\n**3. Đây là mô hình lừa đảo có tổ chức, không phải cá nhân đơn lẻ.** Công an từng triệt phá đường dây tương tự với quy mô hàng nghìn tỷ đồng mỗi năm: nhóm đối tượng này có thể chiếm đoạt số tiền lên tới khoảng 3.000 tỷ đồng mỗi năm, hoạt động có phân công vai trò rõ ràng, nhiều đường dây điều hành từ nước ngoài (Campuchia là một điểm nóng được nêu trong các vụ án).\n\n## Nên làm gì tiếp theo\n\n1. **Dừng ngay mọi liên lạc và mọi khoản chuyển tiền** với \"David\" — kể cả nếu có ai đó (kể cả tự xưng là \"luật sư\", \"cảnh sát mạng\") liên hệ hứa giúp lấy lại tiền, đó thường lại là lừa đảo vòng 2.\n2. **Không xóa bất kỳ bằng chứng nào**: tin nhắn, ảnh chụp chuyển khoản, số điện thoại, link profile Topdating, lịch sử cuộc gọi.\n3. **Đã báo công an và ngân hàng** — tốt, đúng hướng. Nếu chưa có biên nhận/đơn tố giác chính thức bằng văn bản tại cơ quan công an nơi cư trú, nên làm ngay để có căn cứ pháp lý theo dõi vụ việc.\n4. **Bảo mật lại tài khoản** của em gái: đổi mật khẩu ngân hàng, mạng xã hội, email, bật xác thực 2 lớp — vì thông tin cá nhân, hình ảnh, dữ liệu cô ấy đã chia sẻ có thể bị dùng tiếp cho các chiêu lừa khác hoặc tống tiền.\n5. **Đề phòng giai đoạn 2**: nhóm lừa đảo hoặc \"công ty dịch vụ thu hồi tiền lừa đảo\" giả mạo thường tiếp cận nạn nhân romance scam lần nữa, hứa \"lấy lại tiền\" để lừa thêm — tuyệt đối cảnh giác với bất kỳ ai chủ động liên hệ đề nghị giúp đòi lại tiền.\n6. **Chuẩn bị tâm lý**: khả năng thu hồi được tiền là thấp vì tài khoản nhận thường được rút/chuyển tiếp rất nhanh, nhưng việc trình báo vẫn quan trọng để góp phần điều tra đường dây và giúp cơ quan chức năng ngăn chặn nạn nhân khác.\n7. Quan trọng nhất: **em gái bạn không có lỗi** — đây là những kịch bản được thiết kế chuyên nghiệp, đánh vào cảm xúc thật, nhiều nạn nhân là người có học thức và cẩn trọng vẫn bị lừa. Gia đình nên đồng hành, tránh trách móc để cô ấy không giấu diếm nếu còn liên lạc nào khác đang diễn ra.\n\nNếu bạn cần, mình có thể giúp soạn mẫu đơn tố giác gửi công an hoặc liệt kê danh sách bằng chứng cần chuẩn bị.",
+  "sources": [],
+  "latency_ms": 0
+}

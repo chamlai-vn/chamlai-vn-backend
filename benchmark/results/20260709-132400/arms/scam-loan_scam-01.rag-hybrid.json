@@ -1,0 +1,28 @@
+{
+  "case_id": "scam-loan_scam-01",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Mạo danh công ty tài chính chưa xác minh nguồn gốc",
+      "Hứa hẹn vay tiền mà không cần chứng minh thu nhập (lơi hứa quá hấp dẫn)",
+      "Liên lạc qua số điện thoại lạ, không phải kênh chính thức",
+      "Phương thức tiếp cận qua tin nhắn thay vì kênh chính thức của công ty",
+      "Không rõ công ty có giấy phép hoạt động từ Ngân hàng Nhà nước"
+    ],
+    "matched_patterns": [
+      "loan_scam - Lừa đảo vay tiền online giả danh công ty tài chính",
+      "loan_scam - App vay tiền quảng cáo trên mạng - Lừa đảo tín dụng đen",
+      "loan_scam - Mạo danh ngân hàng, công ty tài chính cho vay trực tuyến để lừa đảo"
+    ],
+    "recommended_actions": [
+      "Không chuyển tiền hoặc cung cấp bất kỳ thông tin cá nhân nào cho số điện thoại này",
+      "Kiểm tra chính xác danh tính công ty bằng cách truy cập website chính thức hoặc liên hệ trực tiếp chi nhánh giao dịch thực của Prosper Online (nếu tồn tại)",
+      "Xác minh công ty có được Ngân hàng Nhà nước cấp phép bằng cách tra cứu trên Cổng thông tin quốc gia về đăng ký doanh nghiệp",
+      "Nếu công ty không có thông tin pháp nhân rõ ràng hoặc không được cấp phép, hãy từ chối và báo cáo số điện thoại này cho cơ quan chức năng",
+      "Để an toàn, chỉ vay tiền trực tiếp tại chi nhánh ngân hàng hoặc công ty tài chính có địa chỉ cụ thể và giấy phép hoạt động rõ ràng"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 6787
+}

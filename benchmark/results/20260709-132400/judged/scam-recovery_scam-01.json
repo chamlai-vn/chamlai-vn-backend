@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-recovery_scam-01",
+  "rag_verdict": {
+    "strengths": [
+      "Trả lời đúng câu hỏi: đây là lừa đảo (red); phủ đủ 4 ý chính: giả danh Trung tâm BVNTD, phí xử lý trước, tận dụng tâm lý tuyệt vọng, số lạ",
+      "Pattern khớp rất mạnh và đúng ngữ cảnh: 3 biến thể recovery_scam — giá trị truy hồi",
+      "Khuyến nghị đúng: không chuyển tiền, trình báo công an, xác minh qua kênh chính thức",
+      "Súc tích, phù hợp câu hỏi ngắn"
+    ],
+    "weaknesses": [
+      "Không giải thích cơ chế 'phí này đến phí khác' để nạn nhân hiểu bẫy",
+      "Không cung cấp kênh trình báo cụ thể (đường dây/website)",
+      "Định dạng thuần liệt kê"
+    ],
+    "reasoning": "Trả lời dứt khoát và đúng với pattern khớp recovery_scam rất sát. Thiếu giải thích cơ chế bẫy leo thang và kênh trình báo.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Giải thích rõ khái niệm 'lừa đảo lần 2' và cơ chế đòi thêm phí sau khi chuyển",
+      "Nêu nguyên tắc cơ quan nhà nước không thu phí thu hồi tiền, mọi tài khoản 'hỗ trợ thu hồi' đều là lừa đảo",
+      "Quy trình khắc phục rõ ràng, trấn an nạn nhân đang dễ tổn thương",
+      "Động viên người dùng đã hỏi trước khi hành động"
+    ],
+    "weaknesses": [
+      "Dài, định dạng nặng",
+      "Chưa nêu kênh trình báo online cụ thể"
+    ],
+    "reasoning": "Toàn diện, giải thích cơ chế lừa lần 2 và có yếu tố trấn an tâm lý. Điểm trừ là độ dài.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

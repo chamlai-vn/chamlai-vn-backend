@@ -1,0 +1,29 @@
+{
+  "case_id": "benign-promo_real-04",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận đúng (green) cho tin khuyến mãi VNPT đã được xác minh qua tổng đài",
+      "Khen đúng hành vi của Minh (gọi tổng đài kiểm chứng) và khuyến nghị lặp lại cách làm đó",
+      "Súc tích, đúng trọng tâm"
+    ],
+    "weaknesses": [
+      "Không tự khẳng định my.vnpt.com.vn và 1800 1091 là chính thức để củng cố kết luận"
+    ],
+    "reasoning": "Đúng, gọn và củng cố hành vi xác minh tốt của người dùng. Thiếu xác nhận tên miền/hotline chính thức.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Kết luận đúng (không phải lừa đảo) và xác nhận my.vnpt.com.vn + tổng đài 1800 1091 đều chính thức",
+      "Tổng hợp đúng các yếu tố khẳng định thật (nội dung khớp, đã xác minh qua tổng đài)",
+      "Nêu nguyên tắc xử lý cho tình huống tương tự, có nguồn dẫn"
+    ],
+    "weaknesses": [
+      "Dài"
+    ],
+    "reasoning": "Đúng và xác nhận tên miền/hotline chính thức. Cân bằng với RAG (RAG khen hành vi đúng, generic có xác nhận kỹ thuật).",
+    "score": 8
+  },
+  "preferred": "tie",
+  "order_consistent": true
+}

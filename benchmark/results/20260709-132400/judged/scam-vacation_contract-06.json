@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-vacation_contract-06",
+  "rag_verdict": {
+    "strengths": [
+      "Trả lời đúng câu hỏi (anh Thanh sắp chuyển tiền): đây là lừa đảo (red)",
+      "Phủ đủ 4 ý chính: được 'chọn lọc', giá giảm 70% phi lý, tài khoản Sacombank lạ, app ResortClub lạ",
+      "Pattern khớp đúng loại vacation_contract/giả mạo công ty du lịch",
+      "Khuyến nghị không chuyển tiền/tải app, xác minh độc lập, yêu cầu hợp đồng văn bản"
+    ],
+    "weaknesses": [
+      "Không nêu số liệu/vụ án để tăng thuyết phục",
+      "Không nêu công cụ tra cứu tài khoản/số điện thoại lừa đảo (tinnhiemmang.vn)",
+      "Không ghi nhận trực giác nghi ngờ của anh Thanh/con gái"
+    ],
+    "reasoning": "Trả lời dứt khoát và đúng, khuyến nghị xác minh hợp lý. Thiếu số liệu và công cụ tra cứu cụ thể.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Dẫn số liệu vụ án cụ thể, dự báo mô hình 'sau đặt cọc phát sinh thêm phí'",
+      "Nêu công cụ tra cứu tinnhiemmang.vn/tổng đài Sacombank, cổng ĐKKD",
+      "Khẳng định trực giác nghi ngờ của con gái/anh Thanh là đúng",
+      "Đối chiếu sát dấu hiệu"
+    ],
+    "weaknesses": [
+      "Không có nguồn web trích dẫn (sources=0)",
+      "Dài so với câu hỏi"
+    ],
+    "reasoning": "Chi tiết, có số liệu, công cụ tra cứu và khẳng định trực giác đúng. Điểm trừ là độ dài.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

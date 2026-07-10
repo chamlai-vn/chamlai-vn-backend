@@ -1,0 +1,33 @@
+{
+  "case_id": "scam-romance_scam-04",
+  "rag_verdict": {
+    "strengths": [
+      "Trả lời đúng câu hỏi: đây là lừa đảo (red); phủ đủ 4 ý chính: ảnh đẹp giả mạo, thích nhanh, xin tiền qua Zalo, lý do khẩn cấp nước ngoài",
+      "Khuyến nghị đúng: từ chối gửi tiền, yêu cầu video call để xác minh, chặn tài khoản",
+      "Súc tích, phù hợp câu hỏi ngắn"
+    ],
+    "weaknesses": [
+      "Pattern khớp lệch ('dẫn dụ đầu tư sàn ảo')",
+      "Không gợi ý tra ảnh ngược (reverse image search) — công cụ xác minh hữu ích",
+      "Không cung cấp kênh trình báo cụ thể"
+    ],
+    "reasoning": "Trả lời dứt khoát và đúng cho câu hỏi ngắn. Trừ điểm vì pattern khớp lệch và thiếu gợi ý xác minh ảnh.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Phân tích 5 dấu hiệu rõ (ảnh trộm, love bombing, khẩn cấp nước ngoài, chuyển khoản khó truy vết)",
+      "Gợi ý công cụ xác minh cụ thể (Google Image Search, đề nghị video call)",
+      "Khuyến nghị hành động rõ ràng, chủ động hỏi thêm để phân tích kỹ",
+      "Giọng đồng cảm, dứt khoát"
+    ],
+    "weaknesses": [
+      "Không có nguồn web trích dẫn (sources=0)",
+      "Dài hơn mức cần cho câu hỏi ngắn"
+    ],
+    "reasoning": "Chi tiết, có công cụ xác minh cụ thể và phân tích sắc. Điểm trừ là độ dài.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

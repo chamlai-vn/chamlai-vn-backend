@@ -1,0 +1,28 @@
+{
+  "case_id": "scam-package_delivery-07",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Gửi từ số điện thoại cá nhân, không phải đầu số thương hiệu/Zalo xác thực của đơn vị vận chuyển chính thức",
+      "Dùng link rút gọn lạ (bit.do) để che giấu địa chỉ web thật — thường dẫn tới trang giả thu thập thông tin ngân hàng/OTP",
+      "Tạo cảm giác gấp gáp (\"bị giữ hàng\", \"chưa thanh toán\") để thúc ép hành động vội vàng",
+      "Số tiền nhỏ (145.000đ) là mồi nhử — nếu nhập thông tin thẻ có thể mất nhiều hơn hoặc bị lừa tiếp lần 2",
+      "Khớp cảnh báo chính thức của VietnamPost/EMS: không bao giờ gửi link yêu cầu cung cấp thông tin cá nhân/tài khoản/OTP"
+    ],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Tuyệt đối không click vào link bit.do/shipment2024pay",
+      "Không nhập bất kỳ thông tin nào (tên, số thẻ, tài khoản, OTP) nếu lỡ đã click vào",
+      "Kiểm tra xem có thực sự đang chờ đơn hàng từ \"Thiên Hương Express\" không — nếu không, gần như chắc chắn là lừa đảo",
+      "Nếu có đặt hàng, tự tra mã vận đơn trên website/app chính thức hoặc gọi hotline chính thức để xác minh, không gọi lại số đã nhắn tin",
+      "Chặn số điện thoại và xóa tin nhắn",
+      "Nếu đã lỡ nhập thông tin ngân hàng/OTP: gọi ngay hotline ngân hàng để khóa thẻ/tài khoản và đổi mật khẩu",
+      "Báo cáo qua tổng đài 156 hoặc trình báo công an nếu đã bị mất tiền"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## Đây gần như chắc chắn là lừa đảo (phishing)\n\n**Các dấu hiệu rõ ràng:**\n\n1. **Gửi từ số điện thoại cá nhân**, không phải đầu số thương hiệu chính thức. Các công ty vận chuyển uy tín thường gửi thông báo qua ứng dụng, Zalo có tick xanh xác thực, hoặc đầu số brandname — không dùng SIM số thường như \"0987654321\".\n\n2. **Link rút gọn lạ (bit.do)** — đây là chiêu cực kỳ phổ biến để che giấu địa chỉ web thật (thường là trang giả mạo thu thập thông tin ngân hàng, mã OTP). Các đơn vị vận chuyển thật không bao giờ gửi link rút gọn yêu cầu thanh toán qua tin nhắn.\n\n3. **Tạo cảm giác gấp gáp** (\"bị giữ hàng\", \"chưa thanh toán\") để bạn hành động vội mà không kịp suy nghĩ — đây là kỹ thuật tâm lý kinh điển của lừa đảo.\n\n4. **Số tiền nhỏ (145.000đ)** là mồi nhử: nếu bạn click và nhập thông tin thẻ/tài khoản, kẻ gian không chỉ lấy 145.000đ mà có thể chiếm luôn toàn bộ tiền trong tài khoản, hoặc sau đó gọi lại dọa \"đã đăng ký gói dịch vụ vài triệu đồng/tháng\" để tiếp tục lừa bạn chuyển thêm tiền — kịch bản này đang rất phổ biến gần đây theo cảnh báo của Bưu điện Việt Nam và công an.\n\nTheo cảnh báo chính thức từ Bưu điện Việt Nam: VietnamPost/EMS không bao giờ gửi link yêu cầu khách hàng cung cấp thông tin cá nhân, tài khoản ngân hàng hay mã OTP, và tin nhắn hợp lệ luôn được gửi từ tài khoản Zalo có dấu xác thực hoặc từ đầu số thương hiệu, không sử dụng số điện thoại cá nhân.\n\n## Bạn nên làm gì tiếp theo\n\n- **Tuyệt đối không click vào link** bit.do/shipment2024pay.\n- **Không nhập bất kỳ thông tin nào** (tên, số thẻ, tài khoản, mã OTP) nếu lỡ đã click vào.\n- Kiểm tra lại xem bạn có thực sự đang chờ đơn hàng nào từ \"Thiên Hương Express\" không — nếu không đặt hàng gì gần đây, khả năng lừa đảo gần như 100%.\n- Nếu có đặt hàng, hãy tự tra cứu mã vận đơn trên website/app chính thức của đơn vị vận chuyển, hoặc gọi hotline chính thức để xác minh (đừng gọi lại số đã nhắn tin cho bạn).\n- **Chặn số điện thoại** đó và xóa tin nhắn.\n- Nếu bạn đã lỡ click link và nhập thông tin ngân hàng/OTP, hãy **gọi ngay hotline ngân hàng của bạn để khóa thẻ/tài khoản** và đổi mật khẩu.\n- Có thể báo cáo tin nhắn lừa đảo qua tổng đài **156** (đầu số chống lừa đảo/tin nhắn rác của Bộ TT&TT) hoặc trình báo công an nếu đã bị mất tiền.\n\nNguyên tắc chung: **không bao giờ thanh toán phí ship qua link trong tin nhắn** — các đơn vị vận chuyển hợp pháp không thu phí kiểu này qua SMS.",
+  "sources": [],
+  "latency_ms": 0
+}

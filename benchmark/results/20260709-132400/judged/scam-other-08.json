@@ -1,0 +1,33 @@
+{
+  "case_id": "scam-other-08",
+  "rag_verdict": {
+    "strengths": [
+      "Trả lời đúng câu hỏi: đây là lừa đảo (red); phủ đủ 4 ý chính: giả danh chương trình khuyến mãi ngân hàng, phí 'xác minh' trước, tài khoản lạ, cảnh báo không nộp phí",
+      "Khuyến nghị: không chuyển tiền dù nhỏ, gọi hotline chính thức xác minh, chặn tài khoản",
+      "Súc tích, phù hợp câu hỏi ngắn"
+    ],
+    "weaknesses": [
+      "Pattern khớp chỉ là nhãn trống",
+      "Có cụm garbled ('báo cáo ... về tờ rơi lừa đảo')",
+      "Không nêu nguyên tắc chung: chương trình hợp pháp khấu trừ thuế vào giải, không thu phí trước"
+    ],
+    "reasoning": "Đúng và đủ cho câu hỏi ngắn. Trừ điểm vì pattern khớp trống, cụm garbled và thiếu nguyên tắc giải thích.",
+    "score": 7.5
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Nêu 6 dấu hiệu, giải thích rõ nguyên tắc: chương trình hợp pháp khấu trừ thuế vào giải, không thu phí trước",
+      "Xếp loại đây là kiểu lừa đảo phổ biến thứ 2, cảnh báo phí sẽ leo thang",
+      "Bảng hành động, khuyến nghị lưu bằng chứng và xác minh qua tổng đài",
+      "Động viên người dùng đã nghi ngờ đúng"
+    ],
+    "weaknesses": [
+      "Dài so với câu hỏi ngắn",
+      "Định dạng nặng"
+    ],
+    "reasoning": "Chi tiết, giải thích nguyên tắc thuế/giải thưởng rõ ràng và cảnh báo leo thang. Điểm trừ là độ dài.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

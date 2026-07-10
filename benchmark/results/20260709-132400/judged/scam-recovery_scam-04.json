@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-recovery_scam-04",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận đúng (red), phủ đủ 4 ý chính: giả danh Trung tâm BVQLNTD qua SMS, hứa lấy lại tiền, chuyển sang Telegram, tận dụng nạn nhân cũ",
+      "Pattern khớp đúng loại recovery_scam",
+      "Khuyến nghị trình báo cả vụ Zalo giả VCB ban đầu, không tham gia nhóm Telegram",
+      "Nhắc hạn chế chia sẻ vụ bị lừa công khai để tránh bị nhắm tiếp"
+    ],
+    "weaknesses": [
+      "Không giải thích vì sao Telegram được kẻ lừa ưa dùng",
+      "Không cung cấp kênh trình báo cụ thể (PC02/đường dây)",
+      "Định dạng thuần liệt kê"
+    ],
+    "reasoning": "Chính xác, pattern khớp đúng loại và có lời khuyên hạn chế chia sẻ công khai rất thực tế. Thiếu giải thích về Telegram và kênh trình báo.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Giải thích vì sao Telegram là công cụ ưa thích của kẻ lừa (ẩn danh, xóa tin hai chiều)",
+      "Nêu kênh trình báo cụ thể (PC02), tách bạch vụ gốc 8,5 triệu",
+      "Nhấn mạnh không tổ chức hợp pháp nào thu phí trước để lấy lại tiền",
+      "Ghi nhận người dùng đã xử lý tốt"
+    ],
+    "weaknesses": [
+      "Không có nguồn web trích dẫn (sources=0)",
+      "Gọi 113 làm đường dây an ninh mạng hơi chưa chuẩn"
+    ],
+    "reasoning": "Toàn diện, giải thích rõ về Telegram và có kênh trình báo cụ thể. Trừ điểm nhẹ vì không có nguồn và một chi tiết hotline chưa chuẩn.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

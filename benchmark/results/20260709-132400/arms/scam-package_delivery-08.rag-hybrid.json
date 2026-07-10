@@ -1,0 +1,32 @@
+{
+  "case_id": "scam-package_delivery-08",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Tin nhắn từ số điện thoại lạ tự xưng là công ty giao hàng uy tín (DXP Express)",
+      "Yêu cầu thanh toán phí bảo hiểm hàng hóa qua link lạ trước khi giao hàng",
+      "Đường link rút gọn (tinyurl) không phải từ website chính thức của công ty vận chuyển",
+      "Yêu cầu nhập thông tin tài khoản ngân hàng và mã OTP vào trang web lạ",
+      "Tạo áp lực thời gian bằng cách nói hàng sẽ bị trả lại nếu không thanh toán ngay",
+      "Số tiền bị rút (2.800.000 đồng) lớn hơn nhiều so với thông báo ban đầu (185.000 đồng)",
+      "Công ty vận chuyển không có ghi danh đơn hàng khi liên hệ xác minh"
+    ],
+    "matched_patterns": [
+      "Giả danh shipper dẫn dụ click link giả để hack tài khoản và ăn cắp tiền",
+      "Giả danh shipper lừa đảo qua cuộc gọi và đường link dụ dỗ",
+      "Giả mạo shipper nắm chi tiết đơn hàng, dụ dỗ chuyển tiền rồi hướng dẫn cài app lạ đánh cắp tài khoản ngân hàng"
+    ],
+    "recommended_actions": [
+      "Liên hệ ngay tổng đài chính thức của công ty vận chuyển DXP Express để báo cáo vụ lừa đảo",
+      "Gọi điện thoại đến ngân hàng ngay lập tức để khóa tài khoản, ngăn chặn các giao dịch tiếp theo, và yêu cầu truy xét giao dịch bị rút sạch",
+      "Chuẩn bị hồ sơ chứng cứ (tin nhắn SMS, đường link, thông báo từ ngân hàng) để nộp đơn thủ tục liên hệ công an phường/thị trấn hoặc Cục An ninh Mạng và Phòng chống Tội phạm Công nghệ (A05)",
+      "Thay đổi mật khẩu tài khoản ngân hàng, ứng dụng giao hàng, và các tài khoản quan trọng khác từ thiết bị khác",
+      "Theo dõi tài khoản ngân hàng thường xuyên để phát hiện và báo cáo bất kỳ giao dịch bất thường nào khác",
+      "Trong tương lai, tuyệt đối không click vào đường link từ tin nhắn của bất kỳ ai tự xưng shipper; luôn xác minh trực tiếp qua ứng dụng giao hàng chính thức hoặc gọi hotline chính thức của công ty vận chuyển",
+      "Nhớ rằng các công ty vận chuyển uy tín không bao giờ yêu cầu nhập mã OTP hay thông tin ngân hàng qua link tin nhắn; thanh toán phí vận chuyển nên thực hiện qua COD (trả khi nhận hàng) hoặc ứng dụng chính thức"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 10902
+}

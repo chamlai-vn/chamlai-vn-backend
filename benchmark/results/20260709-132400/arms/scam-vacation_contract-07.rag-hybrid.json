@@ -1,0 +1,33 @@
+{
+  "case_id": "scam-vacation_contract-07",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Cuộc gọi không xác minh từ số điện thoại غير chính thức giới thiệu sản phẩm đột ngột",
+      "Tạo áp lực thời gian: ưu đãi chỉ áp dụng trong 24 giờ, bắt buộc ký hợp đồng ngay",
+      "Tuyên bố nạn nhân được chọn đặc biệt từ danh sách VIP (phương pháp lôi kéo tâm lý)",
+      "Yêu cầu thanh toán tiền đặt cọc vào tài khoản cá nhân thay vì tài khoản doanh nghiệp",
+      "Ứng dụng di động \"VPC Management\" yêu cầu quyền truy cập nhạy cảm (danh bạ, tin nhắn)",
+      "Số điện thoại công ty bị tắt máy sau khi nhận tiền, không trả lời lại",
+      "Công ty \"Villas Paradise Club\" không có địa chỉ thực tế, là công ty ma",
+      "Tài khoản nhận tiền có tên cá nhân bình thường, không phải doanh nghiệp",
+      "Lời hứa không rõ ràng về quyền sở hữu sở hữu kỳ nghỉ (kéo dài, sang trọng, miễn phí)"
+    ],
+    "matched_patterns": [
+      "vacation_contract",
+      "vacation_contract"
+    ],
+    "recommended_actions": [
+      "Lập tức báo cáo sự cố cho ngân hàng nơi bạn chuyển tiền, yêu cầu khóa tài khoản lừa đảo và ngăn chặn giao dịch tiếp theo",
+      "Thông báo cho cơ quan công an địa phương (Công an Phường/Công an Huyện hoặc Công an TP) để khởi tố vụ lừa đảo chiếm đoạt tài sản",
+      "Gỡ bỏ ứng dụng \"VPC Management\" khỏi điện thoại ngay lập tức và kiểm tra xem dữ liệu danh bạ/tin nhắn/thông tin cá nhân có bị truy cập trái phép không",
+      "Thay đổi mật khẩu tất cả các tài khoản ngân hàng, mạng xã hội, email để bảo vệ chống lại truy cập trái phép",
+      "Yêu cầu ngân hàng theo dõi tài khoản nhận tiền để phát hiện và ngăn chặn rửa tiền",
+      "Thu thập toàn bộ bằng chứng: hợp đồng, biên lai chuyển khoản, tin nhắn, cuộc gọi hoặc ghi âm để cung cấp cho cơ quan chức năng",
+      "Xem xét liên hệ với các công ty bảo vệ tín dụng để theo dõi khiếu nại và ngăn chặn lạm dụng danh tính"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 10705
+}

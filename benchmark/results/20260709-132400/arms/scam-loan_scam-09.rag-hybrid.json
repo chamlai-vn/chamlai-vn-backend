@@ -1,0 +1,28 @@
+{
+  "case_id": "scam-loan_scam-09",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Yêu cầu nạp tiền trước (200k) dưới danh nghĩa 'xác minh tài khoản' trước khi nhận khoản vay",
+      "Hứa hẹn giải ngân vay tiền siêu nhanh (30 phút) mà không cần thế chấp",
+      "App quảng cáo trên mạng xã hội không rõ danh tính chính thức",
+      "Hứa hoàn lại tiền nạp cộng tiền vay (hành vi điển hình của lừa đảo)"
+    ],
+    "matched_patterns": [
+      "loan_scam - Mạo danh ngân hàng, công ty tài chính cho vay trực tuyến",
+      "loan_scam - App vay tiền quảng cáo trên mạng",
+      "loan_scam - Vay tiền siêu tốc trên mạng với lãi suất 'cắt cổ' và phí phát sinh vô lý",
+      "loan_scam - Giả danh ngân hàng, công ty tài chính lừa đảo cho vay"
+    ],
+    "recommended_actions": [
+      "Tuyệt đối không nạp tiền 200k hay bất kỳ số tiền nào. Đây là thủ đoạn chiếm đoạt tiền sau đó cắt liên lạc",
+      "Không tải app 'FastCash Pro' từ quảng cáo trên mạng xã hội; chỉ vay từ ngân hàng hoặc công ty tài chính được Ngân hàng Nhà nước cấp phép chính thức",
+      "Kiểm tra xem FastCash Pro có trong danh sách doanh nghiệp hợp pháp trên Cổng thông tin quốc gia đăng ký doanh nghiệp hay không",
+      "Báo cáo quảng cáo giả mạo này cho nền tảng mạng xã hội và cơ quan công an nếu cần",
+      "Nhớ rằng ngân hàng thực thụ không bao giờ yêu cầu khách hàng nạp tiền trước để xác minh hay giải ngân vay"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 7470
+}

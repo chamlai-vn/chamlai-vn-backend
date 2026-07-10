@@ -1,0 +1,31 @@
+{
+  "case_id": "scam-prize_gift-08",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Thông báo trúng thưởng quà tặng lớn (15 triệu đồng) mà nạn nhân không hề tham gia chương trình nào",
+      "Yêu cầu click vào link rút gọn (bit.ly) không rõ nguồn gốc thay vì truy cập trang chính thức Lazada",
+      "Hướng dẫn tải ứng dụng 'LazadaReward' không phải là ứng dụng chính thức của Lazada",
+      "Tạo áp lực thời gian với điều kiện 'chỉ có hiệu lực trong 24 giờ', buộc nạn nhân hành động vội vàng",
+      "Cung cấp email không chính thức (tranvana.rewards@lazada-vn.com) thay vì email chính thức của Lazada",
+      "Yêu cầu không chia sẻ link với người khác (dấu hiệu che giấu hoạt động lừa đảo)",
+      "Mẫu tin nhắn giả mạo hoàn toàn danh tính của Lazada Customer Service"
+    ],
+    "matched_patterns": [
+      "Giả danh sàn TMĐT tặng quà tri ân khách hàng",
+      "Lừa đảo tặng quà không yêu cầu tham gia",
+      "Tạo áp lực thời gian để buộc nạn nhân hành động"
+    ],
+    "recommended_actions": [
+      "Tuyệt đối không click vào link rút gọn hoặc tải ứng dụng từ tin nhắn này",
+      "Không tin tưởng thông báo trúng thưởng từ người lạ nếu bạn chưa từng tham gia chương trình nào",
+      "Kiểm tra trực tiếp trên ứng dụng Lazada chính thức hoặc website lazada.vn để xác minh thông tin",
+      "Liên hệ trực tiếp Lazada qua số hotline hoặc email chính thức trên website (không dùng liên hệ từ tin nhắn này)",
+      "Báo cáo tin nhắn lừa đảo này cho Lazada và nhà mạng di động",
+      "Nếu đã click link hoặc cung cấp thông tin, thay đổi mật khẩu ngay và liên hệ cơ quan công an để trình báo"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 7783
+}

@@ -1,0 +1,53 @@
+{
+  "case_id": "scam-impersonation_authority-02",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Gọi điện tự xưng công an, thông báo liên quan vụ rửa tiền",
+      "Yêu cầu cài app 'VerifyID Pro' — ứng dụng giả mạo, không tồn tại chính thức",
+      "Đặt deadline 2 giờ và đe dọa bắt giữ — thao túng tâm lý",
+      "Yêu cầu giữ bí mật, không kể cho ai — cô lập nạn nhân để dễ lừa",
+      "Đưa mã vụ án giả (VP-2024-HC-8847) — tạo vẻ hợp pháp giả tạo"
+    ],
+    "matched_patterns": [
+      "Giả danh công an gọi điện",
+      "Yêu cầu cài ứng dụng lạ/giả mạo",
+      "Tạo áp lực thời gian và đe dọa",
+      "Yêu cầu giữ bí mật với người thân",
+      "Mạo danh cơ quan nhà nước"
+    ],
+    "recommended_actions": [
+      "Gọi 113 hoặc đến Công an quận/phường gần nhất để trình báo vụ việc",
+      "Gọi tổng đài 156 hoặc 5656 (Cục An toàn Thông tin - Bộ TT\u0026TT) để báo cáo số điện thoại lừa đảo",
+      "Chủ động đổi mật khẩu tài khoản ngân hàng và bật xác thực 2 lớp",
+      "Cảnh báo người thân, đặc biệt người cao tuổi và sinh viên, về chiêu trò này",
+      "Chỉ cài đặt ứng dụng VNeID từ nguồn chính thống trên App Store hoặc CH Play"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# ✅ Kết luận: Đây là LỪA ĐẢO 100% — Bạn đã đúng khi không làm theo!\n\nTình huống bạn mô tả là một **kịch bản lừa đảo giả mạo công an cực kỳ phổ biến và nguy hiểm** tại Việt Nam. Dưới đây là phân tích chi tiết:\n\n---\n\n## 🚩 Tại sao đây chắc chắn là lừa đảo?\n\n### 1. Giả danh công an gọi điện — dấu hiệu kinh điển\n\nCác đối tượng lừa đảo sử dụng chiêu trò tinh vi giả danh cán bộ Công an gọi điện cho người dân, thông báo họ có liên quan đến các vụ án hình sự, đường dây tội phạm hoặc rửa tiền nhằm tạo tâm lý hoang mang, rồi từng bước dẫn dụ nạn nhân.\n\n### 2. Yêu cầu cài ứng dụng lạ — đây là bẫy cốt lõi\n\nCác trường hợp gọi điện thoại từ người lạ tự xưng là cán bộ Công an để yêu cầu công dân tải, cài đặt ứng dụng trên điện thoại di động đều là hành vi lừa đảo nhằm chiếm đoạt tài sản.\n\nỨng dụng \"VerifyID Pro\" mà kẻ lừa đảo yêu cầu cài đặt **không tồn tại trong hệ thống chính thống**. Các ứng dụng giả mạo này có tính năng thu thập thông tin cá nhân, kiểm soát, theo dõi, điều khiển điện thoại nạn nhân từ xa — mục đích là đăng nhập tài khoản ngân hàng và đọc tin nhắn mã OTP để chiếm đoạt tiền.\n\n### 3. Tạo áp lực thời gian và đe dọa — thủ đoạn thao túng tâm lý\n\nNội dung cuộc gọi thường là thông báo nạn nhân có liên quan đến một vụ án lớn như rửa tiền, buôn bán ma túy, tài khoản ngân hàng bị sử dụng để tiếp tay cho tội phạm... Chúng yêu cầu người nghe **giữ bí mật, không được thông báo cho người thân hay bên thứ ba**.\n\nViệc yêu cầu bạn không kể cho ai và phải hành động trong 2 giờ là kỹ thuật thao túng tâm lý có chủ đích.\n\n### 4. Công an thật KHÔNG BAO GIỜ làm vậy\n\nCơ quan Công an không bao giờ gọi điện yêu cầu người dân chuyển tiền để phục vụ điều tra, không sử dụng mạng xã hội để gửi giấy triệu tập, không yêu cầu cài đặt ứng dụng lạ hay cung cấp mã OTP, mật khẩu tài khoản ngân hàng.\n\nCán bộ Công an khi muốn làm việc với người dân sẽ làm việc trực tiếp hoặc thông qua Giấy mời hoặc hướng dẫn đến Cơ quan Công an địa phương nơi cư trú để thực hiện.\n\n### 5. Đây là vụ lừa đảo quy mô lớn, đã có nhiều nạn nhân\n\nBộ Thông tin và Truyền thông đã tiếp nhận hơn 21.800 phản ánh của người dân về cuộc gọi, tin nhắn lừa đảo, trong đó nhiều nhất là mạo danh công an yêu cầu tải, cài ứng dụng VNeID giả mạo.\n\nNhiều người bị lừa sạch tiền trong tài khoản, có nạn nhân bị lừa đến 1,5 tỉ đồng.\n\n---\n\n## 🔍 Phân tích từng dấu hiệu lừa đảo trong vụ của bạn\n\n| Dấu hiệu | Đánh giá |\n|---|---|\n| Gọi điện tự xưng công an, thông báo liên quan vụ rửa tiền | ❌ Lừa đảo điển hình |\n| Yêu cầu cài app \"VerifyID Pro\" | ❌ App giả mạo, không tồn tại chính thức |\n| Đặt deadline 2 giờ, đe dọa bắt giữ | ❌ Thao túng tâm lý |\n| Yêu cầu giữ bí mật, không kể ai | ❌ Cô lập nạn nhân để dễ lừa |\n| Đưa mã vụ án giả (VP-2024-HC-8847) | ❌ Tạo vẻ hợp pháp giả tạo |\n\n---\n\n## ✅ Bạn nên làm gì ngay bây giờ?\n\nVì bạn **chưa cài app và chưa cung cấp thông tin**, rủi ro với bạn là thấp. Tuy nhiên, hãy thực hiện các bước sau:\n\n### 1. 📞 Tố giác cho cơ quan chức năng\nKhi phát hiện các trường hợp có dấu hiệu lừa đảo, người dân cần kịp thời thông báo cho cơ quan công an nơi gần nhất để được hướng dẫn, xử lý.\n\n- Gọi **113** hoặc đến **Công an quận/phường gần nhất** để trình báo.\n- Gọi tổng đài **156 hoặc 5656** (Cục An toàn Thông tin - Bộ TT\u0026TT) để báo cáo số điện thoại lừa đảo.\n\n### 2. 🔒 Bảo mật tài khoản ngân hàng\nDù chưa cài app, hãy chủ động đổi mật khẩu tài khoản ngân hàng và bật xác thực 2 lớp nếu chưa có.\n\n### 3. 📢 Cảnh báo người thân\nTuyên truyền cho người thân, đặc biệt là người cao tuổi, sinh viên, để tránh sập bẫy.\n\n### 4. 📱 Ghi nhớ: App chính thống của Nhà nước\nChỉ cài đặt ứng dụng VNeID từ nguồn chính thống trên App Store (đối với hệ điều hành iOS cho điện thoại iPhone) và CH Play (đối với hệ điều hành Android).\n\n---\n\n\u003e 🌟 **Bạn đã hành động rất đúng đắn** khi dừng lại, tìm hiểu trước khi làm theo. Đây là phản xạ cần có mỗi khi nhận cuộc gọi có nội dung bất thường từ người tự xưng là cơ quan chức năng. Hãy chia sẻ thông tin này với những người xung quanh để họ không trở thành nạn nhân tiếp theo!",
+  "sources": [
+    "https://dongnai.gov.vn/vi/news/phong-chong-toi-pham-canh-bao-toi-pham/canh-bao-thu-doan-lua-dao-gia-danh-co-quan-cong-an-huong-dan-cai-dat-vneid-gia-mao-de-thuc-hien-hanh-vi-chiem-doat-tai-san-41488.html",
+    "https://bocongan.gov.vn/bai-viet/canh-bao-thu-doan-lua-dao-cai-ung-dung-vneid-gia-mao-d22-t45880",
+    "https://tuoitre.vn/gia-cong-an-huong-dan-cai-app-vneid-dom-lua-lay-tien-ti-20240318224720091.htm",
+    "https://baochinhphu.vn/gia-cong-an-bao-loi-vneid-chiem-hang-ty-dong-102240630164327625.htm",
+    "https://congan.ninhbinh.gov.vn/canh-giac-voi-thu-doan-gia-danh-can-bo-cong-an-huong-dan-cai-dat-ung-dung-vneid-de-lua-dao-chiem-doat-tai-san",
+    "https://conganthanhhoa.gov.vn/phong-chong-toi-pham/thong-bao-tim-chu-so-huu-phuong-tien/canh-bao-thu-doan-lua-dao-gia-danh-co-quan-cong-an-huong-dan-cai-dat-vneid-gia-mao-de-thuc-hien-hanh-vi-chiem-doat-tai-s.html",
+    "https://www.vietnamplus.vn/canh-giac-lua-dao-mao-danh-cong-an-yeu-cau-tai-cai-ung-dung-vneid-gia-mao-post995565.vnp",
+    "https://div.gov.vn/nang-cao-ky-nang-cho-nguoi-tieu-dung-tai-chinh-tranh-nguy-co-bi-lua-dao-truc-tuyen",
+    "https://doanhnghiepcuocsong.vn/gia-danh-cong-an-ho-tro-kich-hoat-vneid-cho-tre-em-de-lua-dao-a266583.html",
+    "https://congan.baria-vungtau.gov.vn/vi/chi-tiet-tin-tuc?Id=222",
+    "https://chinhsachcuocsong.vnanet.vn/canh-giac-lua-dao-mao-danh-cong-an-yeu-cau-tai-cai-ung-dung-vneid-gia-mao/51523.html",
+    "https://congan.longan.gov.vn/vi/chi-tiet-tin-tuc?Id=153793",
+    "https://congan.ninhbinh.gov.vn/canh-giac-thu-doan-gia-danh-luc-luong-cong-an-de-thuc-hien-hanh-vi-lua-dao-chiem-doat-tai-san",
+    "https://cadn.com.vn/canh-giac-thu-doan-lua-dao-mao-danh-cong-an-yeu-cau-cai-ung-dung-vneid-gia-mao-post305108.html",
+    "https://thanhtra.com.vn/phap-luat/an-ninh-trat-tu/canh-bao-lua-dao-qua-cai-dat-ung-dung-dich-vu-cong-gia-mao-222094.html",
+    "https://luatvietnam.vn/linh-vuc-khac/lua-dao-gia-danh-cong-an-883-89157-article.html",
+    "https://ttbc-hcm.gov.vn/mat-tien-ty-vi-cai-app-dich-vu-cong-gia-mao-canh-giac-de-tranh-sap-bay-1000596.html",
+    "https://vnexpress.net/cach-doc-vi-thu-doan-gia-cong-an-goi-dien-thoai-lua-lien-quan-vu-an-4852326.html",
+    "https://congan.quangngai.gov.vn/danh-muc-san-pham/-tin-tuc-su-kien/canh-bao-thu-doan-lua-dao-gia-danh-cong-an-dung-chuyen-lien-quan-vu-an-de-chiem-doat-tai-san.html",
+    "https://phobienphapluat.vn/canh-bao-tu-cac-cuoc-goi-gia-danh-cong-an-de-lua-dao-phong-tranh-the-nao-a2288.html"
+  ],
+  "latency_ms": 59865
+}

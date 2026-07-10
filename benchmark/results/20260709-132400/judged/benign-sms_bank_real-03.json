@@ -1,0 +1,30 @@
+{
+  "case_id": "benign-sms_bank_real-03",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận (green) hợp lý cho một thông báo giao dịch định dạng chuẩn",
+      "Khuyến nghị đúng cốt lõi: xác minh qua hotline chính thức (không dùng số trong tin), kiểm tra lịch sử qua app",
+      "Súc tích"
+    ],
+    "weaknesses": [
+      "Chưa nêu điểm quan trọng: hotline thật xuất hiện trong tin nhắn không đảm bảo tin nhắn là thật",
+      "Kết luận green có phần chắc chắn quá so với mức có thể xác minh từ nội dung"
+    ],
+    "reasoning": "Đúng trọng tâm và khuyến nghị an toàn, nhưng chưa cảnh báo rằng hotline thật không chứng minh tin nhắn thật.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Xác nhận 1900 545413 đúng là tổng đài Vietcombank, đồng thời nêu insight quan trọng: kẻ gian có thể chèn đúng số thật để tạo lòng tin",
+      "Hiệu chỉnh 'nghi vấn cao', hướng dẫn tự tra số/mở app kiểm tra, không đọc OTP",
+      "Cân bằng giữa 'không chắc thật' và 'không chắc giả'"
+    ],
+    "weaknesses": [
+      "Dài"
+    ],
+    "reasoning": "Nhỉnh hơn nhờ insight 'hotline thật không chứng minh tin thật' và hiệu chỉnh rủi ro tinh tế.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

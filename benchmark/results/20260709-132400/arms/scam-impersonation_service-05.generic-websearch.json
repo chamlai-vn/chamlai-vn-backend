@@ -1,0 +1,48 @@
+{
+  "case_id": "scam-impersonation_service-05",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Yêu cầu chuyển tiền vào tài khoản cá nhân mang tên 'Trần Thị Hương' — điện lực thật sự không bao giờ thu tiền theo cách này",
+      "Số điện thoại 'đường dây nóng' 0359 288 888 là số lạ, không phải số chính thức của EVNHCMC (số chính thức là 1900 545454)",
+      "Chiến thuật tạo áp lực thời gian (48 giờ) và đe dọa phạt tiền / cắt điện ngay nếu không thanh toán nhanh",
+      "Thông báo khách hàng đang nợ tiền điện với số tiền lớn, yêu cầu thanh toán ngay lập tức"
+    ],
+    "matched_patterns": [
+      "Giả mạo nhân viên điện lực (EVNHCMC)"
+    ],
+    "recommended_actions": [
+      "TUYỆT ĐỐI KHÔNG chuyển tiền vào số tài khoản trong tin nhắn đó",
+      "KHÔNG gọi lại số 0359 288 888 trong tin nhắn",
+      "Gọi đường dây nóng chính thức của EVNHCMC là 1900 545454 để xác minh xem tài khoản điện có thực sự nợ tiền không",
+      "Báo cáo lừa đảo: Thông báo ngay cho EVNHCMC qua Tổng đài 1900 545454 hoặc cơ quan công an các địa phương",
+      "Cài đặt ứng dụng chăm sóc khách hàng EVNHCMC chính thống để nhận xác nhận thanh toán và cập nhật thông báo chính xác"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## 🚨 ĐÂY LÀ LỪA ĐẢO! Hãy cảnh giác ngay!\n\nTin nhắn bạn nhận được có **tất cả các dấu hiệu đặc trưng của lừa đảo giả mạo nhân viên điện lực**, một thủ đoạn đang rất phổ biến tại TP.HCM.\n\n---\n\n### 🔴 Tại sao đây là lừa đảo?\n\n**1. Kịch bản giống hệt thủ đoạn đã được cơ quan chức năng cảnh báo**\n\nĐây chính xác là chiêu thức số 1 mà các đối tượng lừa đảo sử dụng: thông báo khách hàng đang nợ tiền điện với số tiền lớn, yêu cầu thanh toán ngay lập tức để tránh bị cắt điện.\n\n**2. Yêu cầu chuyển tiền vào tài khoản cá nhân — dấu hiệu rõ ràng nhất**\n\nEVNHCMC khuyến cáo người dùng tuyệt đối không cung cấp thông tin cá nhân, số tài khoản ngân hàng hoặc mật khẩu, và đặc biệt **không thực hiện các yêu cầu chuyển tiền vào tài khoản cá nhân** để tránh bị mất tiền.\n\nTin nhắn trên yêu cầu chuyển tiền vào tài khoản cá nhân mang tên **\"Trần Thị Hương\"** — Điện lực thật sự **KHÔNG BAO GIỜ** thu tiền theo cách này.\n\n**3. Điện lực TP.HCM không thu tiền qua tài khoản cá nhân**\n\nEVNHCMC nhấn mạnh ngành điện chỉ thực hiện thanh toán qua các kênh như ngân hàng, cửa hàng tiện ích, ứng dụng chăm sóc khách hàng EVNHCMC.\n\n**4. Số điện thoại \"đường dây nóng\" 0359 288 888 là số lạ, không phải số chính thức**\n\nSố tổng đài chính thức duy nhất của EVNHCMC là **1900 545454** (Hotline 24/7). Số 0359 288 888 trong tin nhắn là số điện thoại cá nhân — không phải của điện lực.\n\n**5. Chiến thuật tạo áp lực thời gian (48 giờ) và đe dọa phạt tiền**\n\nĐể gây thêm áp lực, kẻ lừa đảo thường đe dọa sẽ cắt điện ngay nếu không thanh toán nhanh chóng, khiến người dân hoang mang, thực hiện theo yêu cầu.\n\n**6. Thủ đoạn này đang rất phổ biến và lan rộng**\n\nNạn giả danh nhân viên điện lực gọi điện thoại lừa đảo người dân lại tiếp tục rộ lên khắp cả nước, trong đó có nhiều trường hợp tại TP.HCM. Không ít người đã \"dính bẫy\" thậm chí mất tiền vì chiêu thức dẫn dụ tinh vi của các đối tượng lừa đảo.\n\n---\n\n### ✅ Bạn cần làm gì ngay bây giờ?\n\n1. **TUYỆT ĐỐI KHÔNG chuyển tiền** vào số tài khoản trong tin nhắn đó.\n2. **KHÔNG gọi lại** số 0359 288 888 trong tin nhắn.\n3. **Kiểm tra thực tế**: Gọi đường dây nóng chính thức của EVNHCMC là **☎️ 1900 545454** để xác minh xem tài khoản điện của bạn có thực sự nợ tiền không.\n4. **Báo cáo lừa đảo**: Thông báo ngay cho EVNHCMC qua Tổng đài 1900.545454 hoặc cơ quan công an các địa phương để được giải quyết.\n5. **Cài app chính thống**: EVNHCMC khuyến nghị khách hàng nên cài đặt ứng dụng chăm sóc khách hàng EVNHCMC để nhận được xác nhận thanh toán từ ngành điện và cập nhật các thông báo mới nhất một cách chính xác.\n\n---\n\n\u003e 💡 **Nhớ nguyên tắc vàng**: Điện lực thật sự sẽ **KHÔNG BAO GIỜ** yêu cầu bạn chuyển tiền vào tài khoản của một cá nhân, và sẽ không tạo áp lực \"48 giờ\" qua tin nhắn hay cuộc gọi bất ngờ.",
+  "sources": [
+    "https://www.evnhcmc.vn/Tintuc/chitiet/519",
+    "https://tuoitre.vn/no-ro-nhan-vien-dien-luc-gia-mao-tai-tp-hcm-20250524152217161.htm",
+    "https://thanhnien.vn/ro-thu-doan-gia-nhan-vien-doi-cat-dien-diem-mat-cach-lua-dao-185250225200811774.htm",
+    "https://thanhnien.vn/dien-luc-tphcm-canh-bao-tinh-trang-lua-dao-mao-danh-nganh-dien-185241205172029532.htm",
+    "https://thanhnien.vn/tai-dien-gia-mao-nhan-vien-dien-luc-vien-thong-de-lua-dao-18525051622322263.htm",
+    "https://plo.vn/ky-nguyen-so/canh-giac-chieu-tro-gia-mao-dien-luc-dien-chua-cat-tien-da-bay-post848285.html",
+    "https://nld.com.vn/tieu-thu-dien-o-tp-hcm-tang-vot-nguoi-dan-can-than-chieu-lua-nay-196250417094859615.htm",
+    "https://vietnamnet.vn/canh-bao-lua-dao-gia-danh-dien-luc-tphcm-keu-goi-tai-app-giam-tien-dien-2331670.html",
+    "https://vietnamnet.vn/loat-chieu-tro-lua-dao-chiem-doat-tai-san-nham-vao-nguoi-su-dung-dien-2361865.html",
+    "https://kenh14.vn/tieu-thu-dien-o-tp-hcm-tang-vot-nguoi-dan-can-than-chieu-lua-nay-215250417104616957.chn",
+    "https://www.evnhcmc.vn/",
+    "https://evn.com.vn/d6/news/EVN-HCMC-Them-kenh-cho-khach-hang-thong-bao-su-co-dien-6-14-8036.aspx",
+    "https://www.evnhcmc.vn/Tct/GioiThieu/DichVuKhachHang",
+    "https://lichcupdien.org/dien-luc-thanh-pho-ho-chi-minh",
+    "https://cskh.evnhcmc.vn/",
+    "https://www.evn.com.vn/vi-VN/trung-tam-cskh/Trung-tam-cham-soc-khach-hang-60-144",
+    "https://cskh.evnspc.vn/",
+    "https://fptshop.com.vn/tin-tuc/danh-gia/so-dien-thoai-dien-luc-163940",
+    "https://kinhtedothi.vn/trung-tam-cham-soc-khach-hang-evnhanoi-24-7-giai-dap-moi-thac-mac-ve-dich-vu-dien.html",
+    "https://cskh.npc.com.vn/TinTuc/ChiTietTinSPC?MA_TBAI=1416"
+  ],
+  "latency_ms": 44430
+}

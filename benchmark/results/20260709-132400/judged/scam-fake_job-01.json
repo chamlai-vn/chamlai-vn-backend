@@ -1,0 +1,35 @@
+{
+  "case_id": "scam-fake_job-01",
+  "rag_verdict": {
+    "strengths": [
+      "Nêu đầy đủ tất cả các ý chính: yêu cầu nộp tiền huấn luyện, lương cao bất thường, tạo cấp bách, chiêu hoàn tiền mồi nhử, và quy định cấm thảo luận lương để cô lập nạn nhân",
+      "Cấu trúc rõ ràng, súc tích: mức độ rủi ro, dấu hiệu cảnh báo, chiêu trò khớp, khuyến nghị",
+      "Lời khuyên thực tế và khả thi: kiểm tra thông tin doanh nghiệp, không truy cập link rút gọn, yêu cầu hợp đồng lao động, báo cáo cơ quan chức năng",
+      "Bổ sung dấu hiệu về link bit.ly và liên hệ qua Zalo cá nhân, làm phong phú phân tích"
+    ],
+    "weaknesses": [
+      "Không có ví dụ minh họa cụ thể về mức độ thiệt hại thực tế để tăng tính thuyết phục",
+      "Phần khuyến nghị hơi liệt kê khô khan, thiếu nhấn mạnh nguyên tắc vàng dễ nhớ"
+    ],
+    "reasoning": "Câu trả lời A bao quát toàn bộ 4 ý chính một cách chính xác và bổ sung thêm các dấu hiệu hợp lý (link rút gọn, Zalo cá nhân). Cấu trúc gọn gàng, lời khuyên cụ thể và hành động được. Tuy nhiên thiếu ví dụ minh họa và cách trình bày ít gây ấn tượng hơn.",
+    "score": 8.5
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Nêu đầy đủ tất cả các ý chính và giải thích cực kỳ chi tiết từng dấu hiệu",
+      "Giải thích rõ cơ chế kịch bản leo thang (nhiệm vụ đầu trả tiền, sau đó không rút được) giúp nạn nhân hiểu bản chất chiêu trò",
+      "Có ví dụ minh họa cụ thể (nạn nhân chuyển 1,2 tỷ đồng) tăng tính thuyết phục và cảnh tỉnh",
+      "Trình bày trực quan với bảng hành động cần làm, nhấn mạnh nguyên tắc vàng dễ nhớ",
+      "Nhấn mạnh yếu tố cô lập nạn nhân và nguyên tắc doanh nghiệp hợp pháp không thu phí trước"
+    ],
+    "weaknesses": [
+      "Trình bày hơi dài dòng, nhiều biểu tượng và tiêu đề lặp lại (hai dòng kết luận liên tiếp) làm loãng nội dung",
+      "Một số dấu hiệu bị tách nhỏ trùng lặp (dấu hiệu 3 và 6 đều nói về kịch bản leo thang)",
+      "Thiếu lời khuyên kiểm tra thông tin pháp lý/website chính thức của công ty một cách chủ động"
+    ],
+    "reasoning": "Câu trả lời B bao quát đầy đủ các ý chính và đi sâu giải thích cơ chế lừa đảo, có ví dụ thực tế mạnh mẽ giúp cảnh tỉnh. Cách trình bày trực quan với bảng hành động rất tốt. Tuy nhiên hơi dài, có sự trùng lặp giữa các dấu hiệu và tiêu đề kết luận lặp lại làm giảm tính chuyên nghiệp.",
+    "score": 8.5
+  },
+  "preferred": "tie",
+  "order_consistent": true
+}

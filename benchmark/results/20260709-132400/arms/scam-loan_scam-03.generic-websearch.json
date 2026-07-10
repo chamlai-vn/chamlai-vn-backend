@@ -1,0 +1,52 @@
+{
+  "case_id": "scam-loan_scam-03",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Yêu cầu đóng 'phí duyệt hồ sơ' TRƯỚC khi nhận tiền (phí làm hồ sơ, phí hỗ trợ, phí bảo hiểm tiền gửi…)",
+      "Mồi chài bằng điều kiện hấp dẫn phi thực tế: vay nhanh 30 phút, không thế chấp, không cần thẩm định hồ sơ, không cần chứng minh thu nhập",
+      "Giả danh nhân viên công ty tài chính qua mạng xã hội (Zalo, Facebook), sau khi thu phí thì không giải ngân và mất liên lạc",
+      "Yêu cầu cung cấp thông tin cá nhân nhạy cảm (CMND/CCCD, ảnh chân dung) qua link lạ để làm hồ sơ vay giả mạo",
+      "Sau khi nạn nhân chuyển tiền, tiếp tục viện lý do để đòi thêm tiền, hứa hẹn hoàn trả nhưng không thực hiện"
+    ],
+    "matched_patterns": [
+      "Cho vay giả — thu phí thật",
+      "Giả danh nhân viên công ty tài chính",
+      "Lừa đảo cho vay online thu phí trước"
+    ],
+    "recommended_actions": [
+      "KHÔNG chuyển tiền dù chỉ một khoản nhỏ — tiền đã chuyển sẽ không lấy lại được",
+      "KHÔNG điền thông tin CCCD vào bất kỳ link lạ nào",
+      "KHÔNG cung cấp thông tin ngân hàng, bao gồm số tài khoản và mã OTP",
+      "Chặn số điện thoại và tài khoản mạng xã hội của đối tượng, ngừng mọi liên lạc",
+      "Trình báo công an, lưu lại toàn bộ bằng chứng: tin nhắn, số điện thoại, link, hình ảnh giao dịch, số tài khoản nhận tiền",
+      "Nếu thực sự cần vay tiền, chỉ liên hệ các ngân hàng/tổ chức tài chính được Ngân hàng Nhà nước cấp phép (Vietcombank, Agribank, BIDV, FE Credit, Home Credit…)"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 ĐÂY LÀ LỪA ĐẢO 100% — Hãy dừng ngay lập tức!\n\nTin nhắn bạn nhận được có **đầy đủ dấu hiệu của một vụ lừa đảo cho vay online đang hoạt động rất phổ biến tại Việt Nam**. Dưới đây là phân tích chi tiết:\n\n---\n\n## 🔴 Các dấu hiệu lừa đảo rõ ràng trong tin nhắn này\n\n### 1. Yêu cầu đóng \"phí duyệt hồ sơ\" TRƯỚC khi nhận tiền\nĐây là dấu hiệu lừa đảo điển hình nhất. Sau khi thực hiện đầy đủ các bước như đã được hướng dẫn, đối tượng yêu cầu người vay tiền phải chuyển tiền các loại phí như phí làm hồ sơ, phí hỗ trợ, phí bảo hiểm tiền gửi… với số tiền từ vài trăm nghìn đồng đến vài triệu đồng, cam kết hoàn lại toàn bộ tiền chuyển vào sau khi được giải ngân khoản vay.\n\nCác ngân hàng uy tín thường **không yêu cầu nộp phí mở hồ sơ trước khi khoản vay được phê duyệt**. Nếu đối tượng yêu cầu chuyển khoản trước, thì khả năng rất cao đó là lừa đảo.\n\n### 2. Mồi chài bằng điều kiện \"hấp dẫn\" phi thực tế\nNhững kẻ lừa đảo thường đưa ra những lời hứa mời gọi hấp dẫn, như vay tiền nhanh chóng, không cần thẩm định hồ sơ, không cần chứng minh thu nhập, và có thể vay số tiền lớn. Đúng như tin nhắn bạn nhận được: \"30 phút, không thế chấp\".\n\n### 3. Giả danh nhân viên công ty tài chính\nĐối tượng sử dụng các nền tảng mạng xã hội (Zalo, Facebook) giả danh các Công ty tài chính đăng bài hoặc gửi link giả mạo để quảng cáo cho vay tiền nhanh với lãi suất thấp. Khi có người liên hệ vay thì các đối tượng tự xưng là nhân viên của công ty tài chính, yêu cầu đóng phí hồ sơ để giải ngân; khi đóng xong phí thì **không được giải ngân và không liên lạc được với các đối tượng**.\n\n### 4. Yêu cầu cung cấp số CCCD qua link lạ\nKhi có người vay tiếp cận, các đối tượng sẽ dẫn dụ, yêu cầu người vay cung cấp thông tin cá nhân, như: họ tên, số điện thoại, ảnh chụp CMND/CCCD, ảnh chụp chân dung… phục vụ làm hồ sơ vay. Sau đó, kẻ xấu sử dụng thông tin cá nhân của bạn, chẳng hạn số CMND, số điện thoại. Thông tin này được sử dụng để tạo hồ sơ vay tiền giả mạo, sau đó rút tiền hoặc chuyển khoản mà không cần sự đồng ý của chủ sở hữu.\n\n### 5. Sau khi bạn chuyển tiền, chúng sẽ biến mất — hoặc tiếp tục đòi thêm\nSau khi dụ người vay chuyển tiền, các đối tượng tiếp tục viện dẫn hàng loạt các lý do khoản vay không được giải ngân (như khai sai tên người hưởng thụ, không đủ điều kiện vay…). Từ đó, chúng yêu cầu người vay phải nộp thêm các khoản tiền để bảo đảm khoản vay, hứa hẹn sẽ hoàn trả lại số tiền đã gửi.\n\n---\n\n## ⚠️ Quy mô của vấn nạn này rất nghiêm trọng\n\nTheo thống kê từ Bộ Công an, trong 11 tháng đầu năm 2025, người dùng tại Việt Nam đã bị thiệt hại hơn **6.000 tỷ đồng** do lừa đảo trực tuyến.\n\n---\n\n## ✅ Bạn cần làm gì NGAY BÂY GIỜ?\n\n| Việc cần làm | Chi tiết |\n|---|---|\n| 🚫 **KHÔNG chuyển tiền** | Dù chỉ 450k — một khi chuyển, tiền không lấy lại được |\n| 🚫 **KHÔNG điền CCCD vào link lạ** | Họ sẽ dùng thông tin của bạn để lừa đảo tiếp |\n| 🚫 **KHÔNG cung cấp thông tin ngân hàng** | Bao gồm số tài khoản, mã OTP |\n| 📵 **Chặn số điện thoại/tài khoản** | Ngừng mọi liên lạc với đối tượng |\n| 🚔 **Trình báo công an** | Lưu lại tin nhắn, số điện thoại, link làm bằng chứng |\n\nKhi phát hiện có dấu hiệu nghi vấn hoặc trở thành nạn nhân, người dân cần lưu giữ các thông tin liên quan như nội dung trao đổi, số tài khoản nhận tiền, số điện thoại, đường dẫn website, hình ảnh giao dịch...\n\n---\n\n## 💡 Nếu thực sự cần vay tiền\n\nChỉ nên vay tiền từ các tổ chức tài chính, ngân hàng có uy tín và đã được **cấp phép hoạt động**. Bạn có thể đến trực tiếp các ngân hàng như Vietcombank, Agribank, BIDV... hoặc các công ty tài chính được Ngân hàng Nhà nước cấp phép như FE Credit, Home Credit.\n\n\u003e 🔒 **Kết luận:** Đây là lừa đảo điển hình theo kịch bản \"cho vay giả — thu phí thật\". Tuyệt đối không làm theo bất kỳ hướng dẫn nào từ \"Hằng - Tài chính Xanh Plus\". Hãy chia sẻ thông tin này để bảo vệ những người thân xung quanh bạn!",
+  "sources": [
+    "https://www.aia.com.vn/vi/song-khoe/loi-khuyen/tai-chinh/bi-lua-dao-vay-tien-online-phai-lam-sao.html",
+    "https://diendandoanhnghiep.vn/van-nhuc-nhoi-lua-dao-vay-tien-10143747.html",
+    "https://congan.dongthap.gov.vn/en/chi-tiet-bai-viet/-/asset_publisher/wbj7qfWZntAi/content/id/12349153",
+    "https://xaydungchinhsach.chinhphu.vn/canh-bao-hien-tuong-mao-danh-ngan-hang-cho-vay-truc-tuyen-lai-suat-thap-de-lua-dao-119230428085842108.htm",
+    "https://congan.dongthap.gov.vn/en/chi-tiet-bai-viet/-/asset_publisher/wbj7qfWZntAi/content/id/11601644",
+    "https://www.vietnamplus.vn/canh-bao-cac-hinh-thuc-lua-dao-truc-tuyen-khong-moi-nhung-van-nhieu-nguoi-dinh-post983125.vnp",
+    "https://lsvn.vn/canh-giac-chieu-lua-dao-cho-vay-tien-online-lai-suat-thap-1690670490-a133470.html",
+    "https://cand.com.vn/Ho-so-Interpol/tro-lua-moi-vay-von-online-cua-nhan-vien-ngan-hang-i749932/",
+    "https://cafef.vn/tat-ca-nguoi-dan-khi-vay-tien-dac-biet-chu-y-188260709101404598.chn",
+    "https://congan.kontum.gov.vn/an-ninh-trat-tu/toi-pham-va-vi-pham-phap-luat/canh-bao-toi-pham/canh-giac-voi-thu-doan-lua-dao-vay-tien-truc-tuyen-cua-cac-doi-tuong-mao-danh-ngan-hang-va-cong-ty-tai-chinh.html",
+    "https://tuoitre.vn/video/canh-bao-dung-facbook-tich-xanh-gia-mao-bo-tai-chinh-hua-lay-lai-tien-lua-dao-nguoi-dan-can-biet-ngay-187881.htm",
+    "https://thanhtra.com.vn/tai-chinh-701717FFD/canh-bao-lua-dao-gia-mao-bo-tai-chinh-tren-khong-gian-mang-f89fd6562.html",
+    "https://nhandan.vn/canh-bao-thu-doan-dung-tai-khoan-facebook-tich-xanh-de-lua-dao-post907413.html",
+    "https://pitda.vn/vay-online/app-vayxanh-co-lua-dao-khong-thuc-hu-the-nao/",
+    "https://nhandan.vn/video-canh-bao-thu-doan-lua-dao-bang-tai-khoan-facebook-tich-xanh-post907507.html",
+    "https://traderviet.tv/t/canh-giac-lua-dao-tu-cac-du-an-tien-ao-va-tai-chinh-ao.116587/",
+    "https://hanoimoi.vn/canh-bao-lua-dao-tu-nhung-tai-khoan-mang-xa-hoi-co-tich-xanh-can-nang-cao-y-thuc-ky-nang-tu-bao-ve-703071.html",
+    "https://antg.cand.com.vn/Ho-so-Interpol/dung-tai-khoan-gia-tich-xanh-de-lua-dao-i795986",
+    "https://www.greensm.com/vn-vi/news/thong-bao-canh-bao-trang-web-lua-dao-va-gia-mao",
+    "https://moit.gov.vn/tin-tuc/bao-chi-voi-nguoi-dan/canh-bao-cac-thu-doan-lua-dao-chiem-doat-tien-trong-tai-khoan-ngan-hang-dip-cuoi-nam.html"
+  ],
+  "latency_ms": 59401
+}

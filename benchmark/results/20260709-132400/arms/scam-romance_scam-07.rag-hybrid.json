@@ -1,0 +1,30 @@
+{
+  "case_id": "scam-romance_scam-07",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Tài khoản hẹn hò được tạo gần đây (tháng 10) với ảnh đẹp lấy từ internet",
+      "Phát triển mối quan hệ tình cảm quá nhanh (chỉ vài tuần nói yêu thương, hứa tương lai chung)",
+      "Sử dụng số điện thoại ảo từ nước ngoài (+65) để liên lạc",
+      "Giới thiệu bản thân là doanh nhân làm việc ở nước ngoài với vỏ bọc hào nhoáng",
+      "Yêu cầu chuyển tiền với lý do kinh doanh/đầu tư sau khi xây dựng tin tưởng",
+      "Khi xảy ra vấn đề, liên tục yêu cầu thêm tiền với những lý do mới (thuế, chi phí)",
+      "Không thực hiện cam kết hoàn lại tiền đúng hạn",
+      "Tài khoản nhận tiền sử dụng tên riêng Việt Nam để tạo tin tưởng"
+    ],
+    "matched_patterns": [
+      "Giả danh doanh nhân trên ứng dụng hẹn hò online lôi kéo đầu tư, lừa chuyển tiền",
+      "Romance scam kết hợp với chiêu trò yêu cầu chuyển tiền cho dự án/đầu tư kinh doanh"
+    ],
+    "recommended_actions": [
+      "Liên hệ ngay với cơ quan Công an (Cảnh sát Hình sự) để báo cáo và cung cấp tất cả bằng chứng: số điện thoại, screenshot cuộc trò chuyện, thông tin tài khoản nhận tiền, số tiền chuyển, thời gian chuyển",
+      "Liên hệ với ngân hàng MB Bank để báo cáo tài khoản 0987654321 bị dùng trong giao dịch lừa đảo, yêu cầu khóa tài khoản và có thể khôi phục lại tiền nếu chưa rút hết",
+      "Lưu giữ tất cả bằng chứng (ảnh chụp màn hình, tin nhắn, ảnh profile, lịch sử giao dịch)",
+      "Báo cáo tài khoản David trên Topdating để nền tảng xóa profile giả mạo",
+      "Trong tương lai, không kết bạn với những người lạ trên mạng hẹn hò và tuyệt đối không chuyển tiền cho bất kỳ ai trên những ứng dụng này, đặc biệt nếu họ lý do kinh doanh/đầu tư"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 10788
+}

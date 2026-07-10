@@ -1,0 +1,28 @@
+{
+  "case_id": "scam-prize_gift-04",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Thông báo trúng thưởng không có cơ sở từ người lạ",
+      "Yêu cầu click vào link lạ để xác nhận thông tin",
+      "Tạo áp lực thời gian bằng cách giới hạn hiệu lực 24 giờ",
+      "Tên miền momovoucher.vn không phải từ Momo chính thức",
+      "Mạo danh dịch vụ thanh toán Momo",
+      "Link chứa tham số ref/tracking có dấu hiệu của phishing"
+    ],
+    "matched_patterns": [
+      "prize_gift - Lừa đảo tặng quà tri ân với yêu cầu chuyển tiền phí",
+      "tech_fraud - Giả danh dịch vụ dẫn dụ click link giả để hack tài khoản"
+    ],
+    "recommended_actions": [
+      "Tuyệt đối không click vào link momovoucher.vn hay bất kỳ link lạ nào từ thông báo này",
+      "Xác minh trực tiếp qua ứng dụng Momo chính thức hoặc hotline của Momo để kiểm tra xem bạn có thực sự trúng thưởng hay không",
+      "Không cung cấp thông tin cá nhân, mã OTP, hay dữ liệu tài khoản ngân hàng nếu click vào link",
+      "Báo cáo tin nhắn này cho Momo và cơ quan chức năng nếu nghi ngờ",
+      "Nếu bạn không hề tham gia chương trình nào của Momo, đây chắc chắn là lừa đảo"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 6544
+}

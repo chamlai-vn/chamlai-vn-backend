@@ -1,0 +1,32 @@
+{
+  "case_id": "scam-romance_scam-05",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Giả danh nhân vật nước ngoài (lính Mỹ) trên ứng dụng hẹn hò",
+      "Phát triển mối quan hệ tình cảm quá nhanh (tuyên bố yêu sau 3 tuần)",
+      "Nói những lời ngọt ngào, hứa hẹn tương lai chung để chiếm lòng tin",
+      "Tạo lý do khẩn cấp (phái đi Thái Lan) để tạo áp lực chuyển khoản",
+      "Yêu cầu chuyển tiền qua Momo (thanh toán điện tử không thể hoàn lại)",
+      "Liên tục yêu cầu chuyển tiền với các lý do khác nhau (tiền tạm giúp, bảo hiểm, vé máy bay)",
+      "Gửi ảnh giả mạo (copy từ mạng) để tạo lòng tin",
+      "Khóa tài khoản và biến mất sau khi chiếm đoạt tiền",
+      "Nạn nhân tổn thất lên tới 25 triệu đồng"
+    ],
+    "matched_patterns": [
+      "romance_scam - Hẹn hò online rồi dụ dỗ đầu tư để chiếm đoạt tài sản",
+      "romance_scam - Lừa đảo tình cảm dẫn dụ đầu tư sàn ảo, tiền ảo, làm nhiệm vụ online"
+    ],
+    "recommended_actions": [
+      "Báo cáo sự cố ngay lập tức cho ứng dụng hẹn hò Zingle và cung cấp mọi thông tin về tài khoản giả mạo",
+      "Liên hệ với cơ quan Công an địa phương hoặc Cảnh sát hình sự để thực hiện thủ tục khởi tố vụ án lừa đảo chiếm đoạt tài sản",
+      "Yêu cầu ngân hàng và nền tảng Momo kiểm tra lịch sử giao dịch và xem có thể đình chỉ/hoàn lại tiền",
+      "Cào dấu vân tay số kỹ thuật của kẻ lừa (IP, thiết bị) để phục vụ điều tra",
+      "Thông báo cho bạn bè và người thân về chiêu trò này để họ phòng tránh",
+      "Cần thận trọng với những tài khoản lạ yêu cầu chuyển tiền, dù có bất kỳ lý do gấp gáp nào"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 9641
+}

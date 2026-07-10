@@ -1,0 +1,32 @@
+{
+  "case_id": "scam-vacation_contract-04",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Thông báo trúng thưởng bất ngờ mà người nhận không nhớ tham gia cuộc quay thưởng",
+      "Yêu cầu thanh toán tiền để nhận giải thưởng (phí xử lý hồ sơ 2.8 triệu đồng)",
+      "Hứa hẹn sở hữu quyền lợi lớn giá trị 45 triệu từ khoản thanh toán chỉ 2.8 triệu",
+      "Cam kết sở hữu 2 tuần kỳ nghỉ hàng năm tại 15 resort 5 sao (lời hứa quá lớn, không thực tế)",
+      "Tạo áp lực thời gian: đặt hạn chót ngày 21/01/2025",
+      "Yêu cầu chuyển tiền vào tài khoản cá nhân (Agribank/MoMo) thay vì tài khoản doanh nghiệp chính thức",
+      "Tên công ty 'Du Lịch Á Châu' chung chung, không cung cấp thông tin chi tiết/xác minh được",
+      "Không cung cấp địa chỉ trụ sở, giấy phép kinh doanh hoặc thông tin xác minh doanh nghiệp"
+    ],
+    "matched_patterns": [
+      "vacation_contract - Gói sản phẩm kỳ nghỉ giá rẻ, hợp đồng kỳ nghỉ với nhiều ưu đãi bất thường",
+      "vacation_contract - Hợp đồng sở hữu kỳ nghỉ: Lừa đảo bằng cách tuyên truyền sai về quyền sở hữu và khả năng kiếm lời",
+      "vacation_contract - Lừa đảo kinh doanh 'thẻ kỳ nghỉ', 'thẻ nghỉ dưỡng' – kéo dài chiếm đoạt qua hứa hẹn mua lại, nâng hạng"
+    ],
+    "recommended_actions": [
+      "KHÔNG chuyển tiền vào tài khoản này dù bất kỳ lý do gì. Đây là dấu hiệu lừa đảo điển hình",
+      "Kiểm tra giấy phép kinh doanh của 'Công ty Du Lịch Á Châu' tại Sở Kế hoạch Đầu tư hoặc website DNSC",
+      "Liên hệ trực tiếp với cơ sở lưu trú Phan Thiết qua website chính thức để xác minh xem có hợp tác với công ty này không",
+      "Nếu bạn thực sự trúng giải thưởng, người tổ chức sẽ liên hệ chính thức qua kênh chính, không yêu cầu thanh toán trước",
+      "Báo cáo tin nhắn này cho cơ quan công an địa phương hoặc Trung tâm khiếu nại lừa đảo để cảnh báo và xử lý",
+      "Chặn số điện thoại/tài khoản này để tránh các lần liên hệ lừa đảo tiếp theo"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 11104
+}

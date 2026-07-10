@@ -1,0 +1,26 @@
+{
+  "case_id": "scam-tech_fraud-03",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "\"Zalo Banking Pro\" không phải app ngân hàng chính thức nào — Zalo là app nhắn tin, không có sản phẩm ngân hàng riêng",
+      "Tải qua link người khác gửi, không phải từ Google Play/App Store chính thức — dấu hiệu kinh điển của app giả mạo",
+      "Yêu cầu nhập mã OTP và mật khẩu ngân hàng ngay khi mở app — không app/tổ chức hợp pháp nào cần điều này qua app thứ ba",
+      "Khớp cảnh báo của công an nhiều tỉnh về link/app giả mạo lợi dụng tên Zalo/ngân hàng để lấy OTP, cài mã độc, chiếm quyền tài khoản"
+    ],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Gỡ cài đặt app đó ngay lập tức, không nhập thêm bất kỳ thông tin gì nếu chưa nhập",
+      "Nếu đã lỡ nhập OTP/mật khẩu: gọi ngay tổng đài ngân hàng (số in trên thẻ hoặc website chính thức) để khóa tài khoản/thẻ khẩn cấp, đổi mật khẩu Internet Banking",
+      "Kiểm tra lịch sử giao dịch xem có phát sinh bất thường không",
+      "Đổi mật khẩu Zalo, bật xác thực 2 lớp cho Zalo và tài khoản ngân hàng",
+      "Quét virus/mã độc trên điện thoại, cân nhắc khôi phục cài đặt gốc nếu nghi ngờ máy bị cài mã độc sâu",
+      "Báo cáo với công an địa phương hoặc Cổng cảnh báo an ninh mạng quốc gia nếu đã có thiệt hại"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "**Có, đây gần như chắc chắn là lừa đảo.** Vài dấu hiệu rõ ràng:\n\n**Tại sao đáng nghi:**\n- **\"Zalo Banking Pro\" không phải app ngân hàng chính thức nào** — không có ngân hàng hay Zalo nào phát hành app tên như vậy. Zalo là app nhắn tin, không có sản phẩm ngân hàng riêng.\n- **Tải qua link người khác gửi**, không phải từ Google Play/App Store chính thức — đây là dấu hiệu kinh điển của app giả mạo (fake app) dùng để chiếm quyền điều khiển điện thoại hoặc đánh cắp thông tin.\n- **Yêu cầu nhập mã OTP và mật khẩu ngân hàng ngay khi mở app** — không một app hay tổ chức hợp pháp nào cần bạn nhập OTP/mật khẩu ngân hàng vào một app thứ ba như vậy. Đây chính là cơ chế lừa đảo phổ biến nhất hiện nay: app giả giao diện giống ngân hàng để lấy cắp thông tin đăng nhập, sau đó chiếm đoạt tiền trong tài khoản thật.\n- Công an nhiều tỉnh gần đây liên tục cảnh báo về các link/app giả mạo lợi dụng tên Zalo hoặc ngân hàng để lừa lấy OTP, cài mã độc, hoặc chiếm quyền tài khoản. Kẻ gian thiết kế các bài viết quảng cáo có giao diện cắt ghép logo tinh vi, mạo danh việc hợp tác với các tổ chức tài chính hoặc ứng dụng nước ngoài để tung ra chương trình nhận thưởng giả mạo, dẫn dụ nạn nhân cung cấp mã OTP hoặc tải các phần mềm không rõ nguồn gốc nhằm chiếm đoạt tài khoản.\n\n**Em cần làm ngay:**\n1. **Gỡ cài đặt app đó ngay lập tức**, đừng nhập bất kỳ thông tin gì nữa nếu chưa nhập.\n2. **Nếu đã lỡ nhập OTP/mật khẩu:** Gọi ngay tổng đài ngân hàng của em (số in trên thẻ hoặc website chính thức, không dùng số trong tin nhắn/link đó) để **khóa tài khoản/thẻ khẩn cấp**, đổi mật khẩu Internet Banking.\n3. Kiểm tra lịch sử giao dịch xem có phát sinh bất thường không.\n4. Đổi mật khẩu Zalo, bật xác thực 2 lớp cho Zalo và tài khoản ngân hàng.\n5. Quét virus/mã độc trên điện thoại (dùng công cụ bảo mật uy tín), cân nhắc khôi phục cài đặt gốc nếu nghi ngờ máy đã bị cài mã độc sâu.\n6. Báo cáo với công an địa phương hoặc qua Cổng cảnh báo an ninh mạng quốc gia nếu đã có thiệt hại.\n\nQuan trọng nhất: **không bao giờ nhập OTP hay mật khẩu ngân hàng vào bất kỳ app/link nào không phải do chính ngân hàng hoặc App Store/Google Play chính thức cung cấp.**",
+  "sources": [],
+  "latency_ms": 0
+}

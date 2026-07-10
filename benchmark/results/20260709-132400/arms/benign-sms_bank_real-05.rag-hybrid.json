@@ -1,0 +1,22 @@
+{
+  "case_id": "benign-sms_bank_real-05",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "yellow",
+    "red_flags": [
+      "Tin nhắn thông báo giao dịch bất thường từ tài khoản ngân hàng, có thể là lừa đảo giả danh ngân hàng",
+      "Nội dung yêu cầu hành động khẩn cấp (liên hệ ngay) để tạo áp lực tâm lý",
+      "Số điện thoại 1900558818 cần xác minh — có thể là số giả mạo"
+    ],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Không gọi ngay vào số điện thoại trong tin nhắn — đó có thể là số của kẻ lừa đảo",
+      "Mở ứng dụng ngân hàng chính thức hoặc truy cập website Agribank để kiểm tra số dư và lịch sử giao dịch",
+      "Gọi trực tiếp tổng đài chính thức của Agribank (tìm số từ website chính thức hoặc thẻ ATM) để xác minh tính xác thực của giao dịch",
+      "Nếu xác nhận giao dịch là thật, liên hệ ngân hàng để khóa tài khoản và khiếu nại",
+      "Kiểm tra email, điều kiện sử dụng mật khẩu để phát hiện dấu hiệu bị xâm nhập"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 5822
+}

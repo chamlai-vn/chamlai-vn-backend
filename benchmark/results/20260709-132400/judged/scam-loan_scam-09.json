@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-loan_scam-09",
+  "rag_verdict": {
+    "strengths": [
+      "Trả lời trực tiếp: KHÔNG nạp 200k; kết luận đúng (red)",
+      "Phủ đủ 4 ý chính: nạp phí xác minh trước, app FastCash Pro quảng cáo, hứa hoàn lại + tiền vay, quy trình quá nhanh không thẩm định",
+      "Pattern khớp đúng loại (gồm cả lãi cắt cổ/phí vô lý)",
+      "Khuyến nghị tra cứu giấy phép, chỉ vay đơn vị được cấp phép"
+    ],
+    "weaknesses": [
+      "Không cung cấp kênh trình báo cụ thể",
+      "Không cảnh báo nguy cơ app đọc trộm OTP/chiếm quyền",
+      "Định dạng thuần liệt kê"
+    ],
+    "reasoning": "Trả lời dứt khoát và đúng cho câu hỏi ngắn, có pattern khớp đầy đủ. Thiếu cảnh báo app độc hại và kênh trình báo.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Phân tích 5 dấu hiệu, giải thích cả nguy cơ app điều khiển từ xa đọc OTP",
+      "Trích cảnh báo Công an Hà Nội, liệt kê các loại 'phí' bịa đặt để nhận biết",
+      "Bảng hành động, gợi ý bảo vệ thông tin nếu đã nhập CCCD/OTP",
+      "Quy tắc vàng, động viên người dùng đã tỉnh táo"
+    ],
+    "weaknesses": [
+      "Dài so với câu hỏi ngắn",
+      "Gọi 113 để tố giác hơi chưa chuẩn"
+    ],
+    "reasoning": "Chi tiết, giải thích cả nguy cơ app độc hại và liệt kê các loại phí bịa. Điểm trừ là độ dài.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

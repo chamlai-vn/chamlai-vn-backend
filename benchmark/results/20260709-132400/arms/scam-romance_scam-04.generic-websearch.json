@@ -1,0 +1,27 @@
+{
+  "case_id": "scam-romance_scam-04",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Người nước ngoài đẹp trai, làm quen nhanh trên mạng — thường dùng ảnh đánh cắp để tạo lòng tin",
+      "Tỏ tình rất nhanh chỉ sau vài tuần — kỹ thuật love bombing để tạo gắn bó nhanh, mất cảnh giác",
+      "Xuất hiện \"tình huống khẩn cấp\" ở nước ngoài (hải quan, bệnh viện, bị giữ sân bay...) — kịch bản kinh điển tạo áp lực tâm lý",
+      "Yêu cầu chuyển tiền qua Zalo/chuyển khoản cá nhân — kênh không chính thức, khó truy vết",
+      "Chưa từng gặp mặt trực tiếp mà đã có yêu cầu tài chính — cờ đỏ rất lớn"
+    ],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Không gửi bất kỳ khoản tiền nào, dù chỉ \"vay tạm\" số nhỏ",
+      "Dùng Google Image Search kiểm tra ảnh của người đó có bị đánh cắp từ tài khoản khác không",
+      "Đề nghị gọi video call trực tiếp — kẻ lừa đảo thường tránh né hoặc viện lý do",
+      "Ngừng liên lạc nếu nghi ngờ tăng lên, đặc biệt khi bị hối thúc quyết định gấp",
+      "Báo cáo tài khoản đó trên nền tảng đang dùng (Zalo, Facebook...)",
+      "Nếu đã lỡ chuyển tiền: liên hệ ngay ngân hàng/nhà cung cấp dịch vụ chuyển tiền để báo cáo, và trình báo công an"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "**Đây gần như chắc chắn là lừa đảo (scam tình cảm - \"romance scam\").** Đừng gửi tiền.\n\n**Vì sao đây là dấu hiệu lừa đảo rất điển hình:**\n\n1. **\"Người nước ngoài đẹp trai, làm quen nhanh trên mạng\"** – kẻ lừa đảo thường dùng ảnh đánh cắp (của người mẫu, quân nhân, doanh nhân...) để tạo lòng tin.\n2. **Tỏ tình rất nhanh, nói yêu/thích chỉ sau vài tuần** – đây là kỹ thuật \"love bombing\" để tạo cảm xúc gắn bó nhanh, khiến nạn nhân mất cảnh giác.\n3. **Xuất hiện \"tình huống khẩn cấp\" ở nước ngoài (Thái Lan, hải quan, bệnh viện, bị giữ ở sân bay...)** – kịch bản kinh điển để tạo áp lực tâm lý, khiến người bị lừa vội vàng ra quyết định mà không suy nghĩ kỹ.\n4. **Yêu cầu chuyển tiền qua Zalo/chuyển khoản cá nhân** – tiền thật thường không bao giờ được yêu cầu qua kênh không chính thức, khó truy vết như vậy. Đây là cách để tiền biến mất mà không thể lấy lại.\n5. **Chưa từng gặp mặt trực tiếp** – nếu hai người chưa gặp ngoài đời mà đã có yêu cầu tài chính, đó là cờ đỏ (red flag) rất lớn.\n\n**Bạn nên làm gì tiếp theo:**\n\n- **Không gửi bất kỳ khoản tiền nào**, dù là \"vay tạm\" hay \"chỉ vài trăm nghìn để giúp qua giai đoạn khó khăn\".\n- **Kiểm tra ảnh của người đó**: dùng Google Image Search (tìm bằng hình ảnh) để xem ảnh có bị đánh cắp từ tài khoản khác không. Rất nhiều trường hợp lộ ra ảnh của người nổi tiếng hoặc quân nhân nước ngoài.\n- **Đề nghị gọi video call trực tiếp** – hầu hết kẻ lừa đảo sẽ tránh né hoặc viện lý do không thể gọi video.\n- **Ngừng liên lạc** nếu bạn thấy nghi ngờ tiếp tục tăng lên, đặc biệt nếu họ liên tục hối thúc bạn phải quyết định gấp.\n- **Báo cáo tài khoản đó** trên nền tảng bạn đang dùng (Zalo, Facebook...) để họ không tiếp tục lừa người khác.\n- Nếu bạn đã lỡ chuyển tiền, hãy liên hệ ngay ngân hàng/nhà cung cấp dịch vụ chuyển tiền để báo cáo, và có thể trình báo công an để được hỗ trợ.\n\nNếu bạn muốn, gửi cho mình thêm chi tiết cụ thể (ảnh chụp màn hình tin nhắn, tên/nghề nghiệp người đó tự giới thiệu...) mình có thể giúp phân tích kỹ hơn để xác nhận thêm.",
+  "sources": [],
+  "latency_ms": 0
+}

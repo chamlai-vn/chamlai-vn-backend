@@ -1,0 +1,29 @@
+{
+  "case_id": "benign-delivery_real-09",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận đúng (green) cho thông báo VietnamPost hợp lệ",
+      "Khuyến nghị đối chiếu đơn qua tài khoản sàn TMĐT, xác minh qua hotline chính thức",
+      "Súc tích"
+    ],
+    "weaknesses": [
+      "Không tự khẳng định vietnampost.vn và hotline 1900 545481 là chính thức (điểm xác nhận an toàn quan trọng)"
+    ],
+    "reasoning": "Đúng và gọn. Thiếu bước xác nhận tên miền/hotline là chính thức.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Xác nhận cả tên miền vietnampost.vn lẫn hotline 1900 545481 đều là chính thức của Bưu điện VN — giá trị tra cứu web",
+      "Kết luận cân bằng (khả năng hợp lệ cao hơn), nêu điểm cần đối chiếu (có đơn thật không, brandname)",
+      "Cảnh báo tên miền nhái tương lai"
+    ],
+    "weaknesses": [
+      "Dài"
+    ],
+    "reasoning": "Nhỉnh hơn nhờ xác nhận tên miền + hotline chính thức, giúp người dùng yên tâm có căn cứ.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

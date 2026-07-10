@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-other-06",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận đúng (red), phủ đủ 4 ý chính: giả danh công ty tuyển dụng, phí đăng ký trước, upsell 'nâng cấp', chi tiết giả (tài khoản cá nhân, lương cao)",
+      "Pattern khớp đúng loại fake_job",
+      "Khuyến nghị: không chuyển tiền trước khi ký hợp đồng, xác minh giấy phép, chỉ chuyển tài khoản công ty",
+      "Đầy đủ, đúng trọng tâm"
+    ],
+    "weaknesses": [
+      "Không cung cấp kênh xác minh pháp nhân cụ thể (dangkykinhdoanh.gov.vn)",
+      "Không nêu kênh trình báo cụ thể",
+      "Định dạng thuần liệt kê"
+    ],
+    "reasoning": "Chính xác, pattern khớp đúng loại và khuyến nghị hợp lý. Thiếu kênh xác minh/trình báo cụ thể.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Phân tích 6 dấu hiệu, chỉ rõ bẫy 'nâng cấp tài khoản' leo thang và tài khoản cá nhân",
+      "Nêu điểm nhà tuyển dụng uy tín không thu phí, gợi ý tra mã số thuế/Google",
+      "Bảng hành động rõ ràng, cảnh báo lấy thông tin từ CV",
+      "Nguyên tắc vàng dễ nhớ"
+    ],
+    "weaknesses": [
+      "Dài, định dạng nặng",
+      "Gọi 113 để báo cáo hơi chưa chuẩn"
+    ],
+    "reasoning": "Toàn diện, giải thích bẫy leo thang và có bước xác minh. Điểm trừ là độ dài.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

@@ -1,0 +1,28 @@
+{
+  "case_id": "scam-impersonation_service-09",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Liên kết URL giả mạo (dien-luc-thanhtoan.vn) - không phải tên miền chính thức của EVN",
+      "Đe dọa cắt điện trong 24 giờ để tạo áp lực thời gian",
+      "Yêu cầu cung cấp mã khách hàng kết hợp với link lạ",
+      "Số điện thoại không chính thức (0989-456-123 không phải tổng đài của EVNHCMC)",
+      "Hóa đơn có số tiền lẻ bất thường (2.850.000 đ) - dấu hiệu điển hình của lừa đảo",
+      "Yêu cầu thanh toán ngay lập tức mà không cung cấp thông tin xác thực"
+    ],
+    "matched_patterns": [
+      "impersonation_authority",
+      "impersonation_service"
+    ],
+    "recommended_actions": [
+      "Không bấm vào link dien-luc-thanhtoan.vn và không gọi số 0989-456-123",
+      "Kiểm tra hóa đơn tiền điện tháng 11 trực tiếp qua ứng dụng chính thức EVNHCMC hoặc website evnhcmc.vn",
+      "Gọi hotline chính thức của Điện lực TP.HCM (1900 969 969 hoặc số điện thoại trên hóa đơn) để xác minh khoản nợ",
+      "Chỉ thanh toán tiền điện qua các kênh chính thức: internet banking, mobile banking, ví điện tử uy tín (Momo, ZaloPay, Viettel Money) hoặc tại điểm giao dịch của ngân hàng",
+      "Báo cáo tin nhắn lừa đảo cho nhà mạng và công an địa phương"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 6612
+}

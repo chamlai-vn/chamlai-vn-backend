@@ -1,0 +1,27 @@
+{
+  "case_id": "scam-romance_scam-05",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "\"Yêu\" quá nhanh, quá nồng nhiệt — tuyên bố yêu sau 3 tuần trò chuyện là dấu hiệu love bombing kinh điển",
+      "Không bao giờ gặp mặt trực tiếp được — luôn có lý do công tác/điều động khẩn cấp",
+      "Ảnh \"quân nhân Mỹ\" lấy từ mạng — quân đội Mỹ không bao giờ yêu cầu quân nhân tự bỏ tiền/vay tiền để hoàn thành nhiệm vụ hay mua vé máy bay",
+      "Vòng xoáy xin tiền tăng dần: hợp đồng quân sự → bảo hiểm → vé máy bay — kịch bản chuẩn để vắt kiệt nạn nhân",
+      "Tài khoản bị khóa ngay sau đó — xác nhận là tài khoản giả lập ra để lừa đảo rồi biến mất"
+    ],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Ngừng ngay mọi liên lạc, kể cả khi có tài khoản mới quay lại xin lỗi/hứa trả tiền/xin thêm (thường là bước lừa lần 2)",
+      "Lưu lại toàn bộ bằng chứng: tin nhắn, các lần chuyển khoản, thông tin tài khoản nhận tiền, ảnh, thông tin app",
+      "Trình báo công an phường/xã nơi cư trú để làm đơn tố giác tội phạm (Điều 174 BLHS)",
+      "Liên hệ tổng đài CSKH của ví điện tử/ngân hàng đã chuyển tiền để báo cáo giao dịch lừa đảo",
+      "Báo cáo và chặn tài khoản trên nền tảng hẹn hò để ngăn kẻ lừa đảo tạo tài khoản mới",
+      "Không để cảm giác xấu hổ ngăn cản việc trình báo — đây là hành vi phạm tội có tổ chức, không phải lỗi của nạn nhân"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "Đây chính xác là **lừa đảo tình cảm giả danh quân nhân (military romance scam)** — một trong những kịch bản lừa đảo phổ biến và kinh điển nhất trên các app hẹn hò/mạng xã hội quốc tế. Bạn không hề \"ngờ nghệch\" hay đáng trách gì cả, đây là thủ đoạn được xây dựng rất bài bản để đánh vào cảm xúc.\n\n## Vì sao chắc chắn là lừa đảo\n\n- **\"Yêu\" quá nhanh, quá nồng nhiệt**: tuyên bố yêu sau 3 tuần trò chuyện là dấu hiệu kinh điển của \"love bombing\" — kỹ thuật thao túng để tạo gắn kết cảm xúc nhanh, khiến nạn nhân mất cảnh giác.\n- **Không bao giờ gặp mặt trực tiếp được**: luôn có lý do (đi công tác, bị điều động khẩn cấp) để trì hoãn gặp gỡ thật.\n- **Ảnh \"quân nhân Mỹ\" lấy từ mạng**: đây gần như là bằng chứng 100% — quân nhân Mỹ thật không cần gửi ảnh để \"chứng minh\" mỗi lần xin tiền, và quân đội Mỹ **không bao giờ** yêu cầu quân nhân tự bỏ tiền túi hoặc vay tiền người quen để hoàn thành nhiệm vụ, đóng \"bảo hiểm\", hay mua vé máy bay — đó là lý do phi lý.\n- **Vòng xoáy xin tiền tăng dần**: hợp đồng quân sự → bảo hiểm → vé máy bay — mỗi lý do lại kéo dài thêm và nối tiếp nhau, là kịch bản chuẩn để \"vắt\" nạn nhân đến khi bị phát hiện.\n- **Tài khoản bị khóa ngay sau đó**: xác nhận đây là tài khoản giả, được lập ra chỉ để lừa đảo rồi biến mất.\n\nĐây cũng là mẫu lừa đảo cực kỳ phổ biến tại Việt Nam hiện nay, thường đi kèm yêu cầu chuyển khoản qua ví điện tử như MoMo với các lý do khẩn cấp, đánh vào lòng tin và tâm lý sợ hãi/thương cảm của nạn nhân.\n\n## Bạn nên làm gì tiếp theo\n\n1. **Ngừng ngay mọi liên lạc** với \"Jason Miller\" — kể cả khi hắn (hoặc tài khoản mới) quay lại xin lỗi, hứa trả tiền, hay tiếp tục xin thêm. Đây thường là bước tiếp theo của kịch bản (\"recovery scam\" — lừa lần 2 dưới danh nghĩa giúp lấy lại tiền đã mất).\n2. **Lưu lại toàn bộ bằng chứng**: chụp màn hình tin nhắn, các lần chuyển khoản MoMo, thông tin tài khoản nhận tiền, ảnh hắn gửi, thông tin app Zingle.\n3. **Trình báo Công an**: mang CMND/CCCD + bằng chứng đến công an phường/xã nơi bạn cư trú để làm đơn tố giác tội phạm (Điều 174 Bộ luật Hình sự — lừa đảo chiếm đoạt tài sản). Có thể trình báo trực tiếp hoặc gửi đơn.\n4. **Liên hệ MoMo**: gọi tổng đài CSKH MoMo (1900 54 54 41) báo cáo giao dịch lừa đảo — khả năng lấy lại tiền thấp nhưng cần thông báo để họ hỗ trợ điều tra và cảnh báo người dùng khác.\n5. **Báo cáo và chặn trên Zingle**: dù tài khoản đã bị khóa, vẫn nên báo cáo chính thức để nền tảng có dữ liệu ngăn kẻ lừa đảo tạo tài khoản mới.\n6. Thành thật mà nói: khả năng lấy lại được 25 triệu là rất thấp, vì tiền thường được rút/chuyển đi ngay lập tức qua nhiều tài khoản. Nhưng trình báo vẫn quan trọng để bảo vệ người khác và có hồ sơ nếu cơ quan chức năng phá được đường dây.\n\nBạn đã làm đúng khi dừng lại nhờ bạn bè cảnh báo. Đừng để cảm giác xấu hổ ngăn bạn trình báo — đây là hành vi phạm tội có tổ chức, không phải lỗi của bạn.",
+  "sources": [],
+  "latency_ms": 0
+}

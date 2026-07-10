@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-vacation_contract-03",
+  "rag_verdict": {
+    "strengths": [
+      "Nhận diện đúng nạn nhân đã mất 2,9 triệu qua chiêu trúng thưởng + phí bảo hiểm hợp đồng",
+      "Phủ đủ 4 ý chính: giả danh công ty du lịch, phí hoàn tất hợp đồng, tài khoản tên công ty khác, mất liên lạc + app bị xóa",
+      "Pattern khớp đúng loại vacation_contract",
+      "Khuyến nghị báo ngân hàng khóa tài khoản nhận, lưu bằng chứng, trình báo"
+    ],
+    "weaknesses": [
+      "Có lỗi nghiêm trọng: câu đầu bị lẫn ký tự Ả Rập ('số điện thoại غير được xác minh') làm hỏng chất lượng trình bày",
+      "Không cảnh báo nguy cơ 'bị lừa lần hai'",
+      "Không nêu số liệu/kênh trình báo cụ thể"
+    ],
+    "reasoning": "Nội dung phân tích đúng nhưng một câu bị lẫn ký tự Ả Rập (lỗi kỹ thuật) làm giảm chất lượng trình bày đáng kể. Trừ điểm.",
+    "score": 7.5
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Dẫn số liệu cụ thể (~2.500 đơn tố giác, 40 vụ án/525 bị can/2.600 tỷ) và nêu công ty thật tương tự 'Paradise Travel'",
+      "Giải thích mô hình trúng thưởng ảo → đóng phí trước, khuyến nghị báo ngân hàng AB phong tỏa khẩn",
+      "Cảnh báo rõ 'chiêu lừa lần 2', chủ động đề nghị soạn đơn trình báo",
+      "Đối chiếu sát tình huống"
+    ],
+    "weaknesses": [
+      "Không có nguồn web trích dẫn (sources=0)",
+      "Dài"
+    ],
+    "reasoning": "Vượt trội nhờ số liệu vụ án, liên hệ công ty thật tương tự và cảnh báo lừa lần hai. Điểm trừ là độ dài.",
+    "score": 9
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

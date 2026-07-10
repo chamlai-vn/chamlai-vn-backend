@@ -14,6 +14,7 @@ Anthropic Claude API.
 ```
 cmd/
   api/            # HTTP API entrypoint (+ swagger)
+  benchmark/      # CLI: end-to-end RAG-value benchmark (rag-hybrid vs generic AI+web search) — see cmd/benchmark package doc for -gen|-run|-judge|-report
   crawler/        # CLI: two-phase corpus build — see cmd/crawler package doc for -mode=generate|ingest
   seed/           # CLI: manual end-to-end smoke test of the RAG retrieval path
   migration/      # DB migration runner
@@ -42,14 +43,16 @@ internal/
   model/          # domain types (Document, Chunk — plain pgx-native structs, no gorm)
 pkg/util/
   corpusdoc/      # canonical 4-section corpus markdown: parse/serialize/slug — the crawl→ingest interchange type
-  eval/           # retrieval-quality metrics (Hit@K, MRR), dependency-free
+  eval/           # quality metrics, dependency-free: retrieval (Hit@K, MRR) + verdict confusion-matrix/FP-FN (cmd/benchmark)
   rag/            # document parsing + size-based chunker (used as ingest's sub-splitter for long sections)
   ulid/           # ULID generation
 config/           # config loading (top-level package `config`, not internal/)
 migrations/       # schema SQL, applied via cmd/migration
 data/
   corpus/         # generated/reviewed corpus markdown (git-ignored except .gitkeep + example.md)
-benchmark/        # retrieval benchmark design doc (README.md) — not yet run, see its own status section
+benchmark/        # retrieval-quality benchmark design doc (README.md) — not yet run, see its own status
+                  # section; a DIFFERENT axis from cmd/benchmark (end-to-end RAG-vs-generic-AI value),
+                  # which is built and lives entirely under cmd/benchmark, not here
 ```
 
 Note: `README.md`'s "Cấu trúc dự án" is kept roughly in sync with this; the list above is the
@@ -134,3 +137,8 @@ Git hooks via `lefthook.yml`. DB creds (local docker): user/pass/db all `chamlai
   vectors per document), doc-level dedupe in the retriever, and the enforced review gate — lives
   in the package doc comments of `pkg/util/corpusdoc`, `internal/scam/{ingest,enrich}`, and
   `internal/scam/retriever/hybrid.go`.
+- End-to-end RAG-value benchmark (rag-hybrid vs a generic AI + web search baseline, LLM-judged +
+  confusion-matrix scored) day-to-day usage is documented in `cmd/benchmark`'s package doc comment.
+  `-run`/`-judge` checkpoint one file per (case, arm)/(case) under the run directory — safe to kill
+  and resume. `cmd/benchmark`'s own tests (`websearch_test.go`) are the pattern to reuse for any
+  code that talks to the Anthropic SDK directly instead of through `internal/ai/llm.Service`.

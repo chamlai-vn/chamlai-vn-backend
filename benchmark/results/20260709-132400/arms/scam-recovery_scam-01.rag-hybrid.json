@@ -1,0 +1,28 @@
+{
+  "case_id": "scam-recovery_scam-01",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Giả danh cơ quan nhà nước (Trung tâm Bảo vệ Người tiêu dùng) liên lạc qua điện thoại không chính thức",
+      "Yêu cầu chuyển tiền phí xử lý trước khi 'lấy lại tiền bị lừa'",
+      "Số tiền phí xử lý (2 triệu) không quá lớn, tạo cảm giác dễ chuyển để dẫn dắt nạn nhân vào bẫy",
+      "Xuất hiện sau khi nạn nhân vừa bị lừa, tận dụng tâm lý tuyệt vọng muốn lấy lại tiền",
+      "Không có hình thức xác minh chính thức, chỉ là tin nhắn từ số điện thoại lạ"
+    ],
+    "matched_patterns": [
+      "recovery_scam - Giả danh cán bộ, luật sư lừa đảo 'lấy lại tiền treo' qua mạng xã hội (loại 2)",
+      "recovery_scam - Giả danh cơ quan nhà nước lừa lấy tiền 'hỗ trợ khôi phục tài sản bị lừa' (loại 3)",
+      "recovery_scam - Lừa đảo kép: Giả công ty luật hỗ trợ lấy lại tiền bị lừa sau lần thứ nhất (loại 5)"
+    ],
+    "recommended_actions": [
+      "Tuyệt đối không chuyển tiền cho số điện thoại hoặc tài khoản này dưới bất kỳ hình thức nào",
+      "Không cung cấp thông tin cá nhân, tài khoản ngân hàng, hoặc chi tiết lần bị lừa cho đối tượng này",
+      "Trình báo ngay tới Công an địa phương hoặc Phòng Cảnh sát Hình sự về vụ lừa đảo Vimo, cung cấp số điện thoại lạ và nội dung tin nhắn",
+      "Liên hệ trực tiếp với Trung tâm Bảo vệ Người tiêu dùng qua kênh chính thức (website, hotline công khai) để xác minh xem họ có liên hệ bạn hay không",
+      "Hiểu rằng cơ quan chính phủ không bao giờ yêu cầu chuyển tiền phí qua điện thoại hay tin nhắn để 'lấy lại tiền bị lừa'"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 8221
+}

@@ -1,0 +1,53 @@
+{
+  "case_id": "scam-impersonation_authority-04",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Mạo danh công an/cơ quan nhà nước, dựng kịch bản nạn nhân liên quan đến vụ án rửa tiền",
+      "Yêu cầu cài đặt ứng dụng giả mạo 'eGate_Security_2024' — thực chất là mã độc chiếm quyền điều khiển thiết bị",
+      "Yêu cầu cung cấp thông tin VNeID — vô cùng nguy hiểm",
+      "Yêu cầu chuyển tiền vào tài khoản chỉ định để 'chứng minh sự trong sạch'",
+      "Làm việc qua điện thoại/mạng xã hội thay vì gửi giấy triệu tập bằng văn bản"
+    ],
+    "matched_patterns": [
+      "Mạo danh công an + rửa tiền",
+      "Cài đặt ứng dụng giả mạo/mã độc chiếm quyền điều khiển thiết bị"
+    ],
+    "recommended_actions": [
+      "Nếu đã cài app 'eGate_Security_2024': tắt điện thoại ngay lập tức và không bật lại cho đến khi được chuyên gia kiểm tra",
+      "Liên hệ ngân hàng để tạm khóa tài khoản, đổi mật khẩu và yêu cầu dừng mọi giao dịch",
+      "Khôi phục cài đặt gốc (factory reset) điện thoại để xóa mã độc",
+      "Chặn số điện thoại +84 919 887 234 ngay",
+      "Không cung cấp thêm bất kỳ thông tin cá nhân, mã OTP, số tài khoản nào",
+      "Thu thập bằng chứng (nội dung tin nhắn, lịch sử cuộc gọi, số điện thoại kẻ lừa đảo)",
+      "Làm đơn tố giác tội phạm gửi đến cơ quan Công an gần nhất kèm theo bằng chứng",
+      "Liên hệ Cục An ninh mạng và phòng chống tội phạm sử dụng công nghệ cao (A05), Bộ Công an hoặc Phòng PA05 tại địa phương"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## 🚨 ĐÂY LÀ LỪA ĐẢO 100% — Em trai bạn vừa thoát khỏi một bẫy rất nguy hiểm!\n\nTình huống của em trai bạn (Minh) **khớp hoàn toàn** với một kịch bản lừa đảo đang hoành hành tại Việt Nam. Dưới đây là phân tích chi tiết:\n\n---\n\n## 🔍 TẠI SAO ĐÂY LÀ LỪA ĐẢO?\n\n### Dấu hiệu 1: Kịch bản \"mạo danh công an + rửa tiền\" là chiêu phổ biến nhất năm 2025\n\nHình thức mạo danh công an nổi lên là thủ đoạn lừa đảo **phổ biến nhất trong năm 2025**. Các đối tượng thường dựng kịch bản nạn nhân liên quan đến các vụ án hình sự, yêu cầu giữ liên lạc để tạo áp lực tâm lý, sau đó đòi \"chuyển tiền chứng minh trong sạch\" hoặc cài đặt phần mềm giả danh \"phục vụ điều tra\".\n\nKẻ gian giả danh cán bộ thuộc cơ quan công an, viện kiểm sát, tòa án gọi điện đe dọa nạn nhân liên quan đến các vụ đang điều tra như rửa tiền. Chúng sau đó yêu cầu nạn nhân chứng minh sự trong sạch bằng cách **chuyển tiền vào tài khoản chỉ định**, hoặc **tải ứng dụng giả mạo** để chiếm quyền điều khiển thiết bị, cung cấp thông tin đăng nhập tài khoản ngân hàng, mã OTP để rút tiền.\n\n---\n\n### Dấu hiệu 2: App \"eGate_Security_2024\" là mã độc — không phải phần mềm bảo vệ\n\nKịch bản lừa đảo gồm: mạo danh cán bộ cơ quan nhà nước yêu cầu người dùng tải và cài đặt ứng dụng giả mạo; ứng dụng giả mạo kết nối và nhận lệnh từ máy chủ của nhóm tấn công; nhóm tấn công có thể theo dõi, chiếm quyền điều khiển thiết bị, đánh cắp từ xa dữ liệu. **Ứng dụng này cho phép đối tượng lừa đảo chiếm quyền điều khiển điện thoại** (màn hình bị tối đen, không thao tác được, không tắt nguồn được).\n\nSau khi người dân cài đặt ứng dụng giả mạo được cấp quyền truy cập mức cao, bao gồm cả đọc dữ liệu cá nhân và **đọc tin nhắn chứa OTP**, kẻ xấu kiểm soát được ứng dụng tài khoản ngân hàng, sau đó thực hiện lệnh chuyển tiền trên điện thoại nạn nhân.\n\n---\n\n### Dấu hiệu 3: Thu thập dữ liệu VNeID — vô cùng nguy hiểm\n\nKẻ xấu thông báo rằng, để được hỗ trợ trực tuyến, không cần trực tiếp đến cơ quan công an, người dân cài đặt và sử dụng ứng dụng giả mạo từ đường dẫn được cung cấp. **Đây thực chất là ứng dụng giả mạo được tội phạm tạo ra để lừa đảo.** Sau khi người dân làm theo hướng dẫn, đối tượng lừa đảo có thể chiếm quyền điều khiển điện thoại và thực hiện các hành vi chiếm đoạt tài sản.\n\n---\n\n### Dấu hiệu 4: Yêu cầu chuyển tiền \"chứng minh trong sạch\" — đây là bước cuối của bẫy\n\nĐối tượng lừa đảo tạo dựng không gian phòng làm việc giả như trụ sở công an (treo khẩu hiệu, hình ảnh lực lượng Công an; nhiều người mặc trang phục Công an; giả mạo giấy tờ như giấy triệu tập, lệnh bắt...) rồi gọi video call thông báo nạn nhân liên quan đến vụ án hình sự đang điều tra (rửa tiền, mua bán ma túy...).\n\n**Lưu ý quan trọng:** Các cơ quan Nhà nước khi cần làm việc với người dân sẽ gửi Giấy mời bằng văn bản, **không làm việc qua điện thoại, mạng xã hội.**\n\n---\n\n## ✅ EM TRAI BẠN PHẢI LÀM GÌ NGAY BÂY GIỜ?\n\n### 🔴 Nếu đã cài app \"eGate_Security_2024\":\n1. **Tắt điện thoại ngay lập tức** và **không bật lại** cho đến khi được kiểm tra bởi chuyên gia\n2. **Liên hệ ngân hàng** để tạm khóa tài khoản, đổi mật khẩu và yêu cầu dừng mọi giao dịch\n3. **Khôi phục cài đặt gốc (factory reset)** điện thoại để xóa mã độc\n\n### 🟡 Nếu chưa cài app (may mắn như trường hợp của Minh):\n1. **Chặn số điện thoại** +84 919 887 234 ngay\n2. **Không cung cấp thêm** bất kỳ thông tin cá nhân, mã OTP, số tài khoản nào\n\n### 🟢 Trình báo cơ quan chức năng:\nLiên hệ **Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (A05), Bộ Công an**; hoặc tại địa phương, liên hệ **Phòng An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (PA05)**.\n\nThu thập bằng chứng: lưu lại tất cả thông tin liên quan (nội dung tin nhắn, lịch sử cuộc gọi, số điện thoại của kẻ lừa đảo), sau đó **làm đơn tố giác tội phạm gửi đến cơ quan Công an gần nhất** kèm theo bằng chứng đã thu thập.\n\n---\n\n## 📌 GHI NHỚ ĐỂ PHÒNG TRÁNH VỀ SAU\n\n| ❌ Dấu hiệu lừa đảo | ✅ Thực tế |\n|---|---|\n| Công an gọi điện thông báo bị điều tra | Công an làm việc bằng **giấy triệu tập** trực tiếp |\n| Yêu cầu cài app lạ để \"bảo vệ tài khoản\" | Không cơ quan nào yêu cầu cài app qua điện thoại |\n| Yêu cầu nhập OTP, mã PIN, VNeID vào app | Không bao giờ chia sẻ OTP cho bất kỳ ai |\n| Chuyển tiền vào \"tài khoản tạm giữ\" | Không có khái niệm \"tài khoản tạm giữ\" của cơ quan |\n\n**Em trai bạn đã rất sáng suốt khi dừng lại và hỏi bạn trước. Hãy đảm bảo báo cáo vụ này để bảo vệ những người khác!** 💪",
+  "sources": [
+    "https://danang.gov.vn/vi/w/canh-giac-voi-hinh-thuc-lua-dao-cai-phan-mem-gia-cong-dich-vu-cong-e-chiem-oat-tien?p_l_back_url=%2Fweb%2Fdng%2Fsearch%3Fq%3DCheap+fc+coins+Buyfc26coins.com+is+EA+Sports+official+for+FC+26+coins+A+reliable+source+for+buying+coins..kysj\u0026category=2711265\u0026category=392228\u0026tag=duy+xuy%C3%AAn\u0026tag=ki%E1%BB%83m+tra+th%E1%BB%B1c+t%E1%BA%BF\u0026delta=60\u0026start=4",
+    "https://vnexpress.net/bo-cong-an-neu-7-thu-doan-lua-dao-mang-pho-bien-4906637.html",
+    "https://traderviet.tv/t/cai-ung-dung-la-nguy-co-mat-sach-tien-trong-tai-khoan.116304/",
+    "https://doanhnhan.congly.vn/lua-dao-truc-tuyen-nam-2025-gay-thiet-hai-tren-6-000-ty-dong.html",
+    "https://congan.gialai.gov.vn/vi/news/canh-giac-canh-bao/canh-bao-nguy-co-bi-danh-cap-tai-san-tien-dien-tu-do-cai-dat-ung-dung-doc-hai-11110.html",
+    "https://chinhsachcuocsong.vnanet.vn/canh-giac-lua-dao-mao-danh-cong-an-yeu-cau-tai-cai-ung-dung-vneid-gia-mao/51523.html",
+    "https://div.gov.vn/nang-cao-ky-nang-cho-nguoi-tieu-dung-tai-chinh-tranh-nguy-co-bi-lua-dao-truc-tuyen",
+    "https://bocongan.gov.vn/bai-viet/canh-bao-toi-pham-lua-dao-bang-thu-doan-tong-tien-truc-tuyen-1764129007",
+    "https://vtv.vn/phap-luat/triet-pha-duong-day-rua-tien-lua-dao-xuyen-quoc-gia-hon-2000-ty-dong-20250224154127481.htm",
+    "https://cand.com.vn/Cong-nghe/thiet-hai-do-lua-dao-truc-tuyen-gay-ra-trong-nam-2024-len-den-18-900-ty-dong-i753474/",
+    "https://genk.vn/app-lua-dao-ho-tro-ke-khai-thue-khien-nguoi-dung-thiet-hai-nang-ne-20241206150330322.chn",
+    "https://naict.tttt.nghean.gov.vn/pckns/thuc-trang-va-xu-huong-lua-dao-truc-tuyen-tai-viet-nam-1378.html",
+    "https://special.nhandan.vn/phai-lam-gi-khi-bi-lua-dao-truc-tuyen/index.html",
+    "https://nhandan.vn/special/phai-lam-gi-khi-bi-lua-dao-truc-tuyen/index.html",
+    "https://chongluadao.vn/",
+    "https://lsvn.vn/tiep-tuc-canh-giac-cac-ung-dung-gia-mao-co-quan-nha-nuoc-de-lua-dao-a152008.html",
+    "https://upside.vn/san-gate-io",
+    "https://scam.vn/",
+    "https://congan.laichau.gov.vn/thu-doan-pham-toi/go-ngay-nhung-ung-dung-sau-truoc-khi-bi-mat-sach-tien-trong-tai-khoan-cua-ban-4028.html",
+    "https://congan.hanam.gov.vn/index.php/vi/news/thong-bao/gia-tang-toi-pham-lua-dao-tren-khong-gian-mang-4052.html"
+  ],
+  "latency_ms": 65485
+}

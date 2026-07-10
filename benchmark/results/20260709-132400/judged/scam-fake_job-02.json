@@ -1,0 +1,37 @@
+{
+  "case_id": "scam-fake_job-02",
+  "rag_verdict": {
+    "strengths": [
+      "Nêu đầy đủ và chính xác các dấu hiệu cảnh báo chính: tải app lạ, chuyển tiền ký cọc kích hoạt VIP, liên tục yêu cầu chuyển thêm tiền, số tài khoản cá nhân, mạo danh doanh nghiệp, hàng giả",
+      "Phân loại đúng chiêu trò fake_job và đề cập rõ cả 4 ý chính mà một câu trả lời tốt cần có",
+      "Khuyến nghị hành động rõ ràng, cụ thể và khả thi: báo công an với thông tin chi tiết, khóa tài khoản, liên hệ ngân hàng, lưu bằng chứng, cảnh báo người thân",
+      "Cấu trúc gọn gàng, dễ đọc, đi thẳng vào trọng tâm"
+    ],
+    "weaknesses": [
+      "Có lỗi chính tả nhỏ ('báo cánh sát')",
+      "Một gợi ý cuối ('kiểm tra credit score') hơi lạc lõng, không phù hợp lắm với bối cảnh Việt Nam và tình huống cụ thể",
+      "Không cảnh báo mạnh về nguy cơ mã độc/chiếm quyền thiết bị từ ứng dụng giả, không khuyến nghị xóa app và đổi mật khẩu ngân hàng ngay"
+    ],
+    "reasoning": "Câu trả lời A bao quát đầy đủ cả 4 ý chính, dấu hiệu cảnh báo chính xác và lời khuyên thực tế. Tuy nhiên thiếu chiều sâu về nguy cơ mã độc từ app giả và có vài chi tiết lạc lõng cùng lỗi chính tả nhỏ. Đây là câu trả lời chắc chắn, đúng trọng tâm nhưng không nổi bật.",
+    "score": 7.5
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Phân tích rất chi tiết và có chiều sâu, giải thích rõ toàn bộ quy trình bẫy tiền theo từng bước khớp với tình huống của Linh",
+      "Nêu bật nguy cơ nghiêm trọng của ứng dụng giả (mã độc, chiếm quyền thiết bị, đánh cắp thông tin ngân hàng) — điểm mà câu trả lời A bỏ lỡ",
+      "Khuyến nghị hành động cụ thể và ưu tiên đúng: xóa app, đổi mật khẩu/khóa thẻ ngân hàng ngay, lưu bằng chứng, báo công an, cảnh báo người thân",
+      "Bao quát đầy đủ cả 4 ý chính cần có",
+      "Bảng '3 nguyên tắc vàng' giúp phòng ngừa tương lai, có giá trị giáo dục cao",
+      "Giọng văn đồng cảm, trấn an nạn nhân"
+    ],
+    "weaknesses": [
+      "Một số dẫn chứng cụ thể (vụ 1,4 tỷ đồng, triệt phá Tam giác vàng tháng 1/2024) không thể kiểm chứng trong bối cảnh này, có nguy cơ là thông tin bịa/không chính xác",
+      "Hơi dài dòng, nhiều emoji và định dạng có thể gây rối, làm loãng thông điệp cốt lõi",
+      "Nhấn mạnh 'LỪA ĐẢO 100%' hơi tuyệt đối"
+    ],
+    "reasoning": "Câu trả lời B phân tích sâu sắc hơn, giải thích rõ cơ chế lừa đảo và đặc biệt nêu bật nguy cơ mã độc từ app giả cùng lời khuyên đổi mật khẩu ngân hàng — rất quan trọng và thực tế. Bao quát đầy đủ ý chính với giá trị giáo dục cao. Điểm trừ là hơi dài và có các dẫn chứng cụ thể khó kiểm chứng, nhưng tổng thể chất lượng giải thích và lời khuyên vượt trội hơn.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

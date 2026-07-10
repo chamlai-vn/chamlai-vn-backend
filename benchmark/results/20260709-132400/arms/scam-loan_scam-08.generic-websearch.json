@@ -1,0 +1,54 @@
+{
+  "case_id": "scam-loan_scam-08",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "SMS giả mạo ngân hàng đến từ số di động thông thường (0976548321) thay vì brandname chính thức, kèm đường link đáng ngờ",
+      "Ứng dụng giả mạo 'FastLoan Express' quảng cáo vay lãi suất thấp, giải ngân nhanh, không cần tài sản thế chấp để thu thập thông tin cá nhân",
+      "Yêu cầu chuyển tiền nhiều lần với các loại phí (phí xác minh danh tính, phí bảo hiểm hợp đồng...) kèm cam kết hoàn lại sau khi giải ngân",
+      "Yêu cầu chuyển tiền vào tài khoản Vietcombank cá nhân (0123456789) thay vì tài khoản doanh nghiệp chính thức",
+      "Thông tin cá nhân nhạy cảm đã bị đánh cắp (CMND, selfie, thông tin tài khoản ngân hàng) có thể bị lợi dụng để vay tiền tại nơi khác"
+    ],
+    "matched_patterns": [
+      "SMS giả mạo ngân hàng",
+      "Ứng dụng vay tiền giả mạo",
+      "Thu phí nhiều lần (phí làm hồ sơ, phí bảo hiểm, phí xác minh)",
+      "Chuyển tiền vào tài khoản cá nhân"
+    ],
+    "recommended_actions": [
+      "Trình báo ngay cho Cơ quan Cảnh sát điều tra hoặc Công an địa phương, cung cấp đầy đủ bằng chứng: tin nhắn SMS, số điện thoại 0917223456, ảnh chụp ứng dụng FastLoan Express, biên lai chuyển tiền",
+      "Liên hệ Vietcombank để yêu cầu phong tỏa và truy vết tài khoản nhận tiền lừa đảo (0123456789)",
+      "Liên hệ ngân hàng của nạn nhân để theo dõi các giao dịch bất thường",
+      "Đổi mật khẩu Internet Banking ngay lập tức và kích hoạt xác thực 2 lớp",
+      "Theo dõi sao kê tài khoản hàng ngày để phát hiện giao dịch lạ",
+      "Gỡ cài đặt ứng dụng FastLoan Express và cân nhắc cài đặt lại smartphone để loại bỏ phần mềm độc hại",
+      "Liên hệ đường dây nóng 113 hoặc Phòng An ninh mạng: 069.219.4053 để được hỗ trợ"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## ✅ KẾT LUẬN: ĐÂY LÀ LỪA ĐẢO 100% — Rất Tinh Vi và Nguy Hiểm!\n\nEm trai bạn đã trở thành nạn nhân của một vụ lừa đảo có tổ chức, được thực hiện bài bản qua nhiều giai đoạn. Dưới đây là phân tích chi tiết:\n\n---\n\n## 🔴 Các Dấu Hiệu Lừa Đảo Rõ Ràng\n\n### 1. SMS Giả Mạo Ngân Hàng Qua Số Điện Thoại Lạ\nCác ngân hàng thường **không yêu cầu khách hàng cung cấp thông tin cá nhân qua các kênh như SMS, email, phần mềm chat**. Do đó, việc xuất hiện các tin nhắn có nội dung này là điều bất thường, cần được xem xét một cách cẩn thận.\n\nĐặc biệt, tin nhắn đến từ một **số di động thông thường (0976548321)** — không phải từ brandname chính thức của ngân hàng. Các ngân hàng uy tín **không gửi SMS kèm đường link**; các tin nhắn có đường link đều là giả mạo.\n\n### 2. Ứng Dụng Giả Mạo \"FastLoan Express\"\nKẻ lừa đảo sẽ **tạo ra các ứng dụng giả mạo, giống như các ứng dụng vay tiền hợp pháp**, để thu thập thông tin cá nhân của người dùng.\n\nCác ứng dụng kiểu này thường **quảng cáo gói vay với lãi suất thấp, giải ngân nhanh, không cần tài sản thế chấp**. Tuy nhiên, sau khi người dùng cung cấp thông tin cá nhân và cài đặt ứng dụng, họ bị yêu cầu chuyển tiền để \"xác minh tài khoản\" hoặc bị đe dọa nếu không trả nợ.\n\n### 3. Kịch Bản Thu Phí Nhiều Lần — Chiêu Bài Kinh Điển\nSau khi thực hiện đầy đủ các bước, đối tượng yêu cầu người vay **chuyển tiền các loại phí như phí làm hồ sơ, phí hỗ trợ, phí bảo hiểm tiền gửi**... và cam kết hoàn lại toàn bộ tiền sau khi giải ngân. Đối tượng **liên tục đưa ra nhiều lý do** để yêu cầu người vay phải chuyển tiền, qua đó chiếm đoạt tiền.\n\nĐây đúng là những gì xảy ra với em trai bạn: phí \"xác minh danh tính\" → phí \"bảo hiểm hợp đồng\" → và nếu không dừng lại, chắc chắn sẽ có thêm phí thứ ba.\n\n### 4. Chuyển Tiền Vào Tài Khoản Cá Nhân\nKẻ gian yêu cầu khách hàng **nộp trước một khoản tiền/phí** và hứa sẽ hoàn lại khi giải ngân/nhận ưu đãi. Sau khi nhận được tiền, kẻ gian **chặn toàn bộ liên lạc** với khách hàng nhằm chiếm đoạt tài sản.\n\nViệc yêu cầu chuyển tiền vào tài khoản **Vietcombank cá nhân (0123456789)** — thay vì tài khoản doanh nghiệp của ngân hàng — là dấu hiệu lừa đảo không thể chối cãi.\n\n---\n\n## ⚠️ Nguy Hiểm Tiềm Ẩn Chưa Kết Thúc\n\nViệc mất 4,3 triệu đồng chỉ là thiệt hại trực tiếp. Nguy hiểm lớn hơn là **thông tin cá nhân đã bị đánh cắp** (CMND, selfie, tài khoản ngân hàng):\n\n**Thông tin cá nhân bị đánh cắp có thể được sử dụng để đăng ký vay tiền tại các tổ chức khác** mà nạn nhân không hề hay biết.\n\nMột số kẻ lừa đảo có thể **sử dụng thông tin cá nhân** như số CMND, số điện thoại để vay tiền online.\n\n---\n\n## ✅ Em Trai Bạn Cần Làm Ngay Những Việc Này\n\n### 🚨 Bước 1: Trình Báo Công An\nCần **trình báo cho Cơ quan Cảnh sát điều tra tội phạm hoặc Công an địa phương** nơi cư trú để đăng ký vụ việc và nộp hồ sơ bằng chứng liên quan.\n\nLưu lại tất cả bằng chứng: tin nhắn SMS, số điện thoại của \"nhân viên Thạo\" (0917223456), ảnh chụp ứng dụng FastLoan Express, biên lai chuyển tiền.\n\n### 🏦 Bước 2: Liên Hệ Ngân Hàng Ngay\nLiên hệ **ngân hàng hoặc công ty tài chính mà kẻ lừa đảo mạo danh** để thông báo vụ việc và yêu cầu hỗ trợ.\n\n- Liên hệ **Vietcombank** (nơi tài khoản nhận tiền lừa đảo) để yêu cầu phong tỏa, truy vết tài khoản.\n- Liên hệ **ngân hàng của em trai bạn** để theo dõi các giao dịch bất thường.\n\n### 🔒 Bước 3: Bảo Mật Tài Khoản Ngân Hàng Ngay Lập Tức\nVì đã cung cấp thông tin tài khoản ngân hàng, em trai bạn cần:\n- **Đổi mật khẩu Internet Banking** ngay lập tức\n- **Kích hoạt xác thực 2 lớp** nếu chưa có\n- **Theo dõi sao kê** hàng ngày để phát hiện giao dịch lạ\n\n### 📱 Bước 4: Gỡ Cài Đặt Ứng Dụng \u0026 Kiểm Tra Thiết Bị\nVới thiết bị vô tình cài đặt phần mềm không rõ nguồn gốc, **việc gỡ cài đặt phần mềm hoặc cài đặt lại smartphone vô cùng cần thiết**.\n\n### 📞 Đường Dây Hỗ Trợ\nCó thể liên hệ **đường dây nóng 113** hoặc **Phòng An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao: 069.219.4053**.\n\n---\n\n## 📌 Bài Học Quan Trọng Để Nhớ\n\n\u003e **Không có ngân hàng hợp pháp nào yêu cầu bạn nộp phí trước để được vay tiền.** Đây luôn là dấu hiệu lừa đảo số một.\n\nKhả năng lấy lại tiền phụ thuộc vào việc **trình báo nhanh chóng** và cung cấp đủ bằng chứng với cơ quan chức năng. Tuy nhiên, việc này có thể khó khăn nếu kẻ lừa đảo đã chuyển tiền đi. Vì vậy hãy hành động **càng sớm càng tốt!**",
+  "sources": [
+    "https://bidv.com.vn/bidv/ca-nhan/thong-bao/thay-doi-mang-luoi/canh-bao-lua-dao-sms-bidv",
+    "https://ncsgroup.vn/tai-dien-tinh-trang-mao-danh-ngan-hang-de-lua-dao/",
+    "https://www.aia.com.vn/vi/song-khoe/loi-khuyen/tai-chinh/bi-lua-dao-vay-tien-online-phai-lam-sao.html",
+    "https://congan.hungyen.gov.vn/canh-giac-voi-cac-thu-doan-gia-mao-tin-nhan-sms-ngan-hang-de-lua-dao-chiem-doat-tai-san-c230418.html",
+    "https://congan.quangngai.gov.vn/danh-muc-san-pham/-tin-tuc-su-kien/canh-bao-thu-doan-gia-mao-don-hang-qua-tin-nhan-sms.html",
+    "https://vnba.org.vn/vi/vietcombank-canh-bao-lua-dao-mao-danh-sms-thong-bao-diem-thuong-het-han-22421.htm",
+    "https://congan.nghean.gov.vn/tin-tuc-su-kien/phong-chong-lua-dao-truc-tuyen/202511/can-trong-tin-nhan-lua-dao-co-the-khien-ban-mat-sach-tien-trong-tai-khoan-ngan-hang-1052442/index.htm",
+    "https://moit.gov.vn/tin-tuc/bao-chi-voi-nguoi-dan/canh-bao-cac-thu-doan-lua-dao-chiem-doat-tien-trong-tai-khoan-ngan-hang-dip-cuoi-nam.html",
+    "https://zalopay.vn/bi-lua-vay-tien-qua-app-phai-lam-sao-7076",
+    "https://www.agribank.com.vn/vn/ve-agribank/tin-tuc-su-kien/tin-ve-agribank/agribank-thong-bao/canh-giac-dinh-bay-cac-hinh-thuc-mao-danh-ngan-hang",
+    "https://eit.edu.vn/fast-loan.html",
+    "https://vay888.net/fast-loan/",
+    "https://fastmoneyevnfc.com/canh-bao-lua-dao-tren-mang-dung-de-sap-bay-ke-gian-",
+    "https://visala.info/fast-loan-vay-tien/",
+    "https://tima.vn/tin-tuc/vay-tien-fastmoney-3269.html",
+    "https://www.momo.vn/tin-tuc/thong-bao/fastmoney-canh-bao-thu-doan-mao-danh-lua-dao-4090",
+    "https://fastmoneyevnfc.com/fastmoney-canh-bao-thu-doan-mao-danh-lua-dao-nguoi-dung",
+    "https://www.facebook.com/nganhangbanviet/posts/sme-fast-loan-vay-v%E1%BB%91n-nhanh-trong-v%C3%B2ng-03-ng%C3%A0ydoanh-nghi%E1%BB%87p-b%E1%BA%A1n-%C4%91ang-c%E1%BA%A7n-v%E1%BB%91n-%C4%91%E1%BB%83-m/3004477973003915/",
+    "https://ufa.edu.vn/tag/cach-vay-tien-fast-loan",
+    "https://fastmoneyevnfc.com/canh-bao-lua-dao-mao-danh-fastmoney"
+  ],
+  "latency_ms": 64938
+}

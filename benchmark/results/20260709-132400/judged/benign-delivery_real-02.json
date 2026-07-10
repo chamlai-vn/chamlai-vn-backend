@@ -1,0 +1,30 @@
+{
+  "case_id": "benign-delivery_real-02",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận đúng (green) — nhận diện đây là thông báo giao hàng hợp lệ, không báo động giả",
+      "Khuyến nghị an toàn, súc tích: đối chiếu đơn qua app Shopee/GHN chính thức, kiểm tra shipper trước khi thanh toán",
+      "Không gây lo lắng thừa cho một tình huống vô hại"
+    ],
+    "weaknesses": [
+      "Không nêu điểm mấu chốt vì sao an toàn: link dẫn đúng tên miền chính thức track.ghn.vn",
+      "Không nhắc dấu hiệu cần cảnh giác nếu tin nhắn sau đòi phí/OTP"
+    ],
+    "reasoning": "Đúng và gọn cho một tình huống hợp lệ, khuyến nghị hợp lý. Thiếu giải thích vì sao link an toàn (đúng tên miền).",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Kết luận đúng (không lừa đảo, độ tin cậy cao) và giải thích rõ vì sao: link đúng tên miền chính thức track.ghn.vn, khớp đơn hàng thật",
+      "Nêu rõ các dấu hiệu lừa đảo KHÔNG có (không đòi phí/OTP/tên miền giả) — giúp người dùng tự nhận diện",
+      "Trích nguồn GHN, khuyên đối chiếu qua app thay vì SMS"
+    ],
+    "weaknesses": [
+      "Dài hơn mức cần cho một tình huống rõ ràng vô hại"
+    ],
+    "reasoning": "Đúng, giải thích cơ sở kết luận rõ ràng và có tính giáo dục. Cân bằng với RAG; nhỉnh nhẹ nhờ chỉ rõ vì sao an toàn.",
+    "score": 8
+  },
+  "preferred": "tie",
+  "order_consistent": true
+}

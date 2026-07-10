@@ -1,0 +1,33 @@
+{
+  "case_id": "scam-recovery_scam-05",
+  "rag_verdict": {
+    "strengths": [
+      "Trả lời đúng câu hỏi: đây là lừa đảo (red); phủ đủ 4 ý chính: recovery scam, phí xác minh trước, cá nhân không phải cơ quan, tận dụng nạn nhân cũ",
+      "Pattern khớp đúng loại recovery_scam",
+      "Khuyến nghị trình báo cả vụ Finvest lẫn cuộc gọi này, không tin lời hứa lấy lại 100%"
+    ],
+    "weaknesses": [
+      "Có lỗi nghiêm trọng: câu đầu bị lẫn ký tự Hàn/Trung ('Người낯陌生tự xưng') làm hỏng chất lượng trình bày",
+      "Không cung cấp kênh trình báo cụ thể",
+      "Không nhắc liên hệ ngân hàng phong tỏa vụ Finvest gốc"
+    ],
+    "reasoning": "Nội dung phân tích đúng, nhưng một câu bị lẫn ký tự nước ngoài (lỗi kỹ thuật) làm giảm chất lượng trình bày đáng kể. Trừ điểm.",
+    "score": 7
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Chỉ rõ không tồn tại 'Quỹ Bảo vệ Nhà đầu tư' thu phí, giải thích mô hình double scam",
+      "Nêu nguyên tắc thu hồi tài sản phải qua công an/tòa án, không thu phí trước",
+      "Quy trình khắc phục gồm liên hệ ngân hàng phong tỏa, kênh 156",
+      "Trình bày gọn, trấn an"
+    ],
+    "weaknesses": [
+      "Không có nguồn web trích dẫn (sources=0)",
+      "Hơi dài so với câu hỏi ngắn"
+    ],
+    "reasoning": "Chính xác, giải thích mô hình và có bước liên hệ ngân hàng phong tỏa vụ gốc, trình bày sạch. Trừ điểm nhẹ vì không có nguồn.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

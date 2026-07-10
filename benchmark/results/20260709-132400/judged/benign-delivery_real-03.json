@@ -1,0 +1,31 @@
+{
+  "case_id": "benign-delivery_real-03",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận đúng (green) và không thổi phồng — nhận ra đây là câu hỏi tư vấn, không phải scam đang diễn ra",
+      "Khuyến nghị đúng: kiểm tra qua app/hotline chính thức ViettelPost, không chuyển tiền/cung cấp thông tin cho tới khi xác minh",
+      "Nêu khả năng hợp lệ (quên hoặc người khác gửi)"
+    ],
+    "weaknesses": [
+      "Chưa hướng dẫn cụ thể cách xác minh (tra mã vận đơn ở đâu)",
+      "Không nêu các dấu hiệu để phân biệt tin thật/giả"
+    ],
+    "reasoning": "Đúng và bình tĩnh cho người dùng đang phân vân. Thiếu hướng dẫn xác minh cụ thể.",
+    "score": 7.5
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Liệt kê rõ các lý do hợp lệ và các dấu hiệu đáng ngờ để người dùng tự phân biệt",
+      "Hướng dẫn xác minh cụ thể: tra mã vận đơn trên app/website chính thức, không bấm link trong SMS",
+      "Chủ động đề nghị phân tích thêm nếu có nguyên văn tin nhắn"
+    ],
+    "weaknesses": [
+      "Hơi thiên về cảnh giác cho một tình huống mà KeyFacts cho là vô hại",
+      "Dài"
+    ],
+    "reasoning": "Hữu ích hơn cho người dùng đang bối rối nhờ hướng dẫn xác minh cụ thể và bộ dấu hiệu phân biệt.",
+    "score": 8
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

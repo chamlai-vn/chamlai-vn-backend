@@ -1,0 +1,31 @@
+{
+  "case_id": "scam-impersonation_authority-09",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Giả danh cơ quan Cảnh sát Điều tra (impersonation_authority)",
+      "Yêu cầu cài đặt ứng dụng lạ 'VneID Pro Verify' (khác ứng dụng VNeID chính thức)",
+      "Thông báo nạn nhân liên quan đến vụ rửa tiền để tạo áp lực tâm lý",
+      "Đe dọa khóa tài khoản nếu không làm trong 2 giờ (tạo cấp bách)",
+      "Yêu cầu xác minh/cập nhật CCCD qua ứng dụng (lấy thông tin nhạy cảm)",
+      "Số điện thoại 08-4366-5592 không phải số chính thức của cơ quan công an"
+    ],
+    "matched_patterns": [
+      "impersonation_authority - Giả danh Công an, Viện Kiểm sát để chiếm đoạt tài sản",
+      "impersonation_authority - Giả danh công an yêu cầu chuyển tiền để 'phục vụ điều tra'",
+      "impersonation_authority - Giả danh công an với yêu cầu cài VNeID giả"
+    ],
+    "recommended_actions": [
+      "Ngắt cuộc gọi ngay lập tức, không tiếp tục liên lạc với số này",
+      "KHÔNG cài đặt 'VneID Pro Verify' hoặc bất kỳ ứng dụng nào được yêu cầu qua điện thoại",
+      "Liên hệ trực tiếp Công an tỉnh Bà Rịa - Vũng Tàu qua đường dây chính thức để xác minh thông tin (không sử dụng số điện thoại từ cuộc gọi vừa nhận)",
+      "Không cung cấp thông tin cá nhân, CCCD, số tài khoản, mã OTP cho bất kỳ ai qua điện thoại",
+      "Giữ bình tĩnh, cơ quan công an sẽ gửi giấy mời/triệu tập hợp pháp chính thức nếu thực sự cần làm việc",
+      "Báo cáo cuộc gọi lừa đảo cho cơ quan công an địa phương hoặc trung tâm cảnh báo lừa đảo",
+      "Kiểm tra tài khoản ngân hàng để phát hiện hoạt động bất thường, nếu cần hãy liên hệ ngân hàng để tăng cường bảo mật"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 7709
+}

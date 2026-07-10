@@ -1,0 +1,54 @@
+{
+  "case_id": "scam-ecommerce_scam-02",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Lập trang Facebook giả mạo hãng hàng không hoặc công ty du lịch uy tín",
+      "Giá vé rẻ bất thường để nhử mồi, kèm thông điệp 'vé hot, giá siêu hời, số lượng có hạn'",
+      "Yêu cầu chuyển khoản gấp để 'giữ chỗ' với lý do vé chỉ áp dụng trong thời gian ngắn",
+      "Cắt đứt liên lạc sau khi nhận tiền hoặc tiếp tục yêu cầu chuyển thêm tiền để 'mở khóa vé'",
+      "Cung cấp mã vé giả hoặc mã đặt chỗ không tồn tại",
+      "Tạo uy tín giả tạo bằng hình ảnh phòng vé, giấy phép kinh doanh giả, lượt tương tác ảo"
+    ],
+    "matched_patterns": [
+      "Lập fanpage/website giả mạo hãng hàng không, công ty du lịch để bán vé máy bay giả",
+      "Bán vé máy bay giá rẻ bất thường trên mạng xã hội (Facebook, Zalo, TikTok)",
+      "Yêu cầu chuyển khoản nhanh để giữ chỗ",
+      "Cắt đứt liên lạc hoặc yêu cầu chuyển tiền thêm sau khi nhận tiền lần đầu"
+    ],
+    "recommended_actions": [
+      "Chụp màn hình toàn bộ tin nhắn, số điện thoại (0932.654.871), tên tài khoản Momo (Nguyễn Văn Hùng), và lịch sử giao dịch Momo trước khi bị xóa",
+      "Liên hệ MoMo qua số CSKH 1900 5454 41 để báo cáo giao dịch lừa đảo và yêu cầu hỗ trợ kiểm tra, khóa tài khoản liên quan",
+      "Đến công an phường/xã gần nhất hoặc Phòng Cảnh sát hình sự tỉnh/thành phố nơi cư trú để nộp đơn trình báo kèm theo toàn bộ bằng chứng",
+      "Chuẩn bị hồ sơ trình báo gồm: đơn trình báo công an, bản sao công chứng CMND/CCCD, và các chứng cứ (ảnh chụp màn hình, video, ghi âm...)",
+      "Tuyệt đối không chuyển thêm tiền nếu có ai liên hệ yêu cầu chuyển thêm với bất kỳ lý do nào, kể cả người tự xưng là 'hỗ trợ thu hồi tiền'",
+      "Lần sau chỉ mua vé qua website chính thức của hãng hàng không hoặc đại lý uy tín được cấp phép; không cung cấp mã OTP hoặc mật khẩu ngân hàng cho bất kỳ ai"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## ✅ KẾT LUẬN: ĐÂY LÀ LỪA ĐẢO — 100% CHẮC CHẮN\n\nTình huống bạn mô tả là một **vụ lừa đảo điển hình, đã được cơ quan Công an nhiều tỉnh thành cảnh báo rộng rãi**. Dưới đây là phân tích chi tiết:\n\n---\n\n## 🚩 TẠI SAO ĐÂY LÀ LỪA ĐẢO?\n\nTình huống của bạn khớp **hoàn toàn** với thủ đoạn đã được ghi nhận:\n\n**1. Lập trang Facebook giả mạo:**\nCác đối tượng thường lập fanpage, website giả mạo các hãng hàng không, công ty du lịch uy tín hoặc đăng tải quảng cáo bán vé máy bay giá rẻ trên Facebook, Zalo, TikTok nhằm thu hút người có nhu cầu mua vé.\n\n**2. Giá vé rẻ bất thường để nhử mồi:**\nCác đối tượng thường đăng tải quảng cáo vé máy bay giá rẻ bất thường kèm những thông điệp hấp dẫn như \"vé hot, giá siêu hời, số lượng có hạn\", \"vé thanh lý phút chót giá rẻ bất ngờ\".\n\n**3. Yêu cầu chuyển khoản gấp để \"giữ chỗ\":**\nChiêu thức phổ biến là các đối tượng yêu cầu khách chuyển khoản nhanh để \"giữ chỗ\", với lý do vé giá rẻ chỉ áp dụng trong thời gian ngắn.\n\n**4. Cắt đứt liên lạc ngay sau khi nhận tiền:**\nSau khi nhận được tiền, nhóm lừa đảo hoặc cắt đứt liên lạc, hoặc tiếp tục báo lỗi giao dịch, yêu cầu khách chuyển thêm tiền để \"mở khóa vé\" hay \"lấy lại tiền đặt cọc\". Cuối cùng, khách nhận được mã vé giả hoặc mã đặt chỗ không tồn tại.\n\n**5. Tạo uy tín giả tạo:**\nĐể tạo lòng tin, các đối tượng sử dụng hình ảnh phòng vé, giấy phép kinh doanh giả, thậm chí thuê chạy quảng cáo, tạo lượt tương tác \"ảo\", có \"tích xanh\" khiến nhiều người nhầm tưởng là đại lý chính thống.\n\n---\n\n## 🆘 BẠN CẦN LÀM GÌ NGAY BÂY GIỜ?\n\n### Bước 1: Thu thập bằng chứng\nThu thập tất cả các thông tin như số điện thoại, tài khoản ngân hàng lừa chuyển khoản, nội dung tin nhắn trao đổi với kẻ xấu… để làm chứng cứ tố giác. Chuẩn bị đầy đủ hồ sơ gồm: Đơn trình báo công an; Chứng minh thư nhân dân/Căn cước công dân của bị hại (bản sao công chứng); Chứng cứ kèm theo để chứng minh (video, hình ảnh, ghi âm...).\n\n\u003e ✏️ **Hành động ngay:** Chụp màn hình toàn bộ tin nhắn, số điện thoại (0932.654.871), tên tài khoản Momo (Nguyễn Văn Hùng), và lịch sử giao dịch Momo trước khi chúng bị xóa.\n\n### Bước 2: Liên hệ MoMo để báo cáo\nLiên hệ với MoMo thông báo về việc bị lừa chuyển khoản, bằng cách liên hệ qua số điện thoại CSKH **(1900 5454 41)**. Khi MoMo tiếp nhận báo cáo về hành vi lừa đảo, MoMo sẽ hỗ trợ bạn kiểm tra nguồn gốc giao dịch bất thường và khóa tài khoản Ví MoMo của bạn.\n\nMoMo sẽ phối hợp với đơn vị điều tra khi nhận được yêu cầu cung cấp các dữ liệu liên quan để phục vụ cho quá trình điều tra.\n\n### Bước 3: Trình báo Công an\nKhi phát hiện có dấu hiệu lừa đảo, hoặc nghi ngờ bị chiếm đoạt tài sản, người dân cần nhanh chóng lưu giữ bằng chứng, tin nhắn, sao kê chuyển tiền và trình báo cơ quan công an để được hỗ trợ, xử lý theo quy định pháp luật.\n\n\u003e 🚔 Đến **công an phường/xã gần nhất** hoặc **Phòng Cảnh sát hình sự** tỉnh/thành phố nơi bạn cư trú để nộp đơn trình báo.\n\n---\n\n## ⚠️ LƯU Ý QUAN TRỌNG: ĐỪNG ĐỂ BỊ LỪA THÊM\n\nSau khi nạn nhân chuyển tiền lần một, chúng sẽ thông báo: \"Bạn ghi sai nội dung chuyển khoản, nên hệ thống không xuất vé được\" và yêu cầu chuyển tiền lại lần hai để nhận vé, hứa hẹn sẽ hoàn lại khoản tiền đầu tiên. Nếu có ai (kể cả người tự xưng là \"hỗ trợ thu hồi tiền\") liên hệ và yêu cầu bạn chuyển thêm tiền — **đó cũng là lừa đảo tiếp theo, hãy từ chối ngay.**\n\n---\n\n## 📌 BÀI HỌC CHO LẦN SAU\n\nNgười dân cần nâng cao cảnh giác khi đặt vé máy bay trực tuyến; chỉ nên mua vé qua website chính thức của các hãng hàng không hoặc đại lý uy tín được cấp phép hoạt động.\n\nTuyệt đối không chuyển tiền nhiều lần theo yêu cầu của người lạ; không truy cập đường link không rõ nguồn gốc; không cung cấp mã OTP, mật khẩu ngân hàng cho bất kỳ ai dưới mọi hình thức.\n\n---\n\nRất tiếc vì bạn đã bị mất 300.000 đồng. Dù số tiền không lớn, việc trình báo công an vẫn rất quan trọng vì nó giúp cơ quan chức năng truy vết và ngăn chặn đối tượng lừa thêm người khác. Bạn hoàn toàn không có lỗi — đây là thủ đoạn tinh vi được nhiều người mắc phải.",
+  "sources": [
+    "https://cafef.vn/canh-bao-nong-den-nhung-ai-hay-dat-ve-may-bay-gia-re-qua-facebook-zalo-188260520205743423.chn",
+    "https://congan.quangtri.gov.vn/canh-bao-thu-doan-lua-dao-ban-ve-may-bay-gia-re-qua-mang/",
+    "https://tapchihangkhong.vn/dat-ve-may-bay-online-nguoi-phu-nu-sap-bay-lua-dao-132-trieu-dong-5369.html",
+    "https://congan.tayninh.gov.vn/vi/chi-tiet-tin-tuc?Id=267487",
+    "https://congan.quangbinh.gov.vn/canh-bao-thu-doan-lua-dao-ban-ve-may-bay-gia-re-qua-mang/",
+    "https://thuehaiquan.tapchikinhtetaichinh.vn/lua-dao-ban-ve-may-bay-gia-re-lai-no-ro-tren-cac-nen-tang-mang-xa-hoi-126301.html",
+    "https://thanhnien.vn/lua-dao-mao-danh-chieu-cu-van-lua-duoc-nguoi-moi-185250815163045713.htm",
+    "https://nhandan.vn/canh-giac-voi-thu-doan-lua-dao-mua-ve-may-bay-gia-re-trong-dip-tet-post932395.html",
+    "https://giadinh.suckhoedoisong.vn/nhung-ai-dang-san-ve-may-bay-tet-gia-re-tren-facebook-phai-doc-ngay-keo-tien-mat-tat-mang-172251219180108802.htm",
+    "https://congan.camau.gov.vn/ch9/388-Chieu-lua-ban-ve-may-bay-gia-re-tren-facebook-cua-co-gai-tre.html",
+    "https://cafef.vn/dang-dinh-chuyen-tien-vao-tai-khoan-ncb-100834464998-cho-shipper-mot-dong-bat-thuong-tren-momo-khien-co-gai-quay-xe-khan-cap-188251114150117066.chn",
+    "https://www.momo.vn/tin-tuc/khuyen-mai/nhan-canh-bao-phat-hien-nguy-co-lua-dao-khi-8568",
+    "https://www.momo.vn/hoi-dap/nhan-biet-dau-hieu-lua-dao-nhu-the-nao",
+    "https://www.momo.vn/tin-tuc/thong-bao/momo-co-chuc-nang-chan-giao-dich-bat-thuong-bao-8059",
+    "https://ghn.vn/blogs/tip-ban-hang/cach-lay-lai-tien-tu-momo-khi-chuyen-nham",
+    "https://luatthaiduonghanoi.com/dich-vu-phap-ly/dan-su-hop-dong-nhung-sai-lam-khien-ban-mat-trang/cach-lay-lai-tien-khi-bi-lua-chuyen-khoan-momo/",
+    "https://www.momo.vn/hoi-dap/momo-ho-tro-xu-ly-lua-dao-va-lay-cap-tai-khoan-nhu-the-nao",
+    "https://www.momo.vn/tin-tuc/thong-bao/canh-bao-bi-lua-lien-ket-dich-vu-5325",
+    "https://daidoanket.vn/canh-giac-lua-dao-qua-vi-momo-va-the-tin-dung-10305818.html",
+    "https://congan.nghean.gov.vn/thong-tin-chuyen-de/canh-bao-toi-pham/202604/canh-bao-thu-doan-loi-dung-chuyen-tiep-cuoc-goi-de-chiem-doat-tai-khoan-momo-1056372/index.htm"
+  ],
+  "latency_ms": 74985
+}

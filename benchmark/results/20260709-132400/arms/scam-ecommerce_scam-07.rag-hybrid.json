@@ -1,0 +1,35 @@
+{
+  "case_id": "scam-ecommerce_scam-07",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Yêu cầu chuyển tiền vào tài khoản cá nhân thay vì tài khoản chính thức của công ty",
+      "Tạo áp lực thời gian: yêu cầu chuyển khoản trong 30 phút",
+      "Giá tour bất thường rẻ so với thị trường (1.299.000đ cho 3 ngày 2 đêm Nha Trang)",
+      "Chỉ còn 2 chỗ để tạo tâm lý khẩn trương",
+      "Yêu cầu cung cấp và nhập mã OTP (dấu hiệu lừa đảo trực tiếp)",
+      "Hứa hẹn link app, thông tin chi tiết chỉ sau khi chuyển tiền",
+      "Không cung cấp thông tin xác thực của công ty (địa chỉ, SĐT chính thức, website)",
+      "Tên người nhận tài khoản là Trần Văn Minh (tên cá nhân) thay vì tên công ty"
+    ],
+    "matched_patterns": [
+      "Giả mạo công ty du lịch, khách sạn bằng fanpage/website giả, yêu cầu đặt cọc trước qua tài khoản cá nhân",
+      "Giả mạo website/fanpage khách sạn, tour du lịch để lừa đặt cọc trực tuyến",
+      "Giả mạo fanpage khách sạn, tour du lịch để lừa đặt cọc",
+      "Giả mạo đại lý tour, vé máy bay qua fanpage, website lừa đảo trong mùa du lịch cao điểm",
+      "Lừa đảo du lịch trực tuyến mùa cao điểm: giả mạo biên lai, tour giá rẻ, visa đảm bảo, deepfake"
+    ],
+    "recommended_actions": [
+      "Tuyệt đối không chuyển tiền vào tài khoản cá nhân; chỉ thanh toán vào tài khoản chính thức của công ty du lịch có tên rõ ràng",
+      "Kiểm tra website chính thức và giấy phép hoạt động của 'VietTravel Center' trước khi tin tưởng",
+      "Gọi điện trực tiếp đến số điện thoại công bộ được tìm thấy trên Google hoặc website chính thức để xác minh",
+      "Không nên chuyển khoản vào tài khoản cá nhân có tên 'Trần Văn Minh'",
+      "Không nhập mã OTP hoặc bất kỳ thông tin nhạy cảm nào cho bên thứ ba chưa xác minh",
+      "Cảnh giác với hạn chót đặt chỗ hoặc thông tin 'chỉ còn vài suất cuối cùng' – đây là chiêu tạo áp lực",
+      "Đối với dịch vụ du lịch, ưu tiên sử dụng các nền tảng uy tín có cơ chế bảo vệ người dùng hoặc công ty du lịch có bề dày kinh doanh"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 12115
+}

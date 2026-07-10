@@ -1,0 +1,30 @@
+{
+  "case_id": "scam-impersonation_authority-07",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Giả danh Công an quận 10, TP.HCM với thông tin chi tiết để tạo uy tín",
+      "Yêu cầu xác minh thông tin cá nhân qua link lạ (xacnhanvneid-baomat.xyz)",
+      "Sử dụng mã căn cước và thông tin cá nhân có thật để tăng độ tin tưởng",
+      "Tạo áp lực thời gian (24 giờ) để nạn nhân không kịp suy nghĩ",
+      "Đe dọa phong tỏa tài khoản ngân hàng để gây hoang mang",
+      "Cung cấp số hotline lạ để nạn nhân liên hệ vào tay kẻ lừa đảo",
+      "Domain giả mạo VNeID với từ khóa 'baomat' để trông giống trang chính thức"
+    ],
+    "matched_patterns": [
+      "Giả danh công an, viện kiểm sát để lừa chạy án (impersonation_authority)",
+      "Giả danh cơ quan công quyền, luật sư, ngân hàng gọi điện đe dọa, yêu cầu chuyển tiền (impersonation_authority)"
+    ],
+    "recommended_actions": [
+      "Ngay lập tức không nhấp vào link xacnhanvneid-baomat.xyz",
+      "Gọi trực tiếp tới Công an quận 10, TP.HCM qua số chính thức để xác minh thông tin (không dùng số hotline trong tin nhắn)",
+      "Kiểm tra thực tế hồ sơ VNeID của bạn trên ứng dụng chính thức VNeID do Bộ Công an cung cấp",
+      "Không cung cấp bất kỳ thông tin cá nhân, mã OTP, giấy tờ tuỳ thân qua đường link hoặc người lạ",
+      "Nếu thực sự có vấn đề pháp lý, cơ quan công an sẽ gửi Giấy mời/triệu tập chính thức tới địa chỉ, không làm việc qua tin nhắn",
+      "Báo cáo tin nhắn này tới cơ quan công an địa phương hoặc trang Cảnh báo lừa đảo của Công an Nhân dân"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 8716
+}

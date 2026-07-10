@@ -1,0 +1,57 @@
+{
+  "case_id": "scam-impersonation_authority-10",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Giả danh công an, tự xưng cán bộ Công an qua điện thoại",
+      "Sử dụng số điện thoại giả mạo (+84.2.4567.8901) không phải đường dây chính thức của Công an",
+      "Yêu cầu cài đặt ứng dụng 'VNeID Verify Pro' giả mạo chứa mã độc",
+      "Đe dọa nạn nhân sẽ mất CCCD hoặc bị xử phạt nếu không làm theo",
+      "Yêu cầu chuyển tiền vào tài khoản của tổ chức bịa đặt ('Ngân hàng An Ninh Quốc Gia', 'Quỹ bảo vệ danh tính công dân')",
+      "Công an không bao giờ mời làm việc qua điện thoại hay nhắn tin, mà phải bằng giấy mời có trụ sở cụ thể"
+    ],
+    "matched_patterns": [
+      "Giả danh công an",
+      "Ứng dụng giả mạo chứa mã độc (VNeID giả)",
+      "Số điện thoại giả mạo cơ quan nhà nước",
+      "Đe dọa tạo áp lực tâm lý",
+      "Yêu cầu chuyển tiền vào tài khoản giả mạo"
+    ],
+    "recommended_actions": [
+      "Gọi hotline ngân hàng ngay để khóa tài khoản và tạm dừng giao dịch",
+      "Tắt nguồn điện thoại để ngăn chặn tin tặc tiếp tục truy cập",
+      "Gỡ bỏ ứng dụng 'VNeID Verify Pro' giả mạo, đổi mật khẩu các ứng dụng tài chính, và khôi phục cài đặt gốc điện thoại",
+      "Mang điện thoại đến trung tâm công nghệ uy tín để kiểm tra và gỡ bỏ mã độc",
+      "Trình báo với cơ quan công an gần nhất, mang theo số điện thoại lừa đảo (+84.2.4567.8901), số tài khoản nhận tiền (1234567890) và mọi bằng chứng giao dịch",
+      "Đổi mật khẩu email, tài khoản ngân hàng online và mạng xã hội ngay lập tức",
+      "Cảnh giác với các đối tượng giả danh cán bộ An ninh mạng liên hệ để 'giúp lấy lại tiền' — đây có thể là lừa đảo lần 2",
+      "Liên hệ đường dây tội phạm công nghệ cao Bộ Công an: 113, hoặc tổng đài VNeID chính thống: 1900.0368, hoặc cổng cảnh báo an toàn mạng quốc gia: https://canhbao.ncsc.gov.vn"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 ĐÂY LÀ LỪA ĐẢO 100% — Rất Nghiêm Trọng!\n\nEm vừa trở thành nạn nhân của một trong những chiêu lừa đảo **giả danh công an** phổ biến và nguy hiểm nhất hiện nay tại Việt Nam. Dưới đây là phân tích chi tiết và các bước em cần làm NGAY BÂY GIỜ.\n\n---\n\n## 🔍 TẠI SAO ĐÂY LÀ LỪA ĐẢO?\n\n### ❶ Giả danh công an — thủ đoạn kinh điển\nCơ quan Công an đã cảnh báo về việc xuất hiện thủ đoạn lừa đảo công nghệ cao, các đối tượng tự xưng cán bộ Công an gọi điện yêu cầu người dân cập nhật, chỉnh sửa thông tin CCCD để lừa đảo chiếm đoạt tài sản.\n\n### ❷ Dùng số điện thoại giả mạo\nCác đối tượng dàn dựng kịch bản, sử dụng các thuê bao điện thoại có đầu số \"0247\" giả mạo lực lượng Công an thông báo người dân có liên quan đến một số vụ việc nghiêm trọng. Số +84.2.4567.8901 mà em nhận được là số giả mạo, không phải đường dây chính thức của Công an.\n\n### ❸ \"VNeID Verify Pro\" là ứng dụng chứa mã độc\nMột trong những thủ đoạn hiện nay của tội phạm là giả mạo cơ quan nhà nước, dụ dỗ người dân cài đặt ứng dụng VNeID giả mạo chứa mã độc, từ đó đánh cắp thông tin cá nhân và tiền trong tài khoản ngân hàng.\n\nNhững ứng dụng này chứa mã độc (malware), cho phép tin tặc chiếm quyền điều khiển thiết bị di động của nạn nhân. Khi người dân vô tình cài đặt, mã độc sẽ âm thầm thu thập dữ liệu, bao gồm mã OTP từ tin nhắn ngân hàng, mật khẩu, hoặc thậm chí dữ liệu sinh trắc học.\n\n### ❹ Đe dọa để tạo áp lực — chiêu bài cũ\nKhi người nhận cuộc gọi có thái độ lo lắng, phân vân thì các đối tượng sẽ giở trò đe dọa, tự xưng là công an để hù dọa nếu không thực hiện cập nhật, chỉnh lý thì sẽ mất CCCD trên cổng của Bộ Công an, sẽ bị xử phạt…\n\n### ❺ Yêu cầu chuyển tiền — hoàn toàn bịa đặt\nChúng lợi dụng tâm lý lo sợ của người dân để yêu cầu chuyển tiền vào một số tài khoản ngân hàng để chiếm đoạt. **\"Ngân hàng An Ninh Quốc Gia\"** và **\"Quỹ bảo vệ danh tính công dân\"** đều là **KHÔNG CÓ THẬT** — hoàn toàn do kẻ lừa đảo bịa ra.\n\n### ❻ Công an KHÔNG bao giờ làm vậy\nLực lượng công an cũng như các lực lượng tư pháp, khi mời người dân làm việc thì bằng giấy mời, có trụ sở làm việc cụ thể, không nhắn tin, điện thoại, gửi giấy mời qua điện thoại để mời.\n\n---\n\n## ⚡ VIỆC CẦN LÀM NGAY — TỪNG BƯỚC\n\n### 🔴 BƯỚC 1: Bảo vệ tài khoản ngân hàng ngay lập tức\nTrong trường hợp đã lỡ truy cập vào đường dẫn hoặc cài đặt ứng dụng giả mạo, người dân cần lập tức liên hệ với ngân hàng để khóa tài khoản, đồng thời tắt nguồn điện thoại để ngăn chặn tin tặc tiếp tục truy cập.\n\n👉 Gọi **hotline ngân hàng ngay** (thường in sau thẻ ATM hoặc trên ứng dụng), yêu cầu **khóa tài khoản / tạm dừng giao dịch**.\n\n### 🔴 BƯỚC 2: Xử lý điện thoại\nTrong trường hợp đã vô tình cài đặt ứng dụng VNeID giả mạo, cần nhanh chóng gỡ bỏ ứng dụng, khóa tài khoản ngân hàng, đổi mật khẩu các ứng dụng tài chính và khôi phục cài đặt gốc điện thoại để ngăn chặn nguy cơ tiếp tục bị xâm nhập.\n\nSau đó, thiết bị cần được mang đến các trung tâm công nghệ uy tín để kiểm tra và gỡ bỏ mã độc.\n\n### 🔴 BƯỚC 3: Trình báo công an\nNếu đã bị lừa đảo và mất tài sản, người dân cần nhanh chóng trình báo với cơ quan công an gần nhất để được hỗ trợ điều tra, truy vết để có cơ hội thu hồi tài sản. Việc phối hợp với cơ quan chức năng trong tố giác các hành vi lừa đảo sẽ góp phần hạn chế thiệt hại.\n\n👉 Mang theo: số điện thoại lừa đảo (+84.2.4567.8901), số tài khoản nhận tiền (1234567890), và mọi bằng chứng giao dịch.\n\n### 🔴 BƯỚC 4: Đổi mật khẩu toàn bộ\nĐổi ngay mật khẩu: **email, tài khoản ngân hàng online, mạng xã hội** — đặc biệt nếu em đã cấp quyền camera/danh bạ cho ứng dụng lạ.\n\n---\n\n## ⚠️ CẢNH BÁO THÊM — Tránh bị lừa lần 2!\nĐánh vào tâm lý nạn nhân muốn lấy lại số tiền đã mất, các đối tượng sẽ giả danh cán bộ An ninh mạng để yêu cầu nạn nhân làm theo hướng dẫn. Do nhẹ dạ, nhiều người đã nhờ các đối tượng này, thậm chí đóng phí để lấy lại tiền nhưng đều không thể thành công. Họ tiếp tục bị \"lừa đảo\" lần thứ hai khi gửi niềm tin vào các địa chỉ giả mạo này.\n\n---\n\n## 📞 Số hotline hữu ích\n| Cơ quan | Số điện thoại |\n|---|---|\n| Đường dây tội phạm công nghệ cao (Bộ Công an) | **113** |\n| Tổng đài VNeID chính thống | **1900.0368** |\n| Cổng cảnh báo an toàn mạng quốc gia | **https://canhbao.ncsc.gov.vn** |\n\n---\n\n**Em không đơn độc** — đây là chiêu lừa đảo rất phổ biến, đã có rất nhiều nạn nhân. Điều quan trọng nhất bây giờ là **hành động nhanh** để hạn chế thiệt hại. Chúc em sớm lấy lại được quyền kiểm soát tài khoản! 💪",
+  "sources": [
+    "https://huyendakglei.kontum.gov.vn/thong-tin-tuyen-truyen/Cach-nhan-biet-lua-dao-gia-danh-cong-an-goi-lua-cap-nhat-CCCD-4981",
+    "https://congan.nghean.gov.vn/thong-tin-chuyen-de/202406/canh-giac-truoc-thu-doan-mao-danh-cong-an-yeu-cau-chinh-sua-can-cuoc-cong-dan-de-lua-dao-1013349/",
+    "https://congan.daklak.gov.vn/-/canh-giac-voi-thu-oan-gia-danh-luc-luong-cong-an-goi-lua-cap-nhat-thong-tin-can-cuoc-cong-dan",
+    "https://xaydungchinhsach.chinhphu.vn/canh-bao-lua-dao-gia-danh-can-bo-cong-an-yeu-cau-cap-nhat-thong-tin-cccd-119260205171622966.htm",
+    "https://conganthanhhoa.gov.vn/phong-chong-toi-pham/thong-bao-tim-chu-so-huu-phuong-tien/canh-bao-thu-doan-lua-dao-gia-danh-cong-an-chinh-sua-du-lieu-dan-cu-cap-cccd-dang-ky-cu-tru-huong-dan-cai-dat-vneid-de-c.html",
+    "https://thuvienphapluat.vn/cong-dong-dan-luat/cach-nhan-biet-lua-dao-gia-danh-cong-an-goi-lua-cap-nhat-cccd-212217.html",
+    "https://tuyengiao.hagiang.gov.vn/tin-tuc-su-kien/phap-luat/canh-giac-voi-thu-doan-gia-danh-cong-an-goi-cap-nhat-can-cuoc-cong-dan.html",
+    "https://baovanhoa.vn/phap-luat/canh-giac-thu-doan-mao-danh-cong-an-yeu-cau-chinh-sua-can-cuoc-cong-dan-de-lua-dao-96000.html",
+    "https://congan.quangbinh.gov.vn/canh-bao-thu-doan-lua-dao-gia-mao-luc-luong-cong-an/",
+    "https://nhandan.vn/canh-giac-voi-thu-doan-gia-cong-an-phuong-goi-lua-cap-nhat-can-cuoc-cong-dan-post792978.html",
+    "https://bocongan.gov.vn/bai-viet/canh-bao-thu-doan-lua-dao-cai-ung-dung-vneid-gia-mao-d22-t45880",
+    "https://baokhanhhoa.vn/phap-luat/202507/canh-bao-thu-doan-lua-dao-cai-ung-dung-vneid-gia-mao-6c16804/",
+    "https://congan.tayninh.gov.vn/vi/chi-tiet-tin-tuc?Id=112922",
+    "https://vov.vn/cong-nghe/tin-cong-nghe/canh-bao-ve-toi-pham-mang-loi-dung-ung-dung-vneid-gia-mao-post1213395.vov",
+    "https://dantri.com.vn/cong-nghe/canh-giac-truoc-ung-dung-vneid-gia-mao-chiem-doat-tai-san-20250708131924591.htm",
+    "https://nhoquan.ninhbinh.gov.vn/chuyen-doi-so/cong-an-chi-cach-nhan-biet-khi-bi-cai-ung-dung-vneid-gia-mao-326156",
+    "https://congan.daklak.gov.vn/-/canh-giac-hanh-vi-huong-dan-cai-at-ung-dung-vneid-gia-mao-nham-thuc-hien-hanh-vi-chiem-oat-thong-tin-va-tai-san",
+    "https://congan.laichau.gov.vn/index.php/pho-bien-giao-duc-phap-luat/canh-bao-lua-dao-tai-cai-ung-dung-vneid-gia-mao-2566.html",
+    "https://congan.binhthuan.gov.vn/hiem-hoa-lua-dao-cai-dat-ung-dung-vneid-gia-mao--thu-doan-cu-nan-nhan-moi-N2888.aspx",
+    "https://daknong.gov.vn/chuyendoiso/canh-bao-tro-lua-dao-cai-ung-dung-vneid-gia-mao-431937"
+  ],
+  "latency_ms": 71630
+}

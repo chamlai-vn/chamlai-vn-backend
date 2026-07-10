@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-vacation_contract-05",
+  "rag_verdict": {
+    "strengths": [
+      "Nhận diện đúng nạn nhân đã mất 5 triệu và đang bị đòi thêm qua chiêu tăng phí liên tiếp",
+      "Phủ đủ 4 ý chính: công ty/resort không tồn tại, app chat giả PropertyDeals365, phí tăng liên tiếp từ nhiều số, nhân viên thuyết phục",
+      "Pattern khớp đúng loại vacation_contract",
+      "Khuyến nghị dừng thanh toán, lưu bằng chứng, báo ngân hàng, trình báo"
+    ],
+    "weaknesses": [
+      "Không cảnh báo nguy cơ 'bị lừa lần hai'",
+      "Không nêu điểm timeshare là hợp pháp nhưng bị giả mạo",
+      "Không cung cấp kênh trình báo cụ thể"
+    ],
+    "reasoning": "Chính xác và phủ đủ ý chính với khuyến nghị hợp lý. Thiếu cảnh báo lừa lần hai và bối cảnh timeshare hợp pháp bị giả mạo.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Dẫn số liệu (27 công ty/2.700 tỷ) và cảnh báo riêng của Đà Nẵng — sát địa bàn tình huống",
+      "Nêu điểm quan trọng: timeshare về bản chất hợp pháp nhưng kẻ gian dựng công ty ma/giả thương hiệu",
+      "Quy trình khắc phục (PA05 Đà Nẵng), chủ động đề nghị soạn đơn",
+      "Đối chiếu sát dấu hiệu"
+    ],
+    "weaknesses": [
+      "Không có nguồn web trích dẫn (sources=0)",
+      "Dài"
+    ],
+    "reasoning": "Toàn diện, có số liệu, cảnh báo địa phương và điểm bản chất timeshare. Điểm trừ là độ dài.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

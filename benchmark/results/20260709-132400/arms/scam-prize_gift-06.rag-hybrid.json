@@ -1,0 +1,27 @@
+{
+  "case_id": "scam-prize_gift-06",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Thông báo trúng thưởng từ số điện thoại lạ không xác minh được",
+      "Yêu cầu tải ứng dụng không chính thức (GiftXpress) để nhận thưởng",
+      "Không nhớ từng tham gia chương trình 'Khuyến mại Lộc Phát'",
+      "Chiêu trò tạo dụng cụ ảo để lợi dụng và chiếm đoạt thông tin cá nhân hoặc tài chính",
+      "Áp lực hành động nhanh để tải app (rủi ro cao về cài malware hoặc ứng dụng giả mạo)"
+    ],
+    "matched_patterns": [
+      "prize_gift - Cuộc gọi/tin nhắn giả mạo báo trúng thưởng để chiếm đoạt tài sản",
+      "prize_gift - Giả danh công ty/siêu thị tặng quà tri ân, yêu cầu hành động (tải app) để chiếm đoạt"
+    ],
+    "recommended_actions": [
+      "Không tải ứng dụng 'GiftXpress' hoặc bất kỳ app nào được liên kết với tin nhắn này",
+      "Không cung cấp thông tin cá nhân, số tài khoản hoặc mã OTP cho người gửi tin nhắn",
+      "Xác minh trực tiếp với 'Lộc Phát' qua số điện thoại chính thức trên website của công ty (nếu tồn tại), không dùng liên hệ từ tin nhắn",
+      "Chặn số điện thoại 0912345678 để tránh bị liên tục lừa dụi",
+      "Báo cáo tin nhắn lừa đảo cho các cơ quan chức năng (công an, Bộ Thông tin và Truyền thông)"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 6942
+}

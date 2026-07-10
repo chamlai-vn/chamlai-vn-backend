@@ -1,0 +1,24 @@
+{
+  "case_id": "benign-sms_bank_real-07",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "yellow",
+    "red_flags": [
+      "Thông báo giao dịch bất thường giả danh ngân hàng để tạo cảnh báo",
+      "Yêu cầu liên hệ qua hotline và truy cập link có thể giả mạo",
+      "Cung cấp mã xác thực (OTP) trong tin nhắn làm nạn nhân dễ lầm tưởng là thật",
+      "Chiêu trò có thể là bước đầu để tiếp cận nạn nhân trước khi yêu cầu chuyển tiền"
+    ],
+    "matched_patterns": [
+      "recovery_scam - giả danh ngân hàng thông báo giao dịch lỗi/chưa hoàn tất"
+    ],
+    "recommended_actions": [
+      "Không nên nhấp vào link hoặc gọi đến hotline trong tin nhắn này",
+      "Hãy tự mình tra cứu số điện thoại chính thức của Vietcombank từ website hoặc gọi từ số trên thẻ ngân hàng để xác minh",
+      "Không cung cấp mã OTP hoặc thông tin nhạy cảm cho bất kỳ ai qua điện thoại hay tin nhắn",
+      "Kiểm tra trực tiếp tài khoản ngân hàng của bạn qua ứng dụng chính thức hoặc website để xem có giao dịch bất thường không"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 7713
+}

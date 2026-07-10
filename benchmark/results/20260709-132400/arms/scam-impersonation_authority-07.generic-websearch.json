@@ -1,0 +1,58 @@
+{
+  "case_id": "scam-impersonation_authority-07",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Giả mạo danh nghĩa cơ quan công an, mạo danh cán bộ Công an hoặc cơ quan chức năng liên hệ qua điện thoại để yêu cầu 'xác minh' hoặc 'cập nhật' thông tin VNeID",
+      "Sử dụng link giả mạo 'xacnhanvneid-baomat.xyz' (không phải website chính thức vneid.gov.vn hoặc dichvucong.gov.vn) để đánh cắp thông tin",
+      "Yêu cầu cài đặt ứng dụng VNeID giả mạo chứa mã độc nhằm thu thập OTP, mật khẩu, dữ liệu sinh trắc học và chiếm tài khoản ngân hàng",
+      "Sử dụng số quyết định giả (4582/QĐ-CA) để tạo vẻ hợp pháp",
+      "Sử dụng tên và số CCCD của nạn nhân (có thể lấy từ dữ liệu bị rò rỉ) để tạo niềm tin",
+      "Đe dọa khóa tài khoản ngân hàng nhằm gây áp lực tâm lý",
+      "Đặt giới hạn thời gian 24 giờ để kích động nạn nhân hành động gấp mà không kịp suy nghĩ"
+    ],
+    "matched_patterns": [
+      "Giả mạo cơ quan công an/cơ quan chức năng",
+      "Lừa đảo mạo danh VNeID",
+      "Link/ứng dụng giả mạo cài mã độc",
+      "Đánh cắp thông tin tài khoản ngân hàng (OTP, mật khẩu)",
+      "Gây áp lực tâm lý (giả mạo số quyết định, đe dọa, giới hạn thời gian)"
+    ],
+    "recommended_actions": [
+      "TUYỆT ĐỐI KHÔNG truy cập link xacnhanvneid-baomat.xyz hoặc bất kỳ link lạ nào",
+      "TUYỆT ĐỐI KHÔNG gọi lại số hotline trong tin nhắn (0973 882 556)",
+      "TUYỆT ĐỐI KHÔNG cung cấp thông tin cá nhân, OTP, mật khẩu ngân hàng cho bất kỳ ai",
+      "Nếu chưa click link: không làm gì thêm, bạn đã an toàn",
+      "Nếu đã click link hoặc cài ứng dụng: lập tức liên hệ ngân hàng để khóa tài khoản, tắt nguồn điện thoại, mang thiết bị đến trung tâm công nghệ uy tín để kiểm tra và gỡ mã độc",
+      "Chụp màn hình tin nhắn lưu lại làm bằng chứng trước khi trình báo",
+      "Trình báo vụ việc qua đường dây nóng 069.219.4053 (Cục Cảnh sát hình sự), hoặc tại https://canhbao.ncsc.gov.vn, hoặc (nếu ở TP.HCM) gọi 08.3864.0508",
+      "Thông báo cho cơ quan Công an nơi gần nhất",
+      "Cảnh báo cho người thân và bạn bè để tránh trở thành nạn nhân tiếp theo"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## 🚨 ĐÂY LÀ LỪA ĐẢO 100% — Đừng làm theo bất kỳ yêu cầu nào!\n\nTin nhắn bạn nhận được có **tất cả các dấu hiệu điển hình** của một chiêu lừa đảo mạo danh công an đang lan rộng tại Việt Nam. Dưới đây là phân tích chi tiết:\n\n---\n\n## 🔍 Tại sao đây là lừa đảo?\n\n### 1. Giả mạo danh nghĩa cơ quan công an\nThời gian gần đây, công an nhiều tỉnh, thành phố đã ghi nhận các đối tượng sử dụng thủ đoạn tinh vi mạo danh cán bộ Công an hoặc cơ quan chức năng, liên hệ với người dân qua điện thoại để yêu cầu \"xác minh\" hoặc \"cập nhật\" thông tin liên quan đến VNeID.\n\n### 2. Dùng link giả mạo để đánh cắp thông tin\nĐể tạo niềm tin, các đối tượng thường cung cấp thông tin cá nhân chính xác của nạn nhân, sau đó yêu cầu người dân truy cập vào một đường link hoặc tải về ứng dụng VNeID giả mạo, được giới thiệu là \"chính thức\" để cập nhật thông tin.\n\nTrong tin nhắn bạn nhận được, link **`xacnhanvneid-baomat.xyz`** là domain giả mạo — không phải website chính thức của Bộ Công an (website thật là `vneid.gov.vn` hoặc `dichvucong.gov.vn`).\n\n### 3. Cài mã độc để chiếm tài khoản ngân hàng\nKhi người dân vô tình cài đặt ứng dụng hoặc truy cập link, mã độc sẽ âm thầm thu thập dữ liệu, bao gồm mã OTP từ tin nhắn ngân hàng, mật khẩu, thậm chí dữ liệu sinh trắc học. Từ đây, các đối tượng dễ dàng truy cập tài khoản ngân hàng của nạn nhân, chuyển tiền hoặc thực hiện các giao dịch trái phép.\n\n### 4. Công an KHÔNG BAO GIỜ làm những điều này\nPhòng Cảnh sát Quản lý hành chính về trật tự xã hội khuyến cáo: lực lượng Công an không yêu cầu công dân cung cấp thông tin cá nhân, mã OTP, mật khẩu tài khoản ngân hàng qua điện thoại; đồng thời không hướng dẫn tải hoặc cài đặt ứng dụng thông qua các đường link lạ.\n\n### 5. Thủ thuật gây áp lực tâm lý\nTin nhắn dùng các yếu tố: **số quyết định giả** (4582/QĐ-CA), **tên và CCCD của bạn** (có thể lấy từ dữ liệu bị rò rỉ), **đe dọa khóa tài khoản ngân hàng**, **giới hạn 24 giờ** — đây là các chiêu kích động tâm lý để bạn hành động gấp mà không kịp suy nghĩ.\n\nKẻ lừa đảo thường dụ dỗ khách hàng truy cập đường link lạ hoặc cài đặt ứng dụng giả mạo yêu cầu cung cấp thông tin cá nhân, thông tin tài khoản ngân hàng (mật khẩu, mã OTP, hình ảnh hai mặt căn cước, thẻ ngân hàng...).\n\n---\n\n## ✅ Bạn cần làm gì ngay bây giờ?\n\n### ⛔ TUYỆT ĐỐI KHÔNG:\n- Truy cập link `xacnhanvneid-baomat.xyz` hoặc bất kỳ link lạ nào\n- Gọi lại số hotline trong tin nhắn (0973 882 556)\n- Cung cấp thông tin cá nhân, OTP, mật khẩu ngân hàng cho bất kỳ ai\n\nCông dân tuyệt đối không cần thực hiện bất kỳ thao tác nào theo hướng dẫn của người lạ, không cần truy cập vào các đường dẫn (link) lạ, hoặc cài đặt thêm bất kỳ ứng dụng bên ngoài nào.\n\n### 🆘 NẾU BẠN CHƯA CLICK LINK: Không làm gì thêm, bạn an toàn.\n\n### 🆘 NẾU BẠN ĐÃ CLICK LINK hoặc cài ứng dụng:\nNgười dân cần lập tức liên hệ với ngân hàng để khóa tài khoản, đồng thời tắt nguồn điện thoại để ngăn chặn tin tặc tiếp tục truy cập. Sau đó, thiết bị cần được mang đến các trung tâm công nghệ uy tín để kiểm tra và gỡ bỏ mã độc.\n\n### 📞 Trình báo vụ việc:\nBạn có thể liên hệ đường dây nóng **069.219.4053** của Cục Cảnh sát hình sự để trình báo; truy cập trang cảnh báo an toàn thông tin Việt Nam tại **https://canhbao.ncsc.gov.vn**; hoặc nếu ở TP.HCM, gọi đường dây nóng **08.3864.0508** để thông báo về hành vi lừa đảo qua mạng.\n\nKhi phát hiện các trường hợp có dấu hiệu lừa đảo, người dân cần kịp thời thông báo cho cơ quan Công an nơi gần nhất để được hướng dẫn, xử lý.\n\n---\n\n\u003e 💡 **Lưu ý quan trọng:** Hãy chụp màn hình tin nhắn này và lưu lại làm bằng chứng trước khi trình báo với cơ quan chức năng. Đồng thời, hãy cảnh báo cho người thân và bạn bè để tránh trở thành nạn nhân tiếp theo.",
+  "sources": [
+    "https://congan.ninhbinh.gov.vn/canh-bao-chieu-thuc-lua-dao-danh-cap-tai-khoan-ngan-hang",
+    "https://doanhnghiepcuocsong.vn/gia-danh-cong-an-ho-tro-kich-hoat-vneid-cho-tre-em-de-lua-dao-a266583.html",
+    "https://congtyluatacc.vn/bi-mao-danh-mo-tai-khoan-ngan-hang-co-yeu-cau-phong-toa-duoc-khong/",
+    "https://vtv.vn/canh-giac-thu-doan-mao-danh-cong-an-ho-tro-kich-hoat-vneid-cho-tre-em-de-lua-dao-100260703190950757.htm",
+    "https://congtyluatacc.vn/bi-mao-danh-tao-tai-khoan-ngan-hang-lua-tien-nho-ngan-hang-phong-toa-duoc-khong/",
+    "https://cafef.vn/phong-toa-tai-khoan-ngan-hang-tham-chi-moi-len-cong-an-lam-viec-neu-nguoi-dung-co-hanh-vi-nay-188260226143105861.chn",
+    "https://congtyluatacc.vn/bi-gia-mao-hinh-anh-mo-tai-khoan-ngan-hang-nho-ngan-hang-phong-toa-duoc-khong/",
+    "https://www.seabank.com.vn/tin-tuc/tu-van-dich-vu/tu-van--meo/cach-lay-lai-tien-da-chuyen-khoan-khi-bi-lua-huong-dan-chi-tiet-va-day-du",
+    "https://vietnamnet.vn/triet-pha-duong-day-gan-1-000-tai-khoan-lo-thu-doan-qua-mat-sinh-trac-hoc-2529537.html",
+    "https://baokhanhhoa.vn/phap-luat/202507/canh-bao-thu-doan-lua-dao-cai-ung-dung-vneid-gia-mao-6c16804/",
+    "https://dansinh.dantri.com.vn/dien-dan-dan-sinh/to-giac-toi-pham-qua-ung-dung-vneid-voi-5-buoc-don-gian-20240901143243381.htm",
+    "https://conganthanhhoa.gov.vn/phong-chong-toi-pham/thong-bao-tim-chu-so-huu-phuong-tien/canh-giac-thu-doan-lua-dao-lien-quan-den-thong-tin-cu-tru-tren-vneid.html",
+    "https://traderviet.tv/t/cong-an-co-thong-bao-quan-trong-den-tat-ca-nguoi-dung-vneid.115982/",
+    "https://thuvienphapluat.vn/chinh-sach-phap-luat-moi/vn/chong-lua-dao/43842/cach-thuc-to-giac-toi-pham-tren-ung-dung-dinh-danh-dien-tu-vneid",
+    "https://dienthoaivui.com.vn/tin-tuc/phan-anh-lua-dao-qua-vneid",
+    "https://ict.thainguyen.gov.vn/ung-dung/ung-dung/huong-dan-phan-anh-lua-dao-qua-ung-dung-vneid-219.html",
+    "https://skhcn.tuyenquang.gov.vn/vi/tin-bai/huong-dan-to-giac-toi-pham-qua-ung-dung-vneid?type=NEWS\u0026id=81623",
+    "https://plo.vn/ky-nguyen-so/cach-phan-anh-lua-dao-qua-ung-dung-vneid-post835980.html",
+    "https://congan.tayninh.gov.vn/vi/chi-tiet-tin-tuc?Id=112922"
+  ],
+  "latency_ms": 59391
+}

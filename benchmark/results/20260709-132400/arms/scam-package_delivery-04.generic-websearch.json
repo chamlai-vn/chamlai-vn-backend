@@ -1,0 +1,55 @@
+{
+  "case_id": "scam-package_delivery-04",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Giả mạo công ty giao hàng, dẫn dụ nạn nhân kết nối với đối tượng giả danh nhân viên chăm sóc khách hàng để yêu cầu cung cấp thông tin cá nhân, mã xác thực, cài ứng dụng hoặc truy cập link chứa mã độc",
+      "Ứng dụng giả mạo thương hiệu uy tín (\"VietTransit\") được cài mã độc để kiểm soát thiết bị và đánh cắp dữ liệu ngân hàng",
+      "Mã QR dẫn tới website giả mạo ngân hàng, yêu cầu nhập thông tin cá nhân, số tài khoản, mã bí mật hoặc OTP nhằm chiếm đoạt tài khoản",
+      "Kẻ lừa đảo biết tên và số điện thoại nạn nhân — thông tin có thể được mua từ các vụ rò rỉ dữ liệu",
+      "Thủ đoạn thúc ép khẩn cấp: \"hàng sẽ bị gửi trả lại nếu không thanh toán ngay\" nhằm tạo áp lực để nạn nhân hành động vội vàng"
+    ],
+    "matched_patterns": [
+      "Giả mạo công ty giao hàng",
+      "Ứng dụng giả mạo đánh cắp dữ liệu",
+      "Mã QR lừa đảo đánh cắp thông tin ngân hàng",
+      "Thúc ép tạo áp lực thời gian"
+    ],
+    "recommended_actions": [
+      "Gỡ cài đặt ngay ứng dụng \"VietTransit\" giả mạo khỏi điện thoại",
+      "Liên hệ ngân hàng ngay lập tức để khóa tài khoản hoặc thẻ nếu đã nhập bất kỳ thông tin tài khoản nào",
+      "Đổi mật khẩu tài khoản ngân hàng online và các tài khoản quan trọng khác",
+      "Thu thập bằng chứng: chụp màn hình số điện thoại lừa đảo (+84916 452 877), tên ứng dụng giả và toàn bộ tin nhắn liên quan",
+      "Trình báo cơ quan Công an gần nhất",
+      "Quét virus/mã độc toàn bộ điện thoại bằng phần mềm bảo mật uy tín",
+      "Chỉ cài đặt ứng dụng từ kho chính thức (App Store hoặc Google Play), không tải ứng dụng qua link nhận được sau khi quét mã QR",
+      "Tuyệt đối không cung cấp mã OTP, mật khẩu, thông tin tài khoản ngân hàng cho bất kỳ ai"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 ĐÂY LÀ LỪA ĐẢO — Rất Tinh Vi Và Nguy Hiểm!\n\nBạn đã may mắn thoát khỏi một vụ lừa đảo được tổ chức bài bản. Dưới đây là phân tích chi tiết:\n\n---\n\n## ✅ KẾT LUẬN: LỪA ĐẢO 100%\n\n---\n\n## 🔍 TẠI SAO ĐÂY LÀ LỪA ĐẢO?\n\n### 1. Giả mạo công ty giao hàng — thủ đoạn đã được cảnh báo\nKhi bị dẫn dụ, nạn nhân được kết nối với các đối tượng giả danh nhân viên chăm sóc khách hàng của đơn vị vận chuyển. Tại đây, nạn nhân liên tục bị yêu cầu cung cấp thông tin cá nhân, mã xác thực, cài đặt ứng dụng hoặc truy cập link chứa mã độc.\n\n### 2. Ứng dụng giả mạo để đánh cắp dữ liệu\nMột thủ đoạn tinh vi là giả mạo ứng dụng của các cơ quan/thương hiệu uy tín. Các ứng dụng giả này được cài mã độc, âm thầm kiểm soát thiết bị người dùng và đánh cắp dữ liệu ngân hàng, từ đó thực hiện các giao dịch chuyển tiền trái phép.\n\n### 3. Mã QR là bẫy đánh cắp thông tin ngân hàng\nMã QR này dẫn tới các website giả mạo ngân hàng, yêu cầu người dùng nhập thông tin như họ tên, số căn cước công dân, tài khoản, mã bí mật hoặc OTP. Từ đó, người dùng bị chiếm tài khoản hoặc lấy cắp thông tin.\n\nNguyên nhân khiến nhiều người sập bẫy là lầm tưởng rằng mã QR chỉ có chức năng để nhận tiền. Trên thực tế, công nghệ mã QR có thể chứa đựng rất nhiều lệnh phức tạp, bao gồm cả các lệnh thanh toán trừ tiền trực tiếp, đường dẫn đến trang web giả mạo giao diện ngân hàng hoặc yêu cầu nạn nhân cấp quyền truy cập thiết bị.\n\n### 4. Chúng biết tên bạn — không phải trùng hợp\nThông tin cá nhân (tên, số điện thoại) có thể bị mua bán từ các vụ rò rỉ dữ liệu. Khi sập bẫy, nạn nhân thường tự nguyện cung cấp toàn bộ hình ảnh căn cước công dân, sổ hộ khẩu và số tài khoản ngân hàng. Khối lượng dữ liệu nhạy cảm này ngay lập tức bị tội phạm thu thập, bán lại cho các bên thứ ba hoặc sử dụng để tạo lập hồ sơ vay tín dụng đen, lập tài khoản ngân hàng rác phục vụ cho việc rửa tiền.\n\n### 5. Chiêu \"thúc ép nhanh\" là dấu hiệu đặc trưng\nDấu hiệu nhận biết mã QR lừa đảo: mã QR được gửi kèm theo lời thúc giục \"chuyển nhanh để nhận ưu đãi\", \"gấp để giữ chỗ\" hoặc \"không chuyển sẽ mất cơ hội\". Trong trường hợp của bạn, đó là \"hàng sẽ bị gửi trả lại nếu không thanh toán ngay.\"\n\n---\n\n## 📊 QUY MÔ CỦA VẤN ĐỀ\nTheo báo cáo của Hiệp hội An ninh mạng quốc gia (NCA) năm 2024, cứ 220 người dùng điện thoại thông minh thì có 1 người trở thành nạn nhân của lừa đảo trực tuyến, với tổng thiệt hại ước tính lên tới 18.900 tỷ đồng (tương đương 744 triệu USD).\n\n---\n\n## ⚠️ BẠN CẦN LÀM GÌ NGAY BÂY GIỜ?\n\n### 🔴 Ưu tiên khẩn cấp (làm NGAY):\n1. **Gỡ cài đặt ngay ứng dụng \"VietTransit\" giả mạo** khỏi điện thoại.\n2. **Liên hệ ngân hàng ngay lập tức** để khóa tài khoản hoặc thẻ nếu bạn đã nhập bất kỳ thông tin tài khoản nào. Trong trường hợp phát hiện dấu hiệu bất thường hoặc nghi ngờ bị lừa đảo, khách hàng cần ngay lập tức liên hệ với tổng đài hỗ trợ của ngân hàng để yêu cầu khóa tài khoản kịp thời.\n3. **Đổi mật khẩu** tài khoản ngân hàng online và các tài khoản quan trọng khác.\n\n### 🟡 Tiếp theo:\n4. **Thu thập bằng chứng**: Chụp màn hình số điện thoại lừa đảo (+84916 452 877), tên ứng dụng giả, mọi tin nhắn liên quan. Hãy cẩn thận chụp ảnh màn hình và lưu giữ toàn bộ nội dung tin nhắn, số điện thoại liên lạc, thông tin tài khoản mạng xã hội của kẻ lừa đảo cũng như các biên lai giao dịch có liên quan. Những tài liệu điện tử này sẽ là chứng cứ vô cùng quan trọng để bạn mang đến trình báo tại cơ quan Công an gần nhất.\n5. **Trình báo Công an**: Nếu phát hiện hoặc nghi ngờ mình bị lừa đảo, người dân cần nhanh chóng báo cáo cho cơ quan Công an gần nhất để kịp thời giải quyết.\n6. **Quét virus/mã độc** toàn bộ điện thoại bằng phần mềm bảo mật uy tín.\n\n### 🟢 Phòng ngừa lâu dài:\n- Chỉ nên cài đặt ứng dụng từ các kho chính thức như App Store hoặc Google Play, không tải ứng dụng qua đường link nhận được sau khi quét mã QR và tuyệt đối không cung cấp mã OTP, mật khẩu, thông tin tài khoản ngân hàng cho bất kỳ ai.\n- Cục An toàn thông tin, Bộ Thông tin và Truyền thông khuyến cáo người dân cần cảnh giác, kiểm tra kỹ các thông tin trước khi chuyển tiền.\n\n---\n\n\u003e 💡 **Bạn đã làm đúng** khi dừng lại và hỏi ngân hàng trước khi hoàn tất giao dịch. Đây chính là hành động đã giúp bạn tránh được thiệt hại tài chính nghiêm trọng!",
+  "sources": [
+    "https://iav.vn/vong-quanh-thi-truong/254809-lua-dao-mao-danh-bao-hiem-chot-don-online-mat-tien-that",
+    "https://www.tinnhanhchungkhoan.vn/lua-dao-mao-danh-bao-hiem-chot-don-online-mat-tien-that-post367090.html",
+    "https://gic.vn/tin-tuc-thong-bao-va-khuyen-mai/tin-tuc/canh-bao-hanh-vi-lua-dao-va-mao-danh-bao-hiem-toan-cau-gic/",
+    "https://cafef.vn/canh-bao-khan-toi-toan-bo-nguoi-dan-khi-dong-phi-bao-hiem-xuat-hien-thu-doan-lua-dao-moi-188260527221712848.chn",
+    "https://laodongthudo.vn/diem-danh-nhung-thu-doan-lua-dao-pho-bien-dau-nam-2025-184763.html",
+    "https://vneconomy.vn/gia-mao-thong-bao-cua-bao-hiem-xa-hoi-de-lua-dao.htm",
+    "https://mst.gov.vn/canh-bao-thu-doan-lua-dao-ve-bao-hiem-xa-hoi-bao-hiem-y-te-197240807081421685.htm",
+    "https://cafef.vn/them-thu-doan-lua-dao-moi-nham-den-bhxh-nguoi-dan-ai-cung-nen-biet-188251024090554075.chn",
+    "https://baochinhphu.vn/canh-giac-voi-thu-doan-lua-dao-moi-ve-chinh-sach-bao-hiem-102240422154737705.htm",
+    "https://kenh14.vn/lua-dao-gia-mao-nhan-vien-giao-hang-gia-tang-canh-bao-thu-doan-tinh-vi-va-khuyen-nghi-tu-cac-don-vi-chuyen-phat-215251227092550757.chn",
+    "https://nhandan.vn/cac-chieu-tro-lua-dao-qua-ma-qr-post926223.html",
+    "https://congan.laichau.gov.vn/thu-doan-pham-toi/canh-giac-voi-chieu-tro-lua-dao-quet-ma-qr-trong-thanh-toan-online-3416.html",
+    "https://buonho.daklak.gov.vn/canh-bao-thu-doan-lua-dao-moi-thong-qua-hinh-thuc-quet-ma-qr-5396.html",
+    "https://vikkibank.vn/su-that-lua-dao-quet-ma-qr-mat-het-tien-trong-tai-khoan/",
+    "https://soha.vn/mot-ngan-hang-canh-bao-tai-ung-dung-nay-de-bi-chiem-quyen-kiem-soat-va-mat-tien-trong-tai-khoan-198250803111654007.htm",
+    "https://kenh14.vn/cong-an-thong-bao-quan-trong-den-nguoi-chuyen-tien-bang-quet-ma-qr-215260622001412843.chn",
+    "https://vietbao.vn/ngan-hang-canh-bao-thu-doan-lua-dao-moi-nham-vao-cac-ho-kinh-doanh-597216.html",
+    "https://thanhnien.vn/vi-sao-quet-ma-qr-bi-lua-dao-mat-tien-185250114110612127.htm",
+    "https://baochinhphu.vn/canh-bao-lua-dao-khi-quet-ma-qr-10223090715050241.htm",
+    "https://ngoisao.vn/theo-dong-su-kien/tin-nong-trong-ngay/canh-baokhan-tu-ngan-hang-voi-chieu-lua-moi-quet-ma-qr-co-the-mat-sach-tien-trong-tai-khoan-d487603.html"
+  ],
+  "latency_ms": 68642
+}

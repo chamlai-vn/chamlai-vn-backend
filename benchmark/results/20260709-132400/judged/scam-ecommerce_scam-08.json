@@ -1,0 +1,38 @@
+{
+  "case_id": "scam-ecommerce_scam-08",
+  "rag_verdict": {
+    "strengths": [
+      "Xác định đúng mức độ rủi ro (red) và trình bày rõ ràng, có cấu trúc dễ theo dõi",
+      "Bao quát đầy đủ 4 ý chính: giả mạo website, dùng tài khoản cá nhân, cắt liên lạc/xóa web, giá rẻ hấp dẫn",
+      "Chỉ ra thêm dấu hiệu phiếu xác nhận PNG không có giá trị pháp lý — chi tiết tinh tế và chính xác",
+      "Liệt kê các chiêu trò đã biết khớp với tình huống, giúp người đọc nhận diện mẫu lừa đảo",
+      "Khuyến nghị phòng ngừa thực tế: kiểm tra giấy phép, dùng nền tảng trung gian uy tín, xác minh giá qua kênh chính thức"
+    ],
+    "weaknesses": [
+      "Không đưa ra hướng dẫn xử lý sau khi đã mất tiền (Linh đã bị lừa rồi), như liên hệ ngân hàng phong tỏa, trình báo công an một cách chi tiết",
+      "Phần khuyến nghị hơi thiên về phòng ngừa trước hơn là khắc phục hậu quả cho nạn nhân hiện tại",
+      "Không cảnh báo về chiêu trò 'lấy lại tiền bị lừa' lần hai"
+    ],
+    "reasoning": "Câu trả lời A chính xác, súc tích và bao phủ đầy đủ tất cả các ý chính được yêu cầu, kèm theo dấu hiệu bổ sung có giá trị. Cấu trúc rõ ràng, chuyên nghiệp. Điểm yếu chính là thiếu hướng dẫn khắc phục cho nạn nhân đã mất tiền, vốn là tình huống cụ thể ở đây.",
+    "score": 7.5
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Phân tích chi tiết từng dấu hiệu lừa đảo, ánh xạ rõ ràng với tình huống cụ thể của Linh",
+      "Bao quát đầy đủ cả 4 ý chính được yêu cầu",
+      "Cung cấp hướng dẫn hành động cụ thể sau khi bị lừa: liên hệ ngân hàng phong tỏa, thu thập bằng chứng, trình báo công an — rất phù hợp vì Linh đã mất tiền",
+      "Cảnh báo quan trọng về chiêu 'lấy lại tiền bị lừa' để tránh mất tiền lần hai",
+      "Giọng điệu đồng cảm, khuyến khích nạn nhân trình báo"
+    ],
+    "weaknesses": [
+      "Đưa ra các số liệu và số điện thoại cụ thể (12.000 tỷ đồng, 18.000 lượt/tháng, đường dây nóng 0692 345 860) mà không thể kiểm chứng — rủi ro cung cấp thông tin sai lệch",
+      "Tiêu đề 'LỪA ĐẢO 100%' quá tuyệt đối, dù trong trường hợp này khá rõ ràng nhưng phong cách khẳng định tuyệt đối không phải thói quen tốt",
+      "Dùng nhiều emoji và định dạng rườm rà, làm loãng nội dung",
+      "Dài dòng, một số đoạn lặp ý"
+    ],
+    "reasoning": "Câu trả lời B rất toàn diện, đặc biệt mạnh ở phần hướng dẫn khắc phục cho nạn nhân đã mất tiền — điều đúng trọng tâm với tình huống. Tuy nhiên việc đưa số liệu và số điện thoại đường dây nóng cụ thể không kiểm chứng là rủi ro, và văn phong hơi dài, nhiều emoji. Tổng thể vẫn có giá trị thực tiễn cao.",
+    "score": 8
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

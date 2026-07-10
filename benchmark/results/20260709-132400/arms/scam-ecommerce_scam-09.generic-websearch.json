@@ -1,0 +1,49 @@
+{
+  "case_id": "scam-ecommerce_scam-09",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Giá tour quá rẻ so với thực tế (890.000đ/người cho tour Đà Lạt 3 ngày 2 đêm, rẻ hơn 30–50% so với giá thị trường)",
+      "Mất liên lạc với người bán sau khi đặt cọc – dấu hiệu kinh điển của lừa đảo tour ảo",
+      "App 'VietTravel Pro' không phải thương hiệu uy tín đã biết, có thể là app/fanpage giả mạo sao chép giao diện công ty uy tín",
+      "Yêu cầu chuyển tiền đặt cọc trước để 'giữ chỗ'"
+    ],
+    "matched_patterns": [
+      "Lừa đảo tour du lịch online giá rẻ",
+      "Tour ảo – mất liên lạc sau đặt cọc",
+      "App/fanpage giả mạo công ty du lịch uy tín",
+      "Yêu cầu đặt cọc 30–50% rồi chiếm đoạt"
+    ],
+    "recommended_actions": [
+      "Lưu lại bằng chứng: chụp màn hình toàn bộ tin nhắn, thông tin tài khoản người bán, lịch sử chuyển khoản và thông tin app",
+      "Liên hệ ngay đường dây nóng ngân hàng để báo cáo giao dịch đáng ngờ và yêu cầu hỗ trợ can thiệp kịp thời",
+      "Trình báo cơ quan công an gần nhất, mang theo toàn bộ bằng chứng đã chụp",
+      "Tuyệt đối không chuyển thêm tiền dù người bán liên hệ lại với bất kỳ lý do gì"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 RẤT CÓ KHẢ NĂNG ĐÂY LÀ LỪA ĐẢO!\n\nEm ơi, chị phải nói thẳng: **Tình huống của em có đủ các dấu hiệu đỏ của một vụ lừa đảo tour du lịch online điển hình.** Hãy bình tĩnh và đọc kỹ những điều sau:\n\n---\n\n## 🔴 Tại sao đây rất có thể là lừa đảo?\n\n### 1. Giá quá rẻ so với thực tế\nTour Đà Lạt 3 ngày 2 đêm chỉ **890.000đ/người** là bất thường. Bộ Công an khuyến cáo người dân cần cảnh giác khi nhận được lời mời chào mua gói du lịch với mức giá quá rẻ (rẻ hơn 30–50% so với giá chung của thị trường).\n\n### 2. Mất liên lạc sau khi đặt cọc – dấu hiệu kinh điển nhất\nĐây là kịch bản rất phổ biến: nhiều người đã tin tưởng đặt tour du lịch Đà Lạt qua mạng với giá rẻ hơn thị trường, nhưng **sau khi chuyển tiền đặt cọc, không thể liên hệ được với tài khoản và phát hiện ra mình đã bị mất tiền do đặt phải một Tour ảo.**\n\n### 3. App \"VietTravel Pro\" không phải thương hiệu uy tín đã biết\nNhiều kẻ lừa đảo tạo website hoặc app/fanpage giả mạo các công ty du lịch lữ hành lớn, sử dụng hình ảnh, logo giống hệt thương hiệu thật. Các trang này tinh vi đến mức sao chép giao diện và thông tin của các công ty uy tín, thường có tên gần giống với các trang chính thức, khiến người dùng khó phân biệt.\n\n### 4. Chiêu yêu cầu đặt cọc để \"giữ chỗ\"\nBộ Công an cũng nhấn mạnh đến phương thức: nhóm người lừa đảo đăng tải bài viết quảng cáo bán tour du lịch, phòng khách sạn giá rẻ trên mạng với nhiều tiện ích kèm theo, **đề nghị nạn nhân chuyển tiền đặt cọc từ 30–50% rồi chiếm đoạt.**\n\n### 5. Quy mô lừa đảo này rất lớn và đang tăng mạnh\nTháng 5/2025, Công an tỉnh Lạng Sơn đã phát hiện và triệt phá một đường dây lừa đảo đặt phòng nghỉ dưỡng giá rẻ. Các đối tượng lập fanpage Facebook giả mạo, chạy quảng cáo rầm rộ, chủ động nhắn tin gửi hình ảnh và đưa ra mức giá rẻ hơn thị trường để dụ dỗ khách hàng chuyển tiền. **Chỉ trong 15 ngày, đường dây này đã lừa được khoảng 80 nạn nhân với số tiền trên 250 triệu đồng.**\n\n---\n\n## ✅ Em cần làm ngay những việc sau:\n\n### Bước 1: Lưu lại bằng chứng\nChụp màn hình toàn bộ: tin nhắn, thông tin tài khoản người bán, lịch sử chuyển khoản, thông tin app.\n\n### Bước 2: Liên hệ ngân hàng ngay lập tức\nGọi ngay **đường dây nóng ngân hàng** của em để báo cáo giao dịch đáng ngờ và yêu cầu hỗ trợ (một số trường hợp có thể can thiệp kịp thời nếu tiền chưa được rút).\n\n### Bước 3: Trình báo công an\nNếu phát hiện bất kỳ dấu hiệu lừa đảo nào, hãy báo ngay cho Cơ quan Công an gần nhất để kịp thời ngăn chặn và xử lý. Em mang theo toàn bộ bằng chứng đã chụp.\n\n### Bước 4: Không chuyển thêm tiền\nDù người bán có liên hệ lại và đưa ra bất kỳ lý do gì (lỗi hệ thống, cần thêm phí xác nhận, v.v.) — **TUYỆT ĐỐI KHÔNG chuyển thêm tiền.**\n\n---\n\n## 📌 Bài học cho lần sau:\n\nCông an khuyến cáo người dân **tuyệt đối không tin tưởng các lời mời chào du lịch có mức giá rẻ bất thường trên mạng xã hội**. Trước khi giao dịch, cần kiểm tra thông tin pháp nhân của công ty du lịch qua các kênh chính thống; đồng thời nên **ưu tiên đặt dịch vụ trên các nền tảng uy tín, hạn chế chuyển tiền đặt cọc vào tài khoản cá nhân không rõ ràng.**\n\n---\n\n💛 Chị hiểu em đang rất lo lắng. 300k tuy không quá lớn, nhưng quan trọng là **đừng để mất thêm**. Hãy hành động ngay hôm nay nhé!",
+  "sources": [
+    "https://baochinhphu.vn/nhan-biet-thu-doan-lua-dao-dat-tour-du-lich-gia-re-102230711151650138.htm",
+    "https://uongbi.gov.vn/du-lich-mua-cao-diem-can-than-tranh-bay-lua-dao-tren-mang-xa-hoi-p13n91142.html",
+    "https://cand.com.vn/Thi-truong/tour-du-lich-gia-re-danh-cho-nguoi-nuoc-ngoai-o-lam-dong-dien-bien-phuc-tap-i785836",
+    "https://vov.vn/phap-luat/chieu-tro-lua-dao-du-lich-post1114373.vov",
+    "https://congan.daklak.gov.vn/tin-moi/canh-giac-voi-cac-chieu-tro-lua-dao-dat-tour-phong-nghi-dip-du-lich-he-2026-11749.html",
+    "https://www.luavietours.com/tin-tuc/cac-thu-doan-lua-dao-khi-dat-tour-du-lich-online/",
+    "https://www.vietnamplus.vn/lam-the-nao-de-khach-du-lich-tranh-cac-chieu-tro-lua-dao-tinh-vi-post1045810.vnp",
+    "https://baotintuc.vn/du-lich/du-lich-tet-2025-bai-cuoi-canh-giac-voi-chieu-tro-ban-tour-giam-gia-khuyen-mai-20241101230709244.htm",
+    "https://congan.quangngai.gov.vn/danh-muc-san-pham/-tin-tuc-su-kien/canh-giac-voi-thu-doan-lua-dao-khach-du-lich-dat-tour-phong-khach-san-ve-may-bay-gia-re-nhan-dip-le-30-4-01-5..html",
+    "https://hoadalattravel.vn/tour-da-lat-1-ngay/",
+    "https://www.vietravel.com/vn/tin-tuc-du-lich/vietravel-co-uy-tin-khong-thuc-hu-thong-tin-cong-ty-vietravel-lua-dao-v14334.aspx",
+    "https://laodong.vn/ban-doc/gia-danh-nhan-vien-vietravel-tuyen-nguoi-lua-dao-tien-1296835.ldo",
+    "https://www.facebook.com/vietravel/posts/c%E1%BA%A3nh-b%C3%A1o-gi%E1%BA%A3-m%E1%BA%A1o-th%C6%B0%C6%A1ng-hi%E1%BB%87u-vietravel-%C4%91%E1%BB%83-l%E1%BB%ABa-%C4%91%E1%BA%A3o-kh%C3%A1ch-h%C3%A0ng-trong-m%C3%B9a-du-l%E1%BB%8Bch-c/6618132984906567/",
+    "https://vnexpress.net/dau-hieu-lua-dao-khach-viet-can-biet-khi-dat-tour-tren-mang-4798932.html",
+    "https://www.vietnam.vn/en/canh-bao-gia-mao-vietravel-khanh-hoa-de-lua-dao-du-khach",
+    "https://doanhnghiephoinhap.vn/canh-bao-thu-doan-lua-dao-mua-du-lich-mao-danh-doanh-nghiep-lu-hanh-chiem-doat-tien-trieu-moi-ngay-109597.html",
+    "https://phongcachviettravel.vn/phong-cach-viet-travel-lua-dao-hay-doc-ngay-bai-viet-nay/",
+    "https://jobs.vietravel.com/news/vietravel-canh-bao-mao-danh-lua-dao-tuyen-dung.35a54f98/en",
+    "https://mytour.vn/vi/blog/bai-viet/canh-bao-thu-doan-lua-dao-moi-gia-mao-ten-mytour-de-gay-niem-tin.html"
+  ],
+  "latency_ms": 57651
+}

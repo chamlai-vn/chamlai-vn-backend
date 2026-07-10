@@ -1,0 +1,25 @@
+{
+  "case_id": "scam-tech_fraud-07",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Tải ứng dụng từ nguồn không chính thức (ngoài Play Store)",
+      "Ứng dụng yêu cầu cấp quyền truy cập tin nhắn và danh bạ ngay khi cài đặt",
+      "Người dùng ghi nhận có 'cảnh báo lạ' khi đăng nhập tài khoản ngân hàng"
+    ],
+    "matched_patterns": [
+      "Ứng dụng vay tiền trực tuyến giả mạo: Thu thập dữ liệu cá nhân để khống chế, đe dọa nạn nhân",
+      "Vay tiền qua app không rõ nguồn gốc với lãi suất cao và quấy rối đòi nợ"
+    ],
+    "recommended_actions": [
+      "Ngay lập tức gỡ cài đặt ứng dụng 'MobilePay+' khỏi điện thoại",
+      "Đổi mật khẩu tài khoản ngân hàng nếu đã đăng nhập từ app này; kiểm tra lịch giao dịch ngân hàng để phát hiện hoạt động bất thường",
+      "Chỉ tải ứng dụng thanh toán, quản lý ngân hàng từ Play Store hoặc App Store chính thức, hoặc từ website chính thức của ngân hàng",
+      "Không bao giờ cấp quyền truy cập danh bạ, tin nhắn, hình ảnh cho bất kỳ ứng dụng không rõ nguồn gốc nào",
+      "Nếu có dấu hiệu tài khoản bị xâm nhập, liên hệ ngân hàng ngay và báo cáo cho Công an"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 6141
+}

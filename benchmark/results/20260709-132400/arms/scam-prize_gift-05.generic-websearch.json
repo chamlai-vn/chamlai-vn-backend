@@ -1,0 +1,56 @@
+{
+  "case_id": "scam-prize_gift-05",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Thông báo trúng thưởng cuộc rút thăm mà nạn nhân chưa từng tham gia",
+      "Link giả mạo không phải domain chính thức (shoplife-reward.click)",
+      "Yêu cầu nhập mã OTP — bước chiếm đoạt tài khoản",
+      "Yêu cầu thu phí 'kích hoạt tài khoản nhận thưởng' (phí xử lý hồ sơ / phí pháp lý)",
+      "Nạn nhân đã nhập họ tên, CCCD, thông tin ngân hàng và mã OTP",
+      "Tin nhắn đến từ số điện thoại lạ",
+      "Kẻ lừa đảo biết tên thật nạn nhân — dữ liệu cá nhân có thể đã bị rò rỉ/mua bán"
+    ],
+    "matched_patterns": [
+      "Trúng thưởng giả",
+      "Link/website giả mạo",
+      "Yêu cầu OTP để chiếm đoạt tài khoản",
+      "Thu phí kích hoạt để nhận thưởng"
+    ],
+    "recommended_actions": [
+      "Khóa thẻ và tài khoản ngân hàng ngay lập tức qua app Mobile Banking hoặc gọi hotline ngân hàng 24/7",
+      "Liên hệ ngân hàng để đổi mật khẩu Internet Banking và yêu cầu ngăn chặn giao dịch tiếp theo",
+      "Trình báo cơ quan công an gần nhất để làm đơn tố giác tội phạm",
+      "Thu thập và lưu giữ bằng chứng: tin nhắn, ảnh chụp màn hình trang web giả mạo, yêu cầu chuyển tiền, thông báo trúng thưởng, thời gian và nội dung trao đổi",
+      "Đổi mật khẩu tất cả tài khoản mạng xã hội và email",
+      "Theo dõi sát các giao dịch ngân hàng trong thời gian tới",
+      "Cảnh báo người thân đề phòng kẻ gian mạo danh nạn nhân để lừa tiếp"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 ĐÂY LÀ LỪA ĐẢO 100% — Rất nghiêm trọng!\n\n## ✅ Kết luận ngay: Tình huống này là lừa đảo kinh điển\n\nTin nhắn mà em gái bạn nhận được khớp hoàn toàn với một kịch bản lừa đảo đã được cơ quan chức năng Việt Nam cảnh báo nhiều lần. Dưới đây là phân tích chi tiết:\n\n---\n\n## 🔍 Tại sao khẳng định đây là lừa đảo?\n\n### 1. Kịch bản \"trúng thưởng giả\" — cái bẫy cực kỳ phổ biến\nKịch bản giả mạo \"trúng thưởng lớn\" hay khuyến mãi hấp dẫn là cái bẫy quen thuộc khiến nhiều người nhẹ dạ gặp bẫy. Đối tượng lừa đảo tiếp cận các nạn nhân và tuyên bố rằng họ đã thắng một số tiền lớn trong cuộc rút thăm trúng thưởng mà họ chưa từng tham gia.\n\n### 2. Link giả mạo — dấu hiệu rõ ràng nhất\nBạn đã nhận xét đúng: link `shoplife-reward.click` **không phải domain chính thức**. Các website giả mạo hiện nay được thiết kế rất tinh vi với giao diện gần giống hoàn toàn trang chính thức, khiến nhiều người khó nhận biết thật – giả.\n\n### 3. Yêu cầu nhập OTP — đây là bước chiếm đoạt tài khoản\nCần đặc biệt cảnh giác trước các yêu cầu cung cấp thông tin thẻ ngân hàng, mật khẩu, mã OTP, vì các sàn thương mại điện tử, đơn vị vận chuyển và ngân hàng đều **không yêu cầu người dùng cung cấp các dữ liệu này** dưới bất kỳ hình thức nào.\n\nNgay sau khi nạn nhân nhập thông tin hoặc mã OTP, các đối tượng sẽ nhanh chóng đăng nhập tài khoản và thực hiện hành vi chuyển tiền, rút tiền trong thời gian rất ngắn.\n\n### 4. Thu phí \"kích hoạt tài khoản nhận thưởng\" — chiêu cuối cùng\nĐối tượng lừa đảo yêu cầu nạn nhân phải trả phí dưới danh nghĩa phí xử lý hồ sơ hoặc phí pháp lý. Nạn nhân được hướng dẫn gửi tiền thông qua chuyển khoản ngân hàng hoặc các phương thức không thể truy vết khác.\n\n### 5. Biết tên thật — không có gì kỳ diệu\nCác kịch bản lừa đảo ngày càng được cá nhân hóa. Những người thường xuyên mua sắm online dễ trở thành mục tiêu vì tâm lý chủ quan, tin rằng các thông báo liên quan đến đơn hàng là bình thường. Tên thật và thói quen mua sắm của em gái bạn rất có thể đã bị rò rỉ từ các nguồn dữ liệu bị mua bán trên mạng.\n\n---\n\n## ⚠️ Nguy cơ hiện tại — CỰC KỲ NGHIÊM TRỌNG\n\nViệc đã nhập **họ tên + CCCD + thông tin ngân hàng + mã OTP** là cực kỳ nguy hiểm:\n\nKhông chỉ dừng lại ở mất tiền, phishing còn khiến thông tin cá nhân quan trọng bị lộ, như CCCD, số điện thoại, email hoặc dữ liệu xác thực khác. Những thông tin này có thể tiếp tục bị kẻ gian sử dụng để **mạo danh, vay tiền, lừa đảo người thân** hoặc thực hiện các hành vi gian lận khác trong tương lai.\n\n---\n\n## 🆘 Hành động NGAY BÂY GIỜ — Không được chậm trễ!\n\n### ⚡ Bước 1: Khóa thẻ/tài khoản NGAY LẬP TỨC\nNếu nhận thấy tài khoản phát sinh giao dịch bất thường, cần **khóa tài khoản trên ứng dụng Mobile Banking/Internet Banking ngay lập tức** và liên hệ đến nhân viên ngân hàng để được xử lý kịp thời.\n\n👉 Gọi **hotline ngân hàng 24/7** (số in sau thẻ hoặc trên app) để:\n- Khóa thẻ tín dụng bị trừ tiền\n- Đổi mật khẩu Internet Banking\n- Yêu cầu ngăn chặn giao dịch tiếp theo\n\n### 🚔 Bước 2: Trình báo công an\nKhi phát hiện mình bị lừa đảo chuyển khoản, bước quan trọng nhất là trình báo cơ quan công an để được bảo vệ quyền lợi pháp lý. Nên đến cơ quan công an gần nhất để làm đơn tố giác tội phạm, trình bày chi tiết về vụ việc.\n\n### 📸 Bước 3: Thu thập bằng chứng\nCần lưu giữ: tin nhắn, email, cuộc gọi với kẻ lừa đảo; ảnh chụp màn hình trang web giả mạo, yêu cầu chuyển tiền, thông báo trúng thưởng; ghi lại thời gian, nội dung trao đổi, các bước đã thực hiện.\n\n### 🔐 Bước 4: Bảo vệ thông tin cá nhân\nVì CCCD đã bị lộ, cần:\n- Đổi mật khẩu tất cả tài khoản mạng xã hội, email\n- Theo dõi sát các giao dịch ngân hàng trong thời gian tới\n- Cảnh báo người thân đề phòng kẻ gian mạo danh em gái bạn để lừa tiếp\n\n---\n\n## 📌 Bài học để không bị lừa lần sau\n\n| Dấu hiệu nhận biết lừa đảo | Tình huống này |\n|---|---|\n| Trúng thưởng không tham gia | ✅ |\n| Link không phải domain chính thức | ✅ |\n| Yêu cầu nhập OTP | ✅ |\n| Yêu cầu phí \"kích hoạt\" để nhận thưởng | ✅ |\n| Số điện thoại lạ | ✅ |\n\nViệc báo cáo với các cơ quan chức năng khi gặp lừa đảo là rất cần thiết để bảo vệ quyền lợi của bản thân nạn nhân và **ngăn chặn các hành vi phạm pháp**, tránh thêm nhiều nạn nhân khác.",
+  "sources": [
+    "https://kenh14.vn/lua-dao-truc-tuyen-gay-thiet-hai-gan-19000-ty-dong-trong-nam-2024-215241217100241204.chn",
+    "https://dhtn.hatinh.gov.vn/bai-viet/-canh-giac-voi-chieu-tro-lua-dao-mua-sam-online-dip-cuoi-nam",
+    "https://www.seabank.com.vn/tin-tuc/tu-van-dich-vu/tu-van--meo/cach-lay-lai-tien-da-chuyen-khoan-khi-bi-lua-huong-dan-chi-tiet-va-day-du",
+    "https://congnghevadoisong.vn/mat-tien-oan-voi-chieu-tro-gia-mao-hoan-tien-va-don-hang-d85097.html",
+    "https://nld.com.vn/nguoi-viet-mat-gan-19000-ti-dong-vi-lua-dao-truc-tuyen-nam-2024-196241216110336656.htm",
+    "https://congan.quangngai.gov.vn/danh-muc-san-pham/-tin-tuc-su-kien/co-the-ban-chua-biet/canh-giac-thu-doan-lua-dao-gia-danh-ngan-hang-thong-bao-nhan-diem-thuong.html",
+    "https://www.dnse.com.vn/hoc/duong-link-phishing-lay-otp",
+    "https://tuoitre.daklak.gov.vn/thanh-nien-voi-chuyen-doi-so/canh-giac-thu-doan-lua-dao-tren-cac-san-thuong-mai-dien-tu-5788.html",
+    "https://truongdinh.haibatrung.hanoi.gov.vn/an-ninh-quoc-phong/-/asset_publisher/UByp2W88WPKe/content/nhan-dien-nhung-chieu-tro-lua-ao-nhan-qua-trung-thuong",
+    "https://markettimes.vn/canh-bao-gia-mao-cong-thong-tin-dien-tu-bo-tai-chinh-de-lua-dao-96626.html",
+    "https://congan.ninhbinh.gov.vn/canh-bao-chieu-thuc-lua-dao-danh-cap-tai-khoan-ngan-hang",
+    "https://timo.vn/blogs/rui-ro-khi-su-dung-ma-otp/",
+    "https://naict.tttt.nghean.gov.vn/attt/cach-tranh-bi-lua-dao-lien-quan-den-ma-otp-1628.html",
+    "https://vietbao.vn/ngan-hang-canh-bao-thu-doan-lua-dao-moi-nham-vao-cac-ho-kinh-doanh-597216.html",
+    "https://cafef.vn/cong-an-canh-bao-thu-doan-lua-dao-lien-quan-den-tien-dien-nguoi-dan-canh-giac-khi-nhan-duoc-tin-nhan-nay-188260707091441625.chn",
+    "https://www.div.gov.vn/canh-giac-truoc-chieu-tro-lua-dao-moi-cua-toi-pham-de-khong-mat-tien-trong-tai-khoan",
+    "https://tuoitre.vn/lam-cho-khach-hang-lo-lang-khi-tai-khoan-bi-khoa-roi-lua-lay-luon-tai-khoan-ngan-hang-20250220231938811.htm",
+    "https://antv.gov.vn/other/nhieu-hinh-thuc-lua-dao-nham-den-ma-otp-926236C84.html",
+    "https://div.gov.vn/canh-giac-voi-chieu-tro-lua-dao-chiem-doat-tien-trong-tai-khoan-ngan-hang-",
+    "https://soha.vn/phat-hien-thu-doan-moi-cuc-nguy-hiem-khien-tat-ca-otp-dang-nhap-tai-khoan-ngan-hang-vi-dien-tu-cua-nguoi-dung-chuyen-thang-cho-lua-dao-19826052221475195.htm"
+  ],
+  "latency_ms": 65914
+}

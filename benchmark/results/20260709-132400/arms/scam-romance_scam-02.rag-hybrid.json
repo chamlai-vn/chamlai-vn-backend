@@ -1,0 +1,29 @@
+{
+  "case_id": "scam-romance_scam-02",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Yêu cầu chuyển tiền gấp với lý do khẩn cấp (tai nạn lao động, nằm bệnh viện)",
+      "Sử dụng tình cảm để thao túng ('anh rất yêu em', 'chứng minh tình yêu')",
+      "Yêu cầu gửi tài khoản ngân hàng qua Zalo (không an toàn)",
+      "Gây áp lực thời gian ('em nhanh lên được không', 'anh đang rất đau đớn')",
+      "Kịch bản chi tiết và hợp lý hóa để tạo lòng tin (bệnh viện Al Zahra, công trường Dubai)",
+      "Hứa hoàn tiền sau (kiểu điển hình của lừa đảo)"
+    ],
+    "matched_patterns": [
+      "Lừa đảo tình cảm dẫn dụ đầu tư/chiếm đoạt tài sản",
+      "Lừa đảo video Deepfake mạo danh người thân (có khả năng tin nhắn từ tài khoản bị chiếm đoạt)"
+    ],
+    "recommended_actions": [
+      "Xác minh danh tính người gửi bằng cách gọi điện trực tiếp đến số điện thoại cũ lưu trong điện thoại của bạn, không phải số mà họ cung cấp",
+      "Không chuyển tiền ngay lập tức dù nghe có vẻ khẩn cấp",
+      "Kiểm tra lại tài khoản Zalo/mạng xã hội xem có dấu hiệu bị chiếm đoạt (các cuộc gọi lạ, tin nhắn lạ gửi cho bạn bè/người thân khác)",
+      "Không cung cấp thông tin tài khoản ngân hàng hoặc OTP cho bất kỳ ai qua tin nhắn",
+      "Liên hệ với công ty/sếp của người này để xác minh sự việc",
+      "Nếu nghi ngờ mạnh, báo cáo cho Công an địa phương hoặc Cục Cảnh sát hình sự"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 8108
+}

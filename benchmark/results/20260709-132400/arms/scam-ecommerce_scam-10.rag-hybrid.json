@@ -1,0 +1,31 @@
+{
+  "case_id": "scam-ecommerce_scam-10",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Quảng cáo giá tour rẻ hơn thị trường 60% - bất thường và đáng ngờ",
+      "Link website lạ (traveljoy-vn.shop) không phải trang chính thức",
+      "Yêu cầu thanh toán tiền cọc 50% vào tài khoản cá nhân",
+      "Liên hệ sau thanh toán yêu cầu thêm phí bảo hiểm không nêu rõ trước",
+      "Chuyển sang ứng dụng chat khác để tránh để lại dấu vết",
+      "Website đã đóng, số điện thoại không nghe máy, tài khoản Facebook bị xóa sau khi lấy tiền",
+      "Đánh giá 5 sao hàng ngàn khách hàng trên website lạ - có thể là giả"
+    ],
+    "matched_patterns": [
+      "Giả mạo fanpage khách sạn, tour du lịch để lừa chuyển tiền đặt cọc",
+      "Giả mạo website/fanpage khách sạn, tour du lịch để lừa đặt cọc trực tuyến",
+      "Giả mạo đại lý tour, vé máy bay qua fanpage, website lừa đảo"
+    ],
+    "recommended_actions": [
+      "Báo cáo ngay cho công an địa phương hoặc Phòng An ninh mạng với toàn bộ bằng chứng (tin nhắn, link website, thông tin tài khoản chuyển khoản)",
+      "Liên hệ với ngân hàng để báo cáo giao dịch lừa đảo, yêu cầu theo dõi và khóa tài khoản nhận tiền",
+      "Báo cáo với sàn nền tảng thanh toán hoặc nêu trên Facebook/Zalo nếu có dấu hiệu vi phạm",
+      "Kiểm tra tài khoản cá nhân - thay đổi mật khẩu, giám sát hoạt động để phòng chống trộm cắp danh tính",
+      "Cảnh báo bạn bè, người thân tránh rơi vào lừa đảo tương tự",
+      "Lưu lại tất cả bằng chứng để làm hồ sơ khiếu nại hoặc yêu cầu bồi thường nếu có cơ hội"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 8777
+}

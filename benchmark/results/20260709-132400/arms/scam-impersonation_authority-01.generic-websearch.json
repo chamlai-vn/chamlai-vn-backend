@@ -1,0 +1,55 @@
+{
+  "case_id": "scam-impersonation_authority-01",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Giả danh cơ quan nhà nước (Công an, Viện Kiểm sát) để đe dọa qua điện thoại",
+      "Cơ quan nhà nước không bao giờ triệu tập hay làm việc qua điện thoại — chỉ qua Giấy triệu tập có đóng dấu",
+      "Yêu cầu cài đặt ứng dụng không rõ nguồn gốc tên 'Secure Pay' — không được Ngân hàng Nhà nước Việt Nam cấp phép, có thể đọc trộm thông tin và chiếm quyền điện thoại",
+      "Áp lực thời gian 24 giờ để nạn nhân không kịp suy nghĩ",
+      "Dùng chiêu bài 'nợ không người ký' / liên quan đến khoản vay bất hợp pháp để đe dọa người chưa từng vay vốn"
+    ],
+    "matched_patterns": [
+      "Giả danh cơ quan nhà nước để đe dọa",
+      "Yêu cầu cài đặt ứng dụng giả mạo",
+      "Áp lực thời gian tạo hoảng sợ",
+      "Yêu cầu chuyển tiền qua tài khoản/ứng dụng không rõ nguồn gốc",
+      "Chiêu bài nợ tín dụng / liên quan vụ án giả"
+    ],
+    "recommended_actions": [
+      "KHÔNG chuyển tiền dù bị đe dọa thế nào",
+      "KHÔNG cài đặt ứng dụng 'Secure Pay' hoặc bất kỳ app không rõ nguồn gốc nào theo hướng dẫn của đối tượng",
+      "KHÔNG cung cấp thông tin cá nhân như CCCD, mã OTP, mật khẩu ngân hàng",
+      "Trình báo công an tại Công an phường/xã nơi cư trú (theo Điều 145 Bộ luật Tố tụng hình sự 2015)",
+      "Chặn và báo cáo số điện thoại đáng ngờ (ví dụ: 0243-888-5520)",
+      "Nếu đã lỡ cung cấp thông tin, đổi mật khẩu ngân hàng ngay lập tức",
+      "Chia sẻ thông tin này với người thân để tránh bị lừa"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## 🚨 ĐÂY LÀ LỪA ĐẢO! Hãy TUYỆT ĐỐI KHÔNG làm theo yêu cầu của họ!\n\nTình huống bạn mô tả là một **kịch bản lừa đảo kinh điển** đang rất phổ biến tại Việt Nam. Dưới đây là phân tích chi tiết:\n\n---\n\n### 🔴 Tại sao đây là lừa đảo? — 5 dấu hiệu rõ ràng\n\n**1. Giả danh cơ quan nhà nước để đe dọa**\nTội phạm thường sử dụng công nghệ cao, ẩn danh dưới số điện thoại giống số điện thoại công khai của cơ quan Công an, Viện Kiểm sát để gọi điện cho bị hại, thông báo họ đang bị kiện vì nợ tiền hoặc có liên quan đến một vụ án, rồi dùng lời lẽ đe dọa sẽ bắt tạm giam nạn nhân khiến nạn nhân sợ hãi.\n\n**2. Cơ quan nhà nước không bao giờ làm việc qua điện thoại như vậy**\nCần đề cao cảnh giác khi nhận các cuộc gọi tự xưng là cán bộ cơ quan Nhà nước, cơ quan Công an để thông báo, yêu cầu điều tra vụ án qua điện thoại. Bởi lẽ, việc triệu tập người có liên quan lên cơ quan Công an làm việc sẽ được thực hiện qua **Giấy triệu tập có đóng dấu, xác nhận của Công an**, không phải qua điện thoại.\n\n**3. Yêu cầu chuyển tiền qua ứng dụng không rõ nguồn gốc (\"Secure Pay\")**\nNgười dân cần lưu ý không cung cấp thông tin cá nhân theo yêu cầu của người lạ qua điện thoại; không chuyển tiền vào các tài khoản do đối tượng lạ cung cấp; **không cài đặt ứng dụng hoặc truy cập các đường link không rõ nguồn gốc** theo hướng dẫn của các đối tượng.\n\n\u003e ⚠️ **\"Secure Pay\"** không phải ứng dụng thanh toán được Ngân hàng Nhà nước Việt Nam cấp phép. Tên này được đặt ra để nghe có vẻ an toàn nhằm đánh lừa bạn. Sau khi bạn cài ứng dụng, chúng có thể đọc trộm thông tin, chiếm quyền điện thoại và rút sạch tiền trong tài khoản ngân hàng của bạn.\n\nSau khi ứng dụng giả mạo được cài đặt vào điện thoại, các đối tượng sẽ tạo ra một số tình huống để người dùng thực hiện các giao dịch; ứng dụng giả mạo có thể đọc trộm các thông tin lưu trữ, theo dõi thao tác của khách hàng, sau đó chiếm quyền truy cập và sử dụng trái phép thiết bị di động để chiếm đoạt tài sản.\n\n**4. Áp lực thời gian (\"24 giờ\") để bạn không kịp suy nghĩ**\nKẻ lừa đảo thường cố gắng tạo ra cảm giác hoảng sợ hoặc đe dọa, ví dụ: *\"Tài khoản của bạn sẽ bị khóa nếu không xác minh ngay lập tức\"* — đây là dấu hiệu lừa đảo điển hình.\n\n**5. \"Nợ không người ký\" là chiêu bài quen thuộc**\nĐối với những người chưa từng vay vốn, không quen thủ tục tín dụng, dễ bị đối tượng giả danh cơ quan nhà nước đe dọa \"liên quan đến khoản vay bất hợp pháp\", \"nợ tín dụng nghiêm trọng\", \"yêu cầu phải hợp tác điều tra\", đồng thời yêu cầu cung cấp thông tin hoặc chuyển tiền để chứng minh sự trong sạch.\n\n---\n\n### ✅ Bạn cần làm gì ngay bây giờ?\n\n| Hành động | Chi tiết |\n|---|---|\n| 🚫 **KHÔNG** chuyển tiền | Dù họ đe dọa thế nào cũng không chuyển tiền |\n| 🚫 **KHÔNG** cài \"Secure Pay\" | Đây là app giả mạo để chiếm quyền điện thoại |\n| 🚫 **KHÔNG** cung cấp thông tin cá nhân | CCCD, mã OTP, mật khẩu ngân hàng |\n| 📞 **Trình báo công an** | Đến Công an phường/xã nơi bạn cư trú |\n| 📱 **Chặn số điện thoại** | Chặn và báo cáo số 0243-888-5520 |\n| 🔒 **Bảo mật tài khoản** | Nếu lỡ cung cấp thông tin, đổi mật khẩu ngân hàng ngay |\n\nTheo Điều 145 Bộ luật Tố tụng hình sự 2015, người bị hại có thể tố giác tội phạm tại **Công an xã, phường, thị trấn, Đồn Công an, Trạm Công an nơi cư trú**.\n\n---\n\n### 💡 Lời khuyên cuối\n\nCác cơ quan quản lý nhà nước **sẽ không yêu cầu bạn chuyển tiền hoặc cung cấp thông tin nhạy cảm qua điện thoại một cách đột ngột** mà không có văn bản thông báo trước; và không làm việc, lấy lời khai qua điện thoại.\n\nHãy bình tĩnh, chia sẻ thông tin này với người thân để tránh bị lừa và trình báo ngay với cơ quan công an gần nhất! 💪",
+  "sources": [
+    "https://canhsatquanlyhanhchinh.gov.vn/phong-chong-toi-pham/canh-giac-thu-doan-gia-danh-mao-danh-co-quan-tu-phap-de-lua-dao-chiem-doat-tai-san-2655",
+    "https://truyenhinhthanhhoa.vn/cong-ty-tai-chinh-bi-cam-goi-dien-doi-no-nguoi-than-cua-khach-hang-1808243957.htm",
+    "https://congan.hatinh.gov.vn/bai-viet/gia-danh-co-quan-cong-an-vien-kiem-sat-toa-an-goi-dien-lua-dao_1705457297.caht",
+    "https://congan.quangninh.gov.vn/tin-antt-va-canh-bao-toi-pham/huong-dan-nguoi-dan-cach-xu-ly-khi-bi-nhan-tin-goi-dien-khung-bo-doi-no-du-khong-vay-tien-23047.html",
+    "https://luatvietnam.vn/linh-vuc-khac/lua-dao-gia-danh-cong-an-883-89157-article.html",
+    "https://baomoi.com/canh-giac-thu-doan-gia-danh-co-quan-chuc-nang-de-lua-dao-qua-dien-thoai-c55157550.epi",
+    "https://congtyluatacc.vn/bi-gia-mao-thong-tin-ca-nhan-de-vay-tien-phai-lam-gi/",
+    "https://honglonglaw.com/khi-co-quan-to-tung-bi-mao-danh-de-doi-no/",
+    "https://vnexpress.net/lam-gi-khi-bi-lua-ky-ten-vao-giay-trang-ghi-khong-noi-dung-vay-no-4587568-p2.html",
+    "https://nhandan.vn/xu-ly-nghiem-hanh-vi-lua-dao-chiem-doat-tai-san-tren-khong-gian-mang-post923130.html",
+    "https://www.smartpayvn.com/tin-tuc/canh-bao-rui-ro-lua-dao-chiem-doat-tai-san/",
+    "https://payoo.vn/tin-tuc/canh-bao-lua-dao-gia-mao-website-email.html",
+    "https://vnba.org.vn/vi/smartpay-canh-bao-hanh-vi-mao-danh-lua-dao-chiem-doat-tai-san-4908.htm",
+    "https://vietnamnet.vn/ngan-hang-chi-mat-cac-chieu-lua-dang-bung-phat-2526250.html",
+    "https://bidv.com.vn/bidv/tin-tuc/tin-ve-bidv/canh-bao-cac-hinh-thuc-lua-dao-trong-linh-vuc-ngan-hang",
+    "https://www.payoneer.com/vi/resources/defending-against-phishing-attacks-a-guide-to-securing-your-payoneer-account/",
+    "https://thanhtra.com.vn/an-ninh-trat-tu-D718A18CA/nguoi-dan-canh-giac-voi-hanh-vi-lua-dao-tien-ao-nhu-payn-aed27179b.html",
+    "https://bankcredit.vn/vi-dien-tu-smartpay/",
+    "https://tuoitre.vn/bat-nhom-chieu-du-dau-tu-tien-ao-tren-toan-quoc-voi-loi-nhuan-sieu-lon-lua-dao-10-000-ty-dong-20250528073026871.htm",
+    "https://www.tiktok.com/discover/e9pay-chuy%E1%BB%83n-ti%E1%BB%81n-c%C3%B3-an-to%C3%A0n-kh%C3%B4ng"
+  ],
+  "latency_ms": 57086
+}

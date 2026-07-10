@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-loan_scam-06",
+  "rag_verdict": {
+    "strengths": [
+      "Nhận diện đúng nạn nhân bị rút sạch tài khoản và tập trung khắc phục khẩn cấp",
+      "Phủ đủ 4 ý chính: app LoanHub từ link SMS, lãi 0% mồi nhử, xin định danh + số tài khoản, phí bảo hiểm rồi bị rút hết",
+      "Khuyến nghị mạnh: khóa ngay toàn bộ tài khoản ngân hàng, đổi mật khẩu + bật 2FA, cân nhắc thay SIM (nguy cơ SIM ghép)",
+      "Pattern khớp đúng loại"
+    ],
+    "weaknesses": [
+      "Có câu garbled ('lâu đó là phần mềm độc hại')",
+      "Không nêu số hotline ngân hàng/đường dây nóng cụ thể",
+      "Không nhắc factory reset thiết bị"
+    ],
+    "reasoning": "Đúng trọng tâm khắc phục khẩn cấp với các bước bảo mật hợp lý. Trừ điểm nhẹ vì một câu garbled và thiếu hotline cụ thể.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Quy trình khắc phục theo thứ tự ưu tiên rõ ràng: khóa tài khoản → gỡ app/factory reset → thu thập bằng chứng → trình báo",
+      "Trấn an nạn nhân không tự trách, cảnh báo app đã truy cập danh bạ có thể lừa người thân",
+      "Cung cấp kênh trình báo (canhbao.ncsc.gov.vn), số liệu quy mô",
+      "Giải thích quyền app độc hại yêu cầu là bước khống chế"
+    ],
+    "weaknesses": [
+      "Rất dài",
+      "Kết thúc bằng câu hỏi ngược lại người dùng — hơi thừa với vai trò phân tích"
+    ],
+    "reasoning": "Toàn diện, quy trình khắc phục ưu tiên rõ và có trấn an. Điểm trừ là độ dài.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

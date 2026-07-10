@@ -1,0 +1,32 @@
+{
+  "case_id": "scam-fake_job-02",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Yêu cầu tải ứng dụng lạ (ShopCart Pro) không rõ nguồn gốc",
+      "Liên hệ qua Zalo cá nhân thay vì kênh chính thức của công ty",
+      "Lời hứa thu nhập cực kỳ cao (5 triệu đồng trong 1 tuần) cho công việc đơn giản không yêu cầu kỹ năng",
+      "Yêu cầu chuyển tiền ký cọc trước để 'kích hoạt tài khoản VIP'",
+      "Liên tục yêu cầu chuyển thêm tiền với các lý do khác nhau (mở khóa tính năng, xác minh lương)",
+      "Cung cấp số tài khoản ngân hàng cá nhân thay vì tài khoản công ty chính thức",
+      "Mạo danh doanh nghiệp 'Phúc Hưng Trade' không xác minh",
+      "Các sản phẩm giả (hàng hiệu counterfeit) trong danh sách công việc"
+    ],
+    "matched_patterns": [
+      "fake_job - Giả mạo doanh nghiệp tuyển CTV online, yêu cầu chuyển tiền trước qua 'đơn hàng ảo'",
+      "fake_job - Lừa đảo tuyển cộng tác viên online: dẫn dụ chuyển tiền qua các 'gói nhiệm vụ' giả mạo"
+    ],
+    "recommended_actions": [
+      "Báo cánh sát ngay lập tức với toàn bộ thông tin chi tiết (tên người lừa, số Zalo, số tài khoản, số tiền đã chuyển)",
+      "Khóa ngay tài khoản Zalo và các tài khoản được cung cấp cho kẻ lừa",
+      "Liên hệ ngân hàng để cảnh báo và yêu cầu theo dõi tài khoản nhận tiền",
+      "Chụp lại toàn bộ tin nhắn, hình ảnh từ cuộc trò chuyện với 'Trần Minh Đức' làm bằng chứng",
+      "Kiểm tra xem liệu ứng dụng 'ShopCart Pro' có tồn tại trên kho ứng dụng chính thức hay không",
+      "Khuyến cáo gia đình và bạn bè không tải ứng dụng hoặc liên hệ với các số điện thoại/tài khoản này",
+      "Nếu có kinh phí, cân nhắc kiểm tra credit score hoặc theo dõi hoạt động tài khoản ngân hàng trong thời gian tới"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 9509
+}

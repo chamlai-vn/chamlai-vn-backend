@@ -1,0 +1,31 @@
+{
+  "case_id": "scam-ecommerce_scam-04",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Quảng cáo vé máy bay với giá thấp bất thường (890.000 đ thay vì 2,5 triệu đ - giảm 64%)",
+      "Website giả mạo (vé888.vn) trông giống website chính thức nhưng là lừa đảo",
+      "Yêu cầu chuyển khoản vào tài khoản cá nhân thay vì tài khoản công ty chính thức",
+      "Không cấp mã đặt chỗ hoặc xác nhận vé sau khi thanh toán",
+      "Số điện thoại liên lạc không thể kết nối sau giao dịch",
+      "Website biến mất sau khi nhận tiền, tài khoản Facebook bị xóa",
+      "Thủ đoạn cắt đứt liên lạc sau khi chiếm đoạt tiền"
+    ],
+    "matched_patterns": [
+      "Giả mạo đại lý tour, vé máy bay qua fanpage, website lừa đảo trong mùa du lịch cao điểm",
+      "Giả mạo website/fanpage khách sạn, tour du lịch để lừa đặt cọc trực tuyến"
+    ],
+    "recommended_actions": [
+      "Chỉ đặt vé máy bay qua website chính thức của hãng hàng không hoặc các đại lý du lịch được xác nhận pháp lý",
+      "Luôn xác minh danh tính công ty bằng cách gọi điện đến số điện thoại chính thức trên website hoặc tìm kiếm thông tin trên Google trước khi chuyển tiền",
+      "Không tin vào giá vé quá rẻ (nếu rẻ hơn thị trường 20-30% trở lên hãy cảnh giác)",
+      "Kiểm tra 'Thông tin minh bạch' của fanpage trên Facebook - xem thời gian tạo, lịch sử đổi tên và quốc gia quản lý",
+      "Tuyệt đối không chuyển tiền vào tài khoản cá nhân; yêu cầu thanh toán qua tài khoản công ty chính thức hoặc nền tảng trung gian uy tín",
+      "Nếu không nhận được xác nhận vé hoặc mã đặt chỗ sau 2 giờ, hãy liên hệ trực tiếp với hãng bay để kiểm tra",
+      "Lưu giữ bằng chứng giao dịch và báo cáo với công an địa phương, ngân hàng phát hành nếu bị lừa"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 9784
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-other-02",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận đúng (red), phủ đủ 4 ý chính: lương cao phi lý, phí 'đặt cọc tín dụng' trước, link rút gọn bit.do, hứa hoàn tiền không hợp đồng",
+      "Pattern khớp đúng loại fake_job — giá trị truy hồi",
+      "Khuyến nghị thực dụng: xác minh ĐKKD, nộp hồ sơ qua sàn uy tín (LinkedIn/VietnamWorks/TopCV), yêu cầu hợp đồng trước khi bỏ tiền",
+      "Đầy đủ, đúng trọng tâm"
+    ],
+    "weaknesses": [
+      "Không giải thích cơ chế 'làm nhiệm vụ nạp tiền' leo thang",
+      "Không cung cấp kênh trình báo cụ thể",
+      "Định dạng thuần liệt kê"
+    ],
+    "reasoning": "Chính xác, pattern khớp đúng loại và khuyến nghị hợp lý. Thiếu giải thích cơ chế leo thang và kênh trình báo.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Phân tích 6 dấu hiệu, giải thích cơ chế 'làm nhiệm vụ nạp tiền' leo thang tới hàng tỷ",
+      "Nêu điểm nhà tuyển dụng uy tín không thu phí, cảnh báo link bit.do chứa mã độc",
+      "Cung cấp kênh xác minh (dangkykinhdoanh.gov.vn), căn cứ pháp lý (Điều 174)",
+      "Bảng hành động rõ ràng"
+    ],
+    "weaknesses": [
+      "Dài, định dạng nặng",
+      "Gọi 113 để báo cáo hơi chưa chuẩn"
+    ],
+    "reasoning": "Toàn diện, giải thích cơ chế leo thang và có kênh xác minh pháp nhân cụ thể. Điểm trừ là độ dài.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

@@ -1,0 +1,32 @@
+{
+  "case_id": "scam-tech_fraud-02",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Cuộc gọi video từ số lạ mạo danh người thân (mẹ)",
+      "Giọng nói và hình ảnh của người thân được giả mạo bằng công nghệ deepfake",
+      "Yêu cầu chuyển tiền gấp (15 triệu đồng) với lý do khẩn cấp ở nước ngoài",
+      "Yêu cầu chuyển tiền vào tài khoản khác (không chính thức)",
+      "Tạo áp lực thời gian (cần tiền ngay lập tức) để nạn nhân không kịp kiểm chứng",
+      "Kịch bản xác thực cao (hình ảnh rõ ràng, giọng nói giống, tình huống có vẻ hợp lý)"
+    ],
+    "matched_patterns": [
+      "Deepfake giả mạo hình ảnh, giọng nói, video để lừa chuyển khoản trong dịp Tết",
+      "Deepfake lừa đảo: giả danh người thân, cán bộ công an qua video call để chiếm đoạt tiền",
+      "Lừa đảo bằng cuộc gọi video Deepfake mạo danh người thân",
+      "Deepfake - Công nghệ giả mạo hình ảnh, giọng nói để lừa đảo tài chính",
+      "Deepfake giả mạo để lừa đảo tiền qua video call hoặc fake livestream"
+    ],
+    "recommended_actions": [
+      "Khi nhận cuộc gọi video yêu cầu chuyển tiền từ người thân, hãy cúp máy ngay và gọi lại trực tiếp qua số điện thoại đã lưu để xác minh",
+      "Thiết lập 'mật mã gia đình' - một từ hoặc cụm từ bí mật chỉ các thành viên gia đình biết, yêu cầu xác nhận trước khi thực hiện giao dịch",
+      "Hạn chế chia sẻ hình ảnh rõ mặt, video cá nhân công khai trên mạng xã hội để tránh bị lợi dụng tạo deepfake",
+      "Bật xác thực hai bước (2FA) cho các tài khoản mạng xã hội để ngăn ngừa bị hack",
+      "Trong tình huống gấp, luôn kiểm chứng qua kênh thứ hai trước khi chuyển tiền, đặc biệt là các yêu cầu chuyển khoản bất thường",
+      "Hỏi những câu hỏi chỉ người thật mới biết câu trả lời để xác nhận danh tính khi nghi ngờ"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 9048
+}

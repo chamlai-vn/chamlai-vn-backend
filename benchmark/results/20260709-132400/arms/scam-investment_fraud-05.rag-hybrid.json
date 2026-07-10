@@ -1,0 +1,31 @@
+{
+  "case_id": "scam-investment_fraud-05",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Người lạ kết bạn trên Facebook tự giới thiệu là chuyên gia đầu tư với chứng chỉ/bằng cấp giả",
+      "Chia sẻ hình ảnh lợi nhuận giả và chiến lược giao dịch độc quyền để xây dựng lòng tin",
+      "Mời vào nhóm Telegram kín với nhiều tài khoản ảo giả danh thành viên có lợi nhuận cao",
+      "Yêu cầu tải ứng dụng giả mạo (FXPro Global với domain khả nghi fxproglobal-vn.online)",
+      "Cung cấp tài khoản ngân hàng với tên công ty không rõ nguồn gốc để nhận tiền",
+      "Ứng dụng giả hiển thị lợi nhuận giả mạo để lôi kéo nạn nhân nạp tiền liên tục",
+      "Khi nạn nhân muốn rút tiền, yêu cầu nạp thêm tiền để 'giải phóng quỹ'",
+      "Sau khi nạn nhân nạp đủ tiền, đối tượng mất liên lạc hoàn toàn"
+    ],
+    "matched_patterns": [
+      "Investment fraud - Lừa đảo đầu tư tài chính trực tuyến, tiền ảo qua các sàn giao dịch giả mạo",
+      "Investment fraud - Lôi kéo đầu tư sàn Forex giả mạo với lợi nhuận cao, rủi ro thấp"
+    ],
+    "recommended_actions": [
+      "Báo cáo tài khoản Facebook/Telegram của đối tượng lừa đảo cho các nền tảng này",
+      "Liên hệ ngay với ngân hàng Techcombank để báo cáo tài khoản nhận tiền (1027-482-9156) và cố gắng khóa/truy vết giao dịch",
+      "Anzeige hóa đơn chuyển khoản và liên lạc với Công an địa phương hoặc phòng chống tội phạm công nghệ để trình báo lừa đảo",
+      "Cảnh báo người bạn Minh về rủi ro cao và tính chất của hành vi lừa đảo, khuyên không nạp thêm tiền nữa",
+      "Tìm hiểu kỹ thông tin bất kỳ sàn giao dịch nào trước khi tham gia, chỉ đầu tư vào các sàn có giấy phép chính thức từ cơ quan quản lý nhà nước",
+      "Cảnh giác cao độ với các liên hệ mạng xã hội không xác minh danh tính, đặc biệt những tài khoản tự giới thiệu là chuyên gia hoặc có kinh nghiệm cao"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 9321
+}

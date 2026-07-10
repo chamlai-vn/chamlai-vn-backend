@@ -1,0 +1,31 @@
+{
+  "case_id": "scam-impersonation_authority-10",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Gọi từ số điện thoại lạ (+84.2.4567.8901) giả danh cán bộ Công an có tên cụ thể",
+      "Thông báo về tài khoản giả mạo và giao dịch bất thường để tạo hoảng sợ",
+      "Yêu cầu tải ứng dụng lạ (VNeID Verify Pro) với quyền truy cập nhạy cảm (camera, danh bạ)",
+      "Đe dọa khóa CCCD để áp lực tâm lý",
+      "Yêu cầu chuyển tiền vào tài khoản có tên gây nghi ngờ (Quỹ bảo vệ danh tính công dân)",
+      "Tên ngân hàng (Ngân hàng An Ninh Quốc Gia) không tồn tại trong hệ thống ngân hàng Việt Nam",
+      "Tạo cấp bách, không cho thời gian suy nghĩ"
+    ],
+    "matched_patterns": [
+      "impersonation_authority - Giả danh Công an yêu cầu chuyển tiền",
+      "impersonation_authority - Lừa đảo VNeID giả mạo để kiểm soát điện thoại và tài khoản ngân hàng",
+      "impersonation_authority - Dụ dỗ chuyển tiền vào tài khoản giả mạo"
+    ],
+    "recommended_actions": [
+      "Liên hệ ngay Công an quận Hoàn Kiếm qua số điện thoại chính thức trên trang web công an để xác minh danh tính người gọi",
+      "Báo cáo vụ lừa đảo cho cảnh sát quản lý trật tự - công an địa phương và Bộ Công an",
+      "Thông báo ngân hàng nơi bạn chuyển tiền để khóa tài khoản nhận và cố gắng truy hồi lại 5 triệu đồng",
+      "Cập nhật VNeID thực từ App Store/Google Play chính thức và kiểm tra quyền truy cập ứng dụng để gỡ bỏ các ứng dụng lạ",
+      "Kiểm tra tài khoản ngân hàng, thay đổi mật khẩu, bật xác thực hai yếu tố ngay lập tức",
+      "Ghi lại toàn bộ thông tin cuộc gọi (số điện thoại, giờ gọi, nội dung) để cung cấp cho cơ quan công an"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 8245
+}

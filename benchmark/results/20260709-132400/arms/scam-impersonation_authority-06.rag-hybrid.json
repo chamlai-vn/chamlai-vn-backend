@@ -1,0 +1,33 @@
+{
+  "case_id": "scam-impersonation_authority-06",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Người gọi tự xưng là cán bộ Công an với chỉ huy cụ thể (Thượng tá Trần Văn Hùng từ Công an quận Bình Thạnh)",
+      "Sử dụng thông tin cá nhân chính xác (số CCCD, dữ liệu riêng tư) để tạo lòng tin và áp lực tâm lý",
+      "Dẫn dụ vào kịch bản phức tạp (tài khoản bị dùng mở công ty ma, liên quan rửa tiền 50 tỷ đồng) để tạo hoảng sợ",
+      "Yêu cầu chuyển tiền vào tài khoản tên \"Quỹ Bảo vệ Công dân\" - chiêu thức giả danh cơ quan nhà nước",
+      "Chuyển tiền nhiều lần (45 triệu đồng qua 3 lần) - dấu hiệu của lừa đảo kéo dài",
+      "Hướng dẫn truy cập trang web giả (http://congan-binhthanhpolice.vn) để nhập thông tin cá nhân, tài khoản ngân hàng",
+      "Không có giấy mời hoặc giấy triệu tập hợp lệ, chỉ gọi điện thoại từ số di động",
+      "Yêu cầu giữ bí mật (không kể cho ai) để ngăn chặn nạn nhân xác minh thông tin"
+    ],
+    "matched_patterns": [
+      "impersonation_authority - Giả danh cán bộ Công an yêu cầu chuyển tiền để phục vụ điều tra",
+      "impersonation_authority - Giả danh Công an, Viện kiểm sát, Tòa án gọi điện đe dọa liên quan vụ án để chiếm đoạt tài sản",
+      "impersonation_authority - Giả danh Công an, Viện Kiểm sát dựng chuyện vụ án để dụ dỗ chuyển tiền",
+      "impersonation_authority - Giả danh cán bộ cơ quan tư pháp gọi điện thoại đe dọa để chiếm đoạt tài sản"
+    ],
+    "recommended_actions": [
+      "Ngay lập tức liên hệ với Công an quận Bình Thạnh qua đường dây công khai (ghi số điện thoại của quận từ trang web chính thức công an TP.HCM) để xác minh danh tính người gọi",
+      "Báo cáo sự việc với Cơ quan Công an địa phương kèm các thông tin: số điện thoại 02436789012, tên tài khoản nhận tiền (Quỹ Bảo vệ Công dân), số IBAN 0123456789 ngân hàng Vietcombank, liên hệ Vietcombank để khóa tài khoản và cố gắng tìm lại tiền",
+      "Thay đổi ngay mật khẩu email, tài khoản ngân hàng, ứng dụng ngân hàng trên điện thoại để ngăn chặn kẻ lừa đảo truy cập thêm",
+      "Cải cảnh VNeID thành phiên bản mới nhất từ kho ứng dụng chính thức (Google Play, App Store), xóa bất kỳ phiên bản giả nào đã được cài",
+      "Kiểm tra lịch sử giao dịch ngân hàng toàn bộ; nếu có giao dịch nghi vấn khác, báo cáo ngay tới ngân hàng để khóa/phục hồi tài khoản",
+      "Không truy cập bất kỳ đường link hay trang web được gửi qua điện thoại từ số lạ, kể cả trang web có ngoại hình giống cơ quan nhà nước"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 12714
+}

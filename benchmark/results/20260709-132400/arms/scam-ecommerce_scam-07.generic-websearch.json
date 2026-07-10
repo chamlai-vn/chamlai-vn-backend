@@ -1,0 +1,56 @@
+{
+  "case_id": "scam-ecommerce_scam-07",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Yêu cầu chuyển tiền vào tài khoản cá nhân (Trần Văn Minh) thay vì tài khoản mang tên công ty",
+      "Giá tour rẻ bất thường, không có thực (tour Nha Trang 3N2Đ bao gồm vé máy bay khứ hồi chỉ ~1.299.000đ/người)",
+      "Yêu cầu đặt cọc 50% gấp trong vòng 30 phút kèm áp lực 'chỉ còn 2 chỗ'",
+      "Yêu cầu cung cấp mã OTP sau khi chuyển khoản",
+      "Yêu cầu tải ứng dụng lạ không rõ nguồn gốc ('VietTravel Plus')",
+      "Kịch bản giả mạo công ty du lịch uy tín"
+    ],
+    "matched_patterns": [
+      "Lừa đảo bán tour du lịch giá rẻ",
+      "Yêu cầu đặt cọc qua tài khoản cá nhân",
+      "Tạo áp lực thời gian để nạn nhân không kịp suy nghĩ",
+      "Lừa đảo OTP giả mạo",
+      "Cài ứng dụng chứa mã độc",
+      "Giả mạo công ty/trang web du lịch uy tín"
+    ],
+    "recommended_actions": [
+      "KHÔNG chuyển tiền dù bất kỳ lý do gì",
+      "KHÔNG cung cấp mã OTP cho bất kỳ ai, kể cả người tự xưng là nhân viên ngân hàng",
+      "KHÔNG tải ứng dụng 'VietTravel Plus' hoặc bất kỳ app lạ không rõ nguồn gốc nào",
+      "Chụp lại toàn bộ tin nhắn để làm bằng chứng",
+      "Trình báo ngay cho cơ quan Công an nơi cư trú gần nhất",
+      "Tra cứu số tài khoản nghi vấn lừa đảo tại tinnhiemmang.vn",
+      "Chặn số liên lạc của đối tượng"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 ĐÂY LÀ LỪA ĐẢO! TUYỆT ĐỐI KHÔNG CHUYỂN TIỀN!\n\nTin nhắn bạn nhận được có **đầy đủ các dấu hiệu điển hình** của chiêu trò lừa đảo tour du lịch đang hoành hành tại Việt Nam. Dưới đây là phân tích chi tiết:\n\n---\n\n## 🔴 CÁC DẤU HIỆU LỪA ĐẢO RÕ RÀNG\n\n### 1. Chuyển tiền vào tài khoản **cá nhân** (Trần Văn Minh)\nYêu cầu khách chuyển tiền đặt tour vào tài khoản cá nhân thay vì tên công ty du lịch là một trong những dấu hiệu cho thấy khách đang giao dịch với kẻ lừa đảo. Công ty hợp pháp luôn nhận thanh toán vào tài khoản **mang tên công ty**, không phải tên cá nhân.\n\n### 2. Giá tour rẻ bất thường (1.299.000đ/người)\nMột trong những dấu hiệu phổ biến của hành vi lừa đảo là quảng cáo các tour với mức giá quá thấp so với thị trường, kèm theo các ưu đãi bất thường. Tour Nha Trang 3N2Đ bao gồm vé máy bay khứ hồi Bamboo Airways với giá chỉ ~1,3 triệu đồng là **hoàn toàn không có thực**.\n\n### 3. Yêu cầu đặt cọc 50% gấp trong 30 phút\nĐối tượng đăng tải bài viết quảng cáo bán tour du lịch, phòng khách sạn giá rẻ trên mạng, đề nghị nạn nhân chuyển tiền đặt cọc (từ 30–50% giá trị) để đặt cọc tour du lịch, từ đó chiếm đoạt số tiền đặt cọc. Áp lực thời gian \"30 phút\" và \"chỉ còn 2 chỗ\" là thủ thuật tạo sự hối hả để bạn không kịp suy nghĩ.\n\n### 4. Yêu cầu cung cấp mã OTP sau chuyển khoản\nTrong bối cảnh du lịch mùa cao điểm, các chiêu lừa đảo ngày càng được \"nâng cấp\" bằng sự tinh vi và đa dạng không ngừng, bao gồm OTP giả mạo. **TUYỆT ĐỐI không chia sẻ mã OTP với bất kỳ ai** — đây là mã xác thực giao dịch ngân hàng của bạn, kẻ lừa đảo sẽ dùng nó để rút tiền từ tài khoản của bạn!\n\n### 5. Yêu cầu tải App lạ (\"VietTravel Plus\")\nCác đối tượng đầu tư chạy quảng cáo, tung khuyến mãi \"sốc\" để đánh vào tâm lý người tiêu dùng, rồi yêu cầu khách hàng chuyển khoản trước 50% hoặc toàn bộ để \"giữ chỗ\". App không rõ nguồn gốc có thể chứa mã độc đánh cắp thông tin cá nhân và tài khoản ngân hàng.\n\n### 6. Kịch bản \"giả mạo công ty\"\nNhiều đối tượng đã lập trang web giả mạo các công ty du lịch, lữ hành uy tín để bán tour với mức giá chênh lệch lớn so với thị trường. Nhưng ngay sau khi chuyển tiền thì các đối tượng này lập tức cắt đứt mọi liên hệ.\n\n---\n\n## 📊 Quy mô lừa đảo du lịch tại Việt Nam\n\nChỉ tính riêng từ đầu năm 2025 đến nay, đã phát hiện gần 1.500 vụ việc lừa đảo qua mạng, gây thiệt hại hơn 1.660 tỷ đồng. Theo Bộ Công an, hoạt động lừa đảo trực tuyến tại Việt Nam đã gây thiệt hại lên đến hơn 12.000 tỷ đồng trong năm 2024.\n\n---\n\n## ✅ BẠN CẦN LÀM GÌ NGAY BÂY GIỜ?\n\n| Hành động | Chi tiết |\n|-----------|----------|\n| 🚫 **KHÔNG chuyển tiền** | Dù bất kỳ lý do gì |\n| 🚫 **KHÔNG cung cấp OTP** | Không cho ai, kể cả \"nhân viên ngân hàng\" |\n| 🚫 **KHÔNG tải App lạ** | App \"VietTravel Plus\" không rõ nguồn gốc |\n| 📸 **Chụp lại toàn bộ tin nhắn** | Làm bằng chứng |\n| 🚔 **Trình báo công an** | Khi gặp các trường hợp nghi vấn lừa đảo qua không gian mạng, người dân cần tỉnh táo, cảnh giác và trình báo ngay cho cơ quan Công an nơi cư trú gần nhất. |\n| 🔍 **Kiểm tra số TK lừa đảo** | Tra cứu tại **tinnhiemmang.vn** |\n\n---\n\n## 💡 Cách đặt tour AN TOÀN\n\nSau khi thống nhất mua bán, hãy đề nghị nhân viên kinh doanh gửi hợp đồng chính thức có chữ ký và con dấu của công ty. Khi thanh toán, chỉ chuyển khoản vào tài khoản chính thức của công ty.\n\nKhi giao dịch, khách hàng nên đề nghị người bán cho xem giấy phép hoạt động kinh doanh, giấy phép tổ chức lữ hành quốc tế, chứng nhận đại lý của các hãng hàng không.\n\n\u003e ⚠️ **Kết luận: Đây là lừa đảo 100%. Hãy chặn số liên lạc này, lưu lại bằng chứng và báo công an địa phương ngay.**",
+  "sources": [
+    "https://vnexpress.net/dau-hieu-lua-dao-khach-viet-can-biet-khi-dat-tour-tren-mang-4798932.html",
+    "https://nhandan.vn/bi-lua-ca-tram-trieu-dong-vi-sap-bay-danh-gia-dich-vu-du-lich-post867044.html",
+    "https://congan.hanam.gov.vn/index.php/vi/news/canh-bao-toi-pham/nhan-biet-thu-doan-lua-dao-dat-tour-du-lich-gia-re-2826.html",
+    "https://www.vietnamplus.vn/cuc-du-lich-quoc-gia-canh-bao-viec-xu-ly-lua-dao-tren-khong-gian-mang-post1011964.vnp",
+    "https://hatinh.gov.vn/vi/bai-viet/can-trong-chieu-tro-lua-dao-tour-du-lich-tet",
+    "https://antv.gov.vn/phap-luat-3/canh-giac-voi-thu-doan-lua-dao-chiem-doat-tai-san-bang-hinh-thuc-dat-tour-du-lich-gia-re-FA5DBDFDA.html",
+    "https://lsvn.vn/nhan-biet-thu-doan-lua-dao-dat-tour-du-lich-gia-re-1689076114-a132739.html",
+    "https://nhandan.vn/canh-bao-cac-chieu-tro-lua-dao-moi-mua-du-lich-cao-diem-post903259.html",
+    "https://vov.vn/phap-luat/chieu-tro-lua-dao-du-lich-post1114373.vov",
+    "https://laodongthudo.vn/can-trong-voi-lua-dao-dat-tour-du-lich-truc-tuyen-184833.html",
+    "https://doanhnghiephoinhap.vn/canh-bao-thu-doan-lua-dao-mua-du-lich-mao-danh-doanh-nghiep-lu-hanh-chiem-doat-tien-trieu-moi-ngay-109597.html",
+    "https://vtv.vn/xa-hoi/canh-giac-sap-bay-chieu-lua-dao-dat-tour-du-lich-20230630112212666.htm",
+    "https://tuoitre.vn/pha-duong-day-lua-dao-mua-tour-du-lich-dat-phong-khach-san-khu-du-lich-vip-20231012090830312.htm",
+    "https://phongcachviettravel.vn/phong-cach-viet-travel-lua-dao-hay-doc-ngay-bai-viet-nay/",
+    "https://baochinhphu.vn/nhan-biet-thu-doan-lua-dao-dat-tour-du-lich-gia-re-102230711151650138.htm",
+    "https://jobs.vietravel.com/news/vietravel-canh-bao-mao-danh-lua-dao-tuyen-dung.35a54f98/en",
+    "https://vietnamnet.vn/vu-lua-dao-lon-chua-tung-thay-trong-lich-su-du-lich-viet-nam-660050.html",
+    "https://saigonreview.vn/topAZ/cong-ty-du-lich-tai-tphcm",
+    "https://travel.com.vn/du-lich-viet-nam.aspx"
+  ],
+  "latency_ms": 65394
+}

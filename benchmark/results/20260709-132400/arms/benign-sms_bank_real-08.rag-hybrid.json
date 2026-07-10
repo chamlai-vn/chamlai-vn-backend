@@ -1,0 +1,15 @@
+{
+  "case_id": "benign-sms_bank_real-08",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "green",
+    "red_flags": [],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Tuy nhiên, để bảo vệ bản thân trước các tin nhắn giả mạo ngân hàng trong tương lai, nên xác minh giao dịch bằng cách gọi trực tiếp số điện thoại chính thức từ mặt sau thẻ hoặc gọi tổng đài của ngân hàng (không dùng số trong tin nhắn)",
+      "Luôn cảnh báo với người thân rằng kẻ lừa đảo thường giả danh ngân hàng để tạo panic và yêu cầu chuyển tiền hoặc cung cấp OTP"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 4862
+}

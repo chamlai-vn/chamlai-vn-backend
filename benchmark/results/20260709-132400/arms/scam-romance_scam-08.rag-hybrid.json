@@ -1,0 +1,26 @@
+{
+  "case_id": "scam-romance_scam-08",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Người lạ yêu cầu tiền để bay sang Việt Nam gặp mặt",
+      "Mối quan hệ phát triển nhanh với lời nói yêu sau thời gian ngắn",
+      "Chuyển khoản tiền cho người chưa gặp mặt trực tiếp",
+      "Không có xác minh danh tính hoặc video call trước",
+      "Dấu hiệu điển hình của kỹ thuật chiếm đoạt tình cảm để lừa tiền"
+    ],
+    "matched_patterns": [
+      "romance_scam - Lừa đảo tình cảm dẫn dụ đầu tư sàn ảo, tiền ảo, làm nhiệm vụ online"
+    ],
+    "recommended_actions": [
+      "Dừng liên lạc ngay với người này và không gửi tiền thêm nữa",
+      "Báo cáo tài khoản của người này cho nền tảng mạng xã hội/ứng dụng để khóa hoặc cảnh báo",
+      "Lưu giữ toàn bộ bằng chứng (tin nhắn, lịch chuyển khoản, ảnh chứng cứ) để báo công an địa phương",
+      "Liên hệ với ngân hàng để xem có thể thu hồi tiền hoặc ngăn chặn giao dịch tiếp theo không",
+      "Không cung cấp thêm thông tin cá nhân, số điện thoại, hoặc dữ liệu tài chính cho người này"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 6527
+}

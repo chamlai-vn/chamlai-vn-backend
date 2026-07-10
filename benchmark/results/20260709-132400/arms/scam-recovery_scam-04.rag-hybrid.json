@@ -1,0 +1,31 @@
+{
+  "case_id": "scam-recovery_scam-04",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Mạo danh cơ quan nhà nước (Trung tâm Bảo vệ Quyền lợi Người tiêu dùng Việt Nam) qua tin nhắn SMS",
+      "Khẳng định phát hiện tài khoản bị 'chiếm dụng' mà không có thông tin xác minh",
+      "Hứa giúp lấy lại tiền mất (chiêu recovery scam điển hình)",
+      "Yêu cầu liên hệ qua ứng dụng bên thứ ba (Telegram) thay vì qua kênh chính thức",
+      "Hơi lạ là SMS từ số điện thoại nước ngoài (+84...) thay vì từ một tổ chức chính thống",
+      "Xuất hiện đột ngột sau khi nạn nhân vừa bị lừa lần đầu (điều kiện lý tưởng cho lừa lần hai)",
+      "Sử dụng tâm lý tuyệt vọng của nạn nhân muốn lấy lại tiền để kéo vào bẫy"
+    ],
+    "matched_patterns": [
+      "recovery_scam - Giả danh cơ quan nhà nước lừa lấy tiền 'hỗ trợ khôi phục tài sản bị lừa'",
+      "recovery_scam - Lừa đảo kép: giả công ty hỗ trợ lấy lại tiền bị lừa sau lần thứ nhất",
+      "recovery_scam - Giả danh cơ quan Công an, công ty luật để lừa đảo 'hỗ trợ thu hồi tiền bị lừa đảo'"
+    ],
+    "recommended_actions": [
+      "Không liên hệ, không tham gia nhóm Telegram hoặc bất kỳ kênh nào mà người lạ giới thiệu",
+      "Không cung cấp thông tin cá nhân, số tài khoản ngân hàng, mã OTP cho bất kỳ ai liên hệ qua SMS, Zalo, Telegram",
+      "Báo cáo ngay tin nhắn lừa đảo này cho cơ quan Công an địa phương, đặc biệt về vụ lừa đảo lần đầu (Zalo fake VCB)",
+      "Xác minh thông tin chính thức bằng cách gọi trực tiếp đến số điện thoại công khai của VietcomBank hoặc cơ quan chính phủ có liên quan",
+      "Nhớ rằng Bộ Công an và các cơ quan nhà nước KHÔNG bao giờ yêu cầu chuyển tiền qua mạng xã hội hoặc ứng dụng chat",
+      "Hạn chế chia sẻ thông tin về vụ lừa đảo đã xảy ra trên mạng xã hội công khai, vì kẻ lừa có thể giả danh để tiếp cận"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 9760
+}

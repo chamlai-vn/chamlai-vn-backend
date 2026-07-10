@@ -1,0 +1,26 @@
+{
+  "case_id": "scam-other-01",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "\"Tiền hoàn lại bất ngờ\" từ công ty bảo hiểm là mồi câu kinh điển của lừa đảo",
+      "Yêu cầu tải ứng dụng lạ (\"SafeVerify\") qua link SMS thay vì từ App Store/CH Play chính thức",
+      "Yêu cầu nhập thông tin tài khoản ngân hàng và OTP vào app bên thứ ba để \"xác minh nhận tiền\" — không tổ chức hợp pháp nào làm vậy",
+      "Sau \"xác minh thành công\" không nhận được tiền, sau đó tiền bị rút và có tài khoản lạ được tạo để chuyển tiền đi",
+      "Số điện thoại liên hệ tắt máy ngay sau đó, dùng SIM rác — dấu hiệu lừa đảo có tổ chức"
+    ],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Liên hệ ngân hàng ngay để khóa/tạm ngưng tài khoản và thẻ, yêu cầu tra soát/phong tỏa giao dịch",
+      "Gỡ ngay ứng dụng \"SafeVerify\" khỏi điện thoại, quét virus/mã độc, cân nhắc khôi phục cài đặt gốc",
+      "Trình báo công an (PA05) hoặc qua canhbao.ncsc.gov.vn / tổng đài 156",
+      "Lưu giữ bằng chứng: ảnh chụp màn hình tin nhắn, ghi âm cuộc gọi, sao kê giao dịch, tên app và link",
+      "Cảnh giác lừa đảo lần 2: không tin ai tự xưng \"hỗ trợ lấy lại tiền\" mà yêu cầu chuyển thêm tiền/cài app/cung cấp OTP"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "Đây gần như chắc chắn là **lừa đảo (scam)** — và đáng tiếc là bạn đã bị chiếm đoạt tiền thật. Dưới đây là phân tích và những việc cần làm ngay.\n\n## Vì sao đây là lừa đảo\n\n1. **\"Tiền hoàn lại bất ngờ\" là mồi câu kinh điển.** Không có công ty bảo hiểm hợp pháp nào gọi điện báo \"trúng\" khoản hoàn tiền lớn rồi yêu cầu bạn \"xác minh\" qua app lạ để nhận tiền. Đây là kỹ thuật tạo cảm giác vui mừng/khẩn cấp để bạn mất cảnh giác.\n\n2. **Ứng dụng \"SafeVerify\" tải qua link SMS không phải từ App Store/CH Play là ứng dụng giả mạo.** Đây thường là app gián điệp hoặc app giả giao diện ngân hàng, được thiết kế để:\n   - Đánh cắp thông tin đăng nhập ngân hàng khi bạn nhập vào\n   - Đọc trộm OTP/SMS đến từ ngân hàng\n   - Đôi khi chiếm quyền điều khiển màn hình điện thoại (remote access)\n\n3. **Không tổ chức tài chính hợp pháp nào yêu cầu bạn nhập tài khoản ngân hàng + OTP vào một app bên thứ ba để \"xác minh nhận tiền\".** OTP chỉ dùng để *bạn* xác nhận giao dịch của chính bạn — không ai cần OTP của bạn để *chuyển tiền cho bạn*.\n\n4. **Kết quả thực tế khớp 100% với kịch bản lừa đảo:** \"xác minh thành công\" nhưng không nhận được tiền, sau đó tiền bị rút và có tài khoản lạ được tạo để chuyển tiền đi — đây là dấu hiệu kẻ gian đã dùng thông tin bạn cung cấp (qua app giả) để đăng nhập/tạo lệnh chuyển tiền từ tài khoản của bạn.\n\n5. **Số điện thoại tắt máy ngay sau đó** — hành vi điển hình của lừa đảo có tổ chức, dùng SIM rác.\n\n## Bạn cần làm ngay (ưu tiên theo thứ tự)\n\n**1. Liên hệ ngân hàng ngay lập tức (trong hôm nay nếu có thể):**\n- Gọi hotline ngân hàng để **khóa/tạm ngưng tài khoản** và thẻ liên kết\n- Yêu cầu ngân hàng **tra soát giao dịch, phong tỏa khoản tiền đã chuyển** nếu vẫn còn kịp (một số ngân hàng có thể chặn được nếu báo trong vài giờ đầu)\n- Đổi mật khẩu Internet Banking/Mobile Banking, hủy các thiết bị/app đã đăng nhập trái phép\n\n**2. Gỡ bỏ ngay ứng dụng \"SafeVerify\" khỏi điện thoại**, sau đó:\n- Quét virus/mã độc bằng phần mềm bảo mật uy tín\n- Nếu nghi ngờ điện thoại bị chiếm quyền điều khiển, cân nhắc khôi phục cài đặt gốc (factory reset) sau khi đã sao lưu dữ liệu quan trọng\n\n**3. Trình báo công an:**\n- Đến **cơ quan công an nơi cư trú** hoặc **Phòng An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (PA05)** của công an tỉnh/thành để trình báo, cung cấp: số điện thoại, tin nhắn SMS, link tải app, sao kê giao dịch\n- Có thể gửi phản ánh qua Cổng cảnh báo an toàn thông tin: **canhbao.ncsc.gov.vn** hoặc gọi tổng đài **156** (phản ánh lừa đảo, cuộc gọi rác)\n\n**4. Lưu giữ bằng chứng:** chụp màn hình tin nhắn, ghi âm cuộc gọi (nếu có), lịch sử giao dịch ngân hàng, tên app và link tải — những thứ này cần thiết cho cả ngân hàng và công an điều tra.\n\n**5. Cảnh giác tiếp theo:** Nếu sau này có ai gọi tự xưng là \"ngân hàng\" hoặc \"công an\" hỗ trợ lấy lại tiền và yêu cầu bạn chuyển thêm tiền phí, cài thêm app, hoặc cung cấp OTP — đó cũng là lừa đảo (lừa đảo lần 2 nhắm vào nạn nhân cũ rất phổ biến).\n\nBạn có muốn mình soạn giúp một bản tường trình để nộp cho ngân hàng hoặc công an không?",
+  "sources": [],
+  "latency_ms": 0
+}

@@ -1,0 +1,35 @@
+{
+  "case_id": "scam-investment_fraud-07",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Lời mời từ tài khoản bị hack, được sử dụng để dẫn vào nhóm Telegram kín",
+      "Giả mạo danh tính người quen (tài khoản 'Anh Minh Đầu Tư')",
+      "Cam kết lợi nhuận cao bất thường (15-20%/tháng) mà không có rủi ro được nêu rõ",
+      "Ứng dụng Forex giả mạo 'TradeMax Pro' với giao diện sao chép từ Metatrader",
+      "Yêu cầu nạp tiền ban đầu thấp (2 triệu) để dễ dàng thu hút nạn nhân",
+      "Cung cấp ảnh chụp màn hình lợi nhuận giả (được chỉnh sửa)",
+      "Yêu cầu nạp thêm tiền với lý do 'kích hoạt' tính năng rút tiền và 'thuế lợi nhuận'",
+      "Không thể rút tiền và tài khoản bị khóa/mất liên lạc",
+      "Sử dụng ví điện tử USDT qua mã nhận diện giả để che dấu danh tính",
+      "Tổ chức MLM ẩn (gợi ý kéo thêm người với hứa hẹn hoa hồng)"
+    ],
+    "matched_patterns": [
+      "Lừa đảo đầu tư tiền ảo, chứng khoán qua sàn giao dịch giả mạo với cam kết lợi nhuận cao",
+      "Lôi kéo đầu tư sàn Forex giả mạo với lợi nhuận cao, rủi ro thấp",
+      "Giả danh người tình/người quen qua mạng xã hội để lừa đầu tư Forex"
+    ],
+    "recommended_actions": [
+      "Báo cáo ngay cho cơ quan cảnh sát về hành vi lừa đảo và chiếm đoạt tiền mặt",
+      "Yêu cầu ngân hàng khóa tài khoản nếu lô thay đổi số điện thoại được liên kết",
+      "Lưu giữ toàn bộ bằng chứng: tin nhắn, ảnh chụp màn hình, mã giao dịch, định danh nhóm Telegram",
+      "Thông báo cho bạn bè, người quen về tài khoản của bạn gái bị hack để cảnh báo họ không tham gia nhóm tương tự",
+      "Thay đổi mật khẩu tất cả các tài khoản mạng xã hội (Telegram, Facebook, Zalo) nếu cần thiết",
+      "Kiểm tra các tài khoản ngân hàng liên kết để phát hiện các giao dịch bất thường",
+      "Khuyên bạn gái tránh tham gia bất kỳ nhóm đầu tư nào được mời qua tài khoản ảo hoặc có cam kết lợi nhuận quá cao"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 10399
+}

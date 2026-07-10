@@ -1,0 +1,50 @@
+{
+  "case_id": "scam-prize_gift-04",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Tên miền giả mạo: link dẫn đến momovoucher.vn thay vì website chính thức momo.vn",
+      "Chiêu 'trúng thưởng' giả mạo: mạo danh MoMo tổ chức chương trình nhận thưởng để chiếm đoạt tiền",
+      "Tạo áp lực thời gian: ghi 'Có hiệu lực trong 24h' để khiến nạn nhân hành động vội vàng mà không kịp kiểm chứng",
+      "Link dẫn đến trang lạ đánh cắp thông tin: yêu cầu nhập số điện thoại, mật khẩu, OTP để đánh cắp thông tin đăng nhập ví",
+      "MoMo không tổ chức chương trình tặng quà hay trúng thưởng nào ngoài ứng dụng chính thức"
+    ],
+    "matched_patterns": [
+      "Giả mạo thương hiệu MoMo",
+      "Thông báo trúng thưởng giả",
+      "Tạo áp lực thời gian",
+      "Đánh cắp thông tin đăng nhập qua link giả mạo (Phishing)"
+    ],
+    "recommended_actions": [
+      "KHÔNG nhấn vào link momovoucher.vn hoặc bất kỳ link lạ nào trong tin nhắn",
+      "KHÔNG cung cấp mã OTP, mật khẩu tài khoản MoMo hay số tài khoản ngân hàng",
+      "KHÔNG quét mã QR lạ hoặc truy cập đường link không uy tín",
+      "Kiểm tra thông báo qua ứng dụng MoMo chính thức thay vì nhấn link trong SMS",
+      "Gọi tổng đài MoMo 1900 54 54 41 nếu cần xác minh hoặc hỗ trợ",
+      "Chặn số gửi tin nhắn và báo cáo lừa đảo đến cơ quan công an gần nhất nếu đã bị thiệt hại",
+      "Nếu đã lỡ nhấn link hoặc nhập thông tin: đổi mật khẩu, khóa tài khoản, liên hệ tổng đài MoMo và ngân hàng liên quan ngay lập tức"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 ĐÂY LÀ LỪA ĐẢO! TUYỆT ĐỐI KHÔNG NHẤN VÀO LINK!\n\n## ✅ Kết luận: Tin nhắn này là GIẢ MẠO 100%\n\nTin nhắn bạn nhận được có đầy đủ các dấu hiệu của một chiêu lừa đảo kinh điển giả mạo MoMo. Dưới đây là phân tích chi tiết:\n\n---\n\n## 🔍 Các dấu hiệu lừa đảo rõ ràng\n\n### 1. 🌐 Tên miền website giả mạo\nLink dẫn đến **`momovoucher.vn`** — đây **KHÔNG PHẢI** website chính thức của MoMo. Các website giả mạo được ngụy trang tinh vi bằng cách lấy logo và thông tin chi tiết, địa chỉ liên hệ của MoMo. Website thật của MoMo chỉ là **momo.vn**.\n\n### 2. 🎁 Chiêu \"trúng thưởng\" giả mạo\nHiện nay có rất nhiều đối tượng mạo danh MoMo, giả tổ chức \"Chương trình nhận thưởng\" để chiếm đoạt tiền của người dùng. Đây chính xác là kịch bản của tin nhắn bạn nhận được.\n\n### 3. ⏰ Tạo áp lực thời gian (\"Có hiệu lực trong 24h\")\nNội dung thúc giục, đe dọa như \"tài khoản sẽ bị khóa nếu không cập nhật\" hoặc hứa thưởng lớn là dấu hiệu đặc trưng của lừa đảo. Việc ghi \"Có hiệu lực 24h\" nhằm khiến bạn hành động vội vàng mà không kịp kiểm chứng.\n\n### 4. 🔗 Link dẫn đến trang lạ đánh cắp thông tin\nTại website giả mạo, người dùng được yêu cầu nhập thông tin đăng nhập (số điện thoại, mật khẩu, OTP). Sau khi người dùng hoàn tất việc nhập thông tin, đối tượng lừa đảo sẽ đánh cắp thông tin đăng nhập ví và tiến hành tẩu tán tiền.\n\n### 5. 📋 MoMo KHÔNG tổ chức chương trình như vậy\nĐại diện MoMo khẳng định hiện không tổ chức bất kỳ chương trình tặng quà hay trúng thưởng nào ngoài ứng dụng MoMo.\n\n---\n\n## 🎯 Kịch bản lừa đảo diễn ra như thế nào?\n\nĐầu tiên, chúng nhắn tin chúc mừng bạn \"trúng thưởng\". Tiếp theo, chúng yêu cầu bạn kích hoạt tính năng tài chính trên ứng dụng MoMo để đủ điều kiện nhận thưởng. Sau đó, chúng đòi bạn chụp màn hình đã kích hoạt để xác nhận và gửi mã QR hoặc số tài khoản để bạn chuyển khoản.\n\nKết quả: Sau khi bạn nghe và làm theo, kẻ xấu lập tức biến mất cùng khoản tiền béo bở và để lại cho nạn nhân một khoản nợ.\n\n---\n\n## 🛡️ Bạn cần làm gì ngay bây giờ?\n\n| Hành động | Chi tiết |\n|---|---|\n| ❌ **KHÔNG nhấn link** | Tuyệt đối không truy cập `momovoucher.vn` |\n| ❌ **KHÔNG cung cấp thông tin** | MoMo KHÔNG BAO GIỜ yêu cầu bạn cung cấp mã OTP, mật khẩu tài khoản MoMo hay số tài khoản ngân hàng. |\n| ❌ **KHÔNG quét mã QR lạ** | Không truy cập các đường link hoặc quét mã QR không uy tín. |\n| ✅ **Kiểm tra qua app MoMo** | Không bấm link trong SMS nếu nghi ngờ; vào ứng dụng MoMo chính chủ để kiểm tra thông báo. |\n| ✅ **Gọi tổng đài MoMo** | Nếu có gì khiến bạn thấy không yên tâm, hãy gọi ngay **1900 54 54 41** để được hỗ trợ. |\n| ✅ **Báo cáo tin nhắn** | Chặn số gửi tin, báo cáo lừa đảo đến cơ quan công an gần nhất nếu bạn đã bị thiệt hại. |\n\n---\n\n\u003e ⚠️ **Nếu bạn đã lỡ nhấn vào link hoặc nhập thông tin:** Đổi mật khẩu, khóa tài khoản, liên hệ tổng đài MoMo và ngân hàng liên quan; báo công an nếu có tổn thất.\n\n**Hãy chia sẻ thông tin này để bảo vệ người thân, bạn bè!** 🙏",
+  "sources": [
+    "https://www.momo.vn/tin-tuc/thong-bao/momo-nhac-ban-can-than-tro-lua-dao-gia-su-kien-8062",
+    "https://www.momo.vn/tin-tuc/thong-bao/canh-bao-rui-ro-tu-fanpage-gia-mao-lua-dao-mo-vi-4752",
+    "https://www.momo.vn/tin-tuc/thong-bao/canh-bao-mao-danh-momo-lua-dao-nhan-thuong-thong-6795",
+    "https://congan.cantho.gov.vn/wps/portal/chitiet/trangchitiet/!ut/p/z1/tVRdb4IwFP0re-GRtICt-CjMOWfmptuc9MWUgtBNLoj169-vLHtawshi2peb3t57zslpchBDK8SAH2XGlSyBb_U9YnRNnqeTcRDimb-cjPB8Eczmy0m_f_fkoiViiFVCJiiKHV8MKPFs4tDE7sV4Yw96AtuE0A11OXE96jTTAlSlchQJrqqtjGteXyy8lyptGhaGUiYHyFTNIbOwkqAOQte81D0JIj9cUkhSCwsOeczLpmSS6xHIcnlz5IDeu0Qz_YxbzhDrffY90oIwvyU_A783g4UbeBiPG4oukkiL7LeK7GkVR5me0BuUdaE_4uWfPt93MtArGTrgPaPwU2wW3jUL75iFN-t9aNb70Kz34bXeP_yVDU266MyUH7sdG-qoK0GlZ4VWxrKuKgrfu9ifC__0usmzYv048khr2Q-_AFt37aQ!/dz/d5/L2dBISEvZ0FBIS9nQSEh/",
+    "https://hoahoctro.tienphong.vn/canh-bao-thu-doan-lua-dao-khi-tham-gia-dau-tu-qua-ung-dung-momo-pro-gia-mao-post1744124.tpo",
+    "https://congan.angiang.gov.vn/trang/TinTuc/163/7871/Canh-bao-thu-doan-lua-dao-thong-qua-ung-dung--MoMo-Pro--gia-mao.html",
+    "https://lsvn.vn/canh-bao-sap-bay-lua-nhan-qua-sinh-nhat-momo-1710545907-a141873.html",
+    "https://www.momo.vn/blog/momo-co-de-bi-hack-khong-va-su-that-c198dt2341",
+    "https://nld.com.vn/momo-len-tieng-sau-vu-nguoi-dan-mat-tien-khi-dau-tu-tren-momo-pro-196250520185514073.htm",
+    "https://cand.com.vn/Cong-nghe/thoat-bay-lua-dao-qua-tri-an-khach-hang-nho-cuoc-goi-tong-dai-i782563/",
+    "https://www.momo.vn/hoi-dap/nhan-biet-dau-hieu-lua-dao-nhu-the-nao",
+    "https://congan.kontum.gov.vn/an-ninh-trat-tu/nghi-van-lua-dao-khi-nhan-duoc-thong-bao-trung-thuong-momo.html",
+    "https://www.momo.vn/tin-tuc/tin-tuc-su-kien/su-that-ve-momo-lua-dao-nguoi-dung-can-nang-cao-y-thuc-bao-ve-thong-tin-ca-nhan-581",
+    "https://mst.gov.vn/vi-momo-canh-bao-thu-doan-lua-dao-moi-197154730.htm",
+    "https://www.momo.vn/tin-tuc/tin-tuc-su-kien/xuat-hien-website-gia-mao-momo-lua-mua-ma-the-cao-6608",
+    "https://mst.gov.vn/momo-canh-bao-thu-doan-lua-dao-chiem-doat-tien-trong-vi-dien-tu-197154376.htm"
+  ],
+  "latency_ms": 57023
+}

@@ -1,0 +1,29 @@
+{
+  "case_id": "scam-package_delivery-09",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Yêu cầu thanh toán phí vận chuyển trước khi giao hàng",
+      "Cung cấp đường link lạ (vietshipp-logistics.com.vn) để thanh toán - không phải domain chính thức của đơn vị vận chuyển uy tín",
+      "Tạo áp lực thời gian (phải thanh toán trong 24h, nếu hết hạn sẽ phát sinh phí lưu kho)",
+      "Số điện thoại được cung cấp không thể xác minh từ kho dữ liệu chính thức",
+      "Sử dụng thông tin giả danh (bưu kiện từ JapanMart, mã đơn hàng) để tạo độ tin cậy"
+    ],
+    "matched_patterns": [
+      "package_delivery - Giả danh shipper gọi điện yêu cầu chuyển khoản trước, gửi link giả mạo",
+      "package_delivery - Mạo danh shipper gọi điện yêu cầu chuyển khoản thanh toán đơn hàng không thật",
+      "package_delivery - Giả danh shipper lừa đảo qua cuộc gọi và đường link dụ dỗ"
+    ],
+    "recommended_actions": [
+      "Tuyệt đối không click vào link vietshipp-logistics.com.vn hoặc bất kỳ link lạ nào trong tin nhắn",
+      "Không chuyển khoản cho số điện thoại được cung cấp",
+      "Kiểm tra trực tiếp đơn hàng trên ứng dụng/website chính thức của nền tảng mua hàng (JapanMart) để xác nhận xem có thực sự đặt mua hay không",
+      "Nếu đơn hàng thực tế tồn tại, liên hệ trực tiếp với bộ phận hỗ trợ khách hàng của JapanMart bằng cách tìm số điện thoại chính thức trên website, không dùng số trong tin nhắn",
+      "Chỉ thanh toán khi gặp shipper thật và nhận được hàng trực tiếp tại tay",
+      "Báo cáo tin nhắn này cho cơ quan chức năng hoặc nền tảng gửi (nếu qua SMS/app chính thức)"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 8022
+}

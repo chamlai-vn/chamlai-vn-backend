@@ -1,0 +1,33 @@
+{
+  "case_id": "scam-vacation_contract-05",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Tin nhắn từ số lạ giới thiệu dự án nghỉ dưỡng với giá ưu đãi đột ngột",
+      "Tuyên bố \"trúng thăm\" sở hữu căn hộ mà người nhận không đăng ký tham gia",
+      "Giá niêm yết quá rẻ bất thường (18 triệu thay vì 45 triệu)",
+      "Hợp đồng được gửi qua ứng dụng chat không chính thức (PropertyDeals365)",
+      "Yêu cầu thanh toán vào tài khoản cá nhân (không phải công ty)",
+      "Liên tiếp phát sinh thêm các khoản phí giả (phí xác thực, phí thủ tục pháp lý, phí bảo hiểm) từ các số điện thoại khác nhau",
+      "Resort \"Golden Holiday Resort\" và công ty \"Bất động sản Đại Âu\" không tồn tại",
+      "Nhân viên tư vấn tạo áp lực: \"chưa hoàn tất thủ tục\" để thúc ép thanh toán tiếp",
+      "Khó liên lạc hoặc cắt liên lạc sau khi lấy tiền"
+    ],
+    "matched_patterns": [
+      "vacation_contract",
+      "ecommerce_scam"
+    ],
+    "recommended_actions": [
+      "Lập tức ngừng thanh toán thêm bất kỳ khoản tiền nào cho các bên này",
+      "Lưu giữ tất cả bằng chứng: tin nhắn, cuộc gọi, hợp đồng, biên nhận chuyển khoản, danh tính người liên hệ",
+      "Kiểm tra sơ bộ tài khoản ngân hàng: nếu chưa chuyển khoản, hãy từ chối yêu cầu thanh toán tiếp theo",
+      "Báo cáo sự việc đến Công an địa phương hoặc Phòng Cảnh sát hình sự, cung cấp đầy đủ thông tin liên hệ các đối tượng lừa đảo",
+      "Liên hệ ngân hàng để tìm hiểu thông tin tài khoản nhận tiền, yêu cầu hỗ trợ khóa/đốc thúc truy thu tiền",
+      "Cảnh báo bạn bè và người thân tránh các cuộc gọi, tin nhắn từ những số điện thoại hoặc dịch vụ tương tự",
+      "Nếu có thể, ghi lại toàn bộ cuộc trò chuyện với các đối tượng để hỗ trợ quá trình điều tra"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 9232
+}

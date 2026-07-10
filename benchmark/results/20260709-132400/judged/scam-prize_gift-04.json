@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-prize_gift-04",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận đúng (red), phủ đủ 4 ý chính: giả danh MoMo, giải 5tr, urgency 24h, link giả momovoucher.vn",
+      "Pattern khớp đúng loại prize_gift",
+      "Bắt được domain giả và tham số ref phishing",
+      "Khuyến nghị xác minh qua app MoMo chính thức, không cung cấp OTP"
+    ],
+    "weaknesses": [
+      "Không nêu website chính thức momo.vn và hotline MoMo để đối chiếu",
+      "Không giải thích kịch bản 'kích hoạt tính năng tài chính' đặc thù MoMo",
+      "Định dạng thuần liệt kê"
+    ],
+    "reasoning": "Chính xác, pattern khớp đúng loại và bắt được domain giả. Thiếu mốc đối chiếu (website/hotline) và kịch bản đặc thù.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Nêu website chính thức momo.vn và hotline 1900 54 54 41",
+      "Trích khẳng định MoMo không tổ chức chương trình ngoài app, giải thích kịch bản kích hoạt tính năng tài chính",
+      "Bảng hành động rõ, nhắc không quét mã QR lạ",
+      "Hướng dẫn nếu đã lỡ nhập thông tin"
+    ],
+    "weaknesses": [
+      "Dài, định dạng nặng",
+      "Một vài đoạn lặp ý"
+    ],
+    "reasoning": "Chính xác về website/hotline MoMo và giải thích kịch bản đặc thù. Điểm trừ là độ dài.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

@@ -1,0 +1,29 @@
+{
+  "case_id": "scam-prize_gift-03",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Thông báo trúng giải thưởng 50 triệu đồng từ chương trình không xác định rõ ràng",
+      "Yêu cầu nhấp vào link lạ (https://khuyen-mai-2024.vn) từ số điện thoại không được kiểm chứng",
+      "Link dẫn đến trang web giả mạo có logo ngân hàng lớn để tăng độ thuyết phục",
+      "Yêu cầu cung cấp thông tin cá nhân nhạy cảm (CCCD, ngày sinh, số tài khoản ngân hàng, mã OTP)",
+      "Đối tượng không xác định rõ nguồn gốc từ công ty \"Thương mại Toàn Cầu\"",
+      "Kết quả: tiền bị rút trộm từ tài khoản sau khi cung cấp thông tin"
+    ],
+    "matched_patterns": [
+      "Lừa đảo tặng quà tri ân (prize_gift)",
+      "Giả danh shipper dẫn dụ click link giả để hack tài khoản (tech_fraud)"
+    ],
+    "recommended_actions": [
+      "Liên hệ ngay với ngân hàng để khóa tài khoản, theo dõi và chặn các giao dịch bất thường",
+      "Báo cáo sự cố với công an địa phương để ghi nhận vụ lừa đảo và có thể lấy lại tiền",
+      "Thay đổi mật khẩu tất cả các tài khoản trực tuyến (email, ngân hàng, mạng xã hội) ngay lập tức",
+      "Theo dõi chặt chẽ các hoạt động tài khoản trong thời gian tới để phát hiện sớm bất kỳ rút tiền trái phép nào",
+      "Trong tương lai, không bao giờ click vào link từ SMS/email lạ hoặc xác nhận thông tin cá nhân qua link không rõ nguồn gốc",
+      "Luôn xác minh trực tiếp thông tin về trúng thưởng qua kênh chính thức của công ty hoặc gọi hotline chính thức trước khi hành động"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 8397
+}

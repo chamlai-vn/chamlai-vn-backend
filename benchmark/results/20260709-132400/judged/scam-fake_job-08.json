@@ -1,0 +1,40 @@
+{
+  "case_id": "scam-fake_job-08",
+  "rag_verdict": {
+    "strengths": [
+      "Phân tích đầy đủ tất cả các dấu hiệu cảnh báo, bao phủ trọn vẹn các ý chính: lương cao việc nhẹ, nạp tiền gói training 500k, nạp thêm 1 triệu với hứa lợi nhuận 20%/tuần, và bị chặn khi đặt câu hỏi",
+      "Xác định đúng mức độ rủi ro (red) một cách rõ ràng, ngắn gọn",
+      "Liệt kê chi tiết chuyển tiền vào tài khoản cá nhân 'Trương Thanh Hải' thay vì công ty — dấu hiệu quan trọng",
+      "Khuyến nghị hành động cụ thể, thực tế: giữ bằng chứng, báo ngân hàng, tố giác công an, báo cáo Zalo, tìm việc qua nền tảng uy tín",
+      "Bổ sung lời khuyên phòng ngừa hữu ích (kiểm tra thông tin cá nhân bị lạm dụng, không nộp tiền trước khi ký hợp đồng)",
+      "Trình bày mạch lạc, gọn gàng, dễ theo dõi"
+    ],
+    "weaknesses": [
+      "Nhắc báo cáo Zalo lên 'Meta' — không chính xác vì Zalo do VNG quản lý, không phải Meta",
+      "Thiếu cảnh báo về chiêu 'lấy lại tiền' — một bẫy tiếp theo phổ biến mà nạn nhân dễ mắc",
+      "Giọng văn hơi khô, ít tính đồng cảm với người vừa mất việc và bị lừa"
+    ],
+    "reasoning": "Câu trả lời A bao phủ toàn bộ các ý chính, phân tích chính xác và đưa ra khuyến nghị hành động đầy đủ, thực tế. Cấu trúc rõ ràng, dễ áp dụng. Điểm trừ nhỏ là lỗi 'Meta' (Zalo thuộc VNG), thiếu cảnh báo bẫy lấy lại tiền và thiếu tính đồng cảm.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Bao phủ trọn vẹn tất cả các ý chính, có bảng đối chiếu dấu hiệu đỏ với tình huống thực tế rất trực quan và thuyết phục",
+      "Giải thích cơ chế lừa đảo sâu sắc: nhóm Telegram là bẫy có tổ chức, các lệnh do kẻ lừa điều khiển, leo thang yêu cầu nạp tiền",
+      "Cảnh báo bổ sung quan trọng về chiêu 'giả danh giúp đòi lại tiền' — bẫy tiếp theo mà A bỏ sót",
+      "Nhấn mạnh tâm lý muốn gỡ vốn khiến nạn nhân càng nạp càng mất — giáo dục tâm lý hữu ích",
+      "Khuyến nghị hành động cụ thể theo bước (liên hệ ngân hàng, trình báo công an, thu thập bằng chứng)",
+      "Giọng văn đồng cảm, có tính giáo dục và lan tỏa (khuyên chia sẻ với người thân)"
+    ],
+    "weaknesses": [
+      "Trình bày quá dài, nhiều emoji và định dạng phô trương có thể gây rối cho một số người đọc",
+      "Khẳng định 'LỪA ĐẢO 100%' và trích dẫn 'lời nạn nhân', 'cảnh báo Bộ Công an' có phần khiên cưỡng, một số chi tiết (nạp sai cú pháp, làm nhiệm vụ) mang tính khuôn mẫu chung không hoàn toàn khớp tình huống cụ thể",
+      "Có lỗi chính tả tiêu đề ('KHẲNG ĐỊNH')",
+      "Không nhắc việc kiểm tra thông tin cá nhân bị lạm dụng như A"
+    ],
+    "reasoning": "Câu trả lời B bao phủ đầy đủ các ý chính, giải thích cơ chế lừa đảo sâu và có cảnh báo bổ sung quý giá về bẫy 'lấy lại tiền'. Bảng đối chiếu trực quan và giọng văn đồng cảm là điểm cộng lớn. Điểm trừ là dài dòng, dùng nhiều chi tiết khuôn mẫu chung và có lỗi chính tả, nhưng tổng thể giá trị nội dung vẫn cao.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

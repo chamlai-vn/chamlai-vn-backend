@@ -1,0 +1,16 @@
+{
+  "case_id": "benign-promo_real-04",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "green",
+    "red_flags": [],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Đây là tin nhắn hợp lệ từ nhà mạng VNPT, đã được xác minh qua tổng đài chính thức",
+      "Phản ứng của Minh — gọi tổng đài để kiểm chứng — là cách làm đúng và an toàn khi nghi ngờ",
+      "Tiếp tục làm tương tự với các tin nhắn từ nhà mạng: luôn xác minh qua tổng đài chính thức trước khi thao tác hoặc cung cấp thông tin"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 3843
+}

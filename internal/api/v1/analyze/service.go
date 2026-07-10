@@ -12,7 +12,11 @@ import (
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/scam/retriever"
 )
 
-const defaultTopK = 5
+// DefaultTopK is how many scam patterns are retrieved per request when
+// WithTopK isn't set. Exported so callers that need to mirror this handler's
+// retrieval fidelity outside HTTP (e.g. cmd/benchmark) reference the real
+// production value instead of re-declaring their own copy of "5".
+const DefaultTopK = 5
 
 // Retriever is the narrow slice of the retrieval pipeline the handler needs.
 // *retriever.Retriever satisfies it; tests supply a fake. Kept narrow — the
@@ -50,7 +54,7 @@ func New(ret Retriever, scorer analyzer.Scorer, opts ...Option) *Handler {
 	h := &Handler{
 		retriever: ret,
 		scorer:    scorer,
-		topK:      defaultTopK,
+		topK:      DefaultTopK,
 	}
 	for _, opt := range opts {
 		opt(h)

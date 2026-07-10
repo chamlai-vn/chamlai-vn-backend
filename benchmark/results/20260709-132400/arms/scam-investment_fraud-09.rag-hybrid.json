@@ -1,0 +1,33 @@
+{
+  "case_id": "scam-investment_fraud-09",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Người lạ kết bạn qua Facebook, tự giới thiệu là chuyên gia đầu tư với kinh nghiệm cao",
+      "Mời vào nhóm kín trên Telegram để tư vấn tài chính",
+      "Ban đầu chia sẻ 'tín hiệu giao dịch' đúng để xây dựng lòng tin",
+      "Yêu cầu tải ứng dụng lạ (DeltaTrading Pro) không rõ nguồn gốc",
+      "Yêu cầu chuyển tiền qua tài khoản cá nhân (Vietcombank) thay vì sàn giao dịch chính thức",
+      "Ứng dụng hiển thị lợi nhuận giả để xây dựng niềm tin",
+      "Khi muốn rút tiền, yêu cầu chuyển thêm tiền (8 triệu) với lý do 'nâng level'",
+      "Sàn giao dịch không có trên Google Play Store hoặc Apple App Store",
+      "Chiêu trò điển hình: xây dựng lòng tin rồi yêu cầu nạp thêm tiền khi muốn rút"
+    ],
+    "matched_patterns": [
+      "Lừa đảo đầu tư tài chính trực tuyến qua sàn giao dịch giả mạo",
+      "Lôi kéo đầu tư sàn forex giả mạo với lợi nhuận cao"
+    ],
+    "recommended_actions": [
+      "Dừng ngay tất cả giao dịch với Trần Minh và không gửi thêm tiền cho bất kỳ lý do nào",
+      "Báo cáo tài khoản Facebook và Telegram của Trần Minh cho các nền tảng này",
+      "Lưu giữ toàn bộ bằng chứng liên lạc (tin nhắn, ảnh chụp màn hình) và thông tin số điện thoại 0917.445.892",
+      "Liên hệ ngay với ngân hàng Vietcombank để thông báo về tài khoản (Phạm Thị Hoa) nhận tiền lừa đảo và yêu cầu khóa tài khoản đó",
+      "Nộp đơn tố giác lừa đảo tới Công an địa phương hoặc Cục An toàn thông tin (Bộ Công an)",
+      "Kiểm tra thiết bị có cài malware bằng cách quét bằng phần mềm antivirus uy tín",
+      "Cảnh báo bạn bè, gia đình để họ không rơi vào thủ đoạn tương tự"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 8941
+}

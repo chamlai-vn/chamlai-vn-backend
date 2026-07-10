@@ -1,0 +1,50 @@
+{
+  "case_id": "scam-other-07",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Hứa lợi nhuận 25%/tháng — mức bất khả thi trong thực tế, nằm trong ngưỡng lừa đảo điển hình (20–30%/tháng)",
+      "Tạo áp lực thời gian 48 giờ để thúc ép người dùng hành động nhanh mà không kiểm tra kỹ",
+      "App 'InvestPro Global' được yêu cầu tải từ link lạ ngoài chợ ứng dụng chính thức — có thể chứa mã độc/app giả mạo đánh cắp thông tin ngân hàng",
+      "Yêu cầu chuyển tiền vào tài khoản thứ ba mang tên 'Công ty Phát triển Đầu tư Việt' — pháp nhân không liên quan, dấu hiệu rửa tiền cổ điển"
+    ],
+    "matched_patterns": [
+      "Lừa đảo đầu tư tài chính trực tuyến",
+      "App giả mạo đánh cắp thông tin ngân hàng",
+      "Tạo áp lực thời gian (giả tạo sự khẩn cấp)",
+      "Sàn giao dịch ảo"
+    ],
+    "recommended_actions": [
+      "Trình báo vụ việc tới Công an địa phương hoặc Cục An ninh mạng và Phòng chống tội phạm công nghệ cao – Bộ Công an (A05), cung cấp đầy đủ bằng chứng: số điện thoại +84912-345-678, tên công ty 'VietTech Solutions', tên app 'InvestPro Global', tên tài khoản nhận tiền 'Công ty Phát triển Đầu tư Việt'",
+      "Những người đã chuyển tiền cần lập tức liên hệ ngân hàng để yêu cầu dừng giao dịch hoặc phong tỏa tài khoản",
+      "Nếu đã lỡ cài app từ link lạ: gỡ cài đặt ngay lập tức, đổi toàn bộ mật khẩu ngân hàng/email/mạng xã hội, liên hệ ngân hàng khóa thẻ và tài khoản tạm thời, tắt ngay quyền Trợ năng của các ứng dụng lạ trên điện thoại",
+      "Chia sẻ cảnh báo rộng rãi đến cộng đồng để góp phần bảo vệ người khác khỏi các chiêu trò tương tự"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## ⚠️ KẾT LUẬN: ĐÂY LÀ LỪA ĐẢO 100% — Rất Điển Hình và Nguy Hiểm!\n\nTình huống anh Minh gặp phải là một vụ **lừa đảo đầu tư tài chính trực tuyến kết hợp app giả mạo đánh cắp thông tin ngân hàng** — một trong những hình thức tội phạm mạng phổ biến và nguy hiểm nhất hiện nay tại Việt Nam. Dưới đây là phân tích chi tiết:\n\n---\n\n### 🔴 TẠI SAO ĐÂY LÀ LỪA ĐẢO?\n\n**1. Hứa lợi nhuận 25%/tháng — Bất khả thi trong thực tế**\n\nTheo công an, thủ đoạn lừa đảo phổ biến của các đối tượng là hứa hẹn lợi nhuận cao, không rủi ro, **cam kết lãi 20–30%/tháng**, hoàn vốn nhanh. Mức 25%/tháng mà \"VietTech Solutions\" hứa hẹn nằm gọn trong ngưỡng lừa đảo điển hình này.\n\nBộ Công an đã đưa ra nhiều cảnh báo: nếu các hình thức đầu tư mà lợi nhuận mang về gấp 3 đến 4 lần lãi suất ngân hàng thì các nhà đầu tư cần phải cảnh giác bởi **không có hình thức kinh doanh nào mang lại siêu lợi nhuận**.\n\n---\n\n**2. Tạo áp lực thời gian 48 giờ — Chiêu thức thao túng tâm lý**\n\nCác nội dung lừa đảo thường **tạo cảm giác khẩn cấp** nhằm thúc ép người dùng thao tác nhanh mà không kiểm tra kỹ nguồn gốc. Deadline 48 giờ chính là công cụ tâm lý để nạn nhân không kịp suy nghĩ và kiểm chứng.\n\n---\n\n**3. App \"InvestPro Global\" tải từ link lạ — Mã độc/App giả mạo chiếm đoạt thông tin**\n\nTheo các chuyên gia bảo mật, dấu hiệu nhận biết app giả mạo là **ứng dụng không được cài đặt trên chợ ứng dụng mà thông qua các đường link do đối tượng lừa đảo hướng dẫn**.\n\nĐầu tiên, các đối tượng sẽ gửi những đường link không chính thống và yêu cầu khách hàng tải về các ứng dụng lạ vốn chứa sẵn mã độc. Tiếp theo, chúng thu thập dữ liệu nhạy cảm bằng cách yêu cầu nạn nhân chụp ảnh chân dung, cung cấp ảnh căn cước cùng mật khẩu đăng nhập và mã PIN tài khoản. Sau khi đó, kẻ gian yêu cầu khách hàng nhập mã OTP để chiếm quyền điều khiển thiết bị từ xa. Ngay khi hoàn tất, chúng **nhanh chóng thực hiện các giao dịch trái phép để chiếm đoạt toàn bộ số dư** trong tài khoản ngân hàng.\n\n---\n\n**4. Chuyển tiền vào \"tài khoản thứ ba\" — Dấu hiệu rửa tiền cổ điển**\n\nViệc yêu cầu chuyển tiền vào tài khoản mang tên \"Công ty Phát triển Đầu tư Việt\" — một pháp nhân không liên quan — là thủ thuật phổ biến để che giấu dòng tiền.\n\nBan đầu, đối tượng quảng cáo với lời hứa lãi suất cao, thậm chí đưa ra các bằng chứng giả mạo về lợi nhuận. Sau khi thu hút được số lượng lớn nhà đầu tư và nhận tiền, **sàn giao dịch ảo sẽ đóng cửa hoặc biến mất, khiến nhà đầu tư mất sạch tiền đã đầu tư**.\n\n---\n\n**5. Quy mô thiệt hại xã hội là rất lớn**\n\nLừa đảo trực tuyến tiếp tục trở thành vấn đề nghiêm trọng tại Việt Nam khi số liệu từ Hiệp hội An ninh mạng quốc gia cho thấy **thiệt hại ước tính lên tới 18.900 tỷ đồng** trong năm 2024.\n\nCông an các địa phương trong cả nước liên tiếp nhận đơn trình báo của người dân về việc bị lừa số tiền từ vài tỷ đồng đến hàng chục tỷ đồng vì tham gia đầu tư tài chính trên mạng, **thậm chí có nạn nhân bị lừa với số tiền lớn đến 57 tỷ đồng**.\n\n---\n\n### ✅ ANH MINH CẦN LÀM GÌ NGAY BÂY GIỜ?\n\n**Bước 1: Trình báo công an**\nBáo cáo vụ việc tới **Công an địa phương** hoặc **Cục An ninh mạng và Phòng chống tội phạm công nghệ cao – Bộ Công an (A05)**, cung cấp đầy đủ bằng chứng: số điện thoại `+84912-345-678`, tên công ty \"VietTech Solutions\", tên app \"InvestPro Global\", và tên tài khoản nhận tiền \"Công ty Phát triển Đầu tư Việt\".\n\n**Bước 2: Cảnh báo những người đã bị lừa chuyển tiền**\nNhững người đã chuyển tiền cần **lập tức liên hệ ngân hàng của mình để yêu cầu dừng giao dịch hoặc phong tỏa tài khoản**. Trong trường hợp phát hiện dấu hiệu bất thường hoặc nghi ngờ bị lừa đảo, khách hàng cần ngay lập tức liên hệ với tổng đài hỗ trợ của ngân hàng để yêu cầu khóa tài khoản kịp thời.\n\n**Bước 3: Nếu đã lỡ tải app**\nNếu đã cài app từ link lạ đó, cần:\n- **Gỡ cài đặt ngay lập tức**\n- **Đổi toàn bộ mật khẩu** ngân hàng, email, mạng xã hội\n- Liên hệ ngân hàng khóa thẻ và tài khoản tạm thời\n- Theo khuyến cáo của Agribank và Vietcombank, khách hàng cần **tắt ngay quyền Trợ năng** của các ứng dụng lạ trên điện thoại.\n\n**Bước 4: Chia sẻ cảnh báo rộng rãi**\nKhi phát hiện các dấu hiệu lừa đảo, nạn nhân cần nhanh chóng thông báo cho cơ quan chức năng để kịp thời xử lý. Việc báo cáo không chỉ giúp hạn chế thiệt hại cho bản thân mà còn **góp phần bảo vệ cộng đồng** khỏi các chiêu trò tinh vi đang ngày càng lan rộng.\n\n---\n\n### 🧠 BÀI HỌC RÚT RA\n\nAnh Minh rất **may mắn và sáng suốt** khi chủ động gọi kiểm chứng ngân hàng trước. Quy tắc vàng để tránh lừa đảo:\n- ❌ Không tin lợi nhuận cao bất thường (\u003e5%/tháng là dấu hiệu đỏ)\n- ❌ Không tải app từ link lạ ngoài App Store/CH Play chính thức\n- ❌ Không chuyển tiền cho người/tổ chức không xác minh được\n- ❌ Không cung cấp OTP, mật khẩu, CCCD cho bất kỳ ai qua điện thoại",
+  "sources": [
+    "https://congan.longan.gov.vn/vi/chi-tiet-tin-tuc?Id=133452",
+    "https://dantri.com.vn/phap-luat/khoi-to-24-bi-can-lien-quan-den-lua-dao-dau-tu-tien-ao-20251012103614454.htm",
+    "https://baodautu.vn/no-ro-lua-dao-dau-tu-tai-chinh-truc-tuyen-d235038.html",
+    "https://traderviet.tv/t/canh-giac-lua-dao-tu-cac-du-an-tien-ao-va-tai-chinh-ao.116587/",
+    "https://dantri.com.vn/phap-luat/dau-tu-tien-ao-ngoai-hoi-va-nhung-chiec-bay-phia-sau-20250130233332499.htm",
+    "https://tuoitre.vn/canh-giac-loi-moi-dau-tu-chung-khoan-tien-ao-loi-nhuan-cao-20250123075715866.htm",
+    "https://baochinhphu.vn/cam-nang-nhan-biet-va-phong-tranh-lua-dao-dau-tu-san-chung-khoan-ao-tien-ao-da-cap-102240715141754057.htm",
+    "https://congan.cantho.gov.vn/canh-bao-toi-pham/nhan-dien-mot-so-hinh-thuc-lua-dao-bang-hinh-thuc-dau-tu-tien-ao-tien-ky-thuat-so-3133.html",
+    "https://vietgiaitri.com/khoi-to-24-bi-can-lien-quan-den-lua-dao-dau-tu-tien-ao-20251012i7552711",
+    "https://kenh14.vn/lua-dao-truc-tuyen-gay-thiet-hai-gan-19000-ty-dong-trong-nam-2024-215241217100241204.chn",
+    "https://tuoitre.vn/canh-bao-app-gia-mao-danh-cap-thong-tin-va-chiem-doat-tien-trong-tai-khoan-ngan-hang-20240706111822168.htm",
+    "https://vietbao.vn/ngan-hang-canh-bao-thu-doan-lua-dao-moi-nham-vao-cac-ho-kinh-doanh-597216.html",
+    "https://tienphong.vn/ngan-hang-canh-bao-lua-dao-kieu-moi-post1840247.tpo",
+    "https://congan.ninhbinh.gov.vn/canh-bao-chieu-thuc-lua-dao-danh-cap-tai-khoan-ngan-hang",
+    "https://mst.gov.vn/canh-giac-voi-cac-chieu-tro-lua-dao-ngan-hang-truc-tuyen-197154333.htm",
+    "https://tienphong.vn/ngan-hang-canh-bao-nan-lua-dao-moi-post1845929.tpo",
+    "https://www.dnse.com.vn/hoc/fake-app-ngan-hang",
+    "https://vietnamfinance.vn/canh-bao-thu-doan-lua-dao-cai-ung-dung-thue-gia-mao-d98502.html",
+    "https://www.msb.com.vn/ve-chung-toi/tin-tuc-va-su-kien/ve-msb/canh-bao-gia-mao-tin-nhan-lua-dao-chiem-doat-tien/",
+    "https://traderviet.tv/t/chieu-lua-chuyen-khoan-thanh-cong-bang-app-ngan-hang-ao.116627/"
+  ],
+  "latency_ms": 74657
+}

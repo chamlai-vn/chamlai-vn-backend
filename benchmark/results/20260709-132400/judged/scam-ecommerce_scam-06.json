@@ -1,0 +1,40 @@
+{
+  "case_id": "scam-ecommerce_scam-06",
+  "rag_verdict": {
+    "strengths": [
+      "Xác định đúng mức độ rủi ro (red) và liệt kê đầy đủ, chính xác các dấu hiệu cảnh báo khớp với ý chính (giá rẻ bất thường, website giả mạo, thanh toán qua Momo, thu thập CCCD, mất liên lạc sau khi nhận tiền)",
+      "Bao quát cả 4 ý chính được yêu cầu một cách gọn gàng",
+      "Có mục 'chiêu trò đã biết khớp' giúp người dùng hiểu đây là mô thức phổ biến",
+      "Cảnh báo về nguy cơ bị lừa lần hai (giả vờ hoàn tiền, yêu cầu OTP) — rất thực tế",
+      "Nhắc kiểm tra và bảo vệ tài khoản cá nhân sau khi lộ CCCD"
+    ],
+    "weaknesses": [
+      "Không cung cấp số điện thoại/kênh liên hệ cụ thể (công an, tổng đài Momo, NCSC) khiến khuyến nghị kém khả thi hơn",
+      "Không nhấn mạnh tính khẩn cấp về thời gian (24-48h) để tăng cơ hội truy vết",
+      "Trình bày khá khô khan, thiếu hướng dẫn về việc lưu giữ bằng chứng cụ thể",
+      "Không có phần hướng dẫn phòng tránh trong tương lai (mua vé ở kênh chính thức nào)"
+    ],
+    "reasoning": "Câu trả lời A chính xác, súc tích và bao quát đầy đủ các ý chính. Phân loại rủi ro rõ ràng, dấu hiệu cảnh báo liệt kê tốt, và có điểm cộng khi cảnh báo lừa đảo lần hai và bảo vệ dữ liệu cá nhân. Tuy nhiên nó thiếu tính hành động cụ thể (số liên hệ, mốc thời gian, cách lưu bằng chứng) và không có phần phòng ngừa tương lai.",
+    "score": 7.5
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Bao quát đầy đủ cả 4 ý chính và phân tích sâu từng dấu hiệu với dẫn chứng từ cơ quan chức năng (Cục Hàng không, công an)",
+      "Hướng dẫn hành động cực kỳ cụ thể, có thứ tự ưu tiên rõ ràng và các số điện thoại/kênh liên hệ thực tế (Momo, A05, C02, NCSC, VNeID)",
+      "Nhấn mạnh mốc thời gian 24-48h để tăng cơ hội truy vết — lời khuyên thực tiễn cao",
+      "Hướng dẫn chi tiết cách lưu giữ bằng chứng và chuẩn bị hồ sơ trình báo",
+      "Cảnh báo lừa đảo lần hai ('dịch vụ lấy lại tiền') và xử lý rủi ro lộ CCCD một cách kỹ lưỡng",
+      "Có phần phòng tránh tương lai với kênh mua vé chính thức cụ thể",
+      "Giọng điệu đồng cảm, trấn an nạn nhân ('bạn không phải lỗi')"
+    ],
+    "weaknesses": [
+      "Rất dài, có thể gây quá tải thông tin cho người đang hoảng loạn",
+      "Một số số điện thoại/tổng đài cần được người dùng tự kiểm chứng lại vì thông tin liên hệ có thể thay đổi",
+      "Dùng nhiều khẳng định tuyệt đối ('100%') dù tổng thể vẫn hợp lý với ngữ cảnh"
+    ],
+    "reasoning": "Câu trả lời B toàn diện hơn: vừa giải thích sâu sắc với dẫn chứng, vừa cung cấp hướng dẫn hành động cụ thể, có thứ tự ưu tiên, số liên hệ, mốc thời gian và phần phòng ngừa. Chất lượng giải thích và lời khuyên vượt trội, dù dài. Điểm trừ nhỏ là độ dài và cần kiểm chứng lại thông tin liên hệ.",
+    "score": 9
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

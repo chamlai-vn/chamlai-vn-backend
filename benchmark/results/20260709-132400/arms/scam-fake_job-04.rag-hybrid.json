@@ -1,0 +1,31 @@
+{
+  "case_id": "scam-fake_job-04",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Tên công ty giả mạo (Lexus Group) liên hệ qua Zalo cá nhân, không phải kênh chính thức",
+      "Lương hấp dẫn bất thường (15 triệu/tháng) cho công việc đơn giản (chụp ảnh, mô tả)",
+      "Yêu cầu nạp tiền lớn (2 triệu) dưới danh nghĩa 'đăng ký tài khoản premium' trước khi bắt đầu",
+      "Chuyển hướng sang ứng dụng lạ không rõ nguồn gốc (TaskMaster Pro)",
+      "Phân công các 'nhiệm vụ' nghi ngờ (chuyển tiền cho khách hàng giả mạo)",
+      "Đe dọa công khai thông tin cá nhân nếu không tiếp tục nạp tiền",
+      "Chiêu lừa 'hoàn tiền sau' điển hình của các vụ lừa đảo kiểu CTV giả"
+    ],
+    "matched_patterns": [
+      "fake_job - Lừa đảo 'việc nhẹ, lương cao'",
+      "fake_job - Giả mạo doanh nghiệp tuyển CTV online, yêu cầu chuyển tiền trước qua 'đơn hàng ảo'",
+      "loan_scam - Ứng dụng vay tiền trực tuyến giả mạo với đe dọa, cắt ghép hình ảnh để ép buộc chuyển tiền"
+    ],
+    "recommended_actions": [
+      "Trình báo toàn bộ thông tin cho công an địa phương, cung cấp số tài khoản nhận tiền (Agribank 7601 2345 6789) để điều tra",
+      "Không tiếp tục liên lạc hoặc chuyển tiền, ghi lại tất cả tin nhắn/cuộc gọi đe dọa làm chứng cứ",
+      "Gỡ bỏ ứng dụng TaskMaster Pro và kiểm tra an toàn thiết bị",
+      "Thay đổi mật khẩu tài khoản ngân hàng, mạng xã hội và theo dõi giao dịch nghi ngờ",
+      "Cảnh báo người thân, bạn bè về chiêu trò này để tránh trở thành nạn nhân tiếp theo",
+      "Liên hệ ngân hàng để chặn tài khoản lừa đảo nếu có thể"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 8889
+}

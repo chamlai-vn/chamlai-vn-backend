@@ -1,0 +1,31 @@
+{
+  "case_id": "scam-investment_fraud-08",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Mạo danh cơ quan/công ty không xác định (FX Capital)",
+      "Lợi suất cao bất thường (8-12%/tháng, cam kết +15% tháng đầu)",
+      "Hứa hẹn lợi nhuận cụ thể (khách hàng lời 500 triệu - 2 tỷ trong 6 tháng)",
+      "Tạo áp lực thời gian (gửi ngay hôm nay)",
+      "Yêu cầu tải app không rõ nguồn gốc (TradePro)",
+      "Phủ nhận rủi ro (miễn phí, không có risk)",
+      "Kích thích tham lam bằng số lượng nạn nhân \"thành công\" (47 người)",
+      "Liên hệ qua tin nhắn mạng xã hội từ người lạ không rõ thông tin"
+    ],
+    "matched_patterns": [
+      "Sàn giao dịch Forex trái phép: lừa đảo kiểu Ponzi với can thiệp tài khoản khách hàng",
+      "Lôi kéo đầu tư sàn chứng khoán, forex giả mạo với lợi nhuận cao, rủi ro thấp",
+      "Lừa đảo đầu tư sàn ngoại hối Forex - thủ đoạn tham nhũng, chiếm đoạt tài sản lớn"
+    ],
+    "recommended_actions": [
+      "Tuyệt đối không chuyển tiền cho người này; ngân hàng Nhà nước Việt Nam chưa cấp phép cho bất kỳ sàn Forex nào",
+      "Không tải app TradePro hay bất kỳ ứng dụng giao dịch nào từ đường link lạ hoặc người lạ cung cấp",
+      "Tìm kiếm tên 'FX Capital lừa đảo' trên Google để kiểm tra lịch sử của công ty",
+      "Chặn tài khoản này ngay lập tức; đây là các đặc điểm điển hình của lừa đảo đầu tư Forex",
+      "Nếu đã nạp tiền, liên hệ công an địa phương để báo cáo tội lừa đảo"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 8406
+}

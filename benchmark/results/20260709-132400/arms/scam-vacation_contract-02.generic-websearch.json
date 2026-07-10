@@ -1,0 +1,26 @@
+{
+  "case_id": "scam-vacation_contract-02",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Khớp mô hình lừa đảo \"sở hữu kỳ nghỉ\" quy mô lớn đã bị công an Hà Nội/TP.HCM khởi tố hàng loạt (hàng nghìn tỷ đồng, hàng trăm bị can)",
+      "Thủ đoạn tiếp cận điển hình: gọi điện thông báo trúng thưởng/được chọn tham gia nhận voucher/quà tặng nghỉ dưỡng bất ngờ",
+      "Điều khoản hợp đồng kéo dài 10 năm dù cam kết hoàn tất giao dịch trong 1-1,5 tháng — cờ đỏ đã được cảnh báo cụ thể",
+      "Áp lực thanh toán nhanh, ký ngay để giữ ưu đãi"
+    ],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Đừng chuyển tiền hay ký bất cứ giấy tờ gì ngay bây giờ",
+      "Xác minh doanh nghiệp, yêu cầu được cung cấp đầy đủ hợp đồng để nghiên cứu điều khoản trước khi ký",
+      "Không tin lời hứa miệng — mọi cam kết về lợi nhuận/mua lại phải ghi rõ trong hợp đồng bằng văn bản; lời hứa sinh lời từ thẻ kỳ nghỉ là dấu hiệu lừa đảo",
+      "Không ký dưới áp lực thời gian nếu bị hối \"giữ ưu đãi\"",
+      "Nếu nghi ngờ đã bị lừa: tố cáo ngay đến cơ quan công an",
+      "Gọi tổng đài phòng chống lừa đảo hoặc hỏi công an phường/quận để xác minh trước khi giao dịch"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "Dựa trên các dấu hiệu trong tin nhắn của bạn và tình hình lừa đảo \"sở hữu kỳ nghỉ\" đang rất phổ biến ở Việt Nam gần đây, đây **rất có khả năng là lừa đảo**. Dưới đây là lý do và những gì bạn nên làm.\n\n## Vì sao đáng ngờ\n\n**1. Kịch bản khớp gần như y hệt mô hình lừa đảo đã bị công an phanh phui**\n\nGần đây, Công an TP Hà Nội và TP.HCM đã khởi tố hàng loạt vụ án liên quan đến \"hợp đồng sở hữu kỳ nghỉ\": Công an Hà Nội xác định có khoảng 17.000 hợp đồng sở hữu kỳ nghỉ được 27 công ty ký kết, qua đó lừa 2.700 tỷ đồng chủ yếu từ người cao tuổi. Ngoài ra Công an TP Hà Nội đã khởi tố 21 vụ án, 187 bị can liên quan đến các đường dây lừa đảo mua bán, chuyển nhượng quyền sở hữu kỳ nghỉ du lịch, với 493 bị hại và tổng số tiền bị chiếm đoạt hơn 181,4 tỷ đồng.\n\n**2. Thủ đoạn tiếp cận giống hệt trường hợp của bạn**\n\nCác đối tượng thường gọi điện, nhắn tin hoặc quảng cáo trên mạng xã hội thông báo khách hàng trúng thưởng, nhận voucher nghỉ dưỡng miễn phí hoặc quà tặng có giá trị lớn — đúng với việc bạn \"được chọn tham gia\" một cách bất ngờ.\n\n**3. Chi tiết hợp đồng \"10 năm\" là một cờ đỏ đã được cảnh báo cụ thể**\n\nĐiều tra cho thấy các công ty cam kết hoàn tất giao dịch trong vòng 1-1,5 tháng, nhưng lại cài cắm điều khoản kéo dài thời hạn thực hiện lên tới 10 năm, khiến khách hàng khó hủy hợp đồng hoặc yêu cầu bồi thường. Con số \"10 năm\" trong tin nhắn của bạn trùng khớp chính xác với thủ đoạn này.\n\n**4. Áp lực thanh toán nhanh, ký ngay**\n\nCơ quan chức năng cảnh báo cần thận trọng với những lời mời chào quá hấp dẫn, các chương trình trúng thưởng bất ngờ hoặc yêu cầu thanh toán gấp để giữ ưu đãi.\n\n## Bạn nên làm gì tiếp theo\n\n1. **Đừng chuyển tiền hay ký bất cứ giấy tờ gì ngay bây giờ.**\n2. **Xác minh doanh nghiệp**: tìm hiểu kỹ thông tin doanh nghiệp trước khi ký kết hợp đồng; yêu cầu được cung cấp đầy đủ hợp đồng để nghiên cứu các điều khoản về quyền lợi, chi phí phát sinh, điều kiện chuyển nhượng và chấm dứt hợp đồng. Kiểm tra xem resort ở Quy Nhơn mà họ nhắc tới có thật không, có liên kết thật với công ty này không.\n3. **Không tin lời hứa miệng** — mọi cam kết về lợi nhuận, chuyển nhượng, mua lại phải được ghi rõ trong hợp đồng bằng văn bản, vì bất kỳ lời hứa nào về đầu tư sinh lời, trả lãi, mua lại bảo đảm từ doanh nghiệp bán thẻ kỳ nghỉ đều là dấu hiệu lừa đảo vì bản chất sản phẩm này chỉ là dịch vụ du lịch, không phải công cụ tài chính.\n4. **Không ký dưới áp lực thời gian** — nếu họ hối bạn ký ngay để \"giữ ưu đãi\", đó là dấu hiệu xấu.\n5. **Nếu nghi ngờ đã bị lừa hoặc muốn kiểm tra công ty**: nếu phát hiện bị lừa, hãy ngay lập tức tố cáo đến cơ quan công an.\n6. Có thể gọi tổng đài phòng chống lừa đảo hoặc hỏi công an phường/quận nơi bạn ở để xác minh trước khi giao dịch.\n\n**Tóm lại:** số điện thoại gọi cho bạn, kịch bản \"được chọn\", số tiền 5,2 triệu để ký hợp đồng 10 năm, và lời hứa \"resort cao cấp\" — tất cả đều khớp với mô hình lừa đảo đang bị công an nhiều tỉnh thành cảnh báo và xử lý gần đây. Tốt nhất là **không thanh toán** cho đến khi bạn xác minh được đầy đủ tính pháp lý và uy tín của công ty này.",
+  "sources": [],
+  "latency_ms": 0
+}

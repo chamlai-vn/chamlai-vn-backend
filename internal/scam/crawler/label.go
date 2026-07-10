@@ -44,6 +44,26 @@ var ValidScamTypes = map[string]bool{
 	ScamOther:                  true,
 }
 
+// ScamTypeDescriptions is a short Vietnamese description of each scam type,
+// exported so callers that need to explain the taxonomy (e.g. cmd/benchmark's
+// dataset generator prompt) have a single source of truth instead of scraping
+// the const-block comments above, which can drift silently.
+var ScamTypeDescriptions = map[string]string{
+	ScamImpersonationAuthority: "giả danh công an, toà án, viện kiểm sát, cơ quan nhà nước, VNeID/CCCD",
+	ScamImpersonationService:   "giả danh điện lực, y tế, nhân viên nhà mạng/SIM, nhân viên ngân hàng",
+	ScamTechFraud:              "deepfake, AI, mã độc/malware, hack tài khoản, ứng dụng giả mạo",
+	ScamRecovery:               "dịch vụ 'hỗ trợ lấy lại tiền' cho nạn nhân đã bị lừa trước đó",
+	ScamInvestmentFraud:        "đầu tư forex, crypto, chứng khoán, mô hình Ponzi, làm giàu nhanh",
+	ScamLoan:                   "vay tiền online, tín dụng đen, mở thẻ tín dụng giả",
+	ScamFakeJob:                "việc nhẹ lương cao, cộng tác viên chốt đơn, làm nhiệm vụ, xuất khẩu lao động",
+	ScamEcommerce:              "bán hàng/đặt cọc online, tour du lịch, vé máy bay giá rẻ",
+	ScamPackageDelivery:        "giả shipper/giao hàng, bưu kiện cần đóng phí",
+	ScamPrizeGift:              "trúng thưởng, quà tri ân miễn phí",
+	ScamRomance:                "tình cảm, hẹn hò qua mạng với người nước ngoài",
+	ScamVacationContract:       "hợp đồng/sở hữu kỳ nghỉ, timeshare",
+	ScamOther:                  "chiêu trò lừa đảo khác không thuộc các nhóm trên",
+}
+
 // InferScamType labels an article by keyword-matching its title and content
 // against known Vietnamese scam patterns. It is intentionally rule-based (no
 // LLM): cheap, deterministic, and good enough to seed the corpus. Returns

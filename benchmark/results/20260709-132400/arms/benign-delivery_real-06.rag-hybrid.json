@@ -1,0 +1,16 @@
+{
+  "case_id": "benign-delivery_real-06",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "green",
+    "red_flags": [],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Mặc dù tin nhắn có vẻ hợp lệ, hãy luôn xác minh thêm bằng cách kiểm tra trạng thái đơn hàng trên ứng dụng Tiki chính thức",
+      "Nếu cần chi tiết, có thể truy cập trực tiếp website GHTK hoặc gọi hotline chính thức thay vì click link từ tin nhắn",
+      "Nhớ rằng những thông báo thật từ shipper thường không yêu cầu chuyển khoản hay nhập thông tin nhạy cảm"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 3725
+}

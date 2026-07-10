@@ -1,0 +1,27 @@
+{
+  "case_id": "scam-vacation_contract-02",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Liên hệ chủ động qua điện thoại từ số không xác định",
+      "Tuyên bố được \"chọn\" để tham gia (tạo cảm giác độc quyền, áp lực tâm lý)",
+      "Yêu cầu thanh toán trước khi xem toàn bộ hợp đồng",
+      "Hứa hẹn sử dụng resort cao cấp với giá quá rẻ (5.2 triệu cho 10 năm)",
+      "Kỳ hạn dài (10 năm) là dấu hiệu điển hình của lừa đảo sở hữu kỳ nghỉ",
+      "Không cung cấp thông tin cụ thể về công ty, địa chỉ, giấy phép kinh doanh"
+    ],
+    "matched_patterns": [
+      "vacation_contract"
+    ],
+    "recommended_actions": [
+      "Tuyệt đối không chuyển tiền ngay; yêu cầu thông tin chi tiết về công ty (tên, địa chỉ trụ sở, số điện thoại chính thức, người đại diện pháp luật) rồi kiểm chứng độc lập trên website chính phủ hoặc liên hệ trực tiếp",
+      "Yêu cầu xem toàn bộ hợp đồng trước khi bàn giao bất kỳ khoản tiền nào; chú ý các điều khoản về phí hàng năm, điều kiện chuyển nhượng, điều kiện huỷ hợp đồng",
+      "Xác minh cơ sở lưu trú thông qua website chính thức và liên hệ trực tiếp, không tin thông tin từ nhân viên tư vấn",
+      "Nếu họ ép bạn quyết định ngay trong cuộc gọi hoặc trong ngày, đó là dấu hiệu cảnh báo mạnh mẽ; mang hợp đồng về tìm hiểu kỹ hoặc tham khảo luật sư",
+      "Tìm hiểu kỹ tất cả chi phí phát sinh (phí duy trì, quản lý, bảo dưỡng, phí chuyển nhượng) — nhiều trường hợp chi phí ẩn này rất cao"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 7689
+}

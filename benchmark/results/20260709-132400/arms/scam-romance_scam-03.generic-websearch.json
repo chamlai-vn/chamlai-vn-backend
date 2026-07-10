@@ -1,0 +1,28 @@
+{
+  "case_id": "scam-romance_scam-03",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Nhân vật \"hoàn hảo nhưng xa cách\" — Việt kiều làm ngành dầu khí ở nước ngoài, thu nhập cao nhưng luôn có lý do không thể gặp mặt",
+      "Tốc độ tình cảm bất thường — chỉ 2 tháng đã \"ngôn tình\" nồng nhiệt, kỹ thuật love bombing để tạo gắn bó nhanh",
+      "Không bao giờ gặp mặt trực tiếp hay video call rõ mặt",
+      "Yêu cầu người lạ \"xác minh danh tính\" để chuyển tiền lớn ra nước ngoài — không ngân hàng/công ty hợp pháp nào yêu cầu bên thứ ba làm vậy",
+      "Yêu cầu chuyển \"phí xác minh\" trước — dấu hiệu 100% lừa đảo kiểu advance-fee fraud",
+      "Sau khi chuyển tiền lần 1, lại phát sinh \"vấn đề\" đòi thêm tiền lần 2 — đặc trưng rõ nhất của scam liên tục moi thêm tiền"
+    ],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Dừng ngay mọi liên lạc và không chuyển thêm bất kỳ khoản nào dù bị dọa dẫm, khóc lóc hay hứa trả lại tiền",
+      "Chặn toàn bộ liên lạc (Tinder, số điện thoại, mạng xã hội)",
+      "Thu thập bằng chứng trước khi chặn: chụp màn hình đoạn chat, thông tin tài khoản đã chuyển tiền, biên lai, hồ sơ Tinder của đối tượng",
+      "Trình báo công an — qua đường dây nóng Phòng An ninh mạng (A05), canhbao.ncsc.gov.vn, hoặc tổng đài An toàn mạng quốc gia 1800.1031",
+      "Báo cáo hồ sơ scam lên Tinder để nền tảng gỡ bỏ tài khoản",
+      "Hỗ trợ tâm lý: không nên xấu hổ, đây là lừa đảo chuyên nghiệp có kịch bản bài bản, không phải lỗi của nạn nhân"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## Đây chính là lừa đảo — mô hình rất kinh điển gọi là \"romance scam\" (lừa đảo tình cảm qua mạng)\n\nCó thể khẳng định gần như chắc chắn 100% đây là scam. Kịch bản của \"Daniel\" trùng khớp gần như từng chi tiết với mô típ lừa đảo tình cảm phổ biến đang lan tràn tại Việt Nam:\n\n**Các dấu hiệu nhận diện scam trong câu chuyện:**\n\n1. **Nhân vật \"hoàn hảo nhưng xa cách\"**: Việt kiều Mỹ, làm ngành dầu khí ở nước ngoài (Qatar, Trung Đông, châu Phi là các địa điểm hay được dùng) — nghề nghiệp có vẻ đáng tin, thu nhập cao, nhưng luôn có lý do \"không thể về nước/gặp mặt\".\n\n2. **Tốc độ tình cảm bất thường**: Chỉ sau 2 tháng chat đã \"ngôn tình\" nồng nhiệt — đây là kỹ thuật thao túng tâm lý gọi là \"love bombing\" nhằm tạo sự gắn bó nhanh để nạn nhân mất cảnh giác.\n\n3. **Không bao giờ gặp mặt trực tiếp hay video call rõ mặt**: Luôn có lý do hợp đồng, công việc \"bế tắc\".\n\n4. **\"Chuyển tiền lớn ra nước ngoài\" cần người \"xác minh danh tính\"**: Đây là biến thể của scam \"chuyển khoản quốc tế\" — không có ngân hàng hay công ty hợp pháp nào yêu cầu một cá nhân (không liên quan) phải nộp tiền để \"xác minh\" giúp chuyển khoản của người khác. Đây là chiêu trò kinh điển.\n\n5. **Yêu cầu chuyển \"phí xác minh\"**: Bất kỳ giao dịch hợp pháp nào — ngân hàng, công ty — không bao giờ yêu cầu bên thứ ba nộp phí trước để \"giải ngân\" tiền của họ. Đây là dấu hiệu 100% lừa đảo (giống loại \"advance-fee fraud\" / lừa đảo phí trả trước).\n\n6. **Sau khi chuyển tiền lần 1, lại phát sinh \"vấn đề\" đòi thêm tiền lần 2**: Đây là đặc trưng rõ nhất của scam — kẻ lừa đảo sẽ liên tục bịa ra lý do mới để moi thêm tiền cho đến khi nạn nhân hết khả năng hoặc phát hiện ra.\n\nCông an Việt Nam cũng đã cảnh báo cụ thể về dạng lừa đảo này: đối tượng nước ngoài kết bạn, tán tỉnh, yêu đương qua mạng xã hội với phụ nữ Việt Nam, đề nghị chuyển quà giá trị về Việt Nam, rồi giả danh nhân viên sân bay/hải quan yêu cầu chuyển tiền vào tài khoản để \"làm thủ tục nhận quà\" nhằm chiếm đoạt tài sản — mô hình rất giống với vụ \"xác minh danh tính chuyển tiền\" mà em gái bạn gặp phải.\n\n## Em gái bạn nên làm gì tiếp theo\n\n**1. Dừng ngay mọi liên lạc và không chuyển thêm bất kỳ khoản nào**, dù \"Daniel\" có nói gì (kể cả dọa dẫm, khóc lóc, hứa trả lại tiền, hay đưa ra lý do khẩn cấp mới).\n\n**2. Chặn toàn bộ liên lạc** (Tinder, số điện thoại, mạng xã hội) để tránh bị tiếp tục thao túng tâm lý.\n\n**3. Thu thập bằng chứng** trước khi chặn: chụp màn hình toàn bộ đoạn chat, thông tin tài khoản ngân hàng đã chuyển tiền, biên lai chuyển khoản, hồ sơ Tinder của đối tượng.\n\n**4. Trình báo công an** — dù số tiền không lớn, việc trình báo giúp cơ quan chức năng theo dõi và có thể đóng băng tài khoản nếu trình báo sớm:\n   - Đường dây nóng Phòng An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (Bộ Công an): **069.219.4053**\n   - Cổng cảnh báo an toàn thông tin: **canhbao.ncsc.gov.vn**\n   - Tổng đài An toàn mạng quốc gia: **1800.1031** (miễn phí)\n   - Tại TP.HCM: liên hệ công an quận/phường nơi cư trú hoặc số hotline địa phương\n\n**5. Báo cáo hồ sơ scam lên Tinder** để nền tảng gỡ bỏ tài khoản, tránh nạn nhân khác.\n\n**6. Về mặt cảm xúc**: Em gái bạn không nên xấu hổ — đây là những kẻ lừa đảo chuyên nghiệp, có kịch bản được huấn luyện bài bản để thao túng tâm lý, không phải lỗi do \"cả tin\" hay \"ngây thơ\". Rất nhiều người thông minh, cẩn trọng vẫn là nạn nhân của loại hình này. Việc em ấy dừng lại kịp thời trước khi mất thêm tiền là điều đáng khen, không phải điều đáng trách. Nếu em ấy cảm thấy quá tổn thương hoặc lo lắng kéo dài, có thể cân nhắc trò chuyện với người thân tin cậy hoặc chuyên gia tâm lý để được hỗ trợ.",
+  "sources": [],
+  "latency_ms": 0
+}

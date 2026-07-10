@@ -1,0 +1,30 @@
+{
+  "case_id": "scam-loan_scam-07",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Yêu cầu cung cấp toàn bộ thông tin nhạy cảm (CMND/CCCD, ảnh selfie, tài khoản ngân hàng) trước khi nhận tiền",
+      "Lừa dụ nạn nhân thanh toán phí dịch vụ (2,5 triệu đồng) trước khi giải ngân - đây là dấu hiệu điển hình của chiêu trò vay tiền giả mạo",
+      "Hứa hẹn vay nhanh 50 triệu mà KHÔNG cần chứng minh thu nhập - lời hứa bất thường để dẫn dụ nạn nhân",
+      "Mạo danh công ty tài chính 'Định Hướng Tín Dụng' - tên công ty không rõ uy tín, khó xác minh",
+      "Yêu cầu xác minh qua 'ký số điện thoại' - cách thức không chính thức, dễ lợi dụng để chiếm đoạt thông tin",
+      "Tạo áp lực bằng lời hứa 'giải ngân trong 2 giờ' - kỹ thuật tạo cấp bách để nạn nhân không kịp suy nghĩ",
+      "Cung cấp số điện thoại liên hệ lạ (0868...) - dấu hiệu của tài khoản lừa đảo"
+    ],
+    "matched_patterns": [
+      "Lừa đảo vay tiền qua app giả mạo công ty tài chính, yêu cầu nộp phạt trước",
+      "Mạo danh ngân hàng, công ty tài chính cho vay trực tuyến để lừa đảo",
+      "Vay tiền online qua app lừa đảo - Ký hợp đồng ảo, thu phí trước giải ngân"
+    ],
+    "recommended_actions": [
+      "Không bao giờ chuyển tiền phí dịch vụ hay bất kỳ khoản tiền nào trước khi nhận được tiền vay thực tế",
+      "Kiểm tra kỹ công ty 'Định Hướng Tín Dụng' trên website Bộ Công Thương hoặc Ngân hàng Nhà nước Việt Nam - nếu không có giấy phép hợp lệ thì đây là lừa đảo",
+      "Chỉ vay tiền từ các ngân hàng hoặc công ty tài chính đã có giấy phép rõ ràng và liên hệ trực tiếp tại chi nhánh chính thức, không qua tin nhắn/mạng xã hội",
+      "Không cung cấp CMND/CCCD, ảnh selfie hoặc thông tin tài khoản ngân hàng qua tin nhắn hoặc link lạ",
+      "Báo cáo tài khoản gửi tin nhắn này cho cơ quan công an hoặc cảnh báo trên nền tảng nhạn được tin nhắn"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 9955
+}

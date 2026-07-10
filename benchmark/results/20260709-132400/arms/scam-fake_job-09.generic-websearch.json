@@ -1,0 +1,59 @@
+{
+  "case_id": "scam-fake_job-09",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Mức lương 5 triệu/tuần cho công việc chụp ảnh sản phẩm là vô lý và không thực tế — dấu hiệu 'việc nhẹ lương cao'",
+      "Yêu cầu đóng tiền đặt cọc 890k trước khi làm việc — doanh nghiệp hợp pháp không bao giờ làm vậy",
+      "Yêu cầu tải app lạ (SaleBoost) và truy cập link đáng ngờ có tên miền 'saleeboost-official.pro' với đuôi .pro không đáng tin cậy",
+      "Kịch bản bẫy nhiều lớp: ban đầu trả đủ để tạo niềm tin, sau đó trì hoãn thanh toán và ép nạp thêm tiền với nhiều lý do (nâng cấp VIP, đóng thuế…)",
+      "Hệ thống giới thiệu có thưởng 500k — dấu hiệu của mô hình đa cấp lừa đảo, dùng nạn nhân để kéo thêm nạn nhân",
+      "Công ty không có địa chỉ cụ thể, không có thông tin pháp lý rõ ràng, chỉ trao đổi qua tài khoản mạng xã hội cá nhân"
+    ],
+    "matched_patterns": [
+      "Lừa đảo việc làm online / việc nhẹ lương cao",
+      "Yêu cầu đặt cọc / nộp phí trước khi làm việc",
+      "Cài app giả mạo / link độc hại",
+      "Lừa đảo cộng tác viên chụp ảnh / đánh giá sản phẩm",
+      "Mô hình đa cấp lừa đảo / hoa hồng giới thiệu"
+    ],
+    "recommended_actions": [
+      "KHÔNG đóng 890k đặt cọc — đây là tiền mồi nhử",
+      "KHÔNG tải app SaleBoost — app có thể chứa mã độc",
+      "KHÔNG truy cập link lạ — có thể bị đánh cắp thông tin",
+      "KHÔNG cung cấp CCCD hoặc tài khoản ngân hàng — dữ liệu có thể bị lợi dụng cho tội phạm",
+      "Chặn và báo cáo ngay số điện thoại và tài khoản Telegram của 'Ms Liên'",
+      "Nếu đã chuyển tiền, thu thập toàn bộ bằng chứng (ảnh chụp màn hình, lịch sử chuyển khoản) và trình báo Công an địa phương",
+      "Cảnh báo người thân và bạn bè để tránh thêm nạn nhân"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 CẢNH BÁO: ĐÂY LÀ LỪA ĐẢO 100%!\n\nTin nhắn bạn nhận được có **tất cả các dấu hiệu đặc trưng** của một chiêu lừa đảo cực kỳ phổ biến tại Việt Nam. Hãy để tôi phân tích từng điểm:\n\n---\n\n## ❌ Các dấu hiệu lừa đảo trong tin nhắn này\n\n### 1. 💰 \"Việc nhẹ, lương cao\" bất thường\nCác đối tượng lừa đảo thường đăng bài tuyển dụng với nội dung rất thu hút như thu nhập cao, công việc đơn giản không cần kinh nghiệm, chỉ cần điện thoại và kết nối internet là có thể làm việc tại nhà. — Mức lương **5 triệu/tuần** cho công việc chụp ảnh sản phẩm là vô lý và không thực tế.\n\n### 2. 🔴 Yêu cầu đóng tiền đặt cọc — DẤU HIỆU LỪA ĐẢO RÕ RÀNG NHẤT\nDoanh nghiệp tuyển dụng hợp pháp **không bao giờ** yêu cầu ứng viên nộp phí hoặc chuyển tiền trước khi làm việc.\n\nNếu bạn được yêu cầu nộp một khoản tiền tạm ứng trước khi bắt đầu công việc, hãy cảnh giác. Lừa đảo thường sử dụng chiêu này để chiếm đoạt số tiền của bạn mà không cung cấp công việc thực tế.\n\n### 3. 📱 Yêu cầu tải app lạ \u0026 truy cập link đáng ngờ\nCác đối tượng gửi cho nạn nhân đường link để cài đặt các app (ứng dụng) có chức năng giả các hoạt động thương mại, tài chính do các đối tượng tạo ra để lừa đảo nạn nhân.\n\nTên miền **\"saleeboost-official.pro\"** (dùng đuôi `.pro`) là dấu hiệu cực kỳ đáng ngờ. Nếu trang có tên miền mở rộng không đáng tin cậy như `.pro`, `.top`, `.cc`, `.vc`, `.vip`… đó có thể là dấu hiệu của một trang web giả mạo.\n\n### 4. 🎭 Kịch bản bẫy nhiều lớp\nThời gian đầu khi mới tham gia, nạn nhân sẽ được nhận đầy đủ tiền cọc và tiền \"hoa hồng\". Theo thời gian, số lượng đơn hàng và tiền cọc tăng lên thì \"công ty\" đưa ra nhiều lý do trì hoãn việc thanh toán, đồng thời thúc ép nạn nhân tiếp tục chuyển thêm tiền với nhiều lý do như nâng cấp hội viên, đóng thuế thu nhập cá nhân…\n\n### 5. 🔗 Hệ thống giới thiệu — Dấu hiệu của mô hình đa cấp lừa đảo\nViệc **người giới thiệu nhận bonus 500k** là thủ thuật dùng chính nạn nhân để kéo thêm nạn nhân khác vào bẫy.\n\n### 6. 🏢 Công ty không có thông tin pháp lý rõ ràng\nNếu đơn vị tuyển dụng không có địa chỉ cụ thể, không có thông tin pháp lý rõ ràng, chỉ trao đổi qua tài khoản mạng xã hội cá nhân, nguy cơ lừa đảo rất cao.\n\n---\n\n## 🎯 Kịch bản lừa đảo tiếp theo sẽ diễn ra thế nào?\n\nBan đầu, kẻ lừa đảo cho bạn làm nhiệm vụ giá trị nhỏ — bạn làm xong, chúng trả gốc + lãi ngay lập tức để tạo niềm tin. Khi bạn đã tin tưởng, chúng yêu cầu nhiệm vụ lớn hơn (vài chục triệu). Lúc này, hệ thống sẽ báo \"lỗi\", \"sai cú pháp\", yêu cầu nạp thêm tiền để \"sửa lỗi\" hoặc \"nâng cấp VIP\" mới rút được tiền về. Vì tiếc số tiền đã nạp, nạn nhân vay mượn khắp nơi để nạp tiếp. Đến khi cạn kiệt tài chính, kẻ lừa đảo sẽ chặn liên lạc.\n\nKhoản tiền các đối tượng lừa chiếm đoạt được từ hình thức này thường từ vài trăm triệu cho đến hàng tỷ đồng.\n\n---\n\n## ✅ Bạn cần làm gì ngay bây giờ?\n\n| Hành động | Chi tiết |\n|---|---|\n| 🚫 **KHÔNG đóng 890k đặt cọc** | Đây là tiền mồi nhử |\n| 🚫 **KHÔNG tải app SaleBoost** | App có thể chứa mã độc |\n| 🚫 **KHÔNG truy cập link lạ** | Có thể đánh cắp thông tin |\n| 🚫 **KHÔNG cung cấp CCCD/tài khoản ngân hàng** | Dữ liệu bị lợi dụng cho tội phạm |\n| ✅ **Chặn và báo cáo ngay** | Chặn số điện thoại, tài khoản Telegram của \"Ms Liên\" |\n| ✅ **Trình báo Công an** | Nếu đã chuyển tiền, gửi toàn bộ bằng chứng (ảnh chụp màn hình, lịch sử chuyển khoản) đến Công an địa phương |\n| ✅ **Cảnh báo người thân** | Chia sẻ để tránh thêm nạn nhân |\n\n---\n\n\u003e 💡 **Nhớ nguyên tắc vàng:** Không có công việc hợp pháp nào yêu cầu bạn **phải trả tiền trước** để được nhận việc. Nếu có yêu cầu đặt cọc, nộp phí, hay mua gói — đó chắc chắn là lừa đảo!",
+  "sources": [
+    "https://congan.daklak.gov.vn/-/nhan-dien-va-phong-tranh-thu-oan-lua-ao-lam-nhiem-vu-truc-tuyen-moi-tren-khong-gian-mang",
+    "https://sdttg.bacgiang.gov.vn/chi-tiet-tin-tuc/-/asset_publisher/ivaa62McqTU0/content/canh-bao-thu-oan-lua-ao-thong-qua-hinh-thuc-cong-tac-vien-online-tuyen-nhan-vien-lam-viec-tai-nha",
+    "https://lsvn.vn/tiep-tuc-canh-giac-thu-doan-lua-dao-cong-tac-vien-chot-don-hang-online-a156328.html",
+    "https://canhsatquanlyhanhchinh.gov.vn/phong-chong-toi-pham/canh-giac-thu-doan-lua-dao-tuyen-cong-tac-vien-lam-online-viec-nhe-luong-cao-2681",
+    "https://congan.hatinh.gov.vn/bai-viet/lua-dao-tuyen-dung-cong-tac-vien-ban-hang-online_1705456982.caht",
+    "https://congan.longan.gov.vn/vi/chi-tiet-tin-tuc?Id=133438",
+    "https://xn--luts-tib7365b.net/bi-lua-lam-cong-tac-vien-online-mat-hang-tram-trieu-co-hoi-nao-de-lay-lai-tien-hay-chap-nhan-mat-trang.html",
+    "https://special.nhandan.vn/lua-dao-tuyen-cong-tac-vien-online/index.html",
+    "https://congan.haiphong.gov.vn/Tin-An-ninh-trat-tu/Canh-bao-thu-doan-lua-dao-bang-hinh-thuc-tuyen-cong-tac-vien-xu-ly-don-hang-cho-cac-trang-thuong-mai-dien-tu-171717.html",
+    "https://congan.vinhlong.gov.vn/canh-bao-phuong-thuc-thu-doan-cua-toi-pham/canh-giac-lua-dao-voi-thu-doan-tuyen-cong-tac-vien-online-1622.html",
+    "https://vast.gov.vn/en/web/chuyen-doi-so/tin-chi-tiet/-/chi-tiet/lua-%C4%91ao-tuyen-cong-tac-vien-online-tien-loi-cao-bao-nguoi-sap-bay--59809-5801.html",
+    "https://vast.gov.vn/en/web/chuyen-doi-so/tin-chi-tiet/-/chi-tiet/lua-%C4%91ao-tuyen-cong-tac-vien-online-tien-loi-cao-bao-nguoi-sap-bay--59809-3802.html",
+    "https://lsvn.vn/canh-bao-thu-doan-lua-dao-mua-hang-nhan-tien-hoa-hong-1691966933-a133973.html",
+    "https://dx.gov.vn/lua-dao-tuyen-cong-tac-vien-online-tien-loi-cao-bao-nguoi-sap-bay-1666065688293.htm",
+    "https://salework.net/canh-bao-ve-cac-hanh-vi-lua-dao-gia-dang-hinh-anh-va-con-dau-cua-cong-ty-co-phan-salework",
+    "https://luatvietnam.vn/linh-vuc-khac/lua-dao-chot-don-ao-883-90912-article.html",
+    "https://laodong.vn/phap-luat/bi-lua-tien-ti-khi-lam-cong-tac-vien-ban-hang-online-dat-don-hang-ao-1014725.ldo",
+    "https://laodong.vn/ban-doc/bay-lam-cong-tac-vien-dat-don-hang-ao-chieu-thuc-ngay-cang-tinh-vi-1143402.ldo",
+    "https://congan.soctrang.gov.vn/Default.aspx?sname=congantinhst\u0026sid=1319\u0026pageid=34075\u0026catid=56874\u0026id=390384\u0026catname=An-ninh-trat-tu\u0026title=Cam-nang-nhan-biet-va-phong-tranh-Lua-dao-qua-hinh-thuc-tuyen-cong-tac-vien",
+    "https://lsvn.vn/cong-an-ha-noi-tiep-tuc-canh-bao-ve-thu-doan-lua-dao-tuyen-cong-tac-vien-online-a154927.html",
+    "https://nhandan.vn/tuyen-cong-tac-vien-online-de-lua-dao-co-the-bi-xu-ly-hinh-su-post947393.html",
+    "https://congan.langson.gov.vn/5060/tin-an-ninh-trat-tu/32/canh-giac-voi-chieu-tro-lua-dao-tuyen-cong-tac-vien-ban-hang-online/5060.aspx",
+    "https://tanlap.daklak.gov.vn/lua-dao-tuyen-cong-tac-vien-online-tien-loi-cao-bao-nguoi-sap-bay-4467.html"
+  ],
+  "latency_ms": 67054
+}

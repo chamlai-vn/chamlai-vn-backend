@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-investment_fraud-09",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận đúng (red), phủ đủ 4 ý chính: chuyên gia giả kết bạn, app DeltaTrading Pro giả, chiêu 'nâng level', chuyển vào tài khoản cá nhân",
+      "Pattern khớp đúng loại đầu tư/forex",
+      "Khuyến nghị cụ thể: liên hệ Vietcombank khóa tài khoản nhận (Phạm Thị Hoa), lưu bằng chứng + số điện thoại, tố giác Công an/Cục ATTT",
+      "Nhắc quét malware thiết bị"
+    ],
+    "weaknesses": [
+      "Không cảnh báo nguy cơ 'bị lừa lần hai'",
+      "Không nêu số hotline ngân hàng cụ thể",
+      "Không nêu căn cứ pháp lý"
+    ],
+    "reasoning": "Chính xác và phủ đủ ý chính với khuyến nghị khắc phục cụ thể. Thiếu cảnh báo lừa lần hai và hotline cụ thể.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Phân tích 7 dấu hiệu, chỉ rõ 'tín hiệu đúng ban đầu' là mồi nhử và DeltaTrading Pro giả thương hiệu",
+      "Cung cấp kênh trình báo (069.219.4053, canhbao.ncsc.gov.vn) và hotline Vietcombank",
+      "Cảnh báo rõ 'bước lừa thứ hai', danh mục bằng chứng cần lưu",
+      "Trấn an nạn nhân, nhấn mạnh hành động sớm"
+    ],
+    "weaknesses": [
+      "Rất dài",
+      "Định dạng nặng emoji"
+    ],
+    "reasoning": "Toàn diện, giải thích mồi nhử 'tín hiệu đúng', có kênh trình báo/hotline và cảnh báo lừa lần hai. Điểm trừ là độ dài.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

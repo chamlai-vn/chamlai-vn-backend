@@ -1,0 +1,28 @@
+{
+  "case_id": "benign-work_real-06",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận đúng (green), không báo động giả dù tin có từ 'khẩn cấp'/'sếp'",
+      "Nhận định gọn, chính xác đây là thông báo công việc nội bộ bình thường"
+    ],
+    "weaknesses": [
+      "Rất ngắn (một câu), không nêu vì sao an toàn hay dấu hiệu cần cảnh giác nếu tình huống tương tự bị giả mạo"
+    ],
+    "reasoning": "Kết luận đúng và không báo động giả, nhưng phần giải thích quá mỏng.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Kết luận đúng (không có dấu hiệu lừa đảo) và liệt kê rõ vì sao (không đòi tiền/OTP/link)",
+      "Nêu các dấu hiệu tin nhắn giả danh HR để phòng ngừa, khuyên xác minh qua kênh chính thức nếu bất thường",
+      "Có nguồn dẫn"
+    ],
+    "weaknesses": [
+      "Dài so với một tin nhắn rõ ràng vô hại"
+    ],
+    "reasoning": "Đúng và giải thích đầy đủ hơn hẳn phần một câu của RAG. Cân bằng nhưng nhỉnh nhẹ nhờ giải thích.",
+    "score": 8
+  },
+  "preferred": "tie",
+  "order_consistent": true
+}

@@ -1,0 +1,29 @@
+{
+  "case_id": "benign-delivery_real-04",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận (green) hợp lý dựa trên nội dung không đòi phí/thông tin nhạy cảm",
+      "Khuyến nghị xác minh qua kênh chính thức và kiểm hàng trước khi thanh toán"
+    ],
+    "weaknesses": [
+      "Bỏ lỡ điểm quan trọng: số hotline '1800-7777' và tên 'Giao nhanh 247' không khớp đơn vị thật (247Express: 1900 6980) — dấu hiệu cần kiểm chứng mà RAG không phát hiện",
+      "Kết luận green có phần chủ quan khi chưa đối chiếu được đơn vị vận chuyển"
+    ],
+    "reasoning": "Khuyến nghị hợp lý nhưng bỏ lỡ điểm mấu chốt (hotline/tên đơn vị không khớp thực tế), nên kết luận green chưa được kiểm chứng đầy đủ.",
+    "score": 7.5
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Phát hiện điểm then chốt: hotline 1800-7777 và tên 'Giao nhanh 247' không khớp 247Express (số thật 1900 6980) — giá trị tra cứu web rõ rệt",
+      "Đánh giá cân bằng 'trung bình', không kết luận vội, hướng dẫn tự tìm hotline chính thức",
+      "Liệt kê các dấu hiệu sẽ khẳng định lừa đảo nếu xuất hiện"
+    ],
+    "weaknesses": [
+      "Dài, một số đoạn lặp ý"
+    ],
+    "reasoning": "Vượt trội nhờ phát hiện hotline/tên đơn vị không khớp thực tế — một cảnh báo thực sự có giá trị mà arm còn lại bỏ lỡ.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

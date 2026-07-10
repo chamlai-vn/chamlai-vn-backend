@@ -1,0 +1,23 @@
+{
+  "case_id": "benign-delivery_real-06",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "green",
+    "red_flags": [],
+    "matched_patterns": [
+      "Link dẫn đúng tên miền theo dõi đơn hàng chính thức của GHTK (i.ghtk.vn), khớp đơn hàng thật trên Tiki"
+    ],
+    "recommended_actions": [
+      "Có thể yên tâm chờ nhận hàng theo lịch",
+      "Muốn chắc chắn hơn thì đối chiếu trạng thái đơn trên app Tiki hoặc tra mã vận đơn trên kênh chính thức của GHTK",
+      "Cảnh giác nếu sau này có người yêu cầu chuyển khoản ngoài quy trình, cung cấp OTP hoặc link không thuộc tên miền chính thức của GHTK"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "**Kết luận:** **Không phải lừa đảo.**\n\nDựa trên tình huống mô tả, đây là một **tin nhắn thông báo giao hàng hợp pháp** vì:\n\n* Linh đã kiểm tra và xác nhận có một đơn hàng đặt trên Tiki từ 5 ngày trước.\n* Mã vận đơn của đơn hàng đúng là thuộc đơn vị vận chuyển GHTK.\n* Liên kết sử dụng tên miền **i.ghtk.vn**, đây là tên miền theo dõi đơn hàng chính thức của GHTK. ([iGHTK][1])\n* Nội dung tin nhắn chỉ thông báo thời gian giao hàng và cung cấp liên kết theo dõi, không yêu cầu nhập OTP, mật khẩu hay thông tin tài khoản ngân hàng.\n\n**Lưu ý:**\n\n* GHTK cũng cảnh báo rằng các tin nhắn giả mạo thường yêu cầu người nhận cung cấp OTP, mật khẩu hoặc thông tin ngân hàng. Trường hợp này không có các dấu hiệu đó. ([GHTK][2])\n\n**Nên làm gì tiếp theo?**\n\n* Có thể yên tâm chờ nhận hàng theo lịch.\n* Nếu muốn kiểm tra thêm, hãy đối chiếu trạng thái đơn trên ứng dụng Tiki hoặc tra cứu bằng mã vận đơn trên kênh chính thức của GHTK.\n* Chỉ cần cảnh giác nếu sau đó có người liên hệ yêu cầu chuyển khoản ngoài quy trình, cung cấp OTP hoặc truy cập các đường link không thuộc tên miền chính thức của GHTK.\n\n[1]: https://i.ghtk.vn/?utm_source=chatgpt.com \"iGHTK Tracking đơn hàng chỉ 1 chạm\"\n[2]: https://ghtk.vn/tin-cho-nha-ban/tong-hop-cac-hinh-thuc-mao-danh-ghtk-nham-chiem-doat-tai-san/?utm_source=chatgpt.com \"Tổng hợp các hình thức mạo danh GHTK nhằm chiếm đoạt tài sản | GHTK - Nền tảng hậu cần chuyên nghiệp\"",
+  "sources": [
+    "https://i.ghtk.vn/?utm_source=chatgpt.com",
+    "https://ghtk.vn/tin-cho-nha-ban/tong-hop-cac-hinh-thuc-mao-danh-ghtk-nham-chiem-doat-tai-san/?utm_source=chatgpt.com"
+  ],
+  "latency_ms": 0
+}

@@ -1,0 +1,28 @@
+{
+  "case_id": "scam-vacation_contract-07",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Áp lực thời gian giả tạo (\"ký trong 24 giờ\") để không kịp kiểm tra, xác minh",
+      "\"Khách hàng VIP được chọn đặc biệt\" — chiêu tâm lý khiến cảm thấy may mắn, mất cảnh giác",
+      "Giảm giá phi lý (từ 120 triệu xuống 45 triệu) tạo cảm giác hời, thúc đẩy quyết định vội vàng",
+      "Chuyển tiền vào tài khoản cá nhân, không phải tài khoản doanh nghiệp",
+      "Công ty không có địa chỉ thực tế — công ty ma; số điện thoại tắt máy sau khi nhận tiền",
+      "App \"VPC Management\" đòi quyền truy cập danh bạ và SMS — đặc điểm cổ điển của mã độc đọc trộm OTP ngân hàng"
+    ],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Nếu đã cài app: gỡ ngay, bật chế độ máy bay/tắt mạng trong lúc gỡ, quét virus, đổi mật khẩu ngân hàng/email từ thiết bị khác an toàn",
+      "Liên hệ ngân hàng ngay để báo cáo giao dịch lừa đảo, yêu cầu khóa/phong tỏa tài khoản người nhận nếu có thể",
+      "Trình báo công an địa phương/phòng cảnh sát hình sự kèm sao kê ngân hàng, ảnh chụp tin nhắn, ghi âm cuộc gọi",
+      "Có thể báo qua canhbao.ncsc.gov.vn, tổng đài An toàn mạng quốc gia 1800.1031, hoặc Cục Cảnh sát Hình sự (C02)",
+      "Lưu giữ mọi bằng chứng trước khi kẻ lừa đảo xóa dấu vết",
+      "Cảnh báo người thân, bạn bè vì app có thể đã truy cập được danh bạ để tiếp tục lừa người quen"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## Đây chắc chắn là lừa đảo\n\nBạn đã tự phát hiện ra những bằng chứng rõ ràng nhất rồi, và tất cả các dấu hiệu đều khớp với một kịch bản lừa đảo \"sở hữu kỳ nghỉ\" (timeshare scam) kết hợp với mã độc điện thoại rất phổ biến hiện nay:\n\n**Các dấu hiệu lừa đảo điển hình trong tình huống của bạn:**\n- **Áp lực thời gian giả tạo**: \"ký trong 24 giờ\" để bạn không có thời gian kiểm tra, xác minh thông tin\n- **\"Khách hàng VIP được chọn đặc biệt\"**: chiêu tâm lý kinh điển để khiến bạn cảm thấy may mắn và mất cảnh giác\n- **Giảm giá phi lý** (từ 120 triệu xuống 45 triệu): tạo cảm giác \"hời\", thúc đẩy quyết định vội vàng\n- **Chuyển tiền vào tài khoản cá nhân**, không phải tài khoản doanh nghiệp — đây là dấu hiệu gần như chắc chắn 100% là lừa đảo\n- **Công ty không có địa chỉ thực tế** — công ty \"ma\"\n- **Số điện thoại tắt máy sau khi nhận tiền** — không thể liên hệ lại được\n\n**Đặc biệt nguy hiểm: ứng dụng \"VPC Management\"**\n\nĐây là phần đáng lo nhất. Việc ứng dụng đòi quyền truy cập **danh bạ và tin nhắn (SMS)** là đặc điểm cổ điển của mã độc (malware) dùng để:\n- Đọc mã OTP ngân hàng gửi qua SMS → chiếm quyền truy cập tài khoản ngân hàng của bạn\n- Lấy danh bạ để tiếp tục lừa đảo người thân/bạn bè của bạn\n\nNếu bạn đã cài ứng dụng này, cần xử lý **ngay lập tức**, xem phần dưới.\n\n## Việc cần làm ngay\n\n**1. Xử lý điện thoại trước tiên (nếu đã cài \"VPC Management\"):**\n- Gỡ cài đặt ứng dụng ngay lập tức\n- Bật chế độ máy bay, tắt wifi/dữ liệu di động trong lúc gỡ để hạn chế rủi ro\n- Quét virus bằng phần mềm bảo mật uy tín\n- Đổi mật khẩu ứng dụng ngân hàng, mật khẩu email — thực hiện trên một thiết bị khác an toàn nếu nghi ngờ điện thoại đã bị xâm nhập sâu\n\n**2. Liên hệ ngân hàng ngay lập tức**\nGọi hotline ngân hàng của bạn để báo cáo giao dịch lừa đảo và yêu cầu khóa giao dịch hoặc phong tỏa tài khoản người nhận nếu có thể — báo càng sớm càng tăng khả năng lấy lại được tiền. Cũng nên bật cảnh báo/theo dõi các giao dịch bất thường khác trên tài khoản, đề phòng nếu điện thoại đã bị cài mã độc.\n\n**3. Trình báo công an**\nBạn có thể trình báo trực tiếp tại công an địa phương/phòng cảnh sát hình sự, mang theo bằng chứng: sao kê ngân hàng (bằng chứng có giá trị pháp lý cao nhất để truy vết dòng tiền), ảnh chụp màn hình tin nhắn, ghi âm cuộc gọi nếu có.\n\nNgoài ra có thể báo qua các kênh chính thức:\n- Cổng cảnh báo an toàn thông tin: **canhbao.ncsc.gov.vn**\n- Tổng đài An toàn mạng quốc gia: **1800.1031** (miễn phí)\n- Cục Cảnh sát Hình sự (C02), Bộ Công an: **0692.345.860**\n\n**4. Lưu giữ mọi bằng chứng** trước khi kẻ lừa đảo có thể xóa dấu vết: số điện thoại gọi đến, tin nhắn, hợp đồng, biên lai chuyển khoản 15 triệu, tên \"ông Minh\", thông tin tài khoản ngân hàng đã nhận tiền.\n\n**5. Cảnh báo người thân, bạn bè** — đặc biệt nếu ứng dụng đã truy cập được danh bạ của bạn, kẻ gian có thể dùng số của bạn để lừa tiếp người quen.\n\nRất tiếc bạn đã gặp phải chuyện này — nhưng bạn đã phản ứng đúng khi tự kiểm tra và phát hiện sớm trước khi mất thêm số tiền lớn hơn. Bạn có muốn mình giúp soạn nội dung đơn tố giác gửi công an không?",
+  "sources": [],
+  "latency_ms": 0
+}

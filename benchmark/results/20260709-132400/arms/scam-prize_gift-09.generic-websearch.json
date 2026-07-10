@@ -1,0 +1,63 @@
+{
+  "case_id": "scam-prize_gift-09",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Tin nhắn SMS thông báo trúng thưởng xe SH từ thương hiệu bịa đặt 'CII Xăng Dầu' / 'CIIReward'",
+      "Link dẫn đến tên miền lạ, không chính thống: ciireward-vn.net",
+      "App/website yêu cầu nhập CMND, số điện thoại, ngày sinh để thu thập thông tin cá nhân",
+      "Yêu cầu nhập số thẻ tín dụng và mã CVV dưới vỏ bọc 'xác minh và nhận điểm'",
+      "Tạo áp lực tâm lý bằng hạn chót 48 giờ",
+      "Đã xuất hiện 3 giao dịch rút tiền 500k — bằng chứng thông tin thẻ đã bị đánh cắp"
+    ],
+    "matched_patterns": [
+      "Smishing (SMS phishing – lừa đảo qua tin nhắn SMS)",
+      "Phishing (website/app giả mạo đánh cắp thông tin)",
+      "Carding (đánh cắp thông tin thẻ để rút tiền)"
+    ],
+    "recommended_actions": [
+      "Trình báo Công an ngay để lưu hồ sơ và hỗ trợ điều tra",
+      "Quét toàn bộ điện thoại bằng phần mềm diệt virus vì app giả mạo có thể đã cài mã độc",
+      "Chuyển tiếp tin nhắn lừa đảo đến đầu số 5656 (miễn phí) do Cục An toàn thông tin (Bộ TT\u0026TT) quản lý để cảnh báo cộng đồng",
+      "Đổi mật khẩu tất cả tài khoản quan trọng ngay lập tức",
+      "Xác minh thông tin qua kênh chính thức (ứng dụng ngân hàng, website chính thức hoặc tổng đài đã được công bố) — không tin vào SMS/link lạ",
+      "Kích hoạt xác thực hai lớp (2FA) cho tài khoản ngân hàng, email và các ứng dụng quan trọng"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 KẾT LUẬN: ĐÂY LÀ LỪA ĐẢO 100% — Và anh Tuấn đã bị tấn công thành công một phần!\n\n---\n\n## ✅ Tình huống có phải lừa đảo không?\n\n**Có. Đây là một vụ lừa đảo điển hình, kết hợp nhiều thủ đoạn tinh vi:**\n- **Smishing** (SMS phishing – lừa đảo qua tin nhắn SMS)\n- **Phishing** (website/app giả mạo đánh cắp thông tin)\n- **Carding** (đánh cắp thông tin thẻ để rút tiền)\n\n---\n\n## 🔍 Phân tích từng dấu hiệu lừa đảo\n\n### 1. 📨 Tin nhắn SMS thông báo \"trúng thưởng xe SH\"\nĐây là thủ đoạn đã được Công an cảnh báo rõ ràng: Các đối tượng tấn công gửi tin nhắn SMS thông báo trúng thưởng (ví dụ: trúng xe SH) kèm đường link lạ. Chúng có thể sử dụng tên thương hiệu (SMS brandname) và gắn kèm liên kết dẫn đến trang web giả mạo có tên gần giống trang web chính thức.\n\nTên \"CII Xăng Dầu\" và \"CIIReward\" là thương hiệu **bịa đặt hoàn toàn**. Trên mạng xã hội đang phổ biến tình trạng mạo danh các tổng công ty, công ty lớn để lợi dụng uy tín, thương hiệu của các đơn vị này, thực hiện hành vi lừa đảo chiếm đoạt tài sản những người nhẹ dạ cả tin.\n\n### 2. 🔗 Link dẫn đến website/app giả mạo\nTên miền `ciireward-vn.net` là **tên miền lạ, không chính thống**. Nhiều nạn nhân nhận được tin nhắn SMS thông báo trúng thưởng. Khi bấm vào đường link trong tin nhắn, khách hàng được dẫn tới website giả mạo có giao diện y như thật. Nếu đăng nhập, toàn bộ thông tin thẻ và tài khoản sẽ bị đánh cắp.\n\n### 3. 📋 App yêu cầu nhập CMND, số điện thoại, ngày sinh\nMục tiêu của các đối tượng lừa đảo thường là khai thác, thu thập thông tin cá nhân để xây dựng kịch bản lừa đảo tiếp theo; lừa đảo nạn nhân tự chuyển tiền; lừa nạn nhân tải ứng dụng độc hại để chiếm quyền điều khiển thiết bị, chiếm đoạt tiền trong tài khoản ngân hàng.\n\n### 4. 💳 Yêu cầu nhập số thẻ tín dụng + CVV — DẤU HIỆU RÕ NHẤT!\nKhi truy cập vào đường link giả mạo, người dùng bị yêu cầu cung cấp các thông tin bảo mật như số điện thoại, tên chủ thẻ, số thẻ, ngày hết hạn và mã CVV dưới vỏ bọc \"xác minh và nhận điểm\".\n\nCác ngân hàng khẳng định không yêu cầu khách hàng cung cấp thông tin bảo mật dịch vụ qua website, điện thoại, email hoặc ứng dụng chat.\n\n### 5. ⏰ \"Hạn chót 48h\" — Chiêu tạo áp lực tâm lý\nCác đối tượng thường giả danh tổ chức uy tín để tạo lòng tin với nạn nhân. Kẻ gian áp lực bằng các tình huống khẩn cấp như tài khoản bị khóa, phát sinh giao dịch bất thường. Mục đích là yêu cầu người dùng cung cấp thông tin cá nhân, mật khẩu, mã OTP hoặc thực hiện chuyển tiền.\n\n### 6. 💸 3 giao dịch rút tiền 500k — Bằng chứng tội phạm đã có thông tin thẻ\nThủ đoạn tội phạm công nghệ cao tiếp tục biến tướng với nhiều hình thức ngày càng tinh vi. Các đối tượng gửi tin nhắn với nhiều nội dung như thông báo trúng thưởng, kèm theo đường link lạ, không rõ nguồn gốc. Mục đích chính là dẫn dụ nạn nhân truy cập vào đường link nhằm đánh cắp thông tin cá nhân, tài khoản ngân hàng.\n\nDù anh Tuấn **không nhập CVV**, nhưng rất có thể app giả mạo đã **cài mã độc hoặc thu thập thông tin khác** từ thiết bị khi anh truy cập vào link.\n\n---\n\n## 📊 Sơ đồ thủ đoạn lừa đảo\n\n```\n📱 SMS giả \"CII Xăng Dầu\" trúng thưởng xe SH\n        ↓\n🔗 Click link → App/web giả mạo\n        ↓\n📋 Thu thập CMND, SĐT, ngày sinh\n        ↓\n💳 Yêu cầu số thẻ + CVV (mục tiêu thực sự)\n        ↓\n💸 Rút tiền từ tài khoản nạn nhân\n```\n\n---\n\n## ✅ Anh Tuấn đã làm đúng — và nên làm thêm những điều sau:\n\n| Việc cần làm | Trạng thái |\n|---|---|\n| ✅ Phát hiện bất thường khi bị hỏi CVV | Đã làm |\n| ✅ Khóa thẻ ngay | Đã làm |\n| ✅ Khiếu nại với ngân hàng | Đã làm |\n| ⚠️ **Trình báo Công an** | Chưa rõ |\n| ⚠️ **Quét virus/mã độc trên điện thoại** | Cần làm ngay |\n| ⚠️ **Đổi mật khẩu tất cả tài khoản quan trọng** | Cần làm ngay |\n| ⚠️ **Báo cáo tin nhắn lừa đảo** | Cần làm |\n\n---\n\n## 🛡️ Lời khuyên cụ thể\n\n1. **Trình báo Công an** ngay để lưu hồ sơ và hỗ trợ điều tra.\n2. **Quét toàn bộ điện thoại** bằng phần mềm diệt virus vì app giả mạo có thể đã cài mã độc.\n3. Chuyển tiếp tin nhắn lừa đảo đến đầu số **5656** (miễn phí) do Cục An toàn thông tin (Bộ TT\u0026TT) quản lý để cảnh báo cộng đồng.\n4. Xác minh thông tin qua kênh chính thức, như ứng dụng ngân hàng, website chính thức hoặc tổng đài đã được công bố — không bao giờ tin vào SMS/link lạ.\n5. Kích hoạt xác thực hai lớp (2FA) cho tài khoản ngân hàng, email và các ứng dụng quan trọng.\n\n\u003e ⚡ **Nhớ:** Không có chương trình tặng thưởng xe SH nào lại yêu cầu bạn nhập số thẻ tín dụng và CVV qua app lạ. Đây luôn luôn là lừa đảo!",
+  "sources": [
+    "https://hoinongdan.daklak.gov.vn/phong-trao-nong-dan-am-bao-anqp/-/asset_publisher/HoZOBUYNQajq/content/canh-giac-voi-cac-thu-oan-lua-ao-trung-thuong-qua-tin-nhan/pop_up?_101_INSTANCE_HoZOBUYNQajq_viewMode=print",
+    "https://vtv.vn/mua-hang-trung-xe-sh.html",
+    "https://www.uit.edu.vn/mat-tai-khoan-facebook-vi-ham-trung-thuong-xe-sh",
+    "https://nld.com.vn/phap-luat/nhan-tin-nhan-trung-xe-sh-va-250-trieu-dong-nguoi-phu-nu-bi-mat-trang-206-trieu-dong-20191117190157276.htm",
+    "https://thuonghieucongluan.com.vn/can-trong-voi-chieu-lua-dao-trung-thuong-xe-sh-va-hang-tram-trieu-dong-a62234.html",
+    "https://antv.gov.vn/phap-luat-3/bat-doi-tuong-con-do-nhieu-lan-vo-co-danh-nguoi-9B923366E.html",
+    "https://giaoducthoidai.vn/nhieu-nguoi-mac-lua-khi-nhan-duoc-tin-trung-thuong-xe-sh-post72240.html",
+    "https://nld.com.vn/ban-doc/tai-dien-tro-lua-trung-xe-sh-20170714214810797.htm",
+    "https://sct.dongnai.gov.vn/vi/news/Quan-ly-thuong-mai/bo-cong-thuong-canh-bao-chieu-tro-lua-dao-trung-thuong-qua-dien-thoai-mang-xa-hoi-2551.html",
+    "https://vov.vn/phap-luat/cong-an-lat-tay-duong-day-lua-dao-bang-hinh-thuc-mua-hang-trung-thuong-xe-sh-post1068606.vov",
+    "https://moit.gov.vn/tin-tuc/thong-bao/thuong-vu-viet-nam-tai-ha-lan-tiep-tuc-canh-bao-nhung-truong-hop-lua-dao-qua-mang-dac-biet-doi-voi-cac-san-pham-xang-dau.html",
+    "https://petrovietnam.petrotimes.vn/canh-bao-lua-dao-mang-ten-quy-phuc-loi-dau-khi-698497.html",
+    "https://www.vietnamplus.vn/thuong-vu-viet-nam-tai-ha-lan-canh-bao-lua-dao-lien-quan-den-mat-hang-xang-dau-post922093.vnp",
+    "https://vneconomy.vn/can-can-trong-voi-tin-tuyen-dung-lua-dao-gia-mao-thuong-hieu-dau-khi-tren-mang-xa-hoi.htm",
+    "https://thanhtra.com.vn/thong-tin-doanh-nghiep-49F64E63D/can-trong-voi-tin-tuyen-dung-lua-dao-gia-mao-thuong-hieu-dau-khi-D8B58FB1.html",
+    "https://voh.com.vn/thoi-su/diem-tin-sang-8-6-app-tiep-nhan-phan-anh-xang-dau-canh-bao-3-sai-lam-ve-sot-xuat-huyet-656625.html",
+    "https://vnreview.vn/threads/che-anh-ai-lien-quan-den-van-de-xang-dau-nhay-cam-nhan-ngay-cai-gia-phai-tra.81606/",
+    "https://doanhnghiepvathuongmai.vn/bai-viet/can-trong-voi-tin-tuyen-dung-lua-dao-gia-mao-thuong-hieu-dau-khi.phtml",
+    "https://www.investing.com/equities/ho-chi-minh-city-infrastructure-inv",
+    "https://doanhnghiephoinhap.vn/phat-hien-hang-loat-vi-pham-mang-tinh-he-thong-tai-he-thong-anh-ngu-ames-ha-noi-142796.html",
+    "https://thanhnien.vn/canh-giac-thu-doan-doi-diem-thuong-den-cuoc-goi-khong-noi-gi-185260628090926779.htm",
+    "https://kenh14.vn/nhung-chieu-lua-dao-the-tin-dung-thuong-gap-o-viet-nam-215250908175612113.chn",
+    "https://bocongan.gov.vn/bai-viet/canh-bao-lua-dao-chiem-doat-tai-san-tu-su-co-an-ninh-mang-tai-trung-tam-thong-tin-tin-dung-quoc-gia-cic-1757991790",
+    "https://cand.com.vn/tai-chinh-40/thu-doan-moi-cua-toi-pham-su-dung-cong-nghe-cao-trong-hoat-dong-thanh-toan-the-ngan-hang-i804413/",
+    "https://www.nait.vn/attt/can-trong-tin-nhan-lua-dao-co-the-khien-ban-mat-sach-tien-trong-tai-khoan-ngan-hang-2313.html",
+    "https://congan.nghean.gov.vn/tin-tuc-su-kien/phong-chong-lua-dao-truc-tuyen/202511/can-trong-tin-nhan-lua-dao-co-the-khien-ban-mat-sach-tien-trong-tai-khoan-ngan-hang-1052442/index.htm",
+    "https://congan.hochiminhcity.gov.vn/wps/portal/Home/trang-chu/noi-dung-chi-tiet/an-ninh-an-toan-thong-tin/canh-giac-thu-doan-lua-dao/social-engineering-cac-hinh-thuc-tan-cong-va-bien-phap-phong-tranh",
+    "https://dienmaycholon.com/kinh-nghiem-mua-sam/dau-hieu-nhan-biet-va-phong-tranh-tin-nhan-lua-dao",
+    "https://congan.quangtri.gov.vn/nhan-dien-mot-so-thu-doan-lua-dao-bang-cong-nghe-cao/",
+    "https://kenh14.vn/cong-an-thong-bao-den-tat-ca-nhung-ai-nhan-duoc-tin-nhan-sms-co-noi-dung-sau-215260709211552456.chn"
+  ],
+  "latency_ms": 64682
+}

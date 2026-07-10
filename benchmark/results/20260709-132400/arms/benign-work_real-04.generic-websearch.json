@@ -1,0 +1,23 @@
+{
+  "case_id": "benign-work_real-04",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "green",
+    "red_flags": [],
+    "matched_patterns": [
+      "Nội dung cụ thể (thời gian, địa điểm, mục đích, tài liệu cần mang) khớp với thông báo họp nội bộ thông thường, không yêu cầu link/tệp/OTP/chuyển tiền"
+    ],
+    "recommended_actions": [
+      "Kiểm tra người gửi có đúng là đồng nghiệp hoặc cấp trên không",
+      "Xác nhận cuộc họp trên lịch làm việc hoặc với quản lý nếu thấy bất thường",
+      "Chỉ chia sẻ báo cáo tài chính qua kênh chính thức của công ty",
+      "Xác minh trước khi mở nếu sau đó nhận được link hoặc tệp đính kèm ngoài quy trình thông thường"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "**Đánh giá:** **Không có đủ dấu hiệu để kết luận đây là lừa đảo.** Với nội dung bạn cung cấp, tin nhắn này **trông giống một thông báo nội bộ thông thường** hơn là một chiêu lừa đảo.\n\n**Lý do:**\n\n* Nội dung cụ thể: nêu rõ **thời gian**, **địa điểm** (phòng 402, tầng 4), **mục đích cuộc họp** (rà soát quy trình quản lý tài chính), và **tài liệu cần mang theo**.\n* Không yêu cầu:\n\n  * Nhấp vào liên kết.\n  * Tải tệp đính kèm.\n  * Cung cấp mật khẩu, mã OTP hoặc thông tin tài khoản.\n  * Chuyển tiền hay thực hiện giao dịch khẩn cấp.\n* Việc yêu cầu thông báo nếu không thể tham dự cũng là điều thường gặp trong môi trường công sở.\n\nTuy nhiên, vẫn nên kiểm tra thêm nếu:\n\n* Tin nhắn đến từ địa chỉ email hoặc số điện thoại lạ.\n* Người gửi mạo danh lãnh đạo nhưng địa chỉ email không đúng tên miền công ty.\n* Đây là cuộc họp mà bạn chưa từng nghe đến hoặc nội dung không liên quan đến công việc của bạn.\n* Sau đó có email hoặc tin nhắn khác yêu cầu bạn đăng nhập vào một trang web, mở tệp hoặc cung cấp thông tin đăng nhập. Đây là những dấu hiệu phổ biến của các cuộc tấn công phishing. ([Consumer Advice][1])\n\n**Bạn nên làm gì tiếp theo:**\n\n1. Kiểm tra người gửi có đúng là đồng nghiệp hoặc cấp trên không.\n2. Xác nhận cuộc họp trên lịch làm việc hoặc với quản lý/phó phòng nếu thấy bất thường.\n3. Chỉ chia sẻ các báo cáo tài chính qua các kênh chính thức của công ty.\n4. Nếu sau đó nhận được liên kết hoặc tệp đính kèm ngoài quy trình thông thường, hãy xác minh trước khi mở. ([Consumer Advice][1])\n\n**Kết luận:** Dựa trên **chỉ nội dung** của tin nhắn, **khả năng là lừa đảo thấp**. Mức độ tin cậy sẽ cao hơn nếu bạn xác nhận được người gửi và đây thực sự là quy trình làm việc bình thường của công ty.\n\n[1]: https://consumer.ftc.gov/articles/how-recognize-avoid-phishing-scams?os=vpkn75tqhopmk&utm_source=chatgpt.com \"How To Recognize and Avoid Phishing Scams | Consumer Advice\"",
+  "sources": [
+    "https://consumer.ftc.gov/articles/how-recognize-avoid-phishing-scams?os=vpkn75tqhopmk&utm_source=chatgpt.com"
+  ],
+  "latency_ms": 0
+}

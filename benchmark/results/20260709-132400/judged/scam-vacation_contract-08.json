@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-vacation_contract-08",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận đúng (red), phủ đủ 4 ý chính: giả danh công ty du lịch, trúng thưởng + phí duy nhất, tài khoản cá nhân, hứa lợi ích mãi mãi",
+      "Pattern khớp mạnh: 3 mẫu vacation_contract",
+      "Nêu điểm giáo dục quan trọng: timeshare chỉ là dịch vụ lưu trú có thời hạn, KHÔNG phải sở hữu tài sản, khó chuyển nhượng",
+      "Khuyến nghị xem toàn bộ hợp đồng trước, xác minh giấy phép"
+    ],
+    "weaknesses": [
+      "Không nêu số liệu/vụ án thực tế",
+      "Không nêu cổng ĐKKD cụ thể",
+      "Định dạng thuần liệt kê"
+    ],
+    "reasoning": "Chính xác, pattern khớp sát và có điểm giáo dục hay về bản chất timeshare. Thiếu số liệu và cổng xác minh cụ thể.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Nêu nghịch lý 'chuyển tiền trước khi nhận', chỉ rõ tài khoản cá nhân là dấu hiệu",
+      "Dẫn ví dụ vụ timeshare quốc tế (Anh, 3.500 nạn nhân) và cảnh báo VN, nêu cổng dangkykinhdoanh.gov.vn",
+      "Khuyến nghị tự tìm hotline chính thức, cảnh báo nhóm người cao tuổi",
+      "Đối chiếu 5 dấu hiệu"
+    ],
+    "weaknesses": [
+      "Không có nguồn web trích dẫn (sources=0)",
+      "Dài"
+    ],
+    "reasoning": "Toàn diện, có ví dụ quốc tế và cổng xác minh cụ thể. Điểm trừ là độ dài. Nhỉnh hơn nhờ chiều sâu và kênh xác minh.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

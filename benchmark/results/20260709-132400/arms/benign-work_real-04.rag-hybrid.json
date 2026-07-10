@@ -1,0 +1,16 @@
+{
+  "case_id": "benign-work_real-04",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "green",
+    "red_flags": [],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Vẫn nên xác minh danh tính của người gửi tin nhắn bằng cách gọi điện trực tiếp đến phòng ban hoặc liên hệ với phó phòng Minh để đảm bảo tính xác thực",
+      "Khi tham dự cuộc họp, chú ý quan sát môi trường làm việc và đối tượng tổ chức để phát hiện sớm nếu có dấu hiệu bất thường",
+      "Chỉ chia sẻ thông tin tài chính cần thiết cho cuộc họp, tránh tiết lộ các dữ liệu nhạy cảm ngoài phạm vi yêu cầu"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 4418
+}

@@ -1,0 +1,54 @@
+{
+  "case_id": "scam-impersonation_service-02",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Số điện thoại gọi đến là số lạ (02892345678), không phải đầu số chính thức của Viettel (1800 8098 hoặc 198)",
+      "Đường link tải app từ tên miền giả (viettel-secureupdate.tk) — đuôi .tk là tên miền miễn phí thường bị lợi dụng để tạo web giả",
+      "Yêu cầu cài app ngoài kho ứng dụng chính thức (ngoài CH Play / App Store)",
+      "Đe dọa khóa SIM trong 24 giờ để tạo áp lực tâm lý",
+      "Yêu cầu cung cấp mã OTP qua điện thoại"
+    ],
+    "matched_patterns": [
+      "Lừa đảo mạo danh nhà mạng",
+      "Giả mạo trang web/ứng dụng chính thức",
+      "Đe dọa tạo áp lực tâm lý (khóa SIM)",
+      "Yêu cầu cung cấp OTP"
+    ],
+    "recommended_actions": [
+      "Xóa ngay đường link viettel-secureupdate.tk khỏi điện thoại, không nhấn vào lần nào nữa",
+      "Chặn số điện thoại 02892345678 ngay lập tức",
+      "Không cung cấp bất kỳ mã OTP nào cho bất kỳ ai qua điện thoại",
+      "Nếu muốn xác minh tài khoản, tự gọi đến tổng đài chính thức của Viettel: 1800 8098 (miễn phí) hoặc tra cứu tại www.viettel.vn",
+      "Ghi âm cuộc gọi và chụp màn hình tin nhắn để làm bằng chứng",
+      "Trình báo tại Công an địa phương gần nhất",
+      "Tố giác trên Cổng cảnh báo an toàn thông tin quốc gia: https://canhbao.ncsc.gov.vn"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 Đây CHẮC CHẮN là Lừa Đảo! Hãy Cảnh Giác!\n\nBạn đã làm rất đúng khi ngăn em gái kịp thời. Tình huống này có **đầy đủ các dấu hiệu của một vụ lừa đảo mạo danh nhà mạng điển hình** đang hoành hành tại Việt Nam. Hãy phân tích chi tiết từng điểm:\n\n---\n\n## 🔍 Phân Tích Các Dấu Hiệu Lừa Đảo\n\n### 1. 📞 Số điện thoại gọi đến là số lạ (02892345678)\nCác cuộc gọi bán hàng, tư vấn gói cước của Viettel theo luồng telesale **chỉ được thực hiện qua đầu số định danh VIETTELTLS**. Viettel không sử dụng số cá nhân để liên hệ với khách hàng.\n\nSố **02892345678** là số điện thoại cố định thông thường, **hoàn toàn không phải đầu số chính thức của Viettel**. Các đầu số tổng đài hợp lệ của Viettel là:\n- **1800 8098** — tổng đài phổ biến nhất, hoạt động 24/7, miễn phí, hỗ trợ dịch vụ di động, 4G, 5G.\n- **198** — tổng đài hỗ trợ khách hàng chính thức của Viettel.\n\n### 2. 🔗 Đường link tải app từ tên miền giả (viettel-secureupdate.tk)\nMột trong những chiêu trò phổ biến hiện nay là các đối tượng lừa đảo lập ra những trang web giả mạo với tên miền gần giống, chỉ thay đổi một vài ký tự. Điều này khiến người dùng dễ dàng bị đánh lừa khi đăng nhập tài khoản tại đây.\n\nTên miền **.tk** là dấu hiệu đỏ rõ ràng — đây là đuôi tên miền miễn phí thường bị kẻ xấu lợi dụng để tạo web giả. Website chính thức của Viettel là **viettel.vn** hoặc **vietteltelecom.vn**.\n\n### 3. 📱 Yêu cầu cài app ngoài kho ứng dụng chính thức\nKẻ lừa đảo yêu cầu cài đặt ứng dụng giả mạo. Do mất cảnh giác, nếu cài đặt ứng dụng đó, kẻ gian sẽ **chiếm được quyền kiểm soát điện thoại** của nạn nhân.\n\n**Viettel không bao giờ gửi link yêu cầu đăng nhập tài khoản hay điền OTP.** Nếu nhận được, hãy xóa ngay và không nhấn vào.\n\n### 4. ⚠️ Chiêu đe dọa \"khóa SIM trong 24 giờ\"\nMột kịch bản phổ biến là **tin nhắn hoặc cuộc gọi cảnh báo sẽ bị khóa SIM** nếu không thanh toán hoặc làm theo yêu cầu.\n\nNếu khách hàng từ chối cài đặt app giả mạo, các đối tượng liền **đe dọa** ngay lập tức — đây là thủ đoạn tâm lý để tạo áp lực.\n\n### 5. 🎯 Đây là chiêu lừa đảo có tổ chức, không phải lẻ tẻ\nĐây không còn là chiêu trò nhỏ lẻ, mà đã trở thành **mạng lưới lừa đảo có tổ chức, tinh vi**, lợi dụng tâm lý tin tưởng của người dùng với nhà mạng lớn.\n\nTheo cơ quan Công an, hiện nay tình trạng các đối tượng lừa đảo tự xưng là nhân viên nhà mạng nhằm mục đích chiếm đoạt tài sản của người dân **đang có xu hướng quay trở lại mạnh mẽ**.\n\n---\n\n## ✅ Em Gái Bạn Cần Làm Ngay Những Việc Sau\n\n### 🔐 Nếu chưa cài app (may mắn dừng kịp):\n1. **Xóa ngay đường link** đó khỏi điện thoại, không nhấn vào lần nào nữa.\n2. **Chặn số điện thoại** 02892345678 ngay lập tức.\n3. **Không cung cấp bất kỳ mã OTP nào** cho bất kỳ ai qua điện thoại. Viettel khuyến cáo khách hàng **không chia sẻ mã OTP trong bất kỳ trường hợp nào**.\n\n### 📞 Liên hệ Viettel để kiểm tra:\nNếu muốn xác minh tài khoản có thực sự bất thường không, hãy **tự mình gọi** đến tổng đài chính thức: Tổng đài Viettel chính thức là **1800 8098** (miễn phí), hoặc tra cứu thông tin tại **www.viettel.vn**.\n\n### 🚔 Tố giác với cơ quan chức năng:\nHãy **ghi âm cuộc gọi, chụp màn hình tin nhắn** và báo cơ quan chức năng. Bạn có thể trình báo tại:\n- **Công an địa phương** gần nhất\n- **Cổng cảnh báo an toàn thông tin quốc gia**: https://canhbao.ncsc.gov.vn\n\n---\n\n## 💡 Bài Học Quan Trọng Để Nhớ\n\n| Dấu hiệu lừa đảo | Sự thật |\n|---|---|\n| Số lạ giả mạo nhà mạng | Viettel chỉ dùng đầu số định danh chính thức |\n| Link tải app ngoài CH Play / App Store | App thật chỉ có trên kho ứng dụng chính thức |\n| Yêu cầu cung cấp OTP | Không ai được hỏi OTP của bạn |\n| Đe dọa khóa SIM gấp | Chiêu tạo áp lực tâm lý |\n\n\u003e 🛡️ **Nguyên tắc vàng:** Nhà mạng thật sự **không bao giờ** yêu cầu bạn cài app từ link lạ, cung cấp OTP, hay làm bất cứ điều gì gấp gáp qua điện thoại. Nếu nghi ngờ — hãy **cúp máy và tự gọi lại tổng đài chính thức**.",
+  "sources": [
+    "https://giadinh.suckhoedoisong.vn/cac-doi-tuong-xau-dang-lang-le-lam-dieu-nay-khien-nhieu-nguoi-dung-viettel-mat-trang-tai-khoan-172250725090053287.htm",
+    "https://congnghevadoisong.vn/nhieu-thue-bao-viettel-nhan-duoc-tin-nhan-la-tu-my-viettel-d39482.html",
+    "https://vneconomy.vn/thue-bao-viettel-bong-dung-dang-nhap-vao-ung-dung-myviettel-tu-thiet-bi-la-645876.htm",
+    "https://kenh14.vn/canh-giac-mao-danh-nhan-vien-dien-luc-yeu-cau-tai-app-gia-215250117211720075.chn",
+    "https://viettelmoney.vn/viettel-khuyen-nghi-khach-hang-chu-dong-bao-mat-thong-tin-ca-nhan/",
+    "https://congan.sonla.gov.vn/canh-bao-chieu-tro-gia-danh-nhan-vien-viettel-de-chiem-doat-tai-san-nguoi-dung/",
+    "https://tuoitre.vn/giai-phap-moi-cho-khach-hang-khi-khong-may-bi-lua-dao-2024123109481935.htm",
+    "https://laichau.gov.vn/tin-tuc-su-kien/chuyen-de/nguoi-viet-nam-uu-tien-dung-hang-viet-nam/canh-bao-mao-danh-nhan-vien-dien-luc-lien-he-khach-hang-yeu-cau-thanh-toan-tien-dien-vao-link-app-gia-mao.html",
+    "https://tuoitre.vn/nguoi-dung-duoc-boi-thuong-20-trieu-dong-khi-bi-lua-chuyen-tien-20250610155234839.htm",
+    "https://viettelfamily.com/news/vi-viettel-tot-len/lo-lang-nguoi-la-mao-danh-viettel-tu-van-khach-hang",
+    "https://www.dienmayxanh.com/kinh-nghiem-hay/so-tong-dai-viettel-cskh-viettel-1569824",
+    "https://cellphones.com.vn/sforum/tong-dai-viettel",
+    "https://vietteltelecom.vn/ho-tro-khach-hang",
+    "https://viettelmoney.vn/198-viettel/",
+    "https://tongdaiviettel.webflow.io/",
+    "https://mangviettel.com.vn/tong-dai-viettel.html",
+    "https://vietteltelecom.vn/self-care/tra-cuu-chuan-hoa-nd-49",
+    "https://netviettel.vn/so-tong-dai-viettel/",
+    "https://viettelnet.vn/tong-dai-viettel/",
+    "https://viettels.vn/tong-dai-viettel.html"
+  ],
+  "latency_ms": 60236
+}

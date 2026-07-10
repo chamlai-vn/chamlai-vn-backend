@@ -1,0 +1,25 @@
+{
+  "case_id": "scam-recovery_scam-04",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Đúng mô hình \"lừa đảo lấy lại tiền\" (recovery scam) — nhắm vào nạn nhân vừa bị lừa, đang hoảng loạn muốn lấy lại tiền",
+      "\"Trung tâm Bảo vệ Quyền lợi Người tiêu dùng\" mời sang Telegram để hỗ trợ — cơ quan chức năng thật không làm vậy; Telegram là kênh giới lừa đảo ưa dùng vì dễ ẩn danh, xóa dấu vết",
+      "Mô típ \"chuyển phí trước để lấy lại tiền\" (phí xử lý hồ sơ, phí xác minh, phí giải ngân...) là bẫy kinh điển moi thêm tiền nhiều vòng",
+      "Số điện thoại lạ + lời mời hỗ trợ \"miễn phí\" quá dễ dàng là dấu hiệu cảnh báo kinh điển của lừa đảo trực tuyến"
+    ],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Không nhắn tin, không tham gia nhóm Telegram, không cung cấp thông tin cá nhân/tài khoản ngân hàng",
+      "Chặn số điện thoại và tài khoản Telegram đó ngay",
+      "Trình báo vụ lừa đảo ban đầu tại công an phường/xã hoặc Phòng Cảnh sát hình sự (PC02), kèm ảnh chụp chat và thông tin giao dịch",
+      "Có thể gọi đường dây nóng an ninh mạng 113 hoặc Phòng An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao",
+      "Tuyệt đối không dùng bất kỳ \"dịch vụ hỗ trợ lấy lại tiền\" nào — không có tổ chức hợp pháp nào yêu cầu trả phí trước để lấy lại tiền đã mất"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "Đúng vậy — đây **chắc chắn là lừa đảo, và là chiêu lừa lần thứ hai** nhắm vào đúng người vừa bị lừa lần một. Bạn của bạn (em trai bạn) đã rất may mắn khi gọi hỏi trước khi hành động.\n\n## Vì sao đây là lừa đảo\n\n**1. Đây là mô hình \"lừa đảo lấy lại tiền\" (recovery scam) rất phổ biến.** Kẻ xấu biết rằng người vừa bị lừa đang hoảng loạn, tuyệt vọng muốn lấy lại tiền — đây chính là tâm lý dễ khai thác nhất. Các trang tư vấn pháp lý và ngân hàng tại Việt Nam đều cảnh báo cụ thể về chiêu này: sau khi bị lừa đảo trên mạng, thay vì trình báo cơ quan chức năng, nhiều người tìm đến các dịch vụ \"giúp lấy lại tiền\" trên mạng, và kẻ xấu lợi dụng chính tâm lý này để lừa đảo lần 2.\n\n**2. Danh tính \"Trung tâm Bảo vệ Quyền lợi Người tiêu dùng\" không đáng tin qua kênh này.** Cơ quan chức năng thật sự không bao giờ chủ động nhắn SMS từ số lạ rồi mời sang **Telegram** để \"hỗ trợ miễn phí\". Đây là một dấu hiệu lớn vì Telegram được giới lừa đảo ưa dùng do các nhóm, tài khoản trên đó thường dùng thông tin ảo, khiến việc truy vết trở nên khó khăn, và Telegram cho phép đổi tên liên tục mà không cần xác minh danh tính, cùng tính năng xóa tin nhắn hai chiều khiến nạn nhân không thể xác định được người gửi sau khi bị xóa dấu vết.\n\n**3. Mô típ \"chuyển phí trước để lấy lại tiền\" là bẫy kinh điển.** Sau khi vào nhóm, kẻ lừa đảo gần như chắc chắn sẽ viện lý do như \"phí xử lý hồ sơ\", \"phí xác minh bảo mật tài khoản\", \"phí giải ngân\"... để tiếp tục moi thêm tiền — đúng như bạn đã đoán. Nhiều nạn nhân bị lừa nhiều vòng như vậy: kẻ lừa đảo thường yêu cầu nộp thêm để được hoàn tiền hoặc mở khóa tài khoản, khiến nạn nhân nuôi hy vọng gỡ lại và cứ thế mất thêm tiền.\n\n**4. Số điện thoại lạ + lời mời \"miễn phí\" quá dễ dàng** là dấu hiệu cảnh báo kinh điển của lừa đảo trực tuyến nói chung.\n\n## Bạn/em trai nên làm gì tiếp theo\n\n- **Không nhắn tin, không tham gia nhóm Telegram đó, không cung cấp bất kỳ thông tin cá nhân/tài khoản ngân hàng nào.**\n- **Chặn số điện thoại và tài khoản Telegram này** ngay.\n- Với vụ lừa đảo 8,5 triệu ban đầu (giả danh nhân viên Vietcombank qua Zalo): trình báo tại **cơ quan công an phường/xã nơi cư trú**, hoặc Phòng Cảnh sát hình sự (PC02) công an tỉnh/thành, kèm ảnh chụp màn hình đoạn chat, thông tin số tài khoản đã chuyển tiền, thời gian giao dịch.\n- Có thể gọi thêm đường dây nóng an ninh mạng: **113** hoặc số của Phòng An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao.\n- **Lưu ý quan trọng:** ngoài cơ quan chức năng, tuyệt đối không sử dụng bất kỳ \"dịch vụ hỗ trợ lấy lại tiền\" nào và không cung cấp thông tin cá nhân cho người lạ tự nhận có thể giúp thu hồi tiền.\n- Nói thẳng với em trai: **không có tổ chức hợp pháp nào yêu cầu bạn trả phí trước để \"lấy lại tiền đã mất\"**. Nếu ai đó yêu cầu chuyển khoản trước dưới bất kỳ danh nghĩa gì — dừng lại ngay.\n\nBạn đã xử lý tình huống này rất tốt. Việc khuyên em trai gọi hỏi trước khi hành động chính là bước quan trọng nhất để ngăn chặn vòng lừa đảo thứ hai.",
+  "sources": [],
+  "latency_ms": 0
+}

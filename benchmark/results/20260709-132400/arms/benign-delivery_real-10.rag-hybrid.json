@@ -1,0 +1,16 @@
+{
+  "case_id": "benign-delivery_real-10",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "green",
+    "red_flags": [],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Luôn xác minh thông tin đơn hàng trước khi truy cập bất kỳ link nào, như bạn tớ đã làm",
+      "Kiểm tra lại email hoặc lịch sử đơn hàng trên ứng dụng TMĐT khi nhận thông báo giao hàng không kỳ vọng",
+      "Nếu không nhớ rõ, liên hệ trực tiếp tổng đài Viettel Post hoặc Tiki qua số chính thức để xác minh trước khi tương tác với link"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 3988
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-other-04",
+  "rag_verdict": {
+    "strengths": [
+      "Trả lời đúng câu hỏi: đây là lừa đảo (red); phủ đủ 4 ý chính: số lạ giả danh nhà mạng, xin click link cập nhật, đe dọa khóa tài khoản, kỹ thuật giả danh tổ chức",
+      "Pattern khớp đúng loại (giả danh nhà mạng)",
+      "Khuyến nghị chủ động gọi tổng đài chính thức, ra cửa hàng chính thức, không click link/cung cấp OTP",
+      "Súc tích"
+    ],
+    "weaknesses": [
+      "Không nêu số tổng đài chính thức của VinaPhone để đối chiếu",
+      "Không nêu cú pháp báo cáo số lừa đảo",
+      "Định dạng thuần liệt kê"
+    ],
+    "reasoning": "Đúng và đủ cho câu hỏi ngắn, có pattern khớp. Thiếu số tổng đài đối chiếu và kênh báo cáo cụ thể.",
+    "score": 7.5
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Nêu chính xác số tổng đài VinaPhone (18001091), số hiển thị cuộc gọi chính thức (0888001091) và tên thương hiệu SMS",
+      "Hướng dẫn cú pháp báo cáo số lừa đảo qua 5656, kênh xác thực đúng (VNeID/app/điểm giao dịch)",
+      "Giải thích nguy cơ voice phishing giả mạo số hiển thị, hậu quả nếu cài app mã độc",
+      "Bảng hành động rõ ràng"
+    ],
+    "weaknesses": [
+      "Dài so với câu hỏi ngắn",
+      "Một số số hotline phụ cần người dùng tự kiểm chứng"
+    ],
+    "reasoning": "Chính xác và cung cấp mốc đối chiếu rất cụ thể (số tổng đài, số hiển thị, cú pháp báo cáo). Điểm trừ là độ dài.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

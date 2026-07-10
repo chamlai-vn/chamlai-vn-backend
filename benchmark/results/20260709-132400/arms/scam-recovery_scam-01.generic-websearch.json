@@ -1,0 +1,50 @@
+{
+  "case_id": "scam-recovery_scam-01",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Giả danh cơ quan chức năng (luật sư, công an, cán bộ ngân hàng) để tiếp cận nạn nhân",
+      "Yêu cầu nộp tiền trước với lý do 'thu hồi tiền bị lừa'",
+      "Hứa hẹn thu hồi 100% tiền đã mất — không thực tế",
+      "Liên hệ qua điện thoại/mạng xã hội thay vì làm việc trực tiếp tại cơ quan",
+      "Sau khi nhận tiền sẽ tiếp tục đưa ra lý do để đòi thêm tiền",
+      "Khi nạn nhân ngừng chuyển tiền sẽ bị chặn liên lạc"
+    ],
+    "matched_patterns": [
+      "Lừa đảo lần 2 / Bẫy thu hồi tiền bị lừa"
+    ],
+    "recommended_actions": [
+      "Tuyệt đối KHÔNG chuyển bất kỳ khoản tiền nào, không liên hệ với các tài khoản quảng cáo dịch vụ thu hồi tiền",
+      "Chặn ngay số điện thoại +84987654321 và không trả lời bất kỳ tin nhắn hay cuộc gọi nào từ họ",
+      "Lưu lại bằng chứng: chụp ảnh màn hình yêu cầu chuyển tiền, nội dung trao đổi, ghi lại thời gian và các bước đã thực hiện",
+      "Trực tiếp đến cơ quan công an gần nhất hoặc gửi đơn qua đường bưu chính để trình báo vụ việc",
+      "Không cung cấp CCCD, thông tin tài khoản ngân hàng, mã OTP cho bất kỳ người lạ nào"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 ĐÂY LÀ LỪA ĐẢO 100%! TUYỆT ĐỐI KHÔNG CHUYỂN TIỀN!\n\nEm ơi, tình huống em mô tả là một **chiêu lừa đảo cực kỳ phổ biến tại Việt Nam** — được gọi là **\"lừa đảo lần 2\"** hay **\"bẫy thu hồi tiền bị lừa\"**. Dưới đây là phân tích chi tiết:\n\n---\n\n## 🔴 Tại sao đây chắc chắn là lừa đảo?\n\n**1. Đây là kịch bản lừa đảo điển hình đã được cảnh báo rộng rãi:**\nLợi dụng sự hoang mang của nạn nhân sau khi bị lừa đảo, các đối tượng tiếp tục tiếp cận để lừa đảo lần thứ 2. Chúng giả dạng luật sư, công an, cán bộ ngân hàng để dụ dỗ nạn nhân tiếp tục chuyển tiền với lý do có thể lấy lại số tiền đã mất trước đó.\n\n**2. Cơ quan chức năng KHÔNG làm việc theo kiểu này:**\nCác cơ quan chức năng không làm việc với người dân qua điện thoại hay các trang mạng xã hội.\n\nThực tế, cơ quan công an, Bộ Tài chính, Cục An ninh mạng... không thu phí để \"thu hồi tiền lừa đảo\".\n\n**3. Kịch bản \"thu phí trước\" là dấu hiệu lừa đảo chắc chắn:**\nNếu ai đó hứa hẹn \"thu hồi 100% tiền bị lừa\" và yêu cầu bạn nộp tiền trước, gần như chắc chắn đó là một vụ lừa đảo tiếp theo.\n\n**4. Sau khi em chuyển 2 triệu, chúng sẽ tiếp tục đòi thêm:**\nSau khi nhận được tiền từ các nạn nhân, chúng đưa ra các lý do như xác minh hệ thống, sai cú pháp, chuyển khoản qua tài khoản ngân hàng… để tiếp tục yêu cầu các nạn nhân chuyển tiền. Đến khi các nạn nhân phát hiện mình đã bị lừa hoặc không chuyển tiền nữa thì chúng sẽ chặn liên lạc và chiếm đoạt số tiền đã chuyển.\n\n**5. Mọi tài khoản/số điện thoại xưng hỗ trợ thu hồi tiền đều là lừa đảo:**\nTất cả các tài khoản mạng xã hội giới thiệu hỗ trợ thu hồi tiền bị lừa qua mạng đều là tài khoản lừa đảo.\n\n---\n\n## ✅ Em cần làm gì ngay bây giờ?\n\n### Bước 1: KHÔNG chuyển bất kỳ đồng nào\nTuyệt đối không liên hệ với các tài khoản quảng cáo dịch vụ \"tiếp nhận hồ sơ\", \"hỗ trợ lấy lại tiền bị treo\", \"thu hồi tiền lừa đảo\". Không chuyển tiền cho các đối tượng để được hướng dẫn, hoàn thiện hồ sơ.\n\n### Bước 2: Chặn số điện thoại đó ngay\nChặn số +84987654321 và không trả lời bất kỳ tin nhắn hay cuộc gọi nào từ họ.\n\n### Bước 3: Lưu lại bằng chứng\nChụp ảnh màn hình các thông tin liên quan như yêu cầu chuyển tiền, nội dung trao đổi. Ghi lại thời gian, nội dung trao đổi, các bước đã thực hiện.\n\n### Bước 4: Trình báo công an\nKhi phát hiện bị lừa đảo, người dân cần trực tiếp đến cơ quan công an gần nhất để được kịp thời hỗ trợ giải quyết, tránh việc đã bị lừa lại tiếp tục bị lừa.\n\nNgười dân cần trực tiếp đến cơ quan công an hoặc gửi đơn thông qua đường bưu chính để trình báo và được hỗ trợ giải quyết các vụ lừa đảo.\n\n---\n\n## ⚠️ Lưu ý quan trọng\n\nNgoài việc không chuyển tiền, em cũng **không được cung cấp**:\nCCCD, thông tin tài khoản ngân hàng, mã OTP cho người lạ.\n\n---\n\n**Tóm lại:** Những kẻ này biết em đang lo lắng vì mất tiền, và chúng lợi dụng đúng lúc em dễ bị tổn thương nhất để tiếp tục lừa đảo. Em đã rất tỉnh táo khi đặt câu hỏi trước khi hành động. Hãy bình tĩnh, chặn số, lưu bằng chứng và ra công an trình báo nhé! 💪",
+  "sources": [
+    "https://nhandan.vn/can-trong-bay-thu-hoi-tien-bi-lua-dao-post875719.html",
+    "https://bocongan.gov.vn/bai-viet/canh-giac-voi-thu-doan-ho-tro-lay-lai-tien-bi-lua-dao-1758700973",
+    "https://consumer.ftc.gov/system/files/consumer_ftc_gov/pdf/What%20to%20do%20if%20you%20were%20scammed_VI.pdf",
+    "https://www.seabank.com.vn/tin-tuc/tu-van-dich-vu/tu-van--meo/cach-lay-lai-tien-da-chuyen-khoan-khi-bi-lua-huong-dan-chi-tiet-va-day-du",
+    "https://conganthanhhoa.gov.vn/tin-tuc-su-kien/tin-an-ninh-trat-tu/canh-giac-voi-chieu-tro-gia-mao-chuyen-gia-ho-tro-lay-lai-tien-bi-lua-dao.html",
+    "https://thanhnien.vn/canh-bao-nhung-chieu-lua-dao-dang-dien-ra-185260604141234639.htm",
+    "https://bocongan.gov.vn/bai-viet/canh-bao-lua-dao-chiem-doat-tai-san-tu-su-co-an-ninh-mang-tai-trung-tam-thong-tin-tin-dung-quoc-gia-cic-1757991790",
+    "https://congan.ninhbinh.gov.vn/dau-hieu-nhan-biet-va-bien-phap-phong-ngua-doi-voi-21-phuong-thuc-thu-doan-lua-dao-truc-tuyen-pho-bien-hien-nay",
+    "https://www.vpbank.com.vn/bi-kip-va-chia-se/retail-story-and-tips/account/cach-lay-lai-tien-khi-bi-lua-chuyen-khoan",
+    "https://luattinminh.vn/cach-lam-don-to-giac-lua-dao-chiem-doat-tai-san",
+    "https://giaoduc.net.vn/vimovn-bi-to-gian-lan-khuyen-mai-post170111.gd",
+    "https://thuthuat.taimienphi.vn/vi-dien-tu-vimo-la-gi-50622n.aspx",
+    "https://baodautu.vn/vi-dien-tu-vimo-lo-ngai-thanh-toan-chui-d82243.html",
+    "https://vayonlinenhanh.vn/vi-vimo/",
+    "https://laodong.vn/kinh-doanh/giua-hang-loat-vi-pham-chu-quan-vi-dien-tu-vimo-mot-nam-bao-lai-374-ti-dong-1339028.ldo",
+    "https://news.vimo.vn/quan-he-cua-vimo-voi-cac-ben/",
+    "https://laodong.vn/kinh-doanh/vi-dien-tu-vimo-bi-thanh-tra-ngan-hang-chi-ra-nhieu-vi-pham-1339020.ldo",
+    "https://news.vimo.vn/thoa-thuan-nguoi-dung/",
+    "https://mytour.vn/vi/blog/bai-viet/kham-pha-vi-dien-tu-vimo.html",
+    "https://cand.com.vn/Ban-tin-113/tim-bi-hai-lien-quan-vu-hon-7-000-nguoi-mat-tien-trong-the-tin-dung-i702250/"
+  ],
+  "latency_ms": 48705
+}

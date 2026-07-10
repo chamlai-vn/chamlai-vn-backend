@@ -1,0 +1,27 @@
+{
+  "case_id": "scam-tech_fraud-09",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Mạo danh ngân hàng (TPBank) với dấu hiệu hoạt động lạ từ IP nước ngoài để tạo sự khẩn trương",
+      "Yêu cầu click vào link nghi vấn (tpbank-secure-verify.tk) - miền tên không phải tpbank chính thức",
+      "Yêu cầu cung cấp mã OTP qua link lạ để 'xác minh danh tính'",
+      "Link chứa tham số session - tính chất của phishing giả mạo",
+      "Sử dụng kịch bản 'bảo vệ tài khoản' để tạo tin tưởng và áp lực thời gian"
+    ],
+    "matched_patterns": [
+      "tech_fraud",
+      "impersonation_authority"
+    ],
+    "recommended_actions": [
+      "Không click vào link lạ được gửi trong tin nhắn - đây là link phishing",
+      "Không bao giờ nhập mã OTP qua link được cung cấp bởi người lạ",
+      "Nếu nghi ngờ, hãy truy cập trực tiếp vào ứng dụng TPBank Mobile chính thức hoặc gọi tổng đài khách hàng của TPBank (1900 5555 hoặc số chính thức khác) để xác minh",
+      "Chỉ cài đặt ứng dụng TPBank từ App Store hoặc Google Play chính thức",
+      "Báo cáo tin nhắn này cho TPBank ngay để họ cảnh báo các khách hàng khác"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 6311
+}

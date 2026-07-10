@@ -1,0 +1,24 @@
+{
+  "case_id": "benign-delivery_real-05",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "yellow",
+    "red_flags": [
+      "Yêu cầu xuống nhận hàng tại địa điểm công cộng (tòa nhà A, lầu 1) thay vì giao trực tiếp",
+      "Thông báo giao hàng cho bảo vệ tòa nhà mà không xin phép trước",
+      "Đặt hạn thời gian (3 ngày) có thể tạo áp lực để nhận hàng mà không kiểm tra kỹ",
+      "Số điện thoại liên hệ đơn giản (1900 0000) có khả năng là giả mạo"
+    ],
+    "matched_patterns": [
+      "package_delivery: Mạo danh shipper gọi điện/gửi tin yêu cầu nhận hàng tại địa điểm công cộng"
+    ],
+    "recommended_actions": [
+      "Kiểm tra trực tiếp trên website hoặc ứng dụng JD.com xem có đơn hàng nào đang giao không; xác minh mã theo dõi VN123456789 có thật không",
+      "Gọi số hotline chính thức của JD.com (tìm từ website chính thức) để xác nhận thông tin giao hàng, không dùng số 1900 0000 trong tin nhắn",
+      "Nếu thực sự có đơn hàng, yêu cầu bảo vệ tòa nhà xác nhận hoặc nhân viên giao hàng giao trực tiếp tại cửa nhà bạn",
+      "Tuyệt đối không chuyển khoản hoặc cung cấp thông tin cá nhân cho số điện thoại trong tin nhắn này"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 6134
+}

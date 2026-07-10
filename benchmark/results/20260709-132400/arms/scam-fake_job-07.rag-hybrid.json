@@ -1,0 +1,27 @@
+{
+  "case_id": "scam-fake_job-07",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Yêu cầu nộp tiền 'đảm bảo' để bắt đầu làm việc — thủ đoạn kinh điển lừa đảo",
+      "Hứa hẹn kiếm 10-15 triệu đồng/tháng với công việc online đơn giản — mức lương bất thường, không phù hợp với thực tế",
+      "Liên hệ qua Zalo từ 'anh quản lý' cá nhân thay vì kênh chính thức của công ty",
+      "Chỉ cần 'nhập thông tin' rồi nộp tiền là có thể làm ngay — không có hợp đồng rõ ràng, không có quy trình chuyên nghiệp",
+      "Sơ suất trong quy trình tuyển dụng — công ty hợp lệ không bao giờ đòi tiền trước"
+    ],
+    "matched_patterns": [
+      "fake_job: Lừa đảo tuyển cộng tác viên online — yêu cầu nạp tiền qua các 'gói nhiệm vụ' giả mạo",
+      "fake_job: Lừa đảo 'việc nhẹ, lương cao' qua mạng xã hội — dụ dỗ với mức lương cao bất thường và quy trình tuyển dụng không rõ ràng"
+    ],
+    "recommended_actions": [
+      "Không chuyển tiền cho bất kỳ ai tự xưng là nhân viên/quản lý công ty qua mạng xã hội cá nhân",
+      "Xác minh trực tiếp thông tin công ty qua website chính thức hoặc số điện thoại tổng đài công khai, không tin liên hệ qua Zalo/Messenger",
+      "Cảnh giác với lời hứa 'việc nhẹ, lương cao' (10-15 triệu/tháng) không yêu cầu kinh nghiệm — đây là dấu hiệu cảnh báo của lừa đảo",
+      "Yêu cầu xem hợp đồng lao động chính thức trước khi nộp bất kỳ khoản tiền nào",
+      "Tuyệt đối không nộp tiền 'đảm bảo', 'kích hoạt', 'xác minh tài khoản' hay bất kỳ khoản nào dưới vỏ bọc công việc trước khi ký hợp đồng chính thức"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 70614
+}

@@ -1,0 +1,29 @@
+{
+  "case_id": "benign-work_real-07",
+  "rag_verdict": {
+    "strengths": [
+      "Không báo động giả, xử lý như một câu hỏi trao đổi bình thường",
+      "Khuyến nghị kiểm tra qua website/ứng dụng chính thức của tổ chức trước khi lo lắng"
+    ],
+    "weaknesses": [
+      "Kết luận 'green' hơi vội: một thông báo 'bị phạt vì chưa nộp hóa đơn' không rõ chi tiết chính là vector BEC/social-engineering đáng nghi",
+      "Không khuyên xác minh trực tiếp với bộ phận Tài chính trước khi thừa nhận khoản phạt"
+    ],
+    "reasoning": "Khuyến nghị xác minh chung là hợp lý, nhưng kết luận green hơi vội cho một tình huống thực ra đáng nghi và cần xác minh trước khi tin.",
+    "score": 7.5
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Nhận diện đúng đây là tình huống đáng nghi (tạo áp lực phạt, thiếu chi tiết) — vector giả mạo nội bộ phổ biến",
+      "Khuyên không thừa nhận ngay, xác minh trực tiếp với Tài chính qua kênh đã biết, gợi ý câu trả lời theo hướng xác minh",
+      "Có nguồn dẫn (BEC/invoice scam)"
+    ],
+    "weaknesses": [
+      "Dài"
+    ],
+    "reasoning": "Hữu ích hơn: nhận ra tính đáng nghi và hướng dẫn xác minh trước khi thừa nhận khoản phạt — phù hợp hơn với rủi ro thực tế.",
+    "score": 8
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

@@ -1,0 +1,51 @@
+{
+  "case_id": "scam-fake_job-08",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Tuyển dụng qua Zalo, sau đó chuyển sang Telegram",
+      "Lương cao, việc nhẹ, làm tại nhà (8 triệu/tháng, chỉ 2-3 giờ/ngày)",
+      "Yêu cầu nộp tiền trước khi làm việc (500.000đ 'gói training')",
+      "Hứa lợi nhuận bất thường (20%/tuần)",
+      "Liên tục yêu cầu nộp thêm tiền (thêm 1 triệu đồng)",
+      "Bị xóa/chặn khi đặt câu hỏi",
+      "Chuyển tiền vào tài khoản cá nhân (tên 'Trương Thanh Hải') thay vì tài khoản công ty",
+      "Nhóm Telegram có tổ chức với thành viên giả mạo để mồi chài nạn nhân"
+    ],
+    "matched_patterns": [
+      "Lừa đảo tuyển cộng tác viên xử lý đơn hàng / làm nhiệm vụ online",
+      "Yêu cầu nộp tiền trước để nhận việc",
+      "Tuyển dụng qua Zalo chuyển sang Telegram",
+      "Leo thang yêu cầu nộp tiền (phi vụ tiếp nối)"
+    ],
+    "recommended_actions": [
+      "Liên hệ ngay đường dây nóng ngân hàng đã chuyển tiền để yêu cầu tạm khóa tài khoản nhận tiền hoặc hủy giao dịch nếu có thể",
+      "Thu thập và lưu lại toàn bộ bằng chứng: ảnh chụp màn hình trò chuyện trên Zalo và Telegram, thông tin tài khoản ngân hàng của 'Trương Thanh Hải', biên lai chuyển tiền, số điện thoại/tài khoản Zalo của 'Chị Hương'",
+      "Trình báo ngay cho cơ quan Công an để xác minh, ngăn chặn và xử lý các đối tượng vi phạm",
+      "Tuyệt đối không nộp thêm tiền với bất kỳ lý do nào",
+      "Cảnh giác với các nhóm giả danh giúp đòi lại tiền — đây vẫn là bẫy lừa đảo tiếp theo của cùng băng nhóm"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 KẾT LUẬN: ĐÂY LÀ LỪA ĐẢO 100% — Anh trai bạn đã là nạn nhân!\n\nTình huống anh trai bạn gặp phải là một **kịch bản lừa đảo cực kỳ phổ biến và đã được cơ quan công an cảnh báo nhiều lần**. Dưới đây là phân tích chi tiết:\n\n---\n\n## 🔍 TẠI SAO KHẲNG ĐỊNH ĐÂY LÀ LỪA ĐẢO?\n\n### 1. Kịch bản y hệt các vụ lừa đảo đã được ghi nhận\n\nHành vi lừa đảo này được thực hiện theo đúng một trình tự cố định: **tuyển dụng qua Zalo bằng hình thức nhắn tin → yêu cầu tải ứng dụng Telegram → yêu cầu nộp tiền trước → mua hàng/làm nhiệm vụ.**\n\nMột công thức chung được các nạn nhân rút ra: **\"không gọi video + tuyển dụng qua Zalo + tải app Telegram + bắt nộp tiền trước = lừa đảo\".**\n\n### 2. Nhắm đúng vào người đang cần việc làm\n\nLợi dụng sự nhẹ dạ, cả tin và nhu cầu kiếm tiền nhanh, không cần bằng cấp, kinh nghiệm, làm việc tại nhà của bị hại, các đối tượng giả mạo tuyển cộng tác viên xử lý đơn hàng để thực hiện hành vi chiếm đoạt tài sản.\n\n### 3. Nhóm Telegram là bẫy có tổ chức\n\nTheo nhận xét của các nạn nhân: *\"Tất cả thành viên trong app đều là người của chúng, chúng cài vào để mồi chài, bẫy người tham gia. Các lệnh trong lúc làm nhiệm vụ cũng là do chúng tạo ra và điều khiển, dù có làm đúng cũng báo sai.\"*\n\n### 4. Yêu cầu nộp tiền ngày càng leo thang\n\nKhi nạn nhân nộp tiền, chúng liên tục đưa ra nhiều lý do để yêu cầu nộp thêm như: *nạp tiền sai cú pháp, chưa đủ hạn mức, chưa đúng quy trình, nâng cấp gói nhiệm vụ*… Với tâm lý muốn lấy lại số tiền trước đó, nhiều nạn nhân đã chuyển khoản nhiều lần với tổng số tiền lên đến hàng tỷ đồng.\n\n### 5. Chặn liên hệ khi hỏi lại — đây là dấu hiệu điển hình\n\nKhi nạn nhân đã nạp số tiền lớn hơn, kẻ lừa đảo sẽ chiếm đoạt toàn bộ tài sản, sau đó **chặn liên lạc hoặc xóa nhóm.**\n\n### 6. Không có công ty hợp pháp nào làm vậy\n\nTheo cảnh báo của Bộ Công an và các cơ quan chức năng, **không có bất kỳ công ty, doanh nghiệp hay sàn thương mại điện tử hợp pháp nào yêu cầu cộng tác viên phải \"ứng tiền trước\"** hoặc đặt hàng ảo để nhận hoa hồng.\n\n---\n\n## ⚠️ CÁC DẤU HIỆU ĐỎ TRONG TÌNH HUỐNG NÀY\n\n| Dấu hiệu | Trong vụ việc của anh bạn |\n|---|---|\n| Tuyển qua Zalo, chuyển sang Telegram | ✅ Đúng |\n| Lương cao, việc nhẹ, làm tại nhà | ✅ 8 triệu/tháng, 2-3 giờ/ngày |\n| Yêu cầu nộp tiền trước khi làm | ✅ 500.000đ \"gói training\" |\n| Hứa lợi nhuận bất thường (20%/tuần) | ✅ Đúng |\n| Liên tục yêu cầu nộp thêm | ✅ Thêm 1 triệu đồng |\n| Bị xóa/chặn khi đặt câu hỏi | ✅ Đúng |\n| Chuyển tiền vào tài khoản cá nhân | ✅ Tên \"Trương Thanh Hải\" — không phải công ty |\n\n---\n\n## ✅ ANH TRAI BẠN CẦN LÀM NGAY BÂY GIỜ\n\n### 🏦 Bước 1: Liên hệ ngân hàng ngay lập tức\nNgay lập tức gọi điện đến **đường dây nóng của ngân hàng** mà anh đã chuyển tiền đi và cả ngân hàng nhận tiền. Yêu cầu khẩn cấp: cung cấp chi tiết giao dịch (số tài khoản, tên người nhận, số tiền, thời gian chuyển) và **yêu cầu tạm khóa tài khoản nhận tiền** hoặc hủy bỏ giao dịch nếu có thể.\n\n### 👮 Bước 2: Trình báo công an\nNếu phát hiện ra trường hợp lừa đảo, người dân cần **báo ngay cho cơ quan Công an** để nhanh chóng xác minh, ngăn chặn và xử lý các đối tượng vi phạm theo quy định của pháp luật.\n\nAnh cần **thu thập và lưu lại toàn bộ bằng chứng** trước khi bị xóa:\n- Ảnh chụp màn hình các cuộc trò chuyện trên Zalo và Telegram\n- Thông tin tài khoản ngân hàng của \"Trương Thanh Hải\"\n- Biên lai chuyển tiền\n- Số điện thoại/tài khoản Zalo của \"Chị Hương\"\n\n### 🚫 Bước 3: TUYỆT ĐỐI không nộp thêm tiền\nNếu tiếp tục thực hiện nhiệm vụ với mong muốn được hoàn trả lại tiền, có ứng viên nạp xong lần ba với số tiền rất lớn cũng không thể lấy lại được tiền. **Nhiều ứng viên biết bị lừa, tâm lý muốn lấy lại tiền, nhưng càng nạp thì càng mất.**\n\n### ⚠️ Bước 4: Cảnh giác với \"chiêu lấy lại tiền\"\nSau khi bị lừa, nhiều người tiếp tục bị lừa bởi các nhóm **giả danh giúp đòi lại tiền** — đây vẫn là một bẫy khác của cùng băng nhóm. Tuyệt đối không tin và không nộp thêm bất kỳ khoản phí nào.\n\n---\n\n## 💬 LỜI KHUYÊN CHUNG\n\n\u003e **Không bao giờ có công việc hợp pháp nào yêu cầu bạn phải nộp tiền trước để được làm việc.** Hãy chia sẻ câu chuyện của anh trai bạn với người thân để nhiều người không mắc bẫy tương tự.",
+  "sources": [
+    "https://congan.longan.gov.vn/vi/chi-tiet-tin-tuc?Id=133438",
+    "https://bidv.com.vn/bidv/ca-nhan/thong-bao/thay-doi-mang-luoi/canh-bao-lua-dao-lam-nhiem-vu-online-nhan-hoa-hong",
+    "https://tuoitre.vn/bay-tuyen-dung-online-lua-dao-nguoi-tim-viec-ky-2-chieu-tro-lua-dao-tren-telegram-2023083010523942.htm",
+    "https://nhandan.vn/canh-giac-khi-tham-gia-lam-cong-tac-vien-online-post797153.html",
+    "https://thanhnien.vn/nhieu-nguoi-van-sap-bay-lua-dao-tren-telegram-facebook-zalo-185230414150936028.htm",
+    "https://luatanhngoc.vn/4902/lua-dao-qua-telegram-lam-nhiem-vu-bi-xu-ly-nhu-the-nao",
+    "https://baophapluat.vn/bay-lua-daoviec-nhe-luong-caoqua-telegram-post479968.html",
+    "https://vov.vn/phap-luat/vi-sao-nhieu-nguoi-sap-bay-khi-lam-cong-tac-vien-online-post995714.vov",
+    "https://nhandan.vn/can-trong-chieu-tro-lua-dao-lam-cong-tac-vien-ban-hang-online-post910763.html",
+    "https://dichthuatkhanhan.com/lua-dao-viec-lam-qua-ung-dung-telegram/",
+    "https://locker.io/vi/blog/lua-dao-tren-telegram",
+    "https://luatminhkhue.vn/telegram-co-lua-dao-khong.aspx",
+    "https://thanhnien.vn/canh-giac-hinh-thuc-lua-dao-viec-nhe-luong-cao-185241015151541406.htm",
+    "https://baochinhphu.vn/canh-bao-lua-dao-qua-ung-dung-telegram-102230809155228758.htm",
+    "https://xtlaw.com.vn/canh-bao-lua-dao-qua-ung-dung-telegram.html",
+    "https://nld.com.vn/kinh-te/lua-dao-bua-vay-lam-sao-thoat-cu-vao-telegram-la-dinh-bay-20230801214234664.htm"
+  ],
+  "latency_ms": 73523
+}

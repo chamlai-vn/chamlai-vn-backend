@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-package_delivery-07",
+  "rag_verdict": {
+    "strengths": [
+      "Trả lời đúng câu hỏi: đây là lừa đảo (red); phủ đủ 4 ý chính: giả danh Thiên Hương Express, phí 145k, link rút gọn bit.do, urgency",
+      "Pattern khớp đúng loại shipper",
+      "Khuyến nghị kiểm tra đơn trên app chính thức (Shopee/Lazada/TikTok), chỉ thanh toán khi nhận hàng",
+      "Súc tích, phù hợp câu hỏi ngắn"
+    ],
+    "weaknesses": [
+      "Không nêu điểm nhận biết cốt lõi: nếu không đặt hàng gì thì gần như chắc chắn là lừa đảo",
+      "Không nêu kênh báo cáo tin nhắn (156)",
+      "Định dạng thuần liệt kê"
+    ],
+    "reasoning": "Đúng và đủ cho câu hỏi ngắn với pattern khớp đúng loại. Thiếu điểm nhận biết 'có đặt hàng không' và kênh báo cáo.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Trình bày gọn, chỉ rõ link rút gọn bit.do che giấu web giả, dự báo kịch bản 'đăng ký gói dịch vụ' leo thang",
+      "Nêu điểm nhận biết cốt lõi: kiểm tra xem có thật đặt hàng không",
+      "Trích cảnh báo Bưu điện VN (không gửi link xin OTP), kênh báo cáo 156",
+      "Hướng dẫn nếu đã lỡ nhập thông tin"
+    ],
+    "weaknesses": [
+      "Không có nguồn web trích dẫn (sources=0)",
+      "Hơi dài so với câu hỏi ngắn"
+    ],
+    "reasoning": "Chính xác, nêu điểm nhận biết cốt lõi và dự báo kịch bản leo thang. Trừ điểm nhẹ vì không có nguồn trích dẫn.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

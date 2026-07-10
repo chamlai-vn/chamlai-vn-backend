@@ -1,0 +1,27 @@
+{
+  "case_id": "scam-ecommerce_scam-09",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Giá tour quá rẻ bất thường (890k cho 3 ngày 2 đêm Đà Lạt - chỉ bằng 1/3-1/2 giá thị trường)",
+      "Đã chuyển tiền đặt cọc (300k) trước khi xác minh thông tin",
+      "Không thể liên lạc được với người bán sau khi thanh toán",
+      "Ứng dụng 'VietTravel Pro' không rõ uy tín, chưa được xác minh pháp lý",
+      "Dấu hiệu cắt liên lạc sau khi nhận tiền cọc - điển hình của lừa đảo"
+    ],
+    "matched_patterns": [
+      "Giả mạo fanpage khách sạn, tour du lịch để lừa đặt cọc",
+      "Quảng cáo tour giá sốc với thông điệp giảm sâu để dụ khách chuyển khoản"
+    ],
+    "recommended_actions": [
+      "Liên hệ ngay với cơ quan công an hoặc Bộ Công an để trình báo vụ lừa đảo với bằng chứng: tên app, tài khoản người bán, số tiền chuyển khoản, thời gian",
+      "Yêu cầu ngân hàng hoặc ứng dụng thanh toán chặn tài khoản nhận tiền và khôi phục giao dịch nếu còn trong thời hạn",
+      "Lưu lại tất cả ảnh chụp màn hình, lịch sử chat, thông tin giao dịch làm bằng chứng",
+      "Sau này, chỉ đặt tour qua website chính thức hoặc công ty du lịch có giấy phép rõ ràng, không chuyển tiền cọc cho app hay tài khoản cá nhân không xác minh",
+      "Kiểm tra giá tour thực tế bằng cách tham khảo nhiều đơn vị du lịch uy tín trước - nếu rẻ hơn thị trường trên 30% cần cảnh giác"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 151607
+}

@@ -1,0 +1,27 @@
+{
+  "case_id": "scam-recovery_scam-03",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Cơ quan Công an không bao giờ thu tiền/phí xử lý hồ sơ qua chuyển khoản ngân hàng cá nhân",
+      "Đúng kịch bản \"hỗ trợ lấy lại tiền\" — lợi dụng nạn nhân vừa bị lừa để lừa tiếp lần 2",
+      "Yêu cầu cài app lạ (\"SafeGuard Recovery\") — dấu hiệu cực nguy hiểm, khả năng cao chứa mã độc chiếm quyền điện thoại và đọc trộm OTP",
+      "Domain lạ (.me) không phải kiểu tên miền công an/ngân hàng dùng để phát hành app chính thức",
+      "Số tài khoản nhận \"phí\" đứng tên cá nhân, không phải tài khoản của cơ quan nhà nước"
+    ],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Không chuyển bất kỳ khoản tiền nào, không tải app \"SafeGuard Recovery\", không gọi lại số trong tin nhắn",
+      "Không cung cấp CCCD, số tài khoản, mã OTP cho người gọi",
+      "Nếu đã lỡ chuyển tiền/cài app: liên hệ ngân hàng ngay để phong tỏa tài khoản, gỡ app, đổi mật khẩu",
+      "Trình báo trực tiếp tại công an phường/quận nơi cư trú hoặc qua chức năng phản ánh an ninh trật tự trên app VNeID",
+      "Gọi tổng đài 5656 (Cục An toàn Thông tin) để báo cáo cuộc gọi/tin nhắn lừa đảo",
+      "Nếu từng thực sự bị lừa trước đó, trình báo vụ đó riêng tại công an với đầy đủ bằng chứng — tuyệt đối không qua \"dịch vụ hỗ trợ lấy lại tiền\" tự tìm đến"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## Kết luận: Đây chắc chắn là LỪA ĐẢO, không phải tin nhắn thật từ công an\n\n### Vì sao có thể khẳng định như vậy\n\n**1. Cơ quan Công an không bao giờ thu tiền qua chuyển khoản ngân hàng.** Đây là nguyên tắc bất di bất dịch: nếu cần tạm giữ tiền/tài sản liên quan vụ án, việc này phải thực hiện tại trụ sở công an và lập biên bản, Cơ quan Công an không nhận chuyển tiền qua chuyển khoản ngân hàng (internet banking). Bất kỳ ai yêu cầu bạn chuyển \"phí xử lý hồ sơ\", \"phí bảo lãnh\" vào tài khoản cá nhân đều là lừa đảo.\n\n**2. Đây đúng là kịch bản \"hỗ trợ lấy lại tiền\" – một chiêu lừa đảo phổ biến đang được công an cảnh báo.** Lợi dụng việc người dân đăng tải thông tin cầu cứu trên mạng xã hội sau khi thực hiện giao dịch nhầm lẫn hoặc bị lừa, các đối tượng sẽ giả danh cán bộ ngân hàng hoặc công an để tiếp cận, cam kết hỗ trợ lấy lại tiền nhanh chóng, sau đó dẫn dụ nạn nhân chuyển thêm tiền hoặc cài app/quét mã để chiếm đoạt tiếp.\n\n**3. Yêu cầu cài app lạ (\"SafeGuard Recovery\") là dấu hiệu cực kỳ nguy hiểm.** Đây chính là thủ đoạn khiến nhiều người mất hàng tỷ đồng: đối tượng gửi đường link cài đặt phần mềm giả mạo, khi cài đặt xong nạn nhân bị chiếm quyền sử dụng điện thoại và bị chiếm đoạt tiền trong tài khoản ngân hàng. App này gần như chắc chắn chứa mã độc, có thể đọc trộm OTP, chiếm quyền điều khiển điện thoại và rút sạch tài khoản ngân hàng của bạn.\n\n**4. Domain \"safeguard-recovery.me\" cực kỳ đáng ngờ** — công an, ngân hàng không dùng tên miền .me kiểu này để phát hành app chính thức.\n\n**5. Số tài khoản nhận \"phí\" đứng tên cá nhân (Trần Thị Huế)**, không phải tài khoản của cơ quan nhà nước — công an không bao giờ yêu cầu nộp phí vào tài khoản cá nhân.\n\n### Bạn nên làm gì tiếp theo\n\n- **Không chuyển bất kỳ khoản tiền nào**, không tải app \"SafeGuard Recovery\", không gọi lại số điện thoại trong tin nhắn.\n- **Không cung cấp** CCCD, số tài khoản, mã OTP cho người gọi.\n- Nếu đã lỡ chuyển tiền hoặc cài app: lập tức liên hệ với Ngân hàng để được hướng dẫn phong tỏa tài khoản, gỡ cài đặt app đó, đổi mật khẩu ngân hàng/mạng xã hội.\n- Trình báo trực tiếp tại **công an phường/quận nơi bạn cư trú** (không qua điện thoại lạ) hoặc gửi tố giác qua chức năng \"Gửi kiến nghị phản ánh về an ninh trật tự\" trên app VNeID.\n- Có thể gọi tổng đài **5656** (Cục An toàn Thông tin – Bộ TT&TT) để báo cáo cuộc gọi/tin nhắn lừa đảo.\n- Nếu bạn thực sự từng bị lừa 45 triệu trước đó, hãy trình báo vụ đó riêng tại công an, mang theo sao kê, tin nhắn liên quan làm bằng chứng — **nhưng tuyệt đối không thông qua \"dịch vụ hỗ trợ lấy lại tiền\" nào tự tìm đến bạn**.\n\nNói ngắn gọn: đây là lừa đảo chồng lừa đảo — lợi dụng tâm lý người vừa mất tiền, muốn lấy lại càng nhanh càng tốt.",
+  "sources": [],
+  "latency_ms": 0
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-package_delivery-03",
+  "rag_verdict": {
+    "strengths": [
+      "Trả lời đúng câu hỏi: đây là lừa đảo (red); phủ đủ 4 ý chính: giả danh GHN, link lạ .xyz, cớ lỗi bưu kiện, số lạ",
+      "Pattern khớp đúng loại shipper",
+      "Khuyến nghị vào app GHN chính thức xác minh, chỉ thanh toán khi nhận hàng",
+      "Súc tích, phù hợp câu hỏi ngắn"
+    ],
+    "weaknesses": [
+      "Cung cấp hotline GHN '1900.6060' không chính xác (số đúng là 1900 636677)",
+      "Không nêu website chính thức ghn.vn để đối chiếu",
+      "Không nêu kênh báo cáo tin nhắn (156)"
+    ],
+    "reasoning": "Đúng bản chất và pattern khớp đúng loại, nhưng cung cấp hotline GHN sai — lỗi factual ngay ở kênh xác minh khuyến nghị. Trừ điểm.",
+    "score": 7.5
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Nêu chính xác website chính thức ghn.vn và hotline 1900 636 677",
+      "Phân tích tên miền giả .xyz + gạch ngang, số tiền nhỏ là mồi nhử, dự báo kịch bản 'trừ tự động hàng tháng'",
+      "Bảng hành động, kênh báo cáo số lừa đảo qua 156",
+      "Nhắc liên hệ người bán xác nhận"
+    ],
+    "weaknesses": [
+      "Dài, định dạng nặng",
+      "Một vài đoạn lặp ý"
+    ],
+    "reasoning": "Chính xác về website/hotline GHN và phân tích tên miền giả sắc bén. Điểm trừ là độ dài.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

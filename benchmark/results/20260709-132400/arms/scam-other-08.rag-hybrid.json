@@ -1,0 +1,26 @@
+{
+  "case_id": "scam-other-08",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Giả danh cán bộ cơ quan tài chính (ngân hàng) qua tài khoản lạ",
+      "Thông báo trúng thưởng bất ngờ mà không hề tham gia chương trình",
+      "Yêu cầu chuyển tiền phí 'xác minh tài khoản' trước khi nhận giải thưởng",
+      "Liên hệ qua tài khoản không chính thức (lạ)"
+    ],
+    "matched_patterns": [
+      "prize_gift",
+      "recovery_scam"
+    ],
+    "recommended_actions": [
+      "Tuyệt đối không chuyển tiền cho đối tượng này dù số tiền có vẻ nhỏ",
+      "Không cung cấp thông tin cá nhân, số tài khoản hay mã OTP",
+      "Liên hệ trực tiếp với ngân hàng theo số hotline chính thức để kiểm tra và xác minh thông tin",
+      "Chặn tài khoản lạ này ngay lập tức",
+      "Báo cáo sự việc cho cơ quan công an địa phương về tờ rơi lừa đảo"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 4634
+}

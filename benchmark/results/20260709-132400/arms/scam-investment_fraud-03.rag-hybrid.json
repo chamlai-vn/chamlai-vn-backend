@@ -1,0 +1,33 @@
+{
+  "case_id": "scam-investment_fraud-03",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Liên hệ từ số lạ với tên giả mạo (Ms. Linda - Forex Expert)",
+      "Cam kết lợi nhuận bất thường (5-8% mỗi tuần tương đương ~260-416% năm)",
+      "Nhóm đầu tư kín với 500+ thành viên chia sẻ chứng minh lợi nhuận đáng ngờ (ảnh chụp màn hình có thể giả mạo)",
+      "Yêu cầu chuyển tiền vào tài khoản cá nhân thay vì sàn chính thức",
+      "Ứng dụng giả mạo (ForexPro Global) hiển thị lợi nhuận ảo để xây dựng lòng tin",
+      "Tạo áp lực bằng đe dọa khóa tài khoản nếu không nạp thêm tiền",
+      "Yêu cầu phí 'xác minh tài khoản quốc tế' để rút tiền (chiêu trò cơ bản của lừa đảo)",
+      "Mất liên lạc sau khi nạp tiền bổ sung",
+      "Ứng dụng bất khả truy cập, tiền biến mất"
+    ],
+    "matched_patterns": [
+      "Forex trái phép với can thiệp tài khoản khách hàng (Mẫu 2, 3)",
+      "Lôi kéo đầu tư Forex giả mạo qua mạng xã hội (Mẫu 4)",
+      "Yêu cầu phí ẩn khi rút tiền để lừa nạp thêm",
+      "Sàn giao dịch giả mạo không được cấp phép"
+    ],
+    "recommended_actions": [
+      "Báo cáo vụ việc ngay cho cơ quan công an địa phương với đầy đủ chứng cứ (tin nhắn Zalo, ảnh chụp màn hình giao dịch, thông tin tài khoản nhận tiền)",
+      "Liên hệ với ngân hàng nơi chuyển tiền để yêu cầu khóa/truy vết tài khoản nghi vấn và xin hỗ trợ",
+      "Đừng tiếp tục liên lạc hay nạp thêm tiền theo bất kỳ lý do gì",
+      "Tìm hiểu chi tiết về các sàn Forex hợp pháp qua Ngân hàng Nhà nước Việt Nam (hiện chưa cấp phép sàn Forex nào)",
+      "Cảnh báo bạn bè, gia đình về chiêu trò này để tránh trở thành nạn nhân"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 9599
+}

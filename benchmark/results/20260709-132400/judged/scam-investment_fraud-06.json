@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-investment_fraud-06",
+  "rag_verdict": {
+    "strengths": [
+      "Trả lời trực tiếp: KHÔNG THAM GIA; kết luận đúng (red)",
+      "Phủ đủ 4 ý chính: Telegram lợi nhuận cao, giới thiệu qua người quen, ảnh lợi nhuận giả, kênh ẩn danh",
+      "Khuyến nghị thực dụng: tra NHNN chưa cấp phép, yêu cầu người giới thiệu xuất trình giấy phép, đối chiếu danh sách sàn bị triệt phá",
+      "Súc tích, phù hợp câu hỏi ngắn"
+    ],
+    "weaknesses": [
+      "Danh sách sàn bị triệt phá nêu ra cần kiểm chứng lại (có thể lỗi thời)",
+      "Không nêu số liệu/quy mô để tăng thuyết phục",
+      "Không cung cấp kênh trình báo cụ thể"
+    ],
+    "reasoning": "Trả lời dứt khoát và đúng, khuyến nghị xác minh chính thống. Trừ điểm nhẹ vì danh sách sàn cần kiểm chứng.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Phân tích 6 dấu hiệu, giải thích Telegram là 'sào huyệt' và chiêu 'chim mồi'",
+      "Số liệu thực tế (nạn nhân mất 600 triệu, thiệt hại 18.900 tỷ 2024) tăng thuyết phục",
+      "Khuyến nghị rời nhóm ngay, hỏi thẳng người bạn cũ, kênh trình báo (attt.gov.vn, Report Telegram)",
+      "Quy tắc vàng nhận diện"
+    ],
+    "weaknesses": [
+      "Dài so với câu hỏi ngắn",
+      "Định dạng nặng"
+    ],
+    "reasoning": "Chi tiết, có số liệu và kênh trình báo cụ thể, giải thích rõ vì sao Telegram nguy hiểm. Điểm trừ là độ dài.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

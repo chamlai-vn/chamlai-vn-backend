@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-other-09",
+  "rag_verdict": {
+    "strengths": [
+      "Nhận diện đúng nạn nhân đã chuyển 450 triệu và tập trung khắc phục",
+      "Phủ đủ 4 ý chính: giả danh cơ quan nhà nước + spoofing số, app SQDTHN Pro giả giao diện sở, urgency 3 giờ chiều + lợi ích 8,5 tỷ, tài khoản cá nhân",
+      "Khuyến nghị đúng: ngắt máy tự gọi số công bố xác minh, cơ quan nhà nước không thu tiền qua điện thoại/app",
+      "Đầy đủ"
+    ],
+    "weaknesses": [
+      "Pattern khớp chỉ là nhãn trống (impersonation_authority/recovery_scam)",
+      "Không nêu kênh khắc phục cụ thể (liên hệ ngân hàng phong tỏa, đường dây nóng)",
+      "Không nêu hệ thống đấu thầu quốc gia để đối chiếu"
+    ],
+    "reasoning": "Chính xác và phủ đủ ý chính. Trừ điểm vì pattern khớp trống và thiếu kênh khắc phục cụ thể cho nạn nhân đã mất tiền.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Phân tích 5 dấu hiệu, nêu quy trình đấu thầu nhà nước chặt chẽ và dẫn vụ án thực tế tương tự",
+      "Quy trình khắc phục ưu tiên (phong tỏa tài khoản, trình báo 0692 345 860, gỡ app), cảnh báo lừa lần hai",
+      "Nêu hệ thống đấu thầu quốc gia muasamcong.mpi.gov.vn để đối chiếu, căn cứ pháp lý khung hình phạt",
+      "Ghi nhận anh Minh đã kiểm chứng đúng"
+    ],
+    "weaknesses": [
+      "Rất dài",
+      "Định dạng nặng"
+    ],
+    "reasoning": "Vượt trội nhờ kiến thức chuyên biệt về đấu thầu (muasamcong.mpi.gov.vn), vụ án thực tế và quy trình khắc phục đầy đủ. Điểm trừ là độ dài.",
+    "score": 9
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

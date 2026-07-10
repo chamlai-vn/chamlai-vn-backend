@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-tech_fraud-09",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận đúng (red), phủ đủ 4 ý chính: giả danh TPBank Mobile, cớ IP nước ngoài, link giả tpbank-secure-verify.tk, đòi OTP",
+      "Khuyến nghị không click link/nhập OTP, kiểm tra qua app chính thức",
+      "Bắt được tham số session là dấu hiệu phishing",
+      "Súc tích"
+    ],
+    "weaknesses": [
+      "Cung cấp hotline TPBank '1900 5555' không chính xác (số đúng là 1900 6036 / 1900 585885) — sai kênh xác minh",
+      "Không nêu domain chính thức tpb.vn để đối chiếu",
+      "Không giải thích câu 'không chia sẻ OTP' là chiêu ngụy trang"
+    ],
+    "reasoning": "Phủ đủ ý chính nhưng cung cấp hotline TPBank sai — lỗi factual ở kênh xác minh. Trừ điểm.",
+    "score": 7.5
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Nêu domain chính thức tpb.vn, chỉ rõ đuôi .tk là tên miền miễn phí kẻ gian hay dùng",
+      "Giải thích câu 'không chia sẻ OTP' là chiêu ngụy trang tâm lý, trích khuyến cáo chính thức của TPBank",
+      "Cung cấp hotline TPBank chính xác (1900 6036 / 1900 585885)",
+      "Hướng dẫn nếu đã lỡ nhập, bật 2FA/sinh trắc học"
+    ],
+    "weaknesses": [
+      "Không có nguồn web trích dẫn (sources=0)",
+      "Dài"
+    ],
+    "reasoning": "Chính xác về domain/hotline TPBank và giải thích sắc chiêu 'không chia sẻ OTP'. Trừ điểm nhẹ vì không có nguồn.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

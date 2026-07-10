@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-prize_gift-08",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận đúng (red), phủ đủ 4 ý chính: giả danh Lazada, link rút gọn/app LazadaReward giả, urgency 24h, chi tiết giả (mã/email/số điện thoại)",
+      "Pattern khớp đúng loại prize_gift",
+      "Bắt được email không chính thức và điểm 'không chia sẻ link' là dấu hiệu che giấu",
+      "Khuyến nghị xác minh qua app/website chính thức lazada.vn"
+    ],
+    "weaknesses": [
+      "Không chỉ rõ email chính thức phải là @lazada.vn (không phải @lazada-vn.com)",
+      "Không nêu hotline Lazada cụ thể",
+      "Định dạng thuần liệt kê"
+    ],
+    "reasoning": "Chính xác, pattern khớp đúng loại và bắt được nhiều chi tiết giả. Thiếu mốc đối chiếu email/hotline cụ thể.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Chỉ rõ email chính thức @lazada.vn (không phải @lazada-vn.com) và website lazada.vn",
+      "Nêu hotline Lazada 1900 6509 và công cụ tra cứu link chongluadao.vn",
+      "Phân tích 7 dấu hiệu, kênh báo cáo canhbao.ncsc.gov.vn",
+      "Hướng dẫn nếu đã lỡ nhập thông tin"
+    ],
+    "weaknesses": [
+      "Dài, định dạng nặng",
+      "Một vài đoạn lặp ý"
+    ],
+    "reasoning": "Chính xác về email/website/hotline chính thức và có công cụ tra cứu link. Điểm trừ là độ dài.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

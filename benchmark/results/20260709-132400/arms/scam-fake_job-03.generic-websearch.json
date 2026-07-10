@@ -1,0 +1,49 @@
+{
+  "case_id": "scam-fake_job-03",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Lời mời việc làm hấp dẫn, công việc quá dễ, không yêu cầu kỹ năng nhưng thu nhập cao (7–12 triệu đồng/tháng)",
+      "Mức lương và mô tả công việc khớp với kịch bản lừa đảo điển hình: chỉ cần điện thoại và thẻ ATM, làm 1–2 giờ/ngày",
+      "Yêu cầu đăng ký và tải app không rõ nguồn gốc (GoldJob) – có thể chứa mã độc, chiếm quyền điều khiển điện thoại và tài khoản ngân hàng",
+      "Thủ đoạn câu nhử bằng hoa hồng nhỏ ban đầu để tạo lòng tin, sau đó dụ nạn nhân chuyển số tiền lớn hơn rồi chiếm đoạt",
+      "Đưa ra nhiều lý do để không hoàn tiền (sai cú pháp, lỗi hệ thống, sự cố đơn hàng…)",
+      "Sau khi nạn nhân hết tiền hoặc phát hiện lừa đảo, đối tượng chặn toàn bộ liên lạc và chiếm đoạt tiền",
+      "Nhắm vào đối tượng dễ bị tổn thương: phụ nữ, sinh viên, bà nội trợ tìm việc nhẹ lương cao",
+      "Đối tượng tự xưng là nhân viên công ty môi giới việc làm hoặc doanh nghiệp lớn uy tín để tạo lòng tin",
+      "Liên tục dồn ép tâm lý nạn nhân khiến họ hoang mang, lo sợ mất tiền và tiếp tục chuyển tiền"
+    ],
+    "matched_patterns": [
+      "Chốt đơn hàng online – việc nhẹ lương cao"
+    ],
+    "recommended_actions": [
+      "Không đăng ký, không tải app GoldJob hoặc bất kỳ ứng dụng nào do người lạ gửi",
+      "Không chuyển khoản bất kỳ số tiền nào, dù là đặt cọc, phí đăng ký, hay xác minh tài khoản",
+      "Không cung cấp thông tin cá nhân: CCCD, số tài khoản ngân hàng, mã OTP",
+      "Chặn và báo cáo số điện thoại/tài khoản mạng xã hội của đối tượng",
+      "Trình báo công an địa phương nếu đã bị mất tiền hoặc cung cấp thông tin cá nhân"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "---\n\n## ⚠️ KẾT LUẬN: ĐÂY RẤT CÓ KHẢ NĂNG LÀ LỪA ĐẢO!\n\nDựa trên thông tin tìm kiếm từ các cơ quan công an và tổ chức uy tín tại Việt Nam, tình huống chị gái bạn gặp phải **khớp 100% với kịch bản lừa đảo \"chốt đơn hàng online – việc nhẹ lương cao\"** đã được cảnh báo rộng rãi. Dưới đây là phân tích chi tiết:\n\n---\n\n### 🔴 DẤU HIỆU LỪA ĐẢO RÕ RÀNG\n\n**1. Lời mời hấp dẫn, công việc quá dễ**\n\nCác công việc được các đối tượng dùng để bẫy người tham gia thường là những công việc đơn giản, nhẹ nhàng, không yêu cầu kỹ năng chuyên môn hay máy móc thiết bị đặc biệt, nhưng lại đem lại thu nhập cao, thù lao trả ngay trong ngày.\n\n**2. Mức lương đúng với kịch bản lừa đảo điển hình**\n\nCác đối tượng nhắn tin, dẫn dụ nạn nhân làm cộng tác viên chạy quảng cáo, thanh toán các đơn hàng cho một sàn thương mại điện tử. Yêu cầu công việc rất đơn giản và phù hợp: không cần kinh nghiệm, chỉ cần có điện thoại và thẻ ATM. Thời gian làm việc linh động, chỉ cần rảnh từ 1–2 giờ mỗi ngày, và thu nhập từ **7–12 triệu đồng/tháng**.\n\n**3. Yêu cầu đăng ký qua app không rõ nguồn gốc (GoldJob)**\n\nKhông truy cập, đăng nhập, tải các web, đường link được gửi từ người lạ, không rõ nguồn gốc. App \"GoldJob\" không có tên tuổi, không phải nền tảng chính thống – đây là dấu hiệu nguy hiểm.\n\nSau khi đối tượng gửi link chứa mã độc, nạn nhân đăng nhập và bị chiếm quyền điều khiển điện thoại, chiếm đoạt tiền trong tài khoản ngân hàng.\n\n**4. Thủ đoạn \"câu nhử\" bằng hoa hồng nhỏ trước, rồi chiếm đoạt số tiền lớn**\n\nBan đầu, chúng giao các nhiệm vụ đơn giản như tương tác bài viết, đánh giá sản phẩm hoặc đặt hàng ảo. Khi nạn nhân hoàn thành nhiệm vụ, các đối tượng sẽ chuyển một khoản tiền hoa hồng nhỏ để tạo lòng tin. Sau đó, chúng hướng dẫn, dụ dỗ nạn nhân chốt nhiều đơn hàng với số tiền lớn hơn, đồng thời đưa ra nhiều lý do để không hoàn tiền và thanh toán hoa hồng như: cú pháp soạn tin bị sai, hệ thống bị lỗi, gặp sự cố về đơn hàng…\n\n**5. Kết cục: Mất trắng tiền**\n\nSau khi nạn nhân hết tiền để chuyển khoản hoặc phát hiện bị lừa, các đối tượng sẽ chặn toàn bộ liên lạc với nạn nhân và chiếm đoạt toàn bộ số tiền.\n\n**6. Nhắm vào đúng đối tượng dễ bị tổn thương**\n\nMột số địa phương đã ghi nhận phản ánh của các nạn nhân, hầu hết là phụ nữ, sinh viên, các bà nội trợ cần tìm \"việc nhẹ, lương cao\".\n\n---\n\n### 🧠 TẠI SAO LẠI KHÓ NHẬN RA?\n\nĐể tạo lòng tin với nạn nhân, các đối tượng lừa đảo tự xưng là nhân viên của công ty môi giới việc làm hoặc các doanh nghiệp lớn, uy tín để đăng bài mạo danh tuyển dụng.\n\nTrong quá trình lừa đảo, các đối tượng liên tục dồn ép nạn nhân khiến họ bị ảnh hưởng tâm lý, rơi vào trạng thái hoang mang, lo lắng và sợ rằng sẽ không lấy lại được số tiền, buộc nạn nhân phải tiếp tục chuyển tiền.\n\n---\n\n### ✅ CHỊ GÁI BẠN CẦN LÀM GÌ NGAY?\n\n| STT | Hành động cần làm |\n|-----|------------------|\n| 🛑 1 | **Không đăng ký, không tải app GoldJob** hoặc bất kỳ ứng dụng nào do người lạ gửi |\n| 🚫 2 | **Không chuyển khoản** bất kỳ số tiền nào, dù là \"đặt cọc\", \"phí đăng ký\", hay \"xác minh tài khoản\" |\n| 🔒 3 | **Không cung cấp thông tin cá nhân**: CCCD, số tài khoản ngân hàng, mã OTP |\n| 📵 4 | **Chặn và báo cáo** số điện thoại/tài khoản mạng xã hội của đối tượng |\n| 🚔 5 | **Trình báo công an** địa phương nếu đã bị mất tiền hoặc cung cấp thông tin cá nhân |\n\nKhi gặp các trường hợp đối tượng có dấu hiệu lừa đảo, người dân cần trình báo ngay cơ quan Công an nơi gần nhất để được hướng dẫn và xử lý kịp thời.\n\n---\n\n### 💡 GHI NHỚ\n\n\u003e **Không có công việc hợp pháp nào yêu cầu bạn nạp tiền trước để \"chốt đơn\" hay \"xác minh tài khoản\".** Đây luôn là dấu hiệu lừa đảo!\n\nHãy chia sẻ thông tin này với chị gái và những người thân xung quanh để cùng phòng tránh nhé! 🙏",
+  "sources": [
+    "https://canhsatquanlyhanhchinh.gov.vn/phong-chong-toi-pham/canh-giac-thu-doan-lua-dao-tuyen-cong-tac-vien-lam-online-viec-nhe-luong-cao-2681",
+    "https://conganthanhhoa.gov.vn/tin-tuc-su-kien/tin-an-ninh-trat-tu/canh-giac-voi-thu-doan-lua-chot-don-hang-kiem-tien-online-.html",
+    "https://bidv.com.vn/bidv/ca-nhan/thong-bao/thay-doi-mang-luoi/canh-bao-lua-dao-lam-nhiem-vu-online-nhan-hoa-hong",
+    "https://thanhnien.vn/mo-mang-la-gap-bay-lua-mat-tien-vi-chot-don-hang-tai-nha-185240508174947214.htm",
+    "https://thichlamthem.com/kinh-nghiem-lam-them/nhung-viec-lam-online-de-bi-lua-dao-nhat-hien-nay.html",
+    "https://nld.com.vn/cong-doan/7-dau-hieu-nhan-biet-hanh-vi-lua-dao-tuyen-dung-qua-mang-20221118075752826.htm",
+    "https://congan.tuyenquang.gov.vn/vi/tin-bai/canh-giac-thu-doan-lua-dao-tuyen-cong-tac-vien-lam-online-viec-nhe-luong-cao?type=NEWS\u0026id=163145",
+    "https://baovinhlong.com.vn/phap-luat/202208/thu-doan-lua-dao-tuyen-cong-tac-vien-xu-ly-don-hang-online-3130517/",
+    "https://thainguyen.gov.vn/an-ninh-an-toan/-/asset_publisher/L0n17VJXU23O/content/nhan-viec-chot-on-hang-online-can-than-sap-bay-lua-ao?inheritRedirect=false",
+    "https://luatminhkhue.vn/phai-lam-gi-khi-bi-lua-dao-cong-viec-chot-don-hang-tai-nha.aspx",
+    "https://tinhte.vn/thread/hung-phat-usa-co-lua-dao-khong-giai-dap-ro-rang-tu-a-z.4047429/",
+    "https://tuanhungphat.vn/canh-bao-mao-danh-thuong-hieu-tuan-hung-phat/",
+    "https://cand.vn/Cong-nghe/tai-dien-nhieu-tro-lua-dao-tuyen-cong-tac-vien-viec-nhe-luong-cao-i724233/",
+    "https://congan.hatinh.gov.vn/bai-viet/can-trong-sap-bay-viec-nhe-luong-cao-tren-mang-xa-hoi_1712296389.caht",
+    "https://www.vietnamplus.vn/chot-don-hang-online-can-trong-tranh-sap-bay-viec-nhe-luong-cao-post851962.vnp",
+    "https://kienthuc.net.vn/bat-chu-tich-cong-ty-tap-doan-viet-hung-phat-lua-dao-650-ty-dong-post805004.html"
+  ],
+  "latency_ms": 67769
+}

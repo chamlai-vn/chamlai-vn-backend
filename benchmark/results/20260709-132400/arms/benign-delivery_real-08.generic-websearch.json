@@ -1,0 +1,27 @@
+{
+  "case_id": "benign-delivery_real-08",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Không nêu đơn vị vận chuyển cụ thể, mã vận đơn, tên người nhận hay thông tin đơn hàng — tên 'Công ty Vận chuyển Bưu Điện Tốc Độ Cao' rất chung chung",
+      "Tạo cảm giác khẩn cấp ('giao trong vòng 24 giờ') để thúc giục phản hồi",
+      "Yêu cầu cung cấp thông tin cá nhân (số điện thoại, địa chỉ) mà không có cách xác thực chính thức"
+    ],
+    "matched_patterns": [
+      "Giả mạo đơn vị vận chuyển để thu thập thông tin cá nhân, dẫn tới link giả mạo hoặc yêu cầu thanh toán phí"
+    ],
+    "recommended_actions": [
+      "Không trả lời tin nhắn, không cung cấp số điện thoại, địa chỉ hoặc thông tin cá nhân",
+      "Không bấm vào link nếu sau này họ gửi",
+      "Kiểm tra trực tiếp trên app/website chính thức của đơn vị vận chuyển, hoặc liên hệ người bán để xác nhận đơn hàng",
+      "Nếu đã lỡ cung cấp thông tin, cảnh giác với các cuộc gọi/tin nhắn tiếp theo yêu cầu chuyển tiền, OTP, hoặc đăng nhập trang lạ"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "**Đánh giá:** Khả năng cao là **tin nhắn lừa đảo hoặc ít nhất là rất đáng ngờ**.\n\n**Lý do:**\n\n* Tin nhắn không nêu **đơn vị vận chuyển cụ thể**, mã vận đơn, tên người nhận hoặc thông tin đơn hàng. \"Công ty Vận chuyển Bưu Điện Tốc Độ Cao\" là tên rất chung chung.\n* Nội dung tạo cảm giác **khẩn cấp** (\"giao trong vòng 24 giờ\") để thúc giục bạn phản hồi.\n* Tin nhắn yêu cầu bạn **cung cấp thông tin cá nhân** (số điện thoại, địa chỉ) mà không có cách xác thực chính thức.\n* Đây là một kịch bản rất phổ biến: kẻ gian giả mạo đơn vị vận chuyển để thu thập thông tin cá nhân, sau đó có thể gửi liên kết giả mạo, yêu cầu thanh toán phí hoặc đánh cắp tài khoản. Các cơ quan và chuyên gia an toàn thông tin tại Việt Nam đã nhiều lần cảnh báo về hình thức này. ([VietNamNet News][1])\n\n**Bạn nên làm gì:**\n\n1. **Không trả lời** tin nhắn và không cung cấp số điện thoại, địa chỉ hoặc thông tin cá nhân.\n2. Nếu sau này họ gửi **đường link**, **không bấm vào**.\n3. Nếu bạn thực sự đang chờ một bưu kiện:\n\n   * Kiểm tra trực tiếp trên ứng dụng hoặc website chính thức của đơn vị vận chuyển.\n   * Liên hệ người bán để xác nhận đơn hàng và đơn vị giao hàng.\n4. Nếu đã lỡ cung cấp thông tin, hãy cảnh giác với các cuộc gọi/tin nhắn tiếp theo yêu cầu chuyển tiền, cung cấp mã OTP hoặc đăng nhập vào một trang web lạ.\n\n**Mức độ rủi ro:** **8/10 (cao)**.\n\nRiêng nội dung bạn gửi chưa yêu cầu chuyển tiền hoặc bấm liên kết, nên chưa thể khẳng định 100% là lừa đảo. Tuy nhiên, nó có nhiều dấu hiệu trùng khớp với các chiến dịch giả mạo đơn vị giao hàng đã được ghi nhận, vì vậy nên coi là không đáng tin cậy cho đến khi được xác minh qua kênh chính thức. ([VietNamNet News][1])\n\n[1]: https://vietnamnet.vn/en/how-leaked-data-led-to-a-spike-in-fake-shipper-scams-in-vietnam-2382585.html?utm_source=chatgpt.com \"How leaked data led to a spike in fake shipper scams in Vietnam\"",
+  "sources": [
+    "https://vietnamnet.vn/en/how-leaked-data-led-to-a-spike-in-fake-shipper-scams-in-vietnam-2382585.html?utm_source=chatgpt.com"
+  ],
+  "latency_ms": 0
+}

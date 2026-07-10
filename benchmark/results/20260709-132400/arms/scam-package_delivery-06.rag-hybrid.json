@@ -1,0 +1,30 @@
+{
+  "case_id": "scam-package_delivery-06",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Số điện thoại lạ gửi tin nhắn tự xưng công ty vận chuyển",
+      "Yêu cầu click vào đường link lạ (shiptrack-vn.xyz) để thanh toán",
+      "Website giả mạo có giao diện giống trang chính thức nhưng URL khác biệt",
+      "Yêu cầu điền thông tin thẻ ngân hàng, CVV, mã OTP qua link lạ",
+      "Nạn nhân chẳng nhớ đặt hàng nhưng vẫn bấm vào link vì sợ mất hàng (tâm lý áp lực)",
+      "Số điện thoại không nhận máy khi gọi lại để xác minh",
+      "Tài khoản ngân hàng bị rút tiền trái phép sau khi nhập thông tin vào website giả"
+    ],
+    "matched_patterns": [
+      "tech_fraud - Giả danh shipper dẫn dụ click link giả để hack tài khoản và ăn cắp tiền",
+      "package_delivery - Giả danh shipper lừa đảo qua cuộc gọi và đường link dụ dỗ"
+    ],
+    "recommended_actions": [
+      "Liên hệ ngay với ngân hàng để thông báo tài khoản bị hack, yêu cầu khóa thẻ và kiểm tra các giao dịch bất thường",
+      "Nộp đơn trình báo sự việc với Công an địa phương hoặc Cảnh sát hình sự để lập hồ sơ",
+      "Liên hệ với công ty vận chuyển FastGo qua số điện thoại chính thức để báo cáo tình huống mạo danh",
+      "Thay đổi mật khẩu ngân hàng và các tài khoản quan trọng khác từ thiết bị an toàn",
+      "Kiểm tra định kỳ tài khoản ngân hàng trong những tuần tới để phát hiện sớm các giao dịch bất thường",
+      "Trong tương lai, chỉ click vào link từ ứng dụng chính thức của công ty vận chuyển, không bao giờ từ tin nhắn lạ"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 8663
+}

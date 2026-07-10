@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-package_delivery-06",
+  "rag_verdict": {
+    "strengths": [
+      "Nhận diện đúng nạn nhân đã mất 2,45 triệu qua web giả FastGo lấy thẻ/CVV/OTP",
+      "Phủ đủ 4 ý chính: SMS giả shipper, web nhái lấy thẻ + OTP, nhập vì sợ mất hàng, tiền bị rút nhiều giao dịch",
+      "Khuyến nghị đúng: báo ngân hàng khóa thẻ + tra soát, trình báo công an, đổi mật khẩu từ thiết bị an toàn",
+      "Pattern khớp đúng loại"
+    ],
+    "weaknesses": [
+      "Không cảnh báo nguy cơ 'bị lừa lần hai'",
+      "Không nêu số hotline/đường dây nóng cụ thể",
+      "Không nêu kênh báo cáo tin nhắn (156)"
+    ],
+    "reasoning": "Chính xác và phủ đủ ý chính với khuyến nghị khắc phục hợp lý. Thiếu cảnh báo lừa lần hai và kênh cụ thể.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Giải thích rõ vì sao nhập CVV + OTP là chắc chắn lừa đảo và cơ chế 3 giao dịch lạ",
+      "Hướng dẫn khắc phục: gọi hotline in trên thẻ khóa thẻ, trình báo 0692 345 860, thu thập bằng chứng",
+      "Cảnh báo rõ 'không tìm dịch vụ lấy lại tiền' để tránh lừa lần hai, kênh 156/5656",
+      "Nguyên tắc an toàn về sau"
+    ],
+    "weaknesses": [
+      "Không có nguồn web trích dẫn (sources=0)",
+      "Hơi dài"
+    ],
+    "reasoning": "Toàn diện, giải thích cơ chế và quy trình khắc phục kèm cảnh báo lừa lần hai. Trừ điểm nhẹ vì không có nguồn trích dẫn.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

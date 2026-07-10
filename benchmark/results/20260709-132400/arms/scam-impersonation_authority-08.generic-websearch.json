@@ -1,0 +1,52 @@
+{
+  "case_id": "scam-impersonation_authority-08",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Giả danh Công an qua điện thoại để yêu cầu người dân thực hiện theo hướng dẫn",
+      "Yêu cầu cài đặt ứng dụng 'VNeID Verify Pro' từ đường dẫn lạ — ứng dụng giả mạo chứa mã độc có thể chiếm quyền điều khiển điện thoại",
+      "Yêu cầu chuyển tiền (2.500.000 đồng) vào 'Quỹ' không rõ danh tính dưới danh nghĩa kích hoạt/nâng cấp tài khoản định danh điện tử",
+      "Sử dụng giấy tờ giả, danh tính bịa đặt: 'Trung tá Nguyễn Văn Linh, mã số CA0289' và 'Thông báo vi phạm số 2024/CP-CAH'",
+      "Tên ứng dụng 'VNeID Verify Pro' không tồn tại — Bộ Công an chỉ có một ứng dụng duy nhất là VNeID, và việc định danh mức 2 phải thực hiện trực tiếp tại trụ sở Công an"
+    ],
+    "matched_patterns": [
+      "Giả danh Công an qua điện thoại",
+      "Yêu cầu cài ứng dụng giả mạo từ link lạ",
+      "Yêu cầu chuyển tiền vào quỹ không rõ danh tính",
+      "Giả mạo giấy tờ và danh tính cơ quan Nhà nước",
+      "Giả mạo ứng dụng VNeID/dịch vụ công"
+    ],
+    "recommended_actions": [
+      "Nếu đã tải app giả mạo: tắt wifi/dữ liệu di động ngay lập tức, sau đó xóa ứng dụng 'VNeID Verify Pro'",
+      "Đăng nhập ngân hàng để kiểm tra số dư và lịch sử giao dịch; liên hệ hotline ngân hàng để tạm khóa tài khoản nếu nghi ngờ bị xâm phạm",
+      "Tuyệt đối KHÔNG làm theo bất kỳ yêu cầu nào thêm và KHÔNG chuyển 2.500.000 đồng hoặc bất kỳ số tiền nào",
+      "Báo ngay cho Công an: gọi 113, hoặc đến Công an phường/xã gần nhất để trình báo, hoặc phản ánh qua đường dây 156/5656 của Bộ TT\u0026TT",
+      "Chỉ tải ứng dụng VNeID chính thức từ CH Play hoặc App Store, kiểm tra kỹ thông tin nhà phát triển, tuyệt đối không cài đặt từ các đường dẫn lạ"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 ĐÂY LÀ LỪA ĐẢO 100% — Rất nguy hiểm!\n\nTình huống anh Minh gặp phải là **một vụ lừa đảo điển hình, đã được cơ quan Công an Việt Nam cảnh báo nhiều lần**. Dưới đây là phân tích chi tiết:\n\n---\n\n## ❌ Tại sao khẳng định đây là lừa đảo?\n\n### 🔴 Dấu hiệu 1: Giả danh Công an qua điện thoại\nTội phạm mạo danh cán bộ cơ quan Nhà nước để lừa đảo chiếm đoạt tài sản thông qua việc yêu cầu người dân cài đặt ứng dụng VNeID giả mạo là thủ đoạn đã được Công an nhiều địa phương cảnh báo.\n\n### 🔴 Dấu hiệu 2: Yêu cầu cài ứng dụng từ link lạ — CỰC KỲ NGUY HIỂM\nCác đối tượng đã tạo các phần mềm giả mạo, sau đó giả danh Công an yêu cầu người dân cài đặt để **chiếm quyền điều khiển điện thoại di động** rồi chiếm đoạt tài sản trong ứng dụng ngân hàng điện tử.\n\nChúng yêu cầu người dân truy cập đường dẫn lạ hoặc cài đặt ứng dụng giả mạo VNeID, dịch vụ công có chứa mã độc. Khi nạn nhân làm theo, các đối tượng có thể chiếm quyền điều khiển thiết bị, từ đó dụ dỗ cung cấp mã OTP, thông tin ngân hàng hoặc **đánh cắp dữ liệu sinh trắc học** để thực hiện hành vi chiếm đoạt tài sản.\n\n### 🔴 Dấu hiệu 3: Yêu cầu chuyển tiền vào \"Quỹ\" không rõ danh tính\nĐây là bước cuối điển hình của kịch bản lừa đảo — tạo áp lực tâm lý rồi đòi tiền. Người dân không được tin tưởng các cuộc gọi, tin nhắn từ số lạ tự xưng là cán bộ Công an **yêu cầu chuyển tiền** để \"kích hoạt\", \"nâng cấp\" hoặc \"làm nhanh\" tài khoản định danh điện tử.\n\n### 🔴 Dấu hiệu 4: Giấy tờ giả, danh tính bịa đặt\nCó những trường hợp đối tượng sử dụng hình ảnh, trang phục giống lực lượng Công an nhân dân để gọi video tạo lòng tin; thậm chí **giả mạo cả số điện thoại cơ quan nhà nước** nhằm đánh lừa nạn nhân. \"Trung tá Nguyễn Văn Linh, mã số CA0289\" và \"Thông báo vi phạm số 2024/CP-CAH\" đều là bịa đặt.\n\n### 🔴 Dấu hiệu 5: VNeID KHÔNG có tên \"VNeID Verify Pro\"\nBộ Công an cho biết chỉ có **một ứng dụng duy nhất là VNeID** để kích hoạt định danh điện tử mức 2. Việc định danh điện tử mức 2 phải do công dân **trực tiếp đến trụ sở Công an** để làm, không thể thực hiện trực tuyến.\n\n---\n\n## ✅ Anh Minh cần làm ngay bây giờ:\n\n### Bước 1: Nếu đã tải app giả mạo\n- **Tắt wifi/dữ liệu di động ngay lập tức**\n- **Xóa ứng dụng** \"VNeID Verify Pro\" đó ngay\n- **Đăng nhập ngân hàng** để kiểm tra số dư và lịch sử giao dịch\n- **Liên hệ hotline ngân hàng** để tạm khóa tài khoản nếu nghi ngờ bị xâm phạm\n\n### Bước 2: Nếu chưa tải app / chưa chuyển tiền\n- **Tuyệt đối KHÔNG làm theo** bất kỳ yêu cầu nào thêm\n- **Không chuyển 2.500.000 đồng** hoặc bất kỳ số tiền nào\n\n### Bước 3: Báo cáo ngay cho Công an\nKhi gặp các tình huống có dấu hiệu lừa đảo, cần **báo ngay cho lực lượng Công an** để kịp thời điều tra, làm rõ.\n- Gọi **113** (Cảnh sát phòng chống tội phạm)\n- Hoặc đến **Công an phường/xã gần nhất** để trình báo\n- Có thể phản ánh qua **đường dây 156 hoặc 5656** của Bộ TT\u0026TT\n\n### Bước 4: Chỉ tải VNeID từ nguồn chính thống\nỨng dụng VNeID chính thức do Trung tâm Dữ liệu quốc gia về dân cư phát triển, được cung cấp trên **CH Play và App Store**, có gắn nhãn xác thực của cơ quan Nhà nước. Người dân cần kiểm tra kỹ thông tin nhà phát triển, biểu tượng và đánh giá ứng dụng trước khi tải về; **tuyệt đối không cài đặt từ các đường dẫn lạ**.\n\n---\n\n## 🔒 Ghi nhớ quy tắc vàng:\n\u003e **Công an thật sự KHÔNG BAO GIỜ:**\n\u003e - Gọi điện yêu cầu cài app qua link lạ\n\u003e - Yêu cầu chuyển tiền vào \"quỹ\" qua điện thoại\n\u003e - Xử lý vi phạm hành chính qua điện thoại mà không có giấy tờ tống đạt trực tiếp\n\nHãy chia sẻ thông tin này với anh Minh và những người thân khác để tránh sập bẫy!",
+  "sources": [
+    "https://congan.thainguyen.gov.vn/tin-tuc/an-ninh-trat-tu/canh-bao-thu-doan-mao-danh-can-bo-nha-nuoc-yeu-cau-cai-dat-ung-dung-vneid-gia-mao-de-lua-dao-2768.html",
+    "https://bocongan.gov.vn/bai-viet/canh-bao-thu-doan-lua-dao-cai-ung-dung-vneid-gia-mao-d22-t45880",
+    "https://congan.binhdinh.gov.vn/vi/news/canh-giac/canh-bao-thu-doan-lua-dao-qua-cai-dat-ung-dung-vneid-gia-3583.html",
+    "https://chinhsachcuocsong.vnanet.vn/canh-giac-lua-dao-mao-danh-cong-an-yeu-cau-tai-cai-ung-dung-vneid-gia-mao/51523.html",
+    "https://conganbacgiang.gov.vn/canh-giac-thu-doan-lua-dao-mao-danh-cong-an-yeu-cau-cai-ung-dung-vneid-gia-mao.html",
+    "https://www.vietnamplus.vn/canh-giac-lua-dao-mao-danh-cong-an-yeu-cau-tai-cai-ung-dung-vneid-gia-mao-post995565.vnp",
+    "https://congan.com.vn/vu-an/canh-giac/canh-giac-doi-tuong-mao-danh-cong-an-yeu-cau-cai-ung-dung-vneid-gia-mao_170553.html",
+    "https://antv.gov.vn/phap-luat-3/tai-dien-thu-doan-gia-mao-cong-an-lua-dao-cai-dat-ung-dung-vneid-gia-mao-D9A2AAF9B.html",
+    "https://tuoitre.vn/gia-cong-an-huong-dan-cai-app-vneid-dom-lua-lay-tien-ti-20240318224720091.htm",
+    "https://www.danang.gov.vn/vi/web/dng/w/canh-giac-voi-cac-ung-dung-app-gia-mao-ung-dung-vneid-cua-bo-cong-an-i",
+    "https://hatinh.gov.vn/vi/bai-viet/can-trong-truoc-chieu-tro-lua-dao-khi-xac-thuc-sinh-trac-hoc",
+    "https://congan.ninhbinh.gov.vn/canh-bao-thu-doan-loi-dung-dang-ky-dinh-danh-dien-tu-muc-do-2-cho-tre-em-de-lua-dao-chiem-doat-tai-san",
+    "https://congan.quangtri.gov.vn/canh-bao-thu-doan-lua-dao-cai-ung-dung-vneid-gia-mao/",
+    "https://kenh14.vn/cong-an-co-thong-bao-quan-trong-den-nguoi-dung-vneid-215260525144007214.chn",
+    "https://congan.ninhbinh.gov.vn/luc-luong-cong-an-canh-bao-thu-doan-loi-dung-dang-ky-dinh-danh-dien-tu-muc-do-2-cho-tre-em-de-lua-dao-chiem-doat-tai-san",
+    "https://hoilhpn.org.vn/en/tin-chi-tiet/-/chi-tiet/canh-bao-thu-%C4%91oan-lua-%C4%91ao-yeu-cau-cap-nhat-%C4%91inh-danh-%C4%91ien-tu-muc-%C4%91o-2-lien-quan-%C4%91en-cong-tac-tuyen-sinh-%C4%91au-cap-hoc-bac-hoc-551901-4.html",
+    "https://vov.vn/phap-luat/canh-bao-chieu-tro-lua-dao-khi-xac-thuc-sinh-trac-hoc-post1133083.vov",
+    "https://vnreview.vn/threads/canh-bao-thu-doan-gia-danh-ho-tro-dinh-danh-dien-tu-de-lua-dao-phu-huynh.83459/",
+    "https://soha.vn/cong-an-canh-bao-quan-trong-lien-quan-den-the-can-cuoc-198260601153616313.htm"
+  ],
+  "latency_ms": 57725
+}

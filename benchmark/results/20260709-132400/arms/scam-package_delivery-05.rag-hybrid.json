@@ -1,0 +1,29 @@
+{
+  "case_id": "scam-package_delivery-05",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Yêu cầu thanh toán trước qua link lạ thay vì COD",
+      "Đường link giả mạo (shipgiao-xnb.vn) không phải của Shopee hoặc đơn vị giao hàng chính thức",
+      "Tạo áp lực thời gian (phải thanh toán trong 24h)",
+      "Mạo danh bưu cục/bưu điện để tăng độ tin cậy",
+      "Số điện thoại liên hệ không thể xác minh từ nguồn chính thức",
+      "Sử dụng mã track giả để làm cho tin nhắn trông hợp lệ"
+    ],
+    "matched_patterns": [
+      "Giả danh shipper gọi điện yêu cầu chuyển khoản trước, gửi link giả mạo",
+      "Mạo danh shipper gọi điện yêu cầu chuyển khoản thanh toán đơn hàng không thật",
+      "Giả danh shipper dẫn dụ click link giả để hack tài khoản và ăn cắp tiền"
+    ],
+    "recommended_actions": [
+      "Không click vào link được cung cấp trong tin nhắn, vì đây có thể là trang giả mạo chứa mã độc hoặc ghi lại thông tin đăng nhập",
+      "Kiểm tra trực tiếp trên ứng dụng Shopee chính thức để xác minh xem có đơn hàng nào đang chờ thanh toán hay không",
+      "Gọi lại hotline chính thức của Shopee (1900 6165) hoặc bưu cục địa phương qua số điện thoại tra cứu chính thức để xác nhận",
+      "Không chuyển khoản cho bất kỳ số tài khoản nào được cung cấp qua tin nhắn",
+      "Báo cáo tin nhắn này cho Shopee và cơ quan an ninh mạng để hỗ trợ khác bị lừa"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 7513
+}

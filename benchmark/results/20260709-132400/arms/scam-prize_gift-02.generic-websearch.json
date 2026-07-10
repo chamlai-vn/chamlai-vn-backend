@@ -1,0 +1,53 @@
+{
+  "case_id": "scam-prize_gift-02",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Người nhận không hề đăng ký tham gia chương trình trúng thưởng nào trước đó",
+      "Tin nhắn được gửi từ số lạ kèm theo đường link đáng ngờ",
+      "Kẻ lừa đảo mạo danh công ty/tập đoàn có vẻ uy tín (ví dụ: 'Tập đoàn Thương mại Việt Á') để tạo lòng tin",
+      "Đường link trong tin nhắn có thể dẫn đến trang web giả mạo hoặc chứa mã độc nhằm đánh cắp thông tin cá nhân và tài khoản ngân hàng",
+      "Có khả năng yêu cầu đóng tiền trước (phí nhận giải, thuế thu nhập cá nhân, phí vận chuyển) để nhận thưởng",
+      "Kẻ lừa đảo sẽ chặn số hoặc xóa tài khoản sau khi chiếm đoạt tiền/thông tin, khiến nạn nhân không thể liên lạc lại"
+    ],
+    "matched_patterns": [
+      "Lừa đảo trúng thưởng giả mạo",
+      "Mạo danh công ty uy tín",
+      "Gửi link độc hại qua tin nhắn",
+      "Yêu cầu đóng phí để nhận thưởng"
+    ],
+    "recommended_actions": [
+      "Tuyệt đối không bấm vào đường link trong tin nhắn",
+      "Không gọi lại hoặc nhắn tin lại cho số lạ đó",
+      "Không cung cấp bất kỳ thông tin nhạy cảm nào như tên tuổi, địa chỉ, số tài khoản ngân hàng, mã OTP",
+      "Không chuyển tiền dưới bất kỳ hình thức nào để 'nhận thưởng'",
+      "Xóa tin nhắn và chặn số điện thoại lạ",
+      "Nếu đã lỡ cung cấp thông tin hoặc chuyển tiền, hãy thu thập bằng chứng (tin nhắn, số điện thoại, sao kê chuyển khoản) và trình báo công an xã/phường nơi cư trú",
+      "Liên hệ Tổng đài Bộ Công Thương 1800 6838 hoặc đường dây nóng An ninh mạng 069.219.4053 để được hỗ trợ",
+      "Chia sẻ thông tin cảnh báo này với người thân, đặc biệt là người cao tuổi"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## 🚨 ĐÂY LÀ LỪA ĐẢO! Hãy DỪNG NGAY và ĐỪNG bấm vào link đó!\n\nTình huống em mô tả có **đầy đủ dấu hiệu** của một chiêu trò lừa đảo cực kỳ phổ biến tại Việt Nam. Dưới đây là phân tích chi tiết:\n\n---\n\n### 🔍 Tại sao đây là lừa đảo?\n\n**1. Em không hề đăng ký tham gia chương trình nào**\nTheo Cục Cạnh tranh và Bảo vệ người tiêu dùng, bất kể là trúng thưởng trong chương trình nào, người tiêu dùng cũng phải là người đã đăng ký tham gia các chương trình quay thưởng/bốc thăm trúng thưởng đó. Không có việc doanh nghiệp tự lựa chọn khách hàng rồi quay thưởng và trao thưởng khi không có thông báo trước.\n\n**2. Gửi tin nhắn từ số lạ kèm link — đây là dấu hiệu điển hình**\nCác thông báo trúng thưởng hấp dẫn thường được gửi thông qua tin nhắn điện thoại hoặc các ứng dụng nhắn tin trực tuyến như Messenger, Zalo, Telegram… kèm theo một đường link lạ để truy cập vào trang web lừa đảo.\n\n**3. Kịch bản \"mạo danh công ty\" là thủ đoạn phổ biến**\nĐể tạo lòng tin, các đối tượng thường tự xưng là nhân viên của các công ty, siêu thị uy tín, hoặc các chương trình đã được Bộ Công Thương cấp phép. \"Tập đoàn Thương mại Việt Á\" được dùng để nghe có vẻ uy tín, nhưng đây thường là tên giả hoặc \"công ty ma\".\n\n**4. Bấm link sẽ dẫn đến hậu quả nghiêm trọng**\nĐối tượng yêu cầu người nhận truy cập vào đường link chứa mã độc, trang web giả mạo để cung cấp thông tin cá nhân, tài khoản ngân hàng, hoặc chuyển tiền \"phí nhận giải\", \"thuế thu nhập cá nhân\", \"phí vận chuyển\" để nhận thưởng. Khi nạn nhân làm theo, toàn bộ thông tin cá nhân và tiền trong tài khoản có thể bị đánh cắp.\n\n**5. Sau đó chúng sẽ \"mất tích\"**\nNạn nhân không bao giờ nhận được số tiền thắng giải như được hứa hẹn và kẻ lừa đảo sẽ chặn số điện thoại hoặc xóa tài khoản trên mạng xã hội khiến nạn nhân không thể liên lạc được.\n\n**6. Hậu quả có thể rất nặng nề**\nHầu hết người tiêu dùng tin và làm theo hướng dẫn của những đối tượng lạ đã mất từ vài triệu đến hàng trăm triệu đồng nhưng không hề nhận được bất cứ phần thưởng hoặc quà khuyến mại nào.\n\n---\n\n### ✅ Em cần làm gì ngay bây giờ?\n\n| Hành động | Chi tiết |\n|-----------|----------|\n| 🚫 **Không bấm vào link** | Tuyệt đối không truy cập đường link trong tin nhắn đó |\n| 🔇 **Không phản hồi** | Không gọi lại, không nhắn tin lại cho số lạ đó |\n| 🔒 **Không cung cấp thông tin** | Tuyệt đối không cung cấp các thông tin nhạy cảm như tên tuổi, địa chỉ, số tài khoản ngân hàng, mã OTP khi đối tượng yêu cầu. |\n| 💰 **Không chuyển tiền** | Tuyệt đối không chuyển tiền để \"nhận thưởng\" dưới bất kỳ hình thức nào. |\n| 🗑️ **Xóa tin nhắn** | Xóa tin nhắn đó và chặn số điện thoại lạ |\n| 👮 **Trình báo công an** | Nếu đã lỡ cung cấp thông tin hoặc chuyển tiền, hãy thu thập bằng chứng như tin nhắn điện thoại, thông tin số điện thoại, sao kê chuyển khoản, rồi đem đến công an xã/phường nơi mình đang cư trú để trình báo. |\n| 📞 **Gọi đường dây nóng** | Bộ Công Thương khuyến cáo người tiêu dùng liên hệ qua Tổng đài **1800 6838** để được hỗ trợ kịp thời. Hoặc gọi đường dây nóng An ninh mạng: **069.219.4053** |\n\n---\n\n### 💡 Lưu ý thêm\n\nCác chương trình trúng thưởng **thật** sẽ có quy trình xác minh rõ ràng, công khai thông tin trên website và fanpage chính thức, và **không bao giờ yêu cầu đóng tiền trước**.\n\n\u003e ⚠️ **Kết luận:** Tin nhắn em nhận được là **LỪA ĐẢO 100%**. Em đã làm đúng khi nghi ngờ và tìm hiểu trước! Hãy chia sẻ thông tin này với người thân, đặc biệt là người cao tuổi, để họ không bị sập bẫy nhé!",
+  "sources": [
+    "https://vov.gov.vn/nhan-dien-nhung-chieu-tro-lua-dao-nhan-qua-trung-thuong-dtnew-597176",
+    "https://congan.baria-vungtau.gov.vn/vi/chi-tiet-tin-tuc?Id=72",
+    "https://nhandan.vn/canh-giac-voi-thu-doan-lua-trung-thuong-post933798.html",
+    "https://thanhnien.vn/chieu-tro-tha-con-tep-bat-con-tom-du-nan-nhan-sap-bay-lua-185240330143743712.htm",
+    "https://congan.ninhbinh.gov.vn/canh-bao-thu-doan-lua-dao-chiem-doat-tai-san-bang-hinh-thuc-thong-bao-nhan-duoc-giai-thuong-hoac-tra-tien-don-hang",
+    "https://vtv.vn/lua-dao-trung-thuong.html",
+    "https://vov.vn/phap-luat/boc-go-duong-day-lua-dao-mua-hang-trung-thuong-tren-mang-post1259930.vov",
+    "https://hatinh.gov.vn/vi/bai-viet/canh-bao-tro-gia-danh-san-thuong-mai-dien-tu-sieu-thi-dien-may-de-lua-dao",
+    "https://truongdinh.haibatrung.hanoi.gov.vn/an-ninh-quoc-phong/-/asset_publisher/UByp2W88WPKe/content/nhan-dien-nhung-chieu-tro-lua-ao-nhan-qua-trung-thuong",
+    "https://bocongan.gov.vn/bai-viet/cong-an-tinh-thanh-hoa-triet-pha-duong-day-lua-dao-bang-hinh-thuc-thong-bao-trung-thuong-1766998122",
+    "https://truongdinh.haibatrung.hanoi.gov.vn/chuyen-doi-so/-/asset_publisher/UByp2W88WPKe/content/nhan-dien-nhung-chieu-tro-lua-ao-nhan-qua-trung-thuong",
+    "https://baochinhphu.vn/canh-bao-lua-dao-trung-thuong-qua-dien-thoai-va-mang-xa-hoi-facebook-102295288.htm",
+    "http://thuyxuantien.chuongmy.hanoi.gov.vn/tin-tuc-su-kien/tin-tuc-thanh-pho/nhan-dien-nhung-chieu-tro-lua-dao-nhan-qua-trung-thuong.html",
+    "https://viettimes.vn/cach-nhan-dien-chieu-tro-lua-dao-trung-thuong-qua-mang-post176946.html",
+    "https://congan.quangngai.gov.vn/danh-muc-san-pham/-tin-tuc-su-kien/canh-bao-hinh-thuc-lua-dao-livestream-xo-so-cao-trung-thuong.html",
+    "https://congan.dongthap.gov.vn/en/chi-tiet-bai-viet/-/asset_publisher/wbj7qfWZntAi/content/id/24855358",
+    "https://cand.com.vn/dieu-tra-theo-don-ban-doc/Canh-bao-chieu-tro-lua-dao-trung-thuong-qua-dien-thoai-mang-xa-hoi-i619048/"
+  ],
+  "latency_ms": 55220
+}

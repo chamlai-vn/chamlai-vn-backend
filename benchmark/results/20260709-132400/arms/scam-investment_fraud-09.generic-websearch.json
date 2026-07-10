@@ -1,0 +1,58 @@
+{
+  "case_id": "scam-investment_fraud-09",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Tiếp cận qua mạng xã hội, sau đó chuyển sang Telegram — kịch bản dụ dỗ cổ điển",
+      "Ứng dụng 'DeltaTrading Pro' là app giả mạo không rõ nguồn gốc",
+      "Lợi nhuận tăng ảo (từ 5 triệu lên 7,2 triệu) chỉ là con số được tạo ra để dụ nạp thêm tiền",
+      "Yêu cầu nạp thêm tiền để 'nâng level' hoặc đủ điều kiện rút tiền — bẫy kinh điển",
+      "Chuyển tiền vào tài khoản cá nhân tên 'Phạm Thị Hoa', không phải tổ chức tài chính hợp pháp",
+      "Tín hiệu giao dịch 'chính xác' ban đầu chỉ là chiêu mồi nhử để tạo lòng tin",
+      "Cấu trúc lừa đảo có tổ chức với nhiều thành viên trà trộn vào nhóm",
+      "Có nguy cơ bị lừa thêm lần thứ hai bởi các đối tượng giả mạo cơ quan chức năng hoặc nhóm 'chống lừa đảo'"
+    ],
+    "matched_patterns": [
+      "Lừa đảo đầu tư tài chính qua mạng (sàn giao dịch giả mạo)",
+      "Dụ dỗ làm quen qua mạng xã hội rồi lôi kéo đầu tư (Pig Butchering / romance scam kết hợp đầu tư)",
+      "Ứng dụng/website giao dịch giả mạo hiển thị lợi nhuận ảo",
+      "Bẫy nạp thêm tiền để rút tiền (advance fee / fee scam)",
+      "Lừa đảo thu hồi tiền (recovery scam)"
+    ],
+    "recommended_actions": [
+      "DỪNG NGAY — Không chuyển thêm bất kỳ đồng nào dù với bất kỳ lý do nào (phí giải phóng, thuế rút tiền, nâng cấp tài khoản…)",
+      "Trình báo công an phường/xã/quận gần nhất ngay lập tức",
+      "Liên hệ Phòng An ninh mạng – Bộ Công an qua đường dây nóng 069.219.4053",
+      "Phản ánh lên cổng tiếp nhận trực tuyến tại https://canhbao.ncsc.gov.vn",
+      "Giữ toàn bộ bằng chứng: ảnh chụp màn hình tin nhắn với Trần Minh, thông tin tài khoản Vietcombank của 'Phạm Thị Hoa', số điện thoại 0917.445.892, tên app 'DeltaTrading Pro', biên lai chuyển khoản 5 triệu đồng",
+      "Gọi Vietcombank theo số 1800 545 413 (miễn phí) để báo cáo tài khoản lừa đảo và đề nghị hỗ trợ truy vết, phong tỏa tài khoản",
+      "Chặn và xóa Trần Minh trên Facebook và Telegram, không tiếp tục liên lạc dưới bất kỳ hình thức nào",
+      "Cảnh giác với bất kỳ ai nhắn tin tự xưng có thể giúp lấy lại tiền — đây có thể là bước lừa đảo thứ hai"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 KHẲNG ĐỊNH: Đây là LỪA ĐẢO 100% — Đã được xác nhận!\n\nTình huống của bạn Linh là một vụ lừa đảo điển hình, đã được Bộ Công an và các cơ quan chức năng Việt Nam cảnh báo nhiều lần. Dưới đây là phân tích chi tiết:\n\n---\n\n## 🔍 Tại sao đây chắc chắn là lừa đảo?\n\n### 1. Kịch bản \"dụ dỗ qua mạng xã hội → chuyển sang Telegram\" — Dấu hiệu cổ điển\nPhương thức tiếp cận nạn nhân của các đối tượng rất đa dạng, có thể từ quảng cáo trên mạng xã hội, hoặc vào vai doanh nhân thành đạt kết bạn làm quen, trò chuyện tình cảm trong thời gian dài, dần dần lôi kéo đầu tư. Đây chính xác là những gì \"Trần Minh\" đã làm với Linh.\n\n### 2. App \"DeltaTrading Pro\" là ứng dụng giả mạo\nApp có tên thật gần giống (\"Delta Trading\") trên thị trường là của sàn Deltastock uy tín châu Âu — nhưng \"DeltaTrading Pro\" mà Linh được yêu cầu tải là một ứng dụng giả mạo không rõ nguồn gốc. Đây là phiên bản nâng cấp của lừa đầu tư: đối tượng tạo ra nền tảng giao dịch giả (website hoặc app), cho phép người dùng nạp tiền, mua coin/USDT, và thấy lợi nhuận ảo.\n\n### 3. Số tiền \"tăng từ 5 triệu lên 7,2 triệu\" là con số ảo\nTrong một vài phiên giao dịch đầu tiên, bằng thủ đoạn tạo ra các giao dịch ảo trên website và ứng dụng do các đối tượng cung cấp, tài khoản của nạn nhân liên tục có lợi nhuận, thậm chí lợi nhuận gấp nhiều lần số tiền đã nạp. Đây chỉ là con số được tạo ra để dụ nạp thêm tiền.\n\n### 4. Yêu cầu \"nâng level / nạp thêm mới rút được\" — Bẫy kinh điển\nKhi các nạn nhân muốn rút tiền khỏi tài khoản, các đối tượng lừa đảo sẽ tìm mọi cách để dụ dỗ khách hàng nạp thêm tiền với lý do để đủ điều kiện rút tiền ra hoặc thực hiện các thao tác để các giao dịch báo lỗ liên tục, khiến cho nạn nhân không thể rút tiền khỏi tài khoản.\n\n### 5. Chuyển tiền vào tài khoản cá nhân tên \"Phạm Thị Hoa\" — Không phải tổ chức hợp pháp\n\"Người dân cần nêu cao tinh thần cảnh giác, tuyệt đối không đầu tư vào các sàn giao dịch chứng khoán, sàn forex không rõ nguồn gốc; không vội tin những lời mời chào 'lãi suất khủng' qua 'người lạ' trên mạng.\" Tổ chức tài chính hợp pháp không bao giờ yêu cầu chuyển tiền vào tài khoản cá nhân.\n\n### 6. Tín hiệu giao dịch \"chính xác\" ban đầu là chiêu mồi nhử\nBan đầu, đối tượng không mời chào nạn nhân tham gia đầu tư ngay mà chỉ đưa các thông tin về tình hình hoạt động thị trường, các mã có tiềm năng nhằm tăng sự tin tưởng của các nạn nhân trước khi dẫn dụ.\n\n### 7. Cấu trúc lừa đảo có tổ chức\nCác đối tượng lừa đảo thành lập nhiều nhóm trên Zalo, Facebook, Telegram để hướng dẫn đầu tư, kiếm tiền nhanh chóng với lãi suất cao. Trong đó, nhiều đối tượng là thành viên nhóm lừa đảo trà trộn vào nhóm chia sẻ thành quả mua được nhà đẹp, xe sang… khiến nhiều người mắc lừa.\n\n---\n\n## ⚠️ Cảnh báo thêm: Rất có thể sẽ có bước lừa thứ hai!\n\nMột mánh khóe tinh vi hơn là việc các đối tượng giả mạo cơ quan chức năng hoặc nhóm \"chống lừa đảo\". Sau khi nạn nhân bị lừa, một tài khoản khác sẽ nhắn tin với nội dung: \"Chúng tôi có thể giúp bạn lấy lại tiền\", yêu cầu cung cấp thêm thông tin cá nhân và nộp một khoản phí \"xử lý hồ sơ\". Đây thực chất chỉ là một bước tiếp theo trong chuỗi lừa đảo, khiến nạn nhân \"mất thêm\" sau khi đã \"mất trước\".\n\n---\n\n## ✅ Linh cần làm gì NGAY BÂY GIỜ?\n\n### 🔴 Bước 1: DỪNG NGAY — Không chuyển thêm bất kỳ đồng nào\nDù họ có đưa ra lý do nào (phí giải phóng, thuế rút tiền, nâng cấp tài khoản…), tất cả đều là bẫy.\n\n### 🔴 Bước 2: Trình báo Công an ngay lập tức\nKhi phát hiện bị lừa đảo, cần liên hệ cơ quan công an nơi gần nhất để được hướng dẫn giải quyết theo quy định của pháp luật.\n\n**Cơ quan có thể trình báo:**\n- **Công an phường/xã/quận** gần nhất\n- **Phòng An ninh mạng – Bộ Công an**: Đường dây nóng **069.219.4053**\n- **Cổng tiếp nhận phản ánh**: [https://canhbao.ncsc.gov.vn](https://canhbao.ncsc.gov.vn)\n\n### 🔴 Bước 3: Giữ toàn bộ bằng chứng\nLưu lại: ✔ Ảnh chụp màn hình toàn bộ tin nhắn với Trần Minh ✔ Thông tin tài khoản Vietcombank của \"Phạm Thị Hoa\" ✔ Số điện thoại 0917.445.892 ✔ Tên app \"DeltaTrading Pro\" ✔ Biên lai chuyển khoản 5 triệu đồng\n\n### 🔴 Bước 4: Liên hệ Vietcombank báo cáo tài khoản lừa đảo\nGọi **1800 545 413** (miễn phí) để báo tài khoản nhận tiền lừa đảo — ngân hàng có thể hỗ trợ truy vết và phong tỏa tài khoản.\n\n### 🔴 Bước 5: Chặn \u0026 xóa hoàn toàn\nChặn và xóa Trần Minh trên Facebook, Telegram. **Không tiếp tục liên lạc** dưới bất kỳ hình thức nào.\n\n---\n\n## 💬 Lời nhắn với Linh\n\nLinh không phải là người duy nhất bị lừa theo kiểu này — đây không phải là một thủ đoạn lừa đảo mới, tuy nhiên thời gian vừa qua vẫn có rất nhiều người dân do nhẹ dạ cả tin đã nghe theo lời dụ dỗ, đầu tư vào các sàn chứng khoán giả mạo, từ đó bị chiếm đoạt số tiền đặc biệt lớn. Có người mất đến **600 triệu đồng** với đúng kịch bản tương tự.\n\nĐiều quan trọng bây giờ là **hành động sớm** để tăng khả năng thu hồi tiền và giúp ngăn chặn những nạn nhân tiếp theo. Hãy động viên Linh dũng cảm trình báo công an — đây là quyền lợi và trách nhiệm của cô ấy!",
+  "sources": [
+    "https://cafef.vn/nhung-cu-lua-tien-ty-mat-trang-gia-san-tren-telegram-chi-sau-1-tin-nhan-la-cong-an-lien-tuc-dua-ra-khuyen-cao-188250524080108506.chn",
+    "https://locker.io/vi/blog/lua-dao-tren-telegram",
+    "https://congan.dongthap.gov.vn/en/chi-tiet-bai-viet/-/asset_publisher/wbj7qfWZntAi/content/id/19473257",
+    "https://tuoitre.vn/mat-600-trieu-vi-tin-vao-nhom-dau-tu-tren-telegram-20250111165155029.htm",
+    "https://congan.dongthap.gov.vn/en/chi-tiet-bai-viet/-/asset_publisher/wbj7qfWZntAi/content/id/7147949",
+    "https://baophapluat.vn/canh-giac-thu-doan-lua-dao-tu-cac-san-chung-khoan-san-forex-ma-tren-mang-post516415.html",
+    "https://adpia.vn/vach-tran-cac-hinh-thuc-lua-dao-qua-telegram.html",
+    "https://sct.bacgiang.gov.vn/chi-tiet-tin-tuc/-/asset_publisher/xlu7j0ZrAR4z/content/thong-bao-thu-oan-lua-ao-chiem-oat-tai-san-tren-khong-gian-mang-duoi-hinh-thuc-au-tu-chung-khoan",
+    "https://vneconomy.vn/4-dau-hieu-nhan-biet-lua-dao-dau-tu-tien-ao-da-cap-san-chung-khoan-ao.htm",
+    "https://traderviet.tv/t/chieu-lua-chuyen-khoan-thanh-cong-bang-app-ngan-hang-ao.116627/",
+    "https://www.wikifx.com/en/dealer/3965540222.html",
+    "https://thuvienphapluat.vn/banan/tin-tuc/san-forex-lua-dao-chiem-doat-tai-san-khach-hang-nhu-the-nao-10026",
+    "https://tradersunion.com/brokers-blacklist/forex/",
+    "https://vnexpress.net/tien-ao-lua-dao-cu-ngo-anh-la-dinh-menh-khong-ngo-la-ke-san-moi-doi-lot-tinh-yeu-4952001.html",
+    "https://brokerchooser.com/safety/pro-trade-broker-safe-or-scam",
+    "https://m.youtube.com/watch?v=qIZ7mnKZh5Q",
+    "https://vietnamnet.vn/nhan-dien-cac-san-giao-dich-lua-dao-tren-mang-internet-768083.html",
+    "https://nguyenhuuduc.vn/nhung-app-dau-tu-pho-bien-ma-trader-can-biet/",
+    "https://play.google.com/store/apps/details?id=delta.pk.mobile\u0026hl=en"
+  ],
+  "latency_ms": 81797
+}

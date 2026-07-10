@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-package_delivery-09",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận đúng (red), phủ đủ 4 ý chính: giả danh vận chuyển, phí qua link lạ vietshipp-logistics.com.vn, urgency 24h + phí lưu kho, số điện thoại giả",
+      "Pattern khớp đúng loại shipper",
+      "Khuyến nghị kiểm tra đơn trên app/website chính thức, chỉ thanh toán khi nhận hàng, tìm số chính thức (không dùng số trong tin nhắn)",
+      "Súc tích, không mắc lỗi hotline sai lần này"
+    ],
+    "weaknesses": [
+      "Không nêu điểm nhận biết: nếu không đặt hàng từ JapanMart thì gần như chắc chắn lừa đảo",
+      "Không nêu kênh báo cáo tin nhắn (156)",
+      "Định dạng thuần liệt kê"
+    ],
+    "reasoning": "Chính xác, pattern khớp đúng loại và khuyến nghị hợp lý (tự tìm số chính thức). Thiếu điểm nhận biết 'có đặt hàng không' và kênh báo cáo.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Phân tích 6 dấu hiệu, chỉ rõ tên miền lạ và điểm 'bưu tá thật mặc đồng phục, không đòi chuyển khoản trước'",
+      "Bảng hành động rõ ràng, nêu điểm nhận biết 'có đặt từ JapanMart không'",
+      "Nhắc theo dõi đơn qua app/website chính thức",
+      "Nguyên tắc phòng tránh"
+    ],
+    "weaknesses": [
+      "Dài, định dạng nặng",
+      "Số liệu quy mô ít giá trị hành động trực tiếp"
+    ],
+    "reasoning": "Toàn diện, nêu điểm nhận biết cốt lõi và dấu hiệu bưu tá thật. Điểm trừ là độ dài.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

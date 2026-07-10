@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-loan_scam-08",
+  "rag_verdict": {
+    "strengths": [
+      "Nhận diện đúng nạn nhân đã mất ~4,3 triệu qua nhiều lần phí và tập trung khắc phục",
+      "Phủ đủ 4 ý chính: SMS giả ngân hàng lãi 0%, app FastLoan Express giả, phí xác minh + phí bảo hiểm nhiều lần, phát hiện nhờ hotline chính thức",
+      "Khuyến nghị đổi mật khẩu/PIN (đã lộ thông tin), liên hệ Techbank chính thức, giám sát tài khoản",
+      "Pattern khớp đúng loại"
+    ],
+    "weaknesses": [
+      "Không nhắc liên hệ Vietcombank (nơi tài khoản nhận tiền) để phong tỏa/truy vết",
+      "Không nêu đường dây nóng cụ thể",
+      "Không nhắc gỡ app/kiểm tra thiết bị"
+    ],
+    "reasoning": "Đúng trọng tâm khắc phục và bảo mật thông tin đã lộ. Thiếu bước liên hệ ngân hàng nhận tiền và hotline cụ thể.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Phân tích chuỗi lừa nhiều giai đoạn và dự báo sẽ có 'phí thứ ba' nếu không dừng",
+      "Hướng dẫn liên hệ cả Vietcombank (tài khoản nhận) lẫn ngân hàng nạn nhân, bảo mật Internet Banking + 2FA",
+      "Nhấn mạnh nguy cơ CCCD bị dùng vay nơi khác, gỡ app/cài lại máy",
+      "Cung cấp đường dây 069.219.4053, đánh giá khả năng thu hồi"
+    ],
+    "weaknesses": [
+      "Rất dài",
+      "Định dạng nặng emoji/tiêu đề"
+    ],
+    "reasoning": "Toàn diện, xử lý cả hai đầu tài khoản, dự báo phí tiếp theo và cảnh báo lộ CCCD. Điểm trừ là độ dài.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

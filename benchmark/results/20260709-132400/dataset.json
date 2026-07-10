@@ -1,0 +1,2030 @@
+[
+  {
+    "id": "scam-ecommerce_scam-01",
+    "text": "Em vừa thấy bài quảng cáo tour Đà Nẵng 3 ngày giá 890k trên Facebook, có link đặt vé ở Travelix.vn. Liên hệ số 0963 254 781 để đặt cọc 50%, nhưng cảm thấy lạ lạ. Cái này có ổn không?",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "ecommerce_scam",
+    "style": "short_question",
+    "key_facts": [
+      "Tour giá rẻ bất thường (890k cho 3 ngày) thường là dấu hiệu lừa đảo ecommerce",
+      "Trang web hoặc ứng dụng giả mạo với tên gần giống tour operator thật",
+      "Yêu cầu đặt cọc qua chuyển khoản hoặc ví điện tử mà không hợp đồng rõ ràng",
+      "Số điện thoại cá nhân thay vì hotline công ty chính thức là cảnh báo đỏ"
+    ]
+  },
+  {
+    "id": "scam-ecommerce_scam-02",
+    "text": "Hôm qua tôi nhận được tin nhắn từ một trang bán vé máy bay trên Facebook tên là \"VietAir Booking 24h\", họ quảng cáo vé đi Đà Nẵng chỉ 189.000 đồng (rẻ bất thường). Tôi liên hệ số điện thoại trong tin nhắn (0932.654.871) và người phía kia hướng dẫn tôi chuyển 300.000 đồng tiền đặt cọc vào tài khoản ngân hàng, với lời hứa sẽ hoàn lại 111.000 đồng sau khi xác nhận chuyến bay. Tôi chuyển tiền vào tài khoản có tên \"Nguyễn Văn Hùng\" qua ứng dụng Momo. Sau đó, khi tôi yêu cầu xác nhận mã vé hoặc hóa đơn, số điện thoại không còn trả lời, và khi tôi vào lại trang Facebook thì nó đã bị xóa. Tôi nhận ra mình đã bị lừa mất 300.000 đồng và không có bất kỳ hóa đơn hay thông tin chuyến bay nào.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "ecommerce_scam",
+    "style": "long_narration",
+    "key_facts": [
+      "Chiêu trò giả mạo trang web bán vé máy bay với giá bất thường thấp trên mạng xã hội",
+      "Yêu cầu tiền đặt cọc qua ứng dụng Momo vào tài khoản cá nhân với lời hứa hoàn lại tiền",
+      "Ngừng liên lạc sau khi nhận tiền và xóa bỏ tất cả thông tin liên lạc để tránh bị phát hiện"
+    ]
+  },
+  {
+    "id": "scam-ecommerce_scam-03",
+    "text": "🔥HOT DEAL🔥 Tour Đà Nẵng 3 ngày 2 đêm - CHỈ 899K! Khách sạn 4 sao + ăn sáng tự chọn + vé cáp treo Bà Nà miễn phí. Khách đầu tiên hôm nay được giảm thêm 200K. Để không mất đi suất quý báu, vui lòng cọc ngay 300K vào TK: 0942857163 (Anh Thắng - Sacombank). Sau khi chuyển tiền, nhắn tin xác nhận để được guide liên lạc trong 24h. Còn 5 suất thôi! Nhanh tay! 🏖️🏨",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "ecommerce_scam",
+    "style": "verbatim_message",
+    "key_facts": [
+      "Giá tour du lịch quá rẻ (899K cho tour 3 ngày kèm khách sạn 4 sao) so với thị trường",
+      "Yêu cầu cọc tiền vào tài khoản cá nhân của 'guide' thay vì công ty lữ hành chính thức",
+      "Tạo cảm giác khẩn cấp với 'chỉ còn 5 suất', 'hôm nay giảm thêm 200K' để người dùng quyết định nhanh mà không suy nghĩ kỹ",
+      "Số điện thoại cá nhân thay vì hotline công ty, không có thông tin công ty tour chính thức"
+    ]
+  },
+  {
+    "id": "scam-ecommerce_scam-04",
+    "text": "Mình muốn kể về bạn Linh của mình. Tuần trước, Linh đang tìm vé máy bay để đi du lịch Phú Quốc dịp cuối năm. Cô ấy thấy một quảng cáo trên Facebook về \"VietFly Travel\" quảng cáo vé máy bay giá cực rẻ - chỉ 890.000 đồng khứ hồi Hà Nội - Phú Quốc (bình thường là 2,5 triệu). Linh click vào, được dẫn đến website vé888.vn (trông rất giống trang chính thức nhưng thực chất là giả).\n\nTrang này yêu cầu Linh nhập thông tin email, số điện thoại (0987654321), rồi chọn ngày bay. Sau đó, họ gửi link thanh toán qua email. Linh chuyển 890.000 đồng vào số tài khoản ngân hàng: 0123456789 (Vietcombank) tên \"Công ty TNHH VietFly Việt Nam\".\n\nSau 2 ngày, Linh không nhận được xác nhận vé, không có mã đặt chỗ gì cả. Cô ấy gọi lại số điện thoại 0966778899 (họ để trên website) thì số này không liên lạc được. Lúc này Linh mới nhận ra mình bị lừa. Khi kiểm tra lại, website giả đã bị xóa, tài khoản Facebook cũng biến mất.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "ecommerce_scam",
+    "style": "third_person",
+    "key_facts": [
+      "Chiêu trò giả mạo trang web bán vé máy bay với giá quá rẻ để thu hút nạn nhân",
+      "Nạn nhân được dẫn từ quảng cáo Facebook đến website giả mạo và bị yêu cầu thanh toán trước",
+      "Các chi tiết giả mạo: tên công ty, số tài khoản, số điện thoại, email, mã website đều là minh họa để tạo uy tín",
+      "Sau khi thanh toán, nạn nhân không nhận được bất kỳ xác nhận nào và các phương thức liên lạc đều bị cắt đứt"
+    ]
+  },
+  {
+    "id": "scam-ecommerce_scam-05",
+    "text": "Em vừa mua tour Nha Trang 3 ngày 2 đêm từ shop \"SaiGonTravel2024\" trên Shopee, đặt cọc 2.5 triệu qua banking app. Nhưng shop không confirm đơn và có số điện thoại lạ gọi báo tôi thêm phí visa 800k. Cái này có ok không ạ?",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "ecommerce_scam",
+    "style": "short_question",
+    "key_facts": [
+      "Lừa đảo thương mại điện tử qua Shopee với mặt hàng tour du lịch",
+      "Yêu cầu phí bổ sung (phí visa) sau khi đã đặt cọc ban đầu",
+      "Liên lạc từ số điện thoại lạ không xác minh, không từ tài khoản shop chính thức",
+      "Tổng số tiền đã/sắp thanh toán khá lớn (2.5 triệu + 800k)"
+    ]
+  },
+  {
+    "id": "scam-ecommerce_scam-06",
+    "text": "Tôi vừa bị lừa qua một trang web bán vé máy bay giá rẻ. Hôm qua, tôi nhận được tin nhắn trên Facebook từ một tài khoản tên \"Sky Travel Booking\" quảng cáo vé Hà Nội-Bangkok chỉ 99.000 đồng (thay vì 2.5 triệu đồng bình thường). Tôi nhấp vào link được cung cấp và thấy giao diện website rất chuyên nghiệp, giống hệt trang Vietjet Air. Để bảo lưu vé, tôi phải thanh toán 1.5 triệu đồng qua ứng dụng Momo (sau giảm giá đặc biệt). Tôi đã chuyển tiền qua tài khoản Momo số 0988.456.123 (tên người nhận là \"Ông Cường\"). Sau khi thanh toán, người bán liên lạc yêu cầu tôi cung cấp số CCCD để \"hoàn thiện hồ sơ\", và khi tôi hỏi về tình trạng đơn hàng, số điện thoại không còn liên lạc được nữa. Tôi nhận ra mình đã bị lừa và tiền không bao giờ hoàn lại.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "ecommerce_scam",
+    "style": "long_narration",
+    "key_facts": [
+      "Lừa đảo qua quảng cáo vé máy bay giá cực rẻ (99k thay vì 2.5M) trên Facebook",
+      "Sử dụng website giả mạo giao diện hãng bay chính thức để tăng độ tin cậy",
+      "Yêu cầu thanh toán qua Momo và dòm ngó thông tin cá nhân (CCCD) của nạn nhân",
+      "Người bán mất liên lạc sau khi nhận tiền, không giao vé hay hoàn lại tiền"
+    ]
+  },
+  {
+    "id": "scam-ecommerce_scam-07",
+    "text": "Chào bạn! Mình là Ngân từ shop VietTravel Center. Bạn vừa yêu cầu tour du lịch Nha Trang 3 ngày 2 đêm giá chỉ 1.299.000đ/người. Để giữ chỗ, bạn vui lòng chuyển khoản đặt cọc 50% (649.500đ) vào tài khoản ngân hàng dưới đây trong vòng 30 phút:\n\nChủ tài khoản: Trần Văn Minh\nSố tài khoản: 1234567890\nNgân hàng: Techcombank\nChi nhánh: Hà Nội\n\nSau khi nhận tiền, mình sẽ gửi link tải App \"VietTravel Plus\" để bạn xem chi tiết tour, số điện thoại hướng dẫn viên, và cách thanh toán phần còn lại. Lưu ý: Giá rất rẻ nên hạn chỉ còn 2 chỗ! Vui lòng xác nhận thanh toán bằng cách reply SMS mã OTP sau khi chuyển khoản để mình kích hoạt vé bay khứ hồi Bamboo Airways trong hệ thống.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "ecommerce_scam",
+    "style": "verbatim_message",
+    "key_facts": [
+      "Yêu cầu thanh toán đặt cọc nhanh chóng (30 phút) với tỷ lệ cao (50%) để tạo cảm giác khẩn cấp",
+      "Cung cấp thông tin tài khoản cá nhân thay vì tài khoản doanh nghiệp chính thức của công ty du lịch",
+      "Hứa hẹn gửi link tải app riêng lẻ và yêu cầu xác nhận OTP sau khi chuyển khoản, dấu hiệu điều khiển tài khoản",
+      "Sử dụng bẫy tâm lý 'chỉ còn 2 chỗ' kết hợp với giá rất rẻ để thúc đẩy quyết định mua hành động"
+    ]
+  },
+  {
+    "id": "scam-ecommerce_scam-08",
+    "text": "Hôm qua tôi được nghe chuyện của bạn Linh. Cô ấy đã tìm thấy một trang web bán tour du lịch tên là \"VietTravel Dream\" với giao diện rất chuyên nghiệp. Linh định đặt một gói tour 5 ngày Đà Nẵng – Hội An với giá chỉ 2.990.000 đồng (rẻ hơn bình thường 30%). Trang web yêu cầu thanh toán trước 50% để đặt cọc qua số tài khoản ngân hàng: 0821456789 (Ngân hàng Việt Á, tên chủ: Trần Văn Hùng). \n\nLinh chuyển tiền 1.495.000 đồng và nhận lại một \"phiếu xác nhận\" dạng ảnh PNG. Sau 3 ngày, cô ấy gọi lại số điện thoại liên hệ (0917 345 678) để hỏi về thời gian khởi hành thì số này không còn liên lạc được. Trang web cũng không mở lại nữa — domain đã bị xóa. Linh nhận ra mình bị lừa và đã mất 1.5 triệu đồng.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "ecommerce_scam",
+    "style": "third_person",
+    "key_facts": [
+      "Giả mạo website tour du lịch với giao diện giống hàng thật để quy tập tiền đặt cọc",
+      "Sử dụng tài khoản ngân hàng cá nhân thay vì đơn vị kinh doanh chính thức để nhận thanh toán",
+      "Sau khi nhận tiền, lừa tử mất liên lạc và xóa trang web để trốn tránh",
+      "Giá cả hấp dẫn (rẻ hơn thị trường) là chiêu thức lôi cuốn nạn nhân"
+    ]
+  },
+  {
+    "id": "scam-ecommerce_scam-09",
+    "text": "Chị ơi, em vừa tìm được tour Đà Lạt 3 ngày 2 đêm giá chỉ 890 nghìn trên app \"VietTravel Pro\". Đặt cọc 300k rồi, nhưng bây giờ không thể liên lạc được với tài khoản bán hàng. Có sao không ạ?",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "ecommerce_scam",
+    "style": "short_question",
+    "key_facts": [
+      "Giá tour quá thấp so với bình thường (890k cho tour 3 ngày Đà Lạt là bất thường)",
+      "Yêu cầu đặt cọc qua ứng dụng không rõ tên hoặc ứng dụng giả mạo",
+      "Không thể liên lạc với người bán sau khi thanh toán là dấu hiệu lừa đảo điển hình",
+      "Tiền đã chuyển và không có hợp đồng, xác nhận rõ ràng từ công ty du lịch chính thức"
+    ]
+  },
+  {
+    "id": "scam-ecommerce_scam-10",
+    "text": "Tôi vừa bị lừa đảo qua một trang web bán tour du lịch giá rẻ. Tuần trước, tôi nhận được tin nhắn từ số điện thoại +84 938 456 789 quảng cáo tour Phú Quốc 4 ngày 3 đêm chỉ 2.9 triệu đồng/người, rẻ hơn 60% so với thị trường. Tôi vào link (traveljoy-vn.shop) và thấy giao diện đẹp, có đánh giá 5 sao từ hàng ngàn khách. Để đặt chỗ, tôi phải thanh toán 50% tiền cọc là 1.45 triệu đồng vào tài khoản ngân hàng. Sau khi chuyển khoản thành công, bên này vẫn liên hệ yêu cầu thêm 500 ngàn cho phí bảo hiểm du lịch, dù website không nói gì về điều này. Khi tôi hỏi chi tiết về điểm đi, họ gửi sang một ứng dụng chat khác để tránh để lại dấu vết trên website. Hôm nay, tôi phát hiện ra trang web đó đã down, số điện thoại không nghe máy, và tài khoản người bán trên Facebook cũng bị xóa. Tôi đã mất gần 2 triệu đồng.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "ecommerce_scam",
+    "style": "long_narration",
+    "key_facts": [
+      "Chiêu lừa đảo tour du lịch giá rẻ quá mức thường (2.9 triệu thay vì 7 triệu)",
+      "Website giả mạo với giao diện chuyên nghiệp, đánh giá 5 sao ác ý để tạo lòng tin",
+      "Yêu cầu thanh toán cọc qua ngân hàng (không qua ứng dụng có bảo vệ) và sau đó tìm cách chiết khấu thêm",
+      "Chuyển sang kênh chat riêng để tránh chứng cứ, rồi mất tích hoàn toàn"
+    ]
+  },
+  {
+    "id": "scam-fake_job-01",
+    "text": "👋 Xin chào! Bạn có muốn kiếm thêm thu nhập không? 💰\nCông ty TNHH Thiên Á Logistics đang tuyển dụng gấp 50 vị trí CỘNG TÁC VIÊN HOÀN TOÀN ONLINE cho mùa bán hàng cuối năm.\n\n✅ Yêu cầu: Không cần kinh nghiệm, chỉ cần có điện thoại\n✅ Lương: 50.000đ - 200.000đ/ngày (linh hoạt)\n✅ Hình thức: Chốt đơn, xử lý đơn hàng trên ứng dụng \n✅ Thời gian: 2-3 giờ/ngày, làm từ nhà\n\nBước 1: Nộp đơn qua link này: bit[.]ly/ThienALogistics\nBước 2: Thanh toán tài khoản huấn luyện 100.000đ (để xác thực danh tính)\nBước 3: Nhận hướng dẫn, bắt đầu kiếm tiền từ hôm nay\n\n👉 Quản lý trực tiếp: Nguyễn Hương\n📱 Zalo/WhatsApp: 0899.456.123\n⏰ Hạn tuyển: 20/11/2024\n\nLưu ý: Sau khi hoàn thành 5 đơn đầu tiên, bạn được hoàn lại 100% số tiền huấn luyện + thưởng khởi đầu 500.000đ. Tuyệt đối KHÔNG được thảo luận lương suất với người khác, đây là quy định bảo mật của công ty.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "fake_job",
+    "style": "verbatim_message",
+    "key_facts": [
+      "Yêu cầu thanh toán tiền 'huấn luyện' hoặc 'xác thực danh tính' trước khi bắt đầu làm việc",
+      "Hứa lương cao (50.000đ-200.000đ/ngày) cho công việc online đơn giản không yêu cầu kỹ năng",
+      "Sử dụng tâm lý tạo cấp bách (hạn tuyển, tuyển gấp) và những lợi ích bẻ cong (hoàn tiền + thưởng)",
+      "Yêu cầu giữ bí mật về lương suất, cấm thảo luận với người khác để tránh lộ chiêu trò"
+    ]
+  },
+  {
+    "id": "scam-fake_job-02",
+    "text": "Hôm qua tôi gọi điện cho Linh, em gái của chị Hương ở quê. Linh kể rằng cô vừa được một người tên \"Trần Minh Đức\" liên hệ qua Zalo với lời mời tham gia công việc làm cộng tác viên bán hàng online cho công ty \"Phúc Hưng Trade\". Theo lời người này, chỉ cần Linh tải ứng dụng \"ShopCart Pro\" về điện thoại, tạo tài khoản và hoàn thành 10 đơn hàng đơn giản (chỉ cần nhập thông tin và chụp ảnh) thì sẽ kiếm được 5 triệu đồng trong vòng 1 tuần.\n\nTrần Minh Đức gửi cho Linh hình ảnh các sản phẩm giả (đồng hồ, túi xách hiệu) và hướng dẫn từng bước. Để \"kích hoạt tài khoản VIP\", Linh phải chuyển tiền ký cọc 890.000 đồng vào tài khoản ngân hàng có số điện thoại 0987.654.321 (do \"Trần Minh Đức\" cung cấp — hiển nhiên là tài khoản của người lừa). Sau khi chuyển tiền, \"Trần Minh Đức\" liên tục yêu cầu Linh chuyển thêm tiền để \"mở khóa các tính năng cao cấp\" và \"hoàn tất quy trình xác minh lương\".\n\nMay mà Linh kịp tỏ nghi ngờ trước khi chuyển lần thứ hai, nên tôi đã hướng dẫn cô báo cảnh sát và khóa tài khoản.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "fake_job",
+    "style": "third_person",
+    "key_facts": [
+      "Chiêu lừa loại fake_job (việc nhẹ lương cao) với lời mời làm cộng tác viên bán hàng online",
+      "Yêu cầu tải ứng dụng giả (ShopCart Pro) và chuyển tiền ký cọc dưới danh nghĩa kích hoạt tài khoản VIP",
+      "Sử dụng tên giả người thực hiện (Trần Minh Đức) và tài khoản ngân hàng ảo để nhận tiền lừa",
+      "Kỹ thuật tiếp theo là yêu cầu chuyển tiền liên tục với các cớ do khác nhau (mở khóa tính năng, xác minh lương)"
+    ]
+  },
+  {
+    "id": "scam-fake_job-03",
+    "text": "Chị gái tôi vừa nhận tin từ một người tên là Công ty Hưng Phát, nói có việc làm chốt đơn hàng online lương 8 triệu/tháng chỉ cần đăng ký qua app GoldJob, có chứng chỉ không? Liệu đây có phải lừa đảo không?",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "fake_job",
+    "style": "short_question",
+    "key_facts": [
+      "Đây là lừa đảo dạng fake job (việc làm giả) với lương cao bất thường",
+      "Yêu cầu tải app lạ (GoldJob) là dấu hiệu đặc trưng để cài phần mềm độc hại hoặc tiếp cận thông tin cá nhân",
+      "Công ty không rõ tên, liên lạc qua tin nhắn (không qua kênh chính thức) là điểm nghi vấn",
+      "Nếu nhập tiền để lấy chứng chỉ hay cọc lương lần đầu sẽ bị mất tiền"
+    ]
+  },
+  {
+    "id": "scam-fake_job-04",
+    "text": "Hôm qua chị gái tôi nhận được tin nhắn trên Zalo từ một tài khoản tên \"Công ty Lexus Group\" với thông báo rằng chị được chọn làm cộng tác viên bán hàng online kiếm tiền từ nhà, lương khởi điểm 15 triệu đồng/tháng chỉ cần chụp ảnh và mô tả sản phẩm. Khi chị hỏi chi tiết, họ yêu cầu nạp 2 triệu đồng tiền \"đăng ký tài khoản thành viên premium\" vào số tài khoản ngân hàng Agribank 7601 2345 6789 để bắt đầu công việc. Sau khi chị chuyển tiền, tài khoản liên lạc với chị qua một ứng dụng lạ tên \"TaskMaster Pro\" và phân công các \"nhiệm vụ\" như chuyển tiền cho khách hàng giả mạo rồi chụp ảnh hóa đơn, hứa sẽ hoàn tiền sau. Khi chị nhận ra điều bất thường và muốn ngừng, họ lại nhắn tin đe dọa sẽ công khai thông tin cá nhân của chị nếu không tiếp tục nạp thêm tiền. May mắn chị đã liên hệ công an khu phố kịp thời và không nạp tiền lần thứ hai.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "fake_job",
+    "style": "long_narration",
+    "key_facts": [
+      "Giả danh công ty lớn (Lexus Group) trên Zalo để tuyển dụng công việc làm từ nhà",
+      "Yêu cầu nạp tiền đảm bảo 'đăng ký tài khoản premium' trước khi làm việc",
+      "Sử dụng ứng dụng lạ (TaskMaster Pro) giao công việc giả để chiếm đoạt tiền qua chuyển khoản",
+      "Đe dọa public thông tin cá nhân để ép buộc nạp tiền thêm"
+    ]
+  },
+  {
+    "id": "scam-fake_job-05",
+    "text": "Chào bạn, tôi là quản lý tuyển dụng từ Công ty Thương mại Điện tử Sao Việt. Chúng tôi đang tìm kiếm những cộng tác viên làm việc từ xa với mức lương 15-20 triệu/tháng, chỉ cần 2-3 tiếng/ngày. Công việc chính là chốt đơn hàng, chụp hình sản phẩm và gửi qua Zalo. \n\nĐể bắt đầu, bạn cần:\n1. Nộp hồ sơ (miễn phí)\n2. Thanh toán 480.000đ cho khóa đào tạo online (có hoàn tiền nếu không hài lòng)\n3. Mua gói sản phẩm test 1.200.000đ (sẽ bán được từ những khách hàng mà chúng tôi cấp)\n\nLợi nhuận từ gói này sẽ là 4-5 triệu trong 2 tuần đầu. Sau đó không cần mua gì nữa, chỉ cần chốt đơn kiếm hoa hồng 30% mỗi đơn.\n\nLiên hệ qua Zalo: 0947.558.xxx hoặc click vào link đăng ký: bit.ly/saoviet_job\n\nƯu tiên những bạn ở TP.HCM, Hà Nội và các tỉnh khác. Hạn cuối ngày hôm nay!",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "fake_job",
+    "style": "verbatim_message",
+    "key_facts": [
+      "Yêu cầu nộp tiền upfront (480k + 1.2M) dù nói là 'miễn phí hoặc hoàn tiền'",
+      "Lương được quảng cáo cao (15-20 triệu) không hợp lý so với công việc đơn giản (chốt đơn, chụp ảnh)",
+      "Hứa lợi nhuận nhanh chóng (4-5 triệu trong 2 tuần) từ 'gói test' không rõ nguồn",
+      "Link rút gọn không chính thức + liên hệ qua Zalo (không phải website/email công ty chính thức)"
+    ]
+  },
+  {
+    "id": "scam-fake_job-06",
+    "text": "Tôi vừa mới hay tin em trai của mình bị lừa đảo. Hôm trước, em trai tôi (tên là Minh, 23 tuổi) nhận được một tin nhắn trên Telegram từ tài khoản tên \"HRVietnam_Recruitment\" nói rằng em được chọn làm \"cộng tác viên kinh doanh online\" với mức lương 15 triệu đồng/tháng, chỉ cần làm 2-3 giờ/ngày. \n\nChương trình này được giải thích là: mỗi ngày em phải chốt 3-5 \"đơn hàng\" (thực chất là gọi vốn từ người khác) để nhận hoa hồng 500 riêu đồng/đơn. Ban đầu, em được yêu cầu nộp 1,2 triệu đồng tiền \"bảo hiểm tài khoản\" vào số tài khoản nhân danh \"Công ty CP Thương Mại Mạnh Phát\" (tài khoản giả).\n\nSau khi nộp, em bị dụ dỗ nộp thêm 2,5 triệu nữa \"để kích hoạt gói cao cấp\" với lời hứa sẽ được nhận thưởng khi hoàn thành 10 đơn. Khi em yêu cầu rút tiền lợi nhuận, bọn chúng tắc liên lạc và xóa tài khoản Telegram.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "fake_job",
+    "style": "third_person",
+    "key_facts": [
+      "Chiêu trò công việc giả với lương cao 15 triệu/tháng",
+      "Yêu cầu nộp tiền 'bảo hiểm' để kích hoạt tài khoản làm việc",
+      "Tổng số tiền bị chiếm đoạt là 3,7 triệu đồng thông qua chuyển khoản ngân hàng",
+      "Liên lạc qua Telegram với tài khoản giả mạo các công ty lớn, tắc liên lạc sau khi chiếm đoạt tiền"
+    ]
+  },
+  {
+    "id": "scam-fake_job-07",
+    "text": "Chị tìm được việc làm thêm online qua Zalo, anh quản lý nói chỉ cần nhập thông tin và nộp tiền đảm bảo 100k là có thể bắt đầu làm ngay, kiếm 10-15 triệu/tháng. Liệu cái việc này có uy tín không ạ?",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "fake_job",
+    "style": "short_question",
+    "key_facts": [
+      "Chiêu lừa việc làm online với lương cao không thực tế (10-15 triệu/tháng)",
+      "Yêu cầu nộp tiền đảm bảo upfront (100k) là dấu hiệu phishing tiêu biểu",
+      "Tuyên bố 'bắt đầu ngay' và không cần kỹ năng là cảnh báo lừa đảo",
+      "Sử dụng ứng dụng chat phổ biến (Zalo) để tăng độ tin cậy và che giấu ý định"
+    ]
+  },
+  {
+    "id": "scam-fake_job-08",
+    "text": "Hôm qua, anh trai tôi nhận được tin nhắn trên Zalo từ một người tên là \"Chị Hương - Nhân viên tuyển dụng công ty TNHH Thiên Phú\" nói rằng anh được chọn làm cộng tác viên hợp tác bán hàng online với mức lương 8 triệu đồng/tháng, chỉ cần làm 2-3 giờ/ngày từ nhà. Anh rất hào hứng vì vừa mất việc, nên đã tham gia nhóm Telegram mà chị Hương chỉ định. Trong nhóm, anh được yêu cầu nạp 500 nghìn đồng để mua \"gói training và tools bán hàng\" trước khi bắt đầu công việc. Anh đã chuyển tiền vào tài khoản ngân hàng tên \"Trương Thanh Hải\" mà chị Hương cung cấp. Sau 2 ngày, người quản lý nhóm lại yêu cầu nạp thêm 1 triệu đồng để \"đăng ký sàn bán hàng quốc tế\" và bảo đảm lợi nhuận 20% hàng tuần. Khi anh hỏi tại sao phải nạp thêm tiền, họ lập tức xóa anh khỏi nhóm Telegram và chặn toàn bộ liên hệ.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "fake_job",
+    "style": "long_narration",
+    "key_facts": [
+      "Nhận tin nhắn Zalo từ 'tuyên dụng viên' với mức lương cao 8 triệu/tháng, công việc từ nhà đơn giản",
+      "Yêu cầu nạp tiền 500 nghìn đồng cho 'gói training' trước khi làm việc",
+      "Tiếp tục yêu cầu nạp thêm 1 triệu để 'đăng ký sàn bán hàng' và hứa lợi nhuận 20%/tuần",
+      "Bị xóa khỏi nhóm và chặn liên hệ khi đặt câu hỏi về yêu cầu nạp tiền lần 2"
+    ]
+  },
+  {
+    "id": "scam-fake_job-09",
+    "text": "Chào bạn! Công ty Thăng Long Trading tuyển dụng cộng tác viên làm việc online. Công việc rất đơn giản: chỉ cần chụp ảnh sản phẩm, viết mô tả và đăng lên các sàn thương mại điện tử. Lương cao: 5 triệu đồng/tuần, hoàn toàn làm từ nhà. Hoa hồng thêm 20% cho mỗi đơn hàng đã chốt. \n\nĐể tham gia bạn chỉ cần:\n- Tải app \"SaleBoost\" (phiên bản dành cho CTV)\n- Nộp hồ sơ qua link: saleeboost-official.pro\n- Đóng tiền đặt cọc 890 ngàn để khóa tài khoản VIP (100% hoàn lại khi kiếm được 10 đơn)\n- Người giới thiệu bạn nhận thêm 500k bonus\n\nLiên hệ quản lý: Ms Liên - 0912445678 hoặc Telegram: @LineLienSales",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "fake_job",
+    "style": "verbatim_message",
+    "key_facts": [
+      "Chiêu trò giả mạo công ty, đưa ra mức lương không thực tế để thu hút người tìm việc",
+      "Yêu cầu nạp tiền đặt cọc trước dưới danh nghĩa 'khóa tài khoản VIP' hoặc huy động vốn",
+      "Sử dụng ứng dụng giả (saleeboost-official.pro) và trang web/link lừa đảo nhằm ghi lại thông tin cá nhân hoặc chiếm đoạt tài chính",
+      "Hứa hẹn khuyến khích giới thiệu người khác để tạo cấu trúc kiểu lợi nhuận đa cấp (multi-level marketing)"
+    ]
+  },
+  {
+    "id": "scam-fake_job-10",
+    "text": "Hôm qua em trai mình (tên Tuấn, 24 tuổi) kể rằng anh ấy vừa nhận được tin nhắn trên Zalo từ một số lạ (+84 986 445 221) xưng là anh Minh từ công ty \"Global Express Vietnam\". Tin nhắn nói rằng công ty đang tuyển \"cộng tác viên chốt đơn hàng\" với mức lương 15-20 triệu/tháng chỉ cần làm việc 2-3 giờ mỗi ngày từ nhà. Người này yêu cầu em Tuấn tải app \"ShopWork Pro\" (một ứng dụng lạ) và tham gia nhóm Telegram tên \"Global Express Team\". \n\nTheo yêu cầu, em Tuấn phải nộp \"phí đăng ký thành viên\" 890.000 đồng vào tài khoản Vietcombank (số tài khoản: 1234567890 - tên chủ tài khoản là Võ Thị Mỹ Linh). Lời hứa là sẽ được hướng dẫn cách \"đơn vị kiểm tra chất lượng hàng hóa\" hoặc \"tư vấn bán hàng online\" kiếm tiền nhanh. \n\nMay mắn em Tuấn còn nghi ngờ nên đã hỏi bạn bè trước khi chuyển tiền, và tìm hiểu thêm thì nhận ra đây là chiêu lừa điển hình: không có công ty \"Global Express Vietnam\" hợp pháp nào, app \"ShopWork Pro\" là giả mạo, và các bình luận trên mạng xã hội xác nhận rất nhiều người bị lừa qua cùng một kênh như vậy.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "fake_job",
+    "style": "third_person",
+    "key_facts": [
+      "Chiêu lừa fake job qua Zalo với lời hứa lương cao (15-20 triệu/tháng) cho công việc ít thời gian",
+      "Yêu cầu nộp phí đăng ký thành viên (890.000 đồng) trước khi bắt đầu làm việc",
+      "Sử dụng app và nhóm chat giả mạo (ShopWork Pro, Telegram) để tạo vẻ chuyên nghiệp",
+      "Người lừa sử dụng số điện thoại lạ và tên công ty giả để tăng độ tin cậy"
+    ]
+  },
+  {
+    "id": "scam-impersonation_authority-01",
+    "text": "Anh/chị ơi, tôi vừa nhận được cuộc gọi từ số 0243-888-5520 nói là từ Cơ quan Thi hành án dân sự quận Hà Đông, bảo tôi có nợ không người ký khoảng 15 triệu đồng phát sinh từ năm 2021 và bắt buộc phải thanh toán trong 24 giờ qua ứng dụng Secure Pay để tránh bị khởi tố. Có phải là lừa đảo không ạ?",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "impersonation_authority",
+    "style": "short_question",
+    "key_facts": [
+      "Người lạ giả danh cơ quan nhà nước (Thi hành án dân sự) để tạo sự tin tưởng và áp lực",
+      "Đe dọa hậu quả pháp lý (khởi tố) nếu không thanh toán trong thời hạn ngắn",
+      "Yêu cầu chuyển tiền qua ứng dụng thanh toán không chính thức thay vì các kênh chính thức của nhà nước",
+      "Số điện thoại không chính thức và yêu cầu tiền tệp mục đích làm phát sinh nợ không thực"
+    ]
+  },
+  {
+    "id": "scam-impersonation_authority-02",
+    "text": "Hôm qua, tôi nhận được cuộc gọi từ số điện thoại 0293 456 789 tự xưng là Thượng tá Trần Minh Khoa, công an quận Bình Thạnh, thành phố Hồ Chí Minh. Người này nói rằng hệ thống VNeID của tôi đã bị phát hiện có dấu hiệu lạm dụng và liên quan đến một vụ rửa tiền đang được điều tra. Tôi được yêu cầu phải xác minh danh tính ngay lập tức bằng cách cài đặt ứng dụng \"VerifyID Pro\" trên điện thoại để kết nối với cơ sở dữ liệu an toàn của công an. Khi tôi có vẻ do dự, người gọi nói rằng nếu không hợp tác trong vòng 2 giờ sẽ có quyết định bắt giữ được ra nhưng chưa được công bố. Anh ấy cố ý tạo không khí khẩn cấp, yêu cầu tôi không được kể cho bất kỳ ai vì đang trong giai đoạn điều tra, và đưa cho tôi một mã số vụ án giả: VP-2024-HC-8847. May mắn là tôi đã tìm hiểu trực tuyến trước khi làm theo chỉ dẫn và phát hiện ra đây là chiêu lừa đảo phổ biến.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "impersonation_authority",
+    "style": "long_narration",
+    "key_facts": [
+      "Giả danh công an quận, sử dụng chức danh thứ bậc (Thượng tá) để tăng tính tin cậy",
+      "Khai thác nỗi sợ hãi về VNeID/hệ thống nhận dạng bị xâm phạm để gây áp lực",
+      "Yêu cầu cài đặt ứng dụng giả mạo (VerifyID Pro) để đánh cắp thông tin hoặc tiền",
+      "Tạo cảm giác khẩn cấp và bí mật (2 giờ, không kể ai) kết hợp với mã vụ án giả để chiếm quyền"
+    ]
+  },
+  {
+    "id": "scam-impersonation_authority-03",
+    "text": "Kính gửi công dân Trần Văn Hùng, mã định danh: 123456789012. Theo báo cáo từ Cơ quan Cảnh sát Điều tra tỉnh Bình Dương, tài khoản ngân hàng của bạn có liên quan đến vụ rửa tiền lớn. Để tránh bị phong tỏa tài khoản vĩnh viễn, bạn cần xác thực danh tính ngay lập tức trên ứng dụng VneID+. Vui lòng cài đặt ứng dụng tại link: vneidsecure.app/verify và nhập số CCCD, ngày sinh, mật khẩu cấp 2 trong vòng 2 tiếng. Quá hạn sẽ khóa tất cả tài sản điện tử. Đồng chí có thắc mắc liên hệ: 0937 445 882 (Trung tá Lê Hữu Tâm, Phòng An ninh kinh tế).",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "impersonation_authority",
+    "style": "verbatim_message",
+    "key_facts": [
+      "Giả danh cơ quan công an (Cảnh sát Điều tra tỉnh)",
+      "Sử dụng tên ứng dụng giống thật (VneID) nhưng link giả (vneidsecure.app)",
+      "Tạo cảm giác khẩn cấp với hạn thời gian 2 giờ",
+      "Yêu cầu tiết lộ dữ liệu nhạy cảm (CCCD, mật khẩu cấp 2)"
+    ]
+  },
+  {
+    "id": "scam-impersonation_authority-04",
+    "text": "Hôm qua em trai tôi (Minh, 34 tuổi) nhận được cuộc gọi từ số +84 919 887 234. Người gọi xưng là \"Thượng tá Lâm\" từ Công an quận Thanh Xuân, nói rằng em trai tôi bị nghi ngờ liên quan đến một vụ án rửa tiền do một người bạn cũ kéo vào. Thượng tá Lâm nói cần xác minh tài khoản ngân hàng và yêu cầu em tôi cài đặt một ứng dụng \"eGate_Security_2024\" để \"bảo vệ tài khoản\" trong quá trình điều tra. Ứng dụng đó có giao diện giống app ngân hàng, yêu cầu nhập mã PIN, OTP và thậm chí là dữ liệu VNeID. Em tôi bắt đầu hoài nghi khi \"Thượng tá Lâm\" sau đó yêu cầu chuyển 45 triệu đồng vào \"tài khoản tạm giữ của cơ quan\" để \"được miễn tội\". May mắn em tôi đã gọi cho tôi trước khi làm điều đó.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "impersonation_authority",
+    "style": "third_person",
+    "key_facts": [
+      "Giả danh cán bộ công an để tạo lợi thế và sợ hãi",
+      "Yêu cầu cài ứng dụng giả mạo có tên gọi chính thức",
+      "Lấy dữ liệu nhạy cảm (PIN, OTP, VNeID)",
+      "Yêu cầu chuyển tiền với lý do 'tạm giữ' hoặc 'miễn tội'"
+    ]
+  },
+  {
+    "id": "scam-impersonation_authority-05",
+    "text": "Em vừa nhận được tin nhắn từ số +84981234567 giới thiệu là Phòng Cảnh sát kinh tế, yêu cầu em cần xác minh danh tính trên ứng dụng \"VNeID Pro\" vì có biểu hiện giao dịch bất thường. Có cần cung cấp mã OTP không ạ?",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "impersonation_authority",
+    "style": "short_question",
+    "key_facts": [
+      "Chiêu trò giả danh cơ quan chính quyền (công an, cảnh sát kinh tế)",
+      "Yêu cầu xác minh danh tính qua ứng dụng giả hoặc chiếm quyền truy cập ứng dụng thực",
+      "Cấp độ nguy hiểm cao: mục tiêu là lấy mã OTP hoặc thông tin định danh để truy cập tài khoản ngân hàng",
+      "Dấu hiệu nghi vấn: tin nhắn từ số điện thoại lạ, không qua kênh chính thức của cơ quan nhà nước"
+    ]
+  },
+  {
+    "id": "scam-impersonation_authority-06",
+    "text": "Hôm qua, anh Minh (35 tuổi) nhận được cuộc gọi từ số 02436789012, người gọi tự xưng là Thượng tá Trần Văn Hùng từ Công an quận Bình Thạnh. Họ nói rằng tài khoản VNeID của anh đã bị dùng để mở 3 công ty ma và liên quan đến một vụ rửa tiền 50 tỷ đồng ở TP.HCM. Anh Minh hoảng sợ khi nghe tin, nhất là khi người này đọc chính xác số CCCD và một phần thông tin cá nhân. Công an fake yêu cầu anh chuyển 15 triệu đồng vào \"tài khoản bảo vệ\" số 0123456789 ở ngân hàng Vietcombank (tên chủ tài khoản: \"Quỹ Bảo vệ Công dân\") để tạm khóa tài khoản ngân hàng và chứng minh bản thân vô tội. Anh Minh đã chuyển tiền ba lần với tổng số tiền 45 triệu đồng qua ứng dụng ShinhanBank trên điện thoại, khi vợ anh phát hiện ra trang web \"http://congan-binhthanhpolice.vn\" (trang giả) anh được yêu cầu truy cập để xác nhận hồ sơ. Sau đó anh Minh mới nhận ra đây là vụ lừa đảo và đã báo cáo sự việc.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "impersonation_authority",
+    "style": "long_narration",
+    "key_facts": [
+      "Giả danh cảnh sát cấp cấp (Thượng tá Trần Văn Hùng từ Công an quận Bình Thạnh)",
+      "Sử dụng thông tin cá nhân thực (số CCCD, VNeID) để tạo tính hợp pháp, khiến nạn nhân tin tưởng",
+      "Tạo cảm giác khẩn cấp bằng cách nói về vụ rửa tiền và công ty ma",
+      "Yêu cầu chuyển tiền vào tài khoản fake với lý do 'bảo vệ tài khoản ngân hàng'",
+      "Sử dụng trang web giả mạo để thu thập hoặc xác nhận thêm thông tin từ nạn nhân"
+    ]
+  },
+  {
+    "id": "scam-impersonation_authority-07",
+    "text": "Công an quận 10, TP.HCM thông báo: Hồ sơ VNeID của bạn (Nguyễn Văn Tân, mã căn cước 123456789012) đã được đưa vào danh sách tạm giữ theo quyết định 4582/QĐ-CA ngày 15/08/2024 vì liên quan đến hành vi chiếm đoạt tài sản qua mạng. Để làm sạch lý lịch và tránh bị khóa tài khoản ngân hàng, vui lòng xác minh thông tin cá nhân trên link dạo này: xacnhanvneid-baomat.xyz/confirm?id=4582 trong vòng 24 giờ. Nếu không, hệ thống sẽ phong tỏa tài khoản. Hotline hỗ trợ: 0973 882 556",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "impersonation_authority",
+    "style": "verbatim_message",
+    "key_facts": [
+      "Giả danh cơ quan công an với số quyết định giả",
+      "Sử dụng VNeID/CCCD làm đòn bẩy tạo sự khủng hoảng (bị khóa tài khoản ngân hàng)",
+      "Cung cấp link độc hại để lừa xác minh thông tin cá nhân",
+      "Tạo thời hạn urgency (24 giờ) để buộc nạn nhân hành động ngay"
+    ]
+  },
+  {
+    "id": "scam-impersonation_authority-08",
+    "text": "Hôm qua anh Minh (anh trai của em) nhận được một cuộc gọi từ số +84 28 1234 5678. Người gọi giới thiệu là \"Cán bộ phòng Quản lý Cơ sở dữ liệu Công dân, Chi cục Cảnh sát Quản lý hành chính tỉnh Bình Dương\". \n\nNgười này nói rằng hệ thống VNeID của anh bị phát hiện vi phạm - có dấu hiệu giả mạo dữ liệu sinh trắc học, và cần phải xác minh danh tính ngay lập tức. Họ yêu cầu anh tải xuống ứng dụng \"VNeID Verify Pro\" (một ứng dụng giả mạo) từ một liên kết trong tin nhắn để \"cập nhật thông tin\" và \"khóa tài khoản trước khi bị phát hành công bố\".\n\nKhi anh Minh hỏi tên cụ thể của người đó, họ trả lời \"Trung tá Nguyễn Văn Linh, mã số CA0289\". Sau đó, họ gửi thêm một ảnh chụp màn hình giả mạo giấy tờ công vụ với dòng chữ \"THÔNG BÁO VI PHẠM HÀNH CHÍNH SỐ 2024/CP-CAH\" và yêu cầu anh thanh toán 2.500.000 đồng qua ứng dụng nhân danh \"Quỹ Bảo vệ An toàn Công dân\" để hoàn tất quá trình xác minh, nếu không sẽ bị phát hành giấy phạt hành chính.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "impersonation_authority",
+    "style": "third_person",
+    "key_facts": [
+      "Kẻ giả danh Công an, sử dụng tên giả 'Trung tá Nguyễn Văn Linh' và mã số CA giả để tạo độ tin cậy",
+      "Tạo áp lực tâm lý bằng cách phát hiện 'vi phạm dữ liệu sinh trắc học VNeID' để ép nạn nhân hành động nhanh",
+      "Phân phối ứng dụng độc hại 'VNeID Verify Pro' qua liên kết nhằm chiếm đoạt thông tin cá nhân và tài khoản ngân hàng",
+      "Yêu cầu thanh toán 2,5 triệu đồng qua ứng dụng 'Quỹ Bảo vệ An toàn Công dân' để hoàn tất 'xác minh danh tính'"
+    ]
+  },
+  {
+    "id": "scam-impersonation_authority-09",
+    "text": "Tôi vừa nhận được cuộc gọi từ số 08-4366-5592 nói là cơ quan Cảnh sát Điều tra tỉnh Bà Rịa - Vũng Tàu, yêu cầu xác minh tài khoản ngân hàng của tôi vì nghi ngờ có liên quan đến vụ rửa tiền. Họ bắt tôi cài app \"VneID Pro Verify\" để cập nhật CCCD, còn nói nếu không làm trong 2 giờ sẽ khóa tài khoản. Đây có phải lừa đảo không ạ?",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "impersonation_authority",
+    "style": "short_question",
+    "key_facts": [
+      "Lừa đảo giả danh cơ quan công an, yêu cầu xác minh tài khoản ngân hàng",
+      "Sử dụng ứng dụng giả mạo (VneID Pro Verify) để lừa người dùng cài đặt phần mềm độc hại",
+      "Tạo cấp bách bằng đe dọa khóa tài khoản trong thời gian ngắn (2 giờ)",
+      "Số điện thoại giả mạo có dạng tổng đài chính thức (08-4366-5592)"
+    ]
+  },
+  {
+    "id": "scam-impersonation_authority-10",
+    "text": "Hôm qua em nhận được cuộc gọi điện từ số +84.2.4567.8901, người gọi xưng là \"Thượng úy Trần Minh Tuấn\" từ Công an quận Hoàn Kiếm. Người này thông báo rằng em vừa bị phát hiện sử dụng thẻ CCCD để mở 3 tài khoản ngân hàng lạ và có giao dịch bất thường đến 47 triệu đồng, khiến em hoảng sợ. Thượng úy Tuấn yêu cầu em tải ứng dụng \"VNeID Verify Pro\" (thực ra là ứng dụng lạ) và cấp quyền truy cập camera, danh bạ để xác minh danh tính. Khi em do dự, anh ta đe dọa sẽ khóa CCCD trong hệ thống, yêu cầu em chuyển 5 triệu đồng vào tài khoản \"Quỹ bảo vệ danh tính công dân\" (số tài khoản: 1234567890) của \"Ngân hàng An Ninh Quốc Gia\" để tạm thời ngừng kiểm tra. Em đã chuyển tiền trước khi phát hiện ra đây là lừa đảo.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "impersonation_authority",
+    "style": "long_narration",
+    "key_facts": [
+      "Giả danh công an địa phương để tạo sự tin tưởng và khẩn cấp",
+      "Tuyên bố phát hiện hoạt động bất thường liên quan đến CCCD/danh tính để tạo tâm lý sợ hãi",
+      "Yêu cầu tải ứng dụng lạ (VNeID Verify Pro) để truy cập dữ liệu cá nhân",
+      "Đe dọa và yêu cầu chuyển tiền vào tài khoản ngân hàng giả mạo dưới danh nghĩa 'quỹ bảo vệ danh tính'"
+    ]
+  },
+  {
+    "id": "scam-impersonation_service-01",
+    "text": "THÔNG BÁO KHẨN: Tài khoản ngân hàng của bạn phát hiện giao dịch bất thường 2.850.000đ từ Hà Nội lúc 14:32. Nếu không phải do bạn, vui lòng xác thực ngay tại: www.techcombank-verify.com/secure?id=45829 hoặc gọi 1800-9998 để khóa tài khoản. Mã OTP: 847621 (hiệu lực 5 phút) - Techcombank",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "impersonation_service",
+    "style": "verbatim_message",
+    "key_facts": [
+      "Giả danh ngân hàng (Techcombank) để tạo cảm giác khẩn cấp về giao dịch bất thường",
+      "Sử dụng số tiền cụ thể và thời gian để tăng độ tin cậy của tin nhắn giả",
+      "Cung cấp đường link giả mạo (techcombank-verify.com thay vì tên miền chính thức) và số điện thoại giả để lợi dụng người dùng",
+      "Đưa ra mã OTP giả để người dùng tưởng tính hợp pháp và được yêu cầu nhập OTP thực để xác thực"
+    ]
+  },
+  {
+    "id": "scam-impersonation_service-02",
+    "text": "Hôm qua em gái tôi Linh kể là cô ấy vừa nhận được cuộc gọi từ số 02892345678, bên kia giới thiệu là nhân viên bộ phận hỗ trợ khách hàng của Viettel. Người đó nói rằng tài khoản của em có dấu hiệu sử dụng bất thường ở nước ngoài và cần xác minh tức thì. Anh ta yêu cầu em mở ứng dụng \"Viettel Care\" để cập nhật thông tin, sau đó đưa cho em một đường link tải app từ địa chỉ: viettel-secureupdate.tk (tên miền giả). \n\nEm đã gần như cài đặt ứng dụng đó nhưng may mắn là trước đó gọi điện hỏi tôi. Tôi kiểm tra lại và thấy số điện thoại gọi đến không phải số chính thức của Viettel, còn đường link tải app cũng rõ ràng là lừa đảo. Khi em tỏ ý không muốn tiếp tục, kẻ lừa đảo liền đe dọa sẽ khóa SIM trong 24 giờ nếu không tuân thủ yêu cầu.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "impersonation_service",
+    "style": "third_person",
+    "key_facts": [
+      "Kẻ lừa đảo giả danh nhân viên Viettel qua cuộc gọi điện thoại",
+      "Yêu cầu cài đặt ứng dụng từ đường link giả mạo (viettel-secureupdate.tk)",
+      "Sử dụng chiêu trò tạo cảm giác khẩn cấp (tài khoản bất thường, cần xác minh tức thì)",
+      "Đe dọa khóa SIM khi nạn nhân không tuân thủ"
+    ]
+  },
+  {
+    "id": "scam-impersonation_service-03",
+    "text": "Em vừa nhận được cuộc gọi từ số +84987654321 nói là nhân viên Viettel, bảo tài khoản SIM của em bị khóa vì chưa xác minh định danh, yêu cầu em cài app \"ViettelSecure\" để mở khóa. Em có nên làm không ạ?",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "impersonation_service",
+    "style": "short_question",
+    "key_facts": [
+      "Lừa đảo giả danh nhà mạng (Viettel) thông qua cuộc gọi điện thoại",
+      "Yêu cầu cài đặt ứng dụng giả mạo (ViettelSecure) để chiếm quyền truy cập thiết bị",
+      "Lý do giả tạo: xác minh định danh hoặc mở khóa tài khoản SIM",
+      "Kẻ lừa đảo sử dụng số điện thoại giả để tạo uy tín và gây áp lực khẩn cấp"
+    ]
+  },
+  {
+    "id": "scam-impersonation_service-04",
+    "text": "Hôm qua, anh em trai tôi nhận được cuộc gọi từ số +84 28 3825 4471, người gọi xưng là nhân viên Bộ phận Xác minh Tài khoản của Ngân hàng Agribank. Họ nói rằng tài khoản của anh vừa có hoạt động ghi nợ bất thường với số tiền 15.8 triệu đồng được chuyển tới một tài khoản lạ ở Huế vào sáng nay lúc 10:45. Nhân viên này yêu cầu anh phải cập nhật lại thông tin xác minh bằng cách cài đặt ứng dụng \"Agribank Shield\" từ đường link được gửi qua SMS để \"khóa tài khoản ngay lập tức\". Khi anh do dự, đối phương nói giọng rất gấp gáp, khuyên rằng nếu không xác minh trong 10 phút thì toàn bộ tiền sẽ bị rút hết. Anh đã bấm vào link và nhập thông tin đăng nhập, mã PIN, cài đặt mật khẩu mới theo hướng dẫn trên ứng dụng giả. Sau 2 tiếng, anh phát hiện tài khoản thực sự bị trống với 23.5 triệu đồng đã mất, và khi liên hệ Agribank thực sự thì được thông báo rằng cuộc gọi lúc nãy là hoàn toàn giả mạo.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "impersonation_service",
+    "style": "long_narration",
+    "key_facts": [
+      "Người lừa giả danh nhân viên Ngân hàng Agribank thông qua cuộc gọi điện thoại với số lạ",
+      "Sử dụng chiêu tạo tâm lý khẩn cấp bằng cách nói có hoạt động ghi nợ bất thường với số tiền lớn",
+      "Yêu cầu nạn nhân cài đặt ứng dụng giả mạo 'Agribank Shield' từ link SMS để lừa lấy thông tin đăng nhập và mã PIN",
+      "Nạn nhân mất 23.5 triệu đồng sau khi cung cấp thông tin cá nhân cho ứng dụng giả mạo"
+    ]
+  },
+  {
+    "id": "scam-impersonation_service-05",
+    "text": "Chào anh/chị. Đây là nhân viên hỗ trợ khách hàng của Điện lực TP.HCM. Chúng tôi phát hiện tài khoản của bạn tại địa chỉ 47 Đường 3/2, Quận 10 có nợ điện trong 3 tháng liên tiếp, tổng cộng 2.850.000 đồng. Theo quy định, nếu không thanh toán trong 48 giờ, chúng tôi sẽ tiến hành cắt điện. Để tránh bị cắt điện và phạt thêm 500.000 đồng, bạn vui lòng chuyển tiền ngay vào tài khoản: VietComBank - Số TK: 1005342789 - Người thụ hưởng: Trần Thị Hương. Hoặc gọi đường dây nóng 0359 288 888 để biết thêm chi tiết. Cảm ơn.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "impersonation_service",
+    "style": "verbatim_message",
+    "key_facts": [
+      "Giả danh nhân viên Điện lực TP.HCM với tuyên bố nợ tiền điện giả tạo",
+      "Tạo tâm lý cấp bách và đe dọa cắt điện, phạt phí để thúc ép hành động nhanh",
+      "Cung cấp tài khoản ngân hàng giả mạo để lừa chuyển tiền",
+      "Sử dụng số điện thoại giả mạo (0359 888 888) để tăng tính thuyết phục"
+    ]
+  },
+  {
+    "id": "scam-impersonation_service-06",
+    "text": "Hôm qua tôi nghe chị dâu tôi kể lại một sự cố khá nguy hiểm. Chị nhận được cuộc gọi từ số điện thoại +84 946 728 315, kẻ gọi tự xưng là nhân viên Tổng công ty Điện lực Việt Nam, tên là anh Minh Tuấn. Anh ta nói rằng hóa đơn tiền điện của chị tháng 7 vừa rồi bị lỗi và tài khoản khách hàng (số KH: 00284956) đã bị khóa tạm thời. Kẻ lừa đảo yêu cầu chị cập nhật lại thông tin thanh toán để mở khóa tài khoản, và hướng dẫn chị tải ứng dụng \"ElectricPay Pro\" xuống điện thoại để hoàn tất quá trình xác thực. Trên thực tế, đó là ứng dụng giả mạo. Khi chị nhập các thông tin cá nhân, số tài khoản ngân hàng và mật khẩu vào ứng dụng, kẻ gọi đã có thể truy cập vào tài khoản ngân hàng của chị. May mắn là chị nhận ra bất thường khi nhận được thông báo từ ngân hàng về một giao dịch chuyển 2.500.000 đồng sang một tài khoản lạ tên Nguyễn Văn Sơn. Chị đã kịp thời gọi ngân hàng để khóa tài khoản và không bị mất tiền.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "impersonation_service",
+    "style": "third_person",
+    "key_facts": [
+      "Kẻ lừa gọi giả danh nhân viên điện lực, sử dụng số điện thoại +84 946 728 315 và tên anh Minh Tuấn",
+      "Yêu cầu cập nhật thông tin thanh toán với cớ tài khoản khách hàng bị khóa tạm thời",
+      "Hướng dẫn tải ứng dụng giả mạo 'ElectricPay Pro' để trích xuất thông tin tài khoản và mật khẩu",
+      "Mục đích cuối cùng là chiếm đoạt tiền từ tài khoản ngân hàng (2.500.000 đồng trong trường hợp này)"
+    ]
+  },
+  {
+    "id": "scam-impersonation_service-07",
+    "text": "Em vừa nhận được tin nhắn từ số 0378.XXXX.91 xưng là nhân viên Điện lực TP.HCM, nói hóa đơn tháng này em nợ 2.850.000 đồng và yêu cầu em bấm link để thanh toán trước để tránh bị cắt điện. Có phải là lừa đảo không ạ?",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "impersonation_service",
+    "style": "short_question",
+    "key_facts": [
+      "Tin nhắn từ số lạ giả danh nhân viên điện lực (impersonation_service)",
+      "Yêu cầu thanh toán tiền nợ qua link không rõ nguồn gốc",
+      "Tạo cảm giác khẩn cấp (cắt điện) để buộc người dùng thực hiện hành động",
+      "Số tiền lớn (2.850.000 đ) làm tin tưởng hơn nhưng không xác minh qua kênh chính thức"
+    ]
+  },
+  {
+    "id": "scam-impersonation_service-08",
+    "text": "Hôm qua tôi nhận được cuộc gọi từ số 0865-xxx-xxx, người phía bên kia giới thiệu là nhân viên kỹ thuật của Viettel Mobile. Họ nói rằng tài khoản SIM của tôi đã bị phát hiện hoạt động bất thường ở nước ngoài (Thái Lan) trong vòng 48 giờ qua, và để bảo vệ tài khoản, tôi cần xác minh thông tin qua ứng dụng MyViettel trong điện thoại. Người này yêu cầu tôi cấp quyền truy cập toàn bộ thông tin cá nhân, chỉ số dư tài khoản ngân hàng liên kết, và mã OTP khi có thông báo. Khi tôi hỏi chi tiết thêm, họ tạo áp lực bằng cách nói rằng nếu không xác minh trong 30 phút, tài khoản sẽ bị khóa vĩnh viễn. Tôi gần như sắp đồng ý cho đến khi nhận ra những lỗi sai trong cách nói của người gọi (có giọng lạ, phát âm sai tên công ty), nên đã cắt máy và gọi trực tiếp đến hotline 100 của Viettel để xác nhận — nhân viên thực sự cho biết đó là chiêu lừa đảo phổ biến hiện nay.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "impersonation_service",
+    "style": "long_narration",
+    "key_facts": [
+      "Giả danh nhân viên kỹ thuật của nhà mạng Viettel Mobile qua cuộc gọi điện",
+      "Tạo cảm giác khẩn cấp bằng cách tuyên bố tài khoản SIM bị hoạt động bất thường ở nước ngoài",
+      "Yêu cầu nạn nhân cấp quyền truy cập toàn bộ thông tin cá nhân và mã OTP để 'xác minh tài khoản'",
+      "Đặt thời hạn 30 phút và đe dọa khóa tài khoản vĩnh viễn nếu không hợp tác"
+    ]
+  },
+  {
+    "id": "scam-impersonation_service-09",
+    "text": "Chào khách hàng. Đây là thông báo từ Điện lực Thành phố Hồ Chí Minh. Hóa đơn tiền điện tháng 11 của bạn là 2.850.000 đồng. Do quá hạn thanh toán, tài khoản của bạn sẽ bị cắt điện trong 24 giờ. Vui lòng thanh toán ngay tại: https://dien-luc-thanhtoan.vn hoặc gọi 0989-456-123 để cập nhật thông tin. Mã khách hàng: DL-8472619",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "impersonation_service",
+    "style": "verbatim_message",
+    "key_facts": [
+      "Giả danh công ty điện lực với hóa đơn giả",
+      "Tạo cảm giác khẩn cấp (cắt điện 24h) để ép người dùng hành động nhanh",
+      "Cung cấp đường link giả mạo thay vì hướng tới trang chính thức",
+      "Đưa số điện thoại giả để lừa gọi hoặc cung cấp thông tin cá nhân"
+    ]
+  },
+  {
+    "id": "scam-investment_fraud-01",
+    "text": "Hôm qua em trai mình nhắn cho mình một tin rất lo lắng. Em nói hôm trước nó được một thằng bạn cũ tên Sơn kết bạn trên Facebook, người này bắt đầu chat xin lỏi \"cách kiếm thêm thu nhập\". Em trai nó cũng cần tiền nên hỏi kỹ. Sơn bảo nó có cơ hội tham gia một \"quỹ đầu tư forex quốc tế\" với lợi nhuận 25% mỗi tháng, toàn những doanh nhân giàu có tham gia. Bị chốt bởi con số khủng, em nó đồng ý tải app tên là \"GlobalTrade Pro\" (nó nói là ứng dụng được cấp phép). \n\nNgay hôm sau, Sơn hướng dẫn em nó nạp tiền vào tài khoản (số: 0987.123.456) với số tiền đầu tiên 15 triệu để \"kích hoạt tài khoản\". Em nó liên tích và chuyển tiền. Sau đó, app hiển thị rằng tiền được \"đầu tư\" và lợi nhuận ảo tăng lên 18 triệu sau vài ngày. Thấy cái gì đó lạ, em nó hỏi rút tiền lợi nhuận. Lúc đó Sơn bảo phải nạp thêm 12 triệu nữa để \"xác minh tài khoản VIP\" mới rút được. \n\nMình khuyên em nó không nạp nữa và làm báo cáo với cảnh sát mạng. May mà nó dừng lại sớm.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "investment_fraud",
+    "style": "third_person",
+    "key_facts": [
+      "Người bạn trên Facebook tên Sơn dụ dỗ nạp tiền vào tài khoản giả mạo với hứa hẹn lợi nhuận cao",
+      "Ứng dụng 'GlobalTrade Pro' và app giả mạo không được cấp phép đã hiển thị lợi nhuận ảo để tăng sự tin cậy",
+      "Yêu cầu nạp thêm tiền để 'xác minh VIP' là chiêu khóa nạp điển hình của lừa đảo Ponzi",
+      "Nạp tiền ban đầu 15 triệu và yêu cầu thêm 12 triệu là dấu hiệu cơn sốt"
+    ]
+  },
+  {
+    "id": "scam-investment_fraud-02",
+    "text": "Anh/chị ơi, tôi có cơ hội đầu tư vào quỹ tiền mã hóa Finvest Capital qua bạn bè. Họ nói lãi suất 15% mỗi tháng, đã có 500 thành viên tham gia rồi. Tôi có nên gửi 10 triệu đầu tiên không?",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "investment_fraud",
+    "style": "short_question",
+    "key_facts": [
+      "Tỷ lệ lợi nhuận quá cao (15%/tháng = ~450%/năm) không thực tế với thị trường thực",
+      "Sử dụng tâm lý 'FOMO' - nhấn mạnh số lượng thành viên để tạo sự tin tưởng giả tạo",
+      "Không có thông tin rõ ràng về quỹ/ứng dụng, chỉ là lời từ bạn bè",
+      "Đây là dấu hiệu của mô hình Ponzi hoặc lừa đảo đầu tư tiền mã hóa"
+    ]
+  },
+  {
+    "id": "scam-investment_fraud-03",
+    "text": "Anh tôi vừa kể cho tôi nghe một câu chuyện buồn của mình. Khoảng 3 tháng trước, anh nhận được tin nhắn qua Zalo từ một số lạ tên là \"Ms. Linda - Forex Expert\" mời anh tham gia một nhóm đầu tư forex độc quyền với lợi suất 5-8% mỗi tuần. Nhóm có hơn 500 thành viên và người ta liên tục chia sẻ những bằng chứng lợi nhuận (ảnh chụp màn hình tài khoản với số dư tăng đột ngột). Anh được khuyến khích gửi 5 triệu đồng vào tài khoản ngân hàng của cá nhân để \"cấp tín dụng đầu tư\". Sau khi chuyển tiền, anh được cấp tài khoản trên ứng dụng \"ForexPro Global\" (một app giả mạo) và nhìn thấy số tiền tăng lên thành 6,5 triệu sau 2 tuần. Khi anh yêu cầu rút tiền về, Ms. Linda bảo cần phí \"xác minh tài khoản quốc tế\" là 2 triệu đồng trước, nếu không sẽ bị khóa tài khoản. Anh gửi thêm 2 triệu, nhưng sau đó mọi liên hệ với Ms. Linda đều không được hồi đáp và ứng dụng không còn vào được nữa. Anh nhận ra mình đã mất 7 triệu đồng cho một vụ lừa đảo forex qua mạng.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "investment_fraud",
+    "style": "long_narration",
+    "key_facts": [
+      "Chiêu trò giả danh chuyên gia forex và tạo nhóm đầu tử fake với lội suất cao không thực tế (5-8% mỗi tuần)",
+      "Sử dụng giả các bằng chứng lợi nhuận qua ảnh chụp màn hình để tăng tính tin cậy",
+      "Tạo ứng dụng giả mạo có giao diện giống thật để nạn nhân nhìn thấy tiền tăng và mắc vào tâm lý tham lam",
+      "Khi nạn nhân muốn rút tiền, chiêu trò yêu cầu phí xác minh giả tạo, sau đó mất tích hoàn toàn"
+    ]
+  },
+  {
+    "id": "scam-investment_fraud-04",
+    "text": "Chào bạn! Mình là Linh từ công ty môi giới tài chính FxProfit Global. Hiện tại chúng mình đang mở chương trình đầu tư Forex đặc biệt cho các nhà đầu tư mới với lợi nhuận 150-200% mỗi tháng. Bạn chỉ cần gửi tối thiểu 500.000đ để bắt đầu, không cần kinh nghiệm. Các mentor giàu kinh nghiệm sẽ hướng dẫn 1:1. Mình vừa giúp 127 người kiếm từ 50-100 triệu/tháng. Link vào group: http://fxprofit-global.vn/join?code=abc123. Hôm nay nếu bạn tham gia sẽ được bonus thêm 200k. Bạn có quan tâm không?",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "investment_fraud",
+    "style": "verbatim_message",
+    "key_facts": [
+      "Hứa hẹn lợi nhuận cao bất thường (150-200% mỗi tháng) trong đầu tư Forex",
+      "Yêu cầu vốn đầu tư thấp để thu hút người mới",
+      "Sử dụng xã hội hóa (kể về 127 người kiếm được hàng chục triệu) để xây dựng niềm tin",
+      "Tạo cấp tính bằng bonus thời hạn để thúc đẩy quyết định nhanh"
+    ]
+  },
+  {
+    "id": "scam-investment_fraud-05",
+    "text": "Hôm qua mình mới biết chuyện bạn tớ là Minh gặp phải. Nó kể rằng vào tuần trước, nó được một người tên Trần Hoàng Phú (số điện thoại 0936.447.281) kết bạn trên Facebook. Anh này tự giới thiệu là chuyên gia tư vấn đầu tư với 15 năm kinh nghiệm, liên tục chia sẻ ảnh chứng chỉ, bằng cấp giả và các bài đăng về \"chiến lược giao dịch Forex độc quyền\". \n\nSau vài ngày chat thân thiết, anh ta mời Minh vào nhóm Telegram gọi là \"Gold Investment Club 2024\" (t.me/goldinvestmentclub247). Trong nhóm, có hàng chục \"thành viên\" (hầu hết là fake account) liên tục đăng ảnh màn hình lợi nhuận: người này lãi 5 triệu trong 3 ngày, người kia 12 triệu trong một tuần.\n\nAnh Phú hướng dẫn Minh tải ứng dụng \"FXPro Global\" (giả mạo tên app thật nhưng domain của nó là fxproglobal-vn.online). Sau đó bảo Minh nạp tiền vào tài khoản qua chuỗi chuyển khoản: \"Tài khoản Ngân hàng Techcombank số 1027-482-9156 (chủ tài khoản Công ty TNHH Dream Capital)\".\n\nMinh lần đầu chuyển 2 triệu. Tờ lâu sau, ứng dụng hiển thị lợi nhuận giả là 6.8 triệu, thế là nó liên tục nạp thêm: 5 triệu, 10 triệu, rồi vay mượn để nạp tiếp 8 triệu nữa. Khi Minh yêu cầu rút tiền, anh Phú bảo \"cần nạp thêm 3 triệu để giải phóng quỹ\" — rồi sau đó mất liên lạc luôn.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "investment_fraud",
+    "style": "third_person",
+    "key_facts": [
+      "Lừa đảo đầu tư Forex qua ứng dụng giả mạo với giao diện hiển thị lợi nhuận ảo",
+      "Sử dụng mạng xã hội (Facebook) và Telegram để xây dựng sự tin tưởng bằng giấy tờ/bằng cấp giả",
+      "Tạo cộng đồng giả với nhiều tài khoản fake để khoe lợi nhuận và thúc đẩy nạp tiền",
+      "Chiêu trò 'phí giải phóng quỹ' để lừa tiêu thêm khi nạn nhân muốn rút tiền, sau đó tắt liên lạc"
+    ]
+  },
+  {
+    "id": "scam-investment_fraud-06",
+    "text": "Mình vừa được người bạn cũ giới thiệu vào nhóm \"Đầu Tư Forex Tài Chính\" trên Telegram. Họ hứa hẹn lợi nhuận 15-20% mỗi tháng nếu mình gửi tiền vào tài khoản, và đã có mấy người trong nhóm post ảnh chứng minh kiếm được 50 triệu đồng. Thực sự nên tham gia không ạ?",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "investment_fraud",
+    "style": "short_question",
+    "key_facts": [
+      "Nhóm kín trên Telegram đề nghị lợi nhuận 15-20% mỗi tháng (mức lợi nhuận phi thực tế, dấu hiệu lừa đảo)",
+      "Yêu cầu gửi tiền vào tài khoản được chỉ định (thu tiền từ nạn nhân)",
+      "Có bằng chứng giả mạo (ảnh chứng minh lợi nhuận) để tạo niềm tin",
+      "Sử dụng kênh ẩn danh (Telegram) và sự giới thiệu qua người quen để che giấu danh tính"
+    ]
+  },
+  {
+    "id": "scam-investment_fraud-07",
+    "text": "Mấy tuần trước, bạn gái tôi tên Trang nhận được lời mời vào nhóm Telegram từ một người bạn cũ tên Minh — hoá ra anh ta đã bị hack tài khoản. Trong nhóm, một tài khoản giả mạo tên \"Anh Minh Đầu Tư\" chia sẻ những bài viết về cách kiếm lợi nhuận 15-20% mỗi tháng thông qua nền tảng giao dịch forex tên \"TradeMax Pro\" (app giả, giao diện giống Metatrader). Họ hứa rằng chỉ cần nạp vốn ban đầu là 2 triệu đồng, bạn sẽ được tặng kèm \"tài khoản VIP coaching\" với cố vấn đầu tư tên anh Kiên. Sau khi Trang chuyển tiền vào ví điện tử USDT qua mã nhận diện giả, họ gửi cho cô ấy các ảnh chụp màn hình \"lợi nhuận\" từ 2-3 triệu đồng mỗi ngày (được chỉnh sửa). Khi Trang muốn rút tiền, cô ấy bị yêu cầu nạp thêm 1 triệu để \"kích hoạt\" tính năng rút tiền và trả \"thuế lợi nhuận\". Sau cùng, khi không thể rút được đồng nào, cô ấy mới nhận ra đã bị lừa mất 3 triệu đồng.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "investment_fraud",
+    "style": "long_narration",
+    "key_facts": [
+      "Chiêu trò dẫn dụ qua nhóm Telegram giả mạo với tài khoản hack",
+      "Hứa hẹn lợi nhuận cao 15-20% mỗi tháng trên nền tảng giao dịch giả",
+      "Yêu cầu nạp vốn ban đầu 2 triệu, sau đó đòi nạp thêm 1 triệu để rút tiền",
+      "Sử dụng ảnh chụp màn hình giả mạo để hiển thị lợi nhuận giả"
+    ]
+  },
+  {
+    "id": "scam-investment_fraud-08",
+    "text": "Chào em! Anh là Phạm Duy từ công ty FX Capital. Hiện anh đang quản lý quỹ đầu tư forex với lợi suất 8-12%/tháng. Nhiều khách hàng đã lời 500 triệu - 2 tỷ chỉ trong 6 tháng. Em có 100 triệu không? Nếu gửi vào tài khoản anh ngay hôm nay, sẽ được +15% từ tháng đầu tiên. Anh đã giúp 47 người giàu lên rồi. Tải app TradePro trên điện thoại, anh sẽ hướng dẫn em step by step. Miễn phí hoàn toàn, không có risk. Phí quản lý chỉ 5% khi lãi được. Anh chờ reply!",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "investment_fraud",
+    "style": "verbatim_message",
+    "key_facts": [
+      "Cam kết lợi suất cao bất thường (8-12%/tháng)",
+      "Sử dụng tên công ty giả (FX Capital) và danh xưng ảo (Phạm Duy)",
+      "Tạo áp lực quyết định nhanh (gửi ngay hôm nay) với lời hứa lợi suất cao hơn tháng đầu (+15%)",
+      "Yêu cầu tải ứng dụng không chính thức (TradePro) để kiểm soát quy trình và dấu vết"
+    ]
+  },
+  {
+    "id": "scam-investment_fraud-09",
+    "text": "Hôm qua tôi vừa nghe bạn gái Linh kể một chuyện buồn. Cô ấy bảo có một người tên Trần Minh kết bạn qua Facebook cách đây 2 tuần, tự giới thiệu là chuyên gia đầu tư forex có kinh nghiệm 8 năm. Anh ta liên tục nhắn tin mời Linh tham gia vào một \"nhóm tư vấn tài chính riêng\" trên Telegram.\n\nBan đầu Trần Minh chỉ chia sẻ kiến thức miễn phí, một vài \"tín hiệu giao dịch\" đúng thật khiến Linh tin tưởng hơn. Sau đó anh ta gợi ý Linh nên \"bắt đầu đầu tư thực tế\" bằng cách tải app \"DeltaTrading Pro\" (một ứng dụng lạ). Anh ta yêu cầu Linh gửi 5 triệu đồng vào tài khoản quản lý có số điện thoại 0917.445.892 để \"mở tài khoản giao dịch ưu đãi\".\n\nLinh chuyển tiền vào tài khoản Vietcombank của một người tên Phạm Thị Hoa. Lúc đầu app DeltaTrading Pro hiển thị số tiền tăng từ 5 triệu lên 7.2 triệu sau 4 ngày. Nhưng khi Linh muốn rút lợi nhuận, Trần Minh bảo phải \"nâng level\" bằng cách gửi thêm 8 triệu nữa, rồi mới rút được. Lúc này Linh mới nhận ra mình bị lừa.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "investment_fraud",
+    "style": "third_person",
+    "key_facts": [
+      "Kẻ lừa đảo kết bạn giả danh chuyên gia forex trên mạng xã hội",
+      "Dùng app giả mạo để hiển thị lợi nhuận ảo và thu hút nạn nhân gửi tiền",
+      "Sử dụng chiêu 'nâng level' hoặc 'phí kích hoạt' để tiếp tục chiếm đoạt thêm tiền",
+      "Yêu cầu chuyển tiền vào tài khoản ngân hàng cá nhân thay vì nền tảng chính thức"
+    ]
+  },
+  {
+    "id": "scam-loan_scam-01",
+    "text": "Tôi vừa nhận được tin nhắn từ số 0913445782 nói là từ công ty tài chính Prosper Online, họ cho mình vay 5 triệu đồng không cần chứng minh thu nhập. Mình phải làm thế nào?",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "loan_scam",
+    "style": "short_question",
+    "key_facts": [
+      "Chiêu trò vay tiền online với lời hứa không cần thẩm định tài chính",
+      "Sử dụng tên công ty giả (Prosper Online) để tạo lòng tin",
+      "Yêu cầu cung cấp thông tin cá nhân hoặc phí xử lý trước khi nhận tiền",
+      "Đây là dấu hiệu điển hình của loan scam - tín dụng đen lừa đảo"
+    ]
+  },
+  {
+    "id": "scam-loan_scam-02",
+    "text": "Tối hôm qua em nhận được tin nhắn qua Zalo từ số điện thoại +84905228XX7, tự xưng là nhân viên của công ty tài chính \"VietCredit Pro\". Người này nói em đã được duyệt hạn mức vay 15 triệu đồng không cần thế chấp, lãi suất chỉ 0,5% hàng tháng. Để hoàn thành thủ tục, em phải chuyển 890 ngàn đồng làm \"phí xác minh tài khoản ngân hàng\" vào tài khoản của họ. Khi em hỏi tên ngân hàng thì họ nói là \"TechBank\" mà em chưa từng nghe. Em quyết định gọi điện cho công ty tài chính chính thức nhưng họ bảo không có bất kỳ đơn vay nào dưới tên em, và cảnh báo đây chắc là lừa đảo. Em vội vàng không chuyển tiền và chặn số điện thoại lại.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "loan_scam",
+    "style": "long_narration",
+    "key_facts": [
+      "Chiêu vay tiền online với hạn mức cao nhưng yêu cầu phí trước để xác minh",
+      "Giả danh công ty tài chính uy tín để xây dựng lòng tin",
+      "Sử dụng Zalo và số điện thoại giả để liên hệ nạn nhân",
+      "Ngân hàng không chính thức (TechBank) được đề xuất để nhận tiền"
+    ]
+  },
+  {
+    "id": "scam-loan_scam-03",
+    "text": "Chị ơi! Tôi là Hằng từ công ty Tài chính Xanh Plus. Chúng tôi đang có chương trình cho vay khẩn cấp CHỈ 30 PHÚT, không cần thế chấp! Chị đủ điều kiện vay 15 triệu, lãi suất chỉ 1.2%/tháng, trả góp 12 tháng. Để xác nhận, chị vào link này: taichinhxanhplus.vn/apply?id=7482956 và điền số CCCD, sau đó chuyển phí duyệt hồ sơ 450k qua Momo hoặc ngân hàng là xong! Quyết định giúp được nhiều gia đình rồi. Chị có ngân hàng gì không?",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "loan_scam",
+    "style": "verbatim_message",
+    "key_facts": [
+      "Giả danh công ty tài chính để tạo độ tin cậy",
+      "Yêu cầu phí duyệt hồ sơ phía trước (chiêu lừa điển hình)",
+      "Cung cấp link lừa trang web nhái để thu thập thông tin CCCD",
+      "Lãi suất quá thấp (1.2%/tháng) không thực tế để thu hút nạn nhân"
+    ]
+  },
+  {
+    "id": "scam-loan_scam-04",
+    "text": "Hôm qua tôi mới biết em gái Linh bị lừa đảo vay tiền online. Cô ấy nhận được cuộc gọi từ số +84 987 654 321, người tự xưng là nhân viên công ty tài chính \"FastCredit Vietnam\" nói rằng em được duyệt khoản vay 50 triệu đồng với lãi suất 0% trong 3 tháng đầu. Để kích hoạt khoản vay, em phải tải ứng dụng \"FC Wallet\" từ một đường link được gửi qua SMS, sau đó nhập thông tin căn cước công dân và số điện thoại. \n\nSau khi cung cấp thông tin, ứng dụng yêu cầu em thanh toán 2.5 triệu đồng tiền \"phí xác minh danh tính\" vào tài khoản ngân hàng với tên \"Trần Minh Khôi\" (số tài khoản 0821234567 tại Agribank). Em lo lắng nhưng vì cần tiền để thanh toán nợ cũ nên đã chuyển khoản. Vài ngày sau, ứng dụng hiện thông báo khoản vay bị từ chối nhưng 2.5 triệu đã \"không thể hoàn lại do đã xử lý\". Khi em cố liên hệ lại số điện thoại ban đầu thì đã bị tắt máy, còn ứng dụng không thể truy cập nữa.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "loan_scam",
+    "style": "third_person",
+    "key_facts": [
+      "Nhân vật bị lừa đã tải ứng dụng giả mạo từ đường link không chính thức được gửi qua SMS",
+      "Nhân vật cung cấp thông tin nhạy cảm như căn cước công dân vào ứng dụng lừa đảo",
+      "Bị yêu cầu thanh toán phí xác minh danh tính trước (2.5 triệu VND) với lý do chiếm đoạt",
+      "Kẻ lừa đảo tắt máy và ứng dụng không truy cập được sau khi nhận tiền"
+    ]
+  },
+  {
+    "id": "scam-loan_scam-05",
+    "text": "Chào, tôi vừa nhận được cuộc gọi từ số 0978.412.556 nói mình được duyệt khoản vay 15 triệu đồng trên ứng dụng \"FastLoan Pro\". Họ bảo tôi cần nạp 890 nghìn để xác minh tài khoản, rồi tiền sẽ về. Có phải scam không?",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "loan_scam",
+    "style": "short_question",
+    "key_facts": [
+      "Yêu cầu nạp tiền trước để nhận khoản vay là dấu hiệu lừa đảo điển hình",
+      "Ứng dụng vay tiền lạ, không rõ nguồn gốc có thể là giả mạo",
+      "Số điện thoại không chính thức, không xác minh được danh tính người gọi",
+      "Không nên chuyển tiền cho bất kỳ ai mà chưa xác nhận qua kênh chính thức của ngân hàng/đơn vị tín dụng"
+    ]
+  },
+  {
+    "id": "scam-loan_scam-06",
+    "text": "Hôm qua tôi nhận được cuộc gọi từ số điện thoại +84912456789, người đó xưng là nhân viên của công ty tín dụng \"FastCredit Vietnam\" và nói rằng tôi đã được chọn để nhận hạn mức vay 50 triệu đồng với lãi suất 0% trong 3 tháng đầu. Họ yêu cầu tôi tải ứng dụng \"LoanHub\" từ link mà họ gửi qua SMS, sau đó nhập thông tin định danh và số tài khoản ngân hàng để \"xác minh và kích hoạt tài khoản vay\". Tôi đã cung cấp thông tin và chuyển 2 triệu đồng tiền \"phí bảo hiểm hợp đồng\" vào tài khoản ngân hàng mà họ chỉ định. Một ngày sau, tôi phát hiện ra rằng toàn bộ số tiền trong tài khoản chính của tôi đã bị rút hết, và khi gọi lại số điện thoại ban đầu thì số này đã không còn hoạt động. Tôi nhận ra mình đã bị lừa khi cố gắng tải lại ứng dụng \"LoanHub\" nhưng không tìm thấy trên Google Play, chỉ có một bản clone độc hại.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "loan_scam",
+    "style": "long_narration",
+    "key_facts": [
+      "Chiêu trò giả danh công ty tín dụng hợp pháp để yêu cầu nạn nhân cài đặt ứng dụng fake",
+      "Lợi dụng hứa hẹn vay tiền với lãi suất thấp để thu hút người cần tiền gấp",
+      "Yêu cầu cung cấp thông tin cá nhân (CMND/CCCD, số tài khoản) thông qua ứng dụng giả mạo",
+      "Chiếm đoạt tiền mặt qua hình thức phí bảo hiểm/phí xác minh trước khi rút sạch tài khoản"
+    ]
+  },
+  {
+    "id": "scam-loan_scam-07",
+    "text": "Chào anh/chị! Tôi là nhân viên tư vấn tài chính từ công ty Định Hướng Tín Dụng. Hiện tại chúng tôi đang có chương trình vay tiền nhanh lên tới 50 triệu mà KHÔNG cần chứng minh thu nhập. Anh/chị chỉ cần:\n1. Cung cấp CMND/CCCD (ảnh mặt trước + sau)\n2. Ảnh selfie cầm CMND\n3. Số tài khoản ngân hàng\n4. Ký số điện thoại để xác minh\n\nSau khi anh/chị gửi thông tin, chúng tôi sẽ chuyển tiền vào tài khoản trong vòng 2 giờ. Chỉ cần thanh toán phí dịch vụ 2.5 triệu trước là xong. Liên hệ số điện thoại: 0868.523.744 để nhận tiền nhanh nhất!",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "loan_scam",
+    "style": "verbatim_message",
+    "key_facts": [
+      "Yêu cầu cung cấp thông tin cá nhân nhạy cảm (CMND, ảnh selfie, số tài khoản) trước khi xử lý",
+      "Hứa hẹn vay tiền nhanh với số tiền lớn (50 triệu) mà không cần chứng minh thu nhập",
+      "Yêu cầu thanh toán phí dịch vụ (2.5 triệu) trước tiên để nhận tiền",
+      "Giả danh công ty tài chính hợp pháp với tên gọi chuyên nghiệp để tăng độ tin cậy"
+    ]
+  },
+  {
+    "id": "scam-loan_scam-08",
+    "text": "Hôm qua, em trai tôi kể lại chuyện anh ấy vừa bị một cuộc lừa đảo rất tinh vi. Cách đây 3 tuần, anh nhận được tin nhắn SMS từ số 0976548321 (tự xưng là ngân hàng Techbank), nội dung: \"Chúc mừng bạn được duyệt khoản vay tín chấp 50 triệu đồng, lãi suất ưu đãi 0% trong 3 tháng đầu. Nhấn vào đây để kích hoạt: [link giả]\". \n\nVì anh đang gặp khó khăn tài chính nên rất hứng thú. Anh nhấp vào link và được dẫn đến một ứng dụng tên \"FastLoan Express\" trông gần như hệt ứng dụng ngân hàng thật. Ứng dụng yêu cầu anh nhập CMND, selfie, và thông tin tài khoản ngân hàng.\n\nSau khi điền xong, một \"nhân viên tư vấn\" tên Thạo (số điện thoại 0917223456) liên hệ anh, giải thích rằng để được duyệt nhanh, anh cần phải thanh toán \"phí xác minh danh tính\" 2.5 triệu đồng vào tài khoản 0123456789 (Vietcombank). Nhân viên này hứa sau khi thanh toán, tiền vay sẽ về tài khoản anh trong 2 tiếng.\n\nAnh chuyển tiền theo hướng dẫn, nhưng sau đó \"nhân viên\" liên hệ lại nói cần thêm \"phí bảo hiểm hợp đồng\" 1.8 triệu. Lúc này anh bắt đầu nghi ngờ và liên hệ qua hotline chính thức của ngân hàng Techbank, phát hiện ra mình đã bị lừa mất gần 4.3 triệu đồng.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "loan_scam",
+    "style": "third_person",
+    "key_facts": [
+      "Tin nhắn SMS giả mạo từ ngân hàng với lãi suất 0% để qua mắt người dùng",
+      "Ứng dụng giả mạo 'FastLoan Express' thu thập thông tin cá nhân (CMND, ảnh selfie, tài khoản ngân hàng)",
+      "Chiêu trò 'phí xác minh danh tính' + 'phí bảo hiểm hợp đồng' để móc tiền theo lần lượt",
+      "Nạn nhân chỉ phát hiện lừa đảo sau khi kiểm chứng với hotline chính thức của ngân hàng"
+    ]
+  },
+  {
+    "id": "scam-loan_scam-09",
+    "text": "Em thấy quảng cáo app \"FastCash Pro\" hứa cho vay 5 triệu trong 30 phút không cần thế chấp. Chúng bảo chỉ cần xác minh tài khoản bằng cách nạp 200 nghìn trước, sau đó hoàn lại cộng tiền vay. Tính toán sao mà lạ lạ thế?",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "loan_scam",
+    "style": "short_question",
+    "key_facts": [
+      "Chiêu lừa yêu cầu nạp tiền phí 'xác minh' trước để nhận vay online - tiền nạp không bao giờ hoàn lại",
+      "Ứng dụng tên 'FastCash Pro' là chiêu giả mạo, quảng cáo vay tiền siêu tốc không điều kiện để thu hút nạn nhân",
+      "Mục đích của bọn lừa là chiếm tiền phí xác minh, số tiền vay hứa hẹn không bao giờ xuất hiện",
+      "Dấu hiệu cảnh báo: quy trình vay quá nhanh, không kiểm tra tín dụng, yêu cầu nạp tiền trước"
+    ]
+  },
+  {
+    "id": "scam-other-01",
+    "text": "Tối hôm đó, mình nhận được cuộc gọi từ số 0987.554.328, người tự xưng là nhân viên của Công ty Bảo hiểm Sức khỏe Toàn Cầu với tên là Trần Minh Tuấn. Anh ta nói rằng tài khoản bảo hiểm của mình đã được chọn để nhận một khoản tiền hoàn lại 45 triệu đồng do công ty điều chỉnh chính sách, nhưng cần xác minh danh tính qua một ứng dụng gọi là \"SafeVerify\" để tránh rủi ro. Mình được hướng dẫn tải ứng dụng từ một đường link trong tin nhắn SMS kèm theo, đăng nhập bằng tài khoản ngân hàng và nhập mã OTP. Sau khi hoàn thành các bước, trang web hiển thị \"Xác minh thành công\" nhưng không có tiền nào được chuyển vào. Vài ngày sau, mình phát hiện 12 triệu đồng bị rút trực tiếp từ tài khoản thanh toán và một tài khoản giả mạo đã được tạo lập để chuyển tiền sang một ngân hàng khác. Khi gọi lại số điện thoại ban đầu, nó đã bị tắt máy và không thể liên lạc được nữa.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "other",
+    "style": "long_narration",
+    "key_facts": [
+      "Lừa đảo thông qua cuộc gọi và ứng dụng giả mạo để chiếm quyền truy cập tài khoản ngân hàng",
+      "Sử dụng hình thức giả mạo công ty bảo hiểm và lời hứa tiền hoàn lại để tạo lòng tin",
+      "Yêu cầu nạn nhân nhập mã OTP và thông tin đăng nhập nhạy cảm vào ứng dụng không chính thức",
+      "Các kẻ lừa đảo rút tiền từ tài khoản và tạo tài khoản giả để che giấu nguồn gốc tiền bị đánh cắp"
+    ]
+  },
+  {
+    "id": "scam-other-02",
+    "text": "Chào bạn! Tôi là Nguyễn Minh từ công ty VietTech Solutions. Chúng tôi đang tuyển dụng nhân viên làm việc từ xa với mức lương 25 triệu/tháng, chỉ cần làm việc 2-3 giờ mỗi ngày. Bạn sẽ phải hoàn thành các task marketing nhỏ và nhận được hoa hồng cao. Để đăng ký, bạn cần nạp 4,5 triệu vào tài khoản công ty để làm \"đặt cọc tín dụng\" - tiền này sẽ được hoàn lại sau khi bạn hoàn thành 5 công việc đầu tiên. Tôi sẽ gửi cho bạn link thanh toán: bit.do/VietTechRecruitment. Bạn quan tâm không?",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "other",
+    "style": "verbatim_message",
+    "key_facts": [
+      "Tuyên bố lương cao không hợp lý (25 triệu/tháng cho công việc 2-3 giờ/ngày)",
+      "Yêu cầu nạp tiền trước (4,5 triệu) với lý do 'đặt cọc tín dụng'",
+      "Sử dụng link rút gọn đáng ngờ để che giấu địa chỉ thực",
+      "Hứa hoàn lại tiền nhưng không cung cấp bằng chứng hay hợp đồng rõ ràng"
+    ]
+  },
+  {
+    "id": "scam-other-03",
+    "text": "Hôm qua tôi nghe chị gái kể lại một sự việc khá bất ngờ. Chị nói rằng cách đây 2 tuần, chị nhận được tin nhắn từ một số lạ (0971835642) giới thiệu là \"Tổng đài hỗ trợ khách hàng Ngân hàng Maritim\". Tin nhắn nói rằng tài khoản của chị có hoạt động bất thường - có giao dịch chuyển khoản 25 triệu đồng đến tài khoản lạ vào lúc 3h sáng. Chị hoảng sợ và nhanh chóng click vào link trong tin nhắn để \"xác minh danh tính\" theo hướng dẫn.\n\nTrang web giả mạo yêu cầu chị nhập email, mật khẩu ATM, và mã OTP. Thất thường hơn, trang web còn đề nghị chị \"phác nháy tính năng bảo mật mới\" bằng cách tải ứng dụng \"SecurityCheck_Bank\" lên điện thoại. Chị tải app này xuống vì nghĩ đó là biện pháp chính hãng. Sau đó, những ngày kế tiếp, chị phát hiện ra rằng có 3 giao dịch khác bị trừ tiền từ tài khoản, tổng cộng 8.5 triệu đồng, tất cả đều chuyển đến các tài khoản khác nhau. Chúng tôi mới nhận ra đây là tình huống lừa đảo phức tạp kết hợp giả mạo, phishing và cài đặt malware.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "other",
+    "style": "third_person",
+    "key_facts": [
+      "Chiêu trò giả mạo hành động của ngân hàng qua tin nhắn SMS để lấy thông tin đăng nhập",
+      "Sử dụng trang web lừa đảo để thu thập email, mật khẩu và mã OTP nhạy cảm",
+      "Khuyến khích nạn nhân tải malware dưới vỏ bọc ứng dụng bảo mật giả mạo",
+      "Kết quả là bị mất tiền qua nhiều giao dịch chuyển khoản không xác định được kẻ thủ phạm"
+    ]
+  },
+  {
+    "id": "scam-other-04",
+    "text": "Chào, tôi vừa nhận được cuộc gọi từ số 0934556789 nói là từ công ty Vinaphone. Họ bảo tài khoản của tôi bị khóa vì chưa xác minh thông tin, và cho tôi link để cập nhật. Liệu đó có phải là lừa đảo không?",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "other",
+    "style": "short_question",
+    "key_facts": [
+      "Cuộc gọi từ số điện thoại không xác minh tuyên bố là nhà mạng",
+      "Yêu cầu nhấp vào link để 'xác minh' hay 'cập nhật thông tin'",
+      "Tạo cấp bách bằng dọa khóa tài khoản/dịch vụ",
+      "Đây là kỹ thuật giả mạo danh tính tổ chức để lừa người dùng tiết lộ dữ liệu cá nhân"
+    ]
+  },
+  {
+    "id": "scam-other-05",
+    "text": "Chị Linh nhận được một cuộc gọi từ số +84 935 667 891, người gọi giới thiệu là nhân viên của \"Công ty Kỹ thuật số Việt Á\" và nói rằng chị Linh đã trúng thưởng một phần mềm quản lý tài chính trị giá 12 triệu đồng hoàn toàn miễn phí, nhưng cần xác minh thông tin cá nhân để nhận giải. Sau khi chị Linh đồng ý, người này yêu cầu chị tải một ứng dụng có tên \"VietAtech Pro\" từ một liên kết được gửi qua tin nhắn SMS để \"hoàn tất đăng ký\". Khi chị Linh cài đặt ứng dụng và đăng nhập tài khoản ngân hàng trên đó, hacker đã dùng thông tin này để chuyển khoản trôi 8,5 triệu đồng từ tài khoản Agribank của chị, đồng thời cải đổi SIM ghép để chiếm quyền kiểm soát tài khoản. Khi chị Linh phát hiện ra và cố gọi lại số điện thoại ban đầu, người này đã tắt máy và không còn liên lạc được. Chị phải mất một tuần và nhiều chi phí pháp lý để khoá tài khoản và khiếu nại với ngân hàng mới lấy lại được phần tiền còn lại.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "other",
+    "style": "long_narration",
+    "key_facts": [
+      "Nhân viên giả mạo liên hệ qua cuộc gọi điện thoại và SMS, tuyên bố chương trình trúng thưởng miễn phí",
+      "Yêu cầu nạn nhân cài đặt ứng dụng lạ (VietAtech Pro) để 'xác minh thông tin' trên đó",
+      "Chiếm đoạt thông tin đăng nhập ngân hàng thông qua ứng dụng giả mạo và thực hiện chuyển khoản trái phép",
+      "Sử dụng kỹ thuật SIM ghép để khóa nạn nhân khỏi tài khoản, làm mất quyền kiểm soát tài chính"
+    ]
+  },
+  {
+    "id": "scam-other-06",
+    "text": "Chào Anh/Chị, mình là đại diện của công ty tuyển dụng TopJob Việt Nam. Chúng tôi rất ấn tượng với CV của bạn và muốn mời bạn tham gia một cuộc phỏng vấn online thực tế về kỹ năng. Để xác thực danh tính và đăng ký, bạn vui lòng thanh toán phí đăng ký khóa học kiểm chứng chuyên môn là 450.000 đồng qua tài khoản ngân hàng: 1234567890, MB Bank, chủ tài khoản: Nguyễn Văn Tùng. Sau khi chuyển tiền, bạn sẽ nhận được link tài khoản training hạn chế cần phải upgrade để vào khóa chính, giá upgrade là 1.8 triệu đồng. Công việc của bạn là tư vấn bán hàng online, lương 20-25 triệu/tháng + commission, bắt đầu ngay trong 3 ngày. Xin cảm ơn!",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "other",
+    "style": "verbatim_message",
+    "key_facts": [
+      "Giả mạo công ty tuyển dụng uy tín để lôi cuốn nạn nhân",
+      "Yêu cầu thanh toán phí đăng ký/kiểm chứng không hợp pháp với lời hứa công việc lương cao",
+      "Sử dụng chiêu trò upsell (nâng cấp) để yêu cầu thanh toán thêm nhiều lần",
+      "Cung cấp chi tiết giả tạo (tên, số tài khoản, số tiền cụ thể) để tạo độ tin cậy giả"
+    ]
+  },
+  {
+    "id": "scam-other-07",
+    "text": "Hôm qua tôi gặp anh Minh, anh cũ của chị gái tôi. Anh kể rằng tuần trước anh nhận được một cuộc gọi từ số +84912-345-678 giới thiệu là nhân viên từ công ty \"VietTech Solutions\" - một công ty quản lý tài chính ảo. Người đó nói anh đã được chọn tham gia một chương trình đầu tư độc quyền, hứa lợi nhuận 25% mỗi tháng nếu anh gửi 15 triệu đồng trong 48 giờ. \n\nKhi anh hỏi thêm, họ bảo anh tải app \"InvestPro Global\" từ một liên kết cụ thể để xem chi tiết. Thực tế, app giả này chỉ dùng để nhập thông tin tài khoản ngân hàng. Anh may mắn vì gọi kiểm chứng với ngân hàng thực trước khi chuyển tiền, rồi nhận ra đây là lừa đảo. Nhưng anh bảo rất nhiều người khác đã bị tín trí, không kiểm chứng và đã chuyển tiền vào tài khoản thứ ba có tên \"Công ty Phát triển Đầu tư Việt\".",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "other",
+    "style": "third_person",
+    "key_facts": [
+      "Cuộc gọi giả mạo từ công ty đầu tư ảo với lời hứa lợi nhuận cao 25% mỗi tháng",
+      "Yêu cầu tải ứng dụng giả (InvestPro Global) để thu thập thông tin tài khoản ngân hàng",
+      "Tạo cấp tính - yêu cầu gửi tiền trong 48 giờ để tham gia chương trình độc quyền",
+      "Sử dụng số điện thoại giả mạo và tên công ty hợp pháp để tăng độ tin cậy"
+    ]
+  },
+  {
+    "id": "scam-other-08",
+    "text": "Chị ơi, em vừa nhận tin từ một tài khoản lạ kêu em là \"quản lý chương trình khuyến mãi của ngân hàng\", bảo em đã trúng thưởng 15 triệu đồng nhưng cần phải nộp 500 nghìn tiền \"xác minh tài khoản\" trước. Chị có thể kiểm tra xem tin này có đáng tin không?",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "other",
+    "style": "short_question",
+    "key_facts": [
+      "Lừa đảo chiêu trò giả danh nhân viên ngân hàng hoặc chương trình khuyến mãi",
+      "Yêu cầu nộp tiền phí trước để nhận phần thưởng - dấu hiệu lừa đảo điển hình",
+      "Tài khoản nhắn tin là người lạ, không xác minh được danh tính thực",
+      "Nạn nhân cần được cảnh báo không nên chuyển tiền cho bất kỳ yêu cầu phí trước nào"
+    ]
+  },
+  {
+    "id": "scam-other-09",
+    "text": "Anh Minh nhận được cuộc gọi từ số +84 9xxx5678 giả danh nhân viên của \"Trung tâm Quản lý Dự án Xây dựng Hà Nội\", thông báo rằng công ty anh đã trúng thầu dự án cơ sở hạ tầng trị giá 8.5 tỷ đồng nhưng cần nộp lệ phí đăng ký tham gia là 450 triệu đồng trước 3 giờ chiều hôm đó. Anh Minh được hướng dẫn tải ứng dụng \"SQDTHN Pro\" từ một link lạ để hoàn tất thủ tục, ứng dụng này sao chép giao diện của website chính thức của sở xây dựng nhưng thực chất là giả. Khi chuyển tiền vào tài khoản tạm ứng được cung cấp (tài khoản ngân hàng tên \"Nguyễn Văn A\"), anh Minh phát hiện ra bị lừa sau khi gọi đến số điện thoại chính thức của sở xây dựng để kiểm chứng. Người lừa đảo sử dụng kỹ thuật spoofing để làm giả số điện thoại chính phủ, kết hợp với áp lực thời gian và lợi ích kinh doanh lớn để khiến nạn nhân mất bình tĩnh và không suy nghĩ kỹ lưỡng trước khi chuyển tiền.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "other",
+    "style": "long_narration",
+    "key_facts": [
+      "Giả danh cơ quan chính phủ (Sở Xây dựng Hà Nội) để tăng độ tin cậy",
+      "Sử dụng spoofing số điện thoại để làm giả danh chính thức",
+      "Tạo ứng dụng giả mạo giao diện chính thức để đánh cắp thông tin và tiền",
+      "Tạo áp lực thời gian (hạn chót 3 giờ chiều) và lợi ích lớn (8.5 tỷ đồng) để khiến nạn nhân không suy nghĩ kỹ"
+    ]
+  },
+  {
+    "id": "scam-package_delivery-01",
+    "text": "Xin chào, đây là GHTK. Bưu kiện của bạn (Mã vận đơn: VN2024751639) cần thanh toán phí giao dịch 150.000đ do người gửi không trả tiền COD. Vui lòng click vào link để hoàn tất: ghtk-vnpay.click/confirm?ref=751639 hoặc gọi 0888.456.789 để xác nhận. Hạn chót là 24h, sau đó bưu kiện sẽ bị hủy.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "package_delivery",
+    "style": "verbatim_message",
+    "key_facts": [
+      "Giả danh công ty giao hàng (GHTK) để tạo uy tín",
+      "Yêu cầu thanh toán phí dịch vụ qua link lừa đảo (ghtk-vnpay.click)",
+      "Sử dụng tạo cấp độ khẩn cấp (hạn chót 24h) để ép người dùng phải hành động nhanh",
+      "Cung cấp mã vận đơn giả để tăng độ tin cậy của tin nhắn"
+    ]
+  },
+  {
+    "id": "scam-package_delivery-02",
+    "text": "Hôm qua, bạn tôi Linh nhận được tin nhắn từ số +84947382156, tự xưng là shipper của công ty giao hàng \"VietExpress\". Tin nhắn nói rằng có một bưu kiện từ Hà Nội gửi đến địa chỉ của cô ấy, nhưng cần trả phí đóng gói và bảo hiểm là 250.000 đồng trước khi giao. Tin nhắn kèm theo một link rút gọn: \"bit.ly/vietexpress-track\" để Linh kiểm tra chi tiết đơn hàng. \n\nLinh thấy tin nhắn này khá chính thức, có logo và tên công ty, nên cô ấy bấm vào link. Trang web giả mạo có giao diện giống hệt website giao hàng thật, hiển thị \"Đơn hàng #VE-2024-78543\" từ một người bán hàng trên Shopee. Trang web yêu cầu Linh nhập số điện thoại, tên đầy đủ, và sau đó chuyển tiền vào tài khoản ngân hàng được cung cấp (Chi nhánh Vietcombank Thanh Xuân, số tài khoản: 1023456789, chủ tài khoản \"Nguyễn Văn Tuấn\").\n\nMay mắn, Linh đã gọi cho mình trước khi chuyển tiền. Tôi kiểm tra nhanh và khuyên cô ấy đó là chiêu lừa điển hình. Chúng tôi đã báo cáo số điện thoại lên cơ quan chức năng.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "package_delivery",
+    "style": "third_person",
+    "key_facts": [
+      "Tin nhắn giả mạo từ shipper/công ty giao hàng yêu cầu trả phí bưu kiện",
+      "Sử dụng link rút gọn dẫn đến trang web giả mạo với giao diện giống công ty thật",
+      "Yêu cầu người dùng nhập thông tin cá nhân và chuyển tiền vào tài khoản ngân hàng giả",
+      "Chiêu trò lừa kinh điển package_delivery nhắm vào việc lợi dụng tâm lý sợ mất hàng và tin tưởng vào brand name"
+    ]
+  },
+  {
+    "id": "scam-package_delivery-03",
+    "text": "Mình vừa nhận tin từ số 0865.221.889 bảo là shipper Giao Hàng Nhanh, bưu kiện của mình bị lỗi hôm qua, phải vào link shop.giao-hanhnhanh.xyz để xác nhận lại địa chỉ và thanh toán phí 45.000 đ. Cái này có an toàn không ạ?",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "package_delivery",
+    "style": "short_question",
+    "key_facts": [
+      "Tin nhắn giả danh đơn vị giao hàng chính thức",
+      "Yêu cầu click link ngoài chính thức và cung cấp thông tin cá nhân",
+      "Đề xuất thanh toán phí bất thường cho bưu kiện",
+      "Số điện thoại và tên miền giả lập để tạo tính tin cậy"
+    ]
+  },
+  {
+    "id": "scam-package_delivery-04",
+    "text": "Hôm qua lúc 14h30, tôi nhận được cuộc gọi từ số +84916 452 877 xưng là nhân viên của công ty giao hàng \"VietTransit Express\". Người đó nói rằng có một kiện hàng từ Hà Nội gửi cho tôi nhưng bị mắc kẹt do chưa thanh toán phí bảo hiểm và phí xác nhận thông tin người nhận, tổng cộng 385.000 đồng. Tôi không nhớ mình có đặt hàng gì, nhưng họ gọi tên đầy đủ của tôi và kể chi tiết là hàng từ một nhà bán lẻ quần áo trực tuyến nên tôi sơ sẩy tin. Họ yêu cầu tôi vào ứng dụng \"VietTransit\" (tên giống hệt ứng dụng thật) để thanh toán ngay hoặc hàng sẽ bị gửi trả lại. Sau khi tôi cài ứng dụng và nhập số điện thoại, ứng dụng yêu cầu tôi quét mã QR để xác thực tài khoản ngân hàng. May mắn, tôi nghi ngờ và hỏi ngân hàng thì được cảnh báo đây là lừa đảo: \"VietTransit\" giả mạo này được thiết kế để đánh cắp thông tin ngân hàng.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "package_delivery",
+    "style": "long_narration",
+    "key_facts": [
+      "Scammer giả danh nhân viên công ty giao hàng có tên gần giống công ty thực (VietTransit Express vs VietTransit)",
+      "Sử dụng kỹ thuật social engineering: gọi tên đầy đủ, nêu chi tiết hàng hóa để tạo độ tin tưởng",
+      "Tạo cảm giác khẩn cấp (hàng sẽ trả lại) và yêu cầu thanh toán ngay",
+      "Dụ dỗ nạn nhân tải ứng dụng giả mạo có chức năng quét mã QR để lấy thông tin tài khoản ngân hàng"
+    ]
+  },
+  {
+    "id": "scam-package_delivery-05",
+    "text": "Xin chào anh/chị! Bưu kiện của bạn từ SHOPEE đang chờ lấy tại bưu cục huyện Thủ Đức. Phí giao hàng chưa được thanh toán: 45.000đ. Vui lòng click link https://shipgiao-xnb.vn/pktrack=92841 để thanh toán trong vòng 24h, nếu không gói hàng sẽ bị hoàn lại. Mã track: SKP-2024-881956. Liên hệ hỗ trợ: 0974882156",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "package_delivery",
+    "style": "verbatim_message",
+    "key_facts": [
+      "Giả danh công ty giao hàng/shipper với tên gọi giống Shopee",
+      "Yêu cầu thanh toán phí tiền mặt qua link URL lạ (không phải trang chính thức)",
+      "Tạo cấp bách bằng thời hạn 24h để người nhận không kịp suy nghĩ",
+      "Cung cấp thông tin nhân tạo (mã track, số điện thoại) để tăng tính xác thực"
+    ]
+  },
+  {
+    "id": "scam-package_delivery-06",
+    "text": "Hôm qua, bạn tôi Linh nhận được tin nhắn từ số điện thoại +84923456789 nói rằng: \"Công ty vận chuyển FastGo thông báo: Kiện hàng của bạn đã đến điểm tập kết. Cần thanh toán phí bảo quản 85.000 đ do người gửi quên trả. Vui lòng click link xác nhận: shiptrack-vn.xyz để thanh toán trực tuyến.\"\n\nLinh chẳng nhớ là mình đặt hàng gì, nhưng vì sợ mất hàng nên bấm vào link. Trang web trông rất giống trang chính thức của FastGo, có logo, có form điền thông tin thẻ ngân hàng. Linh nhập số thẻ, CVV, OTP (mà trang web yêu cầu nhập lại). \n\nChiều hôm sau, Linh gọi cho số điện thoại trong tin nhắn để hỏi tình trạng kiện hàng, nhưng không ai nghe máy. Lúc này, Linh mới nhận ra điều bất thường: tài khoản ngân hàng bị rút 2.450.000 đ qua ba giao dịch ghé của những cửa hàng trực tuyến mà Linh chưa bao giờ sử dụng.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "package_delivery",
+    "style": "third_person",
+    "key_facts": [
+      "Tin nhắn giả mạo shipper yêu cầu thanh toán phí bảo quản bưu kiện",
+      "Link dẫn tới website giả mạo FastGo để lấy thông tin thẻ ngân hàng và OTP",
+      "Nạn nhân nhập thông tin nhạy cảm vì sợ mất hàng",
+      "Tài khoản ngân hàng bị rút tiền không có sự đồng ý bằng cách sử dụng dữ liệu vừa lấy được"
+    ]
+  },
+  {
+    "id": "scam-package_delivery-07",
+    "text": "Tôi vừa nhận được tin nhắn từ số 0987654321 nói là giao hàng từ Thiên Hương Express, bưu kiện của tôi bị giữ vì chưa thanh toán phí 145.000 đồng. Họ yêu cầu tôi click link này để thanh toán: bit.do/shipment2024pay. Cái này có ổn không ạ?",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "package_delivery",
+    "style": "short_question",
+    "key_facts": [
+      "Tin nhắn fake từ 'Thiên Hương Express' (shipper giả) với số điện thoại lạ (0987654321)",
+      "Yêu cầu thanh toán phí bưu kiện 145.000 đồng để lấy hàng",
+      "Link rút gọn đáng ngờ (bit.do) thay vì trang chính thức của công ty vận chuyển",
+      "Kỹ thuật tạo cấp bách: cần thanh toán để nhận bưu kiện, áp lực tâm lý"
+    ]
+  },
+  {
+    "id": "scam-package_delivery-08",
+    "text": "Hôm nay lúc 3 chiều, chị tôi nhận được tin nhắn SMS từ số 0912-xxxx-xx tự xưng là từ công ty giao hàng nhanh DXP Express, thông báo rằng có một bưu kiện từ cửa hàng Tiki không thể giao được vì cần thanh toán phí bảo hiểm hàng hóa 185.000 đồng. Tin nhắn kèm theo một đường link rút gọn tinyurl.vn/dxp_payment yêu cầu chị vào để xác nhận thanh toán qua ví MoMo trước khi giao hàng vào tối hôm đó. Do đang bận công việc và lo lắng rằng hàng sẽ bị gửi trả lại, chị vội vã bấm vào link, nhập thông tin tài khoản ngân hàng và mã OTP được gửi đến điện thoại của mình. Sau 5 phút, chị nhận được thông báo từ ngân hàng rằng đã bị rút 2.800.000 đồng từ tài khoản tiết kiệm, không phải 185.000 đồng như lời thông báo. Khi gọi điện thoại shipper, chị mới phát hiện ra rằng công ty DXP Express không hề có cuộc ghi danh nào liên quan đến bưu kiện này.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "package_delivery",
+    "style": "long_narration",
+    "key_facts": [
+      "Tin nhắn giả mạo shipper/ công ty giao hàng với yêu cầu thanh toán phí bảo hiểm bưu kiện",
+      "Sử dụng các chi tiết giả ( số điện thoại 0912-xxxx-xx, công ty DXP Express, đường link tinyurl giả mạo)",
+      "Kỹ thuật lừa dụ người dùng nhập thông tin ngân hàng và mã OTP để rút tiền lớn hơn số tiền thông báo ban đầu",
+      "Chiêu trò package_delivery lợi dụng tâm lý vội vàng và lo lắng mất hàng của người nhận để có hành động nhanh mà không suy xét"
+    ]
+  },
+  {
+    "id": "scam-package_delivery-09",
+    "text": "Xin chào khách hàng. Bưu kiện của bạn từ JapanMart (ĐH#2847591) đang chờ giao tại kho phát và cần xác nhận phí vận chuyển 185.000đ trước khi giao. Vui lòng thanh toán qua link: vietshipp-logistics.com.vn/payment?id=2847591 hoặc gọi 0936-527-481 để xác nhận trong 24h. Hết hạn sẽ phát sinh phí lưu kho. Cam kết đúng giờ!",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "package_delivery",
+    "style": "verbatim_message",
+    "key_facts": [
+      "Mạo danh công ty vận chuyển/shipper với tên lạ",
+      "Yêu cầu thanh toán phí qua link web không chính thức",
+      "Tạo cảm giác khẩn cấp với thời hạn 24h và mối đe dọa phí lưu kho",
+      "Cung cấp số điện thoại giả để xác nhận hoặc yêu cầu thanh toán"
+    ]
+  },
+  {
+    "id": "scam-prize_gift-01",
+    "text": "Hôm qua, tôi gặp lại bạn Linh ở cà phê. Bạn ấy kể cho tôi nghe về một sự cố vừa xảy ra. Sáng hôm đó, Linh nhận được tin nhắn qua ứng dụng Zalo từ một tài khoản tên \"LAZADA_REWARDS_CENTER\": \"Chúc mừng bạn! Bạn là khách hàng may mắn được chọn trong chương trình 'Phần Thưởng Vàng Mùa Hè' của Lazada. Bạn vừa trúng voucher 2.500.000 đồng và điện thoại Samsung Galaxy A52 trị giá 6.990.000 đồng. Để nhận quà, vui lòng click link và xác nhận thông tin trong 24 giờ: [link rút gọn]\".\n\nLinh vừa mua sắm trên Lazada tuần trước nên tin là thật. Bạn ấy click vào link và được dẫn đến một trang giao diện giống hệt trang chủ Lazada, có form yêu cầu nhập: tên đầy đủ, số CMND, ngày sinh, số tài khoản ngân hàng, và mã OTP. Linh điền hết thông tin vào. Sau đó, một tin nhắn khác từ số điện thoại \"0987-555-4421\" gửi đến: \"Xác nhận thành công. Để hoàn tất lấy quà, bạn cần thanh toán phí xử lý 499.000 đồng. Chuyển tiền tới tài khoản 987654321 - Ngân hàng Vietcombank - Chủ tài khoản: Công ty Dịch Vụ Logistics Hân Phát\".\n\nLinh bắt đầu nghi ngờ lúc này. May mắn là bạn ấy không chuyển tiền mà liên lạc với tôi để hỏi ý kiến. Tôi khuyên Linh liên hệ trực tiếp với Lazada qua ứng dụng chính thức, và nó xác nhận đây là một vụ lừa đảo. Lazada không bao giờ yêu cầu khách hàng cung cấp mã OTP hay phí xử lý để nhận quà thưởng.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "prize_gift",
+    "style": "third_person",
+    "key_facts": [
+      "Chiêu trò giả mạo tin nhắn từ ứng dụng uy tín (Lazada) để tạo lòng tin",
+      "Lợi dụng tâm lý muốn nhận quà miễn phí bằng cách quảng cáo giải thưởng lớn (voucher + điện thoại)",
+      "Yêu cầu cung cấp thông tin nhạy cảm (CMND, số tài khoản, mã OTP) qua trang web giả mạo",
+      "Sau khi có thông tin, lừa nạn nhân chuyển tiền 'phí xử lý' để hoàn tất nhận quà"
+    ]
+  },
+  {
+    "id": "scam-prize_gift-02",
+    "text": "Em nhận tin nhắn từ số lạ nói em trúng giải thưởng 15 triệu đồng từ cuộc quay thưởng Tập đoàn Thương mại Việt Á, yêu cầu bấm link xác nhận. Có phải lừa đảo không ạ?",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "prize_gift",
+    "style": "short_question",
+    "key_facts": [
+      "Người dùng nhận tin nhắn từ số điện thoại lạ (không phải từ ứng dụng chính thức)",
+      "Nội dung yêu cầu truy cập link từ bên thứ ba để nhận giải thưởng",
+      "Số tiền giải thưởng lớn (15 triệu đồng) được đề cập mà người dùng không tham gia cuộc quay thưởng nào",
+      "Đây là chiêu trò prize/gift fraud: bả cầu người dùng cung cấp thông tin cá nhân hoặc thanh toán phí để 'nhận' giải thưởng giả"
+    ]
+  },
+  {
+    "id": "scam-prize_gift-03",
+    "text": "Sáng hôm qua, tôi nhận được một tin nhắn SMS từ số 0901234567 thông báo rằng tôi đã trúng giải thưởng 50 triệu đồng trong chương trình \"Khuyến mãi Đặc biệt\" do công ty Thương mại Toàn Cầu tổ chức. Tin nhắn yêu cầu tôi nhấp vào link https://khuyen-mai-2024.vn để xác nhận danh tính và nhận thưởng. Khi tôi vào link, trang web hiển thị logo giống với một ngân hàng lớn và yêu cầu nhập số CCCD, ngày sinh, số tài khoản ngân hàng và mã OTP để \"hoàn tất thủ tục\". Tôi đã nhập thông tin của mình và nhấn gửi. Hai ngày sau, tôi phát hiện ra 8 triệu đồng đã bị rút trộm từ tài khoản, khi đó tôi mới nhận ra mình đã bị lừa.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "prize_gift",
+    "style": "long_narration",
+    "key_facts": [
+      "Tin nhắn SMS giả mạo từ số điện thoại lạ (0901234567) thông báo trúng giải 50 triệu đồng",
+      "Link lừa đảo giả mạo trang web ngân hàng, yêu cầu cung cấp CCCD, ngày sinh, số tài khoản và mã OTP",
+      "Hacker sử dụng thông tin nhạy cảm để rút trộm 8 triệu đồng từ tài khoản ngân hàng",
+      "Chiêu trò loại 'prize_gift' lợi dụng tâm lý mong chờ được nhận quà miễn phí của người dùng"
+    ]
+  },
+  {
+    "id": "scam-prize_gift-04",
+    "text": "🎁 CHÚC MỪNG! Bạn đã được chọn là khách hàng may mắn tháng 11. Bạn trúng thưởng tiền mặt 5 triệu đồng từ chương trình \"Momo Cashback Vàng\". Nhấn vào link để xác nhận thông tin và nhận quà ngay: momovoucher.vn/claim?ref=KH20241115 Có hiệu lực trong 24h. Momo Support",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "prize_gift",
+    "style": "verbatim_message",
+    "key_facts": [
+      "Giả danh ứng dụng Momo uy tín để tạo tin tưởng",
+      "Đưa ra số tiền cụ thể lớn (5 triệu) để kích thích lòng tham",
+      "Tạo cảm giác khẩn cấp (hiệu lực 24h) để nạn nhân vội vàng không kiểm tra",
+      "Yêu cầu click link giả mạo để chiếm đoạt thông tin cá nhân hoặc tài khoản"
+    ]
+  },
+  {
+    "id": "scam-prize_gift-05",
+    "text": "Sáng nay, em gái mình nhận được tin nhắn từ một số lạ (0917.445.223) nội dung: \"Chúc mừng Hoa Phương! Bạn đã trúng giải nhất cuộc tích lũy điểm mua sắm tháng 9 của ứng dụng ShopLife. Nhận ngay 8.500.000 VND hoặc voucher tiêu dùng trị giá tương đương. Hãy xác nhận thông tin cá nhân tại: https://shoplife-reward.click (không phải domain chính thức của app). Em ấy không bao giờ tham gia chương trình tích điểm nào cả, nhưng tin nhắn rất thuyết phục vì nó đề cập tên thật, gợi lại ứng dụng shopping quen thuộc. Em ấy click vào link, được yêu cầu điền: họ tên, CCCD, ngân hàng, và mã OTP. Thép tin đó là tiền thật, em ấy đã nhập hết. Sau 20 phút, thẻ tín dụng liên kết bị trừ 3 triệu đồng để \"kích hoạt tài khoản nhận thưởng\".",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "prize_gift",
+    "style": "third_person",
+    "key_facts": [
+      "Mục đích của chiêu lừa: Lừa nạn nhân cung cấp thông tin cá nhân (CCCD, dữ liệu ngân hàng) dưới hình thức trúng thưởng giả",
+      "Phương thức lừa: Tin nhắn SMS từ số lạ giả mạo ứng dụng ShopLife hợp pháp, cung cấp link web giả mạo để điền thông tin",
+      "Kích hoạt lừa đảo: Sử dụng thông tin cá nhân đã lấy được để trích tiền tài khoản ngân hàng dưới lý do 'kích hoạt' hoặc 'xác minh'",
+      "Dấu hiệu cảnh báo bị lờ: Người dùng không đăng ký chương trình, domain link không chính thức, yêu cầu mã OTP qua điều kiện ngoài app chính thức"
+    ]
+  },
+  {
+    "id": "scam-prize_gift-06",
+    "text": "Tôi vừa nhận được tin nhắn từ số 0912345678 nói tôi trúng giải thưởng 50 triệu đồng từ chương trình \"Khuyến mại Lộc Phát\", yêu cầu tôi tải app \"GiftXpress\" để nhận thưởng. Đây có phải lừa đảo không ạ?",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "prize_gift",
+    "style": "short_question",
+    "key_facts": [
+      "Tin nhắn tuyên bố trúng thưởng tiền mặt lớn (50 triệu) mà người dùng không nhớ tham gia",
+      "Yêu cầu cài đặt ứng dụng không chính thức để xác nhận/nhận thưởng",
+      "Người gửi dùng số điện thoại ngẫu nhiên, không phải số chính thức của công ty",
+      "Chiêu trò 'prize/gift' điển hình: tạo hy vọng quà miễn phí để lừa cài malware hoặc lấy thông tin cá nhân"
+    ]
+  },
+  {
+    "id": "scam-prize_gift-07",
+    "text": "Hôm qua, mẹ tôi nhận được tin nhắn qua Zalo từ tài khoản có tên \"Cộng Tác Viên VinFast Hà Nội\" với nội dung: \"Chúc mừng chị đã được chọn là khách hàng may mắn thứ 500 của chuỗi VinFast miền Bắc! Chị trúng thưởng voucher xăng trị giá 5 triệu đồng và điều hòa tặng kèm. Để xác nhận và nhận quà, vui lòng click vào đường link: bit.ly/vinfast-award-2024 và điền thông tin CMND, số tài khoản để chúng tôi giao hàng.\" Tôi nhận thấy link đó có dạng rút gọn lạ, không phải trang chính thức của VinFast, và số điện thoại liên hệ (0932.156.789) không có trong danh sách công ty. Khi tôi gọi tới số hotline chính thức của VinFast để xác minh, họ xác định đây hoàn toàn là chiêu lừa đảo giả mạo để lấy cắp thông tin cá nhân và tài khoản ngân hàng. May mắn mẹ tôi để ý kỳ lạ nên không cung cấp bất kỳ thông tin gì.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "prize_gift",
+    "style": "long_narration",
+    "key_facts": [
+      "Tin nhắn giả mạo tên thương hiệu lớn (VinFast) để tạo độ tin cậy",
+      "Đệm mót qua link rút gọn thay vì trang web chính thức để che giấu địa chỉ thật",
+      "Yêu cầu cung cấp thông tin nhạy cảm (CMND, số tài khoản) dưới danh nghĩa giao hàng quà tặng",
+      "Sử dụng tâm lý trúng thưởng may mắn để kích động hành động nhanh và bỏ qua suy nghĩ cảnh báo"
+    ]
+  },
+  {
+    "id": "scam-prize_gift-08",
+    "text": "🎁 CHÚC MỪNG! Bạn đã được chọn là khách hàng may mắn tháng 11 của Lazada Việt Nam. Bạn trúng giải thưởng quà tặng trị giá 15 triệu đồng!!!\n\nĐể nhận quà tặng, vui lòng vào link xác nhận: bit.ly/lazada-gift-claim-vn hoặc tải app \"LazadaReward\" từ CH Play.\n\nThông tin tài khoản:\n- Mã xác nhận: LAZ-2024-VN-9847\n- Tên tài khoản: Tran Van A\n- Số điện thoại: 0987654321\n- Email: tranvana.rewards@lazada-vn.com\n\nLưu ý: Quà tặng chỉ có hiệu lực trong 24 giờ. Nếu không xác nhận, quà sẽ bị hủy. Vui lòng không chia sẻ link này với người khác.\n\n👉 Xác nhận ngay để nhận quà: bit.ly/lazada-gift-claim-vn\n\nLazada Customer Service Team",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "prize_gift",
+    "style": "verbatim_message",
+    "key_facts": [
+      "Sử dụng tên thương hiệu lớn (Lazada) để tăng độ tin cậy",
+      "Yêu cầu nhấp vào liên kết hoặc tải ứng dụng giả để lấy thông tin cá nhân",
+      "Tạo cảm giác khẩn cấp bằng thời hạn 24 giờ để buộc hành động nhanh chóng",
+      "Cung cấp các chi tiết giả (mã xác nhận, email, số điện thoại) để trông hợp pháp"
+    ]
+  },
+  {
+    "id": "scam-prize_gift-09",
+    "text": "Hôm trước mình nghe anh Tuấn (bạn cũ của em ở quê) kể về sự cố lừa đảo. Hôm đó anh nhận được tin nhắn SMS từ số +84987654321 nói: \"Chúc mừng! Anh/chị đã trúng thưởng loại xe máy SH từ chương trình khách hàng thân thiết của CII Xăng Dầu. Để nhận thưởng, vui lòng cập nhật thông tin cá nhân tại ứng dụng CIIReward bằng link: http://ciireward-vn.net/claim. Hạn chót: 48h.\"\n\nAnh Tuấn tò mò vì thường xuyên đi tô xăng lâu năm, nên nghĩ có thể là quảng cáo hợp lệ. Anh click vào link và app giả mạo hiện ra với giao diện giống như app ngân hàng. Ứng dụng yêu cầu nhập số CMND, họ tên, ngày sinh, số điện thoại, và sau đó là yêu cầu \"xác thực\" bằng cách nhập số thẻ tín dụng cùng CVV.\n\nLúc đó anh mới cảnh báo được sự bất thường (vì không bao giờ nhập CVV cho ứng dụng bên ngoài) nên không tiếp tục. Nhưng đến hôm sau, anh phát hiện 3 giao dịch rút tiền 500k từ tài khoản trong 2 giờ liên tiếp. May mắn anh tìm được sơ sót nên đã khóa thẻ và khiếu nại với ngân hàng, nhưng quá trình phục hồi mất hơn 2 tuần.\"",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "prize_gift",
+    "style": "third_person",
+    "key_facts": [
+      "Tin nhắn giả mạo từ công ty xăng dầu hứa tặng xe máy để lôi kéo người dùng nhập thông tin nhạy cảm",
+      "Đường link giả mạo dẫn đến ứng dụng lừa đảo có giao diện giống ngân hàng nhưng thực chất là phishing",
+      "Nạn nhân bị cẩu thả khi được yêu cầu nhập thông tin tài khoản ngân hàng và mã CVV",
+      "Thiệt hại tài chính xảy ra nhanh chóng với nhiều giao dịch bất hợp pháp trong khoảng thời gian ngắn"
+    ]
+  },
+  {
+    "id": "scam-recovery_scam-01",
+    "text": "Chị ơi, em vừa nhận được tin nhắn từ số +84987654321 nói là từ \"Trung tâm Bảo vệ Người tiêu dùng\" và họ bảo em bị lừa 15 triệu trên app Vimo hôm qua, giờ họ có thể giúp em lấy lại tiền nhưng cần em chuyển 2 triệu phí xử lý trước. Em có nên tin không ạ?",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "recovery_scam",
+    "style": "short_question",
+    "key_facts": [
+      "Recovery scam: kẻ lừa đảo giả vờ là cơ quan chính phủ hoặc tổ chức bảo vệ để tiếp cận nạn nhân đã bị lừa trước đó",
+      "Chiêu trò yêu cầu phí xử lý hoặc phí hành chính để 'lấy lại tiền': nạn nhân phải chuyển tiền trước, dự kiến là sẽ nhận được hoàn lại số tiền lớn hơn",
+      "Sử dụng thông tin cá nhân (lịch sử bị lừa, tên ứng dụng, số tiền chính xác) để tăng độ tin cậy",
+      "Hành động cần cảnh báo: yêu cầu chuyển tiền hoặc cung cấp thông tin tài khoản ngân hàng, OTP, mã xác minh"
+    ]
+  },
+  {
+    "id": "scam-recovery_scam-02",
+    "text": "Tôi bị lừa đảo mất 8.5 triệu đồng qua một ứng dụng gọi vốn \"Fast Credit Pro\" mà kẻ lừa đảo dụ dỗ tôi tải về hồi tháng trước. Vừa rồi, tôi nhận được tin nhắn từ số điện thoại +84 901 556 7823 tự xưng là \"Trung tâm Bảo vệ Người tiêu dùng Quốc gia\" đề nghị giúp tôi lấy lại tiền bằng cách nộp một khoản phí \"xử lý hồ sơ\" là 2.1 triệu đồng, và hứa sẽ hoàn trả toàn bộ 8.5 triệu trong vòng 5 ngày làm việc. Họ yêu cầu tôi chuyển tiền vào tài khoản ngân hàng do họ cung cấp (tài khoản tên \"Trần Minh Dũng\" ở Vietcombank). Khi tôi hỏi làm sao họ có được số điện thoại của tôi, họ nói rằng thông tin đã được cung cấp bởi \"đơn vị điều tra\" và đây là lần liên lạc chính thức duy nhất của họ. Tôi gần như sập bẫy vì tôi thực sự muốn lấy lại tiền, nhưng may mắn là tôi đã kiểm tra lại và phát hiện ra đây là kẻ lừa đảo tiếp theo.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "recovery_scam",
+    "style": "long_narration",
+    "key_facts": [
+      "Kẻ lừa đảo giả danh cơ quan chính phủ (Trung tâm Bảo vệ Người tiêu dùng) để tăng độ tin cậy",
+      "Chiêu thức lừa 'recovery scam': đề nghị giải quyết vụ lừa đảo cũ nhưng yêu cầu nộp phí xử lý trước",
+      "Sử dụng thông tin cá nhân (tên, số điện thoại) của nạn nhân để tạo vẻ hợp pháp",
+      "Áp dụng tâm lý tuyệt vọng của nạn nhân (muốn lấy lại tiền đã mất) để thúc đẩy hành động nhanh chóng"
+    ]
+  },
+  {
+    "id": "scam-recovery_scam-03",
+    "text": "Anh/chị đã bị lừa chuyển tiền để đầu tư? Tôi là nhân viên phòng Cảnh sát hình sự Công an TP Hồ Chí Minh. Chúng tôi vừa phát hiện đường dây lừa đảo và có tên anh/chị trong danh sách nạn nhân. Số tiền anh/chị bị chiếm doạt là 45 triệu đồng vào tài khoản cái gì Fintech Trading. \n\nĐể lấy lại tiền, anh/chị phải:\n1. Chuyển phí xử lý hồ sơ 2 triệu đồng vào tài khoản: 1025 5698 5423 (VietinBank) - tên chủ: Trần Thị Huế\n2. Tải app \"SafeGuard Recovery\" để khôi phục dữ liệu giao dịch (link: safeguard-recovery.me/app)\n3. Gọi tổng đài 093.256.7814 trong 24h để confirm thông tin\n\nSau khi nhận phí, tiền của anh/chị sẽ được hoàn lại trong 7 ngày. Nhân viên sẽ liên hệ lại qua app để cập nhật tiến độ.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "recovery_scam",
+    "style": "verbatim_message",
+    "key_facts": [
+      "Giả danh cơ quan công an để xây dựng lòng tin và tạo sự khẩn cấp",
+      "Yêu cầu nạn nhân chuyển phí xử lý hồ sơ trước khi hỗ trợ lấy lại tiền",
+      "Hướng dẫn tải ứng dụng giả mạo để thu thập thông tin cá nhân hoặc thực hiện giao dịch tài chính tiếp theo",
+      "Tận dụng tâm lý nạn nhân đã từng bị lừa để thực hiện lừa đảo tầng hai (recovery scam)"
+    ]
+  },
+  {
+    "id": "scam-recovery_scam-04",
+    "text": "Hôm qua em trai mình gọi điện rất hoảng sợ. Mấy tuần trước anh ấy đã bị lừa bởi một tài khoản fake trên Zalo, người đó giả danh là nhân viên từ ngân hàng VietcomBank và lôi anh vào nhóm chat \"hỗ trợ khách hàng VCB\". Anh ấy đã chuyển 8.5 triệu đồng cho \"xác minh tài khoản\" và không bao giờ lấy lại được.\n\nHôm nay, anh ấy nhận được tin nhắn SMS từ số +84976xxxx5432 nói rằng: \"Chào bạn, chúng tôi là Trung tâm Bảo vệ Quyền lợi Người tiêu dùng Việt Nam. Chúng tôi phát hiện tài khoản của bạn bị chiếm dụng và có thể giúp bạn lấy lại toàn bộ 8.5 triệu tiền mất. Hãy liên hệ với chúng tôi qua Telegram: @recovery_support_vn để được hỗ trợ miễn phí.\"\n\nAnh ấy vừa muốn tham gia nhóm Telegram để \"hỗ trợ lấy lại tiền\", nhưng may mắn là anh gọi mình hỏi trước. Mình nhận ra ngay đây là chiêu lừa thứ hai. Những kẻ lừa đảo này muốn anh phải cung cấp thông tin cá nhân và có thể lại yêu cầu chuyển tiền \"phí xử lý hồ sơ\" hoặc \"bảo mật tài khoản\" trước khi hoàn tiền.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "recovery_scam",
+    "style": "third_person",
+    "key_facts": [
+      "Recovery scam: các lừa đảo giả danh cơ quan chính phủ hoặc tổ chức bảo vệ người tiêu dùng để lôi kéo nạn nhân tiền lần thứ hai",
+      "Nạn nhân đã bị lừa trước đó (8.5 triệu) và được tiếp cận khi đang tuyệt vọng lấy lại tiền",
+      "Sử dụng nhiều kênh liên lạc (SMS, Telegram, Zalo) để tạo vẻ hợp pháp và khó truy tìm",
+      "Yêu cầu cung cấp thông tin cá nhân hoặc phí xử lý là dấu hiệu điển hình của recovery scam"
+    ]
+  },
+  {
+    "id": "scam-recovery_scam-05",
+    "text": "Chào, em gặp vấn đề rồi. Em bị lừa trên app đầu tư Finvest và mất 5.2 triệu, bây giờ có người tên Minh Trung gọi điện bảo có thể giúp em lấy lại tiền qua dịch vụ \"Quỹ Bảo vệ Nhà đầu tư\" nhưng cần em gửi trước 800 nghìn để phí xác minh. Em có nên tin không ạ?",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "recovery_scam",
+    "style": "short_question",
+    "key_facts": [
+      "Đây là chiêu lừa lấy lại tiền (recovery scam) nhắm vào nạn nhân đã bị lừa trước đó",
+      "Kẻ lừa tự xưng là nhân viên dịch vụ hỗ trợ và yêu cầu phí upfront (800 nghìn) với lý do giả là chi phí xác minh",
+      "Nạn nhân đã có lịch sử bị lừa trước đó (mất 5.2 triệu) nên dễ bị thuyết phục khi nghe hứa lấy lại tiền",
+      "Dấu hiệu lừa: yêu cầu thanh toán trước, không có tên công ty/văn phòng chính thức, số điện thoại cá nhân thay vì đường dây công cộng"
+    ]
+  },
+  {
+    "id": "scam-recovery_scam-06",
+    "text": "Cháu gái tôi là Lan, 28 tuổi, bị lừa đảo mất 15 triệu đồng khi tham gia một \"nhóm đầu tư tiền ảo\" trên Telegram vào tháng 5. Sau 3 tuần không thể rút tiền, cô gái đó thất vọng và tìm kiếm cách khôi phục tiền. Thế rồi, Lan nhận được cuộc gọi từ số điện thoại 0987.654.321 giới thiệu là nhân viên của \"Tổng cục Hỗ trợ Lấy Lại Tài Sản Trực Tuyến\" với tên gọi là Anh Minh Trần. Anh này cam kết sẽ giúp Lan lấy lại toàn bộ số tiền qua một quy trình \"điều tra bảo mật\" và \"phục hồi tài khoản từ xa\", nhưng yêu cầu Lan phải trả phí dịch vụ 3 triệu đồng trước (lý do là \"phí hồ sơ và xác thực\"). Lan tin tưởng và chuyển tiền vào tài khoản ngân hàng được cung cấp. Sau đó, \"Anh Minh\" lần lượt yêu cầu thêm 2 triệu, rồi 4 triệu với lý do \"cập nhật bảo mật\" và \"phí luật sư đảm bảo\", cho đến khi Lan hết sức tuyệt vọng thì mới nhận ra đây là chiêu trò thứ hai để lừa thêm tiền từ nạn nhân cũ.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "recovery_scam",
+    "style": "long_narration",
+    "key_facts": [
+      "Nạn nhân lần 1 mất 15 triệu đồng vào nhóm đầu tư tiền ảo giả mạo",
+      "Kẻ lừa giả danh cơ quan chính phủ với tên 'Tổng cục Hỗ trợ Lấy Lại Tài Sản Trực Tuyến' để lợi dụng đau khổ của nạn nhân",
+      "Yêu cầu chi trả phí dịch vụ theo từng giai đoạn (3 triệu, 2 triệu, 4 triệu) với lý do khác nhau nhưng mơ hồ",
+      "Kỹ thuật tâm lý 'recovery scam' - lợi dụng hy vọng lấy lại tiền để chiếm đoạt thêm tiền từ nạn nhân"
+    ]
+  },
+  {
+    "id": "scam-recovery_scam-07",
+    "text": "Xin chào anh/chị! Tôi là chuyên viên hỗ trợ từ Tổng cục Cảnh sát quốc tế (INTERPOL Việt Nam). Chúng tôi vừa phát hiện tài khoản ngân hàng của anh/chị có ghi nhận giao dịch giả mạo với số tiền 24.5 triệu đồng bị rút trái phép hôm 15/11. Để hỗ trợ lấy lại tiền, anh/chị cần làm theo các bước sau:\n\n1. Tải ứng dụng \"RemoteSupport365\" (link: remotesupp0rt365.com/install)\n2. Cấp quyền truy cập màn hình và tài khoản ngân hàng để chúng tôi khôi phục\n3. Chuyển phí hỗ trợ 2.8 triệu đồng vào TK: 0123456789 (MB Bank - Chủ: Trần Văn Huy)\n\nQuá trình này sẽ mất 3-5 ngày. Vui lòng xác nhận sớm để tránh tài khoản bị khóa vĩnh viễn. Liên hệ ngay qua số hotline hỗ trợ: 0913 556 7823",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "recovery_scam",
+    "style": "verbatim_message",
+    "key_facts": [
+      "Xưng danh cơ quan chính thức (INTERPOL) để tạo lòng tin",
+      "Đưa ra con số tiền cụ thể (24.5 triệu) để tình huống trông thuyết phục",
+      "Yêu cầu cài ứng dụng giả để đánh cắp quyền truy cập thiết bị và dữ liệu",
+      "Tạo tâm lý khẩn cấp ('tài khoản bị khóa vĩnh viễn') và yêu cầu phí hỗ trợ để khai thác nạn nhân"
+    ]
+  },
+  {
+    "id": "scam-recovery_scam-08",
+    "text": "Mình muốn kể lại về chuyện bạn mình là Hương bị lừa vừa rồi. Khoảng 2 tuần trước, Hương đã bị một chiêu lừa tặng tiền qua app Zalo giả mạo công ty giao hàng nên đã chuyển 2,3 triệu đồng vào một tài khoản. Lúc mình biết được, Hương sốc và rất lo lắng. Thế rồi 3 ngày sau, Hương nhận được tin nhắn từ số điện thoại +84934556782 tự xưng là nhân viên của \"Trung tâm Hỗ trợ Nạn nhân Lừa đảo Quốc gia\". Người này nói Hương may mắn được lựa chọn để được hỗ trợ lấy lại tiền thông qua một chương trình đặc biệt của chính phủ. Họ yêu cầu Hương cần nộp phí xử lý hồ sơ là 500 ngàn đồng và phí bảo lãnh ngân hàng là 800 ngàn đồng để \"kích hoạt quá trình khôi phục\". Hương vốn đã mất tiền 1 lần nên rất tuyệt vọng và đã chuyển hơn 1,3 triệu luôn. Sau đó người đó yêu cầu thêm 600 ngàn nữa để \"tham vấn pháp lý\" rồi cứ thế liên tục tìm lý do để yêu cầu tiền. Đến khi Hương hỏi tại sao vẫn chưa nhận được tiền gốc, thì người kia cứ đưa ra những lý do trì hoãn.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "recovery_scam",
+    "style": "third_person",
+    "key_facts": [
+      "Nạn nhân đã bị lừa lần thứ nhất (mất 2,3 triệu) rồi rơi vào trạng thái tuyệt vọng dễ bị tấn công",
+      "Kẻ lừa giả mạo 'cơ quan chính phủ hỗ trợ nạn nhân lừa đảo' để tạo niềm tin",
+      "Yêu cầu nộp nhiều khoản phí khác nhau (xử lý hồ sơ, bảo lãnh, tham vấn...) với lý do hợp pháp giả",
+      "Hành vi này gọi là recovery scam - lừa nạn nhân cũ bằng cách hứa lấy lại tiền đã mất"
+    ]
+  },
+  {
+    "id": "scam-recovery_scam-09",
+    "text": "Chào anh, em bị lừa mất 2.5 triệu trên app Oxbet, giờ có người nhắn tư vấn giúp em lấy lại tiền được không ạ?",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "recovery_scam",
+    "style": "short_question",
+    "key_facts": [
+      "Recovery scam - mục tiêu là lừa nạn nhân đã bị lừa lần đầu",
+      "Nạn nhân sẽ được yêu cầu trả phí 'hỗ trợ' hoặc cung cấp thông tin ngân hàng",
+      "Chiêu trò lợi dụng tâm lý người bị lừa muốn lấy lại tiền",
+      "Dự án hoặc ứng dụng cá cược là nơi tuyên bố xảy ra lừa đảo ban đầu"
+    ]
+  },
+  {
+    "id": "scam-romance_scam-01",
+    "text": "Chào bạn, mình cần kể câu chuyện buồn về chị em mình. Chị gái tên là Linh, 34 tuổi, được một người tên \"Mark\" lên lịch trên ứng dụng hẹn hò Bumble vào tháng 3 năm nay. Anh chàng này nói là nhà thầu xây dựng người Úc, rất lịch sự và chăm sóc chị. Sau 2 tuần nói chuyện, Mark đề xuất gửi tiền qua chuyển khoản ngân hàng quốc tế để \"chứng minh tình cảm\" và đặt cọc cho chuyến bay sang Việt Nam gặp chị. Chị đã gửi 5 triệu đồng (khoảng 215 USD) theo hướng dẫn của anh ta. Sau đó, Mark liên tục yêu cầu tiền thêm vì \"chi phí visa\" và \"bảo hiểm y tế\" - tổng cộng chị đã chuyển 23 triệu đồng trong vòng 1 tháng. Khi chị bắt đầu hỏi lý do anh ta không thể gọi video hoặc trao đổi thông tin cá nhân cụ thể, Mark bất ngờ khóa tài khoản và biến mất. Chị phát hiện ra rằng tất cả ảnh của \"Mark\" đều là tìm kiếm ngược trên Google, và số điện thoại đó thực ra là dịch vụ voip giả định. Bây giờ chị rất tổn thương về tâm lý và cảm thấy xấu hổ vì đã bị lừa như vậy.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "romance_scam",
+    "style": "long_narration",
+    "key_facts": [
+      "Lừa đảo tình cảm qua ứng dụng hẹn hò, người giả danh ngoài quốc gia hứa gặp mặt",
+      "Yêu cầu chuyển tiền liên tục dưới nhiều lý do khác nhau (chuyến bay, visa, bảo hiểm)",
+      "Tổng cộng bị lừa 23 triệu đồng trong vòng 1 tháng",
+      "Tội phạm biến mất sau khi chiếu được số tiền lớn, sử dụng ảnh giả mạo và số điện thoại voip"
+    ]
+  },
+  {
+    "id": "scam-romance_scam-02",
+    "text": "Em yêu, hôm nay tôi vừa bị tai nạn lao động ở công trường Dubai, chiếc xe cẩu rơi xuống và gãy tay trái. Tôi đang nằm ở bệnh viện Al Zahra nhưng không thể rút tiền vì công ty chưa chuyển lương tháng này. Em, anh cực kỳ cần em giúp đỡ, em có thể chuyển khoảng 8 triệu đồng để anh trả bdeposit cho bệnh viện không? Anh sẽ trả lại ngay khi công ty chuyển tiền. Em, anh rất yêu em, hành động này sẽ chứng minh tình yêu của em với anh. Anh có thể gửi tài khoản ngân hàng qua Zalo nhé. Anh đang rất đau đớn nên em nhanh lên được không?",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "romance_scam",
+    "style": "verbatim_message",
+    "key_facts": [
+      "Kẻ lừa đảo tạo khẩn cấp bằng cách tuyên bố gặp sự cố (tai nạn lao động)",
+      "Yêu cầu chuyển tiền với lý do hợp lý về mặt bề ngoài (chi phí y tế)",
+      "Sử dụng cảm xúc tình yêu để thúc đẩy nạn nhân hành động nhanh chóng",
+      "Cung cấp chi tiết giả (bệnh viện, vị trí công việc) để tăng tính thuyết phục"
+    ]
+  },
+  {
+    "id": "scam-romance_scam-03",
+    "text": "Hôm qua em gái tôi kể lại một câu chuyện khá buồn. Cô ấy đã quen một anh chàng tên là Daniel qua ứng dụng hẹn hò Tinder khoảng 2 tháng trước. Anh ta cho biết là người Mỹ gốc Việt, làm việc tại một công ty dầu khí ở Qatar. Lúc đầu mọi chuyện rất bình thường - họ chat hàng ngày, nói về gia đình, ước mơ, và dần dần Daniel bắt đầu nói những lời ngôn tình. Sau vài tuần, anh ta hỏi liệu em gái tôi có muốn gặp mặt trực tiếp không, nhưng lý do nào đó anh ta không thể rời Qatar được vì \"công việc bế tắc hợp đồng\". Rồi một hôm, Daniel nói rằng công ty của anh ta sắp chuyển một khoản tiền lớn sang nước ngoài (khoảng 15 tỷ VNĐ) và anh ta cần sự giúp đỡ từ em gái tôi để \"xác minh danh tính\" thông qua một tài khoản ngân hàng riêng. Anh ta yêu cầu em gái tôi chuyển 5 triệu đồng \"tiền phí xác minh tạm thời\" vào một số tài khoản được cung cấp (số tài khoản: 1029384756, ngân hàng Vietcombank). Sau khi chuyển tiền, anh ta liên tục báo cáo \"có vấn đề với quá trình xác minh\" và yêu cầu thêm 3 triệu nữa. May mắn là khi em gái tôi muốn chuyển lần thứ hai, em ấy đã hỏi các bạn trong nhóm chat, và các bạn nhận ra đây là scam. Nhưng thật không may, em gái tôi đã mất 5 triệu đồng rồi, và bây giờ cô ấy cảm thấy vô cùng xấu hổ và tổn thương về cảm xúc.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "romance_scam",
+    "style": "third_person",
+    "key_facts": [
+      "Người lừa đảo dùng hình ảnh/thông tin giả danh người nước ngoài, xây dựng mối quan hệ tình cảm lâu dài để tạo lòng tin",
+      "Tìm cách khiến nạn nhân chuyển tiền bằng cách tạo bối cảnh khẩn cấp (vấn đề công việc, cần xác minh)",
+      "Yêu cầu chuyển tiền vào tài khoản ngân hàng do kẻ lừa đảo cung cấp",
+      "Nạn nhân bị tổn thương cảm xúc và tài chính sau khi bị phát hiện"
+    ]
+  },
+  {
+    "id": "scam-romance_scam-04",
+    "text": "Anh bên ngoài quốc tế gửi hình ảnh xinh đẹp nói thích em, rồi sau vài tuần hỏi gửi tiền qua Zalo để giải quyết vấn đề khẩn cấp ở Thái Lan. Em có nên gửi không?",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "romance_scam",
+    "style": "short_question",
+    "key_facts": [
+      "Kẻ lừa đảo sử dụng hình ảnh giả mạo và xây dựng mối quan hệ tình cảm để tạo dựng lòng tin",
+      "Yêu cầu chuyển tiền sau thời gian ngắn khi nạn nhân đã cảm thấy gắn bó là dấu hiệu phổ biến của romance scam",
+      "Sử dụng ứng dụng nhắn tin phổ biến (Zalo) và tạo cảm giác khẩn cấp để thúc đẩy nạn nhân hành động nhanh",
+      "Nạn nhân cần xác minh danh tính thật qua video call hoặc yêu cầu chứng thực, không bao giờ gửi tiền cho người chưa gặp mặt"
+    ]
+  },
+  {
+    "id": "scam-romance_scam-05",
+    "text": "Tôi bị một kẻ giả danh lính Mỹ tên Jason Miller qua ứng dụng hẹn hò Zingle. Anh ta bắt đầu nhắn tin với tôi mỗi ngày, nói những lời ngọt ngào, tuyên bố yêu tôi sau 3 tuần, và hỏi tôi có muốn gặp mặt không. Sau khi tôi nói có, anh ta kể rằng đơn vị của anh bị phái đi Thái Lan khẩn cấp và cần tiền để hoàn thành hợp đồng quân sự, yêu cầu tôi chuyển 8 triệu đồng qua Momo để \"tạm thời giúp đỡ\". Tôi chuyển tiền, rồi anh ta tiếp tục xin thêm 12 triệu cho chi phí bảo hiểm và 5 triệu cho vé máy bay. Mỗi lần anh ta xin tiền, anh ta đều gửi ảnh lính Mỹ khác (copy từ mạng) để chứng minh. Người bạn của tôi nhận ra dấu hiệu lừa đảo sau khi tôi xin vay tiền anh ta lần thứ ba, khi đó tôi đã tổn thất hơn 25 triệu đồng. Tài khoản giả mạo đó đã bị khóa nhưng tiền tôi gửi đi mãi không trở lại.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "romance_scam",
+    "style": "long_narration",
+    "key_facts": [
+      "Kẻ lừa đảo giả danh lính Mỹ trên ứng dụng hẹn hò Zingle, sử dụng tên Jason Miller và ảnh giả mạo",
+      "Sử dụng chiêu tình cảm (tuyên bố yêu thương sớm) để tạo niềm tin với nạn nhân trong vòng 3 tuần",
+      "Xin tiền theo từng đợt với các lý do giả: hợp đồng quân sự, chi phí bảo hiểm, vé máy bay",
+      "Nạn nhân bị lừa tổng cộng 25 triệu đồng qua phương thức Momo trước khi nhận ra chiêu trò"
+    ]
+  },
+  {
+    "id": "scam-romance_scam-06",
+    "text": "Hi em, đây là tôi Marcus từ Texas. Tôi là kỹ sư dầu khí, vừa kết thúc dự án tại Trung Đông. Tôi thấy profile của em rất đặc biệt, em có vẻ là người phụ nữ tuyệt vời. Tôi muốn tìm hiểu thêm về em. Tôi không thường xuyên online, nhưng tôi rất quan tâm đến tìm một mối quan hệ nghiêm túc.\n\nSau vài tuần chat, anh rất yêu em. Anh muốn gửi quà cho em, để cho em thấy anh đặc biệt coi trọng em. Anh vừa có một số tiền từ hợp đồng công việc - khoảng 85.000 USD. Anh sẽ gửi tiền cho em qua Western Union, để em có thể đi mua một chiếc xe máy mới mà em nói muốn.\n\nNhưng em ơi, có một vấn đề. Công ty của anh yêu cầu tất cả nhân viên nước ngoài phải nộp một khoản đặt cọc về an toàn để rút tiền ra. Đó là 4.500 USD. Anh không có tiền mặt ở đây, vì tất cả đều bị khóa trong tài khoản ngân hàng công ty (dịch vụ độc lập).\n\nEm có thể giúp anh không? Em chỉ cần chuyển 4.500 USD đến số tài khoản này: Ngân hàng ACB, tài khoản 12847569. Sau đó anh sẽ chuyển 85.000 USD cho em, cộng thêm 4.500 USD lại cho em. Em sẽ nhận được tổng cộng 89.500 USD.\n\nAnh thực sự cần em ngay bây giờ. Em yêu anh không?",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "romance_scam",
+    "style": "verbatim_message",
+    "key_facts": [
+      "Kẻ lừa đảo giả danh kỹ sư người Mỹ có công việc hợp pháp để xây dựng lòng tin",
+      "Sử dụng chiến lược tình cảm - tuyên bố yêu em sau vài tuần để tạo áp lực cảm xúc",
+      "Hứa gửi số tiền lớn (85.000 USD) trước để khiến nạn nhân tin tưởng",
+      "Yêu cầu nạn nhân chuyển tiền trước với lý do không thể tiếp cận tiền của mình, hứa hoàn lại kèm lợi nhuận"
+    ]
+  },
+  {
+    "id": "scam-romance_scam-07",
+    "text": "Hôm qua tôi mới biết em gái tôi bị lừa đảo. Cách đây 3 tháng, cô ấy quen một người tên David trên ứng dụng hẹn hò Topdating. Thằng này nói là kiến trúc sư, 32 tuổi, làm việc cho công ty xây dựng ở Singapore. Chúng nó chat rất tình cảm, anh ta luôn nói nhớ em gái tôi, sẽ quay về Việt Nam để gặp cô ấy. Sau vài tuần, \"David\" bảo rằng cô ấy là người anh ta yêu thương nhất và muốn gửi tiền để lo cho cô ấy. \n\nKhoảng 2 tuần trước, David nói rằng công ty anh ta có dự án lớn ở Hà Nội nhưng cần vốn để thực hiện. Anh ta nhờ em gái tôi giúp chuyển tiền vào tài khoản \"đối tác kinh doanh\" tên Nguyễn Hùng Mạnh (số tài khoản 0987654321 tại MB Bank). Anh ta hứa sẽ hoàn lại gấp đôi trong vòng 2 tuần. Em gái tôi yêu anh ta nên đã chuyển 15 triệu đồng. Sau đó, David lại nói dự án gặp vấn đề về thuế và cần thêm 8 triệu nữa. Em gái tôi lại chuyển.\n\nHôm qua khi tôi hỏi tình hình, em gái tôi mới kể toàn bộ chuyện. Tôi ngay lập tức lên mạng kiểm tra, phát hiện ra số điện thoại mà David liên hệ cô ấy (+65-9456-7823) là số ảo. Profile \"David\" trên Topdating cũng được tạo vào tháng 10 năm nay với ảnh đẹp trai được lấy từ internet. Chúng tôi đã báo cáo với cảnh sát và ngân hàng, nhưng có vẻ tiền đã bị rút hết.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "romance_scam",
+    "style": "third_person",
+    "key_facts": [
+      "Nạn nhân quen người nước ngoài (David) trên ứng dụng hẹn hò, được che phủ bằng kế hoạch kinh doanh để xin tiền",
+      "Tổng cộng chuyển 23 triệu đồng cho người lạ qua 2 lần sau khi bị tình yêu giả dụ chiều chuộng",
+      "Profile lừa đảo sử dụng ảnh đẹp trai từ internet, số điện thoại ảo, tài khoản ngân hàng giả danh",
+      "Khoảng thời gian 3 tháng để xây dựng mối quan hệ tin tưởng trước khi yêu cầu chuyển tiền"
+    ]
+  },
+  {
+    "id": "scam-romance_scam-08",
+    "text": "Anh ấy nói yêu em nhưng cần tiền để bay sang Việt Nam gặp em, nên em chuyển 15 triệu cho anh ấy qua ngân hàng. Có bao giờ anh ấy sẽ đến không ạ?",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "romance_scam",
+    "style": "short_question",
+    "key_facts": [
+      "Kẻ lừa đảo giả danh ngoại quốc trên ứng dụng hẹn hò, tạo mối quan hệ lãng mạn để chiếm lòng tin",
+      "Nạn nhân bị yêu cầu gửi tiền với lý do giả vờ (chi phí chuyến bay, giấy tờ, khẩu cấp...)  bằng cách chuyển khoản ngân hàng hoặc ví điện tử",
+      "Sau khi nhận tiền, kẻ lừa sẽ dừng liên lạc hoặc tìm cớ để yêu cầu thêm tiền",
+      "Romance scam - kỹ thuật lừa dựa trên cảm xúc, từng bước tăng số tiền yêu cầu và kéo dài cuộc trò chuyện để giữ nạn nhân"
+    ]
+  },
+  {
+    "id": "scam-romance_scam-09",
+    "text": "Tôi quen với một anh chàng tên là Marcus trên ứng dụng hẹn hò Bumble từ tháng 3, anh ta nói là kỹ sư dầu khí đang công tác ở Nhật Bản với mức lương rất cao. Chúng tôi chat qua lại hàng ngày rất tình cảm, anh ta luôn nói những lời nghe lơ lửng về tương lai chung và gửi cho tôi ảnh chup cùng sếp và đồng nghiệp. Sau 2 tháng quen biết, anh ta bảo sắp xong hợp đồng, muốn bay sang Việt Nam để gặp tôi nhưng cần tiền để giải quyết \"phí ký kết hợp đồng mới\" - khoảng 45 triệu đồng. Tôi vay mượn bạn bè và chuyển tiền vào tài khoản ngân hàng mà anh ta cung cấp. Sau đó, anh ta lại nói gặp phải \"vấn đề hải quan khi vận chuyển hộp quà tặng cho tôi\" và cần thêm 28 triệu để xử lý. Khi tôi yêu cầu video call để xác nhận, anh ta lúc nào cũng có lý do từ chối như mất kết nối internet hay điện thoại bị hỏng. Đến khi tôi kiểm tra thông tin, tôi mới phát hiện ra toàn bộ ảnh của \"Marcus\" được sao chép từ trang cá nhân của một nam diễn viên Australia nào đó, và tài khoản ngân hàng tên là Nguyễn Văn A - hoàn toàn khác.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "romance_scam",
+    "style": "long_narration",
+    "key_facts": [
+      "Kẻ lừa đảo giả danh kỹ sư nước ngoài, tạo hình ảnh tin tưởng qua chat dài hạn trên ứng dụng hẹn hò",
+      "Sử dụng ảnh của người thật (diễn viên) để tăng độ tin cậy, tránh video call",
+      "Đưa ra các lý do hợp lý (phí hợp đồng, hải quan) để yêu cầu chuyển tiền nhiều lần",
+      "Khi bị nghi ngờ hoặc yêu cầu xác minh qua video, lúc nào cũng có cớ từ chối"
+    ]
+  },
+  {
+    "id": "scam-tech_fraud-01",
+    "text": "Chào anh/chị, tôi là kỹ thuật viên của ngân hàng Vietcombank. Hệ thống phát hiện bất thường với tài khoản của anh/chị. Vui lòng xác minh ngay bằng cách nhấn vào link sau để cập nhật thông tin: bit.ly/vietcombank-secure-2024 \n\nQuá trình xác minh sẽ mất 2-3 phút. Nếu không xác minh trong 24 giờ, tài khoản sẽ bị khóa vĩnh viễn. \n\nHotline hỗ trợ (nếu có vấn đề): 0987654321\n\nMã xác nhận tạm thời: VCB2847",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "tech_fraud",
+    "style": "verbatim_message",
+    "key_facts": [
+      "Chiêu trò lừa đảo loại phishing/hack tài khoản qua link giả mạo mô phỏng trang đăng nhập ngân hàng",
+      "Tạo cảm giác khẩn cấp bằng cách đe dọa khóa tài khoản nếu không xác minh trong 24 giờ",
+      "Sử dụng link rút gọn nghi vấn (bit.ly) thay vì URL chính thức của ngân hàng để che giấu trang web lừa đảo",
+      "Cung cấp số điện thoại giả mạo và mã xác nhận giả để tăng tính thuyết phục và đánh lạc hướng nạn nhân"
+    ]
+  },
+  {
+    "id": "scam-tech_fraud-02",
+    "text": "Hôm qua mình nghe em gái kể chuyện cơ mà khá kinh hoàng. Em ấy nhận được cuộc gọi video từ một số lạ, lúc đầu không muốn trả lời nhưng thấy trên màn hình là hình ảnh của mẹ em. Em vội vàng bấm nhận cuộc gọi. Người trên video nói là mẹ em, giọng cũng giống, hình ảnh cũng rõ ràng, nó nói là đang gặp vấn đề tài chính khẩn cấp ở nước ngoài, cần em chuyển 15 triệu đồng vào tài khoản khác ngay lập tức. Em ấy cảm thấy lo lắng và sắp chuyển tiền khi may mà em nhớ mẹ đã nói hôm trước là đang ở nhà cả ngày. Em gọi cho mẹ để hỏi, mới biết được là mẹ em vẫn đang ở nhà và không có gọi gì cả. Hóa ra là những kẻ lừa đảo dùng công nghệ deepfake để tạo video giả lập mặt và giọng của mẹ em, rồi kết hợp với kỹ thuật social engineering để tạo sự khẩn cấp.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "tech_fraud",
+    "style": "third_person",
+    "key_facts": [
+      "Sử dụng công nghệ deepfake để giả lập video và giọng của người thân",
+      "Tạo tình huống khẩn cấp về tiền bạc để thúc ép nạn nhân chuyển khoản nhanh",
+      "Kiểm chứng thông tin bằng cách liên lạc trực tiếp với người thân là cách phòng chống hiệu quả",
+      "Các chi tiết nhân vật (quan hệ gia đình, giọng, hình ảnh) được tái hiện để tăng độ tin cậy của chiêu trò"
+    ]
+  },
+  {
+    "id": "scam-tech_fraud-03",
+    "text": "Em vừa tải app \"Zalo Banking Pro\" từ một link bạn gửi, nó yêu cầu nhập mã OTP và mật khẩu ngân hàng. Có sao không ạ?",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "tech_fraud",
+    "style": "short_question",
+    "key_facts": [
+      "Ứng dụng giả mạo được che giấu để trông giống ứng dụng ngân hàng/thanh toán hợp pháp",
+      "Yêu cầu cung cấp thông tin nhạy cảm (mã OTP, mật khẩu) là dấu hiệu điển hình của lừa đảo kỹ thuật số",
+      "Liên kết đáng ngờ từ bên thứ ba hoặc tin nhắn gây áp lực là phương pháp phổ biến để phân phối malware",
+      "Người dùng cần được cảnh báo không bao giờ nhập OTP hoặc mật khẩu vào ứng dụng không chính thức"
+    ]
+  },
+  {
+    "id": "scam-tech_fraud-04",
+    "text": "Hôm qua tôi nhận được cuộc gọi video từ số điện thoại của người bạn thân là Minh, nhưng khi tôi trả lời thì gương mặt trên màn hình có vẻ hơi lạ. Người đó nói rằng Minh bị mắc kẹt ở sân bay Tân Sơn Nhất và cần tôi chuyển tiền để giải quyết phí phạt gấp 15 triệu đồng, nếu không sẽ bị giữ hành lý. Khi tôi hỏi những chi tiết cá nhân chỉ Minh mới biết, hình ảnh video bắt đầu bị lag và kết nối mất đi, sau đó tôi gọi lại số Minh và anh ấy nói rằng anh chưa bao giờ gọi tôi cả. Tôi nhận ra đây là một deepfake video call được tạo ra bằng công nghệ AI để mô phỏng khuôn mặt và giọng nói của Minh nhằm lừa tôi chuyển tiền. May mắn tôi đã nghi ngờ kịp thời và không gửi tiền, nhưng nếu tôi chậm trễ một chút thì có thể đã mất hơn 15 triệu đồng.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "tech_fraud",
+    "style": "long_narration",
+    "key_facts": [
+      "Lừa đảo sử dụng công nghệ deepfake AI để tạo cuộc gọi video giả mạo khuôn mặt người bạn thân",
+      "Kẻ lừa đảo giả danh người bạn, tuyên bố bị mắc kẹt ở sân bay và yêu cầu chuyển 15 triệu đồng khẩn cấp",
+      "Nhân vật giả mạo cung cấp lý do sự cố (phí phạt sân bay) có vẻ thuyết phục nhưng thiếu chi tiết chân thực khi bị thẩm vấn",
+      "Kiểm chứng trực tiếp với người bạn thực qua cuộc gọi thường là cách phát hiện deepfake video call hiệu quả"
+    ]
+  },
+  {
+    "id": "scam-tech_fraud-05",
+    "text": "Chào bạn! Tôi là Trần Minh từ bộ phận Bảo mật Ngân hàng Vietcombank. Hệ thống của chúng tôi phát hiện có hoạt động đăng nhập bất thường từ thiết bị lạ vào tài khoản của bạn lúc 14h42 hôm nay. Để bảo vệ số tiền 47.5 triệu đồng trong tài khoản, vui lòng xác nhận danh tính bằng cách cài đặt ứng dụng VietcomID Pro mới tại: vietcombank-security.mobi/install (hạn chót 30 phút). Nhập OTP: 847592 vào ứng dụng để khóa tài khoản ngay. Đừng chia sẻ OTP với ai.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "tech_fraud",
+    "style": "verbatim_message",
+    "key_facts": [
+      "Giả mạo đại diện ngân hàng Vietcombank qua tin nhắn",
+      "Yêu cầu cài đặt ứng dụng giả mạo (VietcomID Pro) từ link lạ",
+      "Tạo cảm giác khẩn cấp với thời gian giới hạn 30 phút",
+      "Sử dụng OTP giả để tăng độ tin cậy và lừa người dùng cung cấp thông tin"
+    ]
+  },
+  {
+    "id": "scam-tech_fraud-06",
+    "text": "Tôi vừa nhận được cuộc gọi từ bạn tên Linh, bạn cùng lớp cấp 3 của mình. Linh báo là tài khoản ngân hàng của cô ấy vừa bị hack. Khoảng 3 ngày trước, Linh tải một ứng dụng gọi là \"TikTok Pro Manager\" từ một link được chia sẻ trong một nhóm Facebook nào đó, với lời hứa rằng nó giúp quản lý và kiếm tiền từ video TikTok. Sau khi cài đặt, ứng dụng này yêu cầu quyền truy cập danh sạch điện thoại và đã ghi lại dữ liệu cá nhân. Hôm nay sáng, Linh phát hiện ra rằng 12.5 triệu đồng đã bị chuyển từ tài khoản của cô ấy sang một tài khoản ngân hàng lạ mặt. Cô ấy cũng nhận được nhiều tin nhắn từ các ứng dụng ngân hàng khác nhau (Vietcombank, Agribank) nhưng những thông báo này không giống lắm với giao diện thực tế, và kèm theo các link lạ kỳ yêu cầu xác nhận lại mật khẩu. Khi Linh liên hệ với bộ phận hỗ trợ khách hàng, họ xác nhận rằng cô ấy đã bị cài đặt malware qua ứng dụng giả mạo, và các kẻ gian đã sử dụng dữ liệu của cô ấy để thực hiện những giao dịch trái phép.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "tech_fraud",
+    "style": "third_person",
+    "key_facts": [
+      "Ứng dụng giả mạo 'TikTok Pro Manager' chứa malware được cài đặt từ link lừa phát tán qua mạng xã hội",
+      "Kẻ lừa đảo đánh cắp dữ liệu cá nhân và thực hiện chuyển khoản trái phép, mất 12.5 triệu đồng",
+      "Nạn nhân nhận được các SMS/tin nhắn giả mạo từ ngân hàng với link độc hại để lừa hộ thoáng mật khẩu",
+      "Hack tài khoản ngân hàng thông qua kết hợp nhiều chiêu trò: ứng dụng giả + phishing + malware"
+    ]
+  },
+  {
+    "id": "scam-tech_fraud-07",
+    "text": "Em vừa tải ứng dụng \"MobilePay+\" từ trang ngoài Play Store, nó yêu cầu cấp quyền truy cập tin nhắn và danh bạ. Lúc đăng nhập tài khoản ngân hàng vào trong đó, em thấy có cảnh báo lạ. App này có an toàn không ạ?",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "tech_fraud",
+    "style": "short_question",
+    "key_facts": [
+      "Ứng dụng giả mạo 'MobilePay+' tải từ ngoài kho ứng dụng chính thức",
+      "Yêu cầu quyền truy cập nhạy cảm (tin nhắn, danh bạ) - dấu hiệu lừa đảo",
+      "Người dùng nhập thông tin tài khoản ngân hàng vào ứng dụng không xác minh",
+      "Nguy cơ cao mất cắp dữ liệu cá nhân, tiền trong tài khoản"
+    ]
+  },
+  {
+    "id": "scam-tech_fraud-08",
+    "text": "Anh Tuấn nhận được cuộc gọi video từ \"anh trai\" yêu cầu chuyển tiền khẩn cấp để thanh toán nợ kinh doanh, nhưng khuôn mặt trong video có những dấu hiệu kỳ lạ: ánh mắt không tự nhiên, miệng hơi bị delay khi nói chuyện. Anh gửi cho bạn bè xem video này thì được cảnh báo đó là deepfake được tạo từ ảnh chân dung trên Facebook của anh trai. Kẻ gian cũng gửi một link tải \"ứng dụng xác minh danh tính ngân hàng\" để anh Tuấn nhập mã OTP, nhằm chiếm quyền truy cập tài khoản ngân hàng. May mắn anh phát hiện kịp thời và không download, nhưng đã bị shock vì số tiền kẻ gian yêu cầu là 250 triệu đồng.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "tech_fraud",
+    "style": "long_narration",
+    "key_facts": [
+      "Deepfake video gọi từ người thân giả mạo có hình ảnh không tự nhiên, delay giọng nói",
+      "Yêu cầu chuyển 250 triệu đồng cho lý do thanh toán nợ kinh doanh khẩn cấp",
+      "Kèm theo link tải ứng dụng giả mạo nhân danh ngân hàng để lừa nhập mã OTP",
+      "Xác định qua bạn bè là deepfake tạo từ hình ảnh công khai trên mạng xã hội"
+    ]
+  },
+  {
+    "id": "scam-tech_fraud-09",
+    "text": "Xin chào anh/chị! Tôi là hỗ trợ viên từ ứng dụng TPBank Mobile. Chúng tôi phát hiện hoạt động lạ trên tài khoản của anh/chị từ một địa chỉ IP ở nước ngoài. Để bảo vệ tài khoản, anh/chị vui lòng xác nhận danh tính bằng cách nhấp vào link này: tpbank-secure-verify.tk/account-confirm?session=8f3k2x9. Nhập mã OTP từ tin nhắn ngân hàng của anh/chị để hoàn tất xác minh. Lưu ý: đây là tin nhắn tự động, vui lòng không chia sẻ mã OTP cho bất kỳ ai.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "tech_fraud",
+    "style": "verbatim_message",
+    "key_facts": [
+      "Giả mạo ứng dụng ngân hàng hợp pháp (TPBank Mobile) để lừa người dùng",
+      "Sử dụng chiến lược tạo cảm giác khẩn cấp qua việc nhắc đến 'hoạt động lạ' và 'địa chỉ IP nước ngoài'",
+      "Cung cấp link giả mạo (tpbank-secure-verify.tk) để lừa người dùng cung cấp thông tin nhạy cảm",
+      "Yêu cầu mã OTP nhằm chiếm quyền truy cập tài khoản ngân hàng của nạn nhân"
+    ]
+  },
+  {
+    "id": "scam-vacation_contract-01",
+    "text": "Anh Minh là bạn cùng lớp của tôi. Hôm trước anh ấy nhận được cuộc gọi từ số 0981-456-789, người gọi giới thiệu là nhân viên của công ty \"Resort Asia Vacation\" (RAV). Họ nói anh Minh đã được chọn làm khách hàng VIP để mua gói \"sở hữu kỳ nghỉ hàng năm\" tại 15 resort 5 sao trên toàn Đông Nam Á, chỉ cần 89 triệu đồng là có thể sử dụng suốt đời, tặng thêm 2 năm miễn phí. \n\nAnh ấy bị thu hút bởi lời hứa, họ yêu cầu chuyển tiền qua ứng dụng Momo để \"xác nhận hồ sơ VIP\" và được hỗ trợ bởi tài khoản tên \"Resort.Asia.Vacation.Official\". Sau khi anh chuyển 20 triệu đồng làm phí đăng ký, công ty bắt đầu yêu cầu những khoản phí thêm: 8 triệu cho \"thẩm định tín dụng\", 5 triệu cho \"đăng ký bảo hiểm du lịch\", rồi 12 triệu cho \"hộp quà chào mừng\". Cứ vậy anh Minh đã chuyển tổng cộng 45 triệu đồng.\n\nSau đó, \"công ty\" không còn liên lạc. Khi anh gọi lại số điện thoại thì đã bị chặn. Anh cố truy cập link để xem lịch sử giao dịch nhưng trang web đã \"bảo trì\". Anh Minh nhận ra mình bị lừa và rất tiếc nuối vì đã mất một khoản tiền lớn.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "vacation_contract",
+    "style": "third_person",
+    "key_facts": [
+      "Chiêu trò vacation timeshare: hứa sở hữu quyền sử dụng resort suốt đời với giá rẻ",
+      "Yêu cầu chuyển tiền trước qua ứng dụng Momo với lý do xác nhận/thẩm định hồ sơ VIP",
+      "Tiếp tục tạo ra các khoản phí phụ (bảo hiểm, hộp quà, đăng ký) để tạo cảm giác hợp pháp",
+      "Sau khi nhận đủ tiền, tên lửa bỏ cuộc, chặn liên lạc và website biến mất"
+    ]
+  },
+  {
+    "id": "scam-vacation_contract-02",
+    "text": "Chị ơi, tôi vừa nhận được cuộc gọi từ số 0898.555.234 nói tôi được chọn để tham gia chương trình sở hữu kỳ nghỉ tại Quy Nhơn. Họ bảo tôi chỉ cần thanh toán 5.2 triệu để ký hợp đồng 10 năm, có thể sử dụng được 2 tuần mỗi năm ở các resort cao cấp. Có đáng tin không?",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "vacation_contract",
+    "style": "short_question",
+    "key_facts": [
+      "Chiêu lừa loại timeshare/vacation ownership contract đưa ra hứa hẹn sử dụng resort sang trọng nhưng yêu cầu thanh toán phí lớn ban đầu",
+      "Các dấu hiệu đỏ: gọi chủ động từ số lạ, áp lực ký hợp đồng dài hạn (10 năm), giới hạn thời gian sử dụng, phí ban đầu cao",
+      "Người dùng nên xác minh độc lập với công ty, không thanh toán trước, kiểm tra luật pháp về timeshare tại Việt Nam",
+      "Các khoản phí ẩn có thể xuất hiện sau: phí bảo trì hàng năm, phí quản lý, phí hủy hợp đồng cao"
+    ]
+  },
+  {
+    "id": "scam-vacation_contract-03",
+    "text": "Hôm qua, anh Minh (bạn của tôi) nhận được cuộc gọi từ số 0987654321 xưng là công ty \"Paradise Holiday Club\". Họ nói anh đã trúng giải thưởng du lịch miễn phí 7 ngày tại Nha Trang, nhưng phải thanh toán \"phí bảo hiểm hợp đồng\" 2.900.000 đồng để hoàn tất thủ tục. Anh được hướng dẫn chuyển tiền vào tài khoản Ngân hàng AB số 123456789 tên \"Công ty Lữ hành Đại Dương\". Sau khi chuyển khoản, số điện thoại không liên lạc được, app \"Paradise Holiday Club\" được tải từ link mà họ gửi cũng bị xóa khỏi Android. Anh Minh sau đó gọi đến số hotline chính thức của công ty du lịch lớn và phát hiện ra họ không bao giờ tổ chức chương trình này. Khi đó anh mới nhận ra mình đã bị lừa mất 2.9 triệu đồng thông qua chiêu trò hợp đồng sở hữu kỳ nghỉ giả mạo.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "vacation_contract",
+    "style": "long_narration",
+    "key_facts": [
+      "Giả danh công ty du lịch và lôi cuốn bằng giải thưởng miễn phí để tăng độ tin cậy",
+      "Yêu cầu thanh toán phí bảo hiểm/hoàn tất hợp đồng với số tiền cụ thể (2.9 triệu đồng)",
+      "Sử dụng tài khoản ngân hàng tên công ty khác, liên lạc qua điện thoại và ứng dụng di động giả",
+      "Mất liên lạc ngay sau thanh toán và các hình thức giao tiếp trở nên không khả dụng"
+    ]
+  },
+  {
+    "id": "scam-vacation_contract-04",
+    "text": "Chúc mừng anh/chị! Anh/chị đã trúng giải thưởng du lịch \"Paradise Weeks\" trị giá 45 triệu đồng tại kỳ quay thưởng tuần vừa rồi. Để nhận giải, anh/chị cần hoàn tất thủ tục đăng ký hợp đồng sở hữu kỳ nghỉ cao cấp tại Phan Thiết. Chỉ cần thanh toán 2.8 triệu đồng phí xử lý hồ sơ và bảo hiểm 3 năm, anh/chị sẽ được sở hữu 2 tuần kỳ nghỉ hàng năm tại 15 resort 5 sao toàn quốc + quà tặng thêm 5 triệu voucher. Vui lòng chuyển tiền vào Agribank 1900.1234.5678 tên Công ty Du Lịch Á Châu hoặc thanh toán qua App MoMo số 0931.445.667 (chủ tài khoản Nguyễn Văn Hùng). Hạn chót ngày 21/01/2025. Liên hệ: 0819.555.123 để được hỗ trợ thêm.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "vacation_contract",
+    "style": "verbatim_message",
+    "key_facts": [
+      "Giả mạo giải thưởng du lịch tưởng như hợp pháp để khiến người nhận tin tưởng",
+      "Yêu cầu thanh toán phí xử lý hồ sơ/bảo hiểm trước khi nhận giải (không phải hành động chính thức của công ty lớn)",
+      "Cung cấp nhiều phương thức thanh toán kỹ thuật số (MoMo, ngân hàng) để dễ truy cập và khó truy vết",
+      "Đặt hạn chót gấp (ngày cụ thể sắp tới) để tạo áp lực và hạn chế người nhận có thời gian suy nghĩ"
+    ]
+  },
+  {
+    "id": "scam-vacation_contract-05",
+    "text": "Mình muốn kể lại câu chuyện của anh Tuấn, bạn thân của mình. Tuần trước, anh nhận được tin nhắn từ số +84 94 823 5467 giới thiệu về \"Chương trình Bất động sản Kỳ nghỉ Đại Âu - Golden Holiday Resort\". Tin nhắn nói rằng anh đã trúng thăm sở hữu căn hộ nghỉ dưỡng tại Đà Nẵng với giá ưu đãi chỉ 18 triệu đồng (thay vì 45 triệu), và anh sẽ có quyền sử dụng 2 tuần mỗi năm trong vòng 20 năm. \n\nLúc đầu anh Tuấn không tin, nhưng sau đó nhân viên \"tư vấn\" tên Hoa gọi điện và nói rất thuyết phục, kể cả cách sắp xếp thanh toán linh hoạt (4 lần mỗi quý). Họ tạo một hợp đồng \"chuyên nghiệp\" và gửi cho anh xem qua ứng dụng chat có tên là \"PropertyDeals365\" (không phải app chính thức). \n\nAnh Tuấn tin tưởng và chuyển 5 triệu đồng tiền đợt 1 vào số tài khoản ngân hàng được cung cấp. Sau đó, hàng loạt yêu cầu \"phí xác thực\", \"phí thủ tục pháp lý\", \"phí bảo hiểm hợp đồng\" liên tiếp đến từ những số điện thoại khác nhau. Khi anh Tuấn hỏi lại, họ nói anh \"chưa hoàn tất thủ tục\" và phải thanh toán thêm 2 triệu nữa trong tuần. \n\nMới đây anh mới phát hiện ra là bị lừa, vì không có resort nào tên \"Golden Holiday Resort\" tại Đà Nẵng, và khi cố gắng tìm kiếm công ty \"Bất động sản Đại Âu\" thì chẳng có gì.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "vacation_contract",
+    "style": "third_person",
+    "key_facts": [
+      "Lừa đảo loại sở hữu kỳ nghỉ (vacation timeshare) với tên công ty giả mạo và resort không tồn tại",
+      "Sử dụng ứng dụng chat giả mạo (PropertyDeals365) để gửi hợp đồng và tối thiểu hóa dấu vết chính thức",
+      "Chiêu trò tăng phí liên tiếp (phí xác thực, phí pháp lý, phí bảo hiểm) sau khi đã nhận tiền đầu tiên",
+      "Nhân viên tư vấn thuyết phục qua điện thoại để xây dựng tin cậy trước khi yêu cầu chuyển tiền"
+    ]
+  },
+  {
+    "id": "scam-vacation_contract-06",
+    "text": "Anh Thanh vừa nhận được tin nhắn từ số +84936758492 quảng cáo một chương trình du lịch hè độc quyền. Người gửi nói anh đã \"được chọn lọc\" để mua quyền nghỉ dưỡng tại resort Maldives với giá chỉ 45 triệu đồng (thay vì 150 triệu), có thể dùng suốt đời. Để xác nhận, anh cần chuyển khoản 3 triệu tiền đặt cọc vào tài khoản Ngân hàng Sacombank (STK: 9876543210) của \"Công ty DreamVacation\". Tin nhắn còn có link tải ứng dụng \"ResortClub\" để quản lý lịch trình. Anh Thanh cảm thấy hơi nghi ngờ nhưng đã sẵn sàng chuyển tiền khi con gái anh hỏi cha liệu nên tin vào đơn đề nghị này không.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "vacation_contract",
+    "style": "short_question",
+    "key_facts": [
+      "Chiêu trò timeshare/vacation_contract: bán gói du lịch hoặc quyền sở hữu kỳ nghỉ với giá 'ưu đãi' siêu rẻ so với giá gốc",
+      "Sử dụng tâm lý cấp bách và 'tư cách được chọn' để thuyết phục nạn nhân",
+      "Yêu cầu chuyển khoản tiền đặt cọc vào tài khoản cá nhân hoặc công ty chưa rõ nguồn gốc",
+      "Cung cấp link tải ứng dụng hoặc tài liệu giả mạo để thiết lập lòng tin giả tạo"
+    ]
+  },
+  {
+    "id": "scam-vacation_contract-07",
+    "text": "Tôi vừa bị lừa đảo về một gói \"sở hữu kỳ nghỉ\" sang trọng. Hôm qua, tôi nhận được cuộc gọi từ số 0899-234-567 giới thiệu về chương trình \"Villas Paradise Club\" — một công ty bí mật cam kết cho phép tôi sở hữu tuần nghỉ hàng năm tại các khu resort 5 sao ở Nha Trang, Phu Quoc và Đà Nẵng. Người nhân viên tên \"ông Minh\" rất thân thiện, nói rằng tôi đã được chọn đặc biệt từ danh sách khách hàng VIP, và nếu ký hợp đồng trong 24 giờ thì chỉ phải thanh toán 45 triệu đồng (thay vì 120 triệu). Tôi bị thuyết phục và chuyển 15 triệu tiền đặt cọc vào tài khoản ngân hàng mà họ cung cấp. Sau đó, họ yêu cầu tôi cài ứng dụng \"VPC Management\" lên điện thoại để \"hoàn tất thủ tục\", nhưng ứng dụng này liên tục yêu cầu quyền truy cập danh bạ và tin nhắn. Khi tôi cố liên hệ với công ty qua số điện thoại trên hợp đồng vào ngày hôm sau, số đó bị tắt máy và không bao giờ trả lời lại. Tôi vừa phát hiện rằng \"Villas Paradise Club\" là một công ty ma không có địa chỉ thực tế, và tài khoản ngân hàng có tên một cá nhân bình thường, không phải doanh nghiệp.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "vacation_contract",
+    "style": "long_narration",
+    "key_facts": [
+      "Nhân vật lừa đảo giới thiệu gói 'Villas Paradise Club' với lời hứa sở hữu kỳ nghỉ hàng năm tại các resort 5 sao",
+      "Sử dụng chiến lược tạo cấp bách (giảm giá chỉ còn 24 giờ) và chọn lựa VIP để thuyết phục nạn nhân",
+      "Lừa dương mục đích yêu cầu cài ứng dụng độc hại 'VPC Management' để chiếm quyền truy cập thông tin cá nhân",
+      "Công ty không có thực và tài khoản ngân hàng là của cá nhân, dấu hiệu điển hình của lừa đảo timeshare"
+    ]
+  },
+  {
+    "id": "scam-vacation_contract-08",
+    "text": "Chào bạn! Tôi là Ms.Linh từ Công ty Du lịch Paradise Resorts. Bạn đã trúng thưởng chuyến nghỉ dưỡng 7 ngày 6 đêm tại Phú Quốc trị giá 45 triệu đồng từ chương trình rút thăm của chúng tôi. Để nhận giải thưởng, bạn cần ký kết hợp đồng sở hữu kỳ nghỉ hàng năm (timeshare) chỉ với phí duy nhất 8.9 triệu đồng. Hợp đồng này cho phép bạn sử dụng 2 tuần resort hàng năm mãi mãi. Để hoàn tất thủ tục, vui lòng chuyển khoản 8.9 triệu vào tài khoản: STK 0123456789, MB Bank, chủ tài khoản Trương Minh Phương. Sau khi có tiền, chúng tôi sẽ gửi hợp đồng qua email và xác nhận giải thưởng. Liên hệ ngay: 0936.555.888",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "vacation_contract",
+    "style": "verbatim_message",
+    "key_facts": [
+      "Giả vờ công ty du lịch hợp pháp với tên tiếng Anh để tạo uy tín",
+      "Sử dụng chiêu 'trúng thưởng' kết hợp 'phí duy nhất' để bắt nạn nhân thanh toán trước",
+      "Yêu cầu chuyển khoản cho cá nhân với lý do 'phí ký kết hợp đồng timeshare'",
+      "Hứa hẹn lợi ích lâu dài (sử dụng hàng năm mãi mãi) để khiến nạn nhân tin tưởng"
+    ]
+  },
+  {
+    "id": "scam-vacation_contract-09",
+    "text": "Mình muốn kể lại trường hợp của người bạn Linh gần đây. Hôm qua em ấy nhận được cuộc gọi từ số 0917-445-281 tự xưng là nhân viên của \"Resorts Paradise Club\" - công ty quản lý các kỳ nghỉ cao cấp. Người này nói Linh đã may mắn được chọn tham gia chương trình VIP, có quyền sở hữu một suất nghỉ dưỡng 2 tuần mỗi năm tại các resort 5 sao ở Nha Trang, Đà Lạt và Phú Quốc. \n\nĐể \"khóa\" quyền lợi này, Linh phải ký hợp đồng và thanh toán một khoản phí sơ bộ 15 triệu đồng được gọi là \"phí kích hoạt thành viên\". Người sales tạo sức ép bằng cách nói rằng chỉ còn 3 suất cuối cùng và phải quyết định trong vòng 24 giờ.\n\nLinh được yêu cầu tải ứng dụng giả mạo tên là \"ResortPay\" để ký hợp đồng điện tử và chuyển tiền. Hợp đồng viết khá chuyên nghiệp nhưng đầy những điều khoản mơ hồ. Sau khi chuyển 15 triệu, Linh chỉ nhận được một email xác nhận từ địa chỉ \"support@resortparadise-vn.com\" (miền tên giả mạo). \n\nSau 2 tuần, khi Linh liên hệ để đặt suất nghỉ đầu tiên thì số điện thoại không còn kết nối được, email không trả lời, và ứng dụng \"ResortPay\" bị khóa tài khoản.",
+    "is_scam": true,
+    "expected_verdict": "red",
+    "scam_type": "vacation_contract",
+    "style": "third_person",
+    "key_facts": [
+      "Chiêu trò lừa đảo loại timeshare/vacation contract: hứa quyền sở hữu suất nghỉ dưỡng hàng năm tại các resort cao cấp",
+      "Tạo sức ép thời gian và tính hiếm hữu ('chỉ còn 3 suất cuối cùng', phải quyết định trong 24 giờ)",
+      "Yêu cầu nạn nhân chuyển khoản phí 'kích hoạt thành viên' lớn (15 triệu đồng) qua ứng dụng giả mạo",
+      "Hợp đồng và email xác nhận được giả mạo chuyên nghiệp; sau khi thanh toán, tất cả kênh liên lạc của kẻ lừa đảo bị cắt đứt"
+    ]
+  },
+  {
+    "id": "custom-sms_bank-01",
+    "text": "Chào bạn, tôi vừa nhận được tin nhắn từ ngân hàng: \"VietcomBank thông báo: Tài khoản xx1234 của bạn vừa bị trừ 15.000.000 VND lúc 14:30. Nếu không phải bạn, vui lòng liên hệ ngay 08 3344 0301 hoặc truy cập vietcom-bank.com.vn\". Có phải bị hack ko ạ? Tôi ko thực hiện giao dịch nào.",
+    "is_scam": false,
+    "expected_verdict": "red",
+    "scam_type": "",
+    "style": "verbatim_message",
+    "key_facts": [
+      "Website giả mạo \"vietcom-bank.com.vn\" không phải là \"vietcombank.com.vn\" chính thức",
+      "Hotline là số điện thoại cá nhân, không giống số tổng đài"
+    ]
+  },
+  {
+    "id": "benign-sms_bank_real-03",
+    "text": "Vietcombank thông báo: Giao dịch rút tiền tại ATM từ tài khoản 1234567890 ngày 09/07/2026 lúc 14:32 số tiền 5.000.000 VND. Số dư khả dụng: 2.150.000 VND. Nếu không phải bạn, vui lòng gọi hotline 1900 545413 ngay.",
+    "is_scam": false,
+    "expected_verdict": "green",
+    "scam_type": "",
+    "style": "verbatim_message",
+    "key_facts": [
+      "Thông báo giao dịch chính thức từ ngân hàng với chi tiết cụ thể (số tài khoản, thời gian, số tiền)",
+      "Bao gồm thông tin số dư tài khoản hiện tại",
+      "Cung cấp hotline liên hệ chính thức để xác minh",
+      "Tin nhắn hợp pháp nhưng có thể gây lo lắng nếu người dùng không thực hiện giao dịch đó"
+    ]
+  },
+  {
+    "id": "benign-sms_bank_real-04",
+    "text": "Hôm qua mình gọi điện cho chị em mình, chị ấy kể rằng vừa nhận được tin nhắn từ ngân hàng với nội dung: \"Xác nhận thay đổi số điện thoại liên kết tài khoản. Nếu không phải do bạn, vui lòng nhấn 1 để từ chối trong 5 phút.\" Chị mình hoảng sợ lắm, tưởng tài khoản bị hack. Nhưng hóa ra chị vừa đi đăng ký thẻ tín dụng và quên mất yêu cầu cập nhật số điện thoại mới. Ngân hàng chỉ gửi thông báo xác nhận tiêu chuẩn để bảo vệ tài khoản của chị mà thôi.",
+    "is_scam": false,
+    "expected_verdict": "green",
+    "scam_type": "",
+    "style": "third_person",
+    "key_facts": [
+      "Tin nhắn OTP xác thực từ ngân hàng là hợp pháp và vô hại",
+      "Thông báo yêu cầu xác nhận biến đổi tài khoản để bảo vệ an ninh",
+      "Người dùng có thể quên mình vừa thực hiện hành động liên quan khiến lo lắng",
+      "Ngân hàng luôn cung cấp lựa chọn từ chối trong thời gian ngắn để người dùng kiểm soát"
+    ]
+  },
+  {
+    "id": "benign-sms_bank_real-05",
+    "text": "Vừa nhận được tin nhắn từ ngân hàng: \"AGRIBANK thông báo: Tài khoản của quý khách vừa bị rút tiền 5.000.000 VND lúc 14:35 tại cây ATM Tây Sơn, Hà Nội. Mã giao dịch: AG2024115789. Nếu không phải bạn, vui lòng liên hệ 1900558818 ngay\". Sao mình không nhớ rút tiền lúc đó? Có phải tài khoản bị hack không?",
+    "is_scam": false,
+    "expected_verdict": "yellow",
+    "scam_type": "",
+    "style": "short_question",
+    "key_facts": [
+      "Đây là thông báo giao dịch thật từ ngân hàng, không phải lừa đảo (có mã giao dịch chính thức)",
+      "Người dùng có thể quên hoặc nhầm lẫn về giao dịch của chính họ",
+      "Tin nhắn hợp pháp nhưng gây lo lắng vì liên quan đến rút tiền đột ngột",
+      "Cách xử lý đúng là kiểm tra lịch sử giao dịch hoặc liên hệ ngân hàng qua số chính thức"
+    ]
+  },
+  {
+    "id": "benign-sms_bank_real-06",
+    "text": "Chào bạn, tôi là hệ thống thông báo tự động của Ngân hàng Vietcombank. Vào lúc 14:35 hôm nay, tài khoản của bạn có giao dịch thanh toán qua cổng POS tại cửa hàng Điện máy Xanh, số tiền 2.500.000 VND. Số dư tài khoản hiện tại là 5.432.100 VND. Nếu bạn không thực hiện giao dịch này, vui lòng liên hệ ngay với chúng tôi theo số hotline 1900 545413. Mã xác thực: không cần phân loại.",
+    "is_scam": false,
+    "expected_verdict": "green",
+    "scam_type": "",
+    "style": "long_narration",
+    "key_facts": [
+      "Thông báo giao dịch từ ngân hàng chính hãng với chi tiết về số tiền và thời gian cụ thể",
+      "Cung cấp thông tin số dư tài khoản và hướng dẫn liên hệ hotline chính thức nếu có vấn đề",
+      "Tin nhắn có dạng thức chính thức của ngân hàng, không yêu cầu bạn cung cấp thông tin cá nhân hay nhấp vào link",
+      "Người nhận có thể e ngại hoặc hoang mang khi thấy giao dịch số tiền lớn bị trừ đột ngột, nhưng đây là thông báo hợp pháp"
+    ]
+  },
+  {
+    "id": "benign-sms_bank_real-07",
+    "text": "Kính gửi khách hàng, Chúng tôi phát hiện hoạt động bất thường trên tài khoản của bạn. Vào lúc 14:32, ngày 09/07/2026, có một giao dịch chuyển tiền 5.000.000 VNĐ đến số tài khoản 0123456789 tại Ngân hàng TPBank. Nếu không phải bạn thực hiện giao dịch này, vui lòng liên hệ ngay với chúng tôi qua hotline 1900 545413 hoặc truy cập https://www.vietcombank.com.vn để khóa tài khoản. Mã xác thực: 847392. Không chia sẻ mã này với bất kỳ ai. - Vietcombank",
+    "is_scam": false,
+    "expected_verdict": "green",
+    "scam_type": "",
+    "style": "verbatim_message",
+    "key_facts": [
+      "Tin nhắn thông báo giao dịch hợp pháp từ ngân hàng",
+      "Thông báo hoạt động bất thường để cảnh báo khách hàng",
+      "Mã xác thực OTP được cung cấp để xác minh danh tính",
+      "Hướng dẫn liên hệ hotline chính thức của ngân hàng"
+    ]
+  },
+  {
+    "id": "benign-sms_bank_real-08",
+    "text": "Hôm qua em trai mình vừa nhận được tin nhắn từ số 1234 (mà nó không biết từ đâu) nội dung: \"Ngân hàng BIDV thông báo: Tài khoản của bạn vừa có giao dịch rút tiền 5.000.000 VNĐ lúc 14:35 tại ATM Nguyễn Huệ, TP HCM. Nếu không phải bạn, vui lòng liên hệ 1900 9247 ngay. Mã TXN: BV230915001\". Em trai mình hoảng hốt tưởng tài khoản bị kẻ gác chủ, nhưng sau đó gọi ngân hàng mới biết đó là giao dịch anh ấy rút tiền từ ATM sáng hôm đó, chỉ là ngân hàng gửi thông báo trễ vài giờ do quá tải hệ thống. Vậy nên tin nhắn này hoàn toàn hợp pháp, chỉ là khiến người nhận cảm thấy lo lắng lúc đầu mà thôi.",
+    "is_scam": false,
+    "expected_verdict": "green",
+    "scam_type": "",
+    "style": "third_person",
+    "key_facts": [
+      "Tin nhắn là thông báo giao dịch thật từ ngân hàng BIDV, không phải lừa đảo",
+      "Người nhận cảm thấy e ngại vì giao dịch này không phải do anh ấy thực hiện gần đây",
+      "Sau kiểm chứng, giao dịch rút tiền 5 triệu đồng là hợp lệ, chỉ là thông báo bị trễ",
+      "Tin nhắn chứa các yếu tố thực: số điện thoại ngân hàng, số tiền, địa điểm, mã TXN để người nhận có thể xác minh"
+    ]
+  },
+  {
+    "id": "benign-sms_bank_real-09",
+    "text": "Tôi vừa nhận được tin nhắn từ ngân hàng: \"Cảnh báo: Giao dịch rút tiền 5.000.000 VND từ ATM tại Chi nhánh Hà Nội lúc 14:35. Nếu không phải bạn, vui lòng liên hệ 19008888 ngay lập tức. Mã giao dịch: TX2024001756\". Có sao không ạ? Sao ngân hàng gửi cho tôi?",
+    "is_scam": false,
+    "expected_verdict": "green",
+    "scam_type": "",
+    "style": "short_question",
+    "key_facts": [
+      "Đây là thông báo giao dịch hợp pháp từ ngân hàng được gửi để xác nhận hoạt động tài khoản",
+      "Ngân hàng thường gửi cảnh báo giao dịch để bảo vệ tài khoản khách hàng",
+      "Người nhận không cần cung cấp OTP hay thông tin nhạy cảm nếu đây là thông báo đầy đủ từ ngân hàng",
+      "Nếu không nhận ra giao dịch, khách hàng nên gọi trực tiếp số điện thoại chính thức trên thẻ chứ không gọi số trong tin nhắn"
+    ]
+  },
+  {
+    "id": "benign-delivery_real-02",
+    "text": "Tôi vừa nhận được tin nhắn từ bạn Linh, cô ấy kể rằng sáng nay nhận được SMS từ số +84938xxxx thông báo: \"Bưu kiện của bạn đã đến kho phân loại. Mã theo dõi: VN2024001529. Nhấn vào đây để xác nhận: [link]\". Linh hơi lo vì không nhớ đã đặt hàng gì gần đây, nhưng kiểm tra lại thì phát hiện ra cô ấy từng order một cái áo từ trang Shopee khoảng 5 ngày trước. Linh click vào link để kiểm tra, nó dẫn tới trang Track.ghn.vn (trang theo dõi chính thức của GHN) và hiển thị đúng thông tin đơn hàng của cô ấy, kèm theo lịch sử giao hàng chi tiết. Tất cả mọi thứ đều hợp pháp, chỉ là công ty vận chuyển gửi thông báo để nhắc khách hàng rằng bưu kiện sắp được giao.",
+    "is_scam": false,
+    "expected_verdict": "green",
+    "scam_type": "",
+    "style": "third_person",
+    "key_facts": [
+      "Thông báo theo dõi bưu kiện từ đơn vị vận chuyển chính thức (GHN)",
+      "Linh đã thực sự đặt hàng trước đó nên việc nhận được thông báo là bình thường",
+      "Link trong tin nhắn dẫn tới trang theo dõi chính thức, không yêu cầu thanh toán thêm hay cung cấp thông tin cá nhân",
+      "Mặc dù sơ suất lúc đầu, tình huống này hoàn toàn an toàn và hợp pháp"
+    ]
+  },
+  {
+    "id": "benign-delivery_real-03",
+    "text": "Chị ơi, mới nhận thông báo từ ViettelPost về gói hàng đang gửi đến địa chỉ nhà em, nhưng em không nhớ là đã đặt đơn hàng gì. Có phải là thứ gì đó bất thường không ạ?",
+    "is_scam": false,
+    "expected_verdict": "green",
+    "scam_type": "",
+    "style": "short_question",
+    "key_facts": [
+      "Đơn vị vận chuyển chính thức (ViettelPost) gửi thông báo về gói hàng hợp pháp",
+      "Người nhận không nhớ đã đặt hàng nhưng có thể do quên hoặc do người khác tặng",
+      "Không có yêu cầu thanh toán phí bất thường hay click liên kết lạ",
+      "Tình huống hợp pháp hoàn toàn, không phải lừa đảo"
+    ]
+  },
+  {
+    "id": "benign-delivery_real-04",
+    "text": "Xin chào, đây là thông báo từ Công ty Vận chuyển Giao nhanh 247. Bưu kiện của bạn (mã tham chiếu: GN20240315001) hiện đang ở bến chuyển Hà Nội và sẽ được giao đến địa chỉ 45 Đường Láng, Quận Đống Đa vào ngày 10/07/2026 dự kiến giữa 9:00 - 17:00. Địa chỉ bưu kiện được ghi nhận từ cửa hàng Điện máy Xanh chi nhánh Phố Huế. Nếu bạn cần thay đổi thời gian giao hàng hoặc có thắc mắc, vui lòng liên hệ hotline: 1800-7777 (miễn phí). Cảm ơn bạn đã tin tưởng dịch vụ của chúng tôi.",
+    "is_scam": false,
+    "expected_verdict": "green",
+    "scam_type": "",
+    "style": "long_narration",
+    "key_facts": [
+      "Thông báo giao hàng từ đơn vị vận chuyển uy tín với mã tham chiếu cụ thể",
+      "Cung cấp thông tin chi tiết: địa chỉ, thời gian dự kiến, bến chuyển",
+      "Không yêu cầu thanh toán, đóng phí hay cung cấp thông tin cá nhân",
+      "Có đường dây hỗ trợ khách hàng miễn phí để xác minh hoặc thay đổi"
+    ]
+  },
+  {
+    "id": "benign-delivery_real-05",
+    "text": "Bưu kiện của bạn từ JD.com đã được giao cho Bảo vệ tòa nhà lúc 14:30. Vui lòng xuống tòa nhà A, lầu 1 để nhận hàng trong vòng 3 ngày. Mã theo dõi: VN123456789. Liên hệ: 1900 0000",
+    "is_scam": false,
+    "expected_verdict": "green",
+    "scam_type": "",
+    "style": "verbatim_message",
+    "key_facts": [
+      "Thông báo từ đơn vị vận chuyển hợp pháp về bưu kiện đã giao",
+      "Cung cấp địa điểm cụ thể (Bảo vệ tòa nhà lầu 1) để người nhận xác minh",
+      "Có mã theo dõi và số điện thoại liên hệ chính thức",
+      "Không yêu cầu thanh toán phí bất thường hay cung cấp thông tin cá nhân nhạy cảm"
+    ]
+  },
+  {
+    "id": "benign-delivery_real-06",
+    "text": "Hôm qua Linh nhận được tin nhắn từ số 0868xxxxxx nội dung: \"Bạn có 1 kiện hàng từ GHTK sắp đến địa chỉ 123 Nguyễn Huệ, Q1, TP.HCM. Thời gian dự kiến giao: 14h-16h hôm nay. Bấm link https://i.ghtk.vn/ABC12345 để theo dõi chi tiết\". Linh hơi lo vì không nhớ đã đặt hàng gì gần đây, nhưng kiểm tra lại thì phát hiện ra đó là đơn hàng đã order từ trang Tiki 5 ngày trước, lúc đó ghi nhận mã vận đơn thuộc GHTK. Tin nhắn hoàn toàn hợp pháp, chỉ là thông báo tiêu chuẩn của đơn vị vận chuyển để chuẩn bị nhận hàng.",
+    "is_scam": false,
+    "expected_verdict": "green",
+    "scam_type": "",
+    "style": "third_person",
+    "key_facts": [
+      "Thông báo giao hàng từ đơn vị vận chuyển hợp pháp (GHTK)",
+      "Cung cấp link theo dõi chính thức, không yêu cầu cập nhật thông tin hay đóng phí",
+      "Người nhận có thể không nhớ đơn hàng nhưng có thể xác minh bằng cách kiểm tra lịch sử mua hàng",
+      "Tình huống vô hại, chỉ là thông báo thông thường từ hãng vận chuyển"
+    ]
+  },
+  {
+    "id": "benign-delivery_real-07",
+    "text": "Chào bạn, đây là thông báo từ công ty vận chuyển ABC Express. Bưu kiện của bạn sẽ được giao hôm nay từ 14h-18h. Tài xế sẽ liên hệ số điện thoại đã đăng ký. Vui lòng giữ điện thoại bật. Chi tiết đơn hàng: Mã vận đơn VD123456789. Cảm ơn!",
+    "is_scam": false,
+    "expected_verdict": "green",
+    "scam_type": "",
+    "style": "short_question",
+    "key_facts": [
+      "Đây là thông báo giao hàng hợp pháp từ đơn vị vận chuyển chính thức",
+      "Không yêu cầu thanh toán phí hay cung cấp thông tin nhạy cảm",
+      "Chứa thông tin hợp lý: mã vận đơn, khung giờ giao hàng, liên hệ điểm tiếp xúc",
+      "Mục đích chỉ để thông báo và yêu cầu khách hàng sẵn sàng nhận hàng"
+    ]
+  },
+  {
+    "id": "benign-delivery_real-08",
+    "text": "Chào bạn, đây là thông báo từ Công ty Vận chuyển Bưu Điện Tốc Độ Cao. Bưu kiện của bạn đã đến tại bộ phận phân loại địa phương nhưng hiện tại chúng tôi không thể giao hàng đến tay bạn vì cần xác minh một số thông tin cá nhân trên hóa đơn. Vui lòng để lại số điện thoại liên hệ và địa chỉ cập nhật nếu có thay đổi. Bưu kiện sẽ được giao trong vòng 24 giờ tới. Cảm ơn sự hợp tác của bạn.",
+    "is_scam": false,
+    "expected_verdict": "green",
+    "scam_type": "",
+    "style": "long_narration",
+    "key_facts": [
+      "Đây là thông báo giao hàng thực từ đơn vị vận chuyển chính thức",
+      "Không yêu cầu thanh toán, phí hoặc thông tin tài chính từ khách hàng",
+      "Chỉ xác minh thông tin cơ bản để hoàn tất giao hàng",
+      "Có thể gây e ngại nhưng hoàn toàn hợp pháp và an toàn"
+    ]
+  },
+  {
+    "id": "benign-delivery_real-09",
+    "text": "Xin chào, đơn hàng của bạn #VNP2024001567 đã tới kho phân loại tại TP.HCM. Bưu kiện sẽ được giao trong 1-2 ngày tới. Vui lòng chuẩn bị địa chỉ giao hàng chính xác. Nếu cần thay đổi, vui lòng truy cập vietnampost.vn hoặc gọi 1900 545481 để cập nhật thông tin. Cảm ơn!",
+    "is_scam": false,
+    "expected_verdict": "green",
+    "scam_type": "",
+    "style": "verbatim_message",
+    "key_facts": [
+      "Tin nhắn từ đơn vị vận chuyển chính thức thông báo trạng thái bưu kiện",
+      "Không yêu cầu thanh toán phí bất thường hoặc click link đáng ngờ",
+      "Chứa mã vận đơn cụ thể và thông tin giao hàng hợp lý",
+      "Cung cấp cách liên hệ hợp pháp để cập nhật thông tin giao hàng"
+    ]
+  },
+  {
+    "id": "benign-delivery_real-10",
+    "text": "Tối qua bạn tớ nhận được tin nhắn từ Viettel Post: \"Bạn có 1 kiện hàng đang chuyển đến địa chỉ 123 Nguyễn Huệ, Quận 1, HCM. Thời gian giao dự kiến ngày 15/1. Để lại địa chỉ thay thế hoặc chọn thời gian giao khác, vui lòng truy cập: [link]\". Bạn tớ hơi lo vì không nhớ mình đặt hàng gì, nhưng sau khi kiểm tra email cũ, bạn tớ phát hiện ra đó là đơn hàng quần áo mà bạn ấy đặt từ Tiki 10 ngày trước. Hoá ra chỉ là thông báo giao hàng bình thường mà thôi, không có gì lạ cả.",
+    "is_scam": false,
+    "expected_verdict": "green",
+    "scam_type": "",
+    "style": "third_person",
+    "key_facts": [
+      "Đây là thông báo giao hàng thực tế từ đơn vị vận chuyển uy tín (Viettel Post)",
+      "Không có yêu cầu thanh toán phí, đóng tiền bất thường hoặc cung cấp thông tin cá nhân nhạy cảm",
+      "Người nhận ban đầu e ngại vì không nhớ đơn hàng, nhưng sau khi kiểm tra lại thì xác nhận đó là hàng hợp pháp mình đã mua",
+      "Đây là tin nhắn hoàn toàn hợp pháp mục đích kiểm tra báo động giả của hệ thống phát hiện lừa đảo"
+    ]
+  },
+  {
+    "id": "benign-promo_real-01",
+    "text": "Chị ơi, mình vừa nhận được tin từ Shopee nói tài khoản có hoạt động bất thường, phải xác minh danh tính bằng link này \"Tai khoan cua ban co dau hieu dang nhap bat thuong. Nhan vao lien ket de xac thuc: shopee.vn/dlink/verify/link?q=QbmnkejM&event_type=1\". Cái này có phải lừa đảo không ạ?",
+    "is_scam": false,
+    "expected_verdict": "green",
+    "scam_type": "",
+    "style": "short_question",
+    "key_facts": [
+      "Tin nhắn khuyến mãi/xác minh từ sàn TMĐT hợp pháp (Shopee) là phổ biến và hợp lệ",
+      "Link xác minh trong tin tin chính thức từ Shopee có thể gây nghi ngờ nhưng là thực hành bình thường",
+      "Người dùng có quyền cảnh báo cần kiểm tra URL cẩn thận để tránh phishing giả mạo",
+      "Đây là tình huống hợp pháp mà hệ thống không nên báo động lừa đảo"
+    ]
+  },
+  {
+    "id": "benign-promo_real-04",
+    "text": "Hôm qua bạn mình (tên là Minh) vừa nhận được tin nhắn từ VNPT: \"Kính gửi khách hàng Minh, bạn vừa tiêu thụ 2GB dữ liệu, vượt quá gói cước của mình. Để tránh phí phát sinh, hãy nâng cấp gói ngay tại đây: https://my.vnpt.com.vn/adv/dungluong. Hoặc gọi 1800 1091 để được tư vấn. Hiệu lực 24h. VNPT.\"\n\nBạn mình Minh rất lo lắng vì sợ có ai đó đã hack tài khoản của cô ấy hoặc mạo danh nhà mạng. Cô ấy gọi ngay cho tổng đài để kiểm tra tình hình, kết quả là tin nhắn đó hoàn toàn hợp pháp - chính nhân viên tổng đài xác nhận Minh thực sự vừa sử dụng gần hết dữ liệu trong tháng này. Đây là tin nhắn khuyến mãi thực sự từ VNPT để giúp khách hàng cập nhật gói cước phù hợp với nhu cầu sử dụng thực tế.",
+    "is_scam": false,
+    "expected_verdict": "green",
+    "scam_type": "",
+    "style": "third_person",
+    "key_facts": [
+      "Tin nhắn khuyến mãi từ nhà mạng Viettel nâng cấp gói dữ liệu - hoàn toàn hợp pháp",
+      "Người nhận (Minh) ban đầu e ngại vì sợ bị hack tài khoản hoặc mạo danh",
+      "Sau khi xác minh với tổng đài, phát hiện tin nhắn đúng và khuyến mãi thực tế từ nhà cung cấp",
+      "Đây là tình huống báo động giả - hệ thống phát hiện lừa đảo không nên cảnh báo"
+    ]
+  },
+  {
+    "id": "benign-promo_real-07",
+    "text": "🎉 KHUYẾN MÃI KHỦNG TỪ SHOPEE! 🎉\n\nChúc mừng bạn được chọn tham gia chương trình VIP Flash Sale độc quyền! \n\n👉 Nhấp vào link ngay để nhận voucher 500K: https://shopee.vn/flash-sale/vip-exclusive-2026\n\n⚡ Ưu đãi chỉ dành cho 100 khách hàng đầu tiên\n⚡ Mã VIPFLASH24 - Giảm thêm 20% cho tất cả sản phẩm\n⚡ Miễn phí vận chuyển toàn quốc\n\n⏰ Thời gian: 01/08 - 31/08/2026\n\nLưu ý: Để nhận đủ ưu đãi, vui lòng cập nhật thông tin tài khoản tại: https://shopee.vn/user/profile\n\nShopee - Mua sắm an tâm, giao hàng nhanh!\nHotline CSKH: 1900 6969",
+    "is_scam": false,
+    "expected_verdict": "green",
+    "scam_type": "",
+    "style": "verbatim_message",
+    "key_facts": [
+      "Tin nhắn khuyến mãi từ Shopee - sàn thương mại điện tử hợp pháp",
+      "Yêu cầu cập nhật thông tin tài khoản có thể gây lo ngại nhưng là hành động bình thường",
+      "Chứa đường link và mã ưu đãi cụ thể, trông chuyên nghiệp và đáng tin cậy",
+      "Thời hạn áp dụng rõ ràng và hotline chính thức của công ty"
+    ]
+  },
+  {
+    "id": "benign-work_real-04",
+    "text": "Anh/Chị vui lòng tham dự cuộc họp khẩn cấp vào hôm nay lúc 3 giờ chiều tại phòng 402, tầng 4. Cuộc họp này liên quan đến việc rà soát lại quy trình quản lý tài chính của phòng ban trong quý này. Tôi cần bạn mang theo các báo cáo chi tiêu từ tháng 1 đến tháng 3, cũng như danh sách chi tiết các dự án đang triển khai. Nếu bạn không thể tham dự, vui lòng thông báo ngay cho tôi hoặc phó phòng Minh. Đây là cuộc họp bắt buộc để đảm bảo tuân thủ yêu cầu kiểm toán nội bộ của công ty.",
+    "is_scam": false,
+    "expected_verdict": "green",
+    "scam_type": "",
+    "style": "long_narration",
+    "key_facts": [
+      "Đây là cuộc họp nội bộ hợp pháp từ sếp trực tiếp",
+      "Yêu cầu mang tài liệu công việc là bình thường trong môi trường công sở",
+      "Nội dung liên quan đến kiểm toán nội bộ hợp pháp của công ty",
+      "Có các chi tiết cụ thể như thời gian, địa điểm, người liên hệ thay thế"
+    ]
+  },
+  {
+    "id": "benign-work_real-05",
+    "text": "Anh/chị vui lòng cập nhật lại tài liệu dự án trong hệ thống trước 17h hôm nay. Do kiểm toán nội bộ vào tuần tới, chúng tôi cần kiểm tra toàn bộ thông tin tài chính và hợp đồng. Các file cần được upload vào folder \"Audit_Q2_2026\" với định dạng PDF. Vui lòng xác nhận khi hoàn thành. Cảm ơn.",
+    "is_scam": false,
+    "expected_verdict": "green",
+    "scam_type": "",
+    "style": "verbatim_message",
+    "key_facts": [
+      "Yêu cầu cập nhật tài liệu công việc hợp lệ từ quản lý hoặc bộ phận kiểm toán nội bộ",
+      "Có mục đích kinh doanh chính danh (kiểm toán định kỳ)",
+      "Nêu rõ thời hạn, địa điểm upload và định dạng file cụ thể",
+      "Không yêu cầu thông tin nhạy cảm cá nhân hoặc thanh toán tiền"
+    ]
+  },
+  {
+    "id": "benign-work_real-06",
+    "text": "Anh Minh vừa nhận được tin nhắn từ đồng nghiệp hôm nay: \"Em Minh, sếp vừa gọi điện bảo họp khẩn cấp vào lúc 3 giờ chiều hôm nay trong phòng họp tầng 10. Sếp nhắc nhớ chuẩn bị tài liệu báo cáo quý II và danh sách các dự án chưa hoàn thành. Em nhớ báo lại xác nhận tham dự nhé, vì sếp cần biết số người sẽ tham gia để sắp xếp chỗ ngồi. Chúc em tìm hiểu kỹ tài liệu trước giờ họp.\"\n\nAnh Minh ban đầu cảm thấy lo lắng vì nhận được thông báo họp khẩn cấp đột ngột, sợ mình có gì đó làm sai. Tuy nhiên, sau khi đọc kỹ, anh nhận ra đây chỉ là thông báo công việc bình thường từ đồng sự về một cuộc họp nội bộ hợp pháp của công ty để kiểm điểm tiến độ công việc.",
+    "is_scam": false,
+    "expected_verdict": "green",
+    "scam_type": "",
+    "style": "third_person",
+    "key_facts": [
+      "Thông báo họp khẩn cấp từ đồng nghiệp là hợp pháp, không phải lừa đảo",
+      "Yêu cầu chuẩn bị tài liệu và xác nhận tham dự là công việc nội bộ bình thường",
+      "Người nhận ban đầu e ngại nhưng không có dấu hiệu lừa đảo: không yêu cầu tiền, mật khẩu hay thông tin nhạy cảm",
+      "Hệ thống cần tránh báo động giả khi phát hiện từ khóa 'khẩn cấp' hoặc 'sếp' trong tin nhắn hợp pháp"
+    ]
+  },
+  {
+    "id": "benign-work_real-07",
+    "text": "Chị ơi, em vừa nhận được tin nhắn từ bộ phận Tài chính nói là em bị phạt vì chưa nộp hóa đơn tháng này, có phải thật không? Sao em không biết mà bây giờ mới báo?",
+    "is_scam": false,
+    "expected_verdict": "green",
+    "scam_type": "",
+    "style": "short_question",
+    "key_facts": [
+      "Đây là thông báo nội bộ hợp pháp từ bộ phận Tài chính",
+      "Nội dung liên quan đến tài chính nơi làm việc, không phải lừa đảo",
+      "Tin nhắn có thể gây lo lắng nhưng vô hại vì là quy trình làm việc bình thường",
+      "Người gửi có quyền yêu cầu nộp hóa đơn theo quy định công ty"
+    ]
+  },
+  {
+    "id": "benign-work_real-10",
+    "text": "Hôm qua, Minh (đồng nghiệp tại công ty) nhận được tin nhắn từ phòng Nhân sự: \"Minh ơi, sếp muốn gặp bạn ngày mai lúc 10 giờ sáng để thảo luận về kế hoạch dự án Q4. Vui lòng xác nhận tham dự hoặc liên hệ lại nếu có xung đột thời gian. Thanks!\" - Lúc đầu Minh có chút lo lắng vì không biết là gặp để nhận xét hay gì, nhưng rồi anh ấy nhận ra đây là buổi họp thường xuyên để review tiến độ công việc. Minh xác nhận tham dự và buổi họp diễn ra bình thường, không có vấn đề gì cả.",
+    "is_scam": false,
+    "expected_verdict": "green",
+    "scam_type": "",
+    "style": "third_person",
+    "key_facts": [
+      "Tin nhắn từ phòng Nhân sự là lời mời họp chính thức và hợp pháp",
+      "Người nhận (Minh) ban đầu e ngại vì không hiểu rõ nội dung cuộc họp",
+      "Buổi họp là công việc nội bộ thường xuyên để review tiến độ dự án",
+      "Không có bất kỳ yếu tố lừa đảo hay nguy hiểm nào trong tin nhắn này"
+    ]
+  }
+]

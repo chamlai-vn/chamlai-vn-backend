@@ -1,0 +1,50 @@
+{
+  "case_id": "scam-investment_fraud-04",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Hứa hẹn lợi nhuận bất khả thi 150–200%/tháng",
+      "Ngưỡng đầu tư thấp để dễ lôi kéo (500.000đ)",
+      "Tạo uy tín giả bằng con số '127 người thành công'",
+      "Dùng bonus 200k để tạo áp lực tham gia ngay",
+      "Có 'mentor hướng dẫn 1:1' để tạo lòng tin",
+      "Hoạt động trên hệ thống sàn giả mạo, không kết nối sàn ngoại hối thật",
+      "Sàn Forex không được Ngân hàng Nhà nước Việt Nam cấp phép — hoạt động trái pháp luật",
+      "Link tham gia có dấu hiệu phishing (fxprofit-global.vn/join?...)"
+    ],
+    "matched_patterns": [
+      "Lừa đảo đầu tư Forex",
+      "Sàn giao dịch ngoại hối giả mạo",
+      "Chiêu thức cho thắng ảo để kích thích nạp tiền",
+      "Lừa đảo qua mạng xã hội/nhắn tin cá nhân"
+    ],
+    "recommended_actions": [
+      "Không chuyển bất kỳ khoản tiền nào, dù chỉ 500.000đ 'thử'",
+      "Không nhấp vào link trong tin nhắn vì có thể là phishing",
+      "Không cung cấp thông tin cá nhân (CMND, số tài khoản, OTP)",
+      "Chặn và xóa liên lạc với số điện thoại/tài khoản mạng xã hội liên quan",
+      "Báo cáo đến Công an địa phương hoặc gọi đường dây 113",
+      "Cảnh báo người thân và chia sẻ thông tin để tránh bị lừa"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 ĐÂY LÀ LỪA ĐẢO 100% — Hãy cảnh giác ngay!\n\nTin nhắn bạn nhận được từ \"Linh\" của \"FxProfit Global\" mang **tất cả các dấu hiệu đặc trưng của lừa đảo đầu tư Forex** tại Việt Nam. Dưới đây là phân tích chi tiết:\n\n---\n\n## 🔴 Tại sao đây là lừa đảo?\n\n### 1. Lợi nhuận hứa hẹn là BẤT KHẢ THI\nCam kết lợi nhuận **150–200%/tháng** là hoàn toàn không có thực trong bất kỳ thị trường tài chính hợp pháp nào. Những đối tượng lừa đảo đã lợi dụng tâm lý muốn làm giàu nhanh để câu nhử nạn nhân với lãi suất lên đến hàng trăm, thậm chí hàng nghìn phần trăm.\n\n### 2. Hoạt động này trái pháp luật tại Việt Nam\nNgân hàng Nhà nước Việt Nam chưa cấp phép cho bất kỳ tổ chức, cá nhân nào kinh doanh hình thức sàn ngoại hối (Forex). Do đó, mọi hình thức tổ chức kinh doanh, giao dịch sàn Forex đều là phạm pháp và sẽ được xử lý theo quy định của pháp luật.\n\n### 3. Đây là thủ đoạn lừa đảo kinh điển\nNhững kẻ lừa đảo rất tích cực làm truyền thông, xây dựng hình ảnh. Nội dung thường nhấn mạnh vào khả năng thu lợi nhuận với con số \"khủng\". Cụ thể, tin nhắn trên có những yếu tố cực kỳ điển hình:\n\n- ✅ Hứa lợi nhuận khổng lồ (150–200%/tháng)\n- ✅ Ngưỡng đầu tư thấp để dễ \"móc câu\" (500.000đ)\n- ✅ Tạo uy tín bằng con số \"127 người thành công\"\n- ✅ Dùng **bonus 200k** để tạo áp lực tham gia ngay hôm nay\n- ✅ Có \"mentor hướng dẫn 1:1\" — đây là chiêu tạo lòng tin\n\n### 4. Kịch bản bẫy đã được vạch trần\nSau khi lôi kéo thành công, các đối tượng sẽ sắp xếp cho nhà đầu tư đánh thắng để khiến họ nạp thêm nhiều tiền vào tài khoản. Từ đây, những kẻ lừa đảo sẽ tư vấn khách hàng đánh lệnh lớn, thu mức phí lớn và không rõ ràng dẫn đến mất hết tiền trong tài khoản.\n\n### 5. Hệ thống sàn giả mạo\n\"Tất cả các hoạt động của người dùng đều chỉ diễn ra trên hệ thống giả mạo, không có kết nối gì với các sàn giao dịch ngoại hối thật. Các đối tượng lừa đảo có thể dễ dàng tăng giảm giá trị để tạo ra lãi giả cho tài khoản của người dùng. Từ đó kích thích lòng tham và lừa nạn nhân nạp thêm tiền.\"\n\n### 6. Hậu quả pháp lý với cả hai phía\nKhung hình phạt cao nhất của tội lừa đảo qua sàn Forex có thể lên đến 20 năm tù. Và ngay cả người tham gia cũng có thể bị liên lụy pháp lý: Khi tham gia chơi Forex trái phép tại Việt Nam, người chơi không những phải đối mặt với nguy cơ thua lỗ mà còn có thể bị xử phạt hành chính do vi phạm pháp luật.\n\n---\n\n## ✅ Bạn cần làm gì ngay bây giờ?\n\n| Hành động | Chi tiết |\n|-----------|----------|\n| 🚫 **Không chuyển bất kỳ đồng tiền nào** | Dù chỉ 500.000đ \"thử\" |\n| 🚫 **Không nhấp vào link** | `fxprofit-global.vn/join?...` có thể là phishing |\n| 🚫 **Không cung cấp thông tin cá nhân** | CMND, số tài khoản, OTP |\n| 🔇 **Chặn và xóa liên lạc** | Chặn số điện thoại/tài khoản mạng xã hội |\n| 📢 **Báo cáo** | Tố cáo đến **Công an địa phương** hoặc đường dây **113** |\n| ⚠️ **Cảnh báo người thân** | Chia sẻ thông tin này để người xung quanh không bị lừa |\n\n---\n\n\u003e 💡 **Nguyên tắc vàng**: Không có kênh đầu tư hợp pháp nào đảm bảo lợi nhuận 150–200%/tháng. Người dùng cần trang bị cho mình những kiến thức cơ bản về tài chính để hiểu không có một dạng đầu tư nào có thể sinh lợi nhuận nhanh và cao như vậy.\n\nBạn đã làm đúng khi nghi ngờ và hỏi trước khi hành động! 👍",
+  "sources": [
+    "https://thuvienphapluat.vn/banan/tin-tuc/san-forex-lua-dao-chiem-doat-tai-san-khach-hang-nhu-the-nao-10026",
+    "https://congan.dongthap.gov.vn/en/chi-tiet-bai-viet/-/asset_publisher/wbj7qfWZntAi/content/id/7147949",
+    "https://vov.vn/phap-luat/chuyen-gia-lat-tay-manh-khoe-lua-dao-san-giao-dich-ngoai-hoi-chung-khoan-post1142913.vov",
+    "https://thuonghieucongluan.com.vn/lat-tay-chieu-tro-lua-dao-dau-tu-san-ngoai-hoi-forex-dung-mang-tien-cho-ke-lua-dao-a168139.html",
+    "https://vneconomy.vn/lat-tay-thu-doan-lua-dao-cua-cac-san-forex.htm",
+    "https://thebrokers.com/news/fxpro-lua-dao",
+    "https://tuoitre.vn/lai-mat-tien-ti-voi-forex-20231115081546707.htm",
+    "https://vov.gov.vn/dau-tu-tren-san-giao-dich-forex-la-mang-tien-cho-ke-lua-dao-dtnew-374740",
+    "https://vtv.vn/phap-luat/triet-pha-duong-day-lua-dao-forex-xuyen-bien-gioi-chiem-doat-hon-1800-ty-dong-20230728110054739.htm",
+    "https://congan.caobang.gov.vn/thong-tin-phap-luat-ban-tin-113/cong-an-canh-bao-choi-forex-vua-rui-ro-vua-vi-pham-phap-luat-835698",
+    "https://tuoitre.vn/lua-qua-san-forex-ke-hoai-khong-het-20230305081312184.htm",
+    "https://baophapluat.vn/canh-giac-thu-doan-lua-dao-tu-cac-san-chung-khoan-san-forex-ma-tren-mang-post516415.html",
+    "https://www.tinnhanhchungkhoan.vn/ma-tran-nganh-cong-nghiep-lua-dao-tren-mang-bai-3-bay-forex-cho-hon-3-ty-dong-de-lua-25-ty-dong-post340093.html",
+    "https://congan.dongthap.gov.vn/en/chi-tiet-bai-viet/-/asset_publisher/wbj7qfWZntAi/content/id/19473257"
+  ],
+  "latency_ms": 52053
+}

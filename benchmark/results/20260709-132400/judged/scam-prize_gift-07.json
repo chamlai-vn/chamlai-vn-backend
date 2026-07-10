@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-prize_gift-07",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận đúng (red), phủ đủ 4 ý chính: giả danh VinFast qua Zalo, link rút gọn bit.ly, xin CMND/tài khoản, tâm lý trúng thưởng",
+      "Pattern khớp đúng loại prize_gift",
+      "Khuyến nghị xác minh qua hotline chính thức (không dùng số trong tin nhắn), báo xấu tài khoản Zalo",
+      "Đầy đủ"
+    ],
+    "weaknesses": [
+      "Không nêu các website chính thức của VinFast để đối chiếu",
+      "Không ghi nhận mẹ người dùng đã xử lý đúng khi gọi hotline xác minh",
+      "Không nêu kênh trình báo cụ thể"
+    ],
+    "reasoning": "Chính xác, pattern khớp đúng loại và khuyến nghị hợp lý. Thiếu mốc đối chiếu website và yếu tố động viên.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Trích cảnh báo chính thức của VinFast (25/10/2025) và liệt kê 3 website chính thức để đối chiếu",
+      "Bảng dấu hiệu, trích cảnh báo Công an về chiêu trúng thưởng trên Zalo",
+      "Hướng dẫn báo xấu Zalo, cảnh báo hậu quả chiếm tài khoản MXH mạo danh vay tiền",
+      "Ghi nhận cách xử lý đúng của gia đình"
+    ],
+    "weaknesses": [
+      "Dài, định dạng nặng",
+      "Một vài đoạn trích lặp ý"
+    ],
+    "reasoning": "Vượt trội nhờ trích cảnh báo chính thức của VinFast và các website đối chiếu — giá trị tra cứu web rõ rệt. Điểm trừ là độ dài.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

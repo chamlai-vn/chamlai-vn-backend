@@ -1,0 +1,31 @@
+{
+  "case_id": "scam-other-02",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Mức lương quá cao bất thường (25 triệu/tháng) với yêu cầu công việc đơn giản (2-3 giờ/ngày)",
+      "Yêu cầu nạp tiền trước dưới hình thức 'đặt cọc tín dụng' để được nhận việc",
+      "Hứa hoàn tiền sau khi hoàn thành một số công việc - chiêu thức lừa tạo lòng tin",
+      "Gửi link thanh toán qua dịch vụ rút gọn URL (bit.do) - dấu hiệu phổ biến của lừa đảo để che giấu URL thực tế",
+      "Liên hệ qua mạng xã hội/tin nhắn cá nhân thay vì kênh chính thức của công ty",
+      "Thông tin công ty mơ hồ, không có liên hệ chính thức rõ ràng",
+      "Công việc được mô tả quá hấp dẫn và dễ dàng không yêu cầu kỹ năng"
+    ],
+    "matched_patterns": [
+      "fake_job - Lừa đảo 'việc nhẹ, lương cao' qua mạng xã hội",
+      "fake_job - Lừa đảo tuyển cộng tác viên online với gói nhiệm vụ giả mạo",
+      "fake_job - Giả mạo doanh nghiệp tuyển CTV, yêu cầu chuyển tiền trước"
+    ],
+    "recommended_actions": [
+      "Không chuyển tiền cho người này dưới bất kỳ hình thức nào",
+      "Kiểm tra thông tin công ty VietTech Solutions qua website chính thức, ĐKKD hay gọi tổng đài công khai trước khi tin tưởng",
+      "Tuyệt đối không nhấp vào link bit.do hoặc các đường link rút gọn từ người lạ",
+      "Chỉ nộp hồ sơ xin việc qua website chính thức hoặc các sàn tuyển dụng uy tín (LinkedIn, VietnamWorks, TopCV)",
+      "Yêu cầu hợp đồng lao động chính thức trước khi bỏ tiền",
+      "Cảnh báo tin nhắn này cho bạn bè và báo cáo cho cơ quan công an/Cục An toàn thông tin nếu cần thiết"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 8701
+}

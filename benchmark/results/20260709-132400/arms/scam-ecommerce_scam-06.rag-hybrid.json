@@ -1,0 +1,32 @@
+{
+  "case_id": "scam-ecommerce_scam-06",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Giá vé thấp bất thường (99.000 đồng thay vì 2.5 triệu đồng - giảm 96%)",
+      "Quảng cáo từ tài khoản Facebook không xác minh (Sky Travel Booking)",
+      "Website giả mạo giao diện hãng bay thật (Vietjet Air)",
+      "Áp lực bảo lưu vé gấp rút ('để bảo lưu vé')",
+      "Yêu cầu chuyển tiền vào tài khoản cá nhân (Momo - 0988.456.123 - tên 'Ông Cường')",
+      "Yêu cầu cung cấp thông tin nhạy cảm (số CCCD) sau thanh toán",
+      "Cắt đứt liên lạc sau khi nhận tiền",
+      "Không cung cấp biên lai/mã vé hợp lệ"
+    ],
+    "matched_patterns": [
+      "Giả mạo website/fanpage khách sạn, tour du lịch để lừa đặt cọc trực tuyến",
+      "Giả mạo công ty du lịch, khách sạn bằng fanpage/website giả, yêu cầu đặt cọc trước qua tài khoản cá nhân",
+      "Lừa đảo du lịch trực tuyến mùa cao điểm: giả mạo biên lai, tour giá rẻ, visa đảm bảo, deepfake"
+    ],
+    "recommended_actions": [
+      "Thông báo vụ lừa đảo cho cơ quan công an địa phương và Bộ Công an; cung cấp thông tin liên lạc được, link website, tên tài khoản Facebook và số tài khoản Momo nhận tiền",
+      "Liên hệ với Vietjet Air (số chính thức) để xác nhận vé không tồn tại, yêu cầu hỗ trợ theo dõi giao dịch lừa đảo",
+      "Báo cáo tài khoản 'Sky Travel Booking' và link website giả mạo cho Meta (Facebook) và nền tảng Momo để khóa tài khoản",
+      "Liên hệ ngân hàng/ứng dụng Momo để yêu cầu truy cập thông tin tài khoản nhận tiền và cấp tìm giao dịch",
+      "Lưu ý: các cuộc gọi/tin nhắn tiếp theo từ người bán có thể là lừa đảo thêm lần nữa (giả vờ hoàn tiền, yêu cầu cung cấp mã OTP), nên không nên tiếp xúc",
+      "Kiểm tra tài khoản cá nhân (email, mạng xã hội, ngân hàng) xem có bị xâm phạm sau khi cung cấp thông tin CCCD chưa; cân nhắc khóa tài khoản hoặc thay đổi mật khẩu"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 10372
+}

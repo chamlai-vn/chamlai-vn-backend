@@ -1,0 +1,55 @@
+{
+  "case_id": "scam-loan_scam-04",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Mạo danh công ty tài chính với tên 'FastCredit Vietnam' và ứng dụng 'FC Wallet' không có thật hoặc giả mạo",
+      "Yêu cầu nộp phí xác minh danh tính trước khi giải ngân (khoảng 2.5 triệu đồng)",
+      "Yêu cầu tải ứng dụng từ link lạ qua SMS — có thể chiếm quyền điều khiển điện thoại từ xa, truy cập tin nhắn, mã OTP và tài khoản ngân hàng",
+      "Yêu cầu chuyển tiền vào tài khoản cá nhân (Trần Minh Khôi tại Agribank) thay vì tài khoản công ty hợp pháp",
+      "Sau khi thu tiền thì chặn toàn bộ liên lạc với nạn nhân",
+      "Quảng cáo lãi suất 0%, vay nhanh không cần chứng minh thu nhập chỉ là mồi nhử",
+      "Nạn nhân đã cung cấp số CCCD và số điện thoại — thông tin cá nhân bị lộ có thể bị lợi dụng để mạo danh vay tiền nơi khác"
+    ],
+    "matched_patterns": [
+      "Mạo danh công ty tài chính/ngân hàng",
+      "Bẫy phí xác minh danh tính / phí giải ngân trước",
+      "Lừa đảo tải app giả mạo qua link SMS",
+      "Yêu cầu chuyển tiền vào tài khoản cá nhân",
+      "Chặn liên lạc sau khi thu tiền"
+    ],
+    "recommended_actions": [
+      "Chụp màn hình toàn bộ bằng chứng: tin nhắn SMS, lịch sử cuộc gọi, biên lai chuyển khoản 2.5 triệu, thông tin ứng dụng FC Wallet",
+      "Trình báo công an địa phương nơi cư trú hoặc gọi đường dây nóng Phòng An ninh mạng: 069.219.4053",
+      "Gọi tổng đài Agribank 1900 558 818 để báo cáo tài khoản 'Trần Minh Khôi' đã nhận tiền lừa đảo",
+      "Gỡ ngay ứng dụng FC Wallet khỏi điện thoại, sau đó đổi mật khẩu tất cả tài khoản ngân hàng, email, mạng xã hội",
+      "Theo dõi tài khoản ngân hàng thường xuyên để phát hiện các giao dịch đáng ngờ",
+      "Trình báo càng sớm càng tốt để tăng khả năng lấy lại tiền"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## 🚨 KẾT LUẬN: ĐÂY LÀ LỪA ĐẢO 100% — Rất điển hình và đã được cơ quan công an cảnh báo!\n\nEm gái Linh đã là nạn nhân của một **chiêu lừa đảo vay tiền online cực kỳ phổ biến** tại Việt Nam. Dưới đây là phân tích chi tiết:\n\n---\n\n## 🔍 TẠI SAO KHẲNG ĐỊNH ĐÂY LÀ LỪA ĐẢO?\n\nTình huống của em gái Linh khớp **hoàn toàn** với mô hình lừa đảo đã được cơ quan chức năng ghi nhận và cảnh báo:\n\n### 1. Mạo danh công ty tài chính\nKẻ lừa đảo thường tự xưng là nhân viên của các công ty tài chính hoặc ngân hàng uy tín, yêu cầu cung cấp thông tin cá nhân và nộp một khoản phí để giải ngân. Tên \"FastCredit Vietnam\" và ứng dụng \"FC Wallet\" là những thương hiệu **không có thật hoặc giả mạo**, được tạo ra để đánh lừa nạn nhân.\n\n### 2. Bẫy \"phí xác minh danh tính\" — Dấu hiệu lừa đảo điển hình nhất\nKhi có người vay tiếp cận, các đối tượng sẽ dẫn dụ, yêu cầu người vay cung cấp thông tin cá nhân như họ tên, số điện thoại, ảnh chụp CMND/CCCD... sau đó yêu cầu người vay phải chuyển trước một số khoản tiền nhỏ (khoảng từ 500 ngàn đồng đến 5 triệu đồng), để phục vụ hỗ trợ xác minh, duyệt khoản vay.\n\n### 3. Tải app từ link lạ qua SMS — Cực kỳ nguy hiểm\nCơ quan Công an cảnh báo thủ đoạn lừa đảo tinh vi khi các đối tượng yêu cầu người dùng tải phần mềm để \"cập nhật dữ liệu\". Sau khi người dùng cài đặt, ứng dụng giả mạo sẽ chiếm quyền điều khiển điện thoại từ xa, truy cập tin nhắn, mã OTP, tài khoản ngân hàng và chiếm đoạt tiền.\n\n### 4. Chuyển tiền vào tài khoản cá nhân — Vi phạm nguyên tắc tài chính\nTuyệt đối không chuyển tiền vào tài khoản cá nhân theo hướng dẫn của tư vấn viên hoặc của thông tin trên trang web giả mạo. Tài khoản \"Trần Minh Khôi\" tại Agribank là tài khoản cá nhân — **không bao giờ là tài khoản của công ty tài chính hợp pháp**.\n\n### 5. Sau khi thu tiền thì chặn liên lạc\nChúng sẽ cung cấp thông tin và gửi thông báo khoản vay sau đó yêu cầu đóng phí làm hồ sơ. Sau khi đóng phí xong sẽ chặn hết mọi liên lạc. — Đây chính xác là những gì đã xảy ra với em gái Linh.\n\n### 6. Lãi suất 0% chỉ là mồi nhử\nMột số dấu hiệu phổ biến để nhận biết các hành vi lừa đảo này gồm: quảng cáo vay nhanh không cần chứng minh thu nhập; yêu cầu chuyển tiền trước dưới danh nghĩa \"phí bảo hiểm\" hay \"phí giải ngân\"…\n\n---\n\n## ⚠️ MỐI NGUY HIỂM CÒN LẠI — THÔNG TIN CÁ NHÂN ĐÃ BỊ LỘ\n\nĐây là điều **nghiêm trọng hơn cả 2.5 triệu đồng đã mất!** Em đã cung cấp số CCCD và số điện thoại cho kẻ xấu.\n\nKẻ xấu có thể sử dụng thông tin cá nhân của bạn, chẳng hạn thông tin đăng ký kinh doanh, số CMND, số điện thoại để thực hiện các hành vi lừa đảo khác hoặc mạo danh em vay tiền từ nơi khác.\n\n---\n\n## ✅ NGAY BÂY GIỜ CẦN LÀM GÌ?\n\n### Bước 1: Thu thập bằng chứng ngay lập tức\nThu thập bằng chứng như hóa đơn, chứng từ, tin nhắn, địa chỉ web để gửi đến cơ quan công an. Cụ thể: chụp màn hình toàn bộ tin nhắn SMS, lịch sử cuộc gọi, biên lai chuyển khoản 2.5 triệu, thông tin ứng dụng FC Wallet.\n\n### Bước 2: Trình báo công an\nSau khi chuẩn bị đầy đủ hồ sơ, bạn cần trình báo cho cơ quan có thẩm quyền, chẳng hạn: Cơ quan Cảnh sát điều tra tội phạm hoặc Công an địa phương nơi bạn cư trú để đăng ký vụ việc và nộp hồ sơ bằng chứng liên quan.\n\nHoặc gọi đường dây nóng: **Đường dây nóng Phòng An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao: 069.219.4053**\n\n### Bước 3: Liên hệ Agribank báo cáo tài khoản lừa đảo\nLiên hệ ngân hàng để thông báo vụ việc và yêu cầu hỗ trợ. Gọi tổng đài Agribank **1900 558 818** để báo cáo số tài khoản \"Trần Minh Khôi\" đã nhận tiền lừa đảo.\n\n### Bước 4: Gỡ ngay ứng dụng FC Wallet\nXóa ứng dụng khỏi điện thoại ngay lập tức vì ứng dụng giả mạo có thể chiếm quyền điều khiển điện thoại từ xa, truy cập tin nhắn, mã OTP, tài khoản ngân hàng. Sau đó đổi mật khẩu tất cả tài khoản ngân hàng, email, mạng xã hội.\n\n### Bước 5: Theo dõi tài khoản cẩn thận\nTheo dõi tài khoản ngân hàng thường xuyên, kiểm tra lại các giao dịch được thực hiện để phát hiện các hoạt động đáng ngờ.\n\n---\n\n## 💡 LƯU Ý QUAN TRỌNG VỀ KHẢ NĂNG LẤY LẠI TIỀN\n\nKhả năng lấy lại tiền phụ thuộc vào việc bạn trình báo nhanh chóng và cung cấp đủ bằng chứng với cơ quan chức năng. Tuy nhiên, việc này có thể khó khăn nếu kẻ lừa đảo đã chuyển tiền ra nước ngoài. Vì vậy hãy **trình báo càng sớm càng tốt**.\n\n---\n\n\u003e 🛡️ **Nhắn nhủ:** Các công ty tài chính hợp pháp **KHÔNG BAO GIỜ** yêu cầu chuyển tiền vào tài khoản cá nhân, không yêu cầu \"phí xác minh\" trước khi giải ngân, và không gửi link tải app qua SMS. Khi có nhu cầu vay tiền, hãy đến các ngân hàng, tổ chức tín dụng hợp pháp trên địa bàn mình cư trú để làm hồ sơ, thủ tục vay theo quy định.",
+  "sources": [
+    "https://www.aia.com.vn/vi/song-khoe/loi-khuyen/tai-chinh/bi-lua-dao-vay-tien-online-phai-lam-sao.html",
+    "https://congan.quangngai.gov.vn/danh-muc-san-pham/-tin-tuc-su-kien/canh-bao-lua-dao-voi-thu-doan-mao-danh-ngan-hang-cho-vay-tien-online-voi-lai-suat-thap-vao-dip-cuoi-nam.html",
+    "https://bocongan.gov.vn/bai-viet/canh-giac-voi-hanh-vi-loi-dung-cac-ung-dung-vay-tien-online-de-chiem-doat-tai-san-1763439165",
+    "https://congan.hatinh.gov.vn/bai-viet/canh-giac-voi-thu-doan-cho-vay-tien-online-mao-danh-cac-co-quan-to-chuc-ca-nhan_1682667214.caht",
+    "https://baodongnai.com.vn/doanh-nhan-doanh-nghiep/dich-vu/202407/lam-gi-khi-bi-lua-dao-vay-tien-online-nhung-buoc-xu-ly-hieu-qua-ef9428a/",
+    "https://royallaw.vn/cach-giai-quyet-khi-bi-lua-dao-vay-tien-online/",
+    "https://naict.tttt.nghean.gov.vn/pckns/canh-giac-voi-hanh-vi-lua-dao-tu-cac-ung-dung-vay-tien-online-2368.html",
+    "https://www.fecredit.com.vn/tin-tuc-khuyen-mai/tin-tuc/fe-credit-canh-bao-cac-thu-doan-mao-danh-de-lua-dao-vay-tien-chiem-doat-tai-san/",
+    "https://zalopay.vn/bi-lua-vay-tien-qua-app-phai-lam-sao-7076",
+    "https://tuoitre.vn/bi-lua-cung-cap-otp-va-cccd-cho-ke-xau-gio-app-cho-vay-doi-tien-phai-lam-sao-20251017151505482.htm",
+    "https://tuoitre.vn/vietcredit-canh-bao-cac-thu-doan-mao-danh-lua-dao-20230225092804952.htm",
+    "https://www.vietcredit.vn/thong-bao/vietcredit-canh-bao-cac-thu-doan-mao-danh-cong-ty-lua-dao-khach-hang",
+    "https://infonet.vietnamnet.vn/vietcredit-canh-bao-thu-doan-mao-danh-cong-ty-lua-dao-khach-hang-5015326.html",
+    "https://rais.edu.vn/vietcredit-lua-dao.html",
+    "https://www.vietcredit.vn/thong-bao/vietcredit-canh-bao-thu-doan-lua-dao-chiem-doat-tai-san-va-thong-tin-ca-nhan",
+    "https://traderviet.tv/t/canh-giac-lua-dao-tu-cac-du-an-tien-ao-va-tai-chinh-ao.116587/",
+    "https://www.easycredit.vn/canh-bao-thu-doan-lua-dao-chiem-doat-tai-san",
+    "https://www.vietcredit.vn/canh-bao-lua-dao",
+    "https://www.easycredit.vn/cau-hoi-thuong-gap"
+  ],
+  "latency_ms": 69546
+}

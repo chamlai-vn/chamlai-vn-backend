@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-package_delivery-04",
+  "rag_verdict": {
+    "strengths": [
+      "Nhận diện đúng đây là near-miss (nạn nhân kịp dừng) qua app giả + quét QR",
+      "Phủ đủ 4 ý chính: giả danh VietTransit Express, social engineering (gọi tên/chi tiết đơn), urgency, app giả + QR đánh cắp ngân hàng",
+      "Pattern khớp đúng loại shipper (gồm biến thể cài app lạ)",
+      "Khuyến nghị: chỉ thanh toán COD/app chính thức, không tải app từ link, xác minh qua số chính thức"
+    ],
+    "weaknesses": [
+      "Không giải thích rõ nguy cơ mã QR (có thể chứa lệnh trừ tiền/dẫn web giả)",
+      "Không ghi nhận người dùng đã xử lý đúng khi hỏi ngân hàng",
+      "Không nêu kênh trình báo cụ thể"
+    ],
+    "reasoning": "Chính xác và phủ đủ ý chính với khuyến nghị hợp lý. Thiếu giải thích cơ chế mã QR và yếu tố động viên.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Giải thích sâu cơ chế mã QR lừa đảo (có thể chứa lệnh trừ tiền/dẫn web giả), vì sao chúng biết tên nạn nhân",
+      "Quy trình khắc phục ưu tiên (gỡ app, liên hệ ngân hàng, đổi mật khẩu), thu thập bằng chứng",
+      "Ghi nhận người dùng đã dừng đúng lúc, phòng ngừa chỉ cài app từ store",
+      "Số liệu quy mô"
+    ],
+    "weaknesses": [
+      "Rất dài",
+      "Định dạng nặng"
+    ],
+    "reasoning": "Toàn diện, đặc biệt mạnh ở giải thích cơ chế mã QR — điểm mấu chốt của tình huống. Điểm trừ là độ dài.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

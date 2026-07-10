@@ -1,0 +1,27 @@
+{
+  "case_id": "benign-sms_bank_real-03",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "yellow",
+    "red_flags": [
+      "Nội dung tạo cảm giác gấp gáp (\"giao dịch bất thường\") — chiêu tâm lý phổ biến để khiến người nhận hành động vội mà không kiểm tra kỹ",
+      "Kẻ lừa đảo có thể giả brandname SMS hoặc chèn đúng số hotline thật vào tin nhắn giả để tạo lòng tin, rồi dụ nạn nhân gọi lại và cung cấp OTP/số thẻ trong bước tiếp theo",
+      "Nếu tin nhắn đến từ số điện thoại thường (không phải brandname \"Vietcombank\") hoặc qua Zalo/Messenger/email lạ thì khả năng giả mạo rất cao"
+    ],
+    "matched_patterns": [
+      "Thông báo giao dịch ngân hàng (có thể là mẫu hợp pháp hoặc bị giả mạo brandname)",
+      "Hotline trong tin nhắn trùng với số tổng đài thật — không đủ để kết luận là an toàn"
+    ],
+    "recommended_actions": [
+      "Không gọi vào số trong tin nhắn, kể cả khi số đó đúng — vì tin nhắn giả vẫn có thể ghi đúng số thật để đánh lừa",
+      "Tự tra số hotline Vietcombank từ mặt sau thẻ ngân hàng, website chính thức (vietcombank.com.vn), hoặc app VCB Digibank rồi gọi từ đó",
+      "Mở app VCB Digibank kiểm tra trực tiếp lịch sử giao dịch và số dư — nếu không có giao dịch rút 5.000.000 VND như tin nhắn nói, đây chắc chắn là giả",
+      "Tuyệt đối không đọc mã OTP, mật khẩu, số thẻ, CVV cho bất kỳ ai qua điện thoại, kể cả người tự xưng là nhân viên ngân hàng",
+      "Nếu nghi ngờ có giao dịch bất thường thật, khóa thẻ ngay qua app hoặc đến chi nhánh gần nhất"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "Đã kiểm tra: số hotline **1900 545413** trong tin nhắn đúng là **tổng đài chính thức của Vietcombank**, và Vietcombank cũng xác nhận không bao giờ gọi khách hàng yêu cầu cung cấp thông tin bảo mật dịch vụ dưới bất kỳ hình thức nào. Về mặt nội dung, đây cũng là format thông báo giao dịch khá điển hình mà ngân hàng hay dùng (số tài khoản, thời gian, số tiền, số dư khả dụng).\n\n## Vậy tin nhắn này có phải lừa đảo không?\n\n**Chưa thể khẳng định chắc chắn chỉ dựa vào nội dung bạn gửi**, vì bản thân nội dung text không cho thấy manh mối rõ ràng là giả — nhưng cũng có vài điểm cần cảnh giác:\n\n**Điểm có vẻ ổn:**\n- Số hotline đúng là số thật của Vietcombank.\n- Không có link lạ, không yêu cầu nhập OTP/mật khẩu/số thẻ ngay trong tin nhắn.\n\n**Điểm cần cảnh giác:**\n- Kẻ lừa đảo **hoàn toàn có thể** giả brandname SMS (Vietcombank) hoặc chèn đúng số hotline thật vào tin nhắn giả để tạo lòng tin — mục đích là dụ bạn *gọi lại* rồi trong lúc \"xác minh\" sẽ có bước tiếp theo yêu cầu bạn đọc OTP, cung cấp số thẻ, hoặc chuyển hướng qua một \"nhân viên ngân hàng\" giả.\n- Nếu tin nhắn đến từ **số điện thoại thường** (không phải brandname \"Vietcombank\" hiển thị tên) hoặc qua Zalo/Messenger/email lạ thì khả năng giả mạo rất cao.\n- Nội dung tạo cảm giác gấp gáp (\"giao dịch bất thường\") — đây là chiêu tâm lý phổ biến trong lừa đảo để bạn hành động vội mà không kiểm tra kỹ.\n\n## Bạn nên làm gì tiếp theo\n\n1. **Không gọi vào số trong tin nhắn**, kể cả khi số đó đúng — vì tin nhắn giả vẫn có thể ghi đúng số thật để đánh lừa.\n2. **Tự tra số hotline Vietcombank** từ mặt sau thẻ ngân hàng, website chính thức (vietcombank.com.vn), hoặc app VCB Digibank rồi gọi từ đó.\n3. **Mở app VCB Digibank** kiểm tra trực tiếp lịch sử giao dịch và số dư — nếu không có giao dịch rút 5.000.000 VND như tin nhắn nói, đây chắc chắn là giả.\n4. **Tuyệt đối không đọc mã OTP, mật khẩu, số thẻ, CVV** cho bất kỳ ai qua điện thoại, kể cả người tự xưng là nhân viên ngân hàng.\n5. Nếu nghi ngờ có giao dịch bất thường thật, **khóa thẻ ngay qua app** hoặc đến chi nhánh gần nhất.\n\nTóm lại: bạn nên coi đây là **nghi vấn cao**, không phải \"chắc chắn lừa đảo\" hay \"chắc chắn thật\" — cách an toàn nhất là tự kiểm tra qua kênh chính thức thay vì phản hồi trực tiếp tin nhắn này.",
+  "sources": [],
+  "latency_ms": 0
+}

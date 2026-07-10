@@ -1,0 +1,55 @@
+{
+  "case_id": "scam-impersonation_service-06",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Gọi từ số điện thoại lạ (+84 946 728 315)",
+      "Tự xưng nhân viên điện lực (\"Anh Minh Tuấn - EVN\")",
+      "Thông báo hóa đơn lỗi và tài khoản bị khóa",
+      "Yêu cầu cập nhật thông tin thanh toán",
+      "Dụ dỗ tải ứng dụng không rõ nguồn gốc (\"ElectricPay Pro\" giả mạo)",
+      "Yêu cầu nhập số tài khoản ngân hàng và mật khẩu",
+      "Yêu cầu chuyển tiền sang tài khoản cá nhân lạ (\"Nguyễn Văn Sơn\")"
+    ],
+    "matched_patterns": [
+      "Giả danh nhân viên điện lực qua điện thoại",
+      "Dụ dỗ cài ứng dụng giả mạo (spyware/malware)",
+      "Chiếm quyền điều khiển thiết bị và rút tiền ngân hàng"
+    ],
+    "recommended_actions": [
+      "Gỡ ngay ứng dụng \"ElectricPay Pro\" khỏi điện thoại",
+      "Đổi toàn bộ mật khẩu ngân hàng, mã PIN và tài khoản email liên kết với ngân hàng",
+      "Liên hệ ngân hàng để theo dõi, bảo vệ tài khoản và tra soát giao dịch 2.500.000 đồng đã bị chuyển — yêu cầu hỗ trợ thu hồi",
+      "Trình báo cơ quan công an địa phương ngay, ngắt kết nối internet và tắt nguồn điện thoại nếu cần",
+      "Báo cáo lên EVN qua hotline 24/7: 19006769 (miền Bắc) để ngăn chặn kẻ lừa đảo tiếp tục hại người khác",
+      "Quét virus/malware trên điện thoại bằng phần mềm uy tín, hoặc xem xét cài đặt lại điện thoại nếu nghi ngờ ứng dụng độc hại vẫn còn",
+      "Kiểm tra và thu hồi toàn bộ các quyền truy cập (tin nhắn, danh bạ, camera...) mà ứng dụng giả mạo đã được cấp"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 ĐÂY LÀ LỪA ĐẢO — Rất nguy hiểm và phổ biến!\n\nTình huống chị dâu bạn gặp phải là **một vụ lừa đảo điển hình, có tổ chức**, đã và đang xảy ra rầm rộ trên khắp Việt Nam. Dưới đây là phân tích chi tiết:\n\n---\n\n## ✅ KẾT LUẬN: 100% LÀ LỪA ĐẢO\n\n### 🔍 Tại sao khẳng định như vậy?\n\nVụ việc của chị dâu bạn khớp hoàn toàn với thủ đoạn đã được cảnh báo chính thức:\n\n**1. Giả danh nhân viên điện lực qua điện thoại**\nNạn giả danh nhân viên điện lực gọi điện thoại lừa đảo người dân đã liên tục rộ lên khắp cả nước. Đối tượng gọi điện cho người dân, tự xưng là nhân viên của công ty điện lực, thông báo rằng tài khoản điện đang bị \"nợ tiền\", \"sử dụng sai mục đích\" hoặc \"có dấu hiệu ăn cắp điện\".\n\n**2. Dụ dỗ cài ứng dụng giả mạo (đây là bước chính để chiếm đoạt tiền)**\nĐối tượng hướng dẫn người dân truy cập vào đường link lạ, yêu cầu cài đặt một ứng dụng mạo danh ngành điện lực. Ứng dụng này thực chất là phần mềm gián điệp (spyware), khi cài xong sẽ yêu cầu cấp quyền truy cập tin nhắn, danh bạ, quyền điều khiển màn hình và ứng dụng ngân hàng.\n\n**3. Chiếm quyền và rút tiền**\nSau khi nạn nhân cấp quyền, đối tượng có thể đọc được mã OTP, thực hiện giao dịch ngân hàng từ xa, hoặc đánh cắp dữ liệu cá nhân để vay tiền, lừa tiếp người thân. Tài khoản ngân hàng của nạn nhân có thể bị rút sạch chỉ trong vài phút.\n\n**4. Quy mô lừa đảo rất lớn và ngày càng tăng**\nTheo Trung tâm Chăm sóc khách hàng EVNHANOI, năm 2024 ghi nhận hơn 3.300 cuộc gọi phản ánh về các trường hợp mạo danh điện lực. Từ đầu năm 2025 đến hết tháng 5, số lượng này đã tăng đột biến lên hơn 14.300 trường hợp, cho thấy mức độ tinh vi và nguy hiểm của các chiêu trò lừa đảo ngày càng gia tăng.\n\n**5. Có nạn nhân mất hàng trăm triệu, thậm chí hàng tỷ đồng**\nKhi cài ứng dụng xong, nạn nhân được yêu cầu xác thực khuôn mặt. Sau khi xác thực khuôn mặt, một nạn nhân tại TP.HCM bị mất 2,25 tỷ đồng trong tài khoản.\n\n---\n\n## 🔴 Các dấu hiệu nhận biết trong vụ của chị dâu bạn\n\n| Dấu hiệu lừa đảo | Trong vụ này |\n|---|---|\n| Gọi từ số điện thoại lạ | ✅ Số +84 946 728 315 |\n| Tự xưng nhân viên điện lực | ✅ \"Anh Minh Tuấn - EVN\" |\n| Thông báo tài khoản bị khóa/lỗi | ✅ \"Hóa đơn lỗi, tài khoản bị khóa\" |\n| Yêu cầu cập nhật thông tin | ✅ Yêu cầu nhập thông tin thanh toán |\n| Dụ tải ứng dụng không rõ nguồn gốc | ✅ App \"ElectricPay Pro\" giả mạo |\n| Yêu cầu nhập thông tin ngân hàng | ✅ Nhập số TK và mật khẩu |\n| Chuyển tiền sang tài khoản cá nhân lạ | ✅ TK \"Nguyễn Văn Sơn\" |\n\n---\n\n## ✅ Chị dâu bạn đã làm đúng — Nhưng cần làm thêm các bước sau\n\n### Ngay lập tức:\n1. **Gỡ ngay ứng dụng \"ElectricPay Pro\"** khỏi điện thoại — ứng dụng này vẫn có thể hoạt động ngầm.\n2. **Đổi toàn bộ mật khẩu ngân hàng**, mã PIN, tài khoản email liên kết với ngân hàng.\n3. **Liên hệ ngân hàng** để yêu cầu theo dõi và bảo vệ tài khoản, đồng thời **tra soát giao dịch** 2.500.000 đồng đã bị chuyển — có thể yêu cầu ngân hàng hỗ trợ thu hồi.\n\n### Tố giác lừa đảo:\n4. **Trình báo cơ quan công an** địa phương ngay. Trường hợp nghi bị lừa đảo, cần ngắt kết nối internet, tắt nguồn điện thoại và báo ngay cho cơ quan Công an gần nhất.\n5. **Báo cáo lên EVN** để giúp ngăn chặn kẻ lừa đảo tiếp tục hại người khác. EVN đề nghị người dân khi có nghi vấn giả mạo, lừa đảo có thể liên hệ các trung tâm chăm sóc khách hàng dùng điện (theo khu vực) để làm rõ. Số hotline 24/7: **19006769** (miền Bắc).\n\n### Bảo mật điện thoại:\n6. **Quét virus/malware** trên điện thoại bằng phần mềm uy tín, hoặc xem xét **cài đặt lại điện thoại** nếu nghi ngờ ứng dụng độc hại vẫn còn.\n7. **Kiểm tra các quyền truy cập** mà ứng dụng đó đã được cấp (tin nhắn, danh bạ, camera...) và thu hồi toàn bộ.\n\n---\n\n## 💡 Lưu ý quan trọng để phòng tránh trong tương lai\n\nNgành điện lực **KHÔNG** yêu cầu người dân cài ứng dụng để xử lý sai phạm hay thanh toán tiền điện qua tài khoản cá nhân.\n\nEVNHANOI khẳng định không yêu cầu khách hàng cung cấp thông tin cá nhân, mã OTP, cài đặt ứng dụng hay truy cập đường link lạ qua các kênh không chính thống.\n\n\u003e ⚠️ **Hãy chia sẻ thông tin này với người thân, đặc biệt là người cao tuổi** — đây là nhóm dễ bị nhắm tới nhất!",
+  "sources": [
+    "https://www.evnhcmc.vn/Tintuc/chitiet/519",
+    "https://baochinhphu.vn/evn-khuyen-cao-nguoi-dan-canh-giac-voi-chieu-tro-gia-mao-dien-luc-de-lua-dao-truc-tuyen-102250528211512856.htm",
+    "https://congan.laichau.gov.vn/index.php/thu-doan-pham-toi/canh-bao-thu-doan-lua-dao-gia-danh-nhan-vien-dien-luc-cai-ung-dung-doc-hai-de-chiem-doat-tai-san-2922.html",
+    "https://doanhnhan.congly.vn/evn-khuyen-cao-nguoi-dan-tinh-tao-truoc-thu-doan-gia-mao-nhan-vien-dien-luc-de-lua-dao-480583.html",
+    "https://thanhnien.vn/ro-thu-doan-gia-nhan-vien-doi-cat-dien-diem-mat-cach-lua-dao-185250225200811774.htm",
+    "https://antv.gov.vn/xa-hoi-4/evnhanoi-khuyen-cao-nguoi-dan-canh-giac-voi-chieu-tro-mao-danh-nhan-vien-dien-luc-488B242D7.html",
+    "https://baochinhphu.vn/evnspc-canh-bao-tinh-trang-gia-danh-nhan-vien-dien-luc-lua-dao-cai-ung-dung-cham-soc-khach-hang-chiem-doat-tien-102250927150419365.htm",
+    "https://xaylapdien.net/canh-giac-chieu-tro",
+    "https://laodongvaphapluat.laodongthudo.vn/evnhanoi-canh-bao-thu-doan-gia-danh-nhan-vien-dien-luc-6968.html",
+    "https://tuoitre.vn/canh-bao-mao-danh-nhan-vien-dien-luc-lien-he-khach-hang-de-lua-dao-20241128153440315.htm",
+    "https://binhphuoc.gov.vn/vi/stttt/tin-tuc-su-kien/canh-giac-chieu-tro-mao-danh-cong-ty-dien-luc-de-chiem-doat-thong-tin-khach-hang-2441.html",
+    "https://congan.ninhbinh.gov.vn/canh-bao-lua-dao-chiem-doat-tai-san-do-bi-lua-cai-ung-dung-dien-luc-gia-mao",
+    "https://congan.laichau.gov.vn/index.php/chong-dien-bien-hoa-binh-22/canh-bao-tinh-trang-gia-danh-nhan-vien-dien-luc-lua-dao-nham-chiem-doat-tai-san-2661.html",
+    "https://baolaichau.vn/van-de-hom-nay/canh-giac-voi-thu-doan-mao-danh-nhan-vien-dien-luc-de-lua-dao",
+    "https://antoanthongtin.vn/tin/boc-hoi-tai-khoan-sau-khi-cai-dat-ung-dung-dien-luc-gia-mao",
+    "https://evn.com.vn/d/vi-VN/news/Khuyen-cao-nguoi-dan-canh-giac-truoc-chieu-tro-lua-dao-cai-dat-ung-dung-dien-luc-moi-60-134-500858",
+    "https://cskh.npc.com.vn/(X(1)S(clxgxwoduwfxdktxatxqdyrv))/TinTuc/ChiTietTinSPC?MA_TBAI=1569",
+    "https://bidv.com.vn/bidv/tin-tuc/tin-ve-bidv/canh-bao-cac-hinh-thuc-lua-dao-trong-linh-vuc-ngan-hang",
+    "https://antv.gov.vn/kinh-te-5/canh-giac-voi-ung-dung-ngan-hang-gia-mao-15B7DA655.html",
+    "https://traderviet.tv/t/cai-ung-dung-la-nguy-co-mat-sach-tien-trong-tai-khoan.116304/"
+  ],
+  "latency_ms": 64854
+}

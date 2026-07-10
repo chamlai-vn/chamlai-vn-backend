@@ -1,0 +1,29 @@
+{
+  "case_id": "benign-promo_real-07",
+  "rag_verdict": {
+    "strengths": [
+      "Nguyên tắc an toàn chung đúng: không bấm link, tự mở app Shopee, không cập nhật thông tin qua link"
+    ],
+    "weaknesses": [
+      "Lỗi factual: khẳng định 'shopee.vn không phải domain chính thức' — sai, shopee.vn LÀ tên miền chính thức",
+      "Gán mức 'red' + matched pattern prize_gift cho một tin dùng đúng tên miền shopee.vn — over-flag",
+      "Phân tích dấu hiệu bị lệch do nhận định sai về tên miền"
+    ],
+    "reasoning": "Khuyến nghị thao tác an toàn về cơ bản đúng, nhưng lặp lại lỗi factual về shopee.vn và over-flag thành red — làm giảm chất lượng.",
+    "score": 6.5
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Nhận định chính xác các link đều dùng tên miền chính thức shopee.vn, hotline 1900 6969 quen thuộc",
+      "Cân bằng: kết luận khả năng cao không phải lừa đảo nhưng vẫn khuyên truy cập qua app để giảm rủi ro",
+      "Chỉ ra các cụm 'được chọn'/'100 khách đầu tiên' là kỹ thuật marketing dễ bị bắt chước, có nguồn"
+    ],
+    "weaknesses": [
+      "Dài"
+    ],
+    "reasoning": "Chính xác về tên miền chính thức và hiệu chỉnh rủi ro hợp lý — không mắc lỗi factual như arm còn lại.",
+    "score": 8
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

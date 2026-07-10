@@ -1,0 +1,29 @@
+{
+  "case_id": "scam-fake_job-03",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Lương cao bất thường (8 triệu/tháng) cho công việc chốt đơn hàng online đơn giản",
+      "Công việc được quảng cáo là dễ dàng, không cần kinh nghiệm hoặc kỹ năng",
+      "Yêu cầu đăng ký qua ứng dụng (GoldJob) thay vì liên hệ trực tiếp qua kênh chính thức",
+      "Thông tin công ty không rõ ràng, có thể là tên giả mạo",
+      "Hình thức liên lạc qua kênh không chính thức (có thể mạng xã hội/tin nhắn cá nhân)",
+      "Đưa ra lời hứa chứng chỉ để tạo sự hấp dẫn thêm"
+    ],
+    "matched_patterns": [
+      "fake_job - Lừa đảo việc nhẹ, lương cao qua mạng xã hội nhắm vào người tìm việc",
+      "fake_job - Tuyển cộng tác viên online chốt đơn hàng với lời quảng cáo hấp dẫn",
+      "fake_job - Yêu cầu đăng ký qua app hoặc link để 'xác minh hồ sơ'"
+    ],
+    "recommended_actions": [
+      "Không đăng ký hay cài đặt ứng dụng GoldJob từ liên kết này; kiểm tra trực tiếp từ cửa hàng ứng dụng chính thức",
+      "Xác minh thông tin Công ty Hưng Phát qua website chính thức hoặc gọi tổng đài công khai để kiểm tra độ tin cậy",
+      "Yêu cầu xem hợp đồng lao động chính thức và giấy phép kinh doanh trước khi làm bất kỳ thủ tục nào",
+      "Tuyệt đối không chuyển tiền, không cung cấp thông tin căn cước công dân, số tài khoản ngân hàng hay mã OTP cho bất kỳ ai",
+      "Nếu có yêu cầu nạp tiền dù dưới bất kỳ hình thức nào (phí đăng ký, kích hoạt tài khoản, xác minh), hãy dừng ngay vì đây là dấu hiệu lừa đảo điển hình"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 8434
+}

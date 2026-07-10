@@ -1,0 +1,29 @@
+{
+  "case_id": "benign-sms_bank_real-06",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận (green) hợp lý cho thông báo giao dịch định dạng chuẩn, không có link/đòi OTP",
+      "Khuyến nghị xác minh qua app/hotline chính thức, nhắc ngân hàng không đòi OTP qua tin nhắn",
+      "Súc tích"
+    ],
+    "weaknesses": [
+      "Chưa nêu điểm hotline thật không đảm bảo tin thật; kết luận green hơi chắc chắn so với mức xác minh được"
+    ],
+    "reasoning": "Đúng trọng tâm và gọn. Thiếu cảnh báo tinh tế về khả năng giả mạo brandname/hotline.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Xác nhận 1900 545413 là tổng đài chính thức Vietcombank, hiệu chỉnh 'trung bình' hợp lý",
+      "Cảnh báo khả năng SMS brandname spoofing, hướng dẫn tự mở app kiểm tra giao dịch",
+      "Có nguồn dẫn"
+    ],
+    "weaknesses": [
+      "Dài"
+    ],
+    "reasoning": "Nhỉnh hơn nhờ xác nhận hotline chính thức và cảnh báo spoofing, hiệu chỉnh rủi ro cân bằng.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

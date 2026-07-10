@@ -1,0 +1,30 @@
+{
+  "case_id": "scam-recovery_scam-07",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Mạo danh cơ quan nhà nước (INTERPOL Việt Nam) để tạo lòng tin",
+      "Thông báo về giao dịch giả mạo và tiền bị rút trái phép - chiêu tạo cảm giác khẩn cấp",
+      "Yêu cầu tải ứng dụng lạ (RemoteSupport365) từ đường link không rõ nguồn gốc",
+      "Yêu cầu cấp quyền truy cập màn hình và tài khoản ngân hàng",
+      "Yêu cầu chuyển tiền \"phí hỗ trợ\" vào tài khoản cá nhân của bên thứ ba",
+      "Tạo áp lực thời gian (3-5 ngày, đe dọa khóa tài khoản)",
+      "Số điện thoại hotline lạ không phải là số chính thức của cơ quan công an"
+    ],
+    "matched_patterns": [
+      "recovery_scam - Giả danh cơ quan nhà nước lừa lấy tiền \"hỗ trợ khôi phục tài sản bị lừa\"",
+      "recovery_scam - Lừa đảo \"thu hồi tiền treo\" giả danh công an để chiếm đoạt tài sản"
+    ],
+    "recommended_actions": [
+      "Tuyệt đối không tải ứng dụng từ đường link được gửi - chỉ tải từ Google Play hoặc Apple App Store chính thức",
+      "Không cung cấp quyền truy cập màn hình, OTP hay thông tin tài khoản ngân hàng cho bất kỳ ai qua điện thoại/tin nhắn",
+      "Không chuyển tiền cho bất kỳ cá nhân/tổ chức nào tự xưng là \"hỗ trợ khôi phục tiền lừa đảo\"",
+      "Xác minh danh tính bằng cách gọi trực tiếp tổng đài chính thức của Công an địa phương (số trong danh bạ hoặc tra online) - không sử dụng số điện thoại mà tin nhắn cung cấp",
+      "Nếu thực sự bị lừa đảo, trình báo ngay đến Công an nơi gần nhất với đầy đủ thông tin - không liên hệ qua các \"dịch vụ hỗ trợ\" tự xưng",
+      "Nhớ rằng: cơ quan công an, INTERPOL không làm việc qua Zalo, điện thoại cá nhân hay yêu cầu chuyển tiền để điều tra"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 8226
+}

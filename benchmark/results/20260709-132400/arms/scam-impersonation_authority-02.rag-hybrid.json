@@ -1,0 +1,31 @@
+{
+  "case_id": "scam-impersonation_authority-02",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Giả danh cán bộ Công an với tên tuổi, chức vụ cụ thể (Thượng tá Trần Minh Khoa)",
+      "Yêu cầu cài đặt ứng dụng lạ (VerifyID Pro) có tính năng gián điệp",
+      "Tạo áp lực thời gian cấp bách (2 giờ)",
+      "Đe dọa bắt giữ nếu không hợp tác",
+      "Yêu cầu giữ bí mật, không được kể cho ai",
+      "Số điện thoại di động không phải đường dây chính thức của cơ quan Công an",
+      "Xưng là cơ quan điều tra vụ rửa tiền",
+      "Cung cấp mã số vụ án giả để tạo lòng tin"
+    ],
+    "matched_patterns": [
+      "Giả danh công an, viện kiểm sát để lừa chạy án",
+      "Giả danh cán bộ Công an yêu cầu chuyển tiền để phục vụ điều tra"
+    ],
+    "recommended_actions": [
+      "Ngắt liên lạc ngay lập tức, không cài đặt bất kỳ ứng dụng nào từ đường link hay hướng dẫn lạ",
+      "Liên hệ trực tiếp Công an quận Bình Thạnh qua đường dây chính thức để xác minh danh tính người gọi và thông tin vụ án",
+      "Tuyệt đối không chuyển tiền hoặc cung cấp thông tin cá nhân, mã OTP, mật khẩu tài khoản",
+      "Ghi lại số điện thoại, thời gian cuộc gọi và nội dung để báo cáo cơ quan Công an",
+      "Không được tuân theo yêu cầu giữ bí mật; hãy thông báo cho người thân, bạn bè về tình huống để được hỗ trợ",
+      "Nhớ rằng cơ quan Công an chính thức luôn gửi Giấy mời hoặc Giấy triệu tập có dấu chính thức, không bao giờ yêu cầu làm việc qua điện thoại"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 8116
+}

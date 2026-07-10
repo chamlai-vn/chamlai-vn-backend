@@ -1,0 +1,28 @@
+{
+  "case_id": "scam-romance_scam-09",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Ảnh giả mạo danh tính — ảnh lấy từ trang cá nhân của một diễn viên/người khác, không có cách giải thích vô hại nào",
+      "Nghề nghiệp \"kỹ sư dầu khí công tác nước ngoài\" — bị lợi dụng nhiều nhất vì nghe đáng tin và dễ giải thích lý do không gặp mặt",
+      "Xây dựng tình cảm nhanh và sâu (love bombing) chỉ sau thời gian ngắn quen biết",
+      "Luôn từ chối video call bằng lý do kỹ thuật lặp đi lặp lại",
+      "Chuỗi lý do xin tiền leo thang (phí hợp đồng rồi phí hải quan) — mô-típ moi tiền quen thuộc",
+      "Tài khoản ngân hàng nhận tiền không trùng tên người tự xưng — dùng tài khoản khác để tránh bị truy vết"
+    ],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Ngừng liên lạc và ngừng chuyển tiền ngay lập tức, không phản hồi thêm bất kỳ lý do khẩn cấp nào",
+      "Thu thập và lưu lại toàn bộ bằng chứng: chụp màn hình chat, ảnh, biên lai chuyển khoản, số tài khoản nhận, thông tin profile",
+      "Trình báo công an càng sớm càng tốt — trong 24 giờ đầu khả năng phong tỏa tài khoản nhận tiền cao nhất",
+      "Báo ngân hàng của mình về giao dịch, liên hệ ngân hàng nhận tiền để yêu cầu hỗ trợ tra soát/phong tỏa",
+      "Báo cáo và chặn tài khoản trên nền tảng hẹn hò, tìm kiếm ngược ảnh đại diện để xem có nạn nhân khác cảnh báo chưa",
+      "Không tự trách mình — đây là thao túng tâm lý được thiết kế chuyên nghiệp, nên chia sẻ với người thân để có chỗ dựa tinh thần"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## Đây chính xác là lừa đảo — cụ thể là \"romance scam\" (lừa đảo tình cảm qua mạng)\n\nRất tiếc phải nói thẳng: mọi dấu hiệu bạn mô tả đều khớp gần như hoàn hảo với kịch bản lừa đảo tình cảm kinh điển, một dạng tội phạm có tổ chức xuyên quốc gia rất phổ biến hiện nay.\n\n### Vì sao có thể khẳng định chắc chắn:\n\n1. **Ảnh giả mạo danh tính** – Đây là bằng chứng \"chốt hạ\": ảnh \"Marcus\" bị lấy từ trang cá nhân của một diễn viên Úc. Không có cách giải thích vô hại nào cho việc này. Kẻ lừa đảo dùng ảnh người khác (thường là người mẫu, diễn viên ít nổi tiếng) để tạo hồ sơ giả trên app hẹn hò.\n\n2. **Nghề nghiệp \"kỹ sư dầu khí công tác nước ngoài\"** – Đây là nghề nghiệp bị lợi dụng nhiều nhất trong loại lừa đảo này, vì nó vừa nghe \"đáng tin, thu nhập cao\", vừa dễ giải thích lý do không gặp mặt trực tiếp và hay đi công tác xa.\n\n3. **Xây dựng tình cảm nhanh và sâu (\"love bombing\")** – Nhắn tin hằng ngày, nói lời yêu thương, vẽ ra tương lai chung chỉ sau thời gian ngắn quen biết — đây là kỹ thuật thao túng tâm lý để nạn nhân mất cảnh giác trước khi bị moi tiền.\n\n4. **Luôn từ chối video call bằng lý do kỹ thuật** – Mất mạng, hỏng điện thoại... liên tục lặp lại là dấu hiệu gần như chắc chắn 100% rằng người đó không phải là người trong ảnh.\n\n5. **Chuỗi lý do xin tiền leo thang** – \"Phí ký hợp đồng\" rồi đến \"phí hải quan cho gói quà\" là mô-típ rất quen thuộc: khi nạn nhân đã chuyển tiền lần 1, kẻ lừa đảo biết nạn nhân đã \"đầu tư\" cảm xúc và tiền bạc nên sẽ tiếp tục bịa thêm lý do để moi thêm.\n\n6. **Tài khoản ngân hàng nhận tiền không trùng tên \"Marcus\"** – Đây cũng là dấu hiệu rất điển hình; kẻ lừa đảo dùng tài khoản của người khác (thường là tài khoản thuê, mua, hoặc của nạn nhân trung gian bị lừa mở hộ) để tránh bị truy vết trực tiếp.\n\nNói cách khác: không có \"Marcus\" nào cả, không có hợp đồng dầu khí, không có món quà bị giữ ở hải quan. Toàn bộ là một kịch bản được viết sẵn, có thể do một cá nhân hoặc một đường dây thực hiện với nhiều nạn nhân cùng lúc.\n\n### Bạn nên làm gì tiếp theo:\n\n**1. Ngừng liên lạc và ngừng chuyển tiền ngay lập tức.** Đừng phản hồi thêm bất kỳ lý do khẩn cấp nào nữa dù có nghe thuyết phục đến đâu — đây là lúc dễ bị dụ chuyển thêm tiền nhất.\n\n**2. Thu thập và lưu lại toàn bộ bằng chứng** trước khi có thể mất quyền truy cập: chụp màn hình toàn bộ đoạn chat, ảnh anh ta gửi, biên lai/sao kê chuyển khoản, số tài khoản và tên \"Nguyễn Văn A\" nhận tiền, thông tin trên profile Bumble.\n\n**3. Trình báo công an càng sớm càng tốt** — trong 24 giờ đầu khả năng phong tỏa tài khoản nhận tiền là cao nhất:\n- Đến trực tiếp công an quận/huyện nơi bạn cư trú, mang CCCD + bằng chứng.\n- Gọi đường dây nóng Bộ Công an: **113** hoặc **0692.345.860** (Cục Cảnh sát Hình sự - C02).\n- Phòng An ninh mạng và phòng chống tội phạm công nghệ cao (A05): **069.219.4053**.\n- Trình báo online qua **canhbao.ncsc.gov.vn** hoặc mục \"Kiến nghị, phản ánh về ANTT\" trên app **VNeID**.\n- Nếu ở TP.HCM: đường dây nóng Công an TP.HCM **08.3864.0508**.\n\n**4. Báo ngân hàng của bạn** về giao dịch để họ ghi nhận, và có thể liên hệ ngân hàng nhận tiền để yêu cầu hỗ trợ tra soát/phong tỏa (dù khả năng lấy lại tiền không cao vì tiền thường được chuyển đi rất nhanh).\n\n**5. Báo cáo và chặn tài khoản trên Bumble**, đồng thời có thể tìm kiếm ngược ảnh đại diện (Google reverse image search) để xem có nạn nhân khác đã cảnh báo về hồ sơ này chưa.\n\n**6. Đừng tự trách mình quá nhiều.** Đây là hình thức thao túng tâm lý được thiết kế chuyên nghiệp, đánh vào cảm xúc thật của con người — không phải vì bạn \"nhẹ dạ\". Nhiều người thông minh, cẩn thận vẫn là nạn nhân của loại lừa đảo này. Nếu cần, hãy chia sẻ với người thân/bạn bè để có chỗ dựa tinh thần trong lúc xử lý việc trình báo.\n\nBạn có muốn mình giúp soạn sẵn một mẫu đơn trình báo công an (liệt kê đầy đủ diễn biến sự việc, số tiền, thông tin đối tượng) để bạn nộp cho nhanh không?",
+  "sources": [],
+  "latency_ms": 0
+}

@@ -1,0 +1,25 @@
+{
+  "case_id": "benign-delivery_real-07",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "yellow",
+    "red_flags": [
+      "Tên đơn vị vận chuyển 'ABC Express' chung chung, không xác định được là đơn vị cụ thể nào",
+      "Mã vận đơn VD123456789 có thể chỉ là ví dụ, không phải mã thật"
+    ],
+    "matched_patterns": [
+      "Giả mạo đơn vị chuyển phát để dụ nạn nhân truy cập liên kết giả mạo hoặc chuyển tiền"
+    ],
+    "recommended_actions": [
+      "Kiểm tra xem có đơn hàng nào đang chờ giao hay không",
+      "Nếu tài xế gọi, chỉ xác nhận thông tin cần thiết để nhận hàng, không chuyển tiền ngoài khoản COD đã biết trước",
+      "Coi là rất đáng nghi nếu sau đó bị yêu cầu bấm link, cài ứng dụng, nhập OTP/thông tin ngân hàng, hoặc trả phí giữ hàng/xác minh/giao lại"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "**Đánh giá:** **Chưa có đủ dấu hiệu để kết luận đây là lừa đảo.** Nhiều khả năng đây chỉ là một tin nhắn thông báo giao hàng thông thường.\n\nCác điểm khiến tin nhắn trông **bình thường**:\n\n* Chỉ thông báo thời gian giao hàng và mã vận đơn.\n* Không có đường link.\n* Không yêu cầu bấm vào website, cài ứng dụng hoặc gọi đến số lạ.\n* Không yêu cầu cung cấp OTP, thông tin ngân hàng hay thanh toán trước.\n\nTuy nhiên, vẫn có một số điểm cần lưu ý:\n\n* Tên \"ABC Express\" khá chung chung và không xác định được là một đơn vị vận chuyển cụ thể.\n* Mã vận đơn `VD123456789` có thể chỉ là ví dụ hoặc không phải mã thật.\n* Nếu bạn **không hề đặt hàng** hoặc không chờ nhận bưu kiện nào, thì nên thận trọng.\n\n**Bạn nên làm gì tiếp theo?**\n\n1. Kiểm tra xem bạn có đơn hàng nào đang chờ giao hay không.\n2. Nếu tài xế gọi, chỉ xác nhận các thông tin cần thiết để nhận hàng.\n3. Không chuyển tiền ngoài khoản COD mà bạn đã biết trước.\n4. Nếu sau đó bạn nhận được tin nhắn hoặc cuộc gọi yêu cầu:\n\n   * bấm vào một đường link,\n   * cài ứng dụng,\n   * nhập OTP hoặc thông tin ngân hàng,\n   * trả \"phí giữ hàng\", \"phí xác minh\", \"phí giao lại\",\n\n   thì đó là dấu hiệu rất đáng nghi của một vụ lừa đảo. Các cơ quan và doanh nghiệp đã nhiều lần cảnh báo về hình thức giả mạo đơn vị chuyển phát để dụ nạn nhân truy cập liên kết giả mạo hoặc chuyển tiền. ([Khoa Học & Công Nghệ][1])\n\n**Kết luận:** Với đúng nội dung bạn cung cấp, **không có đủ dấu hiệu để kết luận là lừa đảo**. Đây là một thông báo giao hàng thông thường. Chỉ cần cảnh giác nếu sau đó xuất hiện yêu cầu nhấp vào liên kết, cung cấp thông tin nhạy cảm hoặc chuyển tiền bất thường.\n\n[1]: https://mst.gov.vn/canh-bao-hanh-vi-mao-danh-buu-tanhan-vien-ems-de-lua-dao-khach-hang-197154228.htm?utm_source=chatgpt.com \"Cảnh báo hành vi mạo danh bưu tá/nhân viên EMS để lừa đảo khách hàng - Cổng Thông tin điện tử Bộ Khoa học và Công nghệ\"",
+  "sources": [
+    "https://mst.gov.vn/canh-bao-hanh-vi-mao-danh-buu-tanhan-vien-ems-de-lua-dao-khach-hang-197154228.htm?utm_source=chatgpt.com"
+  ],
+  "latency_ms": 0
+}

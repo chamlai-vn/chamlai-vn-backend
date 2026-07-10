@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-loan_scam-02",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận đúng (red), phủ đủ 4 ý chính: mạo danh công ty tài chính, lãi suất bất thường thấp, phí xác minh trước, ngân hàng 'TechBank' lạ",
+      "Pattern khớp đúng loại (đòi phí trước) — giá trị truy hồi",
+      "Khuyến nghị kiểm tra mã số thuế/giấy phép, gọi hotline chính thức xác minh",
+      "Súc tích"
+    ],
+    "weaknesses": [
+      "Không ghi nhận người dùng đã làm đúng (gọi xác minh, chặn số)",
+      "Không chỉ rõ 'VietCredit Pro' là giả mạo thương hiệu VietCredit thật",
+      "Không nêu kênh trình báo cụ thể"
+    ],
+    "reasoning": "Chính xác và đủ ý, khuyến nghị hợp lý. Thiếu điểm nhận diện thương hiệu giả và yếu tố động viên.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Chỉ rõ 'VietCredit Pro' là giả mạo thương hiệu VietCredit thật (Tín Việt), trích khẳng định của chính VietCredit về không thu phí trước giải ngân",
+      "Xác nhận 'TechBank' không tồn tại, 890k nằm đúng khung phí lừa đảo",
+      "Ghi nhận người dùng đã xử lý đúng, nhắc kiểm tra thông tin cá nhân đã lộ chưa",
+      "Cung cấp đường dây nóng 069.219.4053"
+    ],
+    "weaknesses": [
+      "Rất dài, định dạng nặng",
+      "Một số đoạn lặp ý"
+    ],
+    "reasoning": "Vượt trội nhờ nhận diện chính xác thương hiệu thật/giả và trích dẫn khẳng định của công ty — giá trị tra cứu web rõ rệt. Điểm trừ là độ dài.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

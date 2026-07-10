@@ -1,0 +1,29 @@
+{
+  "case_id": "benign-sms_bank_real-09",
+  "rag_verdict": {
+    "strengths": [
+      "Mức 'yellow' và khuyến nghị đúng cốt lõi: không gọi số trong tin, tự tra số chính thức, kiểm tra qua app, không cung cấp OTP"
+    ],
+    "weaknesses": [
+      "Pattern khớp gán 'recovery_scam/impersonation_authority' hơi lệch cho một cảnh báo giao dịch",
+      "Không nêu điểm mấu chốt: tin không nêu tên ngân hàng nên không thể biết 19008888 có chính thức không",
+      "Phân tích khá mỏng"
+    ],
+    "reasoning": "Khuyến nghị an toàn đúng nhưng pattern khớp lệch và bỏ lỡ điểm 'không rõ tên ngân hàng'.",
+    "score": 7.5
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Chỉ ra điểm then chốt: tin không nêu tên ngân hàng nên không thể xác định 19008888 có chính thức không",
+      "Hiệu chỉnh 'trung bình' hợp lý, hướng dẫn tự mở app kiểm tra và tra số chính thức",
+      "Có nguồn cảnh báo giả mạo SMS ngân hàng"
+    ],
+    "weaknesses": [
+      "Dài"
+    ],
+    "reasoning": "Nhỉnh hơn nhờ bắt đúng điểm 'không rõ tên ngân hàng' và hiệu chỉnh rủi ro hợp lý.",
+    "score": 8
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-impersonation_authority-05",
+  "rag_verdict": {
+    "strengths": [
+      "Trả lời trực tiếp câu hỏi cốt lõi: tuyệt đối không cung cấp OTP",
+      "Kết luận đúng (red), phủ đủ ý chính: giả danh cảnh sát kinh tế, xác minh qua app giả, mục tiêu lấy OTP, số điện thoại lạ",
+      "Nhận ra dấu hiệu số +84 spoofing",
+      "Súc tích, phù hợp câu hỏi ngắn"
+    ],
+    "weaknesses": [
+      "Không nêu app 'VNeID Pro' là giả (không tồn tại) một cách dứt khoát",
+      "Không cung cấp tổng đài chính thức để đối chiếu",
+      "Không giải thích hậu quả nếu OTP bị lộ"
+    ],
+    "reasoning": "Trả lời đúng và trực diện câu hỏi về OTP, bao quát ý chính, gọn gàng. Thiếu khẳng định app giả và kênh đối chiếu.",
+    "score": 7.5
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Trả lời dứt khoát ngay tiêu đề: TUYỆT ĐỐI KHÔNG cung cấp OTP",
+      "Khẳng định 'VNeID Pro' là giả, nêu tổng đài chính thức 1900.0368",
+      "Giải thích chuỗi: app giả → chiếm thiết bị → lấy OTP → mất tiền, có ví dụ nạn nhân thực",
+      "Bảng hành động và nhánh xử lý nếu đã lỡ làm"
+    ],
+    "weaknesses": [
+      "Dài so với một câu hỏi ngắn chỉ hỏi về OTP",
+      "Nhiều đoạn trích cảnh báo lặp ý, định dạng nặng"
+    ],
+    "reasoning": "Trả lời trực diện, chính xác và cung cấp mốc đối chiếu cụ thể. Điểm trừ là độ dài so với câu hỏi.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

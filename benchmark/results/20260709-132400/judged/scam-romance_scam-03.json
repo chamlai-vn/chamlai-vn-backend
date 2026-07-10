@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-romance_scam-03",
+  "rag_verdict": {
+    "strengths": [
+      "Nhận diện đúng nạn nhân đã mất 5 triệu và tập trung khắc phục",
+      "Phủ đủ 4 ý chính: giả danh Việt kiều làm dầu khí, né gặp mặt, xin phí 'xác minh' cho giao dịch 15 tỷ, đòi thêm khi có 'vấn đề'",
+      "Khuyến nghị liên hệ Vietcombank phong tỏa tài khoản nhận (1029384756), lưu bằng chứng, trấn an tâm lý",
+      "Bao quát"
+    ],
+    "weaknesses": [
+      "Pattern khớp gán 'Recovery scam' hơi lệch (đây là romance/advance-fee)",
+      "Không cung cấp kênh trình báo/đường dây nóng cụ thể",
+      "Không giải thích logic phi lý của 'nộp phí để giúp người khác chuyển tiền'"
+    ],
+    "reasoning": "Chính xác và phủ đủ ý chính với khuyến nghị khắc phục cụ thể. Trừ điểm vì pattern khớp lệch và thiếu giải thích logic advance-fee.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Giải thích rõ logic phi lý của 'nộp phí xác minh giúp chuyển tiền' (advance-fee fraud)",
+      "Dẫn cảnh báo công an về mô hình 'gửi quà + phí hải quan', cung cấp nhiều kênh trình báo (069.219.4053, 1800.1031, canhbao.ncsc.gov.vn)",
+      "Hỗ trợ tâm lý sâu sắc, khen nạn nhân dừng kịp thời",
+      "Phân tích 6 dấu hiệu mạch lạc"
+    ],
+    "weaknesses": [
+      "Không có nguồn web trích dẫn (sources=0)",
+      "Dài"
+    ],
+    "reasoning": "Toàn diện, giải thích logic advance-fee, kênh trình báo cụ thể và hỗ trợ tâm lý tốt. Điểm trừ là độ dài.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

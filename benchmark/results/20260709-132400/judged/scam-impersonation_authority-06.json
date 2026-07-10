@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-impersonation_authority-06",
+  "rag_verdict": {
+    "strengths": [
+      "Nhận diện đúng đây là nạn nhân đã chuyển 45 triệu và tập trung vào bước khắc phục — đúng nhu cầu cấp thiết",
+      "Khuyến nghị hành động cụ thể, có dữ kiện: liên hệ Vietcombank khóa tài khoản nhận, đổi mật khẩu, kiểm tra toàn bộ lịch sử giao dịch",
+      "Bao quát đủ 5 ý chính, chỉ rõ 'Quỹ Bảo vệ Công dân' và website giả",
+      "Nhắc gỡ VNeID giả nếu đã cài"
+    ],
+    "weaknesses": [
+      "Không nêu đường dây nóng công an/cục cảnh sát cụ thể",
+      "Không cảnh báo nguy cơ 'bị lừa lần hai' (dịch vụ lấy lại tiền giả) — rủi ro lớn với nạn nhân đã mất tiền",
+      "Không nhắc mốc thời gian phong tỏa tài khoản theo quy định"
+    ],
+    "reasoning": "Đúng trọng tâm khắc phục cho nạn nhân đã mất tiền, khuyến nghị cụ thể và có dữ kiện. Thiếu cảnh báo lừa lần hai và kênh trình báo cụ thể.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Hướng dẫn khắc phục xuất sắc theo thứ tự ưu tiên: gọi hotline ngân hàng phong tỏa, trình báo công an, thu thập bằng chứng, bảo mật tài khoản",
+      "Có căn cứ pháp lý (Nghị định 52/2024 phong tỏa trong 24h, Điều 174 BLHS) và số hotline cụ thể",
+      "Cảnh báo rõ nguy cơ 'mất tiền lần hai', danh mục bằng chứng cần chuẩn bị chi tiết",
+      "Trấn an nạn nhân không tự trách, nhấn mạnh hành động nhanh"
+    ],
+    "weaknesses": [
+      "Rất dài, nhiều tiểu mục",
+      "Một số số hotline nêu ra cần người dùng tự kiểm chứng lại"
+    ],
+    "reasoning": "Đây là câu trả lời khắc phục hậu quả gần như toàn diện: quy trình ưu tiên, căn cứ pháp lý, cảnh báo lừa lần hai và trấn an. Rất phù hợp với nạn nhân đã mất tiền.",
+    "score": 9
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

@@ -1,0 +1,30 @@
+{
+  "case_id": "scam-package_delivery-01",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Yêu cầu click vào đường link lạ (ghtk-vnpay.click) không phải từ ứng dụng/website chính thức",
+      "Mạo danh GHTK (công ty giao hàng uy tín)",
+      "Yêu cầu thanh toán phí qua link thay vì COD hoặc ứng dụng chính thức",
+      "Tạo áp lực thời gian: hạn chót 24h, đe dọa hủy bưu kiện",
+      "Số điện thoại liên hệ (0888.456.789) không phải hotline chính thức của GHTK",
+      "Lý do thanh toán (người gửi không trả tiền COD) là gợi ý cấp độ tin tưởng nhất định",
+      "Đường link chứa tên miền giả mạo (ghtk-vnpay.click)"
+    ],
+    "matched_patterns": [
+      "Giả danh shipper/bưu điện, dụ dỗ cài ứng dụng lạ để chiếm quyền truy cập tài khoản ngân hàng (mẫu 2)",
+      "Mạo danh shipper gọi điện yêu cầu chuyển khoản thanh toán đơn hàng không thật (mẫu 4)",
+      "Giả danh shipper lừa đảo qua cuộc gọi và đường link dụ dỗ (mẫu 5)"
+    ],
+    "recommended_actions": [
+      "Tuyệt đối không click vào đường link ghtk-vnpay.click hoặc bất kỳ link lạ nào được gửi qua tin nhắn",
+      "Truy cập ứng dụng GHTK chính thức hoặc website ghtk.com.vn để kiểm tra thông tin bưu kiện và trạng thái thanh toán",
+      "Gọi hotline chính thức của GHTK: 1900.1906 để xác minh thông tin thanh toán (không gọi số 0888.456.789)",
+      "Nếu có phí thanh toán, yêu cầu giao hàng COD và chỉ thanh toán trực tiếp khi nhận được hàng thật",
+      "Báo cáo tin nhắn này cho GHTK và cơ quan chứng thực/CATP để cảnh báo chiêu trò lừa đảo"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 8362
+}

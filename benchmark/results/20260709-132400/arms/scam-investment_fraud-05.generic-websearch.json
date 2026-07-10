@@ -1,0 +1,62 @@
+{
+  "case_id": "scam-investment_fraud-05",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Làm quen qua mạng xã hội (Facebook), giả danh chuyên gia 15 năm kinh nghiệm với chứng chỉ và bằng cấp giả ('Trần Hoàng Phú')",
+      "Nhóm Telegram 'Gold Investment Club 2024' với các thành viên ảo (sanfang) đăng ảnh lợi nhuận giả 5–12 triệu để tạo lòng tin và kích thích lòng tham",
+      "Ứng dụng 'FXPro Global' (domain fxproglobal-vn.online) giả mạo thương hiệu FxPro chính hãng, dùng đuôi .online không chính thống",
+      "Lợi nhuận ảo được bơm lên (hiển thị 6,8 triệu) do hệ thống giả mạo tự tạo ra, không kết nối sàn giao dịch thật",
+      "Chuyển tiền vào tài khoản cá nhân/công ty ma ('Công ty TNHH Dream Capital', Techcombank 1027-482-9156)",
+      "Yêu cầu nạp thêm tiền (3 triệu) với lý do 'giải phóng quỹ' để được rút tiền — bẫy cuối cùng trước khi biến mất",
+      "Mất liên lạc sau khi chiếm đoạt đủ tiền"
+    ],
+    "matched_patterns": [
+      "Lừa đảo đầu tư Forex/Gold",
+      "Giả danh chuyên gia tài chính",
+      "Nhóm đầu tư ảo với thành viên giả (sanfang)",
+      "Giả mạo thương hiệu sàn giao dịch uy tín",
+      "Bẫy nạp thêm tiền để rút tiền (phí/thuế/giải phóng quỹ)"
+    ],
+    "recommended_actions": [
+      "Dừng ngay, không chuyển thêm bất kỳ khoản tiền nào dù bất kỳ lý do gì (thuế, phí, giải phóng quỹ, xác minh...)",
+      "Thu thập và lưu giữ toàn bộ bằng chứng: chụp màn hình tin nhắn với Trần Hoàng Phú (Facebook, Telegram), nhóm Gold Investment Club 2024, ứng dụng FXPro Global, lịch sử chuyển khoản sang Techcombank 1027-482-9156, số điện thoại 0936.447.281",
+      "Trình báo công an ngay tại Công an phường/xã nơi cư trú hoặc Phòng Cảnh sát hình sự Công an tỉnh/thành phố, mang theo toàn bộ bằng chứng",
+      "Liên hệ tổng đài Techcombank (1800 588 822) để báo cáo số tài khoản lừa đảo, hỗ trợ điều tra và phong tỏa tài khoản",
+      "Cảnh báo người thân và bạn bè về vụ lừa đảo để tránh thêm nạn nhân"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 ĐÂY LÀ LỪA ĐẢO 100% — Không có gì để nghi ngờ!\n\nTình huống bạn mô tả là một vụ **lừa đảo đầu tư Forex/Gold điển hình**, đã được cơ quan công an Việt Nam cảnh báo rất nhiều lần. Mình sẽ phân tích chi tiết từng dấu hiệu để bạn thấy rõ.\n\n---\n\n## 🔍 Phân tích chi tiết các dấu hiệu lừa đảo\n\n### 1. 👤 Làm quen qua mạng xã hội, giả danh chuyên gia\nTội phạm sử dụng các tài khoản giả mạo tham gia vào các hội nhóm trên các trang mạng xã hội (chủ yếu là Facebook) để tiếp cận nạn nhân. Việc \"Trần Hoàng Phú\" tự giới thiệu là chuyên gia 15 năm kinh nghiệm, gửi chứng chỉ và bằng cấp giả là thủ đoạn cổ điển để tạo lòng tin ban đầu.\n\n### 2. 👥 Nhóm Telegram với \"thành viên\" đăng ảnh lợi nhuận giả\nCác đối tượng tạo ra các khách hàng giả (thường gọi là \"sanfang\"), tham gia cùng nhóm với khách hàng thật, tương tác với nạn nhân, khoe được lợi nhuận cao, tỏ ra chia sẻ, giúp đỡ để tạo lòng tin và kích thích lòng tham. Đây chính xác là những \"thành viên\" đăng ảnh lãi 5-12 triệu mà bạn mô tả.\n\nTừ nhật ký trò chuyện trong nhóm, hầu hết các thành viên trong nhóm đều là những kẻ lừa đảo gửi hình ảnh và tin nhắn gây hiểu lầm cho thấy \"các giao dịch và phần thưởng thành công\".\n\n### 3. 📱 Ứng dụng \"FXPro Global\" — Giả mạo thương hiệu thật\nCác domain như \"FXPro.vn\", \"fxpro-trade.com\" hay \"FX-Pro Global\" là những trang web hoàn toàn không liên quan đến FxPro chính hãng tại fxpro.com. Kẻ gian cố tình đặt tên gần giống để lợi dụng uy tín thương hiệu, khiến nạn nhân bị lừa rồi đổ lỗi cho FxPro thật.\n\nDomain `fxproglobal-vn.online` là dấu hiệu đỏ rõ ràng — sàn thật dùng domain chính thống, **không bao giờ dùng đuôi `.online`** với tên ghép kiểu này.\n\n### 4. 💰 Lợi nhuận ảo được bơm lên để kích thích nạp tiền\n\"Tất cả các hoạt động của người dùng đều chỉ diễn ra trên hệ thống giả mạo, không có kết nối gì với các sàn giao dịch thật. Các đối tượng lừa đảo có thể dễ dàng tăng giảm giá trị để tạo ra lãi giả cho tài khoản của người dùng. Từ đó kích thích lòng tham và lừa nạn nhân nạp thêm tiền vào hệ thống giả mạo này.\"\n\nĐây là lý do tại sao ứng dụng hiển thị lợi nhuận 6,8 triệu — con số đó hoàn toàn **do chúng bịa ra**.\n\n### 5. 🏦 Chuyển tiền vào tài khoản cá nhân/công ty ma\nCác nạn nhân được các đối tượng gửi hình ảnh các giấy tờ pháp lý giả mạo như: các loại giấy chứng nhận thành lập quỹ đầu tư, giấy phép hoạt động kinh doanh công ty chứng khoán, tài khoản nhận tiền đầu tư là tài khoản tên công ty. \"Công ty TNHH Dream Capital\" trên Techcombank rất có thể là công ty ma được lập ra để nhận tiền phi pháp.\n\n### 6. 🪤 \"Nạp thêm để giải phóng quỹ\" — Bẫy cuối cùng\nKhi nạn nhân yêu cầu rút tiền thì không rút được vì phải nộp thêm tiền. Tuy nhiên, khi nạn nhân nạp thêm tiền, chúng lấy lý do khác nhau để không cho rút. Đến khi nạn nhân không còn khả năng tài chính, chúng sẽ xóa liên lạc, đánh sập website và chiếm đoạt tiền.\n\nLời khuyên xương máu: Không bao giờ nạp thêm tiền để được rút tiền. Đó là cái bẫy cuối cùng để vặt nốt những đồng xu lẻ của nạn nhân trước khi sàn \"bốc hơi\".\n\n### 7. ⚖️ Góc độ pháp lý\nPháp luật Việt Nam có quy định cấm các cá nhân đầu tư ngoại hối, tiền ảo, cổ phiếu quốc tế. Ngân hàng Nhà nước cũng chưa cấp phép cho bất kỳ tổ chức, cá nhân nào kinh doanh sàn giao dịch Forex. Vì vậy, bất kỳ ai tham gia các sàn giao dịch không chính thống, không được cơ quan nhà nước cấp phép thì rất khó được pháp luật bảo vệ.\n\n---\n\n## ✅ Minh bạn cần làm ngay bây giờ\n\n### Bước 1: DỪNG NGAY, không chuyển thêm bất kỳ đồng nào\nDù chúng có đưa ra lý do gì (thuế, phí, giải phóng quỹ, xác minh...) — **tất cả đều là bẫy tiếp theo**.\n\n### Bước 2: Thu thập và lưu giữ toàn bộ bằng chứng\nChụp màn hình tất cả:\n- Tin nhắn với \"Trần Hoàng Phú\" (Facebook, Telegram)\n- Nhóm \"Gold Investment Club 2024\"\n- Ứng dụng FXPro Global (số dư ảo, lịch sử giao dịch)\n- Lịch sử chuyển khoản ngân hàng sang tài khoản Techcombank 1027-482-9156\n- Số điện thoại 0936.447.281\n\n### Bước 3: Trình báo công an ngay lập tức\nKhi nhận thấy có dấu hiệu hay bị lừa đảo, người dân tuyệt đối không giấu thông tin mà cần đến cơ quan công an trình báo để được giải quyết theo quy định của pháp luật.\n\nMinh nên đến **Công an phường/xã nơi cư trú** hoặc **Phòng Cảnh sát hình sự Công an tỉnh/thành phố** để trình báo. Mang theo toàn bộ bằng chứng đã lưu.\n\n### Bước 4: Liên hệ ngân hàng\nGọi ngay tổng đài **Techcombank (1800 588 822)** để báo cáo số tài khoản lừa đảo. Dù khó lấy lại tiền, ngân hàng có thể hỗ trợ điều tra và phong tỏa tài khoản nhận tiền.\n\n### Bước 5: Cảnh báo người thân, bạn bè\nChia sẻ câu chuyện của Minh để những người xung quanh không bị sập bẫy tương tự.\n\n---\n\n## 📌 Tóm lại\n\n| Dấu hiệu | Tình huống của Minh |\n|---|---|\n| Làm quen qua mạng, giả chuyên gia | ✅ Trần Hoàng Phú, chứng chỉ giả |\n| Nhóm Telegram với thành viên ảo | ✅ Gold Investment Club 2024 |\n| App giả mạo thương hiệu thật | ✅ fxproglobal-vn.online |\n| Lợi nhuận ảo để dụ nạp thêm | ✅ Hiển thị 6.8 triệu giả |\n| Yêu cầu nạp thêm để rút tiền | ✅ \"Giải phóng quỹ\" 3 triệu |\n| Mất liên lạc sau khi chiếm đủ tiền | ✅ Đã xảy ra |\n\n**Tổng thiệt hại của Minh: ít nhất 25 triệu đồng.** Khả năng lấy lại tiền rất thấp nhưng trình báo công an sớm sẽ giúp tăng cơ hội và ngăn nhiều người khác bị lừa. Hãy động viên Minh dũng cảm trình báo nhé!",
+  "sources": [
+    "https://congan.dongthap.gov.vn/en/chi-tiet-bai-viet/-/asset_publisher/wbj7qfWZntAi/content/id/19473257",
+    "https://www.fastbull.com/vn/brokersview/news/ti%E1%BA%BFt-l%E1%BB%99-v%E1%BB%81-fxtm-global-online-trading-m%E1%BB%99t-nh%C3%B3m-%C4%91%E1%BA%A7u-t%C6%B0-l%E1%BB%ABa-%C4%91%E1%BA%A3o-tr%C3%AAn-telegram-233860",
+    "https://congan.dongthap.gov.vn/en/chi-tiet-bai-viet/-/asset_publisher/wbj7qfWZntAi/content/id/7147949",
+    "https://adpia.vn/vach-tran-cac-hinh-thuc-lua-dao-qua-telegram.html",
+    "https://dantri.com.vn/cong-nghe/telegram-vung-dat-mau-mo-cho-lua-dao-co-bac-va-mai-dam-tai-viet-nam-20250523155257808.htm",
+    "https://cafef.vn/nhung-cu-lua-tien-ty-mat-trang-gia-san-tren-telegram-chi-sau-1-tin-nhan-la-cong-an-lien-tuc-dua-ra-khuyen-cao-188250524080108506.chn",
+    "https://baophapluat.vn/canh-giac-thu-doan-lua-dao-tu-cac-san-chung-khoan-san-forex-ma-tren-mang-post516415.html",
+    "https://tuoitre.vn/lai-mat-tien-ti-voi-forex-20231115081546707.htm",
+    "https://suckhoedoisong.vn/nhung-cu-lua-tien-ty-tren-telegram-khi-gai-goi-va-dau-tu-tai-chinh-la-cai-bay-16925051011422261.htm",
+    "https://tuoitre.vn/mat-600-trieu-vi-tin-vao-nhom-dau-tu-tren-telegram-20250111165155029.htm",
+    "https://stockspeedy.com/san-giao-dich/danh-gia-san-fxpro/",
+    "https://ecattrade.com/review/fxpro",
+    "https://www.wikifx.com/en/dealer/0001892535.html",
+    "https://thebrokers.com/news/fxpro-lua-dao",
+    "https://www.fastbull.com/vn/brokersview/complaint/fxpro-is-a-scam-broker-please-do-not-be-fooled-1379",
+    "https://pam.net.vn/san-fxpro-co-uy-tin-khong-fxpro-lua-dao-thuc-hu-the-nao-25308",
+    "https://kenhsinhvien.vn/t/san-fxpro-lua-dao-khong.820304/",
+    "https://itigtrader.com/fxpro/",
+    "https://fxp-vn.com/fxpro-lua-dao",
+    "https://www.wikifx.com/vi/newsdetail/202601058454524073.html",
+    "https://hoclamtrader.com/canh-bao-cac-san-forex-lua-dao-cac-san-scam-va-cach-giu-tien-truoc-khi-nghi-den-loi-nhuan/",
+    "https://thuonghieucongluan.com.vn/lat-tay-chieu-tro-lua-dao-dau-tu-san-ngoai-hoi-forex-dung-mang-tien-cho-ke-lua-dao-a168139.html",
+    "https://bocongan.gov.vn/bai-viet/canh-bao-thu-doan-du-do-tham-gia-dau-tu-tai-chinh-san-chung-khoan-tien-ao-tren-khong-gian-mang-d104-t44828",
+    "https://congan.longan.gov.vn/vi/chi-tiet-tin-tuc?Id=123127",
+    "https://congan.hatinh.gov.vn/bai-viet/cong-an-ha-tinh-canh-bao-chieu-thuc-mao-danh-quy-dau-tu-chung-khoan-de-lua-dao_1702536604.caht",
+    "https://www.tinnhanhchungkhoan.vn/ma-tran-nganh-cong-nghiep-lua-dao-tren-mang-bai-3-bay-forex-cho-hon-3-ty-dong-de-lua-25-ty-dong-post340093.html",
+    "https://vtv.vn/phap-luat/triet-pha-duong-day-lua-dao-forex-xuyen-bien-gioi-chiem-doat-hon-1800-ty-dong-20230728110054739.htm"
+  ],
+  "latency_ms": 83158
+}

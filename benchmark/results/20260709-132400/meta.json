@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-07-09T13:34:46Z",
+  "git_sha": "ddc0ea9a44209d541c9b03c699635fa96bddd584",
+  "dataset_hash": "manually-edited-4ca28fb83fa2",
+  "n_cases": 146,
+  "generator_model": "claude-haiku-4-5-20251001",
+  "rag_model": "claude-haiku-4-5-20251001",
+  "rag_top_k": 5,
+  "reranker_enabled": true,
+  "generic_model": "claude-sonnet-4-6",
+  "web_search_max_uses": 4,
+  "judge_model": "claude-opus-4-8",
+  "cross_family_model": "gemini-3.5-flash",
+  "cross_family_n": 20
+}

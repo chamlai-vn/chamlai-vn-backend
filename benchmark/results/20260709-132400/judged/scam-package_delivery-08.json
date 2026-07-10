@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-package_delivery-08",
+  "rag_verdict": {
+    "strengths": [
+      "Nhận diện đúng nạn nhân đã mất 2,8 triệu (lớn hơn phí thông báo 185k) qua web giả lấy tài khoản + OTP",
+      "Phủ đủ 4 ý chính: SMS giả DXP Express, link tinyurl giả, nhập tài khoản + OTP, số tiền rút lớn hơn thông báo",
+      "Khuyến nghị đúng: gọi ngân hàng khóa tài khoản + truy xét, trình báo A05, đổi mật khẩu từ thiết bị khác",
+      "Pattern khớp đúng loại"
+    ],
+    "weaknesses": [
+      "Không cảnh báo nguy cơ 'bị lừa lần hai'",
+      "Không nêu số hotline/đường dây nóng cụ thể",
+      "Không nêu điểm nhận biết đặc trưng: số tiền rút lớn hơn phí báo"
+    ],
+    "reasoning": "Chính xác và phủ đủ ý chính với khuyến nghị khắc phục hợp lý. Thiếu cảnh báo lừa lần hai và kênh cụ thể.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Giải thích cơ chế OTP bị dùng rút tiền trong 5 phút và vì sao số rút lớn hơn phí báo",
+      "Quy trình khắc phục ưu tiên (khóa tài khoản, gọi tổng đài, thu thập bằng chứng, quét mã độc)",
+      "Cảnh báo rõ bước lừa đảo thứ hai (giả 'hỗ trợ hoàn tiền'), nhấn mạnh hành động nhanh",
+      "Bài học nhận biết tin nhắn lừa đảo"
+    ],
+    "weaknesses": [
+      "Rất dài",
+      "Định dạng nặng emoji/tiêu đề"
+    ],
+    "reasoning": "Toàn diện, giải thích cơ chế và quy trình khắc phục kèm cảnh báo lừa lần hai. Điểm trừ là độ dài.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

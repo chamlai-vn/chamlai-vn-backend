@@ -1,0 +1,31 @@
+{
+  "case_id": "scam-vacation_contract-06",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Được 'chọn lọc' đặc biệt để mua dịch vụ - chiêu tactic tạo áp lực tâm lý",
+      "Giá quảng cáo bất thường thấp: 45 triệu thay vì 150 triệu (giảm 70%)",
+      "Yêu cầu chuyển khoản vào tài khoản cá nhân Sacombank, không phải tài khoản công ty chính thức",
+      "Hứa hẹn quyền 'sở hữu suốt đời' - điều kiện không rõ ràng, khó thực hiện",
+      "Liên hệ từ số điện thoại lạ, không có tên công ty chính thức xác minh",
+      "Yêu cầu tải ứng dụng lạ (ResortClub) để quản lý - có thể chứa phần mềm độc hại hoặc lừa",
+      "Đặt cọc nhanh mà không cung cấp hợp đồng, giấy tờ chi tiết"
+    ],
+    "matched_patterns": [
+      "Lừa đảo kinh doanh thẻ kỳ nghỉ, thẻ nghỉ dưỡng – kéo dài chiếm đoạt qua hứa hẹn mua lại, nâng hạng",
+      "Giả mạo công ty du lịch, khách sạn bằng fanpage/website giả, yêu cầu đặt cọc trước qua tài khoản cá nhân"
+    ],
+    "recommended_actions": [
+      "Tuyệt đối không chuyển khoản vào tài khoản cá nhân được cung cấp",
+      "Kiểm tra độc lập công ty 'DreamVacation' trên website chính thức, giấy phép kinh doanh, địa chỉ trụ sở",
+      "Gọi trực tiếp đến số điện thoại chính thức của công ty (nếu tìm được) để xác minh thông tin, không sử dụng số điện thoại có trong tin nhắn",
+      "Không tải ứng dụng 'ResortClub' từ link lạ - có nguy cơ mất dữ liệu hoặc bị fraud",
+      "Yêu cầu xem hợp đồng, các điều khoản chi tiết bằng văn bản trước khi quyết định",
+      "Cảnh giác với lời mời mua gói 'suốt đời' hay 'kỳ nghỉ vĩnh viễn' - những cam kết như vậy rất khó đảm bảo pháp lý",
+      "Báo cáo số điện thoại lừa đảo này cho nhà mạng và cơ quan chức năng"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 9841
+}

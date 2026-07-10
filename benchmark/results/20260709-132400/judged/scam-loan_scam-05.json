@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-loan_scam-05",
+  "rag_verdict": {
+    "strengths": [
+      "Trả lời trực tiếp: KHÔNG chuyển 890k; kết luận đúng (red)",
+      "Phủ đủ 4 ý chính: phí xác minh trước, app FastLoan Pro lạ, thiếu thông tin lãi suất/pháp nhân, số lạ",
+      "Pattern khớp đúng loại loan_scam",
+      "Khuyến nghị tra cứu giấy phép, chỉ vay đơn vị được cấp phép, chặn số"
+    ],
+    "weaknesses": [
+      "Không nêu điểm 'ngân hàng chính thống không gọi chào vay chủ động'",
+      "Không cung cấp kênh trình báo cụ thể",
+      "Định dạng thuần liệt kê"
+    ],
+    "reasoning": "Trả lời dứt khoát và đúng cho câu hỏi ngắn, có pattern khớp. Thiếu vài điểm nhận biết và kênh trình báo.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Nêu 5 dấu hiệu rõ, gồm điểm 'ngân hàng chính thống không gọi chào vay chủ động'",
+      "Đề cập phản ánh thực tế về app FastLoan/FastLoan 365 hoạt động lừa đảo",
+      "Cung cấp nhiều kênh trình báo (069.219.4050, NHNN 1900 545441, Cục ATTT 024.3943.6684), quy tắc vàng",
+      "Động viên người dùng chưa chuyển tiền"
+    ],
+    "weaknesses": [
+      "Dài so với câu hỏi ngắn",
+      "Một số số hotline nêu ra cần người dùng tự kiểm chứng lại"
+    ],
+    "reasoning": "Chi tiết, có điểm nhận biết bổ sung và nhiều kênh trình báo. Điểm trừ là độ dài và vài số cần kiểm chứng.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

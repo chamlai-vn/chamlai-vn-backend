@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-investment_fraud-04",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận đúng (red), phủ đủ 4 ý chính: lợi nhuận 150-200%/tháng, vốn thấp mồi câu, '127 người thành công' giả, bonus giới hạn tạo áp lực",
+      "Pattern khớp đúng loại forex/đầu tư — giá trị truy hồi",
+      "Khuyến nghị đúng: từ chối, không click link, tra NHNN chưa cấp phép, tra Google + 'lừa đảo'",
+      "Nhận diện dấu hiệu 'không cần kinh nghiệm' nhắm người dễ tổn thương"
+    ],
+    "weaknesses": [
+      "Có lỗi đánh máy ('Lô i kéo')",
+      "Không nêu rủi ro pháp lý cho cả người tham gia",
+      "Không cung cấp kênh trình báo cụ thể"
+    ],
+    "reasoning": "Chính xác, phủ đủ ý chính và khuyến nghị hợp lý. Trừ điểm nhẹ vì lỗi đánh máy và thiếu điểm pháp lý.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Phân tích 6 dấu hiệu, nêu rủi ro pháp lý cho cả hai phía (khung phạt tới 20 năm, người chơi cũng bị xử phạt)",
+      "Chỉ rõ link fxprofit-global.vn có thể là phishing, giải thích hệ thống sàn giả",
+      "Bảng hành động rõ ràng, quy tắc vàng về lợi nhuận",
+      "Động viên người dùng đã nghi ngờ đúng"
+    ],
+    "weaknesses": [
+      "Dài, định dạng nặng cho một tin nhắn mời chào",
+      "Gọi 113 để tố cáo hơi chưa chuẩn"
+    ],
+    "reasoning": "Toàn diện, đặc biệt mạnh ở phân tích rủi ro pháp lý hai phía. Điểm trừ là độ dài.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

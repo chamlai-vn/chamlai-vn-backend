@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-recovery_scam-08",
+  "rag_verdict": {
+    "strengths": [
+      "Nhận diện đúng nạn nhân đã bị lừa lần hai qua nhiều khoản phí (500k+800k+600k)",
+      "Phủ đủ 4 ý chính: giả danh 'Trung tâm Hỗ trợ Nạn nhân...', nhiều khoản phí với lý do khác nhau, tận dụng tuyệt vọng, lý do trì hoãn mơ hồ",
+      "Pattern khớp rất mạnh: 4 biến thể recovery_scam",
+      "Khuyến nghị dừng chuyển tiền, lưu bằng chứng, trình báo với thông tin cụ thể"
+    ],
+    "weaknesses": [
+      "Không nhắc liên hệ ngân hàng phong tỏa tài khoản nhận",
+      "Không cung cấp kênh trình báo online cụ thể",
+      "Không có yếu tố trấn an tâm lý (nạn nhân đang tuyệt vọng)"
+    ],
+    "reasoning": "Chính xác, pattern khớp recovery_scam sát và khuyến nghị hợp lý. Thiếu bước liên hệ ngân hàng, kênh trình báo và trấn an.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Dẫn cảnh báo của công an nhiều tỉnh, khẳng định không tồn tại 'Trung tâm...' hoạt động kiểu này",
+      "Nêu nghi vấn kẻ lừa lần một và 'hỗ trợ' cùng nhóm, quy trình khắc phục gồm liên hệ ngân hàng",
+      "Có yếu tố trấn an ('bị lừa không phải là tội'), đường dây 0692 345 860",
+      "Chủ động đề nghị soạn nội dung trình báo"
+    ],
+    "weaknesses": [
+      "Không có nguồn web trích dẫn (sources=0)",
+      "Hơi dài"
+    ],
+    "reasoning": "Toàn diện, có quy trình khắc phục đầy đủ và yếu tố trấn an tâm lý. Trừ điểm nhẹ vì không có nguồn.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

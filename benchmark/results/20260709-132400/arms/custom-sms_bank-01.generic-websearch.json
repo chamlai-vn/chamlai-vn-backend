@@ -1,0 +1,31 @@
+{
+  "case_id": "custom-sms_bank-01",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Tên miền giả mạo: \"vietcom-bank.com.vn\" không phải domain chính thức của Vietcombank (domain thật là vietcombank.com.vn, không có dấu gạch ngang)",
+      "Số điện thoại lạ: \"08 3344 0301\" là số di động/cố định lạ, không phải tổng đài chính thức của Vietcombank (1900 54 54 13)",
+      "Tạo cảm giác khẩn cấp: thông báo \"vừa bị trừ 15 triệu\" nhằm khiến người nhận hoảng loạn và hành động vội vàng",
+      "Người dùng xác nhận không thực hiện giao dịch nào — nếu là thật thì phải thấy biến động qua app/SMS banking chính chủ, không phải qua tin nhắn lạ yêu cầu liên hệ số/link ngoài"
+    ],
+    "matched_patterns": [
+      "Giả mạo ngân hàng (bank impersonation smishing)",
+      "Tên miền giả mạo gần giống thật (typosquatting domain)",
+      "Số điện thoại/hotline giả mạo thay cho tổng đài chính thức",
+      "Tạo áp lực tâm lý bằng thông báo giao dịch bất thường"
+    ],
+    "recommended_actions": [
+      "KHÔNG gọi vào số điện thoại trong tin nhắn, KHÔNG truy cập \"vietcom-bank.com.vn\"",
+      "KHÔNG cung cấp OTP, mật khẩu, số thẻ, CVV cho bất kỳ ai qua điện thoại/tin nhắn",
+      "Mở app Vietcombank chính thức (đã cài từ trước) hoặc gọi tổng đài chính thức 1900 54 54 13 để kiểm tra số dư/giao dịch thực tế",
+      "Có thể ra trực tiếp phòng giao dịch gần nhất nếu muốn chắc chắn hơn",
+      "Xóa tin nhắn này và báo cáo/chặn số gửi tin",
+      "Nhắc người thân, đặc biệt người lớn tuổi, cảnh giác với chiêu lừa đảo này"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "Đây gần như chắc chắn là **tin nhắn lừa đảo (phishing/smishing)**. Dưới đây là lý do:\n\n## Dấu hiệu lừa đảo rõ ràng\n\n1. **Tên miền giả mạo**: \"vietcom-bank.com.vn\" **không phải** domain chính thức của Vietcombank. Ngân hàng Vietcombank chỉ dùng domain **vietcombank.com.vn** (không có dấu gạch ngang). Đây là kỹ thuật rất phổ biến: chèn thêm dấu gạch ngang hoặc chữ để đánh lừa người đọc lướt qua.\n\n2. **Số điện thoại lạ**: Ngân hàng thật không bao giờ yêu cầu bạn gọi vào một số điện thoại di động/cố định lạ ghi trong tin nhắn SMS. Các ngân hàng dùng tổng đài chính thức (ví dụ Vietcombank là 1900 54 54 13), không phải số như \"08 3344 0301\".\n\n3. **Tạo cảm giác khẩn cấp**: Thông báo \"vừa bị trừ 15 triệu\" là chiêu kinh điển để khiến bạn hoảng loạn, mất bình tĩnh và hành động vội vàng mà không kiểm tra kỹ — đây là yếu tố tâm lý cốt lõi của lừa đảo.\n\n4. **Không thực hiện giao dịch nào**: Bạn xác nhận mình không giao dịch gì, vậy nếu đây là thật thì bạn sẽ thấy có biến động trong app/SMS banking chính chủ — không phải qua một tin nhắn lạ kèm link/số điện thoại yêu cầu bạn liên hệ.\n\n## Mục đích của kẻ lừa đảo\n\nNếu bạn gọi số đó hoặc truy cập link giả, kẻ gian sẽ:\n- Giả danh nhân viên ngân hàng, yêu cầu bạn cung cấp **mã OTP, số thẻ, mật khẩu Internet Banking**\n- Hoặc dẫn bạn đến trang web giả để nhập thông tin đăng nhập → chiếm đoạt tài khoản thật của bạn\n\n## Bạn nên làm gì\n\n- ❌ **Không** gọi vào số điện thoại trong tin nhắn, **không** bấm vào link \"vietcom-bank.com.vn\"\n- ❌ **Không** cung cấp OTP, mật khẩu, số thẻ, CVV cho bất kỳ ai qua điện thoại/tin nhắn\n- ✅ Mở **app Vietcombank chính thức** (đã cài từ trước) hoặc gọi tổng đài chính thức **1900 54 54 13** để kiểm tra số dư/giao dịch thực tế\n- ✅ Nếu muốn chắc chắn hơn, có thể ra trực tiếp phòng giao dịch gần nhất\n- ✅ Xóa tin nhắn này, và có thể báo cáo/chặn số gửi tin\n- ✅ Nhắc người thân, đặc biệt người lớn tuổi, cảnh giác với chiêu này vì nó rất phổ biến hiện nay\n\nTóm lại: bạn **không bị hack**, đây chỉ là tin nhắn giả mạo nhằm lừa bạn tự giao thông tin nhạy cảm. Cứ yên tâm kiểm tra qua kênh chính thức là được.",
+  "sources": [],
+  "latency_ms": 0
+}

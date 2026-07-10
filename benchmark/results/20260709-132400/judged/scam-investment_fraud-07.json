@@ -1,0 +1,33 @@
+{
+  "case_id": "scam-investment_fraud-07",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận đúng (red), phủ đủ 4 ý chính: tài khoản hack mời vào nhóm, app TradeMax Pro giả, nạp 2tr rồi đòi thêm, ảnh lợi nhuận chỉnh sửa",
+      "Pattern khớp đúng loại đầu tư/forex, gồm cả biến thể 'giả người quen'",
+      "Khuyến nghị đổi mật khẩu tài khoản MXH (đúng vì có yếu tố hack), lưu bằng chứng, báo công an"
+    ],
+    "weaknesses": [
+      "Có câu khuyến nghị garbled ('Yêu cầu ngân hàng khóa tài khoản nếu lô thay đổi số điện thoại')",
+      "Thêm dấu hiệu 'Tổ chức MLM ẩn' không thực sự có trong tình huống — suy diễn thừa",
+      "Không cảnh báo nguy cơ 'bị lừa lần hai'"
+    ],
+    "reasoning": "Phủ đủ ý chính và đúng bản chất, nhưng có một câu garbled và một dấu hiệu suy diễn thừa làm giảm chất lượng — trừ điểm.",
+    "score": 7.5
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Rất toàn diện (26 nguồn), giải thích chiếm tài khoản làm mồi, USDT khó truy vết",
+      "Hướng dẫn tố giác qua VNeID (chức năng 'Tố giác tội phạm'), căn cứ Điều 174",
+      "Nhắc báo cho anh Minh biết bị hack, cảnh báo 'bị lừa lần hai'",
+      "Đánh giá thực tế khả năng thu hồi tiền"
+    ],
+    "weaknesses": [
+      "Rất dài",
+      "Định dạng nặng"
+    ],
+    "reasoning": "Toàn diện, có kênh tố giác hiện đại (VNeID), căn cứ pháp lý và cảnh báo lừa lần hai. Điểm trừ là độ dài.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

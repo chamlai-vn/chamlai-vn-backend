@@ -1,0 +1,27 @@
+{
+  "case_id": "scam-impersonation_service-07",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Gọi từ số điện thoại lạ, không phải đường dây chính thức của EVN",
+      "Yêu cầu thanh toán gấp, tạo áp lực bằng đe dọa cắt điện",
+      "Gửi link thanh toán thông qua tin nhắn thay vì hướng dẫn sử dụng kênh chính thức",
+      "Số tiền nợ cụ thể được nêu ra để tạo độ tin cậy giả",
+      "Không yêu cầu xác minh thông tin hoặc kiểm tra hoá đơn chính thức trước"
+    ],
+    "matched_patterns": [
+      "impersonation_authority",
+      "impersonation_service"
+    ],
+    "recommended_actions": [
+      "Không bấm vào link trong tin nhắn, đây là dấu hiệu lừa đảo điển hình",
+      "Kiểm tra hoá đơn tiền điện qua ứng dụng chính thức EVN HCMC hoặc website chính thức trước",
+      "Gọi trực tiếp tổng đài điện lực TP.HCM (không phải số trong tin nhắn) để xác minh thông tin nợ",
+      "Nếu thực sự nợ tiền, thanh toán chỉ qua các kênh chính thức: internet banking, mobile banking, ví điện tử (Momo, ZaloPay) hoặc cổng thanh toán EVN",
+      "Báo cáo số điện thoại lừa đảo (0378.XXXX.91) cho cơ quan chức năng hoặc công ty điện lực"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 6094
+}

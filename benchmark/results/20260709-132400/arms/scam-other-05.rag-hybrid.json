@@ -1,0 +1,31 @@
+{
+  "case_id": "scam-other-05",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Cuộc gọi từ số điện thoại lạ (+84 935 667 891)",
+      "Thông báo trúng thưởng bất ngờ khi chưa tham gia bất kỳ cuộc thi nào",
+      "Yêu cầu xác minh thông tin cá nhân để nhận giải",
+      "Hướng dẫn cài đặt ứng dụng lạ (VietAtech Pro) từ liên kết được gửi qua SMS, không phải từ App Store chính thức",
+      "Yêu cầu đăng nhập tài khoản ngân hàng trên ứng dụng không rõ nguồn gốc",
+      "Ứng dụng giả mạo được thiết kế để đánh cắp thông tin tài khoản ngân hàng",
+      "Hacker chiếm quyền kiểm soát SIM (SIM ghép) sau khi cài đặt ứng dụng độc hại",
+      "Thực hiện chuyển khoản trôi trái phép từ tài khoản nạn nhân",
+      "Kẻ lừa tắt máy và mất tích sau khi gây thiệt hại"
+    ],
+    "matched_patterns": [
+      "prize_gift",
+      "impersonation_authority"
+    ],
+    "recommended_actions": [
+      "Luôn cảnh báo với những cuộc gọi hoặc tin nhắn thông báo trúng thưởng từ những số điện thoại không rõ nguồn gốc, đặc biệt là khi chưa tham gia cuộc thi nào",
+      "Không bao giờ cài đặt ứng dụng từ liên kết được gửi qua tin nhắn hoặc email - chỉ tải ứng dụng chính thức từ Google Play Store hoặc Apple App Store sau khi kiểm tra xuất xứ",
+      "Tuyệt đối không đăng nhập tài khoản ngân hàng trên các ứng dụng lạ hoặc không được công nhân chính thức",
+      "Khi có nghi ngờ về cuộc gọi khoanh vùng là nhân viên công ty, hãy chủ động gọi lại số điện thoại chính thức của công ty đó để xác minh danh tính trước",
+      "Nếu phát hiện bị lừa, hãy ngay lập tức liên hệ với ngân hàng để khoá tài khoản, khiếu nại giao dịch và báo công an để điều tra"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 7234
+}

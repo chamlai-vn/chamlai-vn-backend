@@ -1,0 +1,54 @@
+{
+  "case_id": "scam-other-06",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Yêu cầu đóng phí 450.000đ 'phí đăng ký kiểm chứng chuyên môn' trước khi được nhận việc",
+      "Bẫy leo thang: sau khi nộp 450.000đ, tiếp tục yêu cầu thêm 1.800.000đ để 'upgrade tài khoản'",
+      "Mức lương không thực tế: 20–25 triệu/tháng cho vị trí tư vấn bán hàng online, bắt đầu ngay trong 3 ngày",
+      "Tiếp cận nạn nhân thông qua thông tin CV để lại trên các trang tuyển dụng, giả mạo công ty tuyển dụng",
+      "Yêu cầu chuyển tiền vào tài khoản cá nhân (Nguyễn Văn Tùng) thay vì tài khoản doanh nghiệp",
+      "Vị trí tư vấn bán hàng online – hình thức dụ dỗ phổ biến, ít kinh nghiệm, tuyển dụng online không cần gặp mặt"
+    ],
+    "matched_patterns": [
+      "Lừa đảo tuyển dụng thu phí trước",
+      "Bẫy nâng cấp tài khoản leo thang",
+      "Mức lương quá cao không thực tế",
+      "Giả mạo công ty tuyển dụng qua thông tin CV",
+      "Thu phí qua tài khoản ngân hàng cá nhân",
+      "Lừa đảo tuyển dụng bán hàng online"
+    ],
+    "recommended_actions": [
+      "KHÔNG chuyển tiền dù chỉ 450.000đ – một khi chuyển, tiền sẽ mất",
+      "KHÔNG cung cấp thêm thông tin cá nhân: CMND, tài khoản ngân hàng, mã OTP",
+      "Xác minh công ty: tìm trên Google, tra cứu mã số thuế, gọi điện đến số chính thức",
+      "Báo cáo lừa đảo cho Cơ quan Công an gần nhất hoặc qua đường dây 113",
+      "Cảnh báo bạn bè và người thân để họ tránh bẫy tương tự"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## 🚨 ĐÂY LÀ LỪA ĐẢO – TUYỆT ĐỐI KHÔNG CHUYỂN TIỀN!\n\nTin nhắn bạn nhận được có **hầu hết các dấu hiệu đặc trưng của lừa đảo tuyển dụng** tại Việt Nam. Dưới đây là phân tích chi tiết:\n\n---\n\n### ❌ CÁC DẤU HIỆU LỪA ĐẢO RÕ RÀNG\n\n#### 1. 💸 Yêu cầu đóng phí trước khi được nhận việc\nHầu hết các nhà tuyển dụng uy tín **không thu phí** hoặc yêu cầu ứng viên đặt cọc, giữ chỗ dưới bất kỳ hình thức nào. Đây là hình thức lừa đảo **đặc trưng nhất** mà người tìm việc cần nhận biết.\n\nTin nhắn này yêu cầu bạn nộp **450.000đ \"phí đăng ký kiểm chứng chuyên môn\"** – đây là chiêu bài điển hình.\n\n#### 2. 🪤 Bẫy \"nâng cấp tài khoản\" leo thang\nMột trong những chiêu trò phổ biến là yêu cầu ứng viên nộp tiền để tham gia thi tuyển, mua tài liệu hoặc đóng phí không rõ ràng, sau đó **tiếp tục yêu cầu thêm các khoản tiền khác** rồi biến mất.\n\nĐúng như vậy: sau khi bạn nộp 450.000đ, họ lập tức yêu cầu **thêm 1.800.000đ** để \"upgrade tài khoản\" – đây là bẫy leo thang kinh điển.\n\n#### 3. 💰 Mức lương \"trên trời\" không thực tế\nKhi thấy một công việc có **mức lương quá cao so với công sức bỏ ra**, người tìm việc cần cân nhắc kỹ và tham khảo ý kiến của người có kinh nghiệm.\n\nLương 20–25 triệu/tháng cho vị trí \"tư vấn bán hàng online\" **bắt đầu ngay trong 3 ngày** là quá bất thường.\n\n#### 4. 🎭 Chiêu lấy thông tin từ CV rồi tiếp cận\nCác đối tượng có thể dễ dàng tìm kiếm thông tin người dân để lại trên các trang tuyển dụng, sau đó giả mạo công ty tuyển dụng. **Người dân chỉ cần thiếu cảnh giác, không kiểm tra lại thông tin tuyển dụng thì có thể dính bẫy** và làm theo yêu cầu của các đối tượng lừa đảo.\n\n#### 5. 🏦 Tài khoản ngân hàng cá nhân – không phải tài khoản doanh nghiệp\nSau khi nạn nhân ứng tuyển, các đối tượng yêu cầu phỏng vấn online rồi **yêu cầu đóng các khoản phí, tiền đặt cọc**. Tuy nhiên, sau khi nhận được tiền, các \"nhà tuyển dụng ma\" lập tức **khóa, chặn mọi thông tin liên lạc và biến mất**.\n\nTài khoản chuyển tiền là **cá nhân (Nguyễn Văn Tùng)** – không có công ty nào uy tín nhận phí qua tài khoản cá nhân.\n\n#### 6. 📦 Vị trí \"tư vấn bán hàng online\" – bẫy phổ biến\n\"Bán hàng online là một trong các hình thức **'dụ dỗ' phổ biến** hiện nay vì công việc này đòi hỏi ít kinh nghiệm và có thể tuyển dụng online mà không cần gặp mặt trực tiếp.\"\n\n---\n\n### ✅ BẠN CẦN LÀM GÌ NGAY BÂY GIỜ?\n\n| Hành động | Chi tiết |\n|---|---|\n| 🚫 **KHÔNG chuyển tiền** | Dù chỉ 450.000đ – một khi chuyển, tiền sẽ mất |\n| 🚫 **KHÔNG cung cấp thêm thông tin** | CMND, tài khoản ngân hàng, mã OTP |\n| 🔍 **Xác minh công ty** | Tìm trên Google, tra cứu mã số thuế, gọi điện đến số chính thức |\n| 🚨 **Báo cáo lừa đảo** | Báo cho Cơ quan Công an gần nhất hoặc qua đường dây 113 |\n| 📢 **Cảnh báo người khác** | Chia sẻ với bạn bè, người thân để họ tránh bẫy tương tự |\n\nTuyệt đối **KHÔNG chuyển tiền** hay đóng bất kỳ khoản phí nào trong quá trình tuyển dụng. Đồng thời **KHÔNG cung cấp** bản scan giấy tờ tùy thân, thông tin tài khoản ngân hàng, mật khẩu hoặc mã OTP cho bất kỳ ai.\n\n---\n\n\u003e 💡 **Nguyên tắc vàng:** Mọi công ty tuyển dụng **hợp pháp** đều **KHÔNG BAO GIỜ** thu phí của ứng viên. Nếu họ cần bạn, họ sẽ trả tiền cho bạn – không phải ngược lại!",
+  "sources": [
+    "https://baochinhphu.vn/lua-dao-tuyen-dung-truc-tuyen-bay-tinh-vi-nham-vao-nguoi-tim-viec-1022509300917299.htm",
+    "https://nld.com.vn/canh-giac-bay-lua-viec-lam-truc-tuyen-196250221213606116.htm",
+    "https://careerviet.vn/vi/talentcommunity/cach-nhan-biet-cac-hinh-thuc-lua-dao-qua-tin-tuyen-dung-cho-nguoi-tim-viec.35A51E0C.html",
+    "https://www.vietnam.vn/canh-giac-voi-loat-chieu-tro-lua-dao-tuyen-dung-truc-tuyen",
+    "https://vtv.vn/phap-luat/canh-giac-truoc-nhung-man-kich-lua-dao-tuyen-dung-viec-lam-20241208195804548.htm",
+    "https://laodongthudo.vn/tuyen-dung-viec-lam-tran-lan-tren-mang-xa-hoi-viec-ao-nhung-lua-dao-that-178473.html",
+    "https://vnexpress.net/cach-nhan-biet-lua-dao-tuyen-dung-truc-tuyen-4768859.html",
+    "https://vneconomy.vn/muon-danh-doanh-nghiep-lon-de-lua-dao-tuyen-dung-qua-mang-xa-hoi.htm",
+    "https://vnvc.vn/tin-tuc-hoat-dong/canh-bao-gia-mao-tuyen-dung-vnvc/",
+    "https://congan.camau.gov.vn/ch26/1123-Canh-giac-voi-cac-phuong-thuc-thu-doan-lua-dao-tuyen-dung-viec-lam-tren-mang-xa-hoi.mhtml",
+    "https://tuyendung.topcv.vn/bai-viet/laphong-chong-lua-dao-qua-mang-trong-tuyen-dung/",
+    "https://vnexpress.net/sap-bay-lua-cua-nha-tuyen-dung-vip-tren-trang-tim-kiem-viec-lam-4720025.html",
+    "https://tuoitre.vn/xuat-hien-chieu-tro-lua-dao-tuyen-dung-lao-dong-cong-nghe-cao-20241112003151381.htm",
+    "https://www.cake.me/resources/job-searching-guide/lua-dao-tuyen-dung",
+    "https://careers.langgo.edu.vn/5-dau-hieu-nhan-biet-cong-ty-tranh-bay-tuyen-dung-ban-nen-biet",
+    "https://vieclam24h.vn/nghe-nghiep/la-ban-su-nghiep/4-loai-tuyen-dung-lua-dao-vao-cuoi-nam",
+    "https://hrchannels.com/topjob-vietnam-28105-cpn",
+    "https://lamdong.gov.vn/sites/congan/tintuc/anninhtrattu/SitePages/Canh-giac-truoc-cac-thu-doan-lua-dao-Viec-lam-online-thu-nhap-cao.aspx",
+    "https://www.topcv.vn/cong-ty/topjob-vietnam/122274.html"
+  ],
+  "latency_ms": 53603
+}

@@ -1,0 +1,25 @@
+{
+  "case_id": "scam-tech_fraud-02",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Khớp kịch bản deepfake giả mạo người thân qua video call — kẻ gian chiếm tài khoản Facebook/Zalo, lấy ảnh/video/giọng nói có sẵn rồi dùng AI dựng cuộc gọi giả",
+      "Yếu tố \"khẩn cấp + ở nước ngoài\" tạo áp lực tâm lý khiến nạn nhân không kịp xác minh",
+      "Mâu thuẫn logic bị phát hiện (người được mạo danh thực tế đang ở nhà) — điểm hở kinh điển của loại lừa đảo này",
+      "Đúng mô hình đang bùng phát mạnh ở Việt Nam: giả mạo người thân/cán bộ cơ quan nhà nước bằng AI/deepfake để lừa chuyển tiền khẩn cấp"
+    ],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Kiểm tra tài khoản Facebook/Zalo của người bị mạo danh — rất có thể đã bị hack, cần đổi mật khẩu và bật xác thực 2 lớp ngay",
+      "Không xóa cuộc gọi/tin nhắn/số điện thoại lạ — lưu lại làm bằng chứng",
+      "Trình báo công an phường/xã nơi cư trú dù chưa mất tiền, để công an nắm và cảnh báo cộng đồng",
+      "Nhắc cả nhà, đặc biệt người lớn tuổi: khi nhận cuộc gọi video \"người thân\" xin tiền gấp, luôn cúp máy và gọi lại số quen thuộc để xác minh trước",
+      "Hạn chế công khai quá nhiều ảnh/video/thông tin cá nhân trên mạng xã hội để tránh bị thu thập dữ liệu tạo deepfake"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## Đây chính xác là lừa đảo — và em gái bạn đã xử lý rất đúng\n\nTình huống này khớp 100% với một hình thức lừa đảo đang bùng phát mạnh ở Việt Nam gần đây: **giả mạo người thân bằng deepfake video call để lừa chuyển tiền gấp**. Đây không phải nghi ngờ, mà gần như chắc chắn là lừa đảo, dựa trên các dấu hiệu:\n\n### Vì sao chắc chắn là lừa đảo\n\n- **Kịch bản kinh điển**: kẻ gian trước đó thường đã chiếm được tài khoản Facebook/Zalo của người bị mạo danh (ở đây là mẹ của em gái bạn), lấy ảnh và các đoạn video/ghi âm giọng nói có sẵn, rồi dùng AI deepfake để dựng cuộc gọi video giả. Deepfake là một công nghệ AI có khả năng làm giả video với hình ảnh và giọng nói của một người khác, kịch bản lừa đảo diễn ra như: kẻ lừa đảo tìm cách chiếm đoạt tài khoản Zalo, Facebook của người dùng, tiếp đó thu thập hình ảnh và dùng Deepfake tạo ra đoạn video mạo danh.\n- **Yếu tố \"khẩn cấp + ở nước ngoài\"**: đây là chiêu tạo áp lực tâm lý kinh điển, khiến nạn nhân không kịp bình tĩnh suy nghĩ hay xác minh. Phần lớn hình thức lừa đảo trực tuyến này nhắm tới việc lừa đảo tài chính, nên khi người dân nhận được các cuộc gọi liên quan đến các nội dung về tài chính thì nên tỉnh táo xác nhận thêm.\n- **Mâu thuẫn logic** mà em gái bạn phát hiện ra (mẹ nói ở nhà cả ngày) chính là điểm hở kinh điển của loại lừa đảo này — công an nhiều địa phương ghi nhận rất nhiều vụ tương tự trên cả nước gần đây. Ngày càng nhiều kẻ xấu đang lợi dụng công nghệ AI, Deepfake để giả mạo người thân, cán bộ cơ quan nhà nước nhằm lừa đảo chiếm đoạt tài sản, thậm chí gần đây các ngân hàng cũng đồng loạt cảnh báo một hình thức khác là mạo danh người thân để vay tiền khẩn cấp.\n\nĐiều em gái bạn làm — **gọi trực tiếp cho mẹ qua số điện thoại quen thuộc để xác minh trước khi chuyển tiền** — chính xác là bước quan trọng nhất mà công an và ngân hàng khuyến cáo. Nếu người dân nhận được một cuộc gọi yêu cầu chuyển tiền gấp, trước tiên hãy bình tĩnh và xác minh thông tin: liên lạc trực tiếp với người thân, bạn bè thông qua một kênh khác xem có đúng là họ cần tiền không. Bạn nên khen ngợi em vì đã rất tỉnh táo trong tình huống áp lực này.\n\n### Bạn nên làm gì tiếp theo\n\n1. **Kiểm tra tài khoản Facebook/Zalo của mẹ** — rất có thể đã bị hack, cần đổi mật khẩu, bật xác thực 2 lớp ngay.\n2. **Không xóa** cuộc gọi/tin nhắn/số điện thoại lạ đó — lưu lại làm bằng chứng.\n3. **Trình báo công an phường/xã** nơi gia đình cư trú, vì đây là hành vi lừa đảo có tổ chức, dù chưa mất tiền cũng nên báo để công an nắm và cảnh báo cộng đồng.\n4. **Nhắc cả nhà, đặc biệt người lớn tuổi**, về chiêu này: nếu nhận cuộc gọi video \"người thân\" xin tiền gấp, luôn **cúp máy và gọi lại số điện thoại quen thuộc** để xác minh, tuyệt đối không chuyển tiền chỉ vì \"thấy mặt, nghe giọng giống\".\n5. Nếu tài khoản mạng xã hội gia đình có nhiều ảnh/video công khai, cân nhắc giới hạn chia sẻ công khai hơn vì đây là nguồn dữ liệu để kẻ gian dựng deepfake. Cơ quan công an đề nghị người dùng mạng xã hội hạn chế công khai quá nhiều hình ảnh, video và thông tin cá nhân để tránh bị thu thập dữ liệu phục vụ việc tạo nội dung giả mạo bằng AI.\n\nMay mắn là lần này không có thiệt hại gì — nhưng đây là lời cảnh báo tốt để cả gia đình đề phòng cho lần sau.",
+  "sources": [],
+  "latency_ms": 0
+}

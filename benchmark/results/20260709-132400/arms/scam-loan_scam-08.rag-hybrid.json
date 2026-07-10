@@ -1,0 +1,31 @@
+{
+  "case_id": "scam-loan_scam-08",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Mạo danh ngân hàng (Techbank) qua tin nhắn SMS",
+      "Lãi suất ưu đãi bất thường (0% trong 3 tháng)",
+      "Link giả được cung cấp để tải ứng dụng",
+      "Ứng dụng giả mạo giao diện ngân hàng thật (FastLoan Express)",
+      "Yêu cầu cung cấp CMND, ảnh selfie, thông tin tài khoản ngân hàng",
+      "Yêu cầu chuyển tiền \"phí xác minh danh tính\" trước khi giải ngân",
+      "Hứa hẹn giải ngân nhanh chóng (2 tiếng) để tạo sự tin tưởng",
+      "Liên tiếp yêu cầu chuyển thêm phí sau khi chuyển lần đầu (phí bảo hiểm)"
+    ],
+    "matched_patterns": [
+      "Mạo danh ngân hàng, công ty tài chính cho vay trực tuyến để lừa đảo",
+      "Lừa đảo vay tiền qua app giả mạo công ty tài chính, yêu cầu nộp phạt trước"
+    ],
+    "recommended_actions": [
+      "Báo cáo lừa đảo ngay cho cơ quan công an địa phương với các bằng chứng (tin nhắn SMS, số điện thoại, tài khoản nhận tiền, ảnh chụp ứng dụng giả)",
+      "Liên hệ ngân hàng Techbank chính thức (qua số hotline chính thức trên website chính thức) để cảnh báo tài khoản bị sử dụng để nhận tiền lừa đảo",
+      "Kiểm tra tài khoản ngân hàng cá nhân để phát hiện bất kỳ giao dịch bất thường nào",
+      "Lưu ý với người thân, bạn bè về cuộc lừa đảo này để tránh trường hợp tương tự",
+      "Cân nhắc thay đổi mật khẩu, PIN tài khoản ngân hàng vì đã cung cấp thông tin nhạy cảm cho kẻ lừa",
+      "Giám sát chặt chẽ hoạt động tài khoản ngân hàng và tài khoản mạng xã hội để phát hiện lạm dụng"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 10210
+}

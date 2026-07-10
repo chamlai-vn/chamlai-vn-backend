@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-impersonation_service-08",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận đúng (red), phủ đủ 4 ý chính: giả danh Viettel, cớ hoạt động bất thường ở nước ngoài, đòi OTP + quyền truy cập, urgency 30 phút",
+      "Bắt được chi tiết giọng lạ/phát âm sai tên công ty như dấu hiệu",
+      "Khuyến nghị chủ động gọi tổng đài chính thức, không cung cấp OTP, ra cửa hàng chính thức",
+      "Đầy đủ, đúng trọng tâm"
+    ],
+    "weaknesses": [
+      "Không ghi nhận việc người dùng đã xử lý đúng (cúp máy, gọi hotline 100)",
+      "Không nêu số tổng đài Viettel cụ thể",
+      "Pattern khớp hợp lý nhưng không thêm bước hành động mới"
+    ],
+    "reasoning": "Bao quát và chính xác, khuyến nghị hợp lý. Thiếu yếu tố động viên và hotline cụ thể.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Ghi nhận và khen người dùng đã xử lý đúng bằng bảng đánh giá từng hành động",
+      "Khẳng định nhân viên Viettel không hỏi OTP qua điện thoại, giải thích chiêu tạo áp lực 30 phút",
+      "Có bước tiếp theo (báo công an, đổi mật khẩu, liên hệ ngân hàng) và nhắc ra cửa hàng để xử lý SIM",
+      "Nguyên tắc chốt: OTP qua điện thoại luôn là lừa đảo"
+    ],
+    "weaknesses": [
+      "Dài, một số đoạn trích cảnh báo lặp ý",
+      "Định dạng nặng"
+    ],
+    "reasoning": "Toàn diện, động viên hành vi đúng và có bước tiếp theo rõ ràng. Điểm trừ là độ dài.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

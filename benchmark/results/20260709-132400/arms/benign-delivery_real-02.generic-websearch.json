@@ -1,0 +1,22 @@
+{
+  "case_id": "benign-delivery_real-02",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "green",
+    "red_flags": [],
+    "matched_patterns": [
+      "Link dẫn đúng tên miền chính thức của đơn vị vận chuyển (track.ghn.vn) và khớp thông tin đơn hàng thật"
+    ],
+    "recommended_actions": [
+      "Không cần thực hiện hành động đặc biệt, chỉ theo dõi đơn hàng bình thường",
+      "Nếu muốn chắc chắn hơn, tự mở app Shopee hoặc trang tra cứu chính thức của GHN thay vì qua link trong SMS",
+      "Cảnh giác nếu sau này có yêu cầu thanh toán phí, nhập OTP hoặc thông tin ngân hàng"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "**Kết luận:** **Không có dấu hiệu là lừa đảo.** Mức độ tin cậy: **Cao**.\n\n**Lý do:**\n\n* Nội dung SMS phù hợp với bối cảnh: Linh thực sự có một đơn hàng trên Shopee được đặt khoảng 5 ngày trước.\n* Khi nhấn vào liên kết, trang được mở là **Track.ghn.vn**, được mô tả là trang theo dõi chính thức của GHN, và hiển thị đúng thông tin đơn hàng cùng lịch sử vận chuyển. GHN cũng có trang tra cứu vận đơn chính thức và dịch vụ theo dõi đơn hàng. ([GHN.VN Giao Hàng Nhanh][1])\n* Không có dấu hiệu thường gặp của các vụ lừa đảo chuyển phát như:\n\n  * Yêu cầu thanh toán \"phí giao hàng\", \"phí hải quan\" hoặc \"phí xác minh\".\n  * Yêu cầu nhập mật khẩu, mã OTP hoặc thông tin thẻ ngân hàng.\n  * Dẫn đến tên miền giả mạo gần giống tên miền chính thức.\n\n**Lưu ý:**\n\n* SMS được gửi từ một số điện thoại thông thường (+84938xxxx) không tự động đồng nghĩa với lừa đảo. Nhiều đơn vị vận chuyển hoặc đối tác gửi tin nhắn từ các đầu số khác nhau.\n* Điều quan trọng là **liên kết dẫn đến đúng tên miền chính thức** và nội dung hiển thị khớp với đơn hàng thực tế.\n\n**Bạn nên làm gì tiếp theo:**\n\n* Không cần thực hiện hành động đặc biệt; chỉ cần theo dõi đơn hàng như bình thường.\n* Nếu vẫn muốn chắc chắn hơn, có thể tự mở ứng dụng Shopee hoặc truy cập trực tiếp trang tra cứu của GHN (không thông qua SMS) để đối chiếu mã vận đơn.\n* Tiếp tục cảnh giác với các tin nhắn giao hàng trong tương lai: nếu có yêu cầu thanh toán bất thường, nhập OTP hoặc thông tin ngân hàng, hãy coi đó là dấu hiệu đáng nghi.\n\n[1]: https://ghn.vn/blogs/trang-thai-don-hang?utm_source=chatgpt.com \"Tra mã vận đơn - Theo dõi đơn hàng | Giao Hàng Nhanh – GHN.VN Giao Hàng Nhanh\"",
+  "sources": [
+    "https://ghn.vn/blogs/trang-thai-don-hang?utm_source=chatgpt.com"
+  ],
+  "latency_ms": 0
+}

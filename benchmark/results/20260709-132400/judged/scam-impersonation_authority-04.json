@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-impersonation_authority-04",
+  "rag_verdict": {
+    "strengths": [
+      "Kết luận đúng (red), phủ đủ 4 ý chính: giả danh công an, app eGate_Security giả giao diện ngân hàng, lấy PIN/OTP/VNeID, yêu cầu chuyển 45 triệu 'tài khoản tạm giữ'",
+      "Chỉ rõ 'tài khoản tạm giữ để được miễn tội' là lý do không hợp lệ",
+      "Khuyến nghị đầy đủ và khuyên trực tiếp em trai không nghe theo",
+      "Súc tích, đúng trọng tâm"
+    ],
+    "weaknesses": [
+      "Không ghi nhận việc em trai đã sáng suốt gọi hỏi trước",
+      "Không có nhánh xử lý nếu đã lỡ cài app",
+      "Không cung cấp đường dây nóng trình báo cụ thể"
+    ],
+    "reasoning": "Chính xác, bao quát và có lời khuyên trực tiếp. Thiếu nhánh xử lý-nếu-đã-cài và yếu tố động viên.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Rất chi tiết, giải thích cơ chế app chiếm quyền, đánh cắp OTP và dữ liệu sinh trắc học",
+      "Có nhánh nếu-đã-cài (tắt máy, khóa tài khoản, factory reset) và nếu-chưa-cài rõ ràng",
+      "Cung cấp kênh trình báo cụ thể (A05/PA05), hướng dẫn thu thập bằng chứng",
+      "Ghi nhận em trai đã sáng suốt dừng lại; bảng dấu hiệu Thật/Giả dễ nhớ"
+    ],
+    "weaknesses": [
+      "Rất dài, nhiều đoạn trích dẫn cảnh báo lặp ý",
+      "Định dạng nặng emoji/bảng"
+    ],
+    "reasoning": "Toàn diện, xử lý cả hai nhánh, có kênh trình báo và động viên hành vi đúng. Điểm trừ là độ dài và độ lặp.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

@@ -1,0 +1,37 @@
+{
+  "case_id": "scam-fake_job-05",
+  "rag_verdict": {
+    "strengths": [
+      "Bao quát đầy đủ 4 ý chính: tiền upfront, lương cao bất hợp lý, lợi nhuận nhanh đáng ngờ, link/Zalo không chính thức",
+      "Danh sách dấu hiệu cảnh báo rõ ràng, súc tích, dễ đọc",
+      "Khuyến nghị thực tế và hành động cụ thể: kiểm tra công ty qua kênh chính thức, không nhấp link, yêu cầu hợp đồng lao động, không cung cấp OTP/CCCD",
+      "Có phần 'chiêu trò đã biết' giúp người đọc nhận diện mô hình lừa đảo",
+      "Không bịa số liệu hay dẫn chứng giả"
+    ],
+    "weaknesses": [
+      "Không giải thích cơ chế 'bẫy leo thang' — hoàn tiền giai đoạn đầu để tạo lòng tin rồi chiếm đoạt",
+      "Không đề cập kênh báo cáo cơ quan chức năng cụ thể (chỉ nói báo cho Zalo/Facebook)",
+      "Trình bày hơi khô, thiếu phần cảnh báo mạnh mẽ về hậu quả tài chính"
+    ],
+    "reasoning": "Câu trả lời A chính xác, súc tích, bao quát đầy đủ các ý chính và đưa ra khuyến nghị hành động thiết thực. Không có thông tin bịa đặt. Điểm trừ nhỏ là thiếu giải thích cơ chế leo thang và kênh báo cáo chính thức.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Bao quát đầy đủ 4 ý chính và phân tích rất chi tiết",
+      "Giải thích cơ chế 'bẫy leo thang' — điểm quan trọng giúp người đọc hiểu bản chất lừa đảo",
+      "Trình bày sinh động, có bảng dấu hiệu đỏ, hướng dẫn hành động cụ thể (gọi 113, chặn báo cáo, chia sẻ)",
+      "Thông điệp ghi nhớ mạnh mẽ, dễ nhớ: 'không công việc hợp pháp nào yêu cầu đóng tiền trước'",
+      "Cảnh báo rõ về rủi ro thông tin cá nhân bị lợi dụng"
+    ],
+    "weaknesses": [
+      "Đưa ra dẫn chứng cụ thể 'nạn nhân mất gần 5 tỷ đồng' và viện dẫn 'Bộ Công an cảnh báo' — có nguy cơ là thông tin bịa/không kiểm chứng, giảm độ tin cậy",
+      "Gọi 113 chưa hoàn toàn phù hợp (113 là cấp cứu khẩn cấp, tố giác lừa đảo mạng nên qua kênh chuyên biệt) — lời khuyên hơi chưa chính xác",
+      "Hơi dài dòng, nhiều emoji có thể gây rối với một số người đọc"
+    ],
+    "reasoning": "Câu trả lời B rất chi tiết, giải thích tốt cơ chế lừa đảo và có hướng dẫn hành động phong phú. Tuy nhiên việc đưa số liệu cụ thể (5 tỷ) và viện dẫn cơ quan mà không có nguồn xác thực làm giảm độ tin cậy, và lời khuyên gọi 113 chưa thật chuẩn xác. Dù vậy giá trị giáo dục vẫn cao.",
+    "score": 8
+  },
+  "preferred": "tie",
+  "order_consistent": false
+}

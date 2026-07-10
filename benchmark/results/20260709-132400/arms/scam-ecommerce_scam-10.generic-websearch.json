@@ -1,0 +1,53 @@
+{
+  "case_id": "scam-ecommerce_scam-10",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Giá tour rẻ bất thường, chỉ bằng 60% giá thị trường",
+      "Website có giao diện đẹp nhưng sử dụng tên miền lạ (.shop) — cụ thể là traveljoy-vn.shop",
+      "Đánh giá 5 sao giả, được tạo bởi các tài khoản ảo trên Facebook/Zalo",
+      "Yêu cầu đặt cọc 30–50% giá trị tour qua chuyển khoản",
+      "Phát sinh thêm phí không báo trước (phí bảo hiểm 500k) sau khi đã chuyển tiền lần đầu",
+      "Chuyển sang app chat khác (Zalo/Messenger) để tránh lưu chứng cứ",
+      "Website sập, số điện thoại tắt, Facebook bị xóa sau khi nạn nhân chuyển tiền"
+    ],
+    "matched_patterns": [
+      "Lừa đảo tour du lịch giá rẻ",
+      "Yêu cầu đặt cọc để chiếm đoạt tiền",
+      "Website giả mạo công ty du lịch uy tín",
+      "Đánh giá ảo tăng độ tin cậy",
+      "Phát sinh phí bất ngờ để nhử thêm tiền",
+      "Chặn liên lạc và xóa dấu vết sau khi chiếm đoạt tiền"
+    ],
+    "recommended_actions": [
+      "Trình báo ngay tại Công an phường/xã nơi cư trú, mang theo ảnh chụp màn hình tin nhắn, website, số tài khoản nhận tiền, biên lai giao dịch ngân hàng và số điện thoại kẻ lừa đảo",
+      "Liên hệ ngân hàng ngay để yêu cầu phong tỏa giao dịch hoặc hỗ trợ truy vết tài khoản thụ hưởng",
+      "Báo cáo lên Cổng 1022, Cục An toàn thông tin – Bộ TT\u0026TT (https://khieunai.cac.gov.vn) hoặc trang cảnh báo an toàn thông tin (https://canhbao.ncsc.gov.vn)",
+      "Đăng cảnh báo lên mạng xã hội, chia sẻ số tài khoản lừa đảo, tên miền website và số điện thoại để cộng đồng tránh bị lừa tương tự"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## ✅ KẾT LUẬN: ĐÂY LÀ LỪA ĐẢO 100% — Bạn đã trở thành nạn nhân của một chiêu lừa đảo tour du lịch giả phổ biến tại Việt Nam.\n\n---\n\n## 🔍 Phân tích chi tiết: Tại sao đây là lừa đảo?\n\nTình huống của bạn khớp **hoàn toàn** với các dấu hiệu lừa đảo du lịch được cơ quan chức năng cảnh báo:\n\n### 🚩 Dấu hiệu 1: Giá rẻ bất thường (rẻ hơn 60%)\nCác trang lừa đảo thường quảng cáo ưu đãi \"sốc\", chỉ bằng 60% giá thị trường — đúng như bạn mô tả. Các chuyên gia cảnh báo người dùng nên cảnh giác với các lời quảng cáo giá tour thấp hơn mặt bằng chung quá nhiều, vì các công ty du lịch thường không bán được tour với giá quá thấp vì sẽ bị lỗ.\n\n### 🚩 Dấu hiệu 2: Website giao diện đẹp nhưng tên miền lạ (.shop)\nKẻ gian thường lập các trang web có tên miền gần giống với các công ty du lịch uy tín, chỉ khác một vài ký tự hoặc sử dụng các đuôi miền lạ như .cc, .xyz, .tk. Tên miền `.shop` của trang `traveljoy-vn.shop` là dấu hiệu đỏ rõ ràng.\n\n### 🚩 Dấu hiệu 3: Đánh giá 5 sao giả\nCác đối tượng thường hoạt động trong các hội nhóm trên Facebook, Zalo, sử dụng nhiều tài khoản ảo để \"tung hứng\", đánh giá tốt cho nhau nhằm tăng độ tin cậy.\n\n### 🚩 Dấu hiệu 4: Yêu cầu đặt cọc 30–50%\nThủ đoạn phổ biến là đăng bài quảng cáo bán tour du lịch giá rẻ trên mạng Internet và mạng xã hội, đề nghị nạn nhân chuyển tiền đặt cọc (từ 30–50% giá trị) để đặt cọc tour du lịch, từ đó chiếm đoạt số tiền đặt cọc.\n\n### 🚩 Dấu hiệu 5: Phát sinh thêm phí không báo trước (phí bảo hiểm 500k)\nĐây là chiêu \"nhử thêm tiền\" sau khi nạn nhân đã chuyển khoản lần đầu. Kẻ lừa đảo thường viện cớ thêm các vấn đề phát sinh để yêu cầu chuyển khoản lại, sau đó tiếp tục giăng bẫy hứa hoàn trả để tạo vỏ bọc uy tín và đạo đức.\n\n### 🚩 Dấu hiệu 6: Chuyển sang app chat khác để \"xóa dấu vết\"\nSau khi \"câu\" được khách, chúng nhanh chóng liên hệ qua Zalo hoặc Messenger, tự nhận là nhân viên kinh doanh, quản lý tour để thúc giục đặt cọc sớm. Việc chuyển sang app khác là để tránh bị lưu chứng cứ.\n\n### 🚩 Dấu hiệu 7: Website sập, số điện thoại tắt, Facebook xóa\nSau khi khách hàng chuyển khoản để thanh toán dịch vụ du lịch, các đối tượng sẽ chặn liên lạc và xóa mọi dấu vết. Đây là bước cuối cùng trong kịch bản lừa đảo hoàn chỉnh.\n\n---\n\n## ⚠️ Mức độ nghiêm trọng của vấn nạn này\n\nThống kê từ Hiệp hội An ninh mạng Việt Nam cho thấy, trong năm 2024, lừa đảo trực tuyến đã gây thiệt hại lên tới 18.900 tỷ đồng tại Việt Nam. Bạn không đơn độc — đây là vấn nạn rất phổ biến.\n\n---\n\n## ✅ Bạn cần làm gì NGAY BÂY GIỜ?\n\n### 1. 🚔 Trình báo công an ngay lập tức\nKhi phát hiện dấu hiệu nghi vấn, cần lập tức báo cho Công an địa phương. Hãy đến **Công an phường/xã nơi bạn cư trú** và mang theo:\n- Ảnh chụp màn hình tin nhắn, website, số tài khoản nhận tiền\n- Biên lai/lịch sử giao dịch ngân hàng\n- Số điện thoại của kẻ lừa đảo\n\n### 2. 🏦 Liên hệ ngân hàng của bạn ngay\nYêu cầu ngân hàng **phong tỏa giao dịch** hoặc hỗ trợ truy vết tài khoản thụ hưởng. Dù khả năng lấy lại tiền không cao, nếu bạn phát hiện sớm và báo cáo ngay, cơ hội thu hồi tiền sẽ cao hơn.\n\n### 3. 📱 Báo cáo lên cổng thông tin chính thức\nBạn có thể phản ánh lừa đảo trực tuyến tại:\n- **Cổng 1022** (đường dây hỗ trợ phòng chống lừa đảo)\n- **Cục An toàn thông tin – Bộ TT\u0026TT**: https://khieunai.cac.gov.vn\n- **Trang cảnh báo an toàn thông tin**: https://canhbao.ncsc.gov.vn\n\n### 4. 📢 Cảnh báo cộng đồng\nĐăng cảnh báo lên mạng xã hội, chia sẻ số tài khoản lừa đảo, tên miền website và số điện thoại để người khác không bị sập bẫy tương tự.\n\n---\n\n## 🛡️ Bài học để tránh lừa đảo trong tương lai\n\nChỉ đặt tour, phòng qua các website chính thức của công ty lữ hành, khách sạn có tên tuổi rõ ràng; không tin vào các quảng cáo giá rẻ bất thường; trước khi chuyển tiền cọc, hãy gọi xác nhận trực tiếp đến tổng đài chính thức; tuyệt đối không giao dịch với cá nhân mạo danh yêu cầu chuyển tiền qua tài khoản riêng.\n\nRất tiếc vì bạn đã mất tiền trong tình huống này. Hãy hành động ngay để có cơ hội tốt nhất lấy lại tiền và ngăn chặn kẻ lừa đảo tiếp tục hại người khác! 💪",
+  "sources": [
+    "https://baochinhphu.vn/nhan-biet-thu-doan-lua-dao-dat-tour-du-lich-gia-re-102230711151650138.htm",
+    "https://cand.com.vn/Thi-truong/canh-giac-bay-tour-du-lich-gia-re-dip-nghi-he-i770255",
+    "https://tcdulichtphcm.vn/bi-quyet/than-trong-voi-tour-du-lich-gia-re-c15a52667.html",
+    "https://mongcai.gov.vn/vi-vn/tin/canh-bao-lua-dao-duoi-hinh-thuc-to-chuc-tour-du-lich-p0-c0-n187131",
+    "https://travel.com.vn/du-lich-phu-quoc.aspx",
+    "https://www.luavietours.com/tin-tuc/cac-thu-doan-lua-dao-khi-dat-tour-du-lich-online/",
+    "https://phongcachviettravel.vn/san-pham/tour-phu-quoc-4-dao-grand-world-3n3d/",
+    "https://tour.pro.vn/tour-ha-noi-phu-quoc",
+    "https://vietourist.com.vn/vn",
+    "https://vinaphuquoc.com/lich-trinh-du-lich-phu-quoc-4-ngay-3-dem-moi-nhat-2024-p34",
+    "https://vnexpress.net/dau-hieu-lua-dao-khach-viet-can-biet-khi-dat-tour-tren-mang-4798932.html",
+    "https://tiengiangtourist.vn/cac-cong-ty-du-lich-lua-dao/",
+    "https://vietstock.vn/2026/06/cam-bay-dang-sau-cac-tour-du-lich-he-gia-re-4260-1460201.htm",
+    "https://hatinh.gov.vn/vi/bai-viet/can-trong-chieu-tro-lua-dao-tour-du-lich-tet",
+    "https://laodongthudo.vn/can-trong-voi-lua-dao-dat-tour-du-lich-truc-tuyen-184833.html",
+    "https://vtv.vn/doi-song/canh-giac-voi-chieu-tro-lua-dao-ve-may-bay-tour-du-lich-gia-re-thoi-cong-nghe-20240618161638192.htm",
+    "https://vntravel.org.vn/can-trong-lua-dao-du-lich-truc-tuyen-khi-mon-hoi-hoa-bay-cong-nghe-cao-a6441.html",
+    "https://baotuyenquang.com.vn/xa-hoi/202606/nhan-dien-thu-doan-lua-dao-mua-du-lich-bai-1-nhung-chiec-bay-vo-hinh-mua-du-lich-he-d776fc1/"
+  ],
+  "latency_ms": 75276
+}

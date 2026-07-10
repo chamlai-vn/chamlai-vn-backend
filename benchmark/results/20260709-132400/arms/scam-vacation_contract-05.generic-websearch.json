@@ -1,0 +1,26 @@
+{
+  "case_id": "scam-vacation_contract-05",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Trúng thưởng/ưu đãi bất ngờ qua tin nhắn từ số lạ — chiêu mở màn kinh điển",
+      "Không tồn tại công ty/resort được nêu tên khi tự kiểm tra — bằng chứng rõ ràng nhất",
+      "Dùng app chat không chính thức thay vì kênh giao dịch minh bạch, có pháp lý",
+      "Mô hình \"trả góp nhiều đợt\" rồi phát sinh hàng loạt phí lạ từ nhiều số điện thoại khác nhau — đặc điểm cốt lõi của lừa đảo timeshare",
+      "Khớp mô hình \"sở hữu kỳ nghỉ\" mà công an nhiều tỉnh thành đã triệt phá với thiệt hại hàng nghìn tỷ đồng"
+    ],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Ngừng chuyển thêm bất kỳ khoản tiền nào dù bị dọa mất quyền lợi",
+      "Trình báo công an phường/quận hoặc Phòng An ninh mạng (PA05), cung cấp số điện thoại, tài khoản, ảnh hợp đồng, lịch sử chat",
+      "Lưu giữ toàn bộ bằng chứng: tin nhắn, ghi âm, hợp đồng, biên lai chuyển khoản, tên app",
+      "Liên hệ ngân hàng đã chuyển tiền để báo cáo giao dịch lừa đảo, yêu cầu hỗ trợ phong tỏa nếu còn kịp",
+      "Cảnh báo người thân, bạn bè về chiêu trò này vì dữ liệu nạn nhân thường bị mua bán để tiếp tục lừa người khác"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## Kết luận: Đây chắc chắn là lừa đảo (100%)\n\nCâu chuyện của anh Tuấn khớp gần như tuyệt đối với một dạng lừa đảo đang bùng phát mạnh ở Việt Nam gọi là **lừa đảo \"sở hữu kỳ nghỉ\" (timeshare fraud)** — và đây không phải là suy đoán, mà là mô hình đã được công an nhiều tỉnh thành, bao gồm cả Đà Nẵng, cảnh báo chính thức trong thời gian gần đây.\n\n### Vì sao đây là lừa đảo — các dấu hiệu trùng khớp\n\n1. **Trúng thưởng/ưu đãi bất ngờ qua tin nhắn từ số lạ** — chiêu mở màn kinh điển để tạo cảm giác \"may mắn\", khiến nạn nhân mất cảnh giác.\n2. **Không tồn tại công ty/resort được nêu tên** — anh Tuấn đã tự kiểm tra và xác nhận không có \"Golden Holiday Resort\" hay \"Bất động sản Đại Âu\" nào tồn tại. Đây là bằng chứng rõ ràng nhất.\n3. **Dùng app chat không chính thức (PropertyDeals365)** thay vì kênh giao dịch minh bạch, có pháp lý — mục đích để tránh bị truy vết và tạo \"hợp đồng\" giả trông chuyên nghiệp.\n4. **Mô hình \"trả góp nhiều đợt\" rồi phát sinh hàng loạt phí lạ** (\"phí xác thực\", \"phí thủ tục pháp lý\", \"phí bảo hiểm hợp đồng\"...) từ **nhiều số điện thoại khác nhau** — đây chính là đặc điểm cốt lõi của loại lừa đảo này: khi nạn nhân đã trả tiền đợt 1, kẻ lừa đảo liên tục bịa ra các khoản phí mới để moi thêm tiền, và nếu nạn nhân do dự thì dọa là \"chưa hoàn tất thủ tục\".\n\nTrên thực tế, công an TP Hà Nội gần đây đã triệt phá đường dây gồm **27 công ty** chuyên lừa đảo qua hình thức \"hợp đồng kỳ nghỉ du lịch\", với thiệt hại ước tính **trên 2.700 tỷ đồng**, hàng trăm bị can đã bị khởi tố. Riêng tại Đà Nẵng, chính quyền thành phố cũng đã ra cảnh báo cụ thể về các công ty \"sở hữu kỳ nghỉ\" tư vấn sai sự thật, cam kết lợi nhuận cao rồi không thực hiện đúng hợp đồng — đúng kịch bản anh Tuấn gặp phải.\n\nĐiều đáng lưu ý: mô hình \"sở hữu kỳ nghỉ\" (timeshare) **về bản chất là hợp pháp** và có những công ty uy tín hoạt động đàng hoàng — nhưng kẻ gian thường **giả mạo tên thương hiệu lớn hoặc dựng công ty ma hoàn toàn** để lợi dụng lòng tin, giống hệt trường hợp của anh Tuấn.\n\n### Anh Tuấn nên làm gì tiếp theo\n\n1. **Ngừng chuyển thêm bất kỳ khoản tiền nào** — dù họ có dọa \"mất quyền lợi\" hay \"phải đóng nốt 2 triệu tuần này\". Đây chắc chắn sẽ chỉ là khởi đầu của chuỗi phí phát sinh vô tận.\n2. **Trình báo công an** (công an phường/quận nơi cư trú, hoặc Phòng An ninh mạng và phòng chống tội phạm sử dụng công nghệ cao - PA05 Công an Đà Nẵng/TP nơi anh ở). Cung cấp: số điện thoại đã liên hệ, số tài khoản ngân hàng đã chuyển tiền, ảnh chụp hợp đồng, lịch sử chat trên app.\n3. **Lưu giữ toàn bộ bằng chứng**: tin nhắn, ghi âm cuộc gọi (nếu có), hợp đồng, biên lai chuyển khoản, tên app \"PropertyDeals365\".\n4. **Liên hệ ngân hàng** đã chuyển tiền để báo cáo giao dịch lừa đảo — dù khả năng thu hồi thấp nhưng ngân hàng có thể hỗ trợ phong tỏa tài khoản nhận nếu báo kịp thời.\n5. **Cảnh báo người thân, bạn bè** về chiêu trò này, vì các đối tượng thường mua/bán dữ liệu khách hàng để tiếp tục nhắm vào người khác.\n\nNếu anh Tuấn cần, mình có thể giúp soạn sẵn nội dung đơn trình báo công an hoặc đơn khiếu nại gửi ngân hàng.",
+  "sources": [],
+  "latency_ms": 0
+}

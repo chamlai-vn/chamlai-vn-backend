@@ -1,0 +1,30 @@
+{
+  "case_id": "benign-promo_real-01",
+  "rag_verdict": {
+    "strengths": [
+      "Khuyến nghị an toàn chung đúng: không bấm link lạ, tự mở app Shopee kiểm tra, không cung cấp OTP/mật khẩu"
+    ],
+    "weaknesses": [
+      "Lỗi factual: khẳng định 'shopee.vn không phải domain chính thức' — thực tế shopee.vn LÀ tên miền chính thức của Shopee",
+      "Gán mức 'red' + matched pattern cho một link thuộc tên miền chính thức — over-flag",
+      "Do lỗi nhận định tên miền, phần phân tích dấu hiệu trở nên thiếu chính xác"
+    ],
+    "reasoning": "Khuyến nghị 'không bấm link, tự mở app' về cơ bản an toàn, nhưng mắc lỗi factual về tên miền shopee.vn và over-flag thành red — làm giảm chất lượng đánh giá.",
+    "score": 6.5
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Nhận định chính xác: chuỗi shopee.vn nhìn giống tên miền thật nhưng không thể tin chỉ từ text hiển thị (redirect/anchor giả)",
+      "Trích cảnh báo chính thức của Shopee, hướng dẫn tự mở app kiểm tra đăng nhập bất thường",
+      "Phân nhánh nếu đã bấm/nhập thông tin"
+    ],
+    "weaknesses": [
+      "Dài",
+      "Chưa khẳng định dứt khoát mà nghiêng 'khả năng cao phishing' (hợp lý với thông tin có hạn)"
+    ],
+    "reasoning": "Chính xác và tinh tế hơn về vấn đề tên miền hiển thị, trích nguồn Shopee và hướng dẫn an toàn đúng — không mắc lỗi factual như arm còn lại.",
+    "score": 8
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

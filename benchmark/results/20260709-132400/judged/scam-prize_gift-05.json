@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-prize_gift-05",
+  "rag_verdict": {
+    "strengths": [
+      "Nhận diện đúng nạn nhân đã bị trừ 3 triệu qua web nhái ShopLife lấy CCCD/OTP",
+      "Phủ đủ 4 ý chính: dùng tên thật tạo lòng tin, domain giả .click, xin CCCD/OTP, phí 'kích hoạt' trừ thẻ",
+      "Khuyến nghị đúng: khóa thẻ, đổi mật khẩu, báo công an, khai báo CCCD lộ",
+      "Pattern khớp đúng loại"
+    ],
+    "weaknesses": [
+      "Ghi tổng đài '1429 (cảnh sát)' không chính xác/không rõ nguồn — dễ gây hiểu nhầm",
+      "Không cảnh báo nguy cơ 'bị lừa lần hai'",
+      "Không nêu số hotline ngân hàng cụ thể"
+    ],
+    "reasoning": "Phủ đủ ý chính và khuyến nghị khắc phục hợp lý, nhưng nêu một số tổng đài không chính xác. Trừ điểm.",
+    "score": 7.5
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Bảng dấu hiệu đối chiếu, giải thích vì sao chúng biết tên thật (rò rỉ dữ liệu)",
+      "Nhấn mạnh nguy cơ CCCD lộ bị mạo danh vay tiền/lừa người thân",
+      "Quy trình khắc phục: khóa thẻ, trình báo, thu thập bằng chứng, bảo vệ thông tin",
+      "Bài học nhận biết rõ ràng"
+    ],
+    "weaknesses": [
+      "Dài, định dạng nặng",
+      "Không nêu số hotline cụ thể của ngân hàng"
+    ],
+    "reasoning": "Toàn diện, mạnh ở cảnh báo hậu quả lộ CCCD và quy trình khắc phục. Điểm trừ là độ dài.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

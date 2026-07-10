@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-other-03",
+  "rag_verdict": {
+    "strengths": [
+      "Nhận diện đúng nạn nhân đã mất 8,5 triệu qua phishing + malware",
+      "Phủ đủ 4 ý chính: SMS giả ngân hàng, web nhái xin OTP/mật khẩu ATM, app SecurityCheck_Bank giả, mất tiền nhiều giao dịch",
+      "Khuyến nghị đúng: không nhập OTP/mật khẩu qua link, gọi tổng đài chính thức (số trên thẻ), liên hệ ngân hàng khóa tài khoản/hủy giao dịch",
+      "Súc tích"
+    ],
+    "weaknesses": [
+      "Pattern khớp chỉ là nhãn trống và hơi lệch loại",
+      "Không nhắc gỡ app/factory reset dù có yếu tố malware",
+      "Không cảnh báo 'bị lừa lần hai'"
+    ],
+    "reasoning": "Chính xác và phủ đủ ý chính với khuyến nghị đúng. Trừ điểm vì pattern khớp lệch loại và thiếu bước xử lý malware/cảnh báo lừa lần hai.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Phân tích xuất sắc 3 thủ đoạn kết hợp (giả danh + phishing + malware) và giải thích vì sao 3 giao dịch tự động xảy ra",
+      "Giải thích cơ chế OTP bị copy tức thời, quy trình khắc phục ưu tiên gồm factory reset",
+      "Cảnh báo rõ 'không tìm dịch vụ lấy lại tiền' để tránh mất lần hai, nêu đường dây 0692 345 860",
+      "Đánh giá thực tế khả năng thu hồi"
+    ],
+    "weaknesses": [
+      "Rất dài",
+      "Định dạng nặng emoji"
+    ],
+    "reasoning": "Vượt trội nhờ bóc tách 3 thủ đoạn kết hợp và giải thích cơ chế giao dịch tự động, quy trình khắc phục đầy đủ. Điểm trừ là độ dài.",
+    "score": 9
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

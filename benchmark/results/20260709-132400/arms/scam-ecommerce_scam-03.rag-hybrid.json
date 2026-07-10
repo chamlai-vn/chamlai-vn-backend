@@ -1,0 +1,31 @@
+{
+  "case_id": "scam-ecommerce_scam-03",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Yêu cầu chuyển tiền cọc vào tài khoản cá nhân (0942857163 - Anh Thắng) thay vì tài khoản doanh nghiệp chính thức",
+      "Giá tour quá rẻ bất thường (899K cho tour 3 ngày 2 đêm, khách sạn 4 sao, nhiều dịch vụ)",
+      "Tạo áp lực thời gian: 'Khách đầu tiên hôm nay', 'Còn 5 suất thôi', 'Nhanh tay'",
+      "Không cung cấp thông tin công ty chính thức, địa chỉ, số điện thoại công ty hoặc website",
+      "Không xuất hiện dấu hiệu xác thực của công ty du lịch uy tín",
+      "Mô tả quá khái quát, không có thông tin chi tiết về hành trình, khách sạn cụ thể, điều kiện hoàn hủy",
+      "Lời mời đặt cọc 'nhanh chóng' sau khi chuyển tiền chỉ nhận 'xác nhận qua nhắn tin' mà không có hợp đồng"
+    ],
+    "matched_patterns": [
+      "Giả mạo công ty du lịch/tour lừa đặt cọc",
+      "Yêu cầu thanh toán vào tài khoản cá nhân",
+      "Quảng cáo giảm giá sốc tạo tâm lý khẩn trương",
+      "Sử dụng emoji và ngôn từ bắt mắt để tăng độ tin tưởng giả tạo"
+    ],
+    "recommended_actions": [
+      "Không chuyển tiền vào tài khoản cá nhân; chỉ thanh toán qua tài khoản doanh nghiệp chính thức hoặc nền tảng du lịch uy tín (Traveloka, Booking, v.v.)",
+      "Xác minh công ty du lịch bằng cách tìm kiếm tên công ty trên Google, kiểm tra website chính thức, giấy phép kinh doanh, và gọi số điện thoại công bộ",
+      "Cảnh giác với giá tour quá rẻ (nếu thấp hơn thị trường 30-40%, có khả năng là lừa đảo)",
+      "Yêu cầu hợp đồng rõ ràng, hóa đơn chính thức và thông tin chi tiết về hành trình, khách sạn, điều khoản hoàn hủy trước khi thanh toán",
+      "Nếu có nghi ngờ, liên hệ trực tiếp khách sạn hoặc công ty du lịch qua số điện thoại/website chính thức để xác nhận thông tin tour"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 9492
+}

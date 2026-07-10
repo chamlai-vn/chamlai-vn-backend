@@ -1,0 +1,30 @@
+{
+  "case_id": "scam-other-01",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Người tự xưng là nhân viên công ty bảo hiểm gọi đột ngột",
+      "Hứa hẹn hoàn lại tiền 45 triệu đồng (lợi nhuận/tiền bất ngờ)",
+      "Yêu cầu xác minh danh tính qua ứng dụng lạ gọi 'SafeVerify'",
+      "Hướng dẫn tải ứng dụng từ đường link trong tin nhắn SMS (không phải kênh chính thức)",
+      "Yêu cầu đăng nhập bằng tài khoản ngân hàng và nhập mã OTP",
+      "Ứng dụng hiển thị thông báo giả 'Xác minh thành công' nhưng không có tiền được chuyển",
+      "Sau đó, tiền bị rút trái phép từ tài khoản",
+      "Số điện thoại gọi sau đó bị tắt máy, không thể liên lạc lại"
+    ],
+    "matched_patterns": [
+      "impersonation_authority",
+      "recovery_scam"
+    ],
+    "recommended_actions": [
+      "Không bao giờ tải ứng dụng từ liên kết trong tin nhắn SMS hoặc email - chỉ tải từ Google Play hoặc Apple App Store",
+      "Các cơ quan tài chính, công ty bảo hiểm không bao giờ yêu cầu khách hàng cung cấp mã OTP hoặc đăng nhập tài khoản ngân hàng qua điện thoại",
+      "Khi nhận thông báo về tiền hoàn lại bất ngờ, hãy chủ động liên hệ trực tiếp công ty bảo hiểm qua số điện thoại chính thức để xác minh",
+      "Tuyệt đối không nhập mã OTP hoặc thông tin ngân hàng cho bất kỳ ứng dụng lạ nào",
+      "Nếu phát hiện tiền bị rút trái phép, lập tức liên hệ ngân hàng và cơ quan công an để báo cáo và khóa tài khoản"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 7363
+}

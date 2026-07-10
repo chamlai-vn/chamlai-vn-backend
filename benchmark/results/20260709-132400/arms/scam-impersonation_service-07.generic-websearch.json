@@ -1,0 +1,52 @@
+{
+  "case_id": "scam-impersonation_service-07",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Người gọi sử dụng số điện thoại di động cá nhân (0378.XXXX.91), không phải kênh liên lạc chính thức của điện lực",
+      "Gửi đường link không rõ nguồn gốc để yêu cầu thanh toán tiền điện",
+      "Thông báo khách hàng đang nợ tiền điện với số tiền lớn và yêu cầu thanh toán ngay lập tức",
+      "Đe dọa sẽ cắt điện ngay nếu không thanh toán nhanh chóng để gây áp lực và hoang mang",
+      "Link dẫn đến website/ứng dụng thanh toán giả mạo nhằm đánh cắp thông tin tài khoản ngân hàng và mã OTP",
+      "Có thể yêu cầu cài app giả mạo chứa phần mềm gián điệp (spyware) để chiếm quyền truy cập tin nhắn, danh bạ, điều khiển màn hình và ứng dụng ngân hàng"
+    ],
+    "matched_patterns": [
+      "Mạo danh nhân viên điện lực (EVNHCMC)",
+      "Giả mạo thông báo nợ tiền điện, đe dọa cắt điện",
+      "Gửi link website/app thanh toán giả mạo để đánh cắp thông tin ngân hàng và mã OTP",
+      "Phát tán phần mềm gián điệp (spyware) qua ứng dụng giả mạo"
+    ],
+    "recommended_actions": [
+      "TUYỆT ĐỐI KHÔNG bấm vào link đó, dù chỉ để xem thử",
+      "Không cung cấp bất kỳ thông tin cá nhân, số tài khoản, mật khẩu, hay mã OTP nào",
+      "Chặn số điện thoại đó ngay lập tức",
+      "Kiểm tra hóa đơn thực tế bằng cách mở app EVNHCMC chính thức hoặc gọi tổng đài 1900 545 454 (hoạt động 24/7)",
+      "Báo cáo sự việc qua tổng đài 1900545454, email cskh@hcmpc.com.vn hoặc ứng dụng EVNHCMC",
+      "Báo cáo lên cơ quan công an gần nhất để ngăn chặn các nạn nhân khác"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## ⚠️ ĐÂY CHẮC CHẮN LÀ LỪA ĐẢO! Đừng bấm vào link đó!\n\nTình huống em mô tả **khớp 100% với thủ đoạn lừa đảo mạo danh nhân viên điện lực** đang lan rộng tại TP.HCM. Dưới đây là phân tích chi tiết:\n\n---\n\n### 🔴 Tại sao đây là lừa đảo?\n\n**1. Dùng số điện thoại di động cá nhân:**\nCác đối tượng lừa đảo mạo danh nhân viên điện lực thường sử dụng **số điện thoại di động cá nhân** để gọi và yêu cầu khách hàng thanh toán tiền điện qua đường link không rõ nguồn gốc. Số `0378.XXXX.91` là số di động cá nhân, **không phải kênh liên lạc chính thức của điện lực**.\n\n**2. Điện lực TP.HCM không dùng số di động hay gửi link:**\nNgành Điện **tuyệt đối không cho phép nhân viên sử dụng đường link và app không rõ nguồn gốc** để thu tiền điện.\n\nKhi nhân viên EVNHCMC gọi đến, **tên định danh hiển thị trên điện thoại sẽ là \"EVNHCMC\"**. Đối với các nhà mạng khác, số điện thoại của ngành điện TP.HCM sẽ hiển thị **028.22201155**.\n\n**3. Đây là kịch bản lừa đảo kinh điển:**\nThủ đoạn phổ biến nhất là: đối tượng **thông báo khách hàng đang nợ tiền điện với số tiền lớn**, yêu cầu thanh toán ngay lập tức để tránh bị cắt điện.\n\nCác đối tượng mạo danh nhân viên điện lực, gọi điện hoặc nhắn tin thông báo khách hàng nợ tiền điện và yêu cầu thanh toán ngay lập tức. Để gây thêm áp lực, chúng **đe dọa sẽ cắt điện ngay** nếu không thanh toán nhanh chóng, khiến người dân hoang mang.\n\n**4. Link giả mạo sẽ đánh cắp tiền và thông tin:**\nSau khi gửi link, kẻ lừa đảo dẫn đến website thanh toán giả mạo hoặc ứng dụng giả mạo. **Khi người dân nhập thông tin tài khoản ngân hàng, mã OTP**, kẻ lừa đảo sẽ chiếm đoạt được tiền và thông tin.\n\nNếu cài app giả, ứng dụng này thực chất là **phần mềm gián điệp (spyware)**, yêu cầu cấp quyền truy cập tin nhắn, danh bạ, điều khiển màn hình, và ứng dụng ngân hàng. Sau khi nạn nhân cấp quyền, đối tượng có thể **đọc mã OTP, thực hiện giao dịch ngân hàng từ xa**. Tài khoản ngân hàng có thể bị rút sạch chỉ trong vài phút.\n\n---\n\n### ✅ Em cần làm gì ngay bây giờ?\n\n1. **TUYỆT ĐỐI KHÔNG bấm vào link** đó, dù chỉ để xem thử.\n2. **Không cung cấp** bất kỳ thông tin cá nhân, số tài khoản, mật khẩu, hay mã OTP nào.\n3. **Chặn số điện thoại** đó ngay lập tức.\n4. **Kiểm tra hóa đơn thực tế** bằng cách:\n   - Mở app **EVNHCMC** (app chính thức)\n   - Hoặc gọi **tổng đài 1900 545 454** (hoạt động 24/7)\n5. Khi nghi ngờ có cuộc gọi lừa đảo giả danh EVNHCMC, người dân có thể gọi điện đến **tổng đài 1900545454**, email **cskh@hcmpc.com.vn** hoặc ứng dụng EVNHCMC để kiểm tra, báo cáo.\n6. **Báo cáo lên cơ quan công an** gần nhất để ngăn chặn các nạn nhân khác.\n\n---\n\n\u003e 💡 **Ghi nhớ:** Điện lực TP.HCM **không bao giờ** gửi link thanh toán qua số di động lạ, không đe dọa cắt điện qua điện thoại mà không có thông báo chính thức trước. Nếu thực sự nợ tiền điện, em sẽ nhận thông báo qua app EVNHCMC hoặc hóa đơn giấy tại nhà.",
+  "sources": [
+    "https://www.evnhcmc.vn/Tintuc/chitiet/519",
+    "https://cskh.npc.com.vn/TinTuc/ChiTietTinNPC?MA_TBAI=1522",
+    "https://bidv.com.vn/bidv/ca-nhan/thong-bao/thay-doi-mang-luoi/canh-bao-gia-danh-nhan-vien-dien-luc",
+    "https://phongtho.laichau.gov.vn/tin-tuc-su-kien/tuyen-truyen-canh-bao-thong-tin-gia-danh-can-bo-dien-luc-lua-dao-qua-mang.html",
+    "https://congan.laichau.gov.vn/index.php/thu-doan-pham-toi/canh-bao-thu-doan-lua-dao-gia-danh-nhan-vien-dien-luc-cai-ung-dung-doc-hai-de-chiem-doat-tai-san-2922.html",
+    "https://cskh.npc.com.vn/TinTuc/ChiTietTinNPC?MA_TBAI=1554",
+    "https://laichau.gov.vn/tin-tuc-su-kien/chuyen-de/nguoi-viet-nam-uu-tien-dung-hang-viet-nam/canh-bao-mao-danh-nhan-vien-dien-luc-lien-he-khach-hang-yeu-cau-thanh-toan-tien-dien-vao-link-app-gia-mao.html",
+    "https://www.nait.vn/attt/canh-bao-hang-loat-chieu-tro-gia-mao-nhan-vien-dien-luc-lua-dao-chiem-doat-tai-san-1488.html",
+    "https://conganthanhhoa.gov.vn/phong-chong-toi-pham/thong-bao-tim-chu-so-huu-phuong-tien/canh-giac-gia-danh-nhan-vien-dien-luc-yeu-cau-tai-ung-dung-epoint-evn-de-lua-dao.html",
+    "https://npc.com.vn/npc-va-khach-hang/canh-bao-cuoc-goi-mao-danh-nhan-vien-dien-luc-yeu-cau-cho-khach-hang-thanh-toan-tien-dien-qua-link-app-gia-mao-40483.html",
+    "https://baovanhoa.vn/doi-song/tphcm-thay-doi-thong-tin-thanh-toan-tien-dien-va-canh-bao-lua-dao-mao-danh-150031.html",
+    "https://vnexpress.net/dien-luc-tphcm-khuyen-cao-nguoi-dung-ve-mao-danh-lua-dao-4802936.html",
+    "https://vietnamnet.vn/canh-bao-lua-dao-gia-danh-dien-luc-tphcm-keu-goi-tai-app-giam-tien-dien-2331670.html",
+    "https://thanhnien.vn/can-trong-chieu-tro-lua-dao-mao-danh-dien-luc-18525063011432214.htm",
+    "https://thanhnien.vn/ro-thu-doan-gia-nhan-vien-doi-cat-dien-diem-mat-cach-lua-dao-185250225200811774.htm",
+    "https://tuoitre.vn/no-ro-nhan-vien-dien-luc-gia-mao-tai-tp-hcm-20250524152217161.htm",
+    "https://thanhnien.vn/tai-dien-gia-mao-nhan-vien-dien-luc-vien-thong-de-lua-dao-18525051622322263.htm",
+    "https://cskh.hcmpc.com.vn/Tintuc/chitiet/519"
+  ],
+  "latency_ms": 46178
+}

@@ -1,0 +1,16 @@
+{
+  "case_id": "benign-work_real-05",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "green",
+    "red_flags": [],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Đây là một tin nhắn công vụ bình thường. Tuy nhiên, luôn xác minh danh tính người gửi thông qua các kênh chính thức của công ty trước khi cung cấp tài liệu nhạy cảm",
+      "Kiểm tra đường link hoặc folder tải file có được gửi từ hệ thống chính thức của công ty hay không",
+      "Nếu có nghi ngờ về tính xác thực của yêu cầu, liên hệ trực tiếp với bộ phận kiểm toán hoặc quản lý thông qua số điện thoại/email chính thức"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 4124
+}

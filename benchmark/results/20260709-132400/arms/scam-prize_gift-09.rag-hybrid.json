@@ -1,0 +1,30 @@
+{
+  "case_id": "scam-prize_gift-09",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Tin nhắn giả danh công ty CII Xăng Dầu về tặng xe máy SH",
+      "Link được rút ngắn/thay đổi (ciireward-vn.net thay vì domain chính thức)",
+      "Tạo áp lực thời gian với hạn chót 48h",
+      "Yêu cầu cập nhật thông tin cá nhân (CMND, họ tên, ngày sinh)",
+      "Ứng dụng giả mạo có giao diện giống app ngân hàng",
+      "Yêu cầu nhập thông tin thẻ tín dụng và CVV (thông tin nhạy cảm)",
+      "Giao dịch trái phép xảy ra ngay sau khi nhập thông tin (rút 500k x3 lần)"
+    ],
+    "matched_patterns": [
+      "prize_gift",
+      "impersonation_authority"
+    ],
+    "recommended_actions": [
+      "Tuyệt đối không nhấp vào link hay cài ứng dụng từ tin nhắn SMS không rõ nguồn gốc, nhất là khi thông báo về tặng quà bất ngờ",
+      "Khi nhận thông báo trúng thưởng, hãy liên hệ trực tiếp công ty qua số điện thoại chính thức trên website chính thức của họ để xác minh, không dùng số điện thoại hay link từ tin nhắn",
+      "Chỉ tải ứng dụng từ Google Play Store hoặc Apple App Store, kiểm tra tên nhà phát hành và số lần tải",
+      "Không bao giờ nhập số CVV, OTP, mật khẩu hay thông tin thẻ tín dụng vào ứng dụng lạ hoặc link không rõ nguồn gốc",
+      "Theo dõi sát các giao dịch ngân hàng hàng ngày, nếu phát hiện rút tiền bất thường hãy liên hệ ngân hàng ngay lập tức để khóa thẻ",
+      "Cảnh báo bạn bè và người thân về các tin nhắn lừa đảo tương tự để họ không rơi vào bẫy"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 7736
+}

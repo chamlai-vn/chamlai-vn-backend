@@ -1,0 +1,56 @@
+{
+  "case_id": "scam-other-03",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Số điện thoại lạ (0971835642) giả mạo tổng đài ngân hàng — không phải hotline chính thức",
+      "Kịch bản 'tài khoản có giao dịch bất thường lúc 3h sáng' tạo áp lực xử lý gấp",
+      "Dẫn dụ nạn nhân truy cập đường link/website giả mạo ngân hàng",
+      "Yêu cầu cung cấp email, mật khẩu ATM và mã OTP trên trang web giả",
+      "OTP bị đánh cắp real-time để hoàn tất giao dịch trên trang thật",
+      "Yêu cầu tải và cài đặt ứng dụng giả mạo tên 'SecurityCheck_Bank' chứa malware",
+      "Ứng dụng độc hại yêu cầu quyền Accessibility để chiếm quyền điều khiển thiết bị",
+      "3 giao dịch xảy ra tự động sau khi malware được cài đặt — nạn nhân không thao tác"
+    ],
+    "matched_patterns": [
+      "Giả mạo danh tính ngân hàng (Impersonation)",
+      "Phishing – Đánh cắp thông tin qua link giả mạo",
+      "Cài Malware – Chiếm quyền điều khiển điện thoại"
+    ],
+    "recommended_actions": [
+      "Liên hệ ngay tổng đài hoặc chi nhánh ngân hàng để khóa/đổi mật khẩu tài khoản, vô hiệu hóa Internet Banking cũ và yêu cầu cung cấp thông tin tài khoản nhận tiền phục vụ điều tra",
+      "Trình báo công an địa phương về hành vi lừa đảo chiếm đoạt tài sản trên không gian mạng, hoặc gọi đường dây nóng Cục Cảnh sát Hình sự - Bộ Công an: 0692 345 860",
+      "Gỡ ngay ứng dụng 'SecurityCheck_Bank' và thực hiện factory reset (khôi phục cài đặt gốc) điện thoại để xóa sạch malware",
+      "Đổi mật khẩu tất cả tài khoản quan trọng (email, mạng xã hội, ví điện tử) từ một thiết bị khác sạch",
+      "Thu thập và lưu đầy đủ bằng chứng: lịch sử giao dịch, tin nhắn, email, ảnh chụp màn hình để phục vụ điều tra",
+      "Tuyệt đối không liên hệ các dịch vụ quảng cáo 'hỗ trợ lấy lại tiền bị lừa' trên mạng xã hội",
+      "Tuyệt đối không chuyển thêm tiền cho bên thứ ba với lý do 'mở khóa' hoặc 'lấy lại tiền' để tránh mất tiền lần hai"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 PHÂN TÍCH VỤ VIỆC: ĐÂY LÀ LỪA ĐẢO NGHIÊM TRỌNG KẾT HỢP 3 THỦ ĐOẠN!\n\nCâu trả lời thẳng thắn: **Chị gái bạn đã là nạn nhân của một vụ lừa đảo ngân hàng tinh vi và nguy hiểm.** Dưới đây là phân tích chi tiết:\n\n---\n\n## 🔍 TẠI SAO ĐÂY LÀ LỪA ĐẢO?\n\n### Thủ đoạn 1: Giả mạo danh tính ngân hàng (Impersonation)\n\nCác đối tượng lừa đảo thường sử dụng số điện thoại, tài khoản mạng xã hội có hình ảnh, logo giống ngân hàng thật để tạo lòng tin. Trong trường hợp của chị, số lạ 0971835642 **không phải là tổng đài chính thức** của bất kỳ ngân hàng nào — ngân hàng thật chỉ liên lạc qua đầu số hotline cố định và được công bố công khai trên website chính thức.\n\nKịch bản \"tài khoản có giao dịch bất thường lúc 3h sáng\" là chiêu cổ điển nhưng cực kỳ hiệu quả. Cách thức lừa đảo đều gặp nhau ở một điểm: tạo niềm tin ban đầu, đẩy nạn nhân vào trạng thái phải xử lý gấp, rồi dẫn dụ truy cập đường link hoặc nền tảng giả mạo.\n\n---\n\n### Thủ đoạn 2: Phishing – Đánh cắp thông tin qua link giả mạo\n\nCác đối tượng hướng dẫn người dân truy cập vào các đường link giả mạo website ngân hàng hoặc yêu cầu cung cấp thông tin tài khoản, mật khẩu, mã OTP. Đáng chú ý, các website giả mạo hiện nay được thiết kế rất tinh vi với giao diện gần giống hoàn toàn trang chính thức của ngân hàng, khiến nhiều người khó nhận biết thật – giả.\n\nKhi chị nhập email, mật khẩu ATM và mã OTP vào trang web giả, điều gì đã xảy ra? Khi bạn nhập OTP vào website giả mạo, mã này sẽ được gửi ngay cho kẻ lừa đảo. Chúng lập tức sao chép OTP và dán vào trang đăng nhập thật để hoàn tất giao dịch chỉ trong vài giây. Toàn bộ quá trình diễn ra rất nhanh, khiến ngân hàng khó phát hiện dấu hiệu bất thường.\n\n---\n\n### Thủ đoạn 3: Cài Malware – Chiếm quyền điều khiển điện thoại\n\nĐây là phần **nguy hiểm nhất** của vụ việc. App \"SecurityCheck_Bank\" mà chị tải xuống là **phần mềm độc hại (malware)**. Quy trình hoạt động của nó như sau:\n\nBước 1: Mạo danh cán bộ, tổ chức yêu cầu nạn nhân hợp tác. Bước 2: Hướng dẫn nạn nhân tải và cài đặt ứng dụng giả mạo. Bước 3: Ứng dụng giả mạo kết nối và nhận lệnh từ máy chủ của nhóm tấn công. Bước 4: Nhóm tấn công chiếm quyền điều khiển thiết bị di động, chiếm đoạt tài sản của nạn nhân. Sau khi được cấp quyền Accessibility, ứng dụng tự động cấp một loạt các quyền kiểm soát truy cập các ứng dụng khác trên điện thoại như tin nhắn, danh bạ, cuộc gọi, camera…\n\nĐiều này giải thích **tại sao 3 giao dịch tiếp theo xảy ra tự động** dù chị không thao tác gì.\n\n---\n\n## ⚡ NHỮNG VIỆC CẦN LÀM NGAY (KHÔNG ĐƯỢC CHẬM TRỄ!)\n\n\u003e ⚠️ Dù sự việc đã xảy ra 2 tuần, chị vẫn phải hành động ngay hôm nay!\n\n### Bước 1: Liên hệ ngân hàng NGAY LẬP TỨC\nNgay khi phát hiện dấu hiệu lừa đảo, cần liên hệ ngay tổng đài hoặc chi nhánh ngân hàng nơi thực hiện giao dịch để yêu cầu phong tỏa tạm thời tài khoản thụ hưởng (nếu còn khả năng). Theo quy định hiện hành, các ngân hàng có trách nhiệm hỗ trợ khách hàng tra soát và phong tỏa tài khoản thụ hưởng nếu được trình báo kịp thời.\n\n**Yêu cầu ngân hàng:**\n- Khóa/đổi mật khẩu tài khoản ngay\n- Vô hiệu hóa Internet Banking cũ, kích hoạt lại từ đầu\n- Cung cấp thông tin các tài khoản nhận tiền để phục vụ điều tra\n\n### Bước 2: Trình báo công an\nKhi bị lừa chuyển khoản, cần đến trụ sở công an địa phương để trình báo về hành vi lừa đảo chiếm đoạt tài sản trên không gian mạng. Tại đây, các cán bộ công an địa phương sẽ hướng dẫn điền hồ sơ và làm thủ tục trình báo.\n\nNgoài ra, Cục Cảnh sát Hình sự - Bộ Công an tiếp nhận tin báo, tố giác của người dân về tội phạm lừa đảo qua số điện thoại đường dây nóng **0692 345 860**.\n\nĐơn tố cáo cần trình bày rõ ràng về vụ việc, bao gồm thông tin cá nhân, thông tin người nhận tiền, số tài khoản và số tiền bị lừa, cùng với các bằng chứng liên quan như tin nhắn, email, hoặc hóa đơn giao dịch.\n\n### Bước 3: Xử lý điện thoại bị nhiễm malware\nNếu kẻ lừa đảo truy cập vào điện thoại của bạn: Hãy báo cáo với nhà cung cấp dịch vụ điện thoại. Cập nhật phần mềm bảo mật và quét vi-rút. Thay đổi mật khẩu hoặc mã pin, chặn các cuộc gọi lừa đảo và xem xét thay đổi số điện thoại.\n\n**Quan trọng:** Gỡ ngay ứng dụng \"SecurityCheck_Bank\" và **nên factory reset (khôi phục cài đặt gốc) điện thoại** để đảm bảo xóa sạch malware. Đổi mật khẩu tất cả tài khoản quan trọng (email, mạng xã hội, ví điện tử) từ một thiết bị khác sạch.\n\n### Bước 4: Thu thập và lưu bằng chứng\nThu thập đầy đủ bằng chứng: giao dịch, tin nhắn, email, ảnh chụp màn hình. Phối hợp và theo dõi quá trình xử lý.\n\n---\n\n## ⛔ TUYỆT ĐỐI KHÔNG LÀM:\n\nKhi phát hiện bị lừa, tuyệt đối không liên hệ với các website, fanpage, tài khoản mạng xã hội quảng cáo dịch vụ \"tiếp nhận hồ sơ\", \"hỗ trợ lấy lại tiền bị treo\", \"thu hồi tiền lừa đảo\" trên không gian mạng.\n\nNgười bị hại tuyệt đối không nên chuyển thêm tiền cho bên thứ ba để \"mở khóa\" hoặc \"lấy lại tiền\", tránh \"mất tiền lần hai\".\n\n---\n\n## 💡 KHẢ NĂNG LẤY LẠI TIỀN?\n\nViệc người bị hại tự nguyện chuyển tiền, dù do bị lừa, khiến việc thu hồi trở nên phức tạp. Tuy nhiên, nếu phối hợp sớm với ngân hàng và cơ quan chức năng, người bị hại vẫn có cơ hội thu hồi toàn bộ hoặc một phần khoản tiền đã chuyển. Đừng bỏ cuộc — hãy hành động ngay hôm nay!",
+  "sources": [
+    "https://tienphong.vn/ngan-hang-canh-bao-nan-lua-dao-moi-post1845929.tpo",
+    "https://congan.quangngai.gov.vn/danh-muc-san-pham/-tin-tuc-su-kien/co-the-ban-chua-biet/canh-giac-thu-doan-lua-dao-gia-danh-ngan-hang-thong-bao-nhan-diem-thuong.html",
+    "https://naict.tttt.nghean.gov.vn/pckns/thuc-trang-va-xu-huong-lua-dao-truc-tuyen-tai-viet-nam-1378.html",
+    "https://www.dnse.com.vn/hoc/duong-link-phishing-lay-otp",
+    "https://www.div.gov.vn/canh-giac-truoc-chieu-tro-lua-dao-moi-cua-toi-pham-de-khong-mat-tien-trong-tai-khoan",
+    "https://thanhtra.com.vn/an-ninh-trat-tu-D718A18CA/ky-1-lua-dao-otp-tinh-vi-chi-mot-cuoc-goi-co-the-khien-tai-khoan-bi-chiem-quyen-ecbfc9584.html",
+    "https://mst.gov.vn/canh-giac-voi-cac-chieu-tro-lua-dao-ngan-hang-truc-tuyen-197154333.htm",
+    "https://congan.ninhbinh.gov.vn/canh-bao-chieu-thuc-lua-dao-danh-cap-tai-khoan-ngan-hang",
+    "https://www.dnse.com.vn/hoc/gia-mao-nhan-vien-ngan-hang",
+    "https://tuoitre.vn/lam-cho-khach-hang-lo-lang-khi-tai-khoan-bi-khoa-roi-lua-lay-luon-tai-khoan-ngan-hang-20250220231938811.htm",
+    "https://www.seabank.com.vn/tin-tuc/tu-van-dich-vu/tu-van--meo/cach-lay-lai-tien-da-chuyen-khoan-khi-bi-lua-huong-dan-chi-tiet-va-day-du",
+    "https://vov.gov.vn/cach-nao-de-lay-lai-tien-bi-lua-chuyen-khoan-dtnew-759190",
+    "https://www.aia.com.vn/vi/song-khoe/loi-khuyen/tai-chinh/cach-lay-lai-tien-da-chuyen-khoan-khi-bi-lua.html",
+    "https://ghn.vn/blogs/tip-ban-hang/cach-lay-lai-tien-da-chuyen-khoan-khi-bi-lua",
+    "https://techcombank.com/thong-tin/blog/cach-lay-lai-tien-da-chuyen-khoan-khi-bi-lua",
+    "https://www.vpbank.com.vn/bi-kip-va-chia-se/retail-story-and-tips/account/cach-lay-lai-tien-khi-bi-lua-chuyen-khoan",
+    "https://timo.vn/blogs/bi-lua-dao-qua-tai-khoan-ngan-hang/",
+    "https://www.msb.com.vn/vi/w/cach-lay-lai-tien-da-chuyen-khoan-khi-bi-lua",
+    "https://cafef.vn/cach-lay-lai-tien-da-chuyen-khoan-khi-bi-lua-dung-quy-dinh-phap-luat-18825101912212633.chn",
+    "https://nhandan.vn/special/phai-lam-gi-khi-bi-lua-dao-truc-tuyen/index.html"
+  ],
+  "latency_ms": 80335
+}

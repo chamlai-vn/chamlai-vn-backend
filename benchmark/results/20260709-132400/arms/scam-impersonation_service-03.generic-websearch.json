@@ -1,0 +1,55 @@
+{
+  "case_id": "scam-impersonation_service-03",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Giả danh nhân viên nhà mạng (Viettel, Vinaphone, Mobifone) gọi điện thông báo SIM chưa đăng ký chính chủ",
+      "Yêu cầu cài đặt ứng dụng 'ViettelSecure' qua đường link lạ — đây không phải app chính thức của Viettel",
+      "Tạo áp lực tâm lý bằng ngôn ngữ khẩn cấp, đe dọa khóa SIM trong thời hạn rất ngắn (ví dụ: '24 giờ')",
+      "Liên lạc từ số di động cá nhân thay vì tên định danh chính thức của nhà mạng",
+      "Mục tiêu thực sự là đánh cắp mã OTP, số CCCD, thông tin tài khoản ngân hàng, ví điện tử"
+    ],
+    "matched_patterns": [
+      "Giả danh nhân viên nhà mạng để dọa khóa SIM",
+      "Yêu cầu cài app lạ chứa mã độc hoặc ứng dụng giả mạo",
+      "Tạo áp lực tâm lý / đe dọa khóa SIM ngay lập tức"
+    ],
+    "recommended_actions": [
+      "Tuyệt đối không cài 'ViettelSecure' hay bất kỳ app nào theo yêu cầu từ cuộc gọi lạ",
+      "Cúp máy ngay nếu vẫn còn trong cuộc gọi",
+      "Gọi tổng đài chính thức của Viettel theo số 18008098 để kiểm tra thực trạng SIM",
+      "Thực hiện xác thực thông tin thuê bao đúng cách qua ứng dụng VNeID, ứng dụng MyViettel, hoặc trực tiếp tại điểm giao dịch chính thức của nhà mạng",
+      "Trình báo cơ quan công an gần nhất nếu phát hiện dấu hiệu nghi vấn hoặc đã bị lừa đảo",
+      "Không cung cấp mã OTP cho bất kỳ ai",
+      "Không bấm vào đường link lạ",
+      "Không gửi ảnh CCCD qua các nền tảng không chính thức",
+      "Chia sẻ thông tin cảnh báo này đến người thân, đặc biệt là người lớn tuổi"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 ĐÂY LÀ LỪA ĐẢO! TUYỆT ĐỐI KHÔNG LÀM THEO!\n\nTình huống em mô tả là một **chiêu lừa đảo cực kỳ phổ biến** đang diễn ra rộng khắp tại Việt Nam. Dưới đây là phân tích chi tiết:\n\n---\n\n## ❌ Tại sao đây là lừa đảo?\n\n### 1. Giả danh nhân viên nhà mạng để dọa khóa SIM\nThời gian gần đây, xuất hiện tình trạng các đối tượng giả danh nhân viên nhà mạng gọi điện, nhắn tin cho người dân với lý do hỗ trợ đăng ký, chuẩn hóa thông tin thuê bao. Các đối tượng tự xưng là nhân viên nhà mạng Viettel, Vinaphone, Mobifone... thông báo thuê bao chưa được đăng ký chính chủ hoặc thông tin chưa chính xác, **yêu cầu cập nhật gấp nếu không sẽ bị khóa SIM**.\n\n### 2. Yêu cầu cài app lạ là dấu hiệu nguy hiểm\nMột số đối tượng còn yêu cầu cài đặt ứng dụng của nhà mạng thông qua đường link lạ chứa mã độc hoặc ứng dụng giả mạo. Khi người dân cài đặt, các đối tượng có thể **chiếm quyền kiểm soát thiết bị, đánh cắp dữ liệu, mã OTP, thông tin tài khoản ngân hàng** để từ đó thực hiện hành vi chiếm đoạt tài sản.\n\n### 3. App \"ViettelSecure\" không phải app chính thức\nNhà mạng thật chỉ gửi tin nhắn từ **tên định danh chính thức** như Viettel, VinaPhone, MobiFone, không gửi từ số di động cá nhân. App của Viettel có tên chính thức là **MyViettel**, không phải \"ViettelSecure\".\n\n### 4. Nhà mạng thật KHÔNG làm như vậy\nCơ quan nhà nước và các nhà mạng **không bao giờ gọi điện yêu cầu người dân đọc mã OTP, mật khẩu hay chuyển tiền** để thực hiện xác thực thông tin thuê bao di động.\n\n### 5. Tạo áp lực tâm lý là chiêu quen thuộc\nChúng thường sử dụng giọng điệu khẩn cấp, đe dọa như: \"SIM sẽ bị khóa trong 24 giờ\", \"thuê bao vi phạm quy định\"… nhằm tạo áp lực tâm lý. Đây là chiêu đe dọa khóa SIM ngay lập tức với thời hạn rất ngắn. Trên thực tế, **nhà mạng thật luôn thông báo nhiều lần, có lộ trình rõ ràng và không gây áp lực kiểu \"khóa ngay\"**.\n\n---\n\n## 🎯 Mục tiêu thực sự của kẻ lừa đảo là gì?\n\nKẻ gian yêu cầu nạn nhân cung cấp mã OTP, số Căn cước công dân (CCCD), thông tin tài khoản ngân hàng hoặc truy cập vào đường link giả mạo để \"xác minh thông tin\". Mục tiêu cuối cùng không phải là chiếc SIM, mà là **đánh cắp quyền truy cập vào tài khoản ngân hàng, ví điện tử, mạng xã hội** và thực hiện các hành vi chiếm đoạt tài sản.\n\n---\n\n## ✅ Em nên làm gì ngay bây giờ?\n\n| Việc cần làm | Chi tiết |\n|---|---|\n| 🚫 **Không cài app** | Tuyệt đối không cài \"ViettelSecure\" hay bất kỳ app nào theo yêu cầu cuộc gọi lạ |\n| 📵 **Cúp máy ngay** | Nếu vẫn còn trong cuộc gọi, hãy cúp máy |\n| 📞 **Gọi tổng đài Viettel** | Liên hệ tổng đài chăm sóc khách hàng chính thức của Viettel: **18008098** để kiểm tra thực trạng SIM |\n| 🏪 **Xác thực đúng cách** | Theo quy định, người dân có thể thực hiện xác thực thông tin thuê bao qua **ứng dụng VNeID, ứng dụng chính thức MyViettel** hoặc trực tiếp tại các điểm giao dịch của nhà mạng. |\n| 🚨 **Trình báo công an** | Khi phát hiện dấu hiệu nghi vấn hoặc đã bị lừa đảo, cần nhanh chóng **trình báo cơ quan công an gần nhất** để được hỗ trợ xử lý theo quy định của pháp luật. |\n\n---\n\n## ⚠️ Lưu ý quan trọng\n\nCác chuyên gia khuyến cáo người dân tuyệt đối: **Không cung cấp mã OTP cho bất kỳ ai; không bấm vào đường link lạ; không gửi ảnh CCCD qua các nền tảng không chính thức; chỉ thực hiện xác thực qua ứng dụng, website hoặc điểm giao dịch chính thức của nhà mạng.**\n\nHãy chia sẻ thông tin này đến người thân, đặc biệt là người lớn tuổi để tránh bị mắc bẫy nhé! 💪",
+  "sources": [
+    "https://congan.sonla.gov.vn/canh-bao-chieu-tro-gia-danh-nhan-vien-viettel-de-chiem-doat-tai-san-nguoi-dung/",
+    "https://kenh14.vn/thong-bao-quan-trong-lien-quan-den-xac-thuc-sim-chinh-chu-tat-ca-nguoi-dan-can-nam-ro-215260609190205798.chn",
+    "https://kenh14.vn/thong-bao-quan-trong-nguoi-dung-viettel-vinaphone-mobifone-can-nam-ro-215260506183240101.chn",
+    "https://www.dnse.com.vn/hoc/lua-dao-khoa-sim-vi-chua-chuan-hoa-thue-bao",
+    "https://viettelmoney.vn/viettel-khuyen-nghi-khach-hang-chu-dong-bao-mat-thong-tin-ca-nhan/",
+    "https://cafef.vn/cong-an-canh-bao-thu-doan-lua-dao-hoan-toan-moi-nham-den-tai-khoan-ngan-hang-cua-nguoi-dung-viettel-vinaphone-188260506102020467.chn",
+    "https://congly.vn/cong-an-tp-hai-phong-canh-bao-thu-doan-lua-dao-thong-bao-khoa-sim-dien-thoai-519530.html",
+    "https://kenh14.vn/nguy-co-nhieu-nguoi-dung-viettel-bi-khoa-sim-215260430090717776.chn",
+    "https://viettelfamily.com/news/lo-lang-nguoi-la-mao-danh-viettel-tu-van-khach-hang",
+    "https://vietnamnet.vn/se-khoa-sim-sau-ngay-15-6-neu-thue-bao-khong-xac-thuc-theo-quy-dinh-2520549.html",
+    "https://viettelmoney.vn/cac-app-lua-dao-vay-tien/",
+    "https://chongluadao.vn/",
+    "https://www.seabank.com.vn/tin-tuc/tu-van-dich-vu/tu-van--meo/canh-bao-vay-tin-dung-den-hau-qua-va-cach-nhan-biet-chieu-tro-lua-dao",
+    "https://nld.com.vn/cach-nhan-biet-app-gia-mao-de-tranh-bi-lua-dao-196240117210129322.htm",
+    "https://mst.gov.vn/canh-bao-cac-thu-doan-lua-dao-khi-vay-tien-qua-app-hoac-the-atm-197153961.htm",
+    "https://apps.apple.com/us/app/ch%E1%BB%91ng-l%E1%BB%ABa-%C4%91%E1%BA%A3o-anti-scam/id6763957877",
+    "https://www.momo.vn/vay-nhanh/blog/bi-lua-dao-vay-tien-online-1090",
+    "https://thanhnien.vn/danh-sach-cac-ung-dung-android-lua-dao-can-go-bo-gap-185250611210316242.htm",
+    "https://vietcredit.vn/canh-bao-lua-dao/vietcredit-canh-bao-cac-thu-doan-lua-dao-cai-dat-ung-dung-phan-mem-doc-hai",
+    "https://ttbc-hcm.gov.vn/canh-giac-lua-dao-qua-app-bao-mat-1000581.html"
+  ],
+  "latency_ms": 51155
+}

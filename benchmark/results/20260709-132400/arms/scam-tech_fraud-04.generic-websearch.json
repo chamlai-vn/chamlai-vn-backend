@@ -1,0 +1,25 @@
+{
+  "case_id": "scam-tech_fraud-04",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Kịch bản kinh điển: giả làm người thân gặp sự cố khẩn cấp để tạo áp lực tâm lý, dùng deepfake dựng từ ảnh/video cũ trên mạng xã hội",
+      "Gương mặt \"hơi lạ\", hình ảnh lag rồi mất kết nối ngay khi bị hỏi chi tiết riêng tư — dấu hiệu đặc trưng của deepfake, kẻ gian ngụy trang thành \"sóng yếu\"",
+      "Cuộc gọi video chất lượng kém, chập chờn, âm thanh không đồng bộ — yếu tố cảnh báo được công an khuyến cáo",
+      "Khớp xu hướng đang tăng mạnh tại Việt Nam: lừa đảo dùng AI/deepfake giả mạo hình ảnh và giọng nói người thân"
+    ],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Lưu lại bằng chứng: lịch sử cuộc gọi, số điện thoại gọi đến, số tài khoản (nếu có), tin nhắn/hình ảnh/video liên quan",
+      "Trình báo công an phường/xã hoặc qua Cổng cảnh báo an ninh mạng quốc gia, kể cả khi chưa mất tiền",
+      "Báo cho người bị mạo danh biết thông tin có thể đã bị lộ — nên đổi mật khẩu Zalo/Facebook, bật xác thực 2 lớp",
+      "Cảnh báo người thân, bạn bè chung vì kẻ gian thường nhắm tiếp vào danh sách liên hệ của cùng nạn nhân",
+      "Nguyên tắc vàng: bất kỳ ai gọi (kể cả video, kể cả đúng số) yêu cầu chuyển tiền gấp — luôn xác minh qua kênh độc lập trước khi chuyển"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## Đây chính xác là lừa đảo — bạn đã xử lý rất đúng\n\nTrường hợp của bạn khớp gần như hoàn hảo với thủ đoạn \"deepfake video call\" mà công an nhiều tỉnh thành đang liên tục cảnh báo gần đây.\n\n**Vì sao chắc chắn là lừa đảo:**\n\n1. **Kịch bản kinh điển**: giả làm người thân gặp sự cố khẩn cấp (mắc kẹt sân bay, tai nạn, phí phạt...) để tạo áp lực tâm lý, khiến nạn nhân không kịp suy nghĩ tỉnh táo. Kẻ lừa đảo thu thập hình ảnh, video cũ từ mạng xã hội rồi dùng công nghệ AI tạo video giả để gọi video call, giả làm người thân vay tiền hoặc tạo tình huống khẩn cấp cần chuyển tiền gấp.\n\n2. **Dấu hiệu kỹ thuật bạn quan sát được** – gương mặt \"hơi lạ\", hình ảnh lag rồi mất kết nối ngay khi bạn hỏi chi tiết riêng tư – là dấu hiệu đặc trưng nhất. Công an cảnh báo cần cảnh giác với các cuộc gọi video có hình ảnh mờ, thời lượng ngắn, âm thanh không đồng bộ hoặc liên tục thúc giục chuyển tiền vì đây có thể là dấu hiệu của deepfake. Kẻ gian thường cố ý làm hình ảnh chập chờn để ngụy trang lỗi công nghệ deepfake thành \"sóng yếu\".\n\n3. **Bạn đã xác minh đúng cách**: gọi lại số quen thuộc và hỏi trực tiếp Minh. Đây chính là biện pháp được khuyến cáo: liên lạc trực tiếp với người thân qua một kênh khác để xác minh, và cuộc gọi thoại hay video chất lượng kém, chập chờn là yếu tố để nghi ngờ tính xác thực.\n\n4. **Xu hướng đang tăng mạnh tại Việt Nam** — không phải trường hợp cá biệt. Ngân hàng MSB gần đây cảnh báo về sự gia tăng nhanh chóng của các chiêu trò lừa đảo dùng AI, đặc biệt là deepfake giả mạo hình ảnh và giọng nói, khiến người dân khó nhận diện.\n\n## Bạn nên làm gì tiếp theo\n\n- **Lưu lại bằng chứng**: chụp/quay lại lịch sử cuộc gọi, số điện thoại gọi đến (dù giả mạo số Minh — có thể là spoofing), số tài khoản (nếu chúng có gửi) — công an khuyến cáo lưu giữ tin nhắn, hình ảnh, video, lịch sử cuộc gọi và thông tin giao dịch để trình báo.\n- **Trình báo công an** phường/xã nơi bạn cư trú hoặc qua Cổng cảnh báo an ninh mạng quốc gia (canhbao.khonggianmang.vn) — kể cả khi bạn chưa mất tiền, việc trình báo giúp cơ quan chức năng theo dõi và cảnh báo cộng đồng.\n- **Báo cho Minh** biết số điện thoại/tài khoản mạng xã hội của anh ấy có thể đã bị lộ thông tin hoặc bị giả mạo — anh ấy nên kiểm tra bảo mật tài khoản Zalo/Facebook, đổi mật khẩu, bật xác thực 2 lớp.\n- **Cảnh báo người thân, bạn bè chung** vì kẻ gian thường nhắm tiếp vào danh sách liên hệ của cùng một nạn nhân.\n- **Ghi nhớ nguyên tắc vàng**: bất kỳ ai gọi (kể cả video, kể cả đúng số) yêu cầu chuyển tiền gấp — luôn xác minh qua kênh độc lập (gọi lại số cũ, nhắn tin hỏi chi tiết riêng tư) trước khi chuyển, dù cảm thấy áp lực thời gian đến đâu.\n\nBạn đã phản ứng rất tốt — sự nghi ngờ kịp thời và hành động xác minh đúng lúc là chính xác những gì cần làm trong tình huống này.",
+  "sources": [],
+  "latency_ms": 0
+}

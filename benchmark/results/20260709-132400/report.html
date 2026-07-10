@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<title>RAG Value Benchmark — 2026-07-09T13:34:46Z</title>
+<style>
+  body { font-family: -apple-system, "Segoe UI", sans-serif; max-width: 960px; margin: 2rem auto; padding: 0 1rem; color: #1a1a1a; line-height: 1.5; }
+  h1, h2 { border-bottom: 2px solid #eee; padding-bottom: .3rem; }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; }
+  th, td { border: 1px solid #ddd; padding: .4rem .6rem; text-align: left; font-size: .9rem; }
+  th { background: #f5f5f5; }
+  .headline { display: flex; gap: 2rem; flex-wrap: wrap; margin: 1rem 0; }
+  .stat { background: #f9f9f9; border-radius: 8px; padding: 1rem 1.5rem; min-width: 160px; }
+  .stat .big { font-size: 1.8rem; font-weight: 700; }
+  .stat .label { color: #666; font-size: .85rem; }
+  .arm-rag { color: #0a6b2d; }
+  .arm-generic { color: #a15c00; }
+  .meta { color: #666; font-size: .85rem; }
+  .transcript { background: #f9f9f9; border-radius: 8px; padding: 1rem; margin: .75rem 0; white-space: pre-wrap; }
+  code { background: #eee; padding: .1rem .3rem; border-radius: 4px; }
+</style>
+</head>
+<body>
+
+<h1>RAG Value Benchmark</h1>
+<p class="meta">
+  145 case(s) · chạy lúc 2026-07-09T13:34:46Z · git ddc0ea9a44209d541c9b03c699635fa96bddd584 · dataset manually-edited-4ca28fb83fa2<br>
+  rag-hybrid: <code>claude-haiku-4-5-20251001</code> (topK=5, reranker=true) ·
+  generic-websearch: <code>claude-sonnet-4-6</code> (max_uses=4) ·
+  judge: <code>claude-opus-4-8</code>
+</p>
+
+<h2>Headline</h2>
+<div class="headline">
+  <div class="stat"><div class="big arm-rag">7.82</div><div class="label">rag-hybrid — điểm judge TB (0–10)</div></div>
+  <div class="stat"><div class="big arm-generic">8.49</div><div class="label">generic-websearch — điểm judge TB (0–10)</div></div>
+  <div class="stat"><div class="big">0 / 15 / 130</div><div class="label">win / tie / loss (rag vs generic)</div></div>
+  <div class="stat"><div class="big">98.6%</div><div class="label">order-consistent (145 case đã chấm)</div></div>
+</div>
+
+<p class="meta">Cross-family validation (2 case, judge khác họ): đồng ý với Opus judge 100.0% thời gian.</p>
+
+
+<h2>Độ chính xác verdict (khách quan)</h2>
+<table>
+<tr><th>Arm</th><th>Accuracy</th><th>False-positive rate<br><span class="meta">(benign → red)</span></th><th>False-negative rate<br><span class="meta">(scam → green)</span></th></tr>
+<tr><td class="arm-rag">rag-hybrid</td><td>93.8%</td><td>8.0%</td><td>0.0%</td></tr>
+<tr><td class="arm-generic">generic-websearch</td><td>91.7%</td><td>16.0%</td><td>0.0%</td></tr>
+</table>
+
+<h2>Theo scam_type</h2>
+<table>
+<tr><th>scam_type</th><th>N</th><th>rag-hybrid đúng</th><th>generic-websearch đúng</th></tr>
+<tr><td>ecommerce_scam</td><td>10</td><td>9/10</td><td>10/10</td></tr>
+<tr><td>fake_job</td><td>10</td><td>10/10</td><td>10/10</td></tr>
+<tr><td>impersonation_authority</td><td>10</td><td>10/10</td><td>10/10</td></tr>
+<tr><td>impersonation_service</td><td>9</td><td>9/9</td><td>9/9</td></tr>
+<tr><td>investment_fraud</td><td>9</td><td>9/9</td><td>9/9</td></tr>
+<tr><td>loan_scam</td><td>9</td><td>9/9</td><td>9/9</td></tr>
+<tr><td>other</td><td>9</td><td>9/9</td><td>9/9</td></tr>
+<tr><td>package_delivery</td><td>9</td><td>9/9</td><td>9/9</td></tr>
+<tr><td>prize_gift</td><td>9</td><td>9/9</td><td>9/9</td></tr>
+<tr><td>recovery_scam</td><td>9</td><td>8/9</td><td>9/9</td></tr>
+<tr><td>romance_scam</td><td>9</td><td>9/9</td><td>9/9</td></tr>
+<tr><td>tech_fraud</td><td>9</td><td>9/9</td><td>9/9</td></tr>
+<tr><td>vacation_contract</td><td>9</td><td>9/9</td><td>9/9</td></tr>
+
+</table>
+
+<h2>Ví dụ minh hoạ</h2>
+
+<div class="transcript">
+<strong>benign-sms_bank_real-07</strong> — expected: green · rag: yellow (8.00) · generic: yellow (8.00) · preferred: tie
+<hr>
+Kính gửi khách hàng, Chúng tôi phát hiện hoạt động bất thường trên tài khoản của bạn. Vào lúc 14:32, ngày 09/07/2026, có một giao dịch chuyển tiền 5.000.000 VNĐ đến số tài khoản 0123456789 tại Ngân hàng TPBank. Nếu không phải bạn thực hiện giao dịch này, vui lòng liên hệ ngay với chúng tôi qua hotline 1900 545413 hoặc truy cập https://www.vietcombank.com.vn để khóa tài khoản. Mã xác thực: 847392. Không chia sẻ mã này với bất kỳ ai. - Vietcombank
+</div>
+
+<div class="transcript">
+<strong>benign-work_real-10</strong> — expected: green · rag: green (8.00) · generic: green (8.00) · preferred: tie
+<hr>
+Hôm qua, Minh (đồng nghiệp tại công ty) nhận được tin nhắn từ phòng Nhân sự: &#34;Minh ơi, sếp muốn gặp bạn ngày mai lúc 10 giờ sáng để thảo luận về kế hoạch dự án Q4. Vui lòng xác nhận tham dự hoặc liên hệ lại nếu có xung đột thời gian. Thanks!&#34; - Lúc đầu Minh có chút lo lắng vì không biết là gặp để nhận xét hay gì, nhưng rồi anh ấy nhận ra đây là buổi họp thường xuyên để review tiến độ công việc. Minh xác nhận tham dự và buổi họp diễn ra bình thường, không có vấn đề gì cả.
+</div>
+
+<div class="transcript">
+<strong>scam-ecommerce_scam-03</strong> — expected: red · rag: red (8.50) · generic: red (8.50) · preferred: tie
+<hr>
+🔥HOT DEAL🔥 Tour Đà Nẵng 3 ngày 2 đêm - CHỈ 899K! Khách sạn 4 sao &#43; ăn sáng tự chọn &#43; vé cáp treo Bà Nà miễn phí. Khách đầu tiên hôm nay được giảm thêm 200K. Để không mất đi suất quý báu, vui lòng cọc ngay 300K vào TK: 0942857163 (Anh Thắng - Sacombank). Sau khi chuyển tiền, nhắn tin xác nhận để được guide liên lạc trong 24h. Còn 5 suất thôi! Nhanh tay! 🏖️🏨
+</div>
+
+<div class="transcript">
+<strong>scam-recovery_scam-05</strong> — expected: red · rag: red (7.00) · generic: red (8.50) · preferred: generic-websearch
+<hr>
+Chào, em gặp vấn đề rồi. Em bị lừa trên app đầu tư Finvest và mất 5.2 triệu, bây giờ có người tên Minh Trung gọi điện bảo có thể giúp em lấy lại tiền qua dịch vụ &#34;Quỹ Bảo vệ Nhà đầu tư&#34; nhưng cần em gửi trước 800 nghìn để phí xác minh. Em có nên tin không ạ?
+</div>
+
+<div class="transcript">
+<strong>scam-ecommerce_scam-05</strong> — expected: red · rag: red (7.00) · generic: red (9.00) · preferred: generic-websearch
+<hr>
+Em vừa mua tour Nha Trang 3 ngày 2 đêm từ shop &#34;SaiGonTravel2024&#34; trên Shopee, đặt cọc 2.5 triệu qua banking app. Nhưng shop không confirm đơn và có số điện thoại lạ gọi báo tôi thêm phí visa 800k. Cái này có ok không ạ?
+</div>
+
+<div class="transcript">
+<strong>scam-investment_fraud-05</strong> — expected: red · rag: red (7.00) · generic: red (9.00) · preferred: generic-websearch
+<hr>
+Hôm qua mình mới biết chuyện bạn tớ là Minh gặp phải. Nó kể rằng vào tuần trước, nó được một người tên Trần Hoàng Phú (số điện thoại 0936.447.281) kết bạn trên Facebook. Anh này tự giới thiệu là chuyên gia tư vấn đầu tư với 15 năm kinh nghiệm, liên tục chia sẻ ảnh chứng chỉ, bằng cấp giả và các bài đăng về &#34;chiến lược giao dịch Forex độc quyền&#34;. 
+
+Sau vài ngày chat thân thiết, anh ta mời Minh vào nhóm Telegram gọi là &#34;Gold Investment Club 2024&#34; (t.me/goldinvestmentclub247). Trong nhóm, có hàng chục &#34;thành viên&#34; (hầu hết là fake account) liên tục đăng ảnh màn hình lợi nhuận: người này lãi 5 triệu trong 3 ngày, người kia 12 triệu trong một tuần.
+
+Anh Phú hướng dẫn Minh tải ứng dụng &#34;FXPro Global&#34; (giả mạo tên app thật nhưng domain của nó là fxproglobal-vn.online). Sau đó bảo Minh nạp tiền vào tài khoản qua chuỗi chuyển khoản: &#34;Tài khoản Ngân hàng Techcombank số 1027-482-9156 (chủ tài khoản Công ty TNHH Dream Capital)&#34;.
+
+Minh lần đầu chuyển 2 triệu. Tờ lâu sau, ứng dụng hiển thị lợi nhuận giả là 6.8 triệu, thế là nó liên tục nạp thêm: 5 triệu, 10 triệu, rồi vay mượn để nạp tiếp 8 triệu nữa. Khi Minh yêu cầu rút tiền, anh Phú bảo &#34;cần nạp thêm 3 triệu để giải phóng quỹ&#34; — rồi sau đó mất liên lạc luôn.
+</div>
+
+
+</body>
+</html>

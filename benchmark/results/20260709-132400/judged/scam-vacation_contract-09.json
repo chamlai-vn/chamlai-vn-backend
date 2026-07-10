@@ -1,0 +1,34 @@
+{
+  "case_id": "scam-vacation_contract-09",
+  "rag_verdict": {
+    "strengths": [
+      "Nhận diện đúng nạn nhân đã mất 15 triệu qua app giả ResortPay + email tên miền giả",
+      "Phủ đủ 4 ý chính: gói VIP, áp lực '3 suất cuối/24h', app giả + hợp đồng điều khoản mơ hồ, cắt liên lạc sau nhận tiền",
+      "Pattern khớp đúng loại vacation_contract",
+      "Khuyến nghị trình báo, lưu bằng chứng, khóa tài khoản ngân hàng, không tin quảng cáo 'du lịch trọn đời'"
+    ],
+    "weaknesses": [
+      "Có vài lỗi đánh máy ('hợp đơp ký', 'cấp tập trung bắt giữ')",
+      "Không cảnh báo nguy cơ 'bị lừa lần hai'",
+      "Không cung cấp kênh trình báo cụ thể"
+    ],
+    "reasoning": "Chính xác và phủ đủ ý chính với khuyến nghị hợp lý. Trừ điểm nhẹ vì lỗi đánh máy và thiếu cảnh báo lừa lần hai.",
+    "score": 8
+  },
+  "generic_verdict": {
+    "strengths": [
+      "Dẫn số liệu vụ án cụ thể (TP.HCM 11 vụ/612 tỷ, Hà Nội 25 vụ/2.700 tỷ) và mô tả kịch bản khớp từng chi tiết",
+      "Cung cấp địa chỉ Phòng CSHS Công an TP.HCM cụ thể để phối hợp, cảnh báo lừa lần hai",
+      "Quy trình khắc phục đầy đủ, chủ động đề nghị soạn đơn",
+      "Đối chiếu sát dấu hiệu, giải thích email tên miền giả"
+    ],
+    "weaknesses": [
+      "Không có nguồn web trích dẫn (sources=0)",
+      "Dài"
+    ],
+    "reasoning": "Vượt trội nhờ số liệu vụ án, địa chỉ trình báo cụ thể và cảnh báo lừa lần hai. Điểm trừ là độ dài.",
+    "score": 8.5
+  },
+  "preferred": "generic-websearch",
+  "order_consistent": true
+}

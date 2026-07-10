@@ -1,0 +1,32 @@
+{
+  "case_id": "scam-fake_job-10",
+  "arm": "rag-hybrid",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Yêu cầu nộp phí đăng ký thành viên (890.000 đồng) trước khi thực hiện công việc",
+      "Lương cao bất thường (15-20 triệu/tháng) với công việc nhẹ (chỉ 2-3 giờ/ngày, làm từ nhà)",
+      "Liên hệ qua số lạ trên Zalo cá nhân thay vì kênh chính thức của công ty",
+      "Yêu cầu cài ứng dụng lạ 'ShopWork Pro' từ liên kết không rõ nguồn gốc",
+      "Yêu cầu tham gia nhóm Telegram kín thay vì truy cập website/fanpage chính thức",
+      "Tên chủ tài khoản nhận tiền là 'Võ Thị Mỹ Linh' (cá nhân) chứ không phải tên công ty",
+      "Không có thông tin công ty rõ ràng, không có trụ sở thực tế hay thông tin liên hệ chính thức",
+      "Công ty 'Global Express Vietnam' không tồn tại hoặc không được kiểm chứng được"
+    ],
+    "matched_patterns": [
+      "Lừa đảo tuyển cộng tác viên online (fake_job - giả mạo sàn thương mại điện tử)",
+      "Lừa đảo 'việc nhẹ, lương cao' qua mạng xã hội",
+      "Giả mạo doanh nghiệp tuyên CTV online, yêu cầu chuyển tiền trước"
+    ],
+    "recommended_actions": [
+      "Tuyệt đối không chuyển tiền nộp phí đăng ký hay bất kỳ hình thức phí nào để tham gia công việc",
+      "Xác minh trực tiếp thông tin công ty qua website chính thức hoặc gọi tổng đài công khai, không tin liên hệ qua tin nhắn cá nhân",
+      "Không tải ứng dụng lạ từ liên kết mà không chắc chắn về nguồn gốc; chỉ tải từ App Store hoặc Google Play với các ứng dụng đã xác minh",
+      "Yêu cầu xem hợp đồng lao động chính thức, ký trực tiếp tại trụ sở công ty thực tế trước khi bỏ bất kỳ tiền nào",
+      "Báo cáo số điện thoại và tài khoản ngân hàng này cho cơ quan chức năng (công an, kiểm sát) và các nền tảng mạng xã hội để ngăn chặn lừa đảo tiếp theo",
+      "Cảnh báo gia đình, bạn bè về chiêu trò này để họ không bị lừa"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "latency_ms": 10485
+}

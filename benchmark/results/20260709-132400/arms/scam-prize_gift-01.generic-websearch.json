@@ -1,0 +1,55 @@
+{
+  "case_id": "scam-prize_gift-01",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Tin nhắn từ tài khoản Zalo không chính thức (LAZADA_REWARDS_CENTER) giả mạo thương hiệu Lazada",
+      "Trang web giả mạo sao chép giao diện Lazada để đánh cắp thông tin",
+      "Yêu cầu cung cấp mã OTP — không một tổ chức hợp pháp nào yêu cầu điều này",
+      "Thu thập thông tin nhạy cảm: họ tên, số CMND/CCCD, ngày sinh, số tài khoản ngân hàng",
+      "Yêu cầu 'phí xử lý' để nhận quà thưởng",
+      "Thông báo trúng thưởng bất ngờ không qua đăng ký",
+      "Tên miền không phải lazada.vn chính thức"
+    ],
+    "matched_patterns": [
+      "Giả mạo thương hiệu (Lazada)",
+      "Đánh cắp thông tin cá nhân qua form giả mạo",
+      "Lừa đảo trúng thưởng",
+      "Yêu cầu mã OTP",
+      "Thu phí xử lý để nhận quà"
+    ],
+    "recommended_actions": [
+      "KHẨN CẤP: Liên hệ ngay đường dây nóng ngân hàng để khóa tài khoản và giao dịch (Vietcombank: 1800 1212 / Agribank: 1900 558818 / BIDV: 1900 9247 / Techcombank: 1800 6868)",
+      "Đổi mật khẩu ngân hàng và Zalo ngay lập tức, đăng xuất khỏi tất cả thiết bị lạ trên Zalo",
+      "Trình báo công an phường/xã hoặc quận/huyện gần nhất, mang theo CMND/CCCD, sao kê tài khoản và bằng chứng liên quan. Có thể tố cáo trực tuyến qua bocongan.gov.vn hoặc ứng dụng VNeID",
+      "Báo xấu tài khoản Zalo lừa đảo: vào profile, nhấn biểu tượng ba chấm, chọn 'Báo xấu' và đính kèm ảnh chụp màn hình",
+      "Theo dõi chặt tài khoản ngân hàng để phát hiện các giao dịch lạ, thông báo OTP bất thường hoặc đăng nhập từ thiết bị khác"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "# 🚨 Đây Là Lừa Đảo 100% — Phân Tích Chi Tiết \u0026 Hướng Xử Lý Khẩn Cấp Cho Linh\n\n---\n\n## ✅ KẾT LUẬN: LỪA ĐẢO RÕ RÀNG\n\nTình huống của Linh là một vụ lừa đảo giả mạo thương hiệu Lazada kết hợp đánh cắp thông tin cá nhân — một thủ đoạn đang **rất phổ biến tại Việt Nam**. Linh rất may mắn đã dừng lại đúng lúc trước khi chuyển tiền. Tuy nhiên, việc đã **điền đầy đủ thông tin vào form giả mạo** là cực kỳ nguy hiểm.\n\n---\n\n## 🔍 TẠI SAO ĐÂY LÀ LỪA ĐẢO?\n\nDưới đây là **5 dấu hiệu nhận biết** rõ ràng trong câu chuyện của Linh:\n\n### 1. Tin nhắn từ tài khoản lạ, không chính thức\nKẻ lừa đảo thường gửi các đường link có giao diện sao chép từ những trang uy tín như ngân hàng, sàn thương mại điện tử. Những đường dẫn này đi kèm lời nhắn như \"Bạn trúng thưởng, đăng nhập để nhận quà\", nhằm kích thích nạn nhân truy cập và cung cấp thông tin. Tài khoản \"LAZADA_REWARDS_CENTER\" trên Zalo không phải kênh liên lạc chính thức của Lazada.\n\n### 2. Trang web giả mạo giao diện Lazada\nKhi người dùng nhấp vào các quảng cáo này, hệ thống sẽ tự động chuyển hướng đến các trang web độc hại có giao diện sao chép hoàn hảo. Tại đây, trang web giả mạo sẽ yêu cầu người dùng đăng nhập tài khoản, cung cấp mã OTP hoặc tải về phần mềm không rõ nguồn gốc.\n\n### 3. Yêu cầu mã OTP — dấu hiệu lừa đảo cực kỳ rõ ràng\nMã OTP chỉ dành riêng cho bạn và **không một tổ chức hợp pháp nào** yêu cầu bạn cung cấp mã này qua điện thoại, email hoặc tin nhắn. Các cơ quan chức năng, ngân hàng không bao giờ yêu cầu người dùng gửi mã OTP thông qua cuộc gọi, tin nhắn, email.\n\n### 4. Thu thập CMND, số tài khoản ngân hàng\nYêu cầu thông tin nhạy cảm như mật khẩu, OTP, số tài khoản ngân hàng là dấu hiệu điển hình của tài khoản giả mạo lừa đảo. Kết hợp với các dữ liệu khác (số điện thoại, CCCD) để chiếm đoạt tài khoản ngân hàng, đặc biệt khi có lỗ hổng bảo mật hoặc bạn sơ ý cung cấp mã OTP cho kẻ gian.\n\n### 5. Yêu cầu \"phí xử lý\" để nhận quà\nĐây là chiêu bài cổ điển: Sau khoản thưởng nhỏ ban đầu, yêu cầu nạp thêm rồi biến mất. Không có chương trình thưởng hợp lệ nào lại yêu cầu người trúng thưởng phải **trả tiền trước** để nhận quà.\n\n---\n\n## ⚠️ MỨC ĐỘ NGUY HIỂM: Linh đang ở tình trạng rủi ro cao!\n\nDù Linh **không chuyển tiền**, nhưng đã cung cấp:\n- ❌ **Họ tên đầy đủ**\n- ❌ **Số CMND/CCCD**\n- ❌ **Ngày sinh**\n- ❌ **Số tài khoản ngân hàng**\n- ❌ **Mã OTP**\n\nSau khi nhận được mã OTP, kẻ gian ngay lập tức kiểm soát tài khoản của người dùng và tiến hành chiếm đoạt tiền trong tài khoản chỉ trong tích tắc. Đây là tình huống **cực kỳ khẩn cấp**.\n\n---\n\n## 🆘 LINH CẦN LÀM NGAY — THEO THỨ TỰ ƯU TIÊN\n\n### 🔴 BƯỚC 1: Liên hệ ngân hàng NGAY LẬP TỨC\nLiên hệ ngay đường dây nóng của ngân hàng (thường là số hotline trên thẻ hoặc ứng dụng ngân hàng) để khóa tài khoản và giao dịch khẩn cấp. Cung cấp thông tin chi tiết về sự việc, thời gian và số tiền bị rút (nếu có).\n\n\u003e 💡 **Việt Nam có các đường dây nóng ngân hàng 24/7:**\n\u003e - Vietcombank: **1800 1212**\n\u003e - Agribank: **1900 558818**\n\u003e - BIDV: **1900 9247**\n\u003e - Techcombank: **1800 6868**\n\n### 🔴 BƯỚC 2: Đổi mật khẩu ngân hàng \u0026 Zalo ngay\nNếu đã tương tác với các nội dung giả mạo, hãy nhanh chóng đổi mật khẩu Zalo và đăng xuất khỏi các thiết bị lạ trong phần \"Thiết bị đăng nhập\" trên Zalo.\n\n### 🔴 BƯỚC 3: Trình báo công an\nĐến Công an phường/xã hoặc quận/huyện gần nhất để trình báo. Mang theo giấy tờ cá nhân (CMND/CCCD), sao kê tài khoản và các bằng chứng liên quan. Cơ quan công an sẽ tiếp nhận tố cáo và khởi tố vụ án nếu đủ yếu tố cấu thành tội phạm.\n\nHoặc tố cáo trực tuyến: Sử dụng Cổng thông tin điện tử của Bộ Công an (bocongan.gov.vn) hoặc ứng dụng VNeID để tố cáo trực tuyến. Điền form tố cáo với chi tiết vụ việc và đính kèm file chứng cứ. Phương thức này có thể tiếp nhận trong vòng 24 giờ.\n\n### 🟡 BƯỚC 4: Báo xấu tài khoản Zalo lừa đảo\nTruy cập vào profile của tài khoản đó, nhấn vào biểu tượng ba chấm (⋯) ở góc trên bên phải, chọn \"Báo xấu\". Hệ thống sẽ hiển thị các lý do bao gồm \"Giả mạo\", \"Lừa đảo\". Khi báo xấu, hãy cung cấp càng nhiều thông tin chi tiết càng tốt, đính kèm ảnh chụp màn hình các tin nhắn đáng ngờ.\n\n### 🟡 BƯỚC 5: Theo dõi chặt tài khoản ngân hàng\nPhát hiện truy cập trái phép nếu thấy: có giao dịch lạ mà bạn không thực hiện, nhận thông báo OTP dù không đăng nhập hay thực hiện thao tác gì, hoặc app ngân hàng báo đăng nhập từ thiết bị khác.\n\n---\n\n## 📌 BÀI HỌC RÚT RA CHO TẤT CẢ MỌI NGƯỜI\n\n| Dấu hiệu lừa đảo | Cách nhận biết |\n|---|---|\n| Tin nhắn \"trúng thưởng\" bất ngờ | Không bao giờ tham gia chương trình không đăng ký |\n| Link rút gọn dẫn đến form | Không nhập thông tin trên link lạ |\n| Yêu cầu OTP | Tuyệt đối KHÔNG cung cấp cho bất kỳ ai |\n| Phí xử lý để nhận quà | Đây luôn là lừa đảo |\n| Tên miền không phải lazada.vn chính thức | Kiểm tra kỹ URL trước khi nhập thông tin |\n\nLazada khẳng định mọi chương trình khuyến mãi chính thống đều được công bố trên các kênh chính thức; bất kỳ thông báo nào không tìm thấy thông tin xác thực trên Lazada chính thức đều tiềm ẩn nguy cơ lừa đảo cao.\n\n---\n\n\u003e 🙏 **Linh rất may mắn đã kịp dừng lại!** Nhưng việc đã cung cấp OTP và thông tin cá nhân khiến tình huống vẫn còn rủi ro. **Hãy thực hiện ngay Bước 1 (gọi ngân hàng) ngay hôm nay, không để đến ngày mai!**",
+  "sources": [
+    "https://cafef.vn/cong-an-canh-bao-9-kieu-tin-nhan-zalo-nguoi-dan-nhan-duoc-phai-bao-xau-ngay-keo-mat-sach-188260102213449461.chn",
+    "https://congan.quangninh.gov.vn/thong-bao/thu-doan-toi-pham/canh-bao-tai-dien-thu-doan-hack-tai-khoan-zalo-de-lua-dao-chiem-doat-tai-san-2473.html",
+    "https://antv.gov.vn/other/canh-bao-nguoi-dan-va-doanh-nghiep-truoc-lua-dao-qua-thuong-mai-dien-tu-8D6C99E71.html",
+    "https://simplepage.vn/blog/cach-phat-hien-tai-khoan-zalo-gia-mao/",
+    "https://congan.dienbien.gov.vn/danh-muc-tin-tuc/them-thu-doan-lua-dao-moi-chua-tung-xuat-hien-tren-zalo-12916.html",
+    "https://kenh14.vn/hang-chuc-trieu-nguoi-dung-zalo-chu-y-phat-hien-dau-hieu-nay-can-phai-doi-mat-khau-ngay-lap-tuc-215251208173144332.chn",
+    "https://help.zalo.me/huong-dan/chuyen-muc/bao-mat-va-rieng-tu/de-phong-chieu-tro-mao-danh-hop-tac-voi-zalo-de-lua-dao/",
+    "https://vietnamnet.vn/chieu-tro-lua-dao-gia-lam-nhan-vien-ngan-hang-tuyen-xu-ly-don-hang-2163776.html",
+    "https://daidoanket.vn/canh-bao-chieu-tro-lua-dao-moi-qua-zalo.html",
+    "https://congan.ninhbinh.gov.vn/canh-bao-tai-dien-tinh-trang-gia-mao-tai-khoan-zalo-de-lua-dao-chiem-doat-tai-san",
+    "https://naict.tttt.nghean.gov.vn/attt/cach-tranh-bi-lua-dao-lien-quan-den-ma-otp-1628.html",
+    "https://congtyluatacc.vn/bi-lua-chiem-otp-ngan-hang-co-trach-nhiem-boi-thuong-khong/",
+    "https://tuoitre.vn/bi-lua-cung-cap-otp-va-cccd-cho-ke-xau-gio-app-cho-vay-doi-tien-phai-lam-sao-20251017151505482.htm",
+    "https://ict.thanhhoa.gov.vn/NewsDetail.aspx?Id=11965",
+    "https://nhandan.vn/special/phai-lam-gi-khi-bi-lua-dao-truc-tuyen/index.html",
+    "https://timo.vn/blogs/rui-ro-khi-su-dung-ma-otp/",
+    "https://congan.laichau.gov.vn/thu-doan-pham-toi/canh-giac-voi-thu-doan-lua-dao-lien-quan-toi-otp-3817.html",
+    "https://kenh14.vn/cong-an-da-tim-ra-nguyen-nhan-lua-dao-biet-duoc-ma-otp-gui-ve-so-dien-thoai-ca-nhan-de-rut-tien-trong-tai-khoan-ngan-hang-215260426184252747.chn",
+    "https://congan.hue.gov.vn/bai-viet/nguyen-nhan-lua-dao-biet-duoc-ma-otp-gui-ve-so-dien-thoai-ca-nhan-de-rut-tien-trong-tai-khoan-ngan-h-3330",
+    "https://rabbitcare.vn/blog/bi-lo-so-tai-khoan-ngan-hang-co-sao-khong"
+  ],
+  "latency_ms": 77490
+}
