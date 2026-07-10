@@ -1,0 +1,25 @@
+{
+  "case_id": "benign-delivery_real-03",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "yellow",
+    "red_flags": [
+      "Không nhớ đã đặt hàng gì nên chưa thể xác minh nguồn gốc bưu kiện"
+    ],
+    "matched_patterns": [
+      "Giả mạo đơn vị vận chuyển để dụ bấm link, cung cấp thông tin cá nhân hoặc chuyển khoản phí giao hàng"
+    ],
+    "recommended_actions": [
+      "Không bấm vào bất kỳ liên kết nào trong tin nhắn/email",
+      "Tự kiểm tra mã vận đơn trên website hoặc ứng dụng chính thức của Viettel Post, không qua link trong tin nhắn",
+      "Nếu không nhớ có đơn hàng, liên hệ tổng đài chính thức của Viettel Post để xác minh",
+      "Từ chối ngay nếu bị yêu cầu chuyển khoản trước khi nhận hàng hoặc cung cấp OTP"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "**Đánh giá:** Chưa thể kết luận đây là lừa đảo, nhưng đây là **tình huống cần cảnh giác cao**.\n\nViệc nhận thông báo từ Viettel Post hoặc đơn vị chuyển phát về một gói hàng mà bạn không nhớ đã đặt có thể xảy ra vì một số lý do:\n\n* Có người khác (người thân, bạn bè, công ty) gửi hàng cho bạn mà chưa báo trước.\n* Bạn quên một đơn hàng đã đặt.\n* Đây là một chiêu **giả mạo đơn vị vận chuyển** để lừa bạn bấm vào liên kết, cung cấp thông tin cá nhân hoặc chuyển khoản phí giao hàng. Các hình thức này đã được nhiều đơn vị bưu chính tại Việt Nam cảnh báo. ([Bưu điện Việt Nam][1])\n\n### Những dấu hiệu đáng ngờ\n\nNếu thông báo có một hoặc nhiều đặc điểm sau thì khả năng là lừa đảo rất cao:\n\n* Yêu cầu bấm vào **đường link lạ** để xác nhận giao hàng.\n* Yêu cầu thanh toán một khoản phí nhỏ (phí giao lại, phí xác minh, phí hải quan...).\n* Yêu cầu cung cấp OTP, thông tin thẻ ngân hàng hoặc thông tin cá nhân.\n* Tạo cảm giác khẩn cấp như \"nếu không xác nhận trong hôm nay sẽ hủy đơn\". ([Bưu điện Việt Nam][1])\n\n### Bạn nên làm gì\n\n1. **Không bấm vào bất kỳ liên kết nào** trong tin nhắn hoặc email.\n2. Nếu có **mã vận đơn**, hãy tự kiểm tra trên website hoặc ứng dụng chính thức của Viettel Post, không truy cập qua liên kết trong tin nhắn.\n3. Nếu không có mã vận đơn hoặc không nhớ có đơn hàng, hãy bỏ qua hoặc liên hệ tổng đài chính thức của Viettel Post để xác minh.\n4. Nếu người gọi yêu cầu chuyển khoản trước khi nhận hàng hoặc cung cấp OTP, hãy từ chối ngay.\n\nNếu bạn có thể chia sẻ **nguyên văn tin nhắn**, **ảnh chụp màn hình**, **số điện thoại gửi**, hoặc **đường link** (không cần bấm vào), tôi có thể phân tích chi tiết và đánh giá mức độ lừa đảo chính xác hơn.\n\n[1]: https://vnpost.vn/en/hoat-dong-nganh/can-trong-de-khong-sap-bay-lua-dao-giao-hang?utm_source=chatgpt.com \"Cẩn trọng để không “sập bẫy” lừa đảo giao hàng\"",
+  "sources": [
+    "https://vnpost.vn/en/hoat-dong-nganh/can-trong-de-khong-sap-bay-lua-dao-giao-hang?utm_source=chatgpt.com"
+  ],
+  "latency_ms": 0
+}

@@ -1,0 +1,26 @@
+{
+  "case_id": "benign-sms_bank_real-05",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Kịch bản báo giao dịch bất thường rồi thúc giục gọi gấp để tạo hoảng loạn — không nhớ có giao dịch nào",
+      "Dùng đúng số hotline thật của Agribank (1900558818) để tạo lòng tin, nhưng không đảm bảo cuộc gọi thực sự kết nối tới tổng đài Agribank"
+    ],
+    "matched_patterns": [
+      "Giả mạo SMS Brandname ngân hàng, tin nhắn giả nằm chung luồng với tin nhắn thật khiến người dùng khó phân biệt"
+    ],
+    "recommended_actions": [
+      "Không gọi lại theo số trong tin nhắn, không bấm bất kỳ link nào dù trông có vẻ chính chủ",
+      "Tự mở app Agribank E-Mobile Banking để kiểm tra số dư và lịch sử giao dịch thực tế",
+      "Nếu muốn gọi hotline, tự tra số từ website chính thức agribank.com.vn hoặc mặt sau thẻ ATM",
+      "Nếu phát hiện bất thường thật, khóa dịch vụ ngân hàng số ngay trong app hoặc gọi hotline (tự tra số) để được hỗ trợ khẩn cấp",
+      "Có thể báo cáo tin nhắn rác/lừa đảo tới đầu số 5656 hoặc thongbaorac.ais.gov.vn",
+      "Tuyệt đối không cung cấp OTP, mật khẩu, số thẻ, CVV cho bất kỳ ai qua điện thoại/tin nhắn"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "## Đánh giá: Rất có khả năng đây là tin nhắn lừa đảo (SMS giả mạo brandname ngân hàng)\n\n\n\n**Vì sao đáng nghi:**\n\n\n\n1. **Đúng kịch bản lừa đảo phổ biến nhất hiện nay.** Theo cảnh báo chính thức từ Agribank, một chiêu thức rất phổ biến là mạo danh thương hiệu ngân hàng, gửi tin nhắn lừa đảo dưới dạng SMS Brand name của ngân hàng, thông báo tài khoản bị xâm phạm rồi yêu cầu cung cấp thông tin để xác thực. Kịch bản \"báo bị rút tiền/giao dịch bất thường → gọi gấp\" chính là để tạo cảm giác hoảng loạn, khiến bạn mất bình tĩnh và làm theo hướng dẫn của kẻ gian mà không kiểm tra kỹ.\n\n\n\n2. **Kẻ gian có thể giả cả số hotline thật.** Điều đáng chú ý là số điện thoại 1900558818 trong tin nhắn của bạn **đúng là số tổng đài thật của Agribank** (Agribank xác nhận đây là Tổng đài Hỗ trợ KH (24/7) 1900558818). Nhưng điều này **không đảm bảo tin nhắn là thật** — kẻ lừa đảo thường cố tình dùng đúng số hotline thật để tạo lòng tin, sau đó khi bạn gọi vào, có thể bạn không thực sự kết nối với tổng đài Agribank (do giả mạo cuộc gọi/SIM box, hoặc dẫn dắt bạn sang một \"nhân viên hỗ trợ\" giả sau đó).\n\n\n\n3. **Tin nhắn giả có thể nằm chung luồng với tin nhắn thật.** Agribank cảnh báo rằng tin nhắn lừa đảo xuất hiện chung luồng với tin nhắn SMS của ngân hàng, người dùng không có cách nào kiểm tra tin nhắn từ số nào gửi tới nên dễ tin tưởng và làm theo. Vì vậy, việc tin nhắn nằm cùng box với các tin nhắn Agribank thật trên điện thoại **không phải bằng chứng nó là thật**.\n\n\n\n4. Bạn không nhớ có giao dịch nào — đây là dấu hiệu hợp lý để nghi ngờ, vì kẻ gian cố tình bịa ra một giao dịch không có thật để bạn hoảng sợ và gọi lại/bấm link ngay.\n\n\n\n**Bạn nên làm gì tiếp theo:**\n\n\n\n- ❌ **Không gọi lại theo số trong tin nhắn, không bấm bất kỳ link nào** trong tin nhắn đó, dù trông có vẻ \"chính chủ\".\n\n- ✅ Tự tay mở **ứng dụng Agribank E-Mobile Banking** (đã cài từ trước) để kiểm tra số dư và lịch sử giao dịch thực tế — đây là cách xác minh đáng tin cậy nhất.\n\n- ✅ Nếu muốn gọi hotline, hãy **tự tra số 1900558818 hoặc 024.3205.3205 từ website chính thức agribank.com.vn hoặc mặt sau thẻ ATM/thẻ ngân hàng của bạn**, không bấm gọi trực tiếp từ tin nhắn nghi ngờ.\n\n- ✅ Nếu phát hiện bất thường thật (có giao dịch bạn không thực hiện), hãy khóa dịch vụ ngân hàng số ngay trong app hoặc gọi hotline (tự tra số) để yêu cầu hỗ trợ khẩn cấp.\n\n- ✅ Có thể **báo cáo tin nhắn rác/lừa đảo** tới đầu số **5656** hoặc website thongbaorac.ais.gov.vn (do Cục An toàn thông tin – Bộ TT&TT quản lý).\n\n- ⚠️ Tuyệt đối không cung cấp mã OTP, mật khẩu, số thẻ, CVV cho bất kỳ ai qua điện thoại/tin nhắn, kể cả người tự xưng là nhân viên ngân hàng.\n\n\n\nTóm lại: khả năng cao đây là tin nhắn giả mạo nhằm dụ bạn hoảng sợ và tự gọi/bấm vào bẫy. Cách an toàn nhất là **tự kiểm tra qua app ngân hàng**, không tương tác với bất cứ thứ gì trong tin nhắn gốc.",
+  "sources": [],
+  "latency_ms": 0
+}

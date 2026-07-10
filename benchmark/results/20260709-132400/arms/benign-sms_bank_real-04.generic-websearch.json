@@ -1,0 +1,22 @@
+{
+  "case_id": "benign-sms_bank_real-04",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "green",
+    "red_flags": [],
+    "matched_patterns": [
+      "Thông báo xác nhận thay đổi thông tin tài khoản (cơ chế bảo mật tiêu chuẩn của ngân hàng)",
+      "Nội dung khớp với hành động người dùng vừa thực hiện (đăng ký thẻ tín dụng, cập nhật số điện thoại)"
+    ],
+    "recommended_actions": [
+      "Không bấm vào link nào trong tin nhắn, kể cả khi tin nhắn có vẻ hợp lệ — nếu cần kiểm tra, tự mở app ngân hàng hoặc gọi hotline chính thức (in trên mặt sau thẻ hoặc website ngân hàng)",
+      "Không đọc mã OTP cho bất kỳ ai, kể cả người tự xưng là nhân viên ngân hàng",
+      "Nếu tin nhắn chỉ yêu cầu nhấn phím phản hồi (không phải link), rủi ro thấp hơn, nhưng an toàn nhất vẫn là đăng nhập app ngân hàng để tự kiểm tra lịch sử thay đổi thông tin",
+      "Lưu số hotline chính thức của ngân hàng để lần sau có tình huống tương tự, gọi trực tiếp xác minh thay vì làm theo tin nhắn"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "Dựa trên những gì bạn mô tả, đây **có vẻ không phải là lừa đảo** trong trường hợp cụ thể này — nhưng tin nhắn dạng này lại là một trong những \"vỏ bọc\" mà kẻ lừa đảo hay giả mạo nhất, nên rất đáng để hiểu rõ cách phân biệt.\n\n## Tại sao trường hợp này có khả năng là thật\n\n- Nội dung khớp với hành động chị bạn vừa làm (đăng ký thẻ tín dụng, cần cập nhật số điện thoại) — không phải một sự kiện \"từ trên trời rơi xuống\" mà chị không hề liên quan.\n- Tin nhắn xác nhận thay đổi thông tin liên kết (số điện thoại, thiết bị đăng nhập...) là một cơ chế bảo mật tiêu chuẩn nhiều ngân hàng dùng: gửi cảnh báo để khách hàng có cơ hội từ chối nếu không phải chính họ thực hiện.\n\n## Nhưng đây cũng là \"công thức\" lừa đảo phổ biến\n\nĐiều đáng lưu ý là **định dạng tin nhắn này giống hệt với một dạng lừa đảo rất thịnh hành**: tạo cảm giác khẩn cấp (\"5 phút\"), yêu cầu bấm phím/nhấn link để \"từ chối\" một giao dịch mà nạn nhân không hề thực hiện. Kẻ gian lợi dụng đúng tâm lý hoảng loạn giống như chị bạn đã trải qua, rồi:\n- Dẫn dụ nhấn vào link giả mạo giao diện ngân hàng để nhập tài khoản/mật khẩu, hoặc\n- Gọi điện giả danh \"nhân viên ngân hàng\" ngay sau đó để \"hỗ trợ hủy giao dịch\", rồi yêu cầu đọc mã OTP.\n\nNên việc chị bạn hoảng sợ là phản ứng hoàn toàn hợp lý — chỉ là lần này nguyên nhân hóa ra vô hại.\n\n## Bạn (và chị bạn) nên làm gì tiếp theo\n\n1. **Không bấm vào link nào trong tin nhắn**, kể cả khi tin nhắn có vẻ hợp lệ. Nếu cần kiểm tra, tự mở app ngân hàng hoặc gọi hotline chính thức (in trên mặt sau thẻ hoặc website ngân hàng) để xác nhận.\n2. **Không đọc mã OTP cho bất kỳ ai**, kể cả người tự xưng là nhân viên ngân hàng.\n3. Nếu tin nhắn chỉ yêu cầu \"nhấn 1\" qua tin nhắn phản hồi (không phải link), rủi ro thấp hơn, nhưng an toàn nhất vẫn là **đăng nhập app ngân hàng để tự kiểm tra lịch sử thay đổi thông tin**, thay vì thao tác theo hướng dẫn trong tin nhắn.\n4. Lưu số hotline chính thức của ngân hàng để lần sau có tình huống tương tự, gọi trực tiếp xác minh thay vì làm theo tin nhắn.\n\nNếu bạn muốn, gửi mình xem ảnh chụp tin nhắn gốc (số gửi, có link không, nội dung chính xác) — mình có thể tra thêm để đối chiếu với các mẫu lừa đảo đã ghi nhận gần đây.",
+  "sources": [],
+  "latency_ms": 0
+}

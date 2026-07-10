@@ -1,0 +1,23 @@
+{
+  "case_id": "benign-delivery_real-09",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "green",
+    "red_flags": [],
+    "matched_patterns": [
+      "Website (vietnampost.vn) và hotline (1900 545481) khớp đúng kênh chính thức của Vietnam Post, không yêu cầu thanh toán/OTP/thông tin ngân hàng"
+    ],
+    "recommended_actions": [
+      "Tự truy cập website chính thức vietnampost.vn hoặc gọi 1900 545481 để tra cứu/xác minh nếu cần",
+      "Không bấm vào link nếu sau này nhận tin nhắn tương tự nhưng dẫn tới tên miền lạ (vnpost-support..., vietnampost-xxx...)",
+      "Không cung cấp OTP, thông tin thẻ ngân hàng hoặc chuyển khoản nếu có người liên hệ yêu cầu"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "**Đánh giá:** Chưa có đủ dấu hiệu để kết luận đây là lừa đảo. Với riêng nội dung bạn cung cấp, tin nhắn có vẻ **đáng tin hơn nhiều so với các SMS lừa đảo phổ biến**.\n\n**Vì sao?**\n\n* Tin nhắn **không yêu cầu bấm vào một đường link lạ**. Thay vào đó, nó nhắc truy cập website chính thức của Vietnam Post là **vietnampost.vn**. Đây là website chính thức của Bưu điện Việt Nam. ([Vietnam Post][1])\n* Số hotline **1900 545481** đúng là tổng đài hỗ trợ chính thức của Vietnam Post. ([Vietnam Post][2])\n* Nội dung chỉ thông báo trạng thái đơn hàng và hướng dẫn cập nhật địa chỉ nếu cần, **không yêu cầu thanh toán phí**, **không yêu cầu cung cấp OTP, mật khẩu hay thông tin ngân hàng**.\n\n**Tuy nhiên, vẫn cần kiểm tra thêm:**\n\n* Bạn có thực sự đang chờ một đơn hàng hay không.\n* Mã đơn hàng `#VNP2024001567` có tra cứu được trên hệ thống chính thức hay không.\n* Tin nhắn có đúng được gửi từ tên định danh (brandname) của Vietnam Post hay chỉ từ một số điện thoại thông thường.\n\n**Bạn nên làm gì tiếp theo?**\n\n1. Nếu bạn **đang có đơn hàng**, hãy tự mở trình duyệt và truy cập website chính thức:\n\n   * [Vietnam Post](https://vietnampost.vn?utm_source=chatgpt.com)\n2. Tra cứu mã vận đơn hoặc gọi trực tiếp **1900 545481** để xác minh nếu cần. ([Vietnam Post][2])\n3. Không bấm vào bất kỳ liên kết nào nếu sau này nhận được tin nhắn khác có nội dung tương tự nhưng dẫn đến tên miền lạ (ví dụ: `vnpost-support...`, `vietnampost-xxx...`, v.v.).\n4. Không cung cấp OTP, thông tin thẻ ngân hàng hoặc chuyển khoản nếu có người liên hệ yêu cầu.\n\n**Kết luận:** Với nội dung hiện tại, **khả năng là tin nhắn hợp lệ cao hơn lừa đảo** vì sử dụng đúng website và hotline chính thức, đồng thời không có yêu cầu bất thường. Tuy vậy, chỉ nên tin tưởng sau khi đối chiếu với việc bạn thực sự có đơn hàng và xác minh qua kênh chính thức.\n\n[1]: https://vietnampost.vn/?utm_source=chatgpt.com \"Vietnam Post - Tổng công ty Bưu điện Việt Nam\"\n[2]: https://vietnampost.vn/vi/ho-tro?utm_source=chatgpt.com \"Vietnam Post - Tổng công ty Bưu điện Việt Nam\"",
+  "sources": [
+    "https://vietnampost.vn/?utm_source=chatgpt.com",
+    "https://vietnampost.vn/vi/ho-tro?utm_source=chatgpt.com"
+  ],
+  "latency_ms": 0
+}

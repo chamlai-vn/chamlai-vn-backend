@@ -1,0 +1,26 @@
+{
+  "case_id": "benign-delivery_real-04",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "yellow",
+    "red_flags": [
+      "Tên đơn vị vận chuyển 'Giao nhanh 247' chung chung, không khớp thương hiệu 247Express thật",
+      "Số hotline 1800-7777 không khớp với hotline chính thức 1900 6980 của 247Express"
+    ],
+    "matched_patterns": [
+      "Giả danh đơn vị vận chuyển với tên/hotline gần giống thương hiệu thật"
+    ],
+    "recommended_actions": [
+      "Kiểm tra xem có thực sự đặt hàng từ Điện Máy Xanh hay không",
+      "Tra cứu đơn hàng qua website/app của đơn vị bán hàng hoặc vận chuyển, tự tìm hotline chính thức thay vì dùng số trong tin nhắn",
+      "Không gọi vào số trong tin nhắn nếu chưa xác minh được",
+      "Coi là lừa đảo gần như chắc chắn nếu sau đó bị yêu cầu chuyển phí bất thường, cài ứng dụng, hoặc cung cấp OTP/thông tin ngân hàng"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "**Đánh giá:** **Chưa có đủ dấu hiệu để kết luận là lừa đảo**, nhưng cũng **không thể xác nhận đây là thông báo thật**. Đây là một tin nhắn cần được xác minh trước khi tin tưởng.\n\nCác điểm đáng chú ý:\n\n* Tin nhắn **không yêu cầu** bạn nhấp vào liên kết, tải ứng dụng, chuyển tiền, cung cấp mã OTP hoặc thông tin cá nhân. Đây là điểm khác với nhiều tin nhắn lừa đảo phổ biến.\n* Tin nhắn có các chi tiết cụ thể như:\n\n  * Mã tham chiếu: `GN20240315001`\n  * Địa chỉ giao hàng\n  * Cửa hàng gửi hàng được cho là từ Điện Máy Xanh\n  * Khung giờ giao hàng\n* Tuy nhiên, có một số điểm đáng nghi:\n\n  * \"Công ty Vận chuyển Giao nhanh 247\" là cách gọi khá chung chung. Doanh nghiệp chuyển phát nổi tiếng có tên **247Express**, và số hotline chính thức của họ là **1900 6980**, không phải **1800-7777**. ([247express.vn][1])\n  * Tôi không tìm thấy thông tin cho thấy **1800-7777** là tổng đài chính thức của một đơn vị chuyển phát mang tên \"Giao nhanh 247\". ([247express.vn][1])\n  * Mã vận đơn trong tin nhắn cũng không thể được xác minh chỉ từ nội dung.\n\n### Bạn nên làm gì?\n\n1. **Kiểm tra xem bạn có thực sự đặt hàng không**, đặc biệt là từ Điện Máy Xanh.\n2. Nếu có đơn hàng:\n\n   * Tra cứu đơn trên website hoặc ứng dụng của đơn vị bán hàng hoặc đơn vị vận chuyển mà bạn biết.\n   * Nếu cần gọi điện, hãy **tự tìm số hotline chính thức** trên website của đơn vị, thay vì chỉ dựa vào số trong tin nhắn.\n3. Nếu bạn **không hề đặt hàng**, hãy bỏ qua tin nhắn. Không gọi vào số điện thoại trong tin nhắn nếu chưa xác minh được.\n4. Nếu sau đó bạn nhận được cuộc gọi yêu cầu:\n\n   * chuyển phí giao hàng bất thường,\n   * cài ứng dụng,\n   * cung cấp OTP hoặc thông tin ngân hàng,\n\n   thì gần như chắc chắn đó là **lừa đảo**.\n\n**Mức độ rủi ro:** **Trung bình**. Chỉ riêng nội dung tin nhắn này chưa đủ để kết luận là lừa đảo, nhưng số hotline và tên đơn vị không khớp với thông tin công khai của 247Express nên cần xác minh trước khi thực hiện bất kỳ hành động nào.\n\n[1]: https://247express.vn/?utm_source=chatgpt.com \"Trang chủ | 247Express - Nhanh hơn bạn nghĩ\"",
+  "sources": [
+    "https://247express.vn/?utm_source=chatgpt.com"
+  ],
+  "latency_ms": 0
+}

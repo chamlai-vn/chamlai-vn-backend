@@ -1,0 +1,27 @@
+{
+  "case_id": "benign-promo_real-01",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "red",
+    "red_flags": [
+      "Tạo cảm giác khẩn cấp: 'tài khoản có dấu hiệu đăng nhập bất thường', thúc giục xác minh ngay",
+      "Không thể kết luận link an toàn chỉ vì hiển thị giống tên miền Shopee — có thể là văn bản giả hoặc dùng redirect sang trang giả mạo"
+    ],
+    "matched_patterns": [
+      "Phishing giả mạo Shopee dùng cảnh báo đăng nhập bất thường để dụ bấm link đánh cắp thông tin đăng nhập/OTP/thanh toán"
+    ],
+    "recommended_actions": [
+      "Không bấm vào link trong tin nhắn",
+      "Mở app Shopee hoặc tự nhập shopee.vn trên trình duyệt để kiểm tra có đăng nhập bất thường hay yêu cầu xác minh thật không",
+      "Nếu có đăng nhập lạ thật, đổi mật khẩu Shopee/mã PIN ShopeePay ngay và liên hệ CSKH Shopee qua kênh chính thức trong app",
+      "Nếu đã lỡ bấm link, không nhập tài khoản/mật khẩu/OTP; nếu đã nhập thì đổi mật khẩu ngay và theo dõi tài khoản ngân hàng/ShopeePay"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "**Đánh giá:** Có khả năng cao đây là **tin nhắn lừa đảo (phishing)** hoặc ít nhất là **không nên tin tưởng và không nên bấm vào liên kết**.\n\nLý do:\n\n* Nội dung sử dụng chiêu thức tạo cảm giác khẩn cấp: \"tài khoản có dấu hiệu đăng nhập bất thường\", thúc giục bạn xác minh ngay. Đây là một trong những hình thức phishing phổ biến.\n* Dù chuỗi `shopee.vn/dlink/verify/...` nhìn có vẻ là tên miền Shopee, **không thể kết luận an toàn chỉ dựa vào phần hiển thị trong tin nhắn**. Kẻ lừa đảo có thể:\n\n  * Hiển thị văn bản giống URL nhưng liên kết thật lại khác.\n  * Dùng dịch vụ chuyển hướng (redirect) để dẫn sang trang giả mạo.\n* Shopee đã nhiều lần cảnh báo về các tin nhắn chứa liên kết giả mạo nhằm đánh cắp thông tin đăng nhập, OTP hoặc thông tin thanh toán. Shopee cũng khuyến cáo không nhấp vào các liên kết đáng ngờ và không cung cấp mật khẩu, OTP hay thông tin ngân hàng qua SMS, cuộc gọi hoặc chat. ([Trung Tâm Trợ Giúp Shopee][1])\n\n**Bạn nên làm gì:**\n\n1. **Không bấm vào liên kết** trong tin nhắn.\n2. Mở **ứng dụng Shopee** hoặc tự nhập địa chỉ `shopee.vn` trên trình duyệt để kiểm tra:\n\n   * Có thông báo đăng nhập bất thường hay không.\n   * Có yêu cầu xác minh nào xuất hiện trong tài khoản hay không.\n3. Nếu thực sự có đăng nhập lạ:\n\n   * Đổi mật khẩu Shopee ngay.\n   * Nếu dùng ShopeePay, đổi mã PIN.\n   * Liên hệ bộ phận CSKH Shopee qua kênh chính thức trong ứng dụng. Đây cũng là hướng dẫn chính thức của Shopee khi phát hiện đăng nhập bất thường. ([Trung Tâm Trợ Giúp Shopee][2])\n4. Nếu đã lỡ bấm vào link:\n\n   * Không nhập tài khoản, mật khẩu hoặc OTP.\n   * Nếu đã nhập, hãy đổi mật khẩu ngay và theo dõi tài khoản ngân hàng/ShopeePay.\n\n**Lưu ý thêm:** Nếu bạn có thể cho biết:\n\n* Tin nhắn này đến từ **đầu số/SMS Brandname \"Shopee\"** hay từ một số điện thoại thông thường?\n* Khi **nhấn giữ hoặc sao chép liên kết**, URL đầy đủ là gì?\n\nTôi có thể giúp kiểm tra xem liên kết đó có thực sự thuộc Shopee hay là một liên kết giả mạo được ngụy trang.\n\n[1]: https://help.shopee.vn/portal/4/article/79477-%5BC%E1%BA%A3nh-b%C3%A1o-l%E1%BB%ABa-%C4%91%E1%BA%A3o%5D-Tin-nh%E1%BA%AFn%2Fcu%E1%BB%99c-g%E1%BB%8Di-l%E1%BB%ABa-%C4%91%E1%BA%A3o?previousPage=related+articles&utm_source=chatgpt.com \"[Cảnh báo lừa đảo] Tin nhắn/cuộc gọi lừa đảo | Shopee Trung tâm trợ giúp\"\n[2]: https://help.shopee.vn/portal/4/article/79255-%5BB%E1%BA%A3o-m%E1%BA%ADt-t%C3%A0i-kho%E1%BA%A3n%5D-T%C3%B4i-c%E1%BA%A7n-l%C3%A0m-g%C3%AC-khi-nghi-ng%E1%BB%9D%2Fnh%E1%BA%ADn-%C4%91%C6%B0%E1%BB%A3c-th%C3%B4ng-b%C3%A1o-%C4%91%C4%83ng-nh%E1%BA%ADp-l%E1%BA%A1-v%C3%A0o-t%C3%A0i-kho%E1%BA%A3n-Shopee-c%E1%BB%A7a-m%C3%ACnh%3F?utm_source=chatgpt.com \"[Bảo mật tài khoản] Tôi cần làm gì khi nghi ngờ/nhận được thông báo đăng nhập lạ vào tài khoản Shopee của mình? | Shopee Trung tâm trợ giúp\"",
+  "sources": [
+    "https://help.shopee.vn/portal/4/article/79477-%5BC%E1%BA%A3nh-b%C3%A1o-l%E1%BB%ABa-%C4%91%E1%BA%A3o%5D-Tin-nh%E1%BA%AFn%2Fcu%E1%BB%99c-g%E1%BB%8Di-l%E1%BB%ABa-%C4%91%E1%BA%A3o?previousPage=related+articles&utm_source=chatgpt.com",
+    "https://help.shopee.vn/portal/4/article/79255-%5BB%E1%BA%A3o-m%E1%BA%ADt-t%C3%A0i-kho%E1%BA%A3n%5D-T%C3%B4i-c%E1%BA%A7n-l%C3%A0m-g%C3%AC-khi-nghi-ng%E1%BB%9D%2Fnh%E1%BA%ADn-%C4%91%C6%B0%E1%BB%A3c-th%C3%B4ng-b%C3%A1o-%C4%91%C4%83ng-nh%E1%BA%ADp-l%E1%BA%A1-v%C3%A0o-t%C3%A0i-kho%E1%BA%A3n-Shopee-c%E1%BB%A7a-m%C3%ACnh%3F?utm_source=chatgpt.com"
+  ],
+  "latency_ms": 0
+}

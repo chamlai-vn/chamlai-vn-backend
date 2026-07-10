@@ -1,0 +1,23 @@
+{
+  "case_id": "benign-sms_bank_real-08",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "green",
+    "red_flags": [],
+    "matched_patterns": [
+      "Nội dung khớp đúng giao dịch rút tiền thật đã thực hiện, ngân hàng xác nhận đây là thông báo gửi chậm do hệ thống quá tải; hotline 1900 9247 đúng là tổng đài BIDV"
+    ],
+    "recommended_actions": [
+      "Nếu nhận SMS báo giao dịch bất thường, trước tiên kiểm tra lịch sử giao dịch trên app BIDV SmartBanking",
+      "Nếu vẫn nghi ngờ, gọi tổng đài chính thức 1900 9247 hoặc liên hệ chi nhánh gần nhất để xác minh",
+      "Không bấm vào link nào trong SMS tự xưng là BIDV nếu xuất hiện, không cung cấp OTP/mật khẩu/thông tin đăng nhập"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "**Đánh giá:** **Không phải lừa đảo** (theo thông tin bạn cung cấp).\n\n**Lý do:**\n\n* Nội dung tin nhắn mô tả **đúng một giao dịch thực tế** mà em trai bạn đã thực hiện trước đó (rút 5.000.000 VNĐ tại ATM).\n* Sau khi liên hệ ngân hàng, ngân hàng xác nhận đây là **thông báo giao dịch gửi chậm** do hệ thống quá tải, không phải giao dịch trái phép.\n* Số **1900 9247** là tổng đài chăm sóc khách hàng chính thức của BIDV. BIDV cũng sử dụng SMS để gửi thông báo biến động số dư và các giao dịch cho khách hàng đăng ký dịch vụ. ([Omni BIDV][1])\n\n**Tuy nhiên, cần lưu ý:**\n\n* Việc nhận được SMS thông báo giao dịch muộn vài giờ có thể xảy ra do độ trễ của hệ thống hoặc mạng viễn thông. Điều này không đồng nghĩa với việc tài khoản bị xâm nhập.\n* Kẻ lừa đảo thường lợi dụng các tin nhắn gây hoang mang về giao dịch ngân hàng để dụ người dùng gọi vào số giả mạo hoặc bấm vào liên kết độc hại. BIDV đã cảnh báo rằng các SMS có **đính kèm đường link** mạo danh ngân hàng đều là giả mạo. ([BIDV][2])\n\n**Bạn nên làm gì tiếp theo:**\n\n1. Nếu nhận được SMS báo giao dịch bất thường, trước tiên hãy kiểm tra lịch sử giao dịch trên ứng dụng BIDV SmartBanking.\n2. Nếu vẫn nghi ngờ, gọi đến **tổng đài chính thức của BIDV** (1900 9247) hoặc liên hệ chi nhánh gần nhất để xác minh.\n3. Không bấm vào bất kỳ đường link nào trong SMS tự xưng là BIDV nếu có xuất hiện, và không cung cấp OTP, mật khẩu hoặc thông tin đăng nhập.\n\n**Kết luận:** Với tình huống bạn mô tả, đây là **tin nhắn hợp pháp**, không phải lừa đảo. Sự hoảng hốt đến từ việc **thông báo được gửi chậm**, còn giao dịch là giao dịch thật do chính em trai bạn thực hiện.\n\n[1]: https://omni.bidv.com.vn/static/bidv/bsms-banking/index.html?utm_source=chatgpt.com \"Dịch vụ BSMS banking\"\n[2]: https://bidv.com.vn/bidv/ca-nhan/thong-bao/thay-doi-mang-luoi/canh-bao-lua-dao-sms-bidv?utm_source=chatgpt.com \"Cảnh báo lừa đảo mạo danh SMS BIDV\"",
+  "sources": [
+    "https://omni.bidv.com.vn/static/bidv/bsms-banking/index.html?utm_source=chatgpt.com",
+    "https://bidv.com.vn/bidv/ca-nhan/thong-bao/thay-doi-mang-luoi/canh-bao-lua-dao-sms-bidv?utm_source=chatgpt.com"
+  ],
+  "latency_ms": 0
+}

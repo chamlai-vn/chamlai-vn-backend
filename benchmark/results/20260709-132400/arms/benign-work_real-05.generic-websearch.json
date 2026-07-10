@@ -1,0 +1,23 @@
+{
+  "case_id": "benign-work_real-05",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "green",
+    "red_flags": [],
+    "matched_patterns": [
+      "Nội dung cụ thể (cập nhật tài liệu, kiểm toán nội bộ, tên thư mục, định dạng file) khớp với yêu cầu công việc nội bộ thông thường, không yêu cầu mật khẩu/OTP/thông tin ngân hàng, không có link hay yêu cầu tải phần mềm"
+    ],
+    "recommended_actions": [
+      "Xác minh người gửi có đúng là đồng nghiệp hoặc bộ phận phụ trách hay không (email, tài khoản chat, tên miền)",
+      "Chỉ truy cập hệ thống quản lý tài liệu qua đường dẫn chính thức hoặc ứng dụng quen thuộc",
+      "Kiểm tra thư mục có thực sự tồn tại trong hệ thống nội bộ",
+      "Coi là rủi ro cao và báo bộ phận CNTT nếu tin nhắn có thêm link đăng nhập lạ, file thực thi, hoặc yêu cầu nhập thông tin xác thực"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "**Đánh giá:** **Chưa có đủ dấu hiệu để kết luận đây là lừa đảo.** Chỉ dựa trên nội dung tin nhắn, đây giống một yêu cầu công việc nội bộ bình thường hơn là một chiêu lừa đảo.\n\n**Các dấu hiệu cho thấy có vẻ hợp lệ:**\n\n* Nội dung cụ thể: cập nhật tài liệu dự án, kiểm toán nội bộ tuần tới, thư mục `\"Audit_Q2_2026\"`, định dạng PDF.\n* Không yêu cầu cung cấp mật khẩu, mã OTP, thông tin ngân hàng hoặc dữ liệu cá nhân.\n* Không chứa liên kết, mã QR hay yêu cầu tải phần mềm.\n* Không tạo áp lực bằng các lời đe dọa như khóa tài khoản hoặc mất quyền truy cập nếu không làm ngay.\n\n**Tuy nhiên vẫn cần cảnh giác vì:**\n\n* Các cuộc tấn công phishing hiện nay thường giả mạo email hoặc tin nhắn nội bộ với chủ đề như kiểm toán, tài liệu chia sẻ, HR hoặc tài chính để khiến nhân viên tải lên tài liệu hoặc truy cập hệ thống giả mạo. ([Microsoft][1])\n* Nếu thư mục `\"Audit_Q2_2026\"` nằm trên một hệ thống mới, hoặc tin nhắn đi kèm một liên kết đăng nhập lạ, đó có thể là dấu hiệu đáng ngờ.\n\n**Bạn nên làm gì tiếp theo:**\n\n1. Xác minh người gửi có đúng là đồng nghiệp hoặc bộ phận phụ trách hay không (địa chỉ email, tài khoản chat, tên miền).\n2. Chỉ truy cập hệ thống quản lý tài liệu của công ty qua đường dẫn chính thức hoặc ứng dụng quen thuộc, không qua liên kết trong tin nhắn nếu thấy bất thường.\n3. Kiểm tra xem thư mục `\"Audit_Q2_2026\"` có thực sự tồn tại trong hệ thống nội bộ.\n4. Nếu tài liệu chứa thông tin tài chính hoặc hợp đồng nhạy cảm, xác nhận lại với quản lý hoặc bộ phận kiểm toán nếu yêu cầu này khác quy trình thông thường.\n5. Nếu tin nhắn có thêm liên kết đăng nhập, file thực thi hoặc yêu cầu nhập thông tin xác thực, hãy coi đó là rủi ro cao và báo cho bộ phận CNTT.\n\n**Kết luận:** Với thông tin hiện có, **không có đủ bằng chứng để kết luận đây là lừa đảo**. Đây có thể là một yêu cầu công việc hợp lệ. Mức độ rủi ro sẽ tăng đáng kể nếu tin nhắn đi kèm **liên kết đăng nhập lạ, tệp đính kèm bất thường hoặc yêu cầu chia sẻ thông tin xác thực**. Nếu bạn có toàn bộ email (bao gồm địa chỉ người gửi, tiêu đề, liên kết hoặc tệp đính kèm), tôi có thể phân tích kỹ hơn.\n\n[1]: https://www.microsoft.com/en-us/security/blog/2026/01/06/phishing-actors-exploit-complex-routing-and-misconfigurations-to-spoof-domains/?msockid=03835ff99a73663e2030490d9b1e67e0&utm_source=chatgpt.com \"Phishing actors exploit complex routing and misconfigurations to spoof domains | Microsoft Security Blog\"",
+  "sources": [
+    "https://www.microsoft.com/en-us/security/blog/2026/01/06/phishing-actors-exploit-complex-routing-and-misconfigurations-to-spoof-domains/?msockid=03835ff99a73663e2030490d9b1e67e0&utm_source=chatgpt.com"
+  ],
+  "latency_ms": 0
+}

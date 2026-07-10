@@ -1,0 +1,24 @@
+{
+  "case_id": "benign-delivery_real-05",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "yellow",
+    "red_flags": [
+      "Mã vận đơn VN123456789 trông giống mã ví dụ hơn mã vận đơn thật",
+      "Số điện thoại 1900 0000 có vẻ là số minh họa, không đầy đủ"
+    ],
+    "matched_patterns": [],
+    "recommended_actions": [
+      "Kiểm tra tài khoản JD.com hoặc email xác nhận đơn hàng",
+      "Kiểm tra mã vận đơn trên kênh chính thức của đơn vị vận chuyển",
+      "Nếu không đặt hàng, bỏ qua tin nhắn, không gọi số hoặc làm theo hướng dẫn khi chưa xác minh",
+      "Coi là rất đáng nghi nếu sau đó bị yêu cầu trả phí, cung cấp OTP hoặc bấm link"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "**Đánh giá:** **Chưa có đủ dấu hiệu để kết luận đây là lừa đảo, nhưng cũng không thể coi là đáng tin chỉ dựa trên nội dung tin nhắn.**\n\n**Phân tích:**\n\n* Tin nhắn chỉ thông báo rằng bưu kiện từ JD.com đã được giao cho bảo vệ tòa nhà, kèm mã theo dõi và số điện thoại.\n* Không có các dấu hiệu phổ biến của lừa đảo SMS như:\n\n  * Yêu cầu bấm vào một liên kết.\n  * Yêu cầu thanh toán phí giao hàng hoặc phí hải quan.\n  * Yêu cầu cung cấp OTP, thông tin thẻ ngân hàng hoặc thông tin cá nhân.\n  * Tạo áp lực phải hành động ngay để tránh mất hàng. Các chiêu thức này rất phổ biến trong các vụ lừa đảo giao hàng. ([S3WaaS][1])\n\n**Tuy nhiên, có một số điểm cần kiểm tra:**\n\n* Bạn có thực sự đặt hàng từ JD.com không?\n* Mã vận đơn `VN123456789` trông giống một mã ví dụ hơn là mã vận đơn thật (không thể kết luận chỉ dựa vào điều này).\n* Số điện thoại `1900 0000` cũng có vẻ là số minh họa hoặc không đầy đủ đối với nhiều tổng đài tại Việt Nam.\n\n**Bạn nên làm gì:**\n\n1. Nếu bạn **đang chờ một đơn hàng từ JD.com**, hãy:\n\n   * Kiểm tra trong tài khoản JD.com hoặc email xác nhận đơn hàng.\n   * Kiểm tra mã vận đơn trên kênh chính thức của đơn vị vận chuyển.\n   * Nếu bạn ở tòa nhà đó, có thể hỏi bảo vệ xem có đúng là có bưu kiện mang tên bạn hay không.\n\n2. Nếu bạn **không hề đặt hàng**, hãy:\n\n   * Bỏ qua tin nhắn.\n   * Không gọi vào số điện thoại hoặc làm theo bất kỳ hướng dẫn nào nếu chưa xác minh được nguồn gốc.\n\n3. Nếu sau đó bạn nhận được tin nhắn hoặc cuộc gọi yêu cầu **trả phí, cung cấp OTP hoặc nhấp vào liên kết**, hãy coi đó là dấu hiệu rất đáng nghi và chỉ kiểm tra tình trạng đơn hàng trên ứng dụng hoặc website chính thức của đơn vị bán hàng/vận chuyển. ([S3WaaS][1])\n\n**Mức độ nghi ngờ:** **Thấp đến trung bình.** Tin nhắn này tự nó chưa có đặc điểm điển hình của lừa đảo, nhưng cần xác minh với lịch sử mua hàng của bạn trước khi tin tưởng.\n\n[1]: https://cdnbbsr.s3waas.gov.in/s3296472c9542ad4d4788d543508116cbc/uploads/2025/02/2025021324.pdf?utm_source=chatgpt.com \"FINAL_ FEB11_SII User Safety Handbook\"",
+  "sources": [
+    "https://cdnbbsr.s3waas.gov.in/s3296472c9542ad4d4788d543508116cbc/uploads/2025/02/2025021324.pdf?utm_source=chatgpt.com"
+  ],
+  "latency_ms": 0
+}

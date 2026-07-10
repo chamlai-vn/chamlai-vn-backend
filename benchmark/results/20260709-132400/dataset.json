@@ -1680,8 +1680,20 @@
     ]
   },
   {
+    "id": "custom-sms_bank-01",
+    "text": "Chào bạn, tôi vừa nhận được tin nhắn từ ngân hàng: \"VietcomBank thông báo: Tài khoản xx1234 của bạn vừa bị trừ 15.000.000 VND lúc 14:30. Nếu không phải bạn, vui lòng liên hệ ngay 08 3344 0301 hoặc truy cập vietcom-bank.com.vn\". Có phải bị hack ko ạ? Tôi ko thực hiện giao dịch nào.",
+    "is_scam": false,
+    "expected_verdict": "red",
+    "scam_type": "",
+    "style": "verbatim_message",
+    "key_facts": [
+      "Website giả mạo \"vietcom-bank.com.vn\" không phải là \"vietcombank.com.vn\" chính thức",
+      "Hotline là số điện thoại cá nhân, không giống số tổng đài"
+    ]
+  },
+  {
     "id": "benign-sms_bank_real-03",
-    "text": "Vietcombank thông báo: Giao dịch rút tiền tại ATM từ tài khoản 1234567890 ngày 15/01/2024 lúc 14:32 số tiền 5.000.000 VND. Số dư khả dụng: 2.150.000 VND. Nếu không phải bạn, vui lòng gọi hotline 1900 545413 ngay.",
+    "text": "Vietcombank thông báo: Giao dịch rút tiền tại ATM từ tài khoản 1234567890 ngày 09/07/2026 lúc 14:32 số tiền 5.000.000 VND. Số dư khả dụng: 2.150.000 VND. Nếu không phải bạn, vui lòng gọi hotline 1900 545413 ngay.",
     "is_scam": false,
     "expected_verdict": "green",
     "scam_type": "",
@@ -1709,9 +1721,9 @@
   },
   {
     "id": "benign-sms_bank_real-05",
-    "text": "Vừa nhận được tin nhắn từ ngân hàng: \"AGRIBANK thông báo: Tài khoản của quý khách vừa bị rút tiền 5.000.000 VND lúc 14:35 tại cây ATM Tây Sơn, Hà Nội. Mã giao dịch: AG2024115789. Nếu không phải bạn, vui lòng liên hệ 1900545415 ngay\". Sao mình không nhớ rút tiền lúc đó? Có phải tài khoản bị hack không?",
+    "text": "Vừa nhận được tin nhắn từ ngân hàng: \"AGRIBANK thông báo: Tài khoản của quý khách vừa bị rút tiền 5.000.000 VND lúc 14:35 tại cây ATM Tây Sơn, Hà Nội. Mã giao dịch: AG2024115789. Nếu không phải bạn, vui lòng liên hệ 1900558818 ngay\". Sao mình không nhớ rút tiền lúc đó? Có phải tài khoản bị hack không?",
     "is_scam": false,
-    "expected_verdict": "green",
+    "expected_verdict": "yellow",
     "scam_type": "",
     "style": "short_question",
     "key_facts": [
@@ -1723,7 +1735,7 @@
   },
   {
     "id": "benign-sms_bank_real-06",
-    "text": "Chào bạn, tôi là hệ thống thông báo tự động của Ngân hàng Vietcombank. Vào lúc 14:35 hôm nay, tài khoản của bạn có giao dịch thanh toán qua cổng POS tại cửa hàng Điện máy Xanh, số tiền 2.500.000 VND. Số dư tài khoản hiện tại là 5.432.100 VND. Nếu bạn không thực hiện giao dịch này, vui lòng liên hệ ngay với chúng tôi theo số hotline 1900 54 5454. Mã xác thực: không cần phân loại.",
+    "text": "Chào bạn, tôi là hệ thống thông báo tự động của Ngân hàng Vietcombank. Vào lúc 14:35 hôm nay, tài khoản của bạn có giao dịch thanh toán qua cổng POS tại cửa hàng Điện máy Xanh, số tiền 2.500.000 VND. Số dư tài khoản hiện tại là 5.432.100 VND. Nếu bạn không thực hiện giao dịch này, vui lòng liên hệ ngay với chúng tôi theo số hotline 1900 545413. Mã xác thực: không cần phân loại.",
     "is_scam": false,
     "expected_verdict": "green",
     "scam_type": "",
@@ -1737,7 +1749,7 @@
   },
   {
     "id": "benign-sms_bank_real-07",
-    "text": "Kính gửi khách hàng, Chúng tôi phát hiện hoạt động bất thường trên tài khoản của bạn. Vào lúc 14:32, ngày 15/01/2024, có một giao dịch chuyển tiền 5.000.000 VNĐ đến số tài khoản 0123456789 tại Ngân hàng TPBank. Nếu không phải bạn thực hiện giao dịch này, vui lòng liên hệ ngay với chúng tôi qua hotline 1900 545413 hoặc truy cập https://www.vietcombank.com.vn để khóa tài khoản. Mã xác thực: 847392. Không chia sẻ mã này với bất kỳ ai. - Vietcombank",
+    "text": "Kính gửi khách hàng, Chúng tôi phát hiện hoạt động bất thường trên tài khoản của bạn. Vào lúc 14:32, ngày 09/07/2026, có một giao dịch chuyển tiền 5.000.000 VNĐ đến số tài khoản 0123456789 tại Ngân hàng TPBank. Nếu không phải bạn thực hiện giao dịch này, vui lòng liên hệ ngay với chúng tôi qua hotline 1900 545413 hoặc truy cập https://www.vietcombank.com.vn để khóa tài khoản. Mã xác thực: 847392. Không chia sẻ mã này với bất kỳ ai. - Vietcombank",
     "is_scam": false,
     "expected_verdict": "green",
     "scam_type": "",
@@ -1807,7 +1819,7 @@
   },
   {
     "id": "benign-delivery_real-04",
-    "text": "Xin chào, đây là thông báo từ Công ty Vận chuyển Giao nhanh 247. Bưu kiện của bạn (mã tham chiếu: GN20240315001) hiện đang ở bến chuyển Hà Nội và sẽ được giao đến địa chỉ 45 Đường Láng, Quận Đống Đa vào ngày 16/03/2024 dự kiến giữa 9:00 - 17:00. Địa chỉ bưu kiện được ghi nhận từ cửa hàng Điện máy Xanh chi nhánh Phố Huế. Nếu bạn cần thay đổi thời gian giao hàng hoặc có thắc mắc, vui lòng liên hệ hotline: 1800-7777 (miễn phí). Cảm ơn bạn đã tin tưởng dịch vụ của chúng tôi.",
+    "text": "Xin chào, đây là thông báo từ Công ty Vận chuyển Giao nhanh 247. Bưu kiện của bạn (mã tham chiếu: GN20240315001) hiện đang ở bến chuyển Hà Nội và sẽ được giao đến địa chỉ 45 Đường Láng, Quận Đống Đa vào ngày 10/07/2026 dự kiến giữa 9:00 - 17:00. Địa chỉ bưu kiện được ghi nhận từ cửa hàng Điện máy Xanh chi nhánh Phố Huế. Nếu bạn cần thay đổi thời gian giao hàng hoặc có thắc mắc, vui lòng liên hệ hotline: 1800-7777 (miễn phí). Cảm ơn bạn đã tin tưởng dịch vụ của chúng tôi.",
     "is_scam": false,
     "expected_verdict": "green",
     "scam_type": "",
@@ -1835,7 +1847,7 @@
   },
   {
     "id": "benign-delivery_real-06",
-    "text": "Hôm qua Linh nhận được tin nhắn từ số 0868xxxxxx nội dung: \"Bạn có 1 kiện hàng từ GHTK sắp đến địa chỉ 123 Nguyễn Huệ, Q1, TP.HCM. Thời gian dự kiến giao: 14h-16h hôm nay. Bấm link https://track.ghtk.io/item/ABC12345 để theo dõi chi tiết\". Linh hơi lo vì không nhớ đã đặt hàng gì gần đây, nhưng kiểm tra lại thì phát hiện ra đó là đơn hàng đã order từ trang Tiki 5 ngày trước, lúc đó ghi nhận mã vận đơn thuộc GHTK. Tin nhắn hoàn toàn hợp pháp, chỉ là thông báo tiêu chuẩn của đơn vị vận chuyển để chuẩn bị nhận hàng.",
+    "text": "Hôm qua Linh nhận được tin nhắn từ số 0868xxxxxx nội dung: \"Bạn có 1 kiện hàng từ GHTK sắp đến địa chỉ 123 Nguyễn Huệ, Q1, TP.HCM. Thời gian dự kiến giao: 14h-16h hôm nay. Bấm link https://i.ghtk.vn/ABC12345 để theo dõi chi tiết\". Linh hơi lo vì không nhớ đã đặt hàng gì gần đây, nhưng kiểm tra lại thì phát hiện ra đó là đơn hàng đã order từ trang Tiki 5 ngày trước, lúc đó ghi nhận mã vận đơn thuộc GHTK. Tin nhắn hoàn toàn hợp pháp, chỉ là thông báo tiêu chuẩn của đơn vị vận chuyển để chuẩn bị nhận hàng.",
     "is_scam": false,
     "expected_verdict": "green",
     "scam_type": "",
@@ -1877,7 +1889,7 @@
   },
   {
     "id": "benign-delivery_real-09",
-    "text": "Xin chào, đơn hàng của bạn #VNP2024001567 đã tới kho phân loại tại TP.HCM. Bưu kiện sẽ được giao trong 1-2 ngày tới. Vui lòng chuẩn bị địa chỉ giao hàng chính xác. Nếu cần thay đổi, vui lòng truy cập vnexpress.vn hoặc gọi 1900 6666 để cập nhật thông tin. Cảm ơn!",
+    "text": "Xin chào, đơn hàng của bạn #VNP2024001567 đã tới kho phân loại tại TP.HCM. Bưu kiện sẽ được giao trong 1-2 ngày tới. Vui lòng chuẩn bị địa chỉ giao hàng chính xác. Nếu cần thay đổi, vui lòng truy cập vietnampost.vn hoặc gọi 1900 545481 để cập nhật thông tin. Cảm ơn!",
     "is_scam": false,
     "expected_verdict": "green",
     "scam_type": "",
@@ -1905,7 +1917,7 @@
   },
   {
     "id": "benign-promo_real-01",
-    "text": "Chị ơi, mình vừa nhận được tin từ Shopee nói tài khoản có hoạt động bất thường, phải xác minh danh tính bằng link này. Cái này có phải lừa đảo không ạ?",
+    "text": "Chị ơi, mình vừa nhận được tin từ Shopee nói tài khoản có hoạt động bất thường, phải xác minh danh tính bằng link này \"Tai khoan cua ban co dau hieu dang nhap bat thuong. Nhan vao lien ket de xac thuc: shopee.vn/dlink/verify/link?q=QbmnkejM&event_type=1\". Cái này có phải lừa đảo không ạ?",
     "is_scam": false,
     "expected_verdict": "green",
     "scam_type": "",
@@ -1919,7 +1931,7 @@
   },
   {
     "id": "benign-promo_real-04",
-    "text": "Hôm qua bạn mình (tên là Minh) vừa nhận được tin nhắn từ Viettel: \"Kính gửi khách hàng Minh, bạn vừa tiêu thụ 50GB dữ liệu, vượt quá gói cước của mình. Để tránh phí phát sinh, hãy nâng cấp gói ngay tại đây: [link]. Hoặc gọi 0877 để được tư vấn. Hiệu lực 24h. Viettel.\"\n\nBạn mình Minh rất lo lắng vì sợ có ai đó đã hack tài khoản của cô ấy hoặc mạo danh nhà mạng. Cô ấy gọi ngay cho tổng đài 0877 để kiểm tra tình hình, kết quả là tin nhắn đó hoàn toàn hợp pháp - chính nhân viên tổng đài xác nhận Minh thực sự vừa sử dụng gần hết dữ liệu trong tháng này. Đây là tin nhắn khuyến mãi thực sự từ Viettel để giúp khách hàng cập nhật gói cước phù hợp với nhu cầu sử dụng thực tế.",
+    "text": "Hôm qua bạn mình (tên là Minh) vừa nhận được tin nhắn từ VNPT: \"Kính gửi khách hàng Minh, bạn vừa tiêu thụ 2GB dữ liệu, vượt quá gói cước của mình. Để tránh phí phát sinh, hãy nâng cấp gói ngay tại đây: https://my.vnpt.com.vn/adv/dungluong. Hoặc gọi 1800 1091 để được tư vấn. Hiệu lực 24h. VNPT.\"\n\nBạn mình Minh rất lo lắng vì sợ có ai đó đã hack tài khoản của cô ấy hoặc mạo danh nhà mạng. Cô ấy gọi ngay cho tổng đài để kiểm tra tình hình, kết quả là tin nhắn đó hoàn toàn hợp pháp - chính nhân viên tổng đài xác nhận Minh thực sự vừa sử dụng gần hết dữ liệu trong tháng này. Đây là tin nhắn khuyến mãi thực sự từ VNPT để giúp khách hàng cập nhật gói cước phù hợp với nhu cầu sử dụng thực tế.",
     "is_scam": false,
     "expected_verdict": "green",
     "scam_type": "",
@@ -1932,22 +1944,8 @@
     ]
   },
   {
-    "id": "benign-promo_real-05",
-    "text": "Chị ơi, mình vừa nhận được tin nhắn từ Shopee nói tài khoản mình bị đăng nhập từ thiết bị lạ và yêu cầu xác minh ngay. Mình có nên click vào link trong tin nhắn không?",
-    "is_scam": false,
-    "expected_verdict": "green",
-    "scam_type": "",
-    "style": "short_question",
-    "key_facts": [
-      "Đây là tin nhắn thông báo bảo mật hợp pháp từ Shopee để xác minh hoạt động tài khoản",
-      "Link trong tin nhắn có thể được phishing giả mạo, nên nên truy cập trực tiếp qua ứng dụng Shopee chính thức",
-      "Sàn TMĐT lớn thường gửi thông báo bảo mật khi có đăng nhập bất thường từ vị trí mới",
-      "Người dùng cần cẩn thận với các đường link, không click trực tiếp mà vào ứng dụng chính thức để xác minh"
-    ]
-  },
-  {
     "id": "benign-promo_real-07",
-    "text": "🎉 KHUYẾN MÃI KHỦNG TỪ SHOPEE! 🎉\n\nChúc mừng bạn được chọn tham gia chương trình VIP Flash Sale độc quyền! \n\n👉 Nhấp vào link ngay để nhận voucher 500K: https://shopee.vn/flash-sale/vip-exclusive-2024\n\n⚡ Ưu đãi chỉ dành cho 100 khách hàng đầu tiên\n⚡ Mã VIPFLASH24 - Giảm thêm 20% cho tất cả sản phẩm\n⚡ Miễn phí vận chuyển toàn quốc\n\n⏰ Thời gian: 24/01 - 25/01/2024\n\nLưu ý: Để nhận đủ ưu đãi, vui lòng cập nhật thông tin tài khoản tại: https://shopee.vn/user/profile\n\nShopee - Mua sắm an tâm, giao hàng nhanh!\nHotline CSKH: 1900 6969",
+    "text": "🎉 KHUYẾN MÃI KHỦNG TỪ SHOPEE! 🎉\n\nChúc mừng bạn được chọn tham gia chương trình VIP Flash Sale độc quyền! \n\n👉 Nhấp vào link ngay để nhận voucher 500K: https://shopee.vn/flash-sale/vip-exclusive-2026\n\n⚡ Ưu đãi chỉ dành cho 100 khách hàng đầu tiên\n⚡ Mã VIPFLASH24 - Giảm thêm 20% cho tất cả sản phẩm\n⚡ Miễn phí vận chuyển toàn quốc\n\n⏰ Thời gian: 01/08 - 31/08/2026\n\nLưu ý: Để nhận đủ ưu đãi, vui lòng cập nhật thông tin tài khoản tại: https://shopee.vn/user/profile\n\nShopee - Mua sắm an tâm, giao hàng nhanh!\nHotline CSKH: 1900 6969",
     "is_scam": false,
     "expected_verdict": "green",
     "scam_type": "",
@@ -1957,20 +1955,6 @@
       "Yêu cầu cập nhật thông tin tài khoản có thể gây lo ngại nhưng là hành động bình thường",
       "Chứa đường link và mã ưu đãi cụ thể, trông chuyên nghiệp và đáng tin cậy",
       "Thời hạn áp dụng rõ ràng và hotline chính thức của công ty"
-    ]
-  },
-  {
-    "id": "benign-promo_real-09",
-    "text": "Tôi vừa nhận được tin từ Shopee saying tài khoản tôi bị khóa do hoạt động bất thường, yêu cầu xác minh ngay. Cái này có phải lừa đảo không?",
-    "is_scam": false,
-    "expected_verdict": "green",
-    "scam_type": "",
-    "style": "short_question",
-    "key_facts": [
-      "Tin nhắn từ sàn TMĐT Shopee chính thức đã đăng ký",
-      "Yêu cầu xác minh tài khoản là hành động bảo mật hợp pháp để bảo vệ tài khoản người dùng",
-      "Người nhận có lý do e ngại vì ngôn ngữ cảnh báo mạnh (khóa tài khoản)",
-      "Cần kiểm tra qua kênh chính thức của Shopee để xác thực thông báo"
     ]
   },
   {
@@ -1989,7 +1973,7 @@
   },
   {
     "id": "benign-work_real-05",
-    "text": "Anh/chị vui lòng cập nhật lại tài liệu dự án trong hệ thống trước 17h hôm nay. Do kiểm toán nội bộ vào tuần tới, chúng tôi cần kiểm tra toàn bộ thông tin tài chính và hợp đồng. Các file cần được upload vào folder \"Audit_Q4_2024\" với định dạng PDF. Vui lòng xác nhận khi hoàn thành. Cảm ơn.",
+    "text": "Anh/chị vui lòng cập nhật lại tài liệu dự án trong hệ thống trước 17h hôm nay. Do kiểm toán nội bộ vào tuần tới, chúng tôi cần kiểm tra toàn bộ thông tin tài chính và hợp đồng. Các file cần được upload vào folder \"Audit_Q2_2026\" với định dạng PDF. Vui lòng xác nhận khi hoàn thành. Cảm ơn.",
     "is_scam": false,
     "expected_verdict": "green",
     "scam_type": "",

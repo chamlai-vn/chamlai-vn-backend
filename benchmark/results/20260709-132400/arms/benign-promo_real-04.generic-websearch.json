@@ -1,0 +1,23 @@
+{
+  "case_id": "benign-promo_real-04",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "green",
+    "red_flags": [],
+    "matched_patterns": [
+      "Domain (my.vnpt.com.vn) và tổng đài (1800 1091) khớp đúng kênh chính thức của VNPT, được nhân viên tổng đài xác nhận trực tiếp"
+    ],
+    "recommended_actions": [
+      "Nếu nghi ngờ, không vội bấm link, kiểm tra tên miền có phải chính thức của nhà mạng hay không",
+      "Gọi tổng đài chính thức hoặc mở app chính thức của nhà mạng để xác minh tình trạng thuê bao",
+      "Chỉ nâng cấp gói cước sau khi đã xác nhận thông tin chính xác"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "**Kết luận:** Đây **không phải là lừa đảo**.\n\nCác dấu hiệu cho thấy đây là một tin nhắn hợp pháp:\n\n* Nội dung thông báo phù hợp với hoạt động bình thường của nhà mạng: cảnh báo đã sử dụng gần hết dung lượng và gợi ý nâng cấp gói cước.\n* Đường dẫn sử dụng tên miền chính thức của My VNPT: `my.vnpt.com.vn`, thuộc hệ thống của VNPT. ([VNPT][1])\n* Số tổng đài **1800 1091** là tổng đài chăm sóc khách hàng di động chính thức của VNPT. ([VNPT][2])\n* Quan trọng nhất, trong tình huống này, **Minh đã gọi trực tiếp đến tổng đài và được nhân viên xác nhận** rằng:\n\n  * thuê bao thực sự đã sử dụng gần hết dung lượng trong tháng;\n  * tin nhắn là do VNPT gửi;\n  * đây là chương trình tư vấn/nâng cấp gói cước phù hợp.\n\nViệc Minh lo lắng ban đầu là hợp lý vì hiện nay có nhiều tin nhắn giả mạo nhà mạng. Tuy nhiên, sau khi xác minh qua kênh chính thức của VNPT, có thể kết luận đây là **thông báo chính hãng**, không phải do kẻ gian hay do tài khoản bị hack.\n\n**Bạn nên làm gì trong trường hợp tương tự?**\n\n* Nếu nghi ngờ, **không vội bấm vào liên kết** trong tin nhắn.\n* Kiểm tra xem tên miền có phải là tên miền chính thức của nhà mạng hay không.\n* Gọi đến **tổng đài chính thức** hoặc mở ứng dụng chính thức của nhà mạng để xác minh tình trạng thuê bao.\n* Chỉ nâng cấp gói cước sau khi đã xác nhận thông tin là chính xác.\n\nTrong tình huống được mô tả, **không có dấu hiệu của một vụ lừa đảo**; đây là một tin nhắn khuyến mại/chăm sóc khách hàng hợp pháp từ VNPT.\n\n[1]: https://my.vnpt.com.vn/tinh-nang/dieu-khoan-su-dung?utm_source=chatgpt.com \"Hỗ trợ khách hàng\"\n[2]: https://vnpt.vn/tu-van/tong-dai-dich-vu-di-dong-1800-1091-cua-vnpt.html?utm_source=chatgpt.com \"Tổng đài dịch vụ di động 1800 1091 của VNPT - VNPT\"",
+  "sources": [
+    "https://my.vnpt.com.vn/tinh-nang/dieu-khoan-su-dung?utm_source=chatgpt.com",
+    "https://vnpt.vn/tu-van/tong-dai-dich-vu-di-dong-1800-1091-cua-vnpt.html?utm_source=chatgpt.com"
+  ],
+  "latency_ms": 0
+}

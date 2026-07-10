@@ -1,0 +1,26 @@
+{
+  "case_id": "benign-sms_bank_real-09",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "yellow",
+    "red_flags": [
+      "Không nêu rõ tên ngân hàng, chỉ có số tổng đài 19008888 nên không thể biết đó có phải kênh chính thức hay không"
+    ],
+    "matched_patterns": [
+      "Giả mạo tin nhắn ngân hàng (SMS spoofing) khiến người nhận hoảng sợ và gọi vào số do kẻ lừa đảo kiểm soát"
+    ],
+    "recommended_actions": [
+      "Không gọi ngay vào số điện thoại trong tin nhắn",
+      "Mở app ngân hàng chính thức để kiểm tra có bị trừ tiền và có lịch sử giao dịch tương ứng hay không",
+      "Nếu nghi ngờ, gọi tổng đài chính thức in trên mặt sau thẻ hoặc website/app chính thức của ngân hàng, yêu cầu kiểm tra giao dịch và khóa thẻ nếu cần",
+      "Nếu xác nhận có giao dịch trái phép, báo ngay với ngân hàng để được hỗ trợ xử lý"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "**Đánh giá:** **Chưa thể kết luận là lừa đảo, nhưng cần coi đây là tình huống cần xác minh ngay.**\n\nTin nhắn bạn đưa ra có nội dung:\n\n> \"Cảnh báo: Giao dịch rút tiền 5.000.000 VND từ ATM tại Chi nhánh Hà Nội lúc 14:35. Nếu không phải bạn, vui lòng liên hệ 19008888 ngay lập tức. Mã giao dịch: TX2024001756\"\n\nChỉ dựa trên nội dung này, có hai khả năng:\n\n1. **Đây là cảnh báo thật từ ngân hàng** nếu thực sự có giao dịch hoặc có người đang cố sử dụng tài khoản/thẻ của bạn.\n2. **Đây có thể là tin nhắn giả mạo (SMS spoofing)** nhằm khiến bạn hoảng sợ và gọi đến một số điện thoại do kẻ lừa đảo kiểm soát. Hình thức giả mạo tin nhắn ngân hàng đã được các cơ quan chức năng và nhiều ngân hàng cảnh báo trong nhiều năm. ([moit.gov.vn][1])\n\n### Dấu hiệu cần kiểm tra\n\n* **Tên ngân hàng không được nêu rõ.** Mỗi ngân hàng có tổng đài khác nhau, nên chỉ nhìn số `19008888` không thể biết đó có phải tổng đài chính thức hay không.\n* **Không có đường link.** Đây là điểm tích cực hơn so với nhiều tin nhắn lừa đảo, nhưng vẫn chưa đủ để khẳng định là thật.\n* **Nếu bạn không hề ở Hà Nội hoặc không thực hiện giao dịch rút tiền**, thì cần kiểm tra ngay.\n\n### Bạn nên làm gì ngay bây giờ\n\n1. **Không gọi ngay vào số điện thoại trong tin nhắn.**\n2. **Mở ứng dụng ngân hàng chính thức** của bạn để kiểm tra:\n\n   * Có bị trừ 5.000.000 VND hay không.\n   * Có lịch sử giao dịch tương ứng hay không.\n3. **Nếu nghi ngờ**, hãy:\n\n   * Gọi đến **tổng đài chính thức** được in trên mặt sau thẻ hoặc trên website/app chính thức của ngân hàng.\n   * Yêu cầu ngân hàng kiểm tra giao dịch và khóa thẻ nếu cần.\n4. Nếu xác nhận có giao dịch trái phép, hãy báo ngay với ngân hàng để được hỗ trợ xử lý.\n\n### Kết luận\n\n* **Mức độ nghi ngờ:** **Trung bình**.\n* **Chưa thể kết luận là lừa đảo** chỉ từ nội dung tin nhắn.\n* **Không nên gọi vào số trong tin nhắn** cho đến khi xác minh đó đúng là số tổng đài chính thức của ngân hàng. Việc kiểm tra trên ứng dụng ngân hàng hoặc liên hệ qua kênh chính thức là cách an toàn nhất. Các cơ quan chức năng cũng khuyến cáo không làm theo hướng dẫn trong tin nhắn nghi vấn và chỉ liên hệ qua các kênh chính thức của ngân hàng. ([div.gov.vn][2])\n\n[1]: https://moit.gov.vn/tin-tuc/bao-chi-voi-nguoi-dan/canh-bao-tinh-trang-gia-mao-tin-nhan-ngan-hang-de-lua-dao.html?utm_source=chatgpt.com \"Cảnh báo tình trạng giả mạo tin nhắn ngân hàng để lừa đảo\"\n[2]: https://div.gov.vn/dam-bao-an-toan-trong-giao-dich-tai-chinh-ngan-hang-tren-khong-gian-mang?utm_source=chatgpt.com \"Đảm bảo an toàn trong giao dịch tài chính ngân hàng trên không gian mạng\"",
+  "sources": [
+    "https://moit.gov.vn/tin-tuc/bao-chi-voi-nguoi-dan/canh-bao-tinh-trang-gia-mao-tin-nhan-ngan-hang-de-lua-dao.html?utm_source=chatgpt.com",
+    "https://div.gov.vn/dam-bao-an-toan-trong-giao-dich-tai-chinh-ngan-hang-tren-khong-gian-mang?utm_source=chatgpt.com"
+  ],
+  "latency_ms": 0
+}

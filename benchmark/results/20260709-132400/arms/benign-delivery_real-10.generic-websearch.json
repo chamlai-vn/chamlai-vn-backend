@@ -1,0 +1,21 @@
+{
+  "case_id": "benign-delivery_real-10",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "green",
+    "red_flags": [],
+    "matched_patterns": [
+      "Nội dung khớp với đơn hàng thật đã tìm thấy trong email xác nhận, đúng cách thông báo thông thường của đơn vị vận chuyển"
+    ],
+    "recommended_actions": [
+      "Theo dõi đơn hàng như bình thường",
+      "Nếu tin nhắn có link, chỉ mở khi xác minh được đúng tên miền chính thức của Viettel Post",
+      "Nếu còn nghi ngờ, kiểm tra trạng thái đơn hàng trực tiếp trên app Tiki hoặc Viettel Post thay vì bấm link trong SMS",
+      "Không thực hiện nếu có yêu cầu bất thường như trả phí qua link lạ, nhập thông tin ngân hàng, hoặc cung cấp OTP"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "**Kết luận:** **Không có đủ dấu hiệu để kết luận đây là lừa đảo.** Dựa trên thông tin bạn cung cấp, tình huống này **nhiều khả năng là thông báo giao hàng hợp lệ**.\n\n**Lý do:**\n\n* Người nhận ban đầu không nhớ đã đặt hàng, nhưng **sau khi kiểm tra email**, đã tìm thấy đơn hàng quần áo đặt trên Tiki khoảng 10 ngày trước.\n* Nội dung tin nhắn (thông báo đang giao hàng, dự kiến ngày giao, cho phép đổi địa chỉ hoặc thời gian nhận) phù hợp với cách các đơn vị vận chuyển như Viettel Post thường thông báo.\n* Có một **đơn hàng thực sự tồn tại**, nên tin nhắn có lời giải thích hợp lý và nhất quán.\n\n**Tuy nhiên, vẫn nên lưu ý:**\n\n* Nếu tin nhắn chứa một liên kết, chỉ nên mở khi **xác minh được đó là tên miền chính thức của Viettel Post**. Kẻ lừa đảo đôi khi gửi tin nhắn giả mạo với nội dung rất giống thông báo thật.\n* Nếu còn nghi ngờ, có thể kiểm tra trạng thái đơn hàng trực tiếp trên ứng dụng Tiki hoặc ứng dụng/trang web chính thức của Viettel Post thay vì bấm vào liên kết trong SMS.\n\n**Bạn nên làm gì tiếp theo?**\n\n* Trong trường hợp này, chỉ cần theo dõi đơn hàng như bình thường.\n* Nếu nhận được các yêu cầu bất thường như:\n\n  * thanh toán thêm phí qua một đường link lạ,\n  * nhập thông tin ngân hàng,\n  * cung cấp mã OTP,\n\n  thì **không thực hiện** và hãy xác minh qua kênh chính thức của Tiki hoặc Viettel Post trước.\n\nTóm lại, với việc đã đối chiếu được với đơn hàng thực tế, đây **không có dấu hiệu rõ ràng của một vụ lừa đảo**, mà là một thông báo giao hàng bình thường.",
+  "sources": [],
+  "latency_ms": 0
+}

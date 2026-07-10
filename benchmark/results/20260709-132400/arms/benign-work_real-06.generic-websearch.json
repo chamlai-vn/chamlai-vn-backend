@@ -1,0 +1,22 @@
+{
+  "case_id": "benign-work_real-06",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "green",
+    "red_flags": [],
+    "matched_patterns": [
+      "Nội dung chỉ thông báo cuộc họp nội bộ bình thường (thời gian, địa điểm, chuẩn bị báo cáo), không yêu cầu chuyển tiền, OTP, link hay tệp đáng ngờ"
+    ],
+    "recommended_actions": [
+      "Xác nhận tham dự nếu đây đúng quy trình của công ty",
+      "Chuẩn bị tài liệu được yêu cầu",
+      "Nếu còn nghi ngờ (tài khoản lạ, nội dung bất thường), xác minh với người gửi hoặc quản lý qua kênh chính thức trước khi thực hiện yêu cầu"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "**Kết luận:** Không, đây **không có dấu hiệu là một vụ lừa đảo**.\n\n**Lý do:**\n\n* Nội dung chỉ thông báo về một **cuộc họp nội bộ của công ty**.\n* Tin nhắn đề cập đến các công việc bình thường như:\n\n  * Thời gian và địa điểm họp.\n  * Chuẩn bị báo cáo quý II.\n  * Chuẩn bị danh sách dự án chưa hoàn thành.\n  * Xác nhận tham dự để sắp xếp chỗ ngồi.\n* Tin nhắn **không yêu cầu**:\n\n  * Chuyển tiền.\n  * Cung cấp mật khẩu, mã OTP hoặc thông tin cá nhân.\n  * Nhấp vào liên kết hoặc tải tệp đáng ngờ.\n  * Thực hiện hành động khẩn cấp ngoài quy trình làm việc thông thường.\n\nĐây đều là những đặc điểm thường thấy của một thông báo công việc hợp pháp. Ngược lại, các tin nhắn lừa đảo thường cố tạo áp lực hoặc mạo danh để yêu cầu tiết lộ thông tin nhạy cảm, nhấp vào liên kết hoặc chuyển tiền. ([Hỗ Trợ Microsoft][1])\n\n**Bạn nên làm gì tiếp theo:**\n\n* Xác nhận tham dự nếu đây đúng là quy trình của công ty.\n* Chuẩn bị các tài liệu được yêu cầu.\n* Nếu vẫn còn nghi ngờ (ví dụ tin nhắn đến từ tài khoản lạ hoặc nội dung bất thường), hãy xác minh với người gửi hoặc với quản lý qua kênh liên lạc chính thức trước khi thực hiện bất kỳ yêu cầu nào.\n\n**Đánh giá rủi ro:** **Rất thấp** – dựa trên nội dung được cung cấp, đây là một thông báo công việc hợp pháp chứ không phải lừa đảo.\n\n[1]: https://support.microsoft.com/en-US/security/protect-yourself-from-phishing?utm_source=chatgpt.com \"Protect yourself from phishing | Microsoft Support\"",
+  "sources": [
+    "https://support.microsoft.com/en-US/security/protect-yourself-from-phishing?utm_source=chatgpt.com"
+  ],
+  "latency_ms": 0
+}

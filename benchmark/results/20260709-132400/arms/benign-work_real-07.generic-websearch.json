@@ -1,0 +1,26 @@
+{
+  "case_id": "benign-work_real-07",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "yellow",
+    "red_flags": [
+      "Nhắc đến khoản phạt/hóa đơn quá hạn để tạo áp lực, dựa vào việc người nhận không biết thông tin trước đó",
+      "Không cung cấp thông tin cụ thể như số hóa đơn, thời hạn, quy trình hay người phụ trách"
+    ],
+    "matched_patterns": [
+      "Giả mạo bộ phận tài chính/kế toán để thúc giục thanh toán, xác nhận hóa đơn hoặc tiết lộ thông tin (Business Email Compromise/invoice scam)"
+    ],
+    "recommended_actions": [
+      "Không xác nhận ngay rằng có khoản phạt hoặc hóa đơn",
+      "Liên hệ trực tiếp bộ phận Tài chính bằng số điện thoại/email nội bộ đã biết trước, hoặc kiểm tra hệ thống quản lý hóa đơn chính thức",
+      "Không nhấp hoặc làm theo nếu tin nhắn kèm link, file đính kèm hoặc yêu cầu thông tin đăng nhập/thanh toán, cho đến khi đã xác minh"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "**Đánh giá:** Chưa thể kết luận đây là lừa đảo chỉ từ nội dung này, nhưng **đây là một tình huống đáng nghi và cần xác minh trước khi tin hoặc thực hiện bất kỳ hành động nào**.\n\n### Vì sao đáng nghi?\n\nTin nhắn có một số dấu hiệu thường gặp trong các cuộc tấn công giả mạo nội bộ (phishing/social engineering):\n\n* Nhắc đến một **khoản phạt hoặc hóa đơn quá hạn** để tạo áp lực.\n* Dựa vào việc người nhận **không biết thông tin trước đó**, khiến họ dễ phản ứng theo cảm xúc.\n* Không cung cấp thông tin cụ thể như số hóa đơn, thời hạn, quy trình hay người phụ trách.\n\nCác hình thức giả mạo bộ phận tài chính hoặc kế toán để thúc giục thanh toán, xác nhận hóa đơn hoặc tiết lộ thông tin là rất phổ biến trong các doanh nghiệp. ([FBI][1])\n\n### Bạn nên làm gì?\n\n1. **Không xác nhận ngay rằng có khoản phạt hoặc hóa đơn.**\n2. **Kiểm tra qua kênh chính thức**:\n\n   * Liên hệ trực tiếp bộ phận Tài chính bằng số điện thoại hoặc email nội bộ mà bạn đã biết trước.\n   * Kiểm tra hệ thống quản lý hóa đơn hoặc email chính thức của công ty.\n3. Nếu tin nhắn có kèm **đường link, file đính kèm hoặc yêu cầu cung cấp thông tin đăng nhập/thanh toán**, **không nhấp hoặc làm theo** cho đến khi đã xác minh. ([safecomputing.umich.edu][2])\n\n### Nếu bạn là người nhận được câu hỏi này\n\nBạn có thể trả lời theo hướng xác minh thay vì khẳng định, ví dụ:\n\n> \"Chị chưa thấy thông tin về việc đó. Em cho chị xem tin nhắn hoặc email em nhận được nhé. Chị sẽ kiểm tra lại với bộ phận Tài chính trước khi xác nhận.\"\n\nNếu bạn có **toàn bộ email/tin nhắn gốc** (bao gồm địa chỉ người gửi, tiêu đề, nội dung, liên kết hoặc ảnh chụp màn hình), tôi có thể phân tích chi tiết hơn để đánh giá khả năng đây là lừa đảo.\n\n[1]: https://www.fbi.gov/how-we-can-help-you/scams-and-safety/common-frauds-and-scams/business-email-compromise?utm_source=chatgpt.com \"Business Email Compromise — FBI\"\n[2]: https://safecomputing.umich.edu/protect-yourself/phishing-scams/common-scams/invoice-scam?utm_source=chatgpt.com \"Invoice Scams | safecomputing.umich.edu\"",
+  "sources": [
+    "https://www.fbi.gov/how-we-can-help-you/scams-and-safety/common-frauds-and-scams/business-email-compromise?utm_source=chatgpt.com",
+    "https://safecomputing.umich.edu/protect-yourself/phishing-scams/common-scams/invoice-scam?utm_source=chatgpt.com"
+  ],
+  "latency_ms": 0
+}

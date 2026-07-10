@@ -1,0 +1,25 @@
+{
+  "case_id": "benign-sms_bank_real-07",
+  "arm": "generic-websearch",
+  "result": {
+    "risk_level": "yellow",
+    "red_flags": [
+      "Chi tiết giao dịch (số tiền, số tài khoản, thời gian cụ thể) có thể do kẻ lừa đảo tự bịa ra để gây hoang mang, chỉ riêng nội dung tin nhắn không đủ xác thực giao dịch có thật hay không"
+    ],
+    "matched_patterns": [
+      "Link/website nêu ra là vietcombank.com.vn và hotline 1900 545413 khớp đúng kênh chính thức của Vietcombank, không yêu cầu bấm link giả mạo"
+    ],
+    "recommended_actions": [
+      "Không dùng số điện thoại hoặc link trong tin nhắn nếu không tin tưởng nguồn; tự mở app VCB Digibank hoặc tự gõ vietcombank.com.vn trên trình duyệt",
+      "Kiểm tra lịch sử giao dịch và số dư tài khoản trước khi tin",
+      "Nếu thực sự có giao dịch lạ, liên hệ Vietcombank ngay để khóa tài khoản/thẻ và yêu cầu tra soát",
+      "Không cung cấp mã OTP/mã xác thực cho bất kỳ ai qua điện thoại, tin nhắn hoặc email"
+    ],
+    "disclaimer": "Đây là công cụ tham khảo, không thay thế cho tư vấn pháp lý hay quyết định cuối cùng của bạn. Hãy luôn tự kiểm chứng qua các kênh chính thống."
+  },
+  "raw_text": "Đánh giá: **Chưa có đủ dấu hiệu để kết luận đây là lừa đảo. Khả năng đây là tin nhắn cảnh báo hợp lệ ở mức khá cao, nhưng vẫn cần xác minh cẩn thận.**\n\nLý do:\n\n* Tin nhắn **không yêu cầu bạn bấm vào một đường dẫn giả mạo**. Đường dẫn được nêu là website chính thức của Vietcombank: [vietcombank.com.vn](https://www.vietcombank.com.vn/?utm_source=chatgpt.com).\n* Số hotline **1900 54 54 13 (1900 545413)** đúng là tổng đài chăm sóc khách hàng chính thức của Vietcombank. ([Vietcombank][1])\n* Nội dung \"Không chia sẻ mã xác thực với bất kỳ ai\" cũng phù hợp với khuyến cáo bảo mật thông thường của ngân hàng.\n* Tuy nhiên, **chi tiết giao dịch (5.000.000 VNĐ, tài khoản 0123456789, thời gian cụ thể)** có thể được kẻ lừa đảo tự tạo để gây hoang mang. Chỉ riêng nội dung tin nhắn không đủ để xác thực giao dịch đó có thực sự tồn tại hay không.\n\nBạn nên làm gì:\n\n1. **Không sử dụng số điện thoại hoặc đường link nếu chúng đến từ nguồn bạn không tin tưởng.** Thay vào đó:\n\n   * Tự mở ứng dụng VCB Digibank hoặc tự gõ địa chỉ `vietcombank.com.vn` trên trình duyệt.\n   * Hoặc tự gọi tổng đài chính thức 1900 54 54 13. ([Vietcombank][1])\n2. Kiểm tra lịch sử giao dịch và số dư tài khoản.\n3. Nếu thực sự có giao dịch không phải do bạn thực hiện, liên hệ Vietcombank ngay để khóa tài khoản/thẻ và yêu cầu tra soát.\n4. **Không cung cấp mã OTP hoặc mã xác thực** cho bất kỳ ai qua điện thoại, tin nhắn hoặc email, kể cả người tự xưng là nhân viên ngân hàng.\n\n### Một điểm cần lưu ý\n\nNếu bạn **không hề có tài khoản Vietcombank**, thì tin nhắn này gần như chắc chắn là tin nhắn gửi nhầm hoặc là một chiêu lừa gửi hàng loạt để dụ người nhận gọi lại hoặc tiết lộ thông tin.\n\nNếu bạn có thể cung cấp thêm:\n\n* Tin nhắn được gửi qua **SMS (đầu số nào?)**, **Zalo**, **Email**, hay **Messenger**?\n* Người gửi hiển thị là gì (ví dụ: \"Vietcombank\", một số điện thoại, hay email)?\n\nTôi có thể đánh giá chính xác hơn liệu đây là tin nhắn chính thức hay là giả mạo.\n\n[1]: https://www.vietcombank.com.vn/vi-VN/KHCN/Lien-he-va-Ho-tro/Lien-he-Cham-soc-khach-hang?utm_source=chatgpt.com \"Liên hệ\"",
+  "sources": [
+    "https://www.vietcombank.com.vn/vi-VN/KHCN/Lien-he-va-Ho-tro/Lien-he-Cham-soc-khach-hang?utm_source=chatgpt.com"
+  ],
+  "latency_ms": 0
+}
