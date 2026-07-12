@@ -18,6 +18,7 @@ import (
 
 	"github.com/caarlos0/env/v11"
 	"github.com/joho/godotenv"
+	"golang.org/x/time/rate"
 
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/ai/embedder"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/ai/llm"
@@ -39,6 +40,19 @@ type Configuration struct {
 	AllowOrigins []string `env:"ALLOW_ORIGINS" envDefault:"*"`
 	// BodyLimitBytes caps the request body size /v1/analyze will read.
 	BodyLimitBytes int64 `env:"BODY_LIMIT_BYTES" envDefault:"65536"`
+	// RateLimitRPM caps requests/minute per client IP on /v1 routes (the
+	// "low fence" layer — see internal/api/middleware.RateLimitPerIP). <= 0
+	// disables the limiter. Deliberately generous by default: Vietnamese
+	// mobile carriers share IPs across many subscribers behind CGNAT, so a
+	// tight per-IP limit risks throttling an entire carrier's users at once.
+	RateLimitRPM int `env:"RATE_LIMIT_RPM" envDefault:"20"`
+	// LLMDailyBudget caps how many requests/day may reach the paid pipeline
+	// (Voyage embed + Claude scoring), enforced globally regardless of
+	// source IP — the actual wallet safety net (see
+	// internal/infra/store.ReserveLLMBudget). Fail-closed: if the budget
+	// store can't be reached, requests are rejected rather than risking an
+	// unbudgeted paid call.
+	LLMDailyBudget int `env:"LLM_DAILY_BUDGET" envDefault:"1000"`
 
 	// Provider selection
 	EmbedProvider string `env:"EMBED_PROVIDER" envDefault:"voyage"`
@@ -152,12 +166,16 @@ func (c Configuration) LLM() llm.Config {
 
 // API adapts the env config into the api package's wiring type. Swagger UI
 // is mounted only in development — the spec isn't access-controlled.
+// RateLimitRPM (requests/minute) converts to rate.Limit's requests/second
+// unit; <= 0 passes through unchanged so api.Config keeps NewRouter's
+// documented "disables the limiter" behaviour.
 func (c Configuration) API() api.Config {
 	return api.Config{
 		Addr:           ":" + c.Port,
 		AllowOrigins:   c.AllowOrigins,
 		BodyLimitBytes: c.BodyLimitBytes,
 		SwaggerUI:      c.IsDevelopment(),
+		RateLimitRPS:   rate.Limit(c.RateLimitRPM) / 60,
 	}
 }
 
