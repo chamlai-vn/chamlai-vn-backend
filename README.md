@@ -146,12 +146,33 @@ curl -X POST localhost:8080/v1/analyze -H 'Content-Type: application/json' \
 # Swagger UI (chỉ APP_ENV=development, mặc định): http://localhost:8080/swagger/
 ```
 
+**Giới hạn truy cập.** `POST /v1/analyze` chạy chuỗi gọi API trả phí (Voyage
+embed + Claude scoring), nên có 2 lớp bảo vệ độc lập:
+
+| Biến môi trường | Mặc định | Ý nghĩa |
+|---|---|---|
+| `RATE_LIMIT_RPM` | `20` | Số request/phút cho mỗi IP (`<= 0` để tắt). Ngưỡng cố ý rộng tay vì nhà mạng di động Việt Nam (Viettel/Mobifone...) dùng chung IP giữa nhiều thuê bao qua CGNAT — đặt chặt sẽ chặn nhầm cả một cụm người dùng. |
+| `LLM_DAILY_BUDGET` | `1000` | Trần **tổng số** request/ngày được chạm tới pipeline trả phí, tính trên toàn hệ thống (không phân biệt IP) — đây là lưới an toàn chính cho chi phí Voyage/Claude. Khi vượt, mọi request nhận `429` tới hết ngày (giờ Việt Nam). |
+
+Đây là giới hạn theo **tần suất**, không phải giới hạn theo **quốc gia** — một
+IP ở bất kỳ đâu cũng chịu cùng ngưỡng, không có chặn theo vùng địa lý (geo-
+blocking). Nếu cần chặn/giới hạn theo quốc gia sau này, đó là cấu hình riêng ở
+tầng Cloudflare (Geo-blocking / IP Access Rules), không phải phần này.
+
+⚠️ **Điều kiện triển khai bắt buộc**: service phải chạy sau Cloudflare (hoặc
+CDN tương đương), và origin phải khóa firewall chỉ nhận traffic từ dải IP
+Cloudflare (https://www.cloudflare.com/ips/). Rate-limit theo IP tin vào header
+`CF-Connecting-IP`, chỉ đáng tin khi firewall đã khóa đúng — thiếu bước này,
+`CF-Connecting-IP` có thể bị giả mạo bởi ai gọi thẳng vào origin.
+
 ## VII. Lộ trình
 
 - [x] Skeleton repo, setup Postgres + pgvector
 - [x] Corpus: index 50+ bài cảnh báo lừa đảo đã gắn nhãn (hiện ~50 bài, 101 chunks)
 - [x] Retrieval stack: hybrid (vector + BM25 qua RRF) + reranking (Voyage rerank-2.5) đã build,
       dùng qua `cmd/seed`
+- [x] Rate limit theo IP + trần ngân sách gọi LLM/ngày cho `/v1/analyze` (xem "Giới hạn truy cập" ở
+      mục VI)
 - [ ] Wire retrieval stack vào `/v1/analyze` (hiện `/v1/analyze` vẫn vector-only — chờ benchmark
       chứng minh trên corpus đủ lớn, xem `benchmark/README.md`)
 - [ ] Eval baseline (precision/recall trên golden dataset) — foundation đã có ở

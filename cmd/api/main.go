@@ -17,6 +17,7 @@ import (
 	"os"
 	"os/signal"
 	"syscall"
+	_ "time/tzdata" // embed the IANA zone DB so LoadLocation works on minimal base images
 
 	"github.com/chamlai-vn/chamlai-vn-backend/config"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/ai/embedder"
@@ -83,9 +84,12 @@ func main() {
 		os.Exit(1)
 	}
 
+	vnLoc := mustVNLocation()
+
 	ret := retriever.New(emb, st, retriever.WithReranker(rr))
 	scorer := analyzer.New(llmSvc)
-	analyzeHandler := analyze.New(ret, scorer)
+	budget := newBudgetGate(st, cfg.LLMDailyBudget, vnLoc)
+	analyzeHandler := analyze.New(ret, scorer, budget)
 
 	apiCfg := cfg.API()
 	router := api.NewRouter(apiCfg, api.Handlers{Analyze: analyzeHandler})

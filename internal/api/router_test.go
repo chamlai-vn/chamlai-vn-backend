@@ -7,6 +7,8 @@ import (
 	"strings"
 	"testing"
 
+	"golang.org/x/time/rate"
+
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/api/v1/analyze"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/scam/analyzer"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/scam/retriever"
@@ -24,6 +26,12 @@ func (fakeScorer) Score(_ context.Context, _ string, _ []retriever.Result) (*ana
 	return &analyzer.AnalysisResult{RiskLevel: analyzer.RiskGreen}, nil
 }
 
+// fakeBudget always grants budget — these tests exercise the HTTP/router
+// layer, not the budget gate itself (see analyze_test.go for that).
+type fakeBudget struct{}
+
+func (fakeBudget) Reserve(_ context.Context) (bool, error) { return true, nil }
+
 func testConfig() Config {
 	return Config{AllowOrigins: []string{"https://chamlai.vn"}, BodyLimitBytes: 64 * 1024}
 }
@@ -32,7 +40,7 @@ func testConfig() Config {
 // handler methods in isolation): method routing, /health, /v1/analyze
 // validation, and error shape all through NewRouter — no DB/LLM required.
 func TestRouter_Wiring(t *testing.T) {
-	h := analyze.New(fakeRetriever{}, fakeScorer{})
+	h := analyze.New(fakeRetriever{}, fakeScorer{}, fakeBudget{})
 	srv := httptest.NewServer(NewRouter(testConfig(), Handlers{Analyze: h}))
 	defer srv.Close()
 
@@ -69,7 +77,7 @@ func TestRouter_Wiring(t *testing.T) {
 }
 
 func TestRouter_ErrorsAreProblemJSON(t *testing.T) {
-	h := analyze.New(fakeRetriever{}, fakeScorer{})
+	h := analyze.New(fakeRetriever{}, fakeScorer{}, fakeBudget{})
 	srv := httptest.NewServer(NewRouter(testConfig(), Handlers{Analyze: h}))
 	defer srv.Close()
 
@@ -85,7 +93,7 @@ func TestRouter_ErrorsAreProblemJSON(t *testing.T) {
 }
 
 func TestRouter_EchoesRequestID(t *testing.T) {
-	h := analyze.New(fakeRetriever{}, fakeScorer{})
+	h := analyze.New(fakeRetriever{}, fakeScorer{}, fakeBudget{})
 	srv := httptest.NewServer(NewRouter(testConfig(), Handlers{Analyze: h}))
 	defer srv.Close()
 
@@ -104,7 +112,7 @@ func TestRouter_EchoesRequestID(t *testing.T) {
 }
 
 func TestRouter_BodyOverLimit_413(t *testing.T) {
-	h := analyze.New(fakeRetriever{}, fakeScorer{})
+	h := analyze.New(fakeRetriever{}, fakeScorer{}, fakeBudget{})
 	cfg := Config{AllowOrigins: []string{"*"}, BodyLimitBytes: 16}
 	srv := httptest.NewServer(NewRouter(cfg, Handlers{Analyze: h}))
 	defer srv.Close()
@@ -122,7 +130,7 @@ func TestRouter_BodyOverLimit_413(t *testing.T) {
 }
 
 func TestRouter_SwaggerUI_GatedByConfig(t *testing.T) {
-	h := analyze.New(fakeRetriever{}, fakeScorer{})
+	h := analyze.New(fakeRetriever{}, fakeScorer{}, fakeBudget{})
 
 	off := httptest.NewServer(NewRouter(testConfig(), Handlers{Analyze: h}))
 	defer off.Close()
@@ -150,7 +158,7 @@ func TestRouter_SwaggerUI_GatedByConfig(t *testing.T) {
 }
 
 func TestRouter_CORSPreflight(t *testing.T) {
-	h := analyze.New(fakeRetriever{}, fakeScorer{})
+	h := analyze.New(fakeRetriever{}, fakeScorer{}, fakeBudget{})
 	srv := httptest.NewServer(NewRouter(testConfig(), Handlers{Analyze: h}))
 	defer srv.Close()
 
@@ -166,5 +174,43 @@ func TestRouter_CORSPreflight(t *testing.T) {
 
 	if got := resp.Header.Get("Access-Control-Allow-Origin"); got != "https://chamlai.vn" {
 		t.Errorf("Access-Control-Allow-Origin = %q", got)
+	}
+}
+
+// TestRouter_RateLimitAppliesToV1Only exercises the real router (not the
+// middleware in isolation): the /v1 group is throttled once its burst is
+// exhausted, but /health — a liveness/readiness probe that must never be
+// throttled — keeps returning 200 regardless.
+func TestRouter_RateLimitAppliesToV1Only(t *testing.T) {
+	h := analyze.New(fakeRetriever{}, fakeScorer{}, fakeBudget{})
+	cfg := testConfig()
+	cfg.RateLimitRPS = rate.Limit(1.0 / 3600) // effectively burst-only within this test
+	srv := httptest.NewServer(NewRouter(cfg, Handlers{Analyze: h}))
+	defer srv.Close()
+
+	// http.DefaultClient reuses one keep-alive connection to srv here, so
+	// every request below shares the same observed RemoteAddr/bucket.
+	var last *http.Response
+	for i := 0; i < 30; i++ {
+		resp, err := http.Post(srv.URL+"/v1/analyze", "application/json", strings.NewReader(`{"text":"ok"}`))
+		if err != nil {
+			t.Fatal(err)
+		}
+		_ = resp.Body.Close()
+		last = resp
+	}
+	if last.StatusCode != http.StatusTooManyRequests {
+		t.Fatalf("/v1/analyze after burst: status = %d, want 429", last.StatusCode)
+	}
+
+	for i := 0; i < 30; i++ {
+		resp, err := http.Get(srv.URL + "/health")
+		if err != nil {
+			t.Fatal(err)
+		}
+		_ = resp.Body.Close()
+		if resp.StatusCode != http.StatusOK {
+			t.Fatalf("/health request %d: status = %d, want 200 (never rate-limited)", i, resp.StatusCode)
+		}
 	}
 }

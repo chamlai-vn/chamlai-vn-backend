@@ -23,14 +23,16 @@ func (h *Handler) Routes() chi.Router {
 	return r
 }
 
-// Handle scores a suspicious message. The pipeline is two steps — the
+// Handle scores a suspicious message. The pipeline is three steps — the
 // analyzer does NOT retrieve — mirroring cmd/seed: decode → validate →
+// budget.Reserve (global daily cap on the paid pipeline) →
 // retriever.HybridSearch (vector + keyword, RRF-fused, reranked) →
-// analyzer.Score. The verdict is analyzer.AnalysisResult,
-// returned as-is: its JSON tags already are the public response shape, so no
-// separate response DTO. Errors are returned rather than written directly —
-// problem.Handler (mounted in the router) translates them to
-// application/problem+json.
+// analyzer.Score. The budget gate runs before HybridSearch because
+// retrieval already calls the paid embedder, not just Score. The verdict is
+// analyzer.AnalysisResult, returned as-is: its JSON tags already are the
+// public response shape, so no separate response DTO. Errors are returned
+// rather than written directly — problem.Handler (mounted in the router)
+// translates them to application/problem+json.
 //
 // @Summary      Score a message for scam risk
 // @Description  Retrieves similar known scam patterns and asks the LLM to score the message red/yellow/green.
@@ -40,7 +42,9 @@ func (h *Handler) Routes() chi.Router {
 // @Param        request  body      Request                 true  "Message to score"
 // @Success      200      {object}  analyzer.AnalysisResult
 // @Failure      400      {object}  problem.Problem  "malformed body, empty text, or body too large"
+// @Failure      429      {object}  problem.Problem  "rate limited, or the daily budget for paid calls is exhausted"
 // @Failure      500      {object}  problem.Problem  "retrieval or scoring failed"
+// @Failure      503      {object}  problem.Problem  "budget could not be verified; request rejected to fail closed"
 // @Router       /v1/analyze [post]
 func (h *Handler) Handle(w http.ResponseWriter, r *http.Request) error {
 	req, err := bind.JSON[Request](r)
@@ -54,6 +58,18 @@ func (h *Handler) Handle(w http.ResponseWriter, r *http.Request) error {
 	}
 
 	ctx := r.Context()
+
+	// Budget gate BEFORE retrieval: HybridSearch already calls the paid
+	// embedder, so the wallet safety net must cover it too, not just Score.
+	ok, err := h.budget.Reserve(ctx)
+	if err != nil {
+		return problem.Unavailable().WithErr(fmt.Errorf("reserve llm budget: %w", err))
+	}
+	if !ok {
+		w.Header().Set("Retry-After", "3600")
+		return problem.TooManyRequests("hệ thống đang quá tải, vui lòng thử lại sau")
+	}
+
 	chunks, err := h.retriever.HybridSearch(ctx, text, h.topK)
 	if err != nil {
 		return problem.Internal().WithErr(fmt.Errorf("retrieve scam patterns: %w", err))

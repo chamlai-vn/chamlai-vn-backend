@@ -8,9 +8,9 @@ import (
 	"net/http"
 
 	"github.com/go-chi/chi/v5"
-	chimw "github.com/go-chi/chi/v5/middleware"
 	"github.com/go-chi/cors"
 	httpSwagger "github.com/swaggo/http-swagger/v2"
+	"golang.org/x/time/rate"
 
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/api/middleware"
 	"github.com/chamlai-vn/chamlai-vn-backend/internal/api/problem"
@@ -41,6 +41,10 @@ type Config struct {
 	// SwaggerUI mounts GET /swagger/* when true. Meant for development only
 	// — the spec isn't access-controlled.
 	SwaggerUI bool
+	// RateLimitRPS caps requests/second per client IP on the /v1 group (see
+	// middleware.RateLimitPerIP). <= 0 disables the limiter entirely — used
+	// by tests that don't want it in the mix.
+	RateLimitRPS rate.Limit
 }
 
 // NewRouter builds the HTTP router: RequestID → client-IP → RequestLogger →
@@ -48,11 +52,17 @@ type Config struct {
 // RequestLogger wraps Recoverer deliberately, so a panic's 500 still gets
 // logged with the right status (see middleware.RequestLogger's doc).
 //
-// Client IP uses chimw.ClientIPFromRemoteAddr — the TCP peer address, never
-// a spoofable header — because this service isn't known to sit behind a
-// reverse proxy yet. If one is introduced, switch to chimw.ClientIPFromXFF
-// with that proxy's CIDRs (chi's plain RealIP trusts X-Forwarded-For
-// unconditionally and is deprecated for exactly this reason).
+// Client IP uses middleware.ClientIPFromCloudflare — CF-Connecting-IP when
+// the TCP peer is actually a Cloudflare edge IP, the raw TCP peer address
+// otherwise. This service is expected to run behind Cloudflare; the origin
+// firewall MUST additionally be locked to Cloudflare's published ranges
+// (https://www.cloudflare.com/ips/) — the CIDR check here is defense in
+// depth against that rule drifting, not a substitute for it (see
+// ClientIPFromCloudflare's doc and
+// docs/plans/2026-07-11-001-feat-rate-limit-budget-cap-plan.md, R2).
+//
+// Per-IP rate limiting (middleware.RateLimitPerIP) is applied only to the
+// /v1 group, not root routes like /health — a probe must never be throttled.
 //
 // Each feature owns its URL structure via its own Routes() sub-router (see
 // analyze.Handler.Routes); NewRouter only decides where to Mount it. Adding
@@ -62,7 +72,7 @@ func NewRouter(cfg Config, h Handlers) http.Handler {
 	r := chi.NewRouter()
 	r.Use(
 		middleware.RequestID,
-		chimw.ClientIPFromRemoteAddr,
+		middleware.ClientIPFromCloudflare,
 		middleware.RequestLogger,
 		middleware.Recoverer,
 		cors.Handler(cors.Options{
@@ -82,6 +92,7 @@ func NewRouter(cfg Config, h Handlers) http.Handler {
 
 	r.Mount("/", root.Routes())
 	r.Route("/v1", func(r chi.Router) {
+		r.Use(middleware.RateLimitPerIP(cfg.RateLimitRPS))
 		r.Mount("/analyze", h.Analyze.Routes())
 	})
 

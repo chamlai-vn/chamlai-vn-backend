@@ -26,12 +26,24 @@ type Retriever interface {
 	HybridSearch(ctx context.Context, query string, k int) ([]retriever.Result, error)
 }
 
-// Handler serves POST /v1/analyze over the retrieve→score pipeline. Both
+// Budget gates access to the paid pipeline (Voyage embed + Claude scoring)
+// behind a global daily cap — the wallet safety net, independent of and in
+// addition to any per-IP rate limiting. Reserve claims one slot of today's
+// budget; ok=false means the daily cap has been reached and the caller must
+// not proceed to retrieval/scoring. A non-nil error means the budget could
+// not be verified at all, and the caller must fail closed (reject the
+// request) rather than risk an unbudgeted paid call.
+type Budget interface {
+	Reserve(ctx context.Context) (ok bool, err error)
+}
+
+// Handler serves POST /v1/analyze over the retrieve→score pipeline. All
 // collaborators are injected (no global state). Safe for concurrent use if
 // they are (they are).
 type Handler struct {
 	retriever Retriever
 	scorer    analyzer.Scorer
+	budget    Budget
 	topK      int
 }
 
@@ -48,12 +60,13 @@ func WithTopK(n int) Option {
 	}
 }
 
-// New builds a Handler over ret and scorer. Unset options fall back to
-// defaults (topK=5).
-func New(ret Retriever, scorer analyzer.Scorer, opts ...Option) *Handler {
+// New builds a Handler over ret, scorer, and budget. Unset options fall back
+// to defaults (topK=5).
+func New(ret Retriever, scorer analyzer.Scorer, budget Budget, opts ...Option) *Handler {
 	h := &Handler{
 		retriever: ret,
 		scorer:    scorer,
+		budget:    budget,
 		topK:      DefaultTopK,
 	}
 	for _, opt := range opts {

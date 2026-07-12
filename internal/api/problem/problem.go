@@ -71,6 +71,24 @@ func TooLarge() *Problem {
 	return newProblem(http.StatusRequestEntityTooLarge, "nội dung yêu cầu quá lớn")
 }
 
+// TooManyRequests is a 429: the caller exceeded a rate limit or the service's
+// paid-pipeline budget was exhausted. detail is user-facing Vietnamese and
+// should stay generic — it must not let a caller distinguish "you personally
+// are throttled" from "the daily global budget is exhausted", which would
+// hand an attacker a success oracle for a budget-exhaustion attack.
+func TooManyRequests(detail string) *Problem {
+	return newProblem(http.StatusTooManyRequests, detail)
+}
+
+// Unavailable is a 503: a required collaborator (e.g. the budget store) could
+// not be reached, so the request was rejected rather than risk running an
+// unbudgeted paid call. Distinguishing this from a generic 500 lets
+// operators alert on "budget store unreachable" separately from other
+// internal errors.
+func Unavailable() *Problem {
+	return newProblem(http.StatusServiceUnavailable, "hệ thống tạm thời không khả dụng, vui lòng thử lại sau")
+}
+
 // Internal is a 500. detail is a fixed, coarse Vietnamese message — the real
 // cause never reaches the client. Attach the real error with WithErr so the
 // Handler adapter can log it.

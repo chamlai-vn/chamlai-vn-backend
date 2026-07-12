@@ -74,8 +74,20 @@ const docTemplate = `{
                             "$ref": "#/definitions/problem.Problem"
                         }
                     },
+                    "429": {
+                        "description": "rate limited, or the daily budget for paid calls is exhausted",
+                        "schema": {
+                            "$ref": "#/definitions/problem.Problem"
+                        }
+                    },
                     "500": {
                         "description": "retrieval or scoring failed",
+                        "schema": {
+                            "$ref": "#/definitions/problem.Problem"
+                        }
+                    },
+                    "503": {
+                        "description": "budget could not be verified; request rejected to fail closed",
                         "schema": {
                             "$ref": "#/definitions/problem.Problem"
                         }
@@ -94,7 +106,7 @@ const docTemplate = `{
                 "text": {
                     "description": "Text is the suspicious message to score. Required; capped well above\nany real chat message to keep embedding/LLM cost bounded.",
                     "type": "string",
-                    "maxLength": 10000
+                    "maxLength": 5000
                 }
             }
         },
