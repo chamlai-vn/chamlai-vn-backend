@@ -1,27 +1,10 @@
 .PHONY: help build run test
 
-# Accept a seeds_YYYYMMDD.txt argument as a pseudo-target (e.g. make crawl.local seeds_20260626.txt).
-# Filter it from MAKECMDGOALS, register a no-op rule so Make doesn't error, then expose as SEEDS.
-_seeds_arg   := $(filter seeds_%.txt, $(MAKECMDGOALS))
-$(if $(_seeds_arg), $(eval $(_seeds_arg):;@:))
-SEEDS        ?= $(or $(_seeds_arg), seeds_$(shell date +%Y%m%d).txt)
-
 help: ## Show this help message
 	@awk 'BEGIN {FS = ":.*##"; printf "\nUsage:\n  make \033[36m<target>\033[0m\n\nTargets:\n"} /^[a-zA-Z0-9_%.-]+:.*?##/ { printf "  \033[36m%-20s\033[0m %s\n", $$1, $$2 }' $(MAKEFILE_LIST)
 
 switch.%: ## switch to a specific environment (e.g., make switch.local)
 	cp .env.$* .env
-
-_voyage_key = $(or $(shell grep -m1 '^VOYAGE_API_KEY=' .env.$(1) 2>/dev/null | cut -d= -f2-),$(error VOYAGE_API_KEY not found in .env.$(1)))
-
-crawl.%: ## Run crawler for env (e.g., make crawl.local seeds_20260626.txt)
-	VOYAGE_API_KEY="$(call _voyage_key,$*)" go run ./cmd/crawler -seeds cmd/crawler/data/$(SEEDS)
-
-# Seed hand-curated local .md file(s) only, skipping url crawling. FILES overrides
-# the default glob (e.g. make seed.local FILES=cmd/crawler/data/seeds_yt_0.md).
-FILES ?= cmd/crawler/data/*.md
-seed.%: ## Seed local .md file(s) for env (e.g., make seed.local FILES=cmd/crawler/data/seeds_yt_0.md)
-	VOYAGE_API_KEY="$(call _voyage_key,$*)" go run ./cmd/crawler -seeds /dev/null -files "$(FILES)"
 
 # Load DATABASE_URL from .env.<env>, falling back to the local docker-compose DSN.
 # $(or ...) handles the case where grep finds nothing: cut exits 0 on empty input
