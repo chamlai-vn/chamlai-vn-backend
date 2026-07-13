@@ -32,9 +32,11 @@ type Configuration struct {
 
 	// HTTP server.
 	Port string `env:"PORT" envDefault:"8080"`
-	// AppEnv gates dev-only surfaces (Swagger UI) and log format.
-	// "development" or "production".
+	// AppEnv gates log format only. "development" or "production".
 	AppEnv string `env:"APP_ENV" envDefault:"development"`
+	// SwaggerUI gates whether Swagger UI (/swagger/*) is served. Independent of
+	// AppEnv so production can serve Swagger without dev-style logging.
+	SwaggerUI bool `env:"SWAGGER_UI" envDefault:"false"`
 	// AllowOrigins is the CORS allow-list, comma-separated. "*" allows any
 	// origin — fine for local dev, tighten for production.
 	AllowOrigins []string `env:"ALLOW_ORIGINS" envDefault:"*"`
@@ -164,17 +166,17 @@ func (c Configuration) LLM() llm.Config {
 	}
 }
 
-// API adapts the env config into the api package's wiring type. Swagger UI
-// is mounted only in development — the spec isn't access-controlled.
-// RateLimitRPM (requests/minute) converts to rate.Limit's requests/second
-// unit; <= 0 passes through unchanged so api.Config keeps NewRouter's
-// documented "disables the limiter" behaviour.
+// API adapts the env config into the api package's wiring type. Swagger UI is
+// controlled by the independent SwaggerUI flag (not AppEnv) so production can
+// serve Swagger without dev-style logging. RateLimitRPM (requests/minute)
+// converts to rate.Limit's requests/second unit; <= 0 passes through unchanged
+// so api.Config keeps NewRouter's documented "disables the limiter" behaviour.
 func (c Configuration) API() api.Config {
 	return api.Config{
 		Addr:           ":" + c.Port,
 		AllowOrigins:   c.AllowOrigins,
 		BodyLimitBytes: c.BodyLimitBytes,
-		SwaggerUI:      c.IsDevelopment(),
+		SwaggerUI:      c.SwaggerUI,
 		RateLimitRPS:   rate.Limit(c.RateLimitRPM) / 60,
 	}
 }

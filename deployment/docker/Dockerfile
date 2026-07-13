@@ -8,7 +8,7 @@ RUN go mod download
 
 # Copy code & build
 COPY . .
-RUN CGO_ENABLED=0 GOOS=linux go build -ldflags="-s -w" -o /out/api ./cmd/api
+RUN CGO_ENABLED=0 GOOS=linux go build -tags swagger -ldflags="-s -w" -o /out/api ./cmd/api
 
 # ---- Runtime stage ----
 FROM gcr.io/distroless/static-debian12 AS runtime

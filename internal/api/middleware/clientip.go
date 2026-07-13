@@ -54,26 +54,37 @@ func mustParsePrefixes(cidrs ...string) []netip.Prefix {
 // (chimw.ClientIPFromRemoteAddr) otherwise. Read the result with
 // chimw.GetClientIP, same as any other chimw.ClientIPFrom* middleware.
 //
-// This is defense-in-depth, not the primary control: the CF-Connecting-IP
-// header is only trustworthy at all because the origin's firewall is
-// expected to accept traffic solely from Cloudflare's ranges (see
-// docs/plans/2026-07-11-001-feat-rate-limit-budget-cap-plan.md, R2). This
-// middleware protects against that firewall rule drifting or a request
-// reaching the app some other way (e.g. a misrouted internal call, or a gap
-// while the firewall rule is being rolled out): even if a non-Cloudflare
-// peer connects directly and sends a forged CF-Connecting-IP header, this
-// middleware ignores the header and uses the peer's real address instead —
-// it cannot itself stop a spoofed request from reaching the app, only stop
-// it from spoofing its IP once here.
+// On a bare origin (Cloudflare → origin), r.RemoteAddr is the Cloudflare edge.
+// On Fly.io (Cloudflare → Fly proxy → app), r.RemoteAddr is Fly's internal
+// proxy, and Fly sets the Fly-Client-IP header to what connected to Fly
+// (which is the Cloudflare edge). This middleware checks the right peer
+// depending on topology: Fly-Client-IP first (for Fly.io), then r.RemoteAddr
+// (for bare origin).
+//
+// This is defense-in-depth: the CF-Connecting-IP header is trustworthy only
+// because the origin is expected to accept traffic solely from Cloudflare's
+// ranges (see docs/plans/2026-07-11-001-feat-rate-limit-budget-cap-plan.md, R2).
+// If a non-Cloudflare peer connects directly (or bypasses Cloudflare via .fly.dev),
+// this middleware ignores the CF-Connecting-IP header and uses the peer's real
+// address instead — it cannot stop spoofed requests from reaching the app, only
+// stop them from spoofing their IP once here.
 func ClientIPFromCloudflare(next http.Handler) http.Handler {
 	fromHeader := chimw.ClientIPFromHeader("CF-Connecting-IP")(next)
 	fromRemoteAddr := chimw.ClientIPFromRemoteAddr(next)
 
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		// On Fly.io, Fly sets Fly-Client-IP to whoever connected to Fly (the Cloudflare edge).
+		// Check that first, since on Fly the TCP peer is Fly's internal proxy, not Cloudflare.
+		if flyPeer := r.Header.Get("Fly-Client-IP"); flyPeer != "" && peerIsCloudflare(flyPeer) {
+			fromHeader.ServeHTTP(w, r)
+			return
+		}
+		// Bare origin (Cloudflare connects directly): check TCP peer against Cloudflare ranges.
 		if peerIsCloudflare(r.RemoteAddr) {
 			fromHeader.ServeHTTP(w, r)
 			return
 		}
+		// Non-Cloudflare request (direct access, or attack). Use the real TCP peer.
 		fromRemoteAddr.ServeHTTP(w, r)
 	})
 }
