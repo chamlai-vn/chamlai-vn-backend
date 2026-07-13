@@ -1,0 +1,9 @@
+.env*
+!.env.example
+.git
+tmp
+data/corpus
+*_test.go
+*.md
+.vscode
+.claude
