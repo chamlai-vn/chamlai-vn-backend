@@ -23,18 +23,19 @@ Dán bất kỳ văn bản đáng ngờ nào (SMS, tin nhắn Zalo, "hợp đồ
 
 ## I. Cách hoạt động
 
-```
-văn bản đáng ngờ
-      │
-      ▼
- embed (Voyage AI) ──► pgvector: top-k scam pattern tương tự
-      │                          │
-      ▼                          ▼
- LLM (Claude/Gemini/ChatGPT) ◄── context đã retrieve
-      │
-      ▼
- kết quả JSON có cấu trúc
- { risk: đỏ|vàng|xanh, red_flags[], next_actions[], patterns[] }
+```mermaid
+flowchart TD
+    A["văn bản đáng ngờ"] --> B["embed (Voyage AI)"]
+    B --> C[("pgvector: top-k scam pattern tương tự")]
+    C --> D["LLM (Claude/Gemini/ChatGPT)<br/>chấm điểm dựa trên context đã retrieve"]
+
+    subgraph RESULT["kết quả JSON có cấu trúc"]
+        E["risk_level, red_flags[],<br/>matched_patterns[],<br/>recommended_actions[], disclaimer<br/>— do LLM sinh ra"]
+        F["sources[]: title + url<br/>— lấy từ tài liệu đã khớp,<br/>không phải LLM sinh ra"]
+    end
+
+    D --> E
+    C -.->|"tài liệu khớp với<br/>matched_patterns"| F
 ```
 
 RAG trên corpus bài cảnh báo lừa đảo đã gắn nhãn (VTV, CAND, Cục An toàn thông tin...), chấm điểm dấu hiệu lừa đảo bằng Claude.
