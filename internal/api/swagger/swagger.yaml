@@ -30,6 +30,19 @@ definitions:
       risk_level:
         description: '"red" | "yellow" | "green"'
         type: string
+      sources:
+        description: matched source documents backing the verdict; [] when nothing
+          matched
+        items:
+          $ref: '#/definitions/analyzer.Source'
+        type: array
+    type: object
+  analyzer.Source:
+    properties:
+      title:
+        type: string
+      url:
+        type: string
     type: object
   problem.Problem:
     properties:

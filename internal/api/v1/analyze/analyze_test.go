@@ -61,6 +61,7 @@ func TestHandle_OK(t *testing.T) {
 	scorer := &fakeScorer{result: &analyzer.AnalysisResult{
 		RiskLevel:  analyzer.RiskRed,
 		RedFlags:   []string{"đặt cọc gấp"},
+		Sources:    []analyzer.Source{{Title: "Lừa đảo đặt cọc", URL: "https://example.com/canh-bao-1"}},
 		Disclaimer: "chỉ mang tính tham khảo",
 	}}
 	h := New(ret, scorer, allowBudget(), WithTopK(3))
@@ -92,6 +93,9 @@ func TestHandle_OK(t *testing.T) {
 	}
 	if got.RiskLevel != analyzer.RiskRed || len(got.RedFlags) != 1 {
 		t.Errorf("body = %+v", got)
+	}
+	if len(got.Sources) != 1 || got.Sources[0].Title != "Lừa đảo đặt cọc" || got.Sources[0].URL != "https://example.com/canh-bao-1" {
+		t.Errorf("sources not passed through in response body: %+v", got.Sources)
 	}
 }
 

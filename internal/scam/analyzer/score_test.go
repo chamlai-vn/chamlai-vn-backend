@@ -218,6 +218,96 @@ func TestScore_OmitsPreventionSectionWhenAllEmpty(t *testing.T) {
 	}
 }
 
+func TestScore_MatchedPatternCitesSourceDocument(t *testing.T) {
+	f := &fakeLLM{raw: json.RawMessage(`{"risk_level":"red","matched_patterns":["Giả danh công an"]}`)}
+	chunks := []retriever.Result{{Title: "Giả danh công an", SourceURL: "https://example.com/canh-bao-1"}}
+
+	res, err := New(f).Score(context.Background(), "kiểm tra", chunks)
+	if err != nil {
+		t.Fatalf("Score: %v", err)
+	}
+	if len(res.Sources) != 1 || res.Sources[0].Title != "Giả danh công an" || res.Sources[0].URL != "https://example.com/canh-bao-1" {
+		t.Errorf("sources not populated from matched pattern: %+v", res.Sources)
+	}
+}
+
+func TestScore_MatchedPatternCorrelationToleratesCaseAndWhitespace(t *testing.T) {
+	f := &fakeLLM{raw: json.RawMessage(`{"risk_level":"red","matched_patterns":["  giả  danh CÔNG an "]}`)}
+	chunks := []retriever.Result{{Title: "Giả danh công an", SourceURL: "https://example.com/canh-bao-1"}}
+
+	res, err := New(f).Score(context.Background(), "kiểm tra", chunks)
+	if err != nil {
+		t.Fatalf("Score: %v", err)
+	}
+	if len(res.Sources) != 1 || res.Sources[0].Title != "Giả danh công an" {
+		t.Errorf("normalised title match failed: %+v", res.Sources)
+	}
+}
+
+func TestScore_UnmatchedPatternDropsNoFabricatedSource(t *testing.T) {
+	f := &fakeLLM{raw: json.RawMessage(`{"risk_level":"yellow","matched_patterns":["Chiêu trò không có trong kho"]}`)}
+	chunks := []retriever.Result{{Title: "Giả danh công an", SourceURL: "https://example.com/canh-bao-1"}}
+
+	res, err := New(f).Score(context.Background(), "kiểm tra", chunks)
+	if err != nil {
+		t.Fatalf("Score: %v", err)
+	}
+	if res.Sources == nil || len(res.Sources) != 0 {
+		t.Errorf("expected empty (non-nil) sources for unmatched pattern, got %+v", res.Sources)
+	}
+}
+
+func TestScore_GreenVerdictHasEmptyNonNilSources(t *testing.T) {
+	f := &fakeLLM{raw: json.RawMessage(`{"risk_level":"green"}`)}
+	chunks := []retriever.Result{{Title: "Giả danh công an", SourceURL: "https://example.com/canh-bao-1"}}
+
+	res, err := New(f).Score(context.Background(), "kiểm tra", chunks)
+	if err != nil {
+		t.Fatalf("Score: %v", err)
+	}
+	if res.Sources == nil || len(res.Sources) != 0 {
+		t.Errorf("expected empty (non-nil) sources on green verdict, got %+v", res.Sources)
+	}
+}
+
+func TestScore_NoChunksYieldsEmptyNonNilSources(t *testing.T) {
+	f := &fakeLLM{raw: json.RawMessage(`{"risk_level":"red","matched_patterns":["bất kỳ"]}`)}
+
+	res, err := New(f).Score(context.Background(), "kiểm tra", nil)
+	if err != nil {
+		t.Fatalf("Score: %v", err)
+	}
+	if res.Sources == nil || len(res.Sources) != 0 {
+		t.Errorf("expected empty (non-nil) sources with no chunks, got %+v", res.Sources)
+	}
+}
+
+func TestScore_DuplicateMatchedPatternsDedupeToOneSource(t *testing.T) {
+	f := &fakeLLM{raw: json.RawMessage(`{"risk_level":"red","matched_patterns":["Giả danh công an","Giả danh công an"]}`)}
+	chunks := []retriever.Result{{Title: "Giả danh công an", SourceURL: "https://example.com/canh-bao-1"}}
+
+	res, err := New(f).Score(context.Background(), "kiểm tra", chunks)
+	if err != nil {
+		t.Fatalf("Score: %v", err)
+	}
+	if len(res.Sources) != 1 {
+		t.Errorf("expected duplicate matched pattern to dedupe to 1 source, got %d: %+v", len(res.Sources), res.Sources)
+	}
+}
+
+func TestScore_MatchedSourceWithEmptyURLIsKept(t *testing.T) {
+	f := &fakeLLM{raw: json.RawMessage(`{"risk_level":"red","matched_patterns":["Giả danh công an"]}`)}
+	chunks := []retriever.Result{{Title: "Giả danh công an", SourceURL: ""}}
+
+	res, err := New(f).Score(context.Background(), "kiểm tra", chunks)
+	if err != nil {
+		t.Fatalf("Score: %v", err)
+	}
+	if len(res.Sources) != 1 || res.Sources[0].URL != "" {
+		t.Errorf("expected citation kept with empty URL, got %+v", res.Sources)
+	}
+}
+
 func TestScore_PreventionHasItsOwnByteBudget(t *testing.T) {
 	f := &fakeLLM{raw: json.RawMessage(`{"risk_level":"yellow"}`)}
 	longPrevention := strings.Repeat("x", maxChunkBytes) // longer than maxPreventionBytes, shorter than maxChunkBytes

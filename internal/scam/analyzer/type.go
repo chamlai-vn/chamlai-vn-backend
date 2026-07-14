@@ -10,13 +10,26 @@ const (
 )
 
 // AnalysisResult is the scam-scoring verdict for a suspicious message. Disclaimer
-// is set server-side in Score (never trusted from the model).
+// is set server-side in Score (never trusted from the model); Sources is also
+// assembled server-side in Score (see matchSources in score.go), never from
+// the model directly.
 type AnalysisResult struct {
 	RiskLevel          string   `json:"risk_level"` // "red" | "yellow" | "green"
 	RedFlags           []string `json:"red_flags"`
 	MatchedPatterns    []string `json:"matched_patterns"`
+	Sources            []Source `json:"sources"` // matched source documents backing the verdict; [] when nothing matched
 	RecommendedActions []string `json:"recommended_actions"`
 	Disclaimer         string   `json:"disclaimer"`
+}
+
+// Source is one document backing the verdict — a matched, published scam
+// warning the user can click through to. It is assembled server-side by
+// correlating matched_patterns against the retrieved documents' titles; the
+// LLM tool schema is deliberately not asked for URLs or document IDs (see
+// AnalysisToolSchema below).
+type Source struct {
+	Title string `json:"title"`
+	URL   string `json:"url"`
 }
 
 // The forced tool the model must call. Disclaimer is intentionally NOT in the
