@@ -70,6 +70,43 @@ func (a *Analyzer) Score(ctx context.Context, suspiciousText string, chunks []re
 	if result.RecommendedActions == nil {
 		result.RecommendedActions = []string{}
 	}
+	// Correlate against the same (already-truncated) chunks the model was
+	// shown, so a citation can only reference a document it actually saw.
+	result.Sources = matchSources(result.MatchedPatterns, chunks)
 
 	return &result, nil
+}
+
+// matchSources maps the model's matched_patterns back to the retrieved
+// documents they name, producing citations. It correlates on a normalised
+// Title — the identifier the model was shown in the reference block (see
+// buildUserPrompt in prompt.go) — because the tool schema is deliberately not
+// asked to emit URLs or document IDs. Patterns that don't correspond to any
+// retrieved document are dropped (never fabricate a URL); the result is
+// deduped by document and is a non-nil empty slice when nothing matches.
+func matchSources(patterns []string, chunks []retriever.Result) []Source {
+	byTitle := make(map[string]retriever.Result, len(chunks))
+	for _, c := range chunks {
+		byTitle[normalizeTitle(c.Title)] = c
+	}
+
+	sources := make([]Source, 0, len(patterns))
+	seen := make(map[string]bool, len(patterns))
+	for _, p := range patterns {
+		key := normalizeTitle(p)
+		c, ok := byTitle[key]
+		if !ok || seen[key] {
+			continue
+		}
+		seen[key] = true
+		sources = append(sources, Source{Title: c.Title, URL: c.SourceURL})
+	}
+	return sources
+}
+
+// normalizeTitle canonicalises a title for tolerant matching: trim, casefold,
+// collapse internal whitespace. This absorbs minor drift when the model
+// echoes a provided title back rather than copying it verbatim.
+func normalizeTitle(s string) string {
+	return strings.Join(strings.Fields(strings.ToLower(s)), " ")
 }

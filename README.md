@@ -23,18 +23,30 @@ Dán bất kỳ văn bản đáng ngờ nào (SMS, tin nhắn Zalo, "hợp đồ
 
 ## I. Cách hoạt động
 
-```
-văn bản đáng ngờ
-      │
-      ▼
- embed (Voyage AI) ──► pgvector: top-k scam pattern tương tự
-      │                          │
-      ▼                          ▼
- LLM (Claude/Gemini/ChatGPT) ◄── context đã retrieve
-      │
-      ▼
- kết quả JSON có cấu trúc
- { risk: đỏ|vàng|xanh, red_flags[], next_actions[], patterns[] }
+```mermaid
+flowchart TD
+    A["văn bản đáng ngờ"] --> B["embed (Voyage AI)"]
+
+    subgraph RETRIEVE["hybrid search (retriever.HybridSearch)"]
+        B --> V[("vector search (pgvector)<br/>cosine similarity trên embedding")]
+        A --> K[("keyword search (Postgres tsvector)<br/>TF-IDF / ts_rank")]
+        V --> RRF["Reciprocal Rank Fusion (RRF)<br/>mỗi nhánh dedupe theo document,<br/>gộp điểm theo 1/(k+rank+1)"]
+        K --> RRF
+        RRF --> RERANK{"có reranker?"}
+        RERANK -->|"có"| RR["Voyage reranker<br/>chấm điểm lại theo relevance"]
+        RERANK -->|"không"| TOPK["top-k tài liệu"]
+        RR --> TOPK
+    end
+
+    TOPK --> D["LLM (Claude/Gemini/ChatGPT)<br/>chấm điểm dựa trên context đã retrieve"]
+
+    subgraph RESULT["kết quả JSON có cấu trúc"]
+        E["risk_level, red_flags[],<br/>matched_patterns[],<br/>recommended_actions[], disclaimer<br/>— do LLM sinh ra"]
+        F["sources[]: title + url<br/>— lấy từ tài liệu đã khớp,<br/>không phải LLM sinh ra"]
+    end
+
+    D --> E
+    TOPK -.->|"tài liệu khớp với<br/>matched_patterns"| F
 ```
 
 RAG trên corpus bài cảnh báo lừa đảo đã gắn nhãn (VTV, CAND, Cục An toàn thông tin...), chấm điểm dấu hiệu lừa đảo bằng Claude.

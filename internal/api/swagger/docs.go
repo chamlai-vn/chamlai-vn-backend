@@ -137,6 +137,24 @@ const docTemplate = `{
                 "risk_level": {
                     "description": "\"red\" | \"yellow\" | \"green\"",
                     "type": "string"
+                },
+                "sources": {
+                    "description": "matched source documents backing the verdict; [] when nothing matched",
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/analyzer.Source"
+                    }
+                }
+            }
+        },
+        "analyzer.Source": {
+            "type": "object",
+            "properties": {
+                "title": {
+                    "type": "string"
+                },
+                "url": {
+                    "type": "string"
                 }
             }
         },

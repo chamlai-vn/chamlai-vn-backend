@@ -207,6 +207,12 @@ func structureAnswer(ctx context.Context, structureLLM llm.Service, rawText stri
 	if result.RecommendedActions == nil {
 		result.RecommendedActions = []string{}
 	}
+	// This arm has no corpus retrieval, so it cites no source documents —
+	// but the slice is still normalised to non-nil for shape parity with
+	// the rag-hybrid arm's AnalysisResult.
+	if result.Sources == nil {
+		result.Sources = []analyzer.Source{}
+	}
 	return result, nil
 }
 
