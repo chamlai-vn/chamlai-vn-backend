@@ -218,8 +218,8 @@ func TestScore_OmitsPreventionSectionWhenAllEmpty(t *testing.T) {
 	}
 }
 
-func TestScore_MatchedPatternCitesSourceDocument(t *testing.T) {
-	f := &fakeLLM{raw: json.RawMessage(`{"risk_level":"red","matched_patterns":["Giả danh công an"]}`)}
+func TestScore_MatchedSourceIndexCitesSourceDocument(t *testing.T) {
+	f := &fakeLLM{raw: json.RawMessage(`{"risk_level":"red","matched_source_indices":[1]}`)}
 	chunks := []retriever.Result{{Title: "Giả danh công an", SourceURL: "https://example.com/canh-bao-1"}}
 
 	res, err := New(f).Score(context.Background(), "kiểm tra", chunks)
@@ -227,25 +227,30 @@ func TestScore_MatchedPatternCitesSourceDocument(t *testing.T) {
 		t.Fatalf("Score: %v", err)
 	}
 	if len(res.Sources) != 1 || res.Sources[0].Title != "Giả danh công an" || res.Sources[0].URL != "https://example.com/canh-bao-1" {
-		t.Errorf("sources not populated from matched pattern: %+v", res.Sources)
+		t.Errorf("sources not populated from matched source index: %+v", res.Sources)
 	}
 }
 
-func TestScore_MatchedPatternCorrelationToleratesCaseAndWhitespace(t *testing.T) {
-	f := &fakeLLM{raw: json.RawMessage(`{"risk_level":"red","matched_patterns":["  giả  danh CÔNG an "]}`)}
-	chunks := []retriever.Result{{Title: "Giả danh công an", SourceURL: "https://example.com/canh-bao-1"}}
+func TestScore_CitesOnlySelectedIndices(t *testing.T) {
+	f := &fakeLLM{raw: json.RawMessage(`{"risk_level":"red","matched_source_indices":[3,1]}`)}
+	chunks := []retriever.Result{
+		{Title: "Mẫu 1", SourceURL: "https://example.com/1"},
+		{Title: "Mẫu 2", SourceURL: "https://example.com/2"},
+		{Title: "Mẫu 3", SourceURL: "https://example.com/3"},
+	}
 
 	res, err := New(f).Score(context.Background(), "kiểm tra", chunks)
 	if err != nil {
 		t.Fatalf("Score: %v", err)
 	}
-	if len(res.Sources) != 1 || res.Sources[0].Title != "Giả danh công an" {
-		t.Errorf("normalised title match failed: %+v", res.Sources)
+	// Order follows the model's index order; the uncited [2] is excluded.
+	if len(res.Sources) != 2 || res.Sources[0].Title != "Mẫu 3" || res.Sources[1].Title != "Mẫu 1" {
+		t.Errorf("sources should be exactly the cited indices in order: %+v", res.Sources)
 	}
 }
 
-func TestScore_UnmatchedPatternDropsNoFabricatedSource(t *testing.T) {
-	f := &fakeLLM{raw: json.RawMessage(`{"risk_level":"yellow","matched_patterns":["Chiêu trò không có trong kho"]}`)}
+func TestScore_OutOfRangeIndexDropsNoFabricatedSource(t *testing.T) {
+	f := &fakeLLM{raw: json.RawMessage(`{"risk_level":"yellow","matched_source_indices":[5,0,-1]}`)}
 	chunks := []retriever.Result{{Title: "Giả danh công an", SourceURL: "https://example.com/canh-bao-1"}}
 
 	res, err := New(f).Score(context.Background(), "kiểm tra", chunks)
@@ -253,7 +258,7 @@ func TestScore_UnmatchedPatternDropsNoFabricatedSource(t *testing.T) {
 		t.Fatalf("Score: %v", err)
 	}
 	if res.Sources == nil || len(res.Sources) != 0 {
-		t.Errorf("expected empty (non-nil) sources for unmatched pattern, got %+v", res.Sources)
+		t.Errorf("expected empty (non-nil) sources for out-of-range indices, got %+v", res.Sources)
 	}
 }
 
@@ -271,7 +276,7 @@ func TestScore_GreenVerdictHasEmptyNonNilSources(t *testing.T) {
 }
 
 func TestScore_NoChunksYieldsEmptyNonNilSources(t *testing.T) {
-	f := &fakeLLM{raw: json.RawMessage(`{"risk_level":"red","matched_patterns":["bất kỳ"]}`)}
+	f := &fakeLLM{raw: json.RawMessage(`{"risk_level":"red","matched_source_indices":[1]}`)}
 
 	res, err := New(f).Score(context.Background(), "kiểm tra", nil)
 	if err != nil {
@@ -282,8 +287,8 @@ func TestScore_NoChunksYieldsEmptyNonNilSources(t *testing.T) {
 	}
 }
 
-func TestScore_DuplicateMatchedPatternsDedupeToOneSource(t *testing.T) {
-	f := &fakeLLM{raw: json.RawMessage(`{"risk_level":"red","matched_patterns":["Giả danh công an","Giả danh công an"]}`)}
+func TestScore_DuplicateIndicesDedupeToOneSource(t *testing.T) {
+	f := &fakeLLM{raw: json.RawMessage(`{"risk_level":"red","matched_source_indices":[1,1]}`)}
 	chunks := []retriever.Result{{Title: "Giả danh công an", SourceURL: "https://example.com/canh-bao-1"}}
 
 	res, err := New(f).Score(context.Background(), "kiểm tra", chunks)
@@ -291,12 +296,12 @@ func TestScore_DuplicateMatchedPatternsDedupeToOneSource(t *testing.T) {
 		t.Fatalf("Score: %v", err)
 	}
 	if len(res.Sources) != 1 {
-		t.Errorf("expected duplicate matched pattern to dedupe to 1 source, got %d: %+v", len(res.Sources), res.Sources)
+		t.Errorf("expected duplicate index to dedupe to 1 source, got %d: %+v", len(res.Sources), res.Sources)
 	}
 }
 
 func TestScore_MatchedSourceWithEmptyURLIsKept(t *testing.T) {
-	f := &fakeLLM{raw: json.RawMessage(`{"risk_level":"red","matched_patterns":["Giả danh công an"]}`)}
+	f := &fakeLLM{raw: json.RawMessage(`{"risk_level":"red","matched_source_indices":[1]}`)}
 	chunks := []retriever.Result{{Title: "Giả danh công an", SourceURL: ""}}
 
 	res, err := New(f).Score(context.Background(), "kiểm tra", chunks)

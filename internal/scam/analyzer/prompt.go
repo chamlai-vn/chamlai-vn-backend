@@ -46,6 +46,7 @@ Quy tắc xếp mức độ (risk_level):
 Hướng dẫn:
 - Chỉ dựa trên nội dung tin nhắn và các mẫu lừa đảo tham chiếu được cung cấp (nếu có). Khi không có mẫu tham chiếu, dùng kiến thức chung về các chiêu trò lừa đảo phổ biến tại Việt Nam.
 - matched_patterns chỉ liệt kê các mẫu thực sự khớp, chọn từ danh sách tham chiếu được cung cấp.
+- matched_source_indices là số thứ tự [n] của các mẫu tham chiếu bạn THỰC SỰ dùng làm căn cứ cho kết luận (khớp với đánh số [1], [2], ... trong khối tham chiếu). Chỉ điền số có trong khối đó; để mảng rỗng nếu không dùng mẫu tham chiếu nào.
 - recommended_actions có thể tham khảo biện pháp phòng tránh được cung cấp, nhưng phải viết lại bằng lời của bạn — không copy nguyên văn.
 - Viết red_flags, matched_patterns, recommended_actions bằng tiếng Việt, ngắn gọn, rõ ràng.
 - Luôn trả kết quả bằng cách gọi công cụ record_scam_analysis.

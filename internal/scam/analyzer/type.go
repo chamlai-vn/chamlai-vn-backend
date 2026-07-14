@@ -24,8 +24,9 @@ type AnalysisResult struct {
 
 // Source is one document backing the verdict — a matched, published scam
 // warning the user can click through to. It is assembled server-side by
-// correlating matched_patterns against the retrieved documents' titles; the
-// LLM tool schema is deliberately not asked for URLs or document IDs (see
+// mapping the model's matched_source_indices (1-based positions into the
+// reference block it was shown) back to the retrieved documents; the LLM tool
+// schema is deliberately not asked for URLs or document IDs (see
 // AnalysisToolSchema below).
 type Source struct {
 	Title string `json:"title"`
@@ -65,11 +66,16 @@ var AnalysisToolSchema = json.RawMessage(`{
       "items": {"type": "string"},
       "description": "Tên các chiêu trò lừa đảo đã biết khớp với tin nhắn này, chỉ chọn từ các mẫu tham chiếu được cung cấp. Để mảng rỗng nếu không có mẫu nào khớp."
     },
+    "matched_source_indices": {
+      "type": "array",
+      "items": {"type": "integer"},
+      "description": "Số thứ tự [n] của các mẫu tham chiếu mà bạn THỰC SỰ dựa vào để đưa ra kết luận (khớp với đánh số [1], [2], ... trong khối tham chiếu; ví dụ dùng mẫu [1] và [3] thì trả về [1, 3]). Chỉ dùng số có trong danh sách tham chiếu được cung cấp. Để mảng rỗng nếu không dựa vào mẫu tham chiếu nào."
+    },
     "recommended_actions": {
       "type": "array",
       "items": {"type": "string"},
       "description": "Các hành động nên làm tiếp theo cho người dùng (tiếng Việt)."
     }
   },
-  "required": ["risk_level", "red_flags", "matched_patterns", "recommended_actions"]
+  "required": ["risk_level", "red_flags", "matched_patterns", "matched_source_indices", "recommended_actions"]
 }`)

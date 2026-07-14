@@ -52,6 +52,17 @@ func (a *Analyzer) Score(ctx context.Context, suspiciousText string, chunks []re
 		return nil, fmt.Errorf("analyzer: unmarshal result: %w", err)
 	}
 
+	// matched_source_indices is captured into a separate struct rather than
+	// AnalysisResult: it is an internal correlation signal (which reference
+	// chunks the model actually used), consumed here to build Sources and
+	// never surfaced in the user-facing result.
+	var cite struct {
+		MatchedSourceIndices []int `json:"matched_source_indices"`
+	}
+	if err := json.Unmarshal(raw, &cite); err != nil {
+		return nil, fmt.Errorf("analyzer: unmarshal citations: %w", err)
+	}
+
 	switch result.RiskLevel {
 	case RiskRed, RiskYellow, RiskGreen:
 	default:
@@ -72,41 +83,30 @@ func (a *Analyzer) Score(ctx context.Context, suspiciousText string, chunks []re
 	}
 	// Correlate against the same (already-truncated) chunks the model was
 	// shown, so a citation can only reference a document it actually saw.
-	result.Sources = matchSources(result.MatchedPatterns, chunks)
+	result.Sources = sourcesFromIndices(cite.MatchedSourceIndices, chunks)
 
 	return &result, nil
 }
 
-// matchSources maps the model's matched_patterns back to the retrieved
-// documents they name, producing citations. It correlates on a normalised
-// Title — the identifier the model was shown in the reference block (see
-// buildUserPrompt in prompt.go) — because the tool schema is deliberately not
-// asked to emit URLs or document IDs. Patterns that don't correspond to any
-// retrieved document are dropped (never fabricate a URL); the result is
-// deduped by document and is a non-nil empty slice when nothing matches.
-func matchSources(patterns []string, chunks []retriever.Result) []Source {
-	byTitle := make(map[string]retriever.Result, len(chunks))
-	for _, c := range chunks {
-		byTitle[normalizeTitle(c.Title)] = c
-	}
-
-	sources := make([]Source, 0, len(patterns))
-	seen := make(map[string]bool, len(patterns))
-	for _, p := range patterns {
-		key := normalizeTitle(p)
-		c, ok := byTitle[key]
-		if !ok || seen[key] {
+// sourcesFromIndices maps the model's matched_source_indices back to the
+// retrieved documents they point at, producing citations. The indices are
+// 1-based positions into the reference block the model was shown (the [1],
+// [2], … numbering buildUserPrompt in prompt.go emits over this same,
+// already-truncated chunks slice), so a citation can only reference a
+// document the model actually saw. Out-of-range indices are dropped (the
+// model can't cite a document that wasn't provided); the result is deduped
+// by position and is a non-nil empty slice when nothing matches.
+func sourcesFromIndices(indices []int, chunks []retriever.Result) []Source {
+	sources := make([]Source, 0, len(indices))
+	seen := make(map[int]bool, len(indices))
+	for _, idx := range indices {
+		i := idx - 1 // reference block is numbered from [1], not [0]
+		if i < 0 || i >= len(chunks) || seen[i] {
 			continue
 		}
-		seen[key] = true
+		seen[i] = true
+		c := chunks[i]
 		sources = append(sources, Source{Title: c.Title, URL: c.SourceURL})
 	}
 	return sources
-}
-
-// normalizeTitle canonicalises a title for tolerant matching: trim, casefold,
-// collapse internal whitespace. This absorbs minor drift when the model
-// echoes a provided title back rather than copying it verbatim.
-func normalizeTitle(s string) string {
-	return strings.Join(strings.Fields(strings.ToLower(s)), " ")
 }
